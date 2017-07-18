@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<a href="{{ .Site.BaseURL }}index.html" class="logo">
+				<img src="{{ .Site.BaseURL }}images/cfe-logo.png" alt="{{ .Site.Title }}">
+			</a>
+			
+			{{ partial "navigation.html" . }}
+			
+		</header>
+		<img src="{{ .Site.BaseURL }}{{.Params.Banner}}" alt="{{.Title}}" class="promo-image">
+<main id="main">
+    <div class="container">
+        <div class="blog single">
+            <div class="event-titles">
+                <span class="date-t">Date</span>
+                <span class="time-t">Time</span>
+                <span class="event-t">Event</span>
+            </div>
+            <div class="event-item">
+                <span class="date"><strong>12</strong> MAY</span>
+                <span class="time"><span class="h">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span></span>
+                <div class="frame">
+                    <h2><a href="#">{{.Title}}</a></h2>
+                    <span class="meta"><a href="#">Florence</a> by <a href="#">Fest 5</a> 10,500 members  /  2 days</span>
+                </div>
+                <div class="action" data-price="59">
+                    <div class="line">
+                        <strong class="price">{{ if eq .Params.Cost "0"}}Cost: FREE{{else}}{{.Params.Cost}}{{end}}<!--<span class="price-val">59</span>--></strong>
+                        <!--<span class="count js-count"><span class="val">1</span> <a href="#" class="inc"></a><a href="#" class="dec"></a></span>-->
+                    </div>
+                    <a href="#" class="btn btn-primary">BUY <!--<span class="btn-val">1</span> -->TICKETS</a>
+                </div>
+            </div>
+            <div class="text">
+                <p>Duis congue porta vestibulum. In et diam dui. Pellentesque tincidunt vestibulum sapien, eu euismod turpis dictum eu. Quisque mattis sapien ante, quis vestibulum enim ultrices eu. Praesent non diam ut lorem tristique tristique. Donec at ipsum purus. Proin maximus sit amet velit vitae rhoncus. Phasellus aliquet felis eu vehicula mattis. Nulla nec consequat mauris. Duis vel sem sed mi volutpat volutpat ac vel mi. Nam euismod iaculis ante, eget dapibus ipsum cursus quis. Vivamus vehicula velit at ex vestibulum, quis congue ex consequat.</p>
+            </div>
+            <div class="map-section">
+                <div class="heading">
+                    <div class="loc"><span>Location</span> Italy, Florence, Via del Romito, 26</div>
+                    <a href="#" class="link">CONTACT US</a>
+                </div>
+                <!-- START Map -->
+                <div id="map" class="map"></div>
+                <!-- END Map -->
+            </div>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa fa-vk"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+        </div>
+    </div>
+</main>
+        {{ partial "footer.html" . }}
+	</div>
+	<script src="{{ .Site.BaseURL }}js/jquery-1.11.2.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/jquery-ui.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/main.js"></script>
+	<script src="https://use.fontawesome.com/3272ab6501.js"></script>
+</body>
+
+</html>

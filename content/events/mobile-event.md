@@ -5,6 +5,7 @@ starttime: "10/15 9:00am"
 endtime: "10/15 11:00am"
 location: "Online"
 cost: "0"
+banner: "images/banners/generic.jpg"
 homepage_banner: "images/banners/mobile.jpg"
 draft: false
 ---

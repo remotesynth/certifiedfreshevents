@@ -4,7 +4,8 @@ date: 2017-09-12T18:52:51-04:00
 starttime: "9/12 9:00am"
 endtime: "9/123 5:00pm"
 location: "Orlando, FL"
-cost: "Tickets tarting at $250"
+cost: "$250-$400"
+banner: "images/banners/generic.jpg"
 homepage_banner: "images/banners/wholeenchilada.jpg"
 draft: false
 ---
