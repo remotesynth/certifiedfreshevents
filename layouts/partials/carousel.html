@@ -1,0 +1,26 @@
+<div class="promo">
+    {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}
+        {{ if ge .Date.Unix now.Unix }}
+    <div class="slide">
+        <div class="container">
+            <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}/{{ .Params.Homepage_banner }}" alt="image description"></a>
+            <a href="{{ .Permalink }}" class="btn btn-primary more">READ MORE</a>
+        </div>
+    </div>
+        {{ end }}
+    {{ end }}
+    <div class="switcher">
+    {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}
+        {{ if ge .Date.Unix now.Unix }}
+        <a href="#">
+            <div class="circle-wrapper">
+                <div class="circle left"></div>
+                <div class="circle right"></div>
+            </div>
+        </a>
+        {{ end }}
+    {{ end }}
+    </div>
+    <a href="#" class="btn-prev"><i class="fa fa-angle-left"></i></a>
+    <a href="#" class="btn-next"><i class="fa fa-angle-right"></i></a>
+</div>

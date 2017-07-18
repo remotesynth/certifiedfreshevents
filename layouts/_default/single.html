@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<a href="{{ .Site.BaseURL }}index.html" class="logo">
+				<img src="{{ .Site.BaseURL }}images/cfe-logo.png" alt="{{ .Site.Title }}">
+			</a>
+			
+			{{ partial "navigation.html" . }}
+			
+		</header>
+		<img src="{{ .Site.BaseURL }}{{.Params.Banner}}" alt="{{.Title}}" class="promo-image">
+		<main id="main">
+			<div class="container">
+				<article class="single-blog">
+                <h1>{{.Title}}</h1>
+                {{ .Content }}
+                <p>&nbsp;</p>
+                </article>
+			</div>
+		</main>
+        
+		{{ partial "footer.html" . }}
+	</div>
+	<script src="{{ .Site.BaseURL }}js/jquery-1.11.2.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/jquery-ui.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/main.js"></script>
+	<script src="https://use.fontawesome.com/3272ab6501.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+	<!-- Navigation -->
+	<!--<div class="du font_bg"></div>
+	<div id="sidebar-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal-dark" >
+		<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+		<div id='cssmenu'>
+			<ul>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='event-single.html'>Events</a></li>
+				<li class='has-sub offset'>
+					<a href='#'>Blog Page
+						<i class="fa fa-sort-desc" aria-hidden="true"></i>
+					</a>
+					<ul>
+						<li class='offset'><a href='blog.html'>Blog</a></li>
+						<li class='offset'><a href='blogpost.html'>Blog Post</a></li>
+					</ul>
+				</li>
+				<li class='has-sub offset'>
+					<a href='#' class='offset'>Organizers
+						<i class="fa fa-sort-desc" aria-hidden="true"></i>
+					</a>
+					<ul>
+						<li><a href='organizer.html'>Organizers</a></li>
+					</ul>
+				</li>
+				<li><a href='404.html'>About</a></li>
+				<li class='has-sub offset'>
+					<a href='#'>Pages
+						<i class="fa fa-sort-desc" aria-hidden="true"></i>
+					</a>
+					<ul>
+						<li class='offset'><a href='404.html'>About</a></li>
+						<li class='offset'><a href='404.html'>Terms</a></li>
+						<li class='offset'><a href='404.html'>Privacy</a></li>
+						<li class='offset'><a href='404.html'>Help Center</a></li>
+					</ul>
+				</li>
+				<li><a href='#'>Contact</a></li>
+				<li><a href='404.html'>404 Page</a></li>
+			</ul>
+		</div>
+	</div>-->
+	<div id="wrapper">
+		<header id="header">
+			<!--<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+				<i class="fa fa-bars"></i>
+			</a>-->
+			<a href="index.html" class="logo">
+				<img src="images/cfe-logo.png" alt="{{ .Site.Title }}">
+			</a>
+			
+			{{ partial "navigation.html" . }}
+			{{ partial "schedule.html" . }}
+		</header>
+		{{ partial "carousel.html" . }}
+		{{ partial "calendar.html" . }}
+		{{ partial "footer.html" . }}
+	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="https://use.fontawesome.com/3272ab6501.js"></script>
+</body>
+
+</html>
