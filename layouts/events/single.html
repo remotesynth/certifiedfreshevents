@@ -22,41 +22,35 @@
                 <span class="event-t">Event</span>
             </div>
             <div class="event-item">
-                <span class="date"><strong>12</strong> MAY</span>
+                <span class="date"><strong>{{ .Date.Format "2"}}</strong> {{ .Date.Format "Jan"}}</span>
                 <span class="time"><span class="h">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span></span>
                 <div class="frame">
                     <h2><a href="#">{{.Title}}</a></h2>
-                    <span class="meta"><a href="#">Florence</a> by <a href="#">Fest 5</a> 10,500 members  /  2 days</span>
+                    <span class="meta">{{ .Params.Location }}{{ if gt .Params.Days 1}}  /  {{ .Params.Days }} days{{ end }}</span>
                 </div>
                 <div class="action" data-price="59">
                     <div class="line">
-                        <strong class="price">{{ if eq .Params.Cost "0"}}Cost: FREE{{else}}{{.Params.Cost}}{{end}}<!--<span class="price-val">59</span>--></strong>
-                        <!--<span class="count js-count"><span class="val">1</span> <a href="#" class="inc"></a><a href="#" class="dec"></a></span>-->
+                        <strong class="price">{{ if eq .Params.Cost "0"}}Cost: FREE{{else}}{{.Params.Cost}}{{end}}</strong>
                     </div>
-                    <a href="#" class="btn btn-primary">BUY <!--<span class="btn-val">1</span> -->TICKETS</a>
+                    <a href="#" class="btn btn-primary">BUY TICKETS</a>
                 </div>
             </div>
             <div class="text">
-                <p>Duis congue porta vestibulum. In et diam dui. Pellentesque tincidunt vestibulum sapien, eu euismod turpis dictum eu. Quisque mattis sapien ante, quis vestibulum enim ultrices eu. Praesent non diam ut lorem tristique tristique. Donec at ipsum purus. Proin maximus sit amet velit vitae rhoncus. Phasellus aliquet felis eu vehicula mattis. Nulla nec consequat mauris. Duis vel sem sed mi volutpat volutpat ac vel mi. Nam euismod iaculis ante, eget dapibus ipsum cursus quis. Vivamus vehicula velit at ex vestibulum, quis congue ex consequat.</p>
+                {{ .Content }}
             </div>
+            {{ if ne .Params.Location "Online" }}
             <div class="map-section">
                 <div class="heading">
-                    <div class="loc"><span>Location</span> Italy, Florence, Via del Romito, 26</div>
-                    <a href="#" class="link">CONTACT US</a>
+                    <div class="loc"><span>Location</span> {{.Params.Location}}</div>
+                    <!--<a href="#" class="link">CONTACT US</a>-->
                 </div>
                 <!-- START Map -->
                 <div id="map" class="map"></div>
                 <!-- END Map -->
             </div>
+            {{ end }}
         </div>
-        <div class="social">
-            <a href="#"><i class="fa fa-vk"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-        </div>
+        {{ partial "social.html" . }}
     </div>
 </main>
         {{ partial "footer.html" . }}
@@ -64,7 +58,45 @@
 	<script src="{{ .Site.BaseURL }}js/jquery-1.11.2.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/jquery-ui.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/main.js"></script>
-	<script src="https://use.fontawesome.com/3272ab6501.js"></script>
+    <script src="https://use.fontawesome.com/3272ab6501.js"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- START Map script -->
+	<script>
+		function initMap() {
+			// variables init
+			var mapHolder = document.getElementById('map'), // map holder element
+				coords = {lat: 43.7874315, lng: 11.2433809}, // center coordinates
+				pinPath = 'images/map-pointer.png', // path to pointer icon
+
+			// Pointer image create
+			image = {
+					url: pinPath, // path to image
+					size: new google.maps.Size(21, 32), // image size
+					origin: new google.maps.Point(0, 0), // origin position
+					anchor: new google.maps.Point(10, 32) // anchor position
+				},
+
+			// Load map to holder element
+			map = new google.maps.Map(mapHolder, {
+					center: coords, // center coordinated
+					zoom: 15, // map scale
+					//scrollwheel: false, // disable mouse wheel scrolling
+					mapTypeControl: false,
+					streetViewControl: false,
+					zoomControl: false
+				}),
+
+			// Place marker to the map
+			marker = new google.maps.Marker({
+					position: coords, // marker coordinates
+					icon: image, // marker image
+					map: map // map to place in
+				});
+		}
+	</script>
+	<!-- Load google maps API -->
+	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+	<!-- END Map script -->
 </body>
 
 </html>

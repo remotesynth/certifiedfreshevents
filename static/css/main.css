@@ -8513,7 +8513,8 @@ img {
 	margin: -4px 0;
 	font-size: 31px;
 	font-weight: bold;
-	margin-left: -44px;
+	/*margin-left: -44px;*/
+	margin-left: -15px;
 	text-align: right;
 	width: 100px;
 	color: #e64614;
