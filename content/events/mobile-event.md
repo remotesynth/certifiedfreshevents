@@ -8,6 +8,7 @@ location: "Online"
 cost: "0"
 banner: "images/banners/generic.jpg"
 homepage_banner: "images/banners/mobile.jpg"
+short_desc: "An event about stuff about mobile things"
 draft: false
 ---
 

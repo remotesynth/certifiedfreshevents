@@ -2,34 +2,7 @@
     <div class="container">
         <section class="calendar">
             <header>
-                <!--<span class="total-events"><strong>136</strong> events</span>-->
                 <h1>event calendar</h1>
-                <!--<div class="sort">
-                    <select id="my_style_select" class="location-select">
-                        <option>Date</option>
-                        <option>24.06</option>
-                        <option>25.06</option>
-                        <option>26.06</option>
-                        <option>27.06</option>
-                    </select>
-
-                    <select id="my_style_select" class="location-select">
-                        <option>Time</option>
-                        <option>18:00</option>
-                        <option>19:00</option>
-                        <option>20:00</option>
-                        <option>21:00</option>
-                    </select>
-
-                    <select id="my_style_select" class="location-select">
-                        <option>Event</option>
-                        <option>Event0</option>
-                        <option>Event1</option>
-                        <option>Event2</option>
-                        <option>Event3</option>
-                    </select>
-
-                </div>-->
             </header>
             <div class="body">
             {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}

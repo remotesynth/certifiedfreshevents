@@ -8,6 +8,7 @@ location: "Orlando, FL"
 cost: "$250-$400"
 banner: "images/banners/generic.jpg"
 homepage_banner: "images/banners/wholeenchilada.jpg"
+short_desc: "This event isn't about food, but about gorging on learning"
 draft: false
 ---
 
