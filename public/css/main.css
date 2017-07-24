@@ -7924,7 +7924,7 @@ img {
 
 #header {
 	background: #fff;
-	padding: 35px 52px;
+	padding: 10px 52px 35px 10px;
 }
 
 #header::after {
@@ -7935,7 +7935,7 @@ img {
 
 .logo {
 	float: left;
-	margin: 20px 86px 0 0;
+	margin: 5px 86px 0 0;
 }
 
 .logo img {
@@ -8513,7 +8513,8 @@ img {
 	margin: -4px 0;
 	font-size: 31px;
 	font-weight: bold;
-	margin-left: -44px;
+	/*margin-left: -44px;*/
+	margin-left: -15px;
 	text-align: right;
 	width: 100px;
 	color: #e64614;
@@ -10352,6 +10353,30 @@ textarea {
 		display: block !important;
 	}
 
+/* my changed navigation */
+	.custom-nav {
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		margin-top: 60px;
+		text-transform: uppercase;
+	}
+	.custom-nav li {
+		float: left;
+		position: relative;
+		display: block;
+		margin-top: 10px;
+	}
+	.custom-nav li a {
+		padding: 10px 25px;
+		cursor: pointer;
+		color: #29AAE2;
+	}
+	.custom-nav li a:hover {
+		color: #e64614;
+	}
+/* end changed navigation */
+
 	.card-deck {
 		display: table;
 		table-layout: fixed;
@@ -11381,6 +11406,29 @@ textarea {
 }
 
 @media (max-width: 767px) {
+/* my changed navigation */
+	.custom-nav {
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		margin-top: 5px;
+		text-transform: uppercase;
+	}
+	.custom-nav li {
+		position: relative;
+		display: block;
+		padding: 5px 0px;
+	}
+	.custom-nav li a {
+		padding: 0px 25px;
+		cursor: pointer;
+		color: #29AAE2;
+	}
+	.custom-nav li a:hover {
+		color: #e64614;
+	}
+/* end changed navigation */
+
 	.hidden-xs-down {
 		display: none !important;
 	}
@@ -11652,6 +11700,19 @@ textarea {
 		padding: 20px;
 		border: solid #e64614;
 		border-width: 3px 0;
+	}
+
+	.menu-slide .navigation {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			list-style: none;
+			line-height: 1;
+			display: block;
+			position: relative;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 	}
 
 	.single-blog {

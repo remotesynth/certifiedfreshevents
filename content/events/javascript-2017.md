@@ -1,13 +1,13 @@
 ---
 title: "Developing in JavaScript in 2017"
 date: 2017-08-06T18:52:51-04:00
-starttime: "8/23 12:00pm ET"
-endtime: "8/23 1:00pm ET"
+starttime: "8/23 12:00pm EST"
+endtime: "8/23 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
 banner: "images/banners/generic.jpg"
-homepage_banner: "images/banners/typescript.jpg"
+homepage_banner: "images/banners/javascript2017.jpg"
 short_desc: "A look at recent developments in the world of JavaScript."
 draft: false
 ---
@@ -25,7 +25,9 @@ JavaScript has evolved rapidly over the past few years and while that is, 100%, 
 
 Raymond Camden is a developer advocate for IBM. His work focuses on LoopBack, API Connect, serverless, hybrid mobile development, Node.js, HTML5, and web standards in general.
 
-<br style="clear:both;">
+<i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
+
+<br style="clear:both;"> 
 
 ### Why I Was Wrong About TypeScript
 
@@ -38,6 +40,8 @@ In this talk we’ll talk a look at why TypeScript succeeded where other compile
 ##### TJ VanToll
 
 TJ VanToll is a front-end developer, author, and a senior developer advocate for Progress who spends his time helping web developers build mobile apps through projects like Cordova and NativeScript.
+
+<i class="fa fa-twitter" aria-hidden="true"></i> [@tjvantoll](https://twitter.com/tjvantoll)
 
 <br style="clear:both;">
 

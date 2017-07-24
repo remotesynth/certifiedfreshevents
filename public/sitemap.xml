@@ -3,17 +3,80 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://certifiedfreshevents.com/about/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/contact/subscribe/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/contact/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/events/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/speakers/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/services/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/conduct/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/events/mobile-event/</loc>
+    <lastmod>2017-10-15T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/events/whole-enchilada/</loc>
+    <lastmod>2017-09-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/events/javascript-2017/</loc>
+    <lastmod>2017-08-06T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://certifiedfreshevents.com/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://certifiedfreshevents.com/contact/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/events/</loc>
+    <lastmod>2017-10-15T18:52:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://certifiedfreshevents.com/tags/</loc>
     <priority>0</priority>
   </url>
   

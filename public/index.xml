@@ -1,14 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Certified Fresh Events</title>
+    <link>http://certifiedfreshevents.com/</link>
+    <description>Recent content on Certified Fresh Events</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jul 2017 18:52:51 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://certifiedfreshevents.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://certifiedfreshevents.com/about/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+    </item>
+    
+    <item>
+      <title>Subscribe</title>
+      <link>http://certifiedfreshevents.com/contact/subscribe/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/contact/subscribe/</guid>
+      <description>Sign up to be the first to know about new upcoming events, speakers and discounts.
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. /  Subscribe to our mailing list  indicates required Email Address *   First Name   Last Name           (function($) {window.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://certifiedfreshevents.com/contact/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/contact/</guid>
+      <description>This is sample text.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>http://certifiedfreshevents.com/events/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/events/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+    </item>
+    
+    <item>
+      <title>Speakers</title>
+      <link>http://certifiedfreshevents.com/speakers/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/speakers/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://certifiedfreshevents.com/services/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/services/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://certifiedfreshevents.com/conduct/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/conduct/</guid>
+      <description>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
+The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.</description>
+    </item>
+    
+    <item>
+      <title>Something on Mobile</title>
+      <link>http://certifiedfreshevents.com/events/mobile-event/</link>
+      <pubDate>Sun, 15 Oct 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/events/mobile-event/</guid>
+      <description>&lt;p&gt;This is sample text about a mobile event.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Whole Enchilada</title>
+      <link>http://certifiedfreshevents.com/events/whole-enchilada/</link>
+      <pubDate>Tue, 12 Sep 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/events/whole-enchilada/</guid>
+      <description>&lt;p&gt;The Whole Enchilada is our in-person event in Orlando, Fl.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Developing in JavaScript in 2017</title>
+      <link>http://certifiedfreshevents.com/events/javascript-2017/</link>
+      <pubDate>Sun, 06 Aug 2017 18:52:51 -0400</pubDate>
+      
+      <guid>http://certifiedfreshevents.com/events/javascript-2017/</guid>
+      <description>JavaScript development has seen a lot of changes in recent years, between new specifications like ES6 and ES7 to new tooling like TypeScript. This free event takes a look at some of these advancements and how developers can realistically start taking advantage of them today.
+ES6, ES7, where do I start??? JavaScript has evolved rapidly over the past few years and while that is, 100%, a good thing, some developers may be feeling a bit behind.</description>
+    </item>
     
   </channel>
 </rss>
