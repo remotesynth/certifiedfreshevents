@@ -1,12 +1,12 @@
 ---
 title: "Exploring JavaScript Frameworks"
-date: 2017-10-06T18:52:51-04:00
-starttime: "10/6 12:00pm EST"
-endtime: "10/6 1:00pm EST"
+date: 2017-10-05T18:52:51-04:00
+starttime: "10/5 12:00pm EST"
+endtime: "10/5 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/generic.jpg"
+banner: "images/banners/jsframeworks2017_page.jpg"
 homepage_banner: "images/banners/jsframeworks2017.jpg"
 short_desc: "A look at new frameworks making an impact in JavaScript."
 draft: false
@@ -37,4 +37,8 @@ More details coming soon.
 <i class="fa fa-twitter" aria-hidden="true"></i> [@jenlooper](https://twitter.com/jenlooper)
 
 <br style="clear:both;">
+
+<a name="register"></a>
+
+**Registration available soon**
 

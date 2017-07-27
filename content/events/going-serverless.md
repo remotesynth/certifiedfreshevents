@@ -6,7 +6,7 @@ endtime: "10/20 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/generic.jpg"
+banner: "images/banners/serverless2017_page.jpg"
 homepage_banner: "images/banners/serverless2017.jpg"
 short_desc: "Serverless is more than just a buzzword - learn why."
 draft: false
@@ -29,3 +29,7 @@ Burke Holland is a front-end developer in Nashville, TN, working on the Azure te
 <br style="clear:both;">
 
 ## More Sessions to Be Announced Soon!
+
+<a name="register"></a>
+
+**Registration available soon**

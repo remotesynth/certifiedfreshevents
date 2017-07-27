@@ -12544,3 +12544,37 @@ a.close.my_closed {
 .jcf-select-drop {
 	//border-radius: 0;
 }
+
+.speaker {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.speaker .photo-wrapper {
+    margin: 0 auto 20px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.speaker .name {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+}
+
+.speaker .photo-wrapper.rounded {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about {
+	font-size: 13px;
+}
+
+.speaker .speaker-socials > li {
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+}

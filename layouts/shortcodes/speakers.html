@@ -1,0 +1,15 @@
+{{ range .Site.Data.speakers.speakers }}
+<div class="col-sm-4">
+    <div class="speaker">
+        <div class="photo-wrapper rounded"><img src="/images/speakers/{{.photo}}" alt="{{ .name }}"></div>
+        <h3 class="name">{{ .name }}</h3>
+        <p class="about">{{.bio}}</p>
+        <ul class="speaker-socials">
+            <li><a href="https://twitter.com/{{.twitter}}"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="https://github.com/{{.github}}"><span class="fa fa-github"></span></a></li>
+            <li><a href="{{.website}}"><span class="fa fa-link"></span></a></li>
+        </ul>
+    </div>
+</div>
+{{ end }}
+<br style="clear:both;">
