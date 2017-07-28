@@ -1,7 +1,7 @@
 <div class="shedule">
     {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}
         {{ if ge .Date.Unix now.Unix }}
-    <div class="item{{ if eq $index 0 }} active{{ end }}">
+    <div class="item{{ if eq $index 1 }} active{{ end }}">
         <a href="#" class="opener"><strong>{{ .Date.Format "2"}}</strong> {{ .Date.Format "Jan"}}</a>
         <div class="slide">
             <span class="meta">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span>
