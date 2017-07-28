@@ -9,7 +9,7 @@
         </ul>
         <div class="right">
             {{ range $index, $element := where .Site.Pages "Section" "contact" }}
-                {{ if eq .Kind "page" }}
+                {{ if and (eq .Kind "page") (ne .Params.Display false) }}
             <a href="{{ .Permalink }}" class="btn{{ if gt $index 0}} btn-secondary{{ end }}">{{ .Title }}</a>
                 {{ end }}
             {{ end }}

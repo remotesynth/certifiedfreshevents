@@ -6,4 +6,20 @@ banner: "images/pages/subscribe.jpg"
 draft: false
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjkv1ipq1v81r8XHeaxg35uvX1aBPOxVhnllYwNoJ2UQP74Q/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+  <p style="display:none;">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </p>
+  <p>
+    <label>Name: <input type="text" name="name" size="40"></label>
+  </p>
+  <p>
+    <label>Email: <input type="text" name="email" size="40"></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message" cols="40"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
