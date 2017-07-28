@@ -6,4 +6,4 @@ banner: "images/pages/subscribe.jpg"
 draft: false
 ---
 
-This is sample text.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjkv1ipq1v81r8XHeaxg35uvX1aBPOxVhnllYwNoJ2UQP74Q/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
