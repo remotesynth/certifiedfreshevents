@@ -1,6 +1,6 @@
 ---
 title: "Developing in JavaScript in 2017"
-date: 2017-08-06T18:52:51-04:00
+date: 2017-08-23T18:52:51-04:00
 starttime: "8/23 12:00pm EST"
 endtime: "8/23 1:00pm EST"
 days: 1
