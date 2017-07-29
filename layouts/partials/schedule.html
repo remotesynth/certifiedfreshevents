@@ -5,7 +5,7 @@
         <a href="#" class="opener"><strong>{{ .Date.Format "2"}}</strong> {{ .Date.Format "Jan"}}</a>
         <div class="slide">
             <span class="meta">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span>
-            <strong class="title">{{.Title}}</strong>
+            <a href="{{.Permalink}}"><strong class="title">{{.Title}}</strong></a>
             <span class="place">{{.Params.Location}}</span>
         </div>
         <div class="wrap_cont">
