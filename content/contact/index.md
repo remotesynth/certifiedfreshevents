@@ -6,7 +6,7 @@ banner: "images/pages/subscribe.jpg"
 draft: false
 ---
 
-<form name="contact" netlify-honeypot="bot-field" action="/contact/thank-you.html" netlify>
+<form name="contact" netlify-honeypot="bot-field" action="/contact/thanks.html" netlify>
   <p style="display:none;">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
