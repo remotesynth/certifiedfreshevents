@@ -6,6 +6,8 @@ banner: "images/pages/conduct.jpg"
 draft: false
 ---
 
+**Note: This code of conduct applies to both our online and in person events. If you encounter any violations, please contact [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com).**
+
 All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
 ### The Quick Version
