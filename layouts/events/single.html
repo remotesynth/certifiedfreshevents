@@ -59,7 +59,8 @@
 	<script src="{{ .Site.BaseURL }}js/jquery-ui.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/main.js"></script>
     <script src="https://use.fontawesome.com/3272ab6501.js"></script>
-    <script src="{{ .Site.BaseURL }}js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/jquery.mCustomScrollbar.concat.min.js"></script>
+	{{ if ne .Params.Location "Online" }}
     <!-- START Map script -->
 	<script>
 		function initMap() {
@@ -97,6 +98,7 @@
 	<!-- Load google maps API -->
 	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 	<!-- END Map script -->
+	{{ end }}
 </body>
 
 </html>
