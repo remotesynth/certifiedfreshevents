@@ -22,17 +22,21 @@ More details coming soon.
 
 ##### Holly Schinsky
 
+Holly works on the PhoneGap team at Adobe with a heavy focus on Developer Advocacy and Education via her blogging, sample apps and workshops. In her free time she’s usually found running, driving a carpool or hanging out with her family.
+
 <i class="fa fa-twitter" aria-hidden="true"></i> [@devgirlfl](https://twitter.com/devgirlfl)
 
 <br style="clear:both;">
 
-### Preact
+### Preact - Up and Running
 
-More details coming soon.
+Yep, you heard it right, not React, but Preact! Let’s take a look at this small, fast, lightweight JavaScript library that gives you great performance in a small package - about 3.5 kb! Touting itself as ‘closer to the metal’, Preact targets modern browsers to deliver a fast, modern web experience. Let’s dive into Preact, learning how it differs from React and how easy it is to build a web presence with this small, but effective, tool.
 
 <img src="/images/speakers/jenlooper.jpg" style="float:left;margin-right: 10px;" alt="Jen Looper">
 
 ##### Jen Looper
+
+Jen Looper is a Boston-based web and mobile developer and developer advocate at Progress specializing in cross-platform educational and fitness apps for iOS, Android, Kindle and more.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@jenlooper](https://twitter.com/jenlooper)
 
