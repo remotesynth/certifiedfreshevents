@@ -14,9 +14,9 @@ draft: false
 
 It seems that there are few guarantees in life, but two of them are that the sun will rise in the morning and, with it, will come at least two new JavaScript frameworks. So how is a developer supposed to keep up? How can you tell the contenders from the pretenders? In this free online event, Jen Looper and Holly Schinsky will take a look at some of the more prominent new frameworks to help you decide if they are worth exploring further.
 
-### Vue.js
+### The Point of Vue
 
-More details coming soon.
+In this session you will be introduced to Vue.js, a popular Javascript framework with over 63k stars on GitHub since released in 2014. This introduction will include an examination of how Vue compares to other popular frameworks, an overview of the syntax, supported tooling and libraries to be aware of, and some useful resources to help you get started developing your own apps with Vue.
 
 <img src="/images/speakers/hollyschinsky.jpg" style="float:left;margin-right: 10px;" alt="Holly Schinsky">
 
