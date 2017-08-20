@@ -2,6 +2,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ if .IsPage }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}</title>
+	<meta name="description" content="{{ if and (.IsPage) (ne .Page.Description "")}}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/jquery.mCustomScrollbar.css">
 	<script>

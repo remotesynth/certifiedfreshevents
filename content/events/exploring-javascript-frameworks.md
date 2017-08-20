@@ -8,6 +8,7 @@ location: "Online"
 cost: "0"
 banner: "images/banners/jsframeworks2017_page.jpg"
 homepage_banner: "images/banners/jsframeworks2017.jpg"
+description: "In this free online event, Jen Looper & Holly Schinsky take a look at prominent new JavaScript frameworks to help you decide if they are worth exploring."
 short_desc: "A look at new frameworks making an impact in JavaScript."
 draft: false
 ---
