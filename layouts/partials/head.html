@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ .Site.Title }}</title>
+	<title>{{ if .IsPage }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}</title>
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/jquery.mCustomScrollbar.css">
 	<script>
