@@ -19,6 +19,7 @@ JavaScript development has seen a lot of changes in recent years, between new sp
 
 JavaScript has evolved rapidly over the past few years and while that is, 100%, a good thing, some developers may be feeling a bit behind. In this session, Raymond will spend some time talking about how JS has changed, and is changing, and what are some good practical ways to start making use of modern JavaScript in your code right now.
 
+[**Download the slide deck here**](/slides/es6.pdf)
 
 <img src="/images/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
 
@@ -35,6 +36,8 @@ Raymond Camden is a developer advocate for IBM. His work focuses on LoopBack, AP
 In 2014, I made a strong argument that TypeScript was destined to be irrelevant and that my company should not use it in any of our projects. I was wrong. In 2017, TypeScript is taking over the JavaScript world, and we now use TypeScript for pretty much everything we build.
 
 In this talk we’ll talk a look at why TypeScript succeeded where other compile-to-JavaScript frameworks like CoffeeScript and Dart have languished. We’ll then look at whether TypeScript is a good fit for your next development project.
+
+[**Download the slide deck here**](/slides/Typescript.pdf)
 
 <img src="/images/speakers/tjvantoll.jpg" style="float:left;margin-right: 10px;" alt="TJ VanToll">
 
