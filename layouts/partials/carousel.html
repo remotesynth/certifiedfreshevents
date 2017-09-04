@@ -9,6 +9,17 @@
     </div>
         {{ end }}
     {{ end }}
+    {{ range where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.carousel" true }}
+    <div class="slide">
+        <div class="container">
+            <div style="max-width: 818px;position:relative;margin:auto;">
+            <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}/{{ .Params.Homepage_banner }}" alt="image description"></a>
+                <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Session Recording" title="Session Recording">Session Recording</a>
+            </div>
+            <a href="{{ .Permalink }}" class="btn btn-primary more">READ MORE</a>
+        </div>
+    </div>
+    {{ end }}
     <div class="switcher">
     {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}
         {{ if ge .Date.Unix now.Unix }}
@@ -18,6 +29,16 @@
                 <div class="circle right"></div>
             </div>
         </a>
+        {{ end }}
+    {{ end }}
+    {{ range where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.carousel" true }}
+        {{ if eq .Params.Carousel true }}
+    <a href="#">
+        <div class="circle-wrapper">
+            <div class="circle left"></div>
+            <div class="circle right"></div>
+        </div>
+    </a>
         {{ end }}
     {{ end }}
     </div>
