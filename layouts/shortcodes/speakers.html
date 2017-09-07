@@ -5,9 +5,15 @@
         <h3 class="name">{{ .name }}</h3>
         <p class="about">{{.bio}}</p>
         <ul class="speaker-socials">
+            {{ if .twitter }}
             <li><a href="https://twitter.com/{{.twitter}}"><span class="fa fa-twitter"></span></a></li>
+            {{ end }}
+            {{ if .github }}
             <li><a href="https://github.com/{{.github}}"><span class="fa fa-github"></span></a></li>
+            {{ end }}
+            {{ if .website }}
             <li><a href="{{.website}}"><span class="fa fa-link"></span></a></li>
+            {{ end }}
         </ul>
     </div>
 </div>
