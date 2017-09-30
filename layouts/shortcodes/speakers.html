@@ -3,7 +3,7 @@
     <div class="speaker">
         <div class="photo-wrapper rounded"><img src="/images/speakers/{{.photo}}" alt="{{ .name }}"></div>
         <h3 class="name">{{ .name }}</h3>
-        <p class="about">{{.bio}}</p>
+        <p class="about">{{.bio | markdownify }}</p>
         <ul class="speaker-socials">
             {{ if .twitter }}
             <li><a href="https://twitter.com/{{.twitter}}"><span class="fa fa-twitter"></span></a></li>

@@ -12547,7 +12547,8 @@ a.close.my_closed {
 
 .speaker {
     margin-bottom: 40px;
-    text-align: center;
+	text-align: center;
+	min-height: 430px;
 }
 
 .speaker .photo-wrapper {
