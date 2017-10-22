@@ -11,7 +11,7 @@ homepage_banner: "images/banners/IoT-For-Fun-And-Profit.jpg"
 short_desc: "Simple and practical ways for getting started in IoT - from basic electronics to smart home integration"
 description: "In this free online event, Brandon Satrom and Brad Marsh show simple and practical ways for getting started in IoT - from basic electronics to smart home integration."
 draft: false
-carousel: true
+carousel: false
 ---
 
 For many developers, hardware can be intimidating. This is why the Internet of Things can seem simultaneously appealing and scary. There are so many promising ideas on how to mix code and devices, but how do all the wires and devices connect? Is there soldering involved?
