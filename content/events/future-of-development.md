@@ -36,7 +36,7 @@ In this talk Brian will walk you through a new approach to architecting applicat
 
 ##### Brian LeRoux
 
-Brian LeRoux is the Cofounder/CTO of [begin.com](https://begin.com) which is a new breed of app that helps teams stay organized in Slack. In the process of developing [begin.com](https://begin.com) an entirely serverless cloud functions thing emerged called [arc.codes](https://arc.codes). In a former life Brian worked at Adobe on PhoneGap and its open source upstream Apache Cordova. A longtime fan of the open web he created [wtfjs.com](http://wtfjs.com) and sports a questionable &nbsp; tattoo. Brian believes the future is mobile, seamlessly running in the cloud, on open source software and will be created by hackers like you.
+Brian LeRoux is the Cofounder/CTO of [begin.com](https://begin.com) which is a new breed of app that helps teams stay organized in Slack. In the process of developing [begin.com](https://begin.com) an entirely serverless cloud functions thing emerged called [arc.codes](https://arc.codes). In a former life Brian worked at Adobe on PhoneGap and its open source upstream Apache Cordova. A longtime fan of the open web he created [wtfjs.com](http://wtfjs.com) and sports a questionable &amp;nbsp; tattoo. Brian believes the future is mobile, seamlessly running in the cloud, on open source software and will be created by hackers like you.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@brianleroux](https://twitter.com/brianleroux)
 

@@ -9120,6 +9120,14 @@ img {
 	color: #5c5c5c;
 }
 
+.blog .text a {
+	color: #29AAE2;
+}
+
+.blog .text a:hover {
+	text-decoration: underline;
+}
+
 .content {
 	position: relative;
 	margin: -60px 0 60px;
