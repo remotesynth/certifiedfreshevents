@@ -15,7 +15,7 @@ draft: false
 
 On some level, conflict is an unavoidable part of any workplace - it’s tough enough for groups of people to always get along, even when the stresses of work aren’t involved.  But how we choose to handle that conflict can factor hugely in the success of the team and in our own happiness.
 
-In this interactive, our panel will discuss conflict that they have personally faced and how they handled it (even if not always perfectly or even well). We’ll invite the audience to chime in via chat with their questions or to share situations that they are facing/have faced. In the end, we hope that everyone will leave with new techniques that we use to resolve our conflicts.
+In this interactive event, our panel will discuss conflict that they have personally faced and how they handled it (even if not always perfectly or even well). We’ll invite the audience to chime in via chat with their questions or to share situations that they are facing/have faced. In the end, we hope that everyone will leave with new techniques that we use to resolve our conflicts.
 
 ### Out Panelists
 
