@@ -9120,11 +9120,11 @@ img {
 	color: #5c5c5c;
 }
 
-.blog .text a {
+.blog .text a, .single-blog a {
 	color: #29AAE2;
 }
 
-.blog .text a:hover {
+.blog .text a:hover, .single-blog a:hover {
 	text-decoration: underline;
 }
 
