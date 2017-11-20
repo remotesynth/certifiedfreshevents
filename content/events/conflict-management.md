@@ -11,6 +11,7 @@ homepage_banner: "images/banners/Banner_Oh_No_You_Didnt.jpg"
 description: "In this interactive, our panel will discuss conflict that they have personally faced and techniques that we use to resolve our conflicts"
 short_desc: "Strategies and techniques to resolve conflicts in the workplace."
 draft: false
+carousel: false
 ---
 
 On some level, conflict is an unavoidable part of any workplace - it’s tough enough for groups of people to always get along, even when the stresses of work aren’t involved.  But how we choose to handle that conflict can factor hugely in the success of the team and in our own happiness.
