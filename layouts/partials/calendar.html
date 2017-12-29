@@ -2,7 +2,7 @@
     <div class="container">
         <section class="calendar">
             <header>
-                <h1>event calendar</h1>
+                <h1>upcoming events</h1>
             </header>
             <div class="body">
             {{ range $index, $element := where .Data.Pages.ByDate "Section" "events" }}
