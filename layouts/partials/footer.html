@@ -1,16 +1,16 @@
 <footer id="footer">
     <div class="container">
-        <ul class="footer-nav">
+        <!--<ul class="footer-nav">
             {{ range where .Site.Pages "Section" "" }}
                 {{ if eq .Kind "page" }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
             {{ end }}
-        </ul>
+        </ul>-->
         <div class="right">
             {{ range $index, $element := where .Site.Pages "Section" "contact" }}
                 {{ if and (eq .Kind "page") (ne .Params.Display false) }}
-            <a href="{{ .Permalink }}" class="btn{{ if gt $index 0}} btn-secondary{{ end }}">{{ .Title }}</a>
+            <a href="{{ .Permalink }}" class="btn{{ if gt $index 3}} btn-secondary{{ end }}">{{ .Title }}</a>
                 {{ end }}
             {{ end }}
         </div>

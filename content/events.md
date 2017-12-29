@@ -1,11 +1,11 @@
 ---
-title: "Events"
+title: "Upcoming Events"
 date: 2017-07-12T18:52:51-04:00
-weight: 2
+weight: 1
 banner: "images/pages/events.jpg"
 draft: false
 ---
 
-Check out our upcoming events and past events.
+Check out our upcoming events or [subscribe](/contact/subscribe/) to our mailing list to be notified of new events.
 
 {{% upcoming-events %}}

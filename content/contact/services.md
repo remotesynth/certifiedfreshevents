@@ -1,7 +1,7 @@
 ---
 title: "Services"
 date: 2017-07-12T18:52:51-04:00
-weight: 5
+weight: 2
 banner: "images/pages/services.jpg"
 draft: false
 ---
