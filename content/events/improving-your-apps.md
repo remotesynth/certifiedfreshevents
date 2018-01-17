@@ -9,7 +9,7 @@ cost: "0"
 banner: "images/banners/Improving_Apps_Page.jpg"
 homepage_banner: "images/banners/Banner_Improving-You-Apps-Debugging.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
-description: "In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact."
+description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."
 draft: false
 ---
 
