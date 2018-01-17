@@ -6,6 +6,6 @@ banner: "images/pages/events.jpg"
 draft: false
 ---
 
-Check out our upcoming events or [subscribe](/contact/subscribe/) to our mailing list to be notified of new events.
+Check out our upcoming events or [subscribe](/subscribe/) to our mailing list to be notified of new events.
 
 {{% upcoming-events %}}
