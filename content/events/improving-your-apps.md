@@ -11,6 +11,7 @@ homepage_banner: "images/banners/Banner_Improving-You-Apps-Debugging.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."
 draft: false
+carousel: true
 ---
 
 Most experienced developers will tell you that hardest parts of the job comes after the initial code is written - when it is time to refine, tune and test the application. It can take a deep understanding of the languages, tools and code to maximize the applications performance and experience.
