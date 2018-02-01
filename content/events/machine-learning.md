@@ -8,8 +8,8 @@ location: "Online"
 cost: "0"
 banner: "images/banners/machine-learning-page.jpg"
 homepage_banner: "images/banners/Banner_Demystiying-Machine-Learning.jpg"
-short_desc: "TBD"
-description: "TBD"
+short_desc: "What is machine learning and artificial intelligence."
+description: "Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence."
 draft: false
 ---
 
