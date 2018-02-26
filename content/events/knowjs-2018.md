@@ -28,6 +28,10 @@ We feature four, hands-on sessions from some of the top developers and trainers 
 * [Computer Science in Front End Dev - Brian Holt](#computer-science-in-front-end-dev-it-s-for-more-than-just-interviews)
 * [How to Open Source Your Stuff - Kent C. Dodds](#how-to-open-source-your-stuff)
 
+**Registration is limited to 50 people, so _reserve your space today!_**
+
+---
+
 ## Promises, Generators, Async
 
 _Friday, April 13 - 9am - 11am ET_
@@ -50,6 +54,8 @@ So how can we make use of promises but not have to suffer this poor and confusin
 </div>
 
 <br style="clear:both;">
+
+---
 
 ## JavaScript Fundamentals for Functional Programming
 
@@ -82,6 +88,8 @@ This is an interactive online workshop with exercises that build upon one anothe
 
 <br style="clear:both;">
 
+---
+
 ## Computer Science in Front End Dev: It's For More than Just Interviews
 
 _Friday, April 13 - 2pm - 4pm ET_
@@ -104,6 +112,8 @@ During our time together I will present a few computer science concepts like blo
 </div>
 
 <br style="clear:both;">
+
+---
 
 ## How to Open Source Your Stuff
 
