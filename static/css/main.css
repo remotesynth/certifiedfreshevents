@@ -12587,3 +12587,14 @@ a.close.my_closed {
     display: inline-block;
     text-align: center;
 }
+
+.text blockquote {
+	margin: 1% 20px;
+    font-size: 18px;
+    line-height: 1.175;
+    letter-spacing: -.03em;
+    padding: 1.15em 0 0 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #d9d9d9
+}
