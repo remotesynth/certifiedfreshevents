@@ -21,7 +21,7 @@ Whatever your role, understanding the fundamentals is critical - whether you are
 
 KnowJS offers a full day of learning and training focused on JavaScript language fundamentals. Whether you are use React, Angular, some other framework or no framework at all, a clear understanding of the fundamentals of the JavaScript language will make you a better developer.
 
-We feature four, hands-on sessions from some of the top developers and trainers in the industry:
+We'll feature four introductory sessions (available for free) and four hands-on sessions from some of the top developers and trainers in the industry. The hands-on sessions are:
 
 * [Promises, Generators, Async - Kyle Simpson](#promises-generators-async)
 * [JavaScript Fundamentals for Functional Programming - Bianca Gandolfo](#javascript-fundamentals-for-functional-programming)
@@ -32,34 +32,9 @@ We feature four, hands-on sessions from some of the top developers and trainers 
 
 ---
 
-## Promises, Generators, Async
-
-_Friday, April 13 - 9am - 11am ET_
-
-You probably know about promises by now, but are you still writing your async code as long chains of `.then()`s? DId you leap for joy at the recent `.finally()` promise feature? Bah. That's all anti-pattern if you ask me. Promises are one of the most powerful concepts to be added to JS, but have one of the worst API designs of any JS feature.
-
-So how can we make use of promises but not have to suffer this poor and confusing API? Async functions, of course! Except, async/await has some painful drawbacks. Maybe what we really want is generators.
-
-<div style="background-color:#f4f5f9;min-height:200px;">
-<img src="/images/speakers/KyleSimpson.jpg" style="float:left;margin-right: 10px;" alt="Kyle Simpson">
-
-<div style="font-size:.9em;">
-<h4>Kyle Simpson</h4>
-
-<p>Kyle Simpson is an evangelist of the Open Web, passionate about all things JavaScript. He speaks, teaches, writes, and contributes to OSS.</p>
-
-<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/getify">@getify</a>
-
-</div>
-</div>
-
-<br style="clear:both;">
-
----
-
 ## JavaScript Fundamentals for Functional Programming
 
-_Friday, April 13 - 11am - 1pm ET_
+_Friday, April 13 - 9am - 11am ET_
 
 This is a 2hr version of the popular JS Fundamentals for Functional Programming workshop. We will speed through the trickier JS fundamentals that you need to know in order to get started with improving your code style with functional programming techniques.
 
@@ -92,7 +67,7 @@ This is an interactive online workshop with exercises that build upon one anothe
 
 ## Computer Science in Front End Dev: It's For More than Just Interviews
 
-_Friday, April 13 - 2pm - 4pm ET_
+_Friday, April 13 - 11am - 1pm ET_
 
 A common refrain of many disillusioned front end developers is that deeper computer science concepts are useful mostly for interviews and little else. And to some extent, that can be true! However many are underestimating how often the concepts, the tradeoffs, and other associated concepts subtly arise in every day front end development.
 
@@ -107,6 +82,31 @@ During our time together I will present a few computer science concepts like blo
 <p>Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA.</p>
 
 <i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/holtbt">@holtbt</a>
+
+</div>
+</div>
+
+<br style="clear:both;">
+
+---
+
+## Promises, Generators, Async
+
+_Friday, April 13 - 2pm - 4pm ET_
+
+You probably know about promises by now, but are you still writing your async code as long chains of `.then()`s? Did you leap for joy at the recent `.finally()` promise feature? Bah. That's all anti-pattern if you ask me. Promises are one of the most powerful concepts to be added to JS, but have one of the worst API designs of any JS feature.
+
+So how can we make use of promises but not have to suffer this poor and confusing API? Async functions, of course! Except, async/await has some painful drawbacks. Maybe what we really want is generators.
+
+<div style="background-color:#f4f5f9;min-height:200px;">
+<img src="/images/speakers/KyleSimpson.jpg" style="float:left;margin-right: 10px;" alt="Kyle Simpson">
+
+<div style="font-size:.9em;">
+<h4>Kyle Simpson</h4>
+
+<p>Kyle Simpson is an evangelist of the Open Web, passionate about all things JavaScript. He speaks, teaches, writes, and contributes to OSS.</p>
+
+<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/getify">@getify</a>
 
 </div>
 </div>
