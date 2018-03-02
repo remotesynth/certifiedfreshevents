@@ -129,7 +129,7 @@ In this workshop, we'll take a look at an existing application, identify a good 
 <div style="font-size:.9em;">
 <h4>Kent C. Dodds</h4>
 
-<p>Kent C. Dodds and he writes JavaScript for PayPal and the open source community. He's also a teacher. He like my family, JavaScript, and React.</p>
+<p>Kent C. Dodds writes JavaScript for PayPal and the open source community. He's also a teacher. Kent likes his family, JavaScript, and React.</p>
 
 <i class="fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/kentcdodds">@kentcdodds</a>
 </div>
