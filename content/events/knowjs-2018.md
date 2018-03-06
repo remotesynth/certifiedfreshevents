@@ -28,7 +28,11 @@ We'll feature four introductory sessions (available for free) and four hands-on 
 * [How to Open Source Your Stuff - Kent C. Dodds](#how-to-open-source-your-stuff)
 * [Computer Science in Front End Dev - Brian Holt](#computer-science-in-front-end-dev-it-s-for-more-than-just-interviews)
 
+All registered attendees will continue to have access to the session recordings immediately after the event is over.
+
 **Registration is limited to 50 people, so _reserve your space today!_**
+
+For questions, please [contact us](/contact/).
 
 ---
 
