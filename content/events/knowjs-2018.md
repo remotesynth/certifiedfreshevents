@@ -13,15 +13,9 @@ description: "KnowJS features a full day of hands-on JavaScript training with th
 draft: false
 ---
 
-Whatever your role, understanding the fundamentals is critical - whether you are a basketball player or a JavaScript developer.
+KnowJS includes a **full day** of learning and training focused on JavaScript language fundamentals. Whether you are use React, Angular, some other framework or no framework at all, a clear understanding of the fundamentals of the JavaScript language will make you a better developer.
 
-> When I was young, I had to learn the fundamentals of basketball. You can have all the physical ability in the world, but you still have to know the fundamentals.
-> 
-> \- [Michael Jordan](https://www.brainyquote.com/quotes/michael_jordan_447174)
-
-KnowJS offers a full day of learning and training focused on JavaScript language fundamentals. Whether you are use React, Angular, some other framework or no framework at all, a clear understanding of the fundamentals of the JavaScript language will make you a better developer.
-
-We'll feature four introductory sessions (available for free) and four hands-on sessions from some of the top developers and trainers in the industry. The hands-on sessions are:
+We'll feature four introductory sessions (available for free) and four hands-on sessions from some of the top developers and trainers in the industry. The price includes all four hands-on sessions, which are:
 
 * [Promises, Generators, Async - Kyle Simpson](#promises-generators-async)
 * [JavaScript Fundamentals for Functional Programming - Bianca Gandolfo](#javascript-fundamentals-for-functional-programming)
