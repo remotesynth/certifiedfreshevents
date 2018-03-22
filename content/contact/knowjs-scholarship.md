@@ -58,6 +58,6 @@ If you have any questions, please [contact us](/contact/).
   <p>
     <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?<br><input type="radio" name="cantCover" value="yes" checked> Yes <input type="radio" name="cantCover" value="no"> No </label>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit">Apply</button>
   </p>
 </form>
