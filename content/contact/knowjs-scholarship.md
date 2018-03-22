@@ -33,7 +33,7 @@ If you have any questions, please [contact us](/contact/).
 
 #### Apply
 
-<form name="apply" netlify-honeypot="bot-field" action="/contact/thanks.html" netlify>
+<form name="apply" netlify-honeypot="bot-field" action="/contact/scholarship-submitted" netlify>
   <p style="display:none;">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
