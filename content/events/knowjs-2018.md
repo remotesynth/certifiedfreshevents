@@ -26,7 +26,7 @@ All registered attendees will continue to have access to the session recordings 
 
 **Registration is limited to 50 people, so _reserve your space today!_**
 
-For questions, please [contact us](/contact/).
+For questions, or if you are interested in group pricing for your company, please [contact us](/contact/).
 
 ---
 
