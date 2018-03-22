@@ -38,25 +38,25 @@ If you have any questions, please [contact us](/contact/).
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
   <p>
-    <label>Name: <input type="text" name="name" size="40"></label>
+    <label>Name: <input type="text" name="name" size="40" required></label>
   </p>
   <p>
-    <label>Company: <input type="text" name="company" size="40"></label>
+    <label>Company: <input type="text" name="company" size="40" required></label>
   </p>
   <p>
-    <label>Email: <input type="text" name="email" size="40"></label>
+    <label>Email: <input type="email" name="email" size="40" required></label>
   </p>
   <p>
-    <label>What underrepresented group(s) are you a member of?: <input type="text" name="groups" size="40"></label>
+    <label>What underrepresented group(s) are you a member of?: <input type="text" name="groups" size="40" required></label>
   </p>
    <p>
-    <label>What do you hope to achieve by attending this conference?: <textarea name="goals" cols="40"></textarea></label>
+    <label>What do you hope to achieve by attending this conference?: <textarea name="goals" cols="40" required></textarea></label>
   </p>
   <p>
-    <label>Are you available to attend the duration of the conference?<br><input type="radio" name="canAttend" value="yes"> Yes <input type="radio" name="canAttend" value="no"> No </label>
+    <label>Are you available to attend the duration of the conference?<br><input type="radio" name="canAttend" value="yes" checked> Yes <input type="radio" name="canAttend" value="no"> No </label>
   <p>
   <p>
-    <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?<br><input type="radio" name="canCover" value="yes"> Yes <input type="radio" name="canCover" value="no"> No </label>
+    <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?<br><input type="radio" name="cantCover" value="yes" checked> Yes <input type="radio" name="cantCover" value="no"> No </label>
   <p>
     <button type="submit">Send</button>
   </p>
