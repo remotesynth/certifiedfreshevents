@@ -32,7 +32,7 @@ For questions, or if you are interested in group pricing for your company, pleas
 
 <a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates.jpg" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
 
-## KnowJS Diversity Scholarship
+## KnowJS Diversity Scholarships
 ### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
 
 Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited to offer 6 diversity scholarships. The scholarship consists of a free ticket to attend the KnowJS event on April 13, 2018 plus access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
