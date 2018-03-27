@@ -20,7 +20,7 @@ We'll feature four introductory sessions (available for free) and four hands-on 
 * [Promises, Generators, Async - Kyle Simpson](#promises-generators-async)
 * [JavaScript Fundamentals for Functional Programming - Bianca Gandolfo](#javascript-fundamentals-for-functional-programming)
 * [How to Open Source Your Stuff - Kent C. Dodds](#how-to-open-source-your-stuff)
-* [Computer Science in Front End Dev - Brian Holt](#computer-science-in-front-end-dev-it-s-for-more-than-just-interviews)
+* [Computer Science in Front End Dev - Jem Young](#computer-science-in-front-end-dev-it-s-for-more-than-just-interviews)
 
 All registered attendees will continue to have access to the session recordings immediately after the event is over.
 
@@ -132,14 +132,14 @@ A common refrain of many disillusioned front end developers is that deeper compu
 During our time together I will present a few computer science concepts like bloom filters, tree traversals, and array sorting explain how these can show up in places you wouldn't necessarily expect them and how you can leverage these powerful algorithms and data structures to make yourself a better programmer. By the end I hope to show you that these concepts are both worthy of your attention and not so difficult to learn.
 
 <div style="background-color:#f4f5f9;min-height:200px;">
-<img src="/images/speakers/BrianHolt.jpg" style="float:left;margin-right: 10px;margin-bottom:20px;" alt="Brian Holt">
+<img src="/images/speakers/jemyoung.jpg" style="float:left;margin-right: 10px;margin-bottom:20px;" alt="Jem Young">
 
 <div style="font-size:.9em;">
-<h4>Brian Holt</h4>
+<h4>Jem Young</h4>
 
-<p>Brian is currently working as a senior cloud developer advocate at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA.</p>
+<p>Jem Young is a (very) tall engineer at Netflix who loves dogs, reading, and clean code. He really enjoys working across the stack but his true passion lies in JavaScript and building a clean user experience. He believes that empathy is the key to building an effective UI and when he's not out riding his bike, you can find him hassling other engineers to write more tests.</p>
 
-<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/holtbt">@holtbt</a>
+<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/jemyoung">@jemyoung</a>
 
 </div>
 </div>
