@@ -143,7 +143,7 @@ For questions, or if you are interested in group pricing for your company, pleas
 
 Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited to offer 6 diversity scholarships. The scholarship consists of a free ticket to attend the KnowJS event on April 13, 2018 plus access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
 
-[Click here for more information on the requirements and details on how to apply.](/contact/knowjs-scholarship)
+**Thanks to everyone who applied. Due to a huge demand for scholarships, we have already filled all the positions. Thanks again to Microsoft Azure Advocates for making this happen.**
 
 ---
 
@@ -167,6 +167,8 @@ So how can we make use of promises but not have to suffer this poor and confusin
 <img alt="Bianca Gandolfo" style="float:left;margin:5px;" width="60" src="/images/speakers/BiancaGandolfo.jpg">
 ##### Time: 11am - 1pm ET
 ##### Instructor: Bianca Gandolfo
+
+[_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=9rW0H5FvWeA)
 
 This is a 2hr version of the popular JS Fundamentals for Functional Programming workshop. We will speed through the trickier JS fundamentals that you need to know in order to get started with improving your code style with functional programming techniques.
 
@@ -192,6 +194,8 @@ This is an interactive online workshop with exercises that build upon one anothe
 ##### Time: 2pm - 4pm ET
 ##### Instructor: Kent C. Dodds
 
+[_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=6mtPPkKchcQ)
+
 Building things so they work well in isolation, then piece them together to make the full application makes building applications easier. One thing that really helps with this kind of strategy is to open source your stuff.
 
 In this workshop, we'll take a look at an existing application, identify a good candidate component for open sourcing, and then go through the process of creating an open source project for that component and add it as a project dependency. By the end that component of the application will be easier to work on and contribute to and we'll also have it open for the rest of the world to contribute and improve the software which once had bugs that were just as private as the original project repository.
@@ -202,6 +206,8 @@ In this workshop, we'll take a look at an existing application, identify a good 
 <img alt="Jem Yound" style="float:left;margin:5px;" width="60" src="/images/speakers/jemyoung.jpg">
 ##### Time: 4pm - 6pm ET
 ##### Instructor: Jem Young
+
+[_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=nKavC-CAqjs)
 
 A common refrain of many disillusioned front end developers is that deeper computer science concepts are useful mostly for interviews and little else. And to some extent, that can be true! However many are underestimating how often the concepts, the tradeoffs, and other associated concepts subtly arise in every day front end development.
 
