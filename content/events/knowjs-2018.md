@@ -64,6 +64,8 @@ KnowJS is a **full-day** of learning and training focused on JavaScript language
 * **It features 4 of the top trainers and JavaScript experts in the industry.** Our teachers created some of the most well-known and highly regarded material for JavaScript developers including books, video training courses, open source projects and more!
 * **We aren’t teaching framework X or toolchain Y, we’re focused on skills and knowledge around JavaScript language fundamentals.** These skills are transferrable to any framework (or none) or toolchain.
 
+If you're curious about the type of content you'll receive, watch [all the preview videos here](https://www.youtube.com/watch?v=mnRCmzPDPO0&list=PLZDPKYkCEQk0oyicCbUyrDXdtqNXKNTrL).
+
 **Registration is limited to 50 people, so _reserve your space today!_**
 
 For questions, or if you are interested in group pricing for your company, please [contact us](/contact/).
@@ -156,6 +158,8 @@ Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited 
 <img alt="Kyle Simpson" style="float:left;margin:5px;" width="60" src="/images/speakers/KyleSimpson.jpg">
 ##### Time: 9am - 11am ET
 ##### Instructor: Kyle Simpson
+
+[_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=mnRCmzPDPO0)
 
 You probably know about promises by now, but are you still writing your async code as long chains of `.then()`s? Did you leap for joy at the recent `.finally()` promise feature? Bah. That's all anti-pattern if you ask me. Promises are one of the most powerful concepts to be added to JS, but have one of the worst API designs of any JS feature.
 
