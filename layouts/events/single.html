@@ -30,7 +30,7 @@
                 </div>
                 <div class="action" data-price="59">
                     <div class="line">
-                        <strong class="price">{{ if eq .Params.Cost "0"}}Cost: FREE{{else}}{{.Params.Cost}}{{end}}</strong>
+                        <strong class="price">{{ if eq .Params.Cost "0"}}Cost: FREE{{else}}{{if .Params.recording_cost }}<strike>{{ end }}{{.Params.Cost}}{{if .Params.recording_cost}}</strike> {{.Params.recording_cost}}{{end}}{{end}}</strong>
                     </div>
                     <a href="#register" class="btn btn-primary">Register Now</a>
                 </div>
