@@ -12,7 +12,7 @@ homepage_banner: "images/banners/Banner_KnowJS.jpg"
 short_desc: "Lean JavaScript fundamentals through hands-on, online training."
 description: "KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry."
 draft: false
-carousel: true
+carousel: false
 ---
 
 <style>
