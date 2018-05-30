@@ -34,7 +34,7 @@ Chris is a web designer and developer. He writes about all things web at [CSS-Tr
 
 ## What makes Gatsby sites so fast?
 
-Learn what makes [GatsbyJS](https://www.gatsbyjs.org/) sites so fast and hear from other developers why they like building with Gatsby and how it improves performance for their site. Then, watch how to you can start building a highly performant site in just a few minutes and preview upcoming projects to improve Gatsby. Finally, learn how to contribute to Gatsby as an open source project.
+Learn what makes [GatsbyJS](https://www.gatsbyjs.org/) sites so fast and hear from other developers why they like building with Gatsby. Then, watch how you can start building a highly performant site in just a few minutes. Finally, learn how to contribute to Gatsby as an open source project and get a sneak peak at upcoming feature releases.
 
 <img src="/images/speakers/shannonsoper.jpg" style="float:left;margin-right: 10px;" alt="Shannon Soper">
 
