@@ -78,7 +78,7 @@ In this workshop, Brandon Satrom from Particle and Burke Holland from Microsoft 
                     <figure>
                         <img alt="Burke Holland" class="img-responsive center-block" src="/images/speakers/burkeholland.jpg">
                     </figure>
-                    <h4>Kyle Simpson</h4>
+                    <h4>Burke Holland</h4>
                     <div class="speaker-bio"><p>Burke Holland is a front-end developer in Nashville, TN, working on the Azure team at Microsoft. Burke blogs only slightly better than he codes but not as good as he talks about himself in the 3rd person.</p></div>
                     <ul class="social-block">
                         <li><a href="https://twitter.com/burkeholland"><span class="fa fa-twitter"></span></a></li>
