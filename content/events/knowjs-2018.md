@@ -57,7 +57,7 @@ carousel: false
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
 
-<h2>Missed KnowJS?</h2>
+<h2 style="color: #FFF;">Missed KnowJS?</h2>
 
 <p>Don't worry - all the sessions were recorded and we've recently made them free to watch!</p>
 
