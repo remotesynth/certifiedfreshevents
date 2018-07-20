@@ -6,7 +6,7 @@ endtime: "4/13 6:00pm EST"
 days: 1
 location: "Online"
 cost: "$299"
-recording_cost: "$150"
+recording_cost: "$0"
 banner: "images/banners/Header_KnowJS.jpg"
 homepage_banner: "images/banners/Banner_KnowJS.jpg"
 short_desc: "Lean JavaScript fundamentals through hands-on, online training."
@@ -59,7 +59,7 @@ carousel: false
 
 <h2>Missed KnowJS?</h2>
 
-<p>Don't worry - all the sessions were recorded! Sign up today to get nearly 8 hours of recorded training on a variety of advanced JavaScript topics. Find out more about the event and what you'll get from the recordings below.</p>
+<p>Don't worry - all the sessions were recorded and we've recently made them free to watch!</p>
 
 </div>
 
