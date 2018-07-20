@@ -55,7 +55,7 @@ carousel: false
 }
 </style>
 
-<div style="background-color: #CCC; padding: 5px;">
+<div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
 
 <h2>Missed KnowJS?</h2>
 
