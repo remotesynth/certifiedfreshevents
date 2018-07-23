@@ -105,6 +105,19 @@ Brandon Satrom is the Developer Evangelist for Particle. An unabashed lover of t
     </div>
 </section>
 
+---
+
+<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
+
+## Diversity Scholarship
+### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
+
+Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited to offer 10 diversity scholarships. The scholarship consists of a free ticket to attend the training on August 29, 2018 plus the included <a href="https://store.particle.io/products/particle-maker-kit" style="color: #f0cc9b; text-decoration:underline;">Particle Maker Kit</a> (retail cost is $89) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
+
+[Click here for more information on the requirements and details on how to apply.](/contact/iot-scholarship)
+
+---
+
 ## Course Outline
 
 1. Introduction and Housekeeping

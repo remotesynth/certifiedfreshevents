@@ -1,0 +1,63 @@
+---
+title: "IoT Training Diversity Scholarships"
+date: 2018-07-23T18:52:51-04:00
+weight: 2
+banner: "images/pages/conduct.jpg"
+draft: false
+display: false
+---
+
+<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
+
+#### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
+
+Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited to offer 10 diversity scholarships. The scholarship consists of a free ticket to attend the [IoT training on August 29, 2018](https://certifiedfreshevents.com/events/building-iot-apps/) including a <a href="https://store.particle.io/products/particle-maker-kit" style="color: #f0cc9b; text-decoration:underline;">Particle Maker Kit</a> (retail cost is $89) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry<sup>*</sup>.
+
+<small>* under-represented groups may include (but are not limited to) women, people of color, people with disabilities, LGBT+, veterans</small>
+
+#### Fine Print
+
+* Scholarship deadline: August 10, 2018
+* Recipients will be notified by August 13 and must confirm participation by EOD August 15 to ensure timely delivery of their device
+* Must be available to attend the event
+* Must be 18 years of age or older
+* Due to limited availability, only one scholarship may be awarded per company
+
+#### Privacy
+
+All information collected from applicants will only be reviewed by Certified Fresh Events (the organizers of the IoT training) and our diversity sponsor, and will never be shared with anyone or made public. We will treat all application information with the utmost confidentiality.
+
+#### Questions
+
+If you have any questions, please [contact us](/contact/).
+
+#### Apply
+
+<form name="apply-iot" netlify-honeypot="bot-field" action="/contact/scholarship-submitted" netlify>
+  <p style="display:none;">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </p>
+  <p>
+    <label>Name: <input type="text" name="name" size="40" required></label>
+  </p>
+  <p>
+    <label>Company: <input type="text" name="company" size="40" required></label>
+  </p>
+  <p>
+    <label>Email: <input type="email" name="email" size="40" required></label>
+  </p>
+  <p>
+    <label>What underrepresented group(s) are you a member of?: <input type="text" name="groups" size="40" required></label>
+  </p>
+   <p>
+    <label>What do you hope to achieve by attending this training?: <textarea name="goals" cols="40" required></textarea></label>
+  </p>
+  <p>
+    <label>Are you available to attend the duration of the training?<br><input type="radio" name="canAttend" value="yes" checked> Yes <input type="radio" name="canAttend" value="no"> No </label>
+  <p>
+  <p>
+    <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?<br><input type="radio" name="cantCover" value="yes" checked> Yes <input type="radio" name="cantCover" value="no"> No </label>
+  <p>
+    <button type="submit">Apply</button>
+  </p>
+</form>
