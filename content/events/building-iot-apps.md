@@ -8,8 +8,8 @@ location: "Online"
 cost: "$249"
 banner: "images/banners/Header-Buiding-IoT-Apps.jpg"
 homepage_banner: "images/banners/Banner-Buiding-IoT-Apps.jpg"
-short_desc: "short description"
-description: "Description"
+short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
+description: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again."
 draft: false
 carousel: false
 ---
