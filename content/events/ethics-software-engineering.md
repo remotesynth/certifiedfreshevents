@@ -18,7 +18,22 @@ As engineers, the decisions we make often have real world consequences but we're
 
 ### Panel Discussion
 
-Join a panel featuring members of the Front End Happy Hour podcast as they discuss and debate topics related to ethics in software engineering. Join in the discussion via the chat.
+Join a panel featuring members of the [Front End Happy Hour podcast](http://frontendhappyhour.com/) as they discuss and debate topics related to ethics in software engineering. Join in the discussion via the chat.
+
+<div class="container" style="background-color:#f4f5f9;">
+  <div class="row">
+    <h4 style="margin: 10px;">Sponsored by</h4>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-4">
+      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/images/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
+    </div>
+    <div class="col-md-8 col-sm-8">
+      <strong>SaaS Extensibility Reimagined</strong><br>
+      <p>Make it easy to add new integrations and customizations to your SaaS without offloading deployment and management onto your customers. Deliver new features in record time and remove the need to implement webhooks.<br><a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship">Click here to learn more</a>.
+    </div>
+  </div>
+</div>
 
 #### Moderators
 
