@@ -16,11 +16,7 @@ carousel: false
 
 As engineers, the decisions we make often have real world consequences but we're often too far removed to understand the impact of our decisions. As an industry, we need to have more candid and frank discussions about the ethics and morality of the tools we build.
 
-### Panel Discussion
-
-Join a panel featuring members of the [Front End Happy Hour podcast](http://frontendhappyhour.com/) as they discuss and debate topics related to ethics in software engineering. Join in the discussion via the chat.
-
-<div class="container" style="background-color:#f4f5f9;">
+<div class="container" style="background-color:#f4f5f9;margin-top:20px;margin-bottom:20px;">
   <div class="row">
     <h4 style="margin: 10px;">Sponsored by</h4>
   </div>
@@ -34,6 +30,10 @@ Join a panel featuring members of the [Front End Happy Hour podcast](http://fron
     </div>
   </div>
 </div>
+
+### Panel Discussion
+
+Join a panel featuring members of the [Front End Happy Hour podcast](http://frontendhappyhour.com/) as they discuss and debate topics related to ethics in software engineering. Join in the discussion via the chat.
 
 #### Moderators
 
