@@ -1,5 +1,5 @@
 {{ range $index, $element := where .Site.Pages.ByDate "Section" "events" }}
-    {{ if ge .Date.Unix now.Unix }}
+    {{ if and (ge .Date.Unix now.Unix) (eq .Kind "page") }}
     <div class="event-item">
         <span class="date"><strong>{{ .Date.Format "2"}}</strong> {{ .Date.Format "Jan"}}</span>
         <span class="time"><span class="h">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span></span>
