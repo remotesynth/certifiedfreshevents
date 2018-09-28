@@ -1,8 +1,8 @@
 ---
 title: "The Future of Web Payments"
-date: 2018-09-28T18:52:51-04:00
-starttime: "9/28 12:00pm ET"
-endtime: "9/28 1:00pm ET"
+date: 2018-10-09T18:52:51-04:00
+starttime: "10/9 12:00pm ET"
+endtime: "10/9 1:00pm ET"
 days: 1
 location: "Online"
 cost: "0"
