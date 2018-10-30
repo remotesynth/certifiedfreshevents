@@ -14,7 +14,7 @@ draft: false
 carousel: false
 ---
 
-Over the past few years Go has developed a strong and growing following. IEEE lists it both as one of the top 10 programming languages in 2018, but also as one of its top 5 trending languages. In this session, we'll get to know the Go langauge better by exploring how to us it to do things like build serverless applications and connect to complex data.
+Over the past few years Go has developed a strong and growing following. IEEE lists it both as one of the top 10 programming languages in 2018, but also as one of its top 5 trending languages. In this session, we'll get to know the Go language better by exploring how to us it to do things like build serverless applications and connect to complex data.
 
 <div class="container" style="background-color:#f4f5f9;margin-top:20px;margin-bottom:20px;">
   <div class="row">
