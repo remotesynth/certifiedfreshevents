@@ -56,7 +56,7 @@ will discuss various different options, pros and cons of each, and introduce you
 
 <img src="/images/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Raymond Camden">
 
-Raymond Camden is a developer advocate starting a new job soon. Until then, his bio is boring. Please google "pictures of cats" instead. Raymond can be reached at [his blog](www.raymondcamden.com), @raymondcamden on Twitter.
+Raymond Camden is a developer advocate starting a new job soon. Until then, his bio is boring. Please google "pictures of cats" instead. Raymond can be reached at [his blog](https://www.raymondcamden.com), @raymondcamden on Twitter.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
 
