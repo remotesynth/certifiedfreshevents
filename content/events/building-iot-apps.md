@@ -6,6 +6,7 @@ endtime: "8/29 4:00pm EST"
 days: 1
 location: "Online"
 cost: "$249"
+recording_cost: "$0"
 banner: "images/banners/Header-Buiding-IoT-Apps.jpg"
 homepage_banner: "images/banners/Banner-Buiding-IoT-Apps.jpg"
 short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
