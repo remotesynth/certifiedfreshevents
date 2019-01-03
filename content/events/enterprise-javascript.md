@@ -28,7 +28,7 @@ Development isn’t just about making products. It’s about making an impact. T
 
 Rizchel started her career at IBM. She worked her way up from being a front-end developer, to a team leader, to a Developer Advocate. In that role, she spoke at conferences and created content about emerging technologies like Kubernetes, serverless computing, and container architecture.
 
-Rizchel missed being a maker, so she jumped at the chance to join the Skookum team, where she could be both a Software Engineer and an advocate. Now, she spends her time helping clients modernize their legacy applications, speaking at events, and supporting diversity in tech.
+Rizchel missed being a maker, so she jumped at the chance to join the Gatsby team, where she could be both a Software Engineer and an advocate. Now, she spends her time building out modern applications, speaking at events, supporting diversity in tech and the overall tech community. 
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@rizcheldayao](https://twitter.com/rizcheldayao)
 
