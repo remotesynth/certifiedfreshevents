@@ -1,8 +1,8 @@
 ---
 title: "Serverless Go!"
-date: "2019-02-15"
-starttime: "2/15 1:00pm EST"
-endtime: "2/15 4:00pm EST"
+date: "2019-03-08"
+starttime: "3/8 1:00pm EST"
+endtime: "3/8 4:00pm EST"
 days: 1
 location: "Online"
 cost: "$150"
