@@ -14,7 +14,7 @@ draft: false
 carousel: false
 ---
 
-While imposter syndrome, anxiety and perfectionism are not issues that only face people working in tech, but they do seem to inordinately affect people working in tech at some time or another in their careers. In this session, Jo Franchetti discusses how to spot these patterns in yourself and offers strategies to deal with them.
+Imposter syndrome, anxiety and perfectionism are not issues that only face people working in tech, but they do seem to inordinately affect people working in tech at some time or another in their careers. In this session, Jo Franchetti discusses how to spot these patterns in yourself and offers strategies to deal with them.
 
 ## Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself
 
