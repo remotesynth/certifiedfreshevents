@@ -11,4 +11,4 @@ display: false
 
 #### Sponsored by [GoLang Weekly](https://golangweekly.com/) and [Cooper Press](https://cooperpress.com/)
 
-Thank you for submitting your application.  Recipients will be notified by March 6.
+Thank you for submitting your application.  Recipients will be notified by March 6.<br style="clear:both;">
