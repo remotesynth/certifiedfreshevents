@@ -87,6 +87,19 @@ Soon after you decide to embrace serverless architectures you realize that there
 
 <br style="clear:both;">
 
+---
+
+<div style="float:right;text-align:center;"><a href="https://golangweekly.com/"><img src="/images/banners/golang-weekly.png" alt="GoLang Weekly"></a><br><a href="https://golangweekly.com/" style="font-size: 2em;font-weight: 500;color: #6cd7e5;line-height: 1.0em;">Golang Weekly</a></div>
+
+## Diversity Scholarship
+### Sponsored by [GoLang Weekly](https://golangweekly.com/) and [Cooper Press](https://cooperpress.com/)
+
+Thanks to [GoLang Weekly](https://golangweekly.com/) newsletter and their publisher [Cooper Press](https://cooperpress.com/), we are excited to offer 5 diversity scholarships. The scholarship consists of a free ticket to attend the [Serverless Go training on March 8, 2019](https://certifiedfreshevents.com/events/serverless-go/) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
+
+[Click here for more information on the requirements and details on how to apply.](/contact/golang-scholarship)
+
+---
+
 <a name="register"></a>
 
 <iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/serverless-go?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

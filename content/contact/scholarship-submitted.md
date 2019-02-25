@@ -1,5 +1,5 @@
 ---
-title: "IoT Training Diversity Scholarship"
+title: "GoLang Training Diversity Scholarship"
 date: 2017-07-12T18:52:51-04:00
 weight: 2
 banner: "images/pages/conduct.jpg"
@@ -7,8 +7,8 @@ draft: false
 display: false
 ---
 
-<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
+<div style="float:right;text-align:center;"><a href="https://golangweekly.com/"><img src="/images/banners/golang-weekly.png" alt="GoLang Weekly"></a><br><a href="https://golangweekly.com/" style="font-size: 2em;font-weight: 500;color: #6cd7e5;line-height: 1.0em;">Golang Weekly</a></div>
 
-#### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
+#### Sponsored by [GoLang Weekly](https://golangweekly.com/) and [Cooper Press](https://cooperpress.com/)
 
-Thank you for submitting your application.  Recipients will be notified on August 13.
+Thank you for submitting your application.  Recipients will be notified by March 6.
