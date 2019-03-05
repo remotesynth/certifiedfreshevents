@@ -33,31 +33,4 @@ If you have any questions, please [contact us](/contact/).
 
 #### Apply
 
-<form name="apply-golang" netlify-honeypot="bot-field" action="/contact/scholarship-submitted" netlify>
-  <p style="display:none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
-  <p>
-    <label>Name: <input type="text" name="name" size="40" required></label>
-  </p>
-  <p>
-    <label>Company: <input type="text" name="company" size="40" required></label>
-  </p>
-  <p>
-    <label>Email: <input type="email" name="email" size="40" required></label>
-  </p>
-  <p>
-    <label>What underrepresented group(s) are you a member of?: <input type="text" name="groups" size="40" required></label>
-  </p>
-   <p>
-    <label>What do you hope to achieve by attending this training?: <textarea name="goals" cols="40" required></textarea></label>
-  </p>
-  <p>
-    <label>Are you available to attend the duration of the training?<br><input type="radio" name="canAttend" value="yes" checked> Yes <input type="radio" name="canAttend" value="no"> No </label>
-  <p>
-  <p>
-    <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?<br><input type="radio" name="cantCover" value="yes" checked> Yes <input type="radio" name="cantCover" value="no"> No </label>
-  <p>
-    <button type="submit">Apply</button>
-  </p>
-</form>
+**Thanks to everyone who applied. The scholarship deadline has passed and all spots have been filled. Thanks again to GoLang Weekly and Cooper Press for making this happen.**

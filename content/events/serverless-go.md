@@ -96,7 +96,7 @@ Soon after you decide to embrace serverless architectures you realize that there
 
 Thanks to [GoLang Weekly](https://golangweekly.com/) newsletter and their publisher [Cooper Press](https://cooperpress.com/), we are excited to offer 5 diversity scholarships. The scholarship consists of a free ticket to attend the [Serverless Go training on March 8, 2019](https://certifiedfreshevents.com/events/serverless-go/) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
 
-[Click here for more information on the requirements and details on how to apply.](/contact/golang-scholarship)
+**Thanks to everyone who applied. The scholarship deadline has passed and all spots have been filled. Thanks again to GoLang Weekly and Cooper Press for making this happen.**
 
 ---
 
