@@ -11,7 +11,7 @@ homepage_banner: "images/banners/Dealing-with-Perfectionism.jpg"
 short_desc: "Jo Franchetti discusses how to understand your fears and learn to be kind to yourself."
 description: "Jo Franchetti discusses how to spot destructive thought patterns in yourself, how to manage anxiety and procrastination and how to start being kinder to yourself."
 draft: false
-carousel: false
+carousel: true
 ---
 
 Imposter syndrome, anxiety and perfectionism are not issues that only face people working in tech, but they do seem to inordinately affect people working in tech at some time or another in their careers. In this session, Jo Franchetti discusses how to spot these patterns in yourself and offers strategies to deal with them.

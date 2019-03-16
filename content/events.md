@@ -6,6 +6,6 @@ banner: "images/pages/events.jpg"
 draft: false
 ---
 
-Check out our upcoming events or [subscribe](/subscribe/) to our mailing list to be notified of new events.
+We're adding new meetups, trainings and events all the time. [Subscribe](/subscribe/) to our mailing list to be notified whenever we add a new event.
 
 {{% upcoming-events %}}

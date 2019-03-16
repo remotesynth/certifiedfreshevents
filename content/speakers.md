@@ -6,6 +6,6 @@ banner: "images/pages/speakers.jpg"
 draft: false
 ---
 
-We have the best speakers! Don't believe us? Here are some of the speakers who have spoken or will be speaking at our events.
+We have been fortunate enough to have some of the world's best speakers speak at our events. This isn't just a boast - check them out!
 
 {{% speakers %}}
