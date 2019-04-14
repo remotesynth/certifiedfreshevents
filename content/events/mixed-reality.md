@@ -16,7 +16,7 @@ carousel: false
 
 In virtual reality, we replace the user's physical world with another entirely. This has important use cases. However, augmented reality and mixed reality applications build upon the user's real-world environment to create a hybrid reality where real world objects and virtual objects coexist. This opens up a whole new set of application possibilities where the user can still interact with their surroundings, but enhanced with information.
 
-In this session, Ayşegül Yönet will explore VR, AR and Mixed Reality. Show you what they are, what they are useful for and how to get started with them.
+In this session, Ayşegül Yönet will explore VR, AR and Mixed Reality. She'll show you what they are, what they are useful for and how to get started with them.
 
 ## Exploring Mixed Reality for Good
 
