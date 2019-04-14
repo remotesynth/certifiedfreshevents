@@ -20,7 +20,7 @@ In this session, Ayşegül Yönet will explore VR, AR and Mixed Reality. Show yo
 
 ## Exploring Mixed Reality for Good
 
-Is VR going to happen? Is Augmented Reality just a buzzword? What is this Mixed Reality anyway What can Mixed Reality offer that other mediums can't? Join us if you are wondering what good can Mixed Reality technologies achieve and how to get started creating them.
+Is VR going to happen? Is Augmented Reality just a buzzword? What is this Mixed Reality anyway? What can Mixed Reality offer that other mediums can't? Join us if you are wondering what good can Mixed Reality technologies achieve and how to get started creating them.
 
 #### Ayşegül Yönet
 
