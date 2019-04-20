@@ -7,6 +7,14 @@
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 	<link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}css/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ribbon.css" />
+{{ if eq .Page.Type "events" }}
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@fresheventsfl" />
+	<meta property="og:url" content="{{ .Page.Permalink }}" />
+	<meta property="og:title" content="{{ .Page.Title }}" />
+	<meta property="og:description" content="{{ .Page.Params.Short_desc }}" />
+	<meta property="og:image" content="{{ .Page.Params.Banner }}" />
+{{ end }}
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ribbon.ie.css" />
 	<![endif]-->
