@@ -13,7 +13,7 @@
 	<meta property="og:url" content="{{ .Page.Permalink }}" />
 	<meta property="og:title" content="{{ .Page.Title }}" />
 	<meta property="og:description" content="{{ .Page.Params.Short_desc }}" />
-	<meta property="og:image" content="{{ .Page.Params.Homepage_banner }}" />
+	<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Page.Params.Homepage_banner }}" />
 {{ end }}
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ribbon.ie.css" />
