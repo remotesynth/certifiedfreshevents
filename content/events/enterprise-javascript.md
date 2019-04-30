@@ -1,6 +1,10 @@
 ---
 title: "JavaScript for Enterprise Development"
 date: 2019-01-22T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "January 2019"
 starttime: "1/22 12:00pm EST"
 endtime: "1/22 1:00pm EST"
 days: 1

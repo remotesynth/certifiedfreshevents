@@ -1,6 +1,10 @@
 ---
 title: "Going Great with Go"
 date: 2018-10-30T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "October 2018 (Go)"
 starttime: "10/30 12:00pm ET"
 endtime: "10/30 1:00pm ET"
 days: 1

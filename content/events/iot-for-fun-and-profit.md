@@ -1,6 +1,10 @@
 ---
 title: "IoT for Fun and Profit"
 date: 2017-09-22T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "September 2017"
 starttime: "9/22 12:00pm EST"
 endtime: "9/22 1:00pm EST"
 days: 1

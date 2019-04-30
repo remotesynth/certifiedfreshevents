@@ -1,6 +1,10 @@
 ---
 title: "Dealing with Perfectionism, Imposter Syndrome & Anxiety"
 date: "2019-02-22"
+menu:
+  main:
+    parent: "events"
+    name: "February 2019"
 starttime: "2/22 12:00pm EST"
 endtime: "2/22 1:00pm EST"
 days: 1

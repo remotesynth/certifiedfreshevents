@@ -1,6 +1,10 @@
 ---
 title: "Modern Web Development with the JAMStack"
 date: "2018-05-23"
+menu:
+  main:
+    parent: "events"
+    name: "May 2018"
 starttime: "5/23 12:00pm EST"
 endtime: "5/23 1:00pm EST"
 days: 1

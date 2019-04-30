@@ -1,6 +1,10 @@
 ---
 title: "Vue Vixens Master Class"
 date: "2018-07-17"
+menu:
+  main:
+    parent: "events"
+    name: "July 2018"
 starttime: "7/17 12:00pm EST"
 endtime: "7/17 1:00pm EST"
 days: 1

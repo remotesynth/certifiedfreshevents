@@ -1,6 +1,10 @@
 ---
 title: "Exploring Mixed Reality"
 date: 2019-04-25T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "April 2019"
 starttime: "4/25 1:00pm ET"
 endtime: "4/25 2:00pm ET"
 days: 1

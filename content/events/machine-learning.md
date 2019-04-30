@@ -1,6 +1,10 @@
 ---
 title: "Demystifying Machine Learning"
 date: 2018-02-16T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "February 2018"
 starttime: "2/16 12:00pm EST"
 endtime: "2/16 1:00pm EST"
 days: 1

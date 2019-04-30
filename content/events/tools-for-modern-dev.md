@@ -1,6 +1,10 @@
 ---
 title: "Tools for the Modern Web Developer"
 date: "2018-06-20"
+menu:
+  main:
+    parent: "events"
+    name: "June 2018"
 starttime: "6/20 12:00pm EST"
 endtime: "6/20 1:00pm EST"
 days: 1

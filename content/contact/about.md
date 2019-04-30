@@ -2,6 +2,9 @@
 title: "About"
 date: 2017-07-12T18:52:51-04:00
 weight: 1
+menu:
+  top:
+    name: "About"
 banner: "images/pages/about.jpg"
 draft: false
 ---

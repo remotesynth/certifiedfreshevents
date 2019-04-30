@@ -1,6 +1,10 @@
 ---
 title: "Serverless Go!"
 date: "2019-03-08"
+menu:
+  main:
+    parent: "events"
+    name: "Serverless Go Training"
 starttime: "3/8 1:00pm EST"
 endtime: "3/8 4:00pm EST"
 days: 1

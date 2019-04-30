@@ -1,6 +1,10 @@
 ---
 title: "Bots, IoT and AI, Oh My!"
 date: 2018-08-10T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "Aufust 2018"
 starttime: "8/10 1:00pm ET"
 endtime: "8/10 2:00pm ET"
 days: 1

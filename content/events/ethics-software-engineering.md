@@ -1,6 +1,10 @@
 ---
 title: "Ethics in Software Engineering"
 date: 2018-09-18T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "September 2018"
 starttime: "9/18 6:00pm EST"
 endtime: "9/18 7:00pm EST"
 days: 1

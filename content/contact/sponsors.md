@@ -1,7 +1,10 @@
 ---
-title: "Support Us"
+title: "Sponsor Us"
 date: 2017-07-12T18:52:51-04:00
 weight: 3
+menu:
+  top:
+    name: "Sponsor"
 banner: "images/pages/events.jpg"
 draft: false
 ---

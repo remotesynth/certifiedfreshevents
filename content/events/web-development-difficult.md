@@ -1,6 +1,10 @@
 ---
 title: "Has Web Development Become Difficult?"
 date: 2018-11-27T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "November 2018"
 starttime: "11/27 12:00pm ET"
 endtime: "11/27 1:00pm ET"
 days: 1

@@ -1,6 +1,10 @@
 ---
 title: "Oh No You Didn’t: Conflict Management in Today’s Tech Industry"
 date: 2017-11-09T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "November 2017"
 starttime: "11/9 12:00pm EST"
 endtime: "11/9 1:00pm EST"
 days: 1

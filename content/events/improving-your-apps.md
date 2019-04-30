@@ -1,6 +1,10 @@
 ---
 title: "Improving Your Apps - Performance and Debugging"
 date: 2018-01-17T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "January 2018"
 starttime: "1/17 12:00pm EST"
 endtime: "1/17 1:00pm EST"
 days: 1

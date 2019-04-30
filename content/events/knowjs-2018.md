@@ -1,6 +1,10 @@
 ---
 title: "KnowJS 2018"
 date: 2018-04-13T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "KnowJS 2018"
 starttime: "4/13 9:00am EST"
 endtime: "4/13 6:00pm EST"
 days: 1

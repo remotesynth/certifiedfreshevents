@@ -1,6 +1,10 @@
 ---
 title: "Building IoT Apps: From Device to Cloud and Back Again"
 date: "2018-08-29"
+menu:
+  main:
+    parent: "events"
+    name: "IoT Trainign 2018"
 starttime: "8/29 12:00pm EST"
 endtime: "8/29 4:00pm EST"
 days: 1

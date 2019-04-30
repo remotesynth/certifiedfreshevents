@@ -1,6 +1,10 @@
 ---
 title: "Exploring JavaScript Frameworks"
 date: 2017-10-05T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "October 2017"
 starttime: "10/5 12:00pm EST"
 endtime: "10/5 1:00pm EST"
 days: 1

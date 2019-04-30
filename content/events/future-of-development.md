@@ -1,6 +1,10 @@
 ---
 title: "The Future of Development"
 date: 2017-12-15T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "December 2017"
 starttime: "12/15 12:00pm EST"
 endtime: "12/15 1:00pm EST"
 days: 1

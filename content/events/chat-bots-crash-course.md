@@ -1,6 +1,10 @@
 ---
 title: "A Chatbot Crash Course"
 date: "2019-03-27"
+menu:
+  main:
+    parent: "events"
+    name: "March 2019"
 starttime: "3/27 12:00pm EST"
 endtime: "3/27 1:00pm EST"
 days: 1
