@@ -1,2 +1,2 @@
 # Redirect domain aliases to primary domain
-https://cfe.dev/* https://certifiedfreshevents.com/:splat 301!
+https://certifiedfreshevents.com/* https://cfe.dev/:splat 301!
