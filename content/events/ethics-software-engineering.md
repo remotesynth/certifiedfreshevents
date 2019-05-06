@@ -5,17 +5,20 @@ menu:
   main:
     parent: "events"
     name: "September 2018"
+categories:
+    - Culture
 starttime: "9/18 6:00pm EST"
 endtime: "9/18 7:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/ethics_page.jpg"
-homepage_banner: "images/banners/Ethics_In_Software_Engineering.png"
+banner: "ethics_page.jpg"
+homepage_banner: "Ethics_In_Software_Engineering.png"
 description: "A panel to discuss how engineering decisions often made by developers can impact the real world."
 short_desc: "This month we're not discussing how we build it, but should we."
+embed_url: https://www.crowdcast.io/e/ethics-in-software
 draft: false
-carousel: false
+featured: false
 ---
 
 As engineers, the decisions we make often have real world consequences but we're often too far removed to understand the impact of our decisions. As an industry, we need to have more candid and frank discussions about the ethics and morality of the tools we build.

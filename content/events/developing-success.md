@@ -5,17 +5,20 @@ menu:
   main:
     parent: "events"
     name: "April 2018"
+categories:
+    - Career
 starttime: "4/5 12:00pm EST"
 endtime: "4/5 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/Header_dev_success.jpg"
-homepage_banner: "images/banners/Banner_Developing-Success.jpg"
+banner: "Header_dev_success.jpg"
+homepage_banner: "Banner_Developing-Success.jpg"
 short_desc: "Learn the skills it takes to become a better developer."
 description: "Alyssa Nicoll and Jenell Pizarro share tips on how to learn and grow to become a better developer with experience."
+embed_url: https://www.crowdcast.io/e/developing-success
 draft: false
-carousel: false
+featured: false
 ---
 
 Knowing how to code is only one piece of being a successful developer. The other parts involve a desire to learn, an ability to communicate and work with those around you, and even, sometimes, the willingness to accept and learn from failure.

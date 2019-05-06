@@ -4,18 +4,21 @@ date: 2018-08-10T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "Aufust 2018"
+    name: "August 2018"
+categories:
+    - IoT
 starttime: "8/10 1:00pm ET"
 endtime: "8/10 2:00pm ET"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/futuristic_page.jpg"
-homepage_banner: "images/banners/Bots-Iot-AI-Oh-My.jpg"
+banner: "futuristic_page.jpg"
+homepage_banner: "Bots-Iot-AI-Oh-My.jpg"
 short_desc: "The ways that we interact with devices and the internet keeps changing."
 description: "In this free online meetup, Tomomi Imura and David Simmons explore new ways of interacting with devices and the internet such as chat bots and the internet of things."
+embed_url: https://www.crowdcast.io/e/bots-iot-and-ai-oh-my
 draft: false
-carousel: false
+featured: false
 ---
 
 The way people interact with devices and the internet is changing quickly. We're no longer just clicking on a desktop browser or tapping on a phone screen. We're chatting with bots using text or voice. Or we're interacting with all sorts of internet connected devices that, in many cases don't even have a screen. In this free online meetup, Tomomi Imura of Slack and David Simmons of InfluxData will discuss some these important topics around chat bots, IoT and artificial intelligence.

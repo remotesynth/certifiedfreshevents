@@ -5,17 +5,20 @@ menu:
   main:
     parent: "events"
     name: "January 2019"
+categories:
+    - JavaScript
 starttime: "1/22 12:00pm EST"
 endtime: "1/22 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/enterprise_page.jpg"
-homepage_banner: "images/banners/JavaScript-for-Enterprise-Development.png"
+banner: "enterprise_page.jpg"
+homepage_banner: "JavaScript-for-Enterprise-Development.png"
 short_desc: "JavaScript is enterprise ready - Rizchel Dayao and Simon MacDonald show how."
 description: "In this free online meetup, we'll look at a couple of ways that JavaScript can be utilized in enterprise development. Join Rizchel Dayao presenting Building Enterprise Applications with the Magic of React, Redux, and GraphQL and Simon MacDonald presenting The FaaS and the Serverless."
+embed_url: https://www.crowdcast.io/e/javascript-for
 draft: false
-carousel: true
+featured: true
 ---
 
 For years, JavaScript was dismissed as "not enterprise ready," but those days have long past. Modern tools and frameworks have made JavaScript a mainstay in the enterprise. In this free online meetup, we'll look at a couple of ways that JavaScript can be utilized in enterprise development. Join Rizchel Dayao presenting "Building Enterprise Applications with the Magic of React, Redux, and GraphQL" and Simon MacDonald presenting "The FaaS and the Serverless."

@@ -5,16 +5,21 @@ menu:
   main:
     parent: "events"
     name: "December 2017"
+categories:
+    - Bots
+    - Serverless
 starttime: "12/15 12:00pm EST"
 endtime: "12/15 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/future_of_dev_page.jpg"
-homepage_banner: "images/banners/Banner_The-Future-Of-Development.jpg"
+banner: "future_of_dev_page.jpg"
+homepage_banner: "Banner_The-Future-Of-Development.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact."
+embed_url: https://www.crowdcast.io/e/the-future-of-development
 draft: false
+featured: false
 ---
 
 Technology is moving quickly - things like bots, serverless, VR/AR, IoT and more are quickly changing both how we develop and what we develop for. And we thought things got complex when we were just targeting desktop and mobile devices! In this free, online event we'll cover two of those trends that are shaping how we develop and what we develop for.

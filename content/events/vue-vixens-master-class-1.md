@@ -5,15 +5,20 @@ menu:
   main:
     parent: "events"
     name: "July 2018"
+categories:
+  - JavaScript
+  - Culture
+  - Career
 starttime: "7/17 12:00pm EST"
 endtime: "7/17 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/vue-vixens-banner.png"
-homepage_banner: "images/banners/Banner_Vue-Vixens.jpg"
+banner: "vue-vixens-banner.png"
+homepage_banner: "Banner_Vue-Vixens.jpg"
 short_desc: "Diana Rodriguez discusses imposter syndrome and Natalia Tepluhina talks GraphQL and Apollo."
 description: "In partnership with Vue Vixens, we're offering two speakers talking on the topics of imposter syndrome and GraphQL with Apollo."
+embed_url: https://www.crowdcast.io/e/vue-vixens-master-class
 draft: false
 carousel: false
 ---

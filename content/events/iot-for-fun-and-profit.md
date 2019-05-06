@@ -5,17 +5,20 @@ menu:
   main:
     parent: "events"
     name: "September 2017"
+categories:
+    - IoT
 starttime: "9/22 12:00pm EST"
 endtime: "9/22 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/IoT-For-Fun-And-Profit_page.jpg"
-homepage_banner: "images/banners/IoT-For-Fun-And-Profit.jpg"
+banner: "IoT-For-Fun-And-Profit_page.jpg"
+homepage_banner: "IoT-For-Fun-And-Profit.jpg"
 short_desc: "Simple and practical ways for getting started in IoT - from basic electronics to smart home integration"
 description: "In this free online event, Brandon Satrom and Brad Marsh show simple and practical ways for getting started in IoT - from basic electronics to smart home integration."
+embed_url: https://www.crowdcast.io/e/7v1mj9k9
 draft: false
-carousel: false
+featured: false
 ---
 
 For many developers, hardware can be intimidating. This is why the Internet of Things can seem simultaneously appealing and scary. There are so many promising ideas on how to mix code and devices, but how do all the wires and devices connect? Is there soldering involved?

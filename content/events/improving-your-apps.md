@@ -5,17 +5,21 @@ menu:
   main:
     parent: "events"
     name: "January 2018"
+categories:
+    - CSS
+    - Performance
 starttime: "1/17 12:00pm EST"
 endtime: "1/17 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/Improving_Apps_Page.jpg"
-homepage_banner: "images/banners/Banner_Improving-You-Apps-Debugging.jpg"
+banner: "Improving_Apps_Page.jpg"
+homepage_banner: "Banner_Improving-You-Apps-Debugging.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."
+embed_url: https://www.crowdcast.io/e/improving-your-apps--
 draft: false
-carousel: false
+featured: true
 ---
 
 Most experienced developers will tell you that hardest parts of the job comes after the initial code is written - when it is time to refine, tune and test the application. It can take a deep understanding of the languages, tools and code to maximize the applications performance and experience.

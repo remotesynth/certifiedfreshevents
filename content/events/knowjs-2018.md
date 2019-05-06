@@ -5,18 +5,21 @@ menu:
   main:
     parent: "events"
     name: "KnowJS 2018"
+categories:
+    - JavaScript
 starttime: "4/13 9:00am EST"
 endtime: "4/13 6:00pm EST"
 days: 1
 location: "Online"
 cost: "$299"
 recording_cost: "$0"
-banner: "images/banners/Header_KnowJS.jpg"
-homepage_banner: "images/banners/Banner_KnowJS.jpg"
+banner: "Header_KnowJS.jpg"
+homepage_banner: "Banner_KnowJS.jpg"
 short_desc: "Lean JavaScript fundamentals through hands-on, online training."
 description: "KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry."
+embed_url: https://www.crowdcast.io/e/fundamental-javascript
 draft: false
-carousel: false
+featured: true
 ---
 
 <style>

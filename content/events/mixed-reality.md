@@ -5,17 +5,20 @@ menu:
   main:
     parent: "events"
     name: "April 2019"
+categories:
+    - Virtual Reality
 starttime: "4/25 1:00pm ET"
 endtime: "4/25 2:00pm ET"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/virtual-reality.jpg"
-homepage_banner: "images/banners/Exploring-Mixed-Reality.jpg"
+banner: "virtual-reality.jpg"
+homepage_banner: "Exploring-Mixed-Reality.jpg"
 short_desc: "Ayşegül Yönet takes us through virtual reality, augmented reality and mixed reality."
 description: "Is VR going to happen? Is Augmented Reality a buzzword? What is this Mixed Reality anyway? Ayşegül Yönet explains what they are and how to get started."
+embed_url: https://www.crowdcast.io/e/exploring-mixed-reality
 draft: false
-carousel: false
+featured: false
 ---
 
 In virtual reality, we replace the user's physical world with another entirely. This has important use cases. However, augmented reality and mixed reality applications build upon the user's real-world environment to create a hybrid reality where real world objects and virtual objects coexist. This opens up a whole new set of application possibilities where the user can still interact with their surroundings, but enhanced with information.

@@ -5,17 +5,22 @@ menu:
   main:
     parent: "events"
     name: "June 2018"
+categories:
+    - JavaScript
+    - JAMStack
+    - Web Development
 starttime: "6/20 12:00pm EST"
 endtime: "6/20 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/tools_page.jpg"
-homepage_banner: "images/banners/Banner_Tools-For-The-Modern-Web-Developer.jpg"
+banner: "tools_page.jpg"
+homepage_banner: "Banner_Tools-For-The-Modern-Web-Developer.jpg"
 short_desc: "A look at some tools that can improve your development process."
 description: "Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby."
+embed_url: https://www.crowdcast.io/e/tools-for-the-modern-web
 draft: false
-carousel: false
+featured: false
 ---
 
 Developers today have the blessing and the curse of a plethora of tools. On the one hand, we have pretty much all of our bases covered - often for free. On the other, it can be tough to keep pace with all the tools and what they are good for.

@@ -5,17 +5,21 @@ menu:
   main:
     parent: "events"
     name: "November 2017"
+categories:
+    - Culture
+    - Career
 starttime: "11/9 12:00pm EST"
 endtime: "11/9 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/conflict_page.jpg"
-homepage_banner: "images/banners/Banner_Oh_No_You_Didnt.jpg"
+banner: "conflict_page.jpg"
+homepage_banner: "Banner_Oh_No_You_Didnt.jpg"
 description: "In this interactive, our panel will discuss conflict that they have personally faced and techniques that we use to resolve our conflicts"
 short_desc: "Strategies and techniques to resolve conflicts in the workplace."
+embed_url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
 draft: false
-carousel: false
+featured: false
 ---
 
 On some level, conflict is an unavoidable part of any workplace - it’s tough enough for groups of people to always get along, even when the stresses of work aren’t involved.  But how we choose to handle that conflict can factor hugely in the success of the team and in our own happiness.

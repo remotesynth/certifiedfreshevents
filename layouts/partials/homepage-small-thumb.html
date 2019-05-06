@@ -1,0 +1,13 @@
+<div class="col-lg-6">
+  <article class="entry thumb thumb--size-1">
+    <div class="entry__img-holder thumb__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}');">
+      <div class="bottom-gradient"></div>
+      <div class="thumb-text-holder thumb-text-holder--4">
+        <h2 class="thumb-entry-title">
+          <a href="{{ .Permalink }}">{{.Params.Title}}</a>
+        </h2>
+      </div>
+      <a href="{{ .Permalink }}" class="thumb-url"></a>
+    </div>
+  </article>
+</div>

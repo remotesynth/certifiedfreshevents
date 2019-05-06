@@ -3,4 +3,7 @@ languageCode: "en-us"
 title: "Certified Fresh Events"
 params:
   description: "Certified Fresh Events LLC specializes in creating and organizing events around technology, development/programming and IT."
+  twitter: fresheventsfl
+  instagram: certifiedfreshevents
+  youtube: https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg
 menu: ["main", "top"]

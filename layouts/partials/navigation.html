@@ -12,18 +12,19 @@
             </button> 
 
             <!-- Logo -->
-            <a href="index.html" class="logo">
-            <img class="logo__img" src="img/logo_videos.png" srcset="img/logo_videos.png 1x, img/logo_videos@2x.png 2x" alt="logo">
+            <a href="/index.html" class="logo">
+            <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="{{ .Site.Title }}">
             </a>
 
             <!-- Nav-wrap -->
             <nav class="flex-child nav__wrap d-none d-lg-block">              
             <ul class="nav__menu">
-                                    <li>
-                                        <a href="/index.html">Home</a>
-                                    </li>
-                                {{ $currentPage := . }}
-                                {{ range .Site.Menus.main }}
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                {{ $parentNavURL := .URL }}
                 <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
                 <a href="{{ .URL }}">{{ .Name }}</a>
                 {{ if .HasChildren }}
@@ -32,7 +33,7 @@
                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
                     {{ if gt .Children 10 }}
-                    <li><a href="{{ .Parent }}">More...</a></li>
+                    <li><a href="{{ $parentNavURL }}">More...</a></li>
                     {{ end }}
                 </ul>
                 {{ end }}

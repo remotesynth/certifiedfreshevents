@@ -5,17 +5,21 @@ menu:
   main:
     parent: "events"
     name: "November 2018"
+categories:
+  - Web Development
+  - Web Standards
 starttime: "11/27 12:00pm ET"
 endtime: "11/27 1:00pm ET"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/frustration.jpg"
-homepage_banner: "images/banners/Has-Web-Development-Become-Difficult.png"
+banner: "frustration.jpg"
+homepage_banner: "Has-Web-Development-Become-Difficult.png"
 short_desc: "Jory Burson and Raymond Camden explore whether we've made web development difficult to learn."
 description: "Jory Burson will explore the question of when and how web development became so complicated by looking at the evolution of the industry. Then Raymond Camden will explore some of the tools out there designed to help developers learn new skills and highlight some of the pros and cons of each."
+embed_url: https://www.crowdcast.io/e/has-web-development
 draft: false
-carousel: true
+featured: true
 ---
 
 Developers have never had more tools at their disposal, but has this explosion of tools also made web development difficult? Have we erected new barriers to entry for anyone looking to break into a career in web development?

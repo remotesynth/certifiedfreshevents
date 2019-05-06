@@ -5,17 +5,21 @@ menu:
   main:
     parent: "events"
     name: "February 2019"
+categories:
+    - Culture
+    - Career
 starttime: "2/22 12:00pm EST"
 endtime: "2/22 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/anxiety.jpg"
-homepage_banner: "images/banners/Dealing-with-Perfectionism.jpg"
+banner: "anxiety.jpg"
+homepage_banner: "Dealing-with-Perfectionism.jpg"
 short_desc: "Jo Franchetti discusses how to understand your fears and learn to be kind to yourself."
 description: "Jo Franchetti discusses how to spot destructive thought patterns in yourself, how to manage anxiety and procrastination and how to start being kinder to yourself."
+embed_url: https://www.crowdcast.io/e/dealing-with
 draft: false
-carousel: true
+featured: true
 ---
 
 Imposter syndrome, anxiety and perfectionism are not issues that only face people working in tech, but they do seem to inordinately affect people working in tech at some time or another in their careers. In this session, Jo Franchetti discusses how to spot these patterns in yourself and offers strategies to deal with them.

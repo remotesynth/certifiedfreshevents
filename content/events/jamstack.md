@@ -5,17 +5,21 @@ menu:
   main:
     parent: "events"
     name: "May 2018"
+categories:
+    - JAMStack
+    - Web Development
 starttime: "5/23 12:00pm EST"
 endtime: "5/23 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/static_page.jpg"
-homepage_banner: "images/banners/Banner_JAMStack.jpg"
+banner: "static_page.jpg"
+homepage_banner: "Banner_JAMStack.jpg"
 short_desc: "Raymond Camden of Auth0 and Phil Hawksworth of Netlify will show how to get started with the JAMStack."
 description: "In this session, Raymond Camden of Auth0 and Phil Hawksworth of Netlify will show how to get started with the JAMStack and how you can take advantage of all of these tools to build sites that are dynamic, secure and incredibly fast."
+embed_url: https://www.crowdcast.io/e/modern-web-development
 draft: false
-carousel: false
+featured: false
 ---
 
 We used to call them "static sites," but nowadays they are anything but static. New tools, services and serverless functions are redefining the way we build "static sites" to the point that they needed a new name that represented their real capabilities: JAMStack.

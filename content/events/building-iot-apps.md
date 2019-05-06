@@ -4,19 +4,22 @@ date: "2018-08-29"
 menu:
   main:
     parent: "events"
-    name: "IoT Trainign 2018"
+    name: "IoT Training 2018"
+categories:
+    - IoT
 starttime: "8/29 12:00pm EST"
 endtime: "8/29 4:00pm EST"
 days: 1
 location: "Online"
 cost: "$249"
 recording_cost: "$0"
-banner: "images/banners/Header-Buiding-IoT-Apps.jpg"
-homepage_banner: "images/banners/Banner-Buiding-IoT-Apps.jpg"
+banner: "Header-Buiding-IoT-Apps.jpg"
+homepage_banner: "Banner-Buiding-IoT-Apps.jpg"
 short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
 description: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again."
+embed_url: https://www.crowdcast.io/e/building-iot-apps-from
 draft: false
-carousel: false
+featured: false
 ---
 
 <style>

@@ -5,16 +5,20 @@ menu:
   main:
     parent: "events"
     name: "August 2017"
+categories:
+    - JavaScript
 starttime: "8/23 12:00pm EST"
 endtime: "8/23 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/jsframeworks2017_page.jpg"
-homepage_banner: "images/banners/javascript2017.jpg"
+banner: "jsframeworks2017_page.jpg"
+homepage_banner: "javascript2017.jpg"
 short_desc: "A look at recent developments in the world of JavaScript."
 description: "In this free event, Raymond Camden and TJ VanToll take a look at some of the advancements in JavaScript and how developers can start using them today."
+embed_url: https://www.crowdcast.io/e/rb68byb9
 draft: false
+featured: false
 ---
 
 JavaScript development has seen a lot of changes in recent years, between new specifications like ES6 and ES7 to new tooling like TypeScript. This free event takes a look at some of these advancements and how developers can realistically start taking advantage of them today.
