@@ -99,7 +99,7 @@ For questions, or if you are interested in group pricing for your company, pleas
             <div class="col-md-3 col-sm-3">
                 <div class="speaker">
                     <figure>
-                        <img alt="Kyle Simpson" class="img-responsive center-block" src="/images/speakers/KyleSimpson.jpg">
+                        <img alt="Kyle Simpson" class="img-responsive center-block" src="/img/speakers/KyleSimpson.jpg">
                     </figure>
                     <h4>Kyle Simpson</h4>
                     <div class="speaker-bio"><p>Kyle Simpson is an evangelist of the Open Web, passionate about all things JavaScript. He speaks, teaches, writes, and contributes to OSS.</p></div>
@@ -112,7 +112,7 @@ For questions, or if you are interested in group pricing for your company, pleas
             <div class="col-md-3 col-sm-3">
                 <div class="speaker">
                     <figure>
-                        <img alt="Bianca Gandolfo" class="img-responsive center-block" src="/images/speakers/BiancaGandolfo.jpg">
+                        <img alt="Bianca Gandolfo" class="img-responsive center-block" src="/img/speakers/BiancaGandolfo.jpg">
                     </figure>
                     <h4>Bianca Gandolfo</h4>
                     <div class="speaker-bio"><p>Bianca is a JavaScript consultant for Bitovi who has written and taught on Frontend Masters, Pluralsight and at various coding Bootcamps throughout the world.</p></div>
@@ -126,7 +126,7 @@ For questions, or if you are interested in group pricing for your company, pleas
             <div class="col-md-3 col-sm-3">
                 <div class="speaker">
                     <figure>
-                        <img alt="Kent C. Dodds" class="img-responsive center-block" src="/images/speakers/KentCDodds.jpg">
+                        <img alt="Kent C. Dodds" class="img-responsive center-block" src="/img/speakers/KentCDodds.jpg">
                     </figure>
                     <h4>Kent C. Dodds</h4>
                     <div class="speaker-bio"><p>Kent C. Dodds writes JavaScript for PayPal and the open source community. He's also a teacher. Kent likes his family, JavaScript, and React.</p></div>
@@ -140,7 +140,7 @@ For questions, or if you are interested in group pricing for your company, pleas
             <div class="col-md-3 col-sm-3">
                 <div class="speaker">
                     <figure>
-                        <img alt="Jem Young" class="img-responsive center-block" src="/images/speakers/jemyoung.jpg">
+                        <img alt="Jem Young" class="img-responsive center-block" src="/img/speakers/jemyoung.jpg">
                     </figure>
                     <h4>Jem Young</h4>
                     <div class="speaker-bio"><p>Jem Young is an engineer at Netflix who really enjoys working across the stack but his true passion lies in JavaScript and building a clean user experience.</p></div>
@@ -157,7 +157,7 @@ For questions, or if you are interested in group pricing for your company, pleas
 
 ---
 
-<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates.jpg" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
+<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/img/banners/AzureAdvocates.jpg" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
 
 ## KnowJS Diversity Scholarships
 ### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
@@ -174,7 +174,7 @@ Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited 
 ---
 
 ### Promises, Generators, Async
-<img alt="Kyle Simpson" style="float:left;margin:5px;" width="60" src="/images/speakers/KyleSimpson.jpg">
+<img alt="Kyle Simpson" style="float:left;margin:5px;" width="60" src="/img/speakers/KyleSimpson.jpg">
 ##### Time: 9am - 11am ET
 ##### Instructor: Kyle Simpson
 
@@ -187,7 +187,7 @@ So how can we make use of promises but not have to suffer this poor and confusin
 ---
 
 ### JavaScript Fundamentals for Functional Programming
-<img alt="Bianca Gandolfo" style="float:left;margin:5px;" width="60" src="/images/speakers/BiancaGandolfo.jpg">
+<img alt="Bianca Gandolfo" style="float:left;margin:5px;" width="60" src="/img/speakers/BiancaGandolfo.jpg">
 ##### Time: 11am - 1pm ET
 ##### Instructor: Bianca Gandolfo
 
@@ -213,7 +213,7 @@ This is an interactive online workshop with exercises that build upon one anothe
 ---
 
 ### How to Open Source Your Stuff
-<img alt="Kent C. Dodds" style="float:left;margin:5px;" width="60" src="/images/speakers/KentCDodds.jpg">
+<img alt="Kent C. Dodds" style="float:left;margin:5px;" width="60" src="/img/speakers/KentCDodds.jpg">
 ##### Time: 2pm - 4pm ET
 ##### Instructor: Kent C. Dodds
 
@@ -226,7 +226,7 @@ In this workshop, we'll take a look at an existing application, identify a good 
 ---
 
 ### Computer Science in Front End Dev: It's For More than Just Interviews
-<img alt="Jem Yound" style="float:left;margin:5px;" width="60" src="/images/speakers/jemyoung.jpg">
+<img alt="Jem Yound" style="float:left;margin:5px;" width="60" src="/img/speakers/jemyoung.jpg">
 ##### Time: 4pm - 6pm ET
 ##### Instructor: Jem Young
 
@@ -235,11 +235,3 @@ In this workshop, we'll take a look at an existing application, identify a good 
 A common refrain of many disillusioned front end developers is that deeper computer science concepts are useful mostly for interviews and little else. And to some extent, that can be true! However many are underestimating how often the concepts, the tradeoffs, and other associated concepts subtly arise in every day front end development.
 
 During our time together I will present a few computer science concepts like bloom filters, tree traversals, and array sorting explain how these can show up in places you wouldn't necessarily expect them and how you can leverage these powerful algorithms and data structures to make yourself a better programmer. By the end I hope to show you that these concepts are both worthy of your attention and not so difficult to learn.
-
----
-
-## Register
-
-Please note, if you have difficulty loading the registration widget below, go directly to [the event on Crowdcast to register](https://www.crowdcast.io/e/fundamental-javascript).
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/fundamental-javascript?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

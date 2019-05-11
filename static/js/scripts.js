@@ -201,27 +201,6 @@
       $this.css('left', -offset);
     });
   }
-  
-
-  /* Twitter Feed
-  -------------------------------------------------------*/
-  if($('#tweets').length) {
-    function initTwitter() {
-      var config1 = {
-        "id": '594366594521804800',
-        "domId": 'tweets',
-        "showUser": false,
-        "showInteraction": false,
-        "showPermalinks": false,
-        "showTime": true,
-        "maxTweets": 2,
-        "enableLinks": true
-      };
-      twitterFetcher.fetch(config1);
-    }
-    initTwitter();
-  }
-
 
   /* YouTube Video Playlist
   -------------------------------------------------------*/
@@ -411,7 +390,7 @@
 
 
   /* Sticky Socials
-  -------------------------------------------------------*/
+  -------------------------------------------------------
   (function() {
     var $stickyCol = $('.sticky-col');
     if($stickyCol.length > 0) {
@@ -419,38 +398,7 @@
         offset_top: 80
       });
     }
-  })();
-
-
-  /* ---------------------------------------------------------------------- */
-  /*  Contact Form
-  /* ---------------------------------------------------------------------- */
-
-  var submitContact = $('#submit-message'),
-    message = $('#msg');
-
-  submitContact.on('click', function(e){
-    e.preventDefault();
-
-    var $this = $(this);
-    
-    $.ajax({
-      type: "POST",
-      url: 'contact.php',
-      dataType: 'json',
-      cache: false,
-      data: $('#contact-form').serialize(),
-      success: function(data) {
-
-        if(data.info !== 'error'){
-          $this.parents('form').find('input[type=text],input[type=email],textarea,select').filter(':visible').val('');
-          message.hide().removeClass('success').removeClass('error').addClass('success').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-        } else {
-          message.hide().removeClass('success').removeClass('error').addClass('error').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-        }
-      }
-    });
-  });
+  })();*/
 
 
   /* Scroll to Top
@@ -471,3 +419,24 @@
   });
 
 })(jQuery);
+
+/* Twitter Share
+  -------------------------------------------------------*/
+function getWindowOptions(height,width) {
+  var left = (window.innerWidth / 2) - (width / 2);
+  var top = (window.innerHeight / 2) - (height / 2);
+
+  return [
+    'resizable,scrollbars,status',
+    'height=' + height,
+    'width=' + width,
+    'left=' + left,
+    'top=' + top,
+  ].join();
+};
+
+function openTwitterShare(url,message) {
+  var shareUrl = 'https://twitter.com/intent/tweet?url=' + url + '&text=' + message;
+  var win = window.open(shareUrl, 'ShareOnTwitter', getWindowOptions());
+  win.opener = null;
+}

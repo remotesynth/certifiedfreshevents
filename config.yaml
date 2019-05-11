@@ -7,3 +7,12 @@ params:
   instagram: certifiedfreshevents
   youtube: https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg
 menu: ["main", "top"]
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: false
+  indices:
+  - name: categories
+    weight: 100
+  - name: date
+    weight: 10
