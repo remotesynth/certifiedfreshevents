@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body class="style-videos">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Bg Overlay -->
+  <div class="content-overlay"></div>
+
+
+{{ partial "left-nav.html" . }}
+
+  <main class="main oh" id="main">
+
+    {{ partial "top-bar.html" . }}        
+
+    {{ partial "navigation.html" . }}
+
+    <div class="main-container container pt-40" id="main-container">         
+
+      <!-- Content -->
+      <div class="row">
+
+        <!-- Posts -->
+        <div class="col-lg-8 blog__content mb-72">
+          <h1 class="page-title">Search results for: {{ .Title }}</h1>
+          {{ range .Paginator.Pages.ByDate.Reverse }}
+          <article class="entry card post-list">
+            <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}')">
+              <a href="single-post.html" class="thumb-url"></a>
+              <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
+              {{ range $category := first 1 .Params.Categories }}
+              <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
+              {{ end }}
+            </div>
+
+            <div class="entry__body post-list__body card__body">
+              <div class="entry__header">
+                <h2 class="entry__title">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                <ul class="entry__meta">
+                  <li class="entry__meta-date">
+                    {{ .Date.Format "Mon, Jan 2, 2006" }}
+                  </li>
+                </ul>
+              </div>        
+              <div class="entry__excerpt">
+                <p>{{ .Params.short_desc }}</p>
+              </div>
+            </div>
+          </article>
+          {{ end }}
+
+          {{ if gt .Paginator.TotalPages 1}}
+          <!-- Pagination -->
+          <nav class="pagination">
+            {{ $paginator := .Paginator }}
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="pagination__page pagination__icon pagination__page--next"><i class="ui-arrow-left"></i></a>
+            {{ end }}
+            {{ range .Paginator.Pagers }}
+              {{ if eq .PageNumber $paginator.PageNumber }}
+            <span class="pagination__page pagination__page--current">{{ .PageNumber }}</span>
+              {{ else }}
+            <a href="{{ .URL }}" class="pagination__page">{{ .PageNumber }}</a>
+              {{ end }}
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" class="pagination__page pagination__icon pagination__page--next"><i class="ui-arrow-right"></i></a>
+            {{ end }}
+          </nav>
+          {{ end }}
+        </div> <!-- end posts -->
+
+        <!-- Sidebar -->
+        <aside class="col-lg-4 sidebar sidebar--right">
+
+          <!-- Widget Popular Posts -->
+          <aside class="widget widget-popular-posts">
+            <h4 class="widget-title">Popular Posts</h4>
+            <ul class="post-list-small">
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="img/content/post_small/post_small_1.jpg" src="img/empty.png" alt="" class=" lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">DeoThemes</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2018
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="img/content/post_small/post_small_2.jpg" src="img/empty.png" alt="" class=" lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">DeoThemes</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2018
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="img/content/post_small/post_small_3.jpg" src="img/empty.png" alt="" class=" lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">June in Africa: Taxi wars, smarter cities and increased investments</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">DeoThemes</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2018
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="img/content/post_small/post_small_4.jpg" src="img/empty.png" alt="" class=" lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">PUBG Desert Map Finally Revealed, Here Are All The Details</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">DeoThemes</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2018
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+            </ul>           
+          </aside> <!-- end widget popular posts -->
+
+          <!-- Widget Newsletter -->
+          <aside class="widget widget_mc4wp_form_widget">
+            <h4 class="widget-title">Newsletter</h4>
+            <p class="newsletter__text">
+              <i class="ui-email newsletter__icon"></i>
+              Subscribe for our daily news
+            </p>
+            <form class="mc4wp-form" method="post">
+              <div class="mc4wp-form-fields">
+                <div class="form-group">
+                  <input type="email" name="EMAIL" placeholder="Your email" required="">
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
+                </div>
+              </div>
+            </form>
+          </aside> <!-- end widget newsletter -->
+
+          <!-- Widget Socials -->
+          <aside class="widget widget-socials">
+            <h4 class="widget-title">Let's hang out on social</h4>
+            <div class="socials socials--wide socials--large">
+              <div class="row row-16">
+                <div class="col">
+                  <a class="social social-facebook" href="#" title="facebook" target="_blank" aria-label="facebook">
+                    <i class="ui-facebook"></i>
+                    <span class="social__text">Facebook</span>
+                  </a><!--
+                  --><a class="social social-twitter" href="#" title="twitter" target="_blank" aria-label="twitter">
+                    <i class="ui-twitter"></i>
+                    <span class="social__text">Twitter</span>
+                  </a><!--
+                  --><a class="social social-youtube" href="#" title="youtube" target="_blank" aria-label="youtube">
+                    <i class="ui-youtube"></i>
+                    <span class="social__text">Youtube</span>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="social social-google-plus" href="#" title="google" target="_blank" aria-label="google">
+                    <i class="ui-google"></i>
+                    <span class="social__text">Google+</span>
+                  </a><!--
+                  --><a class="social social-instagram" href="#" title="instagram" target="_blank" aria-label="instagram">
+                    <i class="ui-instagram"></i>
+                    <span class="social__text">Instagram</span>
+                  </a><!--
+                  --><a class="social social-rss" href="#" title="rss" target="_blank" aria-label="rss">
+                    <i class="ui-rss"></i>
+                    <span class="social__text">Rss</span>
+                  </a>
+                </div>                
+              </div>            
+            </div>
+          </aside> <!-- end widget socials -->
+
+        </aside> <!-- end sidebar -->
+  
+      </div> <!-- end content -->
+    </div> <!-- end main container -->
+    
+    {{ partial "footer.html" .}}
+
+    </main> <!-- end main-wrapper -->
+
+{{ partial "scripts.html" .}}
+
+</body>
+</html>
