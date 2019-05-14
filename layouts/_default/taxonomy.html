@@ -84,111 +84,37 @@
         <aside class="col-lg-4 sidebar sidebar--right">
 
           <!-- Widget Popular Posts -->
+          {{ $upcoming := where .Site.RegularPages ".Date" "ge" now }}
+          {{ if ne (len $upcoming) 0 }}
           <aside class="widget widget-popular-posts">
-            <h4 class="widget-title">Popular Posts</h4>
+            <h4 class="widget-title">Upcoming Events</h4>
             <ul class="post-list-small">
+              {{ range $upcoming }}
               <li class="post-list-small__item">
                 <article class="post-list-small__entry clearfix">
                   <div class="post-list-small__img-holder">
                     <div class="thumb-container thumb-100">
                       <a href="single-post.html">
-                        <img data-src="img/content/post_small/post_small_1.jpg" src="img/empty.png" alt="" class=" lazyload">
+                        <img data-src="{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
                       </a>
                     </div>
                   </div>
                   <div class="post-list-small__body">
                     <h3 class="post-list-small__entry-title">
-                      <a href="single-post.html">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                      <a href="single-post.html">{{.Title}}</a>
                     </h3>
                     <ul class="entry__meta">
-                      <li class="entry__meta-author">
-                        <span>by</span>
-                        <a href="#">DeoThemes</a>
-                      </li>
                       <li class="entry__meta-date">
-                        Jan 21, 2018
+                          {{ .Date.Format "Mon, Jan 2, 2006" }}
                       </li>
                     </ul>
-                  </div>                  
-                </article>
-              </li>
-              <li class="post-list-small__item">
-                <article class="post-list-small__entry clearfix">
-                  <div class="post-list-small__img-holder">
-                    <div class="thumb-container thumb-100">
-                      <a href="single-post.html">
-                        <img data-src="img/content/post_small/post_small_2.jpg" src="img/empty.png" alt="" class=" lazyload">
-                      </a>
-                    </div>
                   </div>
-                  <div class="post-list-small__body">
-                    <h3 class="post-list-small__entry-title">
-                      <a href="single-post.html">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
-                    </h3>
-                    <ul class="entry__meta">
-                      <li class="entry__meta-author">
-                        <span>by</span>
-                        <a href="#">DeoThemes</a>
-                      </li>
-                      <li class="entry__meta-date">
-                        Jan 21, 2018
-                      </li>
-                    </ul>
-                  </div>                  
                 </article>
               </li>
-              <li class="post-list-small__item">
-                <article class="post-list-small__entry clearfix">
-                  <div class="post-list-small__img-holder">
-                    <div class="thumb-container thumb-100">
-                      <a href="single-post.html">
-                        <img data-src="img/content/post_small/post_small_3.jpg" src="img/empty.png" alt="" class=" lazyload">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="post-list-small__body">
-                    <h3 class="post-list-small__entry-title">
-                      <a href="single-post.html">June in Africa: Taxi wars, smarter cities and increased investments</a>
-                    </h3>
-                    <ul class="entry__meta">
-                      <li class="entry__meta-author">
-                        <span>by</span>
-                        <a href="#">DeoThemes</a>
-                      </li>
-                      <li class="entry__meta-date">
-                        Jan 21, 2018
-                      </li>
-                    </ul>
-                  </div>                  
-                </article>
-              </li>
-              <li class="post-list-small__item">
-                <article class="post-list-small__entry clearfix">
-                  <div class="post-list-small__img-holder">
-                    <div class="thumb-container thumb-100">
-                      <a href="single-post.html">
-                        <img data-src="img/content/post_small/post_small_4.jpg" src="img/empty.png" alt="" class=" lazyload">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="post-list-small__body">
-                    <h3 class="post-list-small__entry-title">
-                      <a href="single-post.html">PUBG Desert Map Finally Revealed, Here Are All The Details</a>
-                    </h3>
-                    <ul class="entry__meta">
-                      <li class="entry__meta-author">
-                        <span>by</span>
-                        <a href="#">DeoThemes</a>
-                      </li>
-                      <li class="entry__meta-date">
-                        Jan 21, 2018
-                      </li>
-                    </ul>
-                  </div>                  
-                </article>
-              </li>
+              {{ end }}
             </ul>           
           </aside> <!-- end widget popular posts -->
+          {{ end }}
 
           <!-- Widget Newsletter -->
           <aside class="widget widget_mc4wp_form_widget">
@@ -197,7 +123,7 @@
               <i class="ui-email newsletter__icon"></i>
               Subscribe for our daily news
             </p>
-            <form class="mc4wp-form" method="post">
+            <form action="//certifiedfreshevents.us16.list-manage.com/subscribe/post?u=82e13d22ccab323aaceeaef8b&id=ddcfa6d68b" class="mc4wp-form" method="post">
               <div class="mc4wp-form-fields">
                 <div class="form-group">
                   <input type="email" name="EMAIL" placeholder="Your email" required="">
@@ -215,29 +141,21 @@
             <div class="socials socials--wide socials--large">
               <div class="row row-16">
                 <div class="col">
-                  <a class="social social-facebook" href="#" title="facebook" target="_blank" aria-label="facebook">
-                    <i class="ui-facebook"></i>
-                    <span class="social__text">Facebook</span>
-                  </a><!--
-                  --><a class="social social-twitter" href="#" title="twitter" target="_blank" aria-label="twitter">
+                  <a class="social social-twitter" href="https://twitter.com/{{.Site.Params.twitter}}" title="twitter" target="_blank" aria-label="twitter">
                     <i class="ui-twitter"></i>
                     <span class="social__text">Twitter</span>
-                  </a><!--
-                  --><a class="social social-youtube" href="#" title="youtube" target="_blank" aria-label="youtube">
-                    <i class="ui-youtube"></i>
-                    <span class="social__text">Youtube</span>
+                  </a>
+                  <a class="social social-instagram" href="https://instagram.com/{{.Site.Params.instagram}}" title="instagram" target="_blank" aria-label="instagram">
+                    <i class="ui-instagram"></i>
+                    <span class="social__text">Instagram</span>
                   </a>
                 </div>
                 <div class="col">
-                  <a class="social social-google-plus" href="#" title="google" target="_blank" aria-label="google">
-                    <i class="ui-google"></i>
-                    <span class="social__text">Google+</span>
-                  </a><!--
-                  --><a class="social social-instagram" href="#" title="instagram" target="_blank" aria-label="instagram">
-                    <i class="ui-instagram"></i>
-                    <span class="social__text">Instagram</span>
-                  </a><!--
-                  --><a class="social social-rss" href="#" title="rss" target="_blank" aria-label="rss">
+                  <a class="social social-youtube" href="{{.Site.Params.youtube}}" title="youtube" target="_blank" aria-label="youtube">
+                      <i class="ui-youtube"></i>
+                      <span class="social__text">Youtube</span>
+                  </a>
+                  <a class="social social-rss" href="index.xml" title="rss" target="_blank" aria-label="rss">
                     <i class="ui-rss"></i>
                     <span class="social__text">Rss</span>
                   </a>
