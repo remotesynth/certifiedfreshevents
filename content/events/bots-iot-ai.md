@@ -29,7 +29,7 @@ Let’s build rich applications with the natural user interactions with a minima
 
 #### Tomomi Imura
 
-<img src="/images/speakers/tomomiimura.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Tomomi Imura">
+<img src="/img/speakers/tomomiimura.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Tomomi Imura">
 
 Tomomi Imura (a.k.a girlie_mac) is an avid open web & open technology advocate, who is currently working for Developer Relations team at Slack in San Francisco, also an advisor for Code Chrysalis in Tokyo. Previously, she had worked in the mobile industry at various companies and communities for years, including The World Wide Web Consortium (W3C) to improve mobile web. When she is not at work, she still hacking things, as well as combining technology with cats- her past projects include HTTP Status Cats, and Raspberry Pi Cat Camera.
 
@@ -43,14 +43,8 @@ As IoT deployments move forward, the need to collect, analyze, and respond to da
 
 #### David Simmons
 
-<img src="/images/speakers/davidsimmons.jpeg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="David Simmons">
+<img src="/img/speakers/davidsimmons.jpeg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="David Simmons">
 
 David Simmons is the Senior IoT Developer Evangelist at InfluxData, helping developers around the globe manage the streams of data that their devices produce. He is passionate about IoT and helped to develop the very first IoT Developer Platform before “IoT” was even ‘a thing.’ David has held numerous technical evangelist roles at companies such as DragonFlyIoT, Riverbed Technologies, and Sun Microsystems.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@davidgsiot](https://twitter.com/davidgsiot)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/bots-iot-and-ai-oh-my?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

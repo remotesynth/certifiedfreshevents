@@ -31,7 +31,7 @@ It feels like everyone is talking about AI these days – and what’s worse, ev
 
 In this session we’ll answer those questions – and walk through what machine learning really is: how to build a model by ingesting data, training on it, testing, and then deploying to production. We’ll also discuss which tools are primarily used by data scientists; how much math is really required to run predictive models; and some strategies you can use today to incorporate artificial intelligence into your applications.
 
-<img src="/images/speakers/PaigeBailey.jpg" style="float:left;margin-right: 10px;" alt="Paige Bailey">
+<img src="/img/speakers/PaigeBailey.jpg" style="float:left;margin-right: 10px;" alt="Paige Bailey">
 
 ##### Paige Bailey
 
@@ -49,16 +49,10 @@ Twitter Bots are a great interface for ingesting data and doing awesome things p
 
 Participants can expect to leave the workshop with an understanding of how Twitter bots are architected, and boilerplate code which they can use going forward to modify for their own use cases.
 
-<img src="/images/speakers/nicholaswalsh.jpg" style="float:left;margin-right: 10px;" alt="Nick Walsh">
+<img src="/img/speakers/nicholaswalsh.jpg" style="float:left;margin-right: 10px;" alt="Nick Walsh">
 
 ##### Nick Walsh
 
 Nick Walsh is a Developer Evangelist at Datmo, where he works to empower machine learning and artificial intelligence developers through the creation of novel workflow tools. He can often be seen at hackathons across the US, where he supports the student developer community through his work with Major League Hacking. Previously at Wolfram Research working on the Cloud Development Platform, Nick continues to foster his passion for solving problems with data and giving back to communities that helped him grow as a developer
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@thenickwalsh](https://twitter.com/thenickwalsh)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/demystifying-machine?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

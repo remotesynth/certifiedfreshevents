@@ -29,7 +29,7 @@ Building a checkout process is almost a right of passage for a web developer, bu
   </div>
   <div class="row">
     <div class="col-md-4 col-sm-4">
-      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/images/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
+      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/img/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
     </div>
     <div class="col-md-8 col-sm-8">
       <strong>SaaS Extensibility Reimagined</strong><br>
@@ -46,14 +46,8 @@ During this presentation, we'll to walk through the future of web payments in th
 
 #### Robert Wozniak
 
-<img src="/images/speakers/robertwozniak.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Robert Wozniak">
+<img src="/img/speakers/robertwozniak.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Robert Wozniak">
 
 Robert is a passionate programmer, husband and a leader. He strives to engage himself in challenging projects by following the motto of "Be a better developer today than you were yesterday." He works at McFadyen Digital where he leads the UI team to success in creating high-quality code and projects for clients. He's also working as an Invited Expert at the W3C, specifically in the Web Payments group to represent and have a part in implementing the future of online transactions. You can find Robert's blog at [robertjwozniak.com](http://robertjwozniak.com/).
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@RobertJWozniak](https://twitter.com/RobertJWozniak)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/the-future-of-web?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

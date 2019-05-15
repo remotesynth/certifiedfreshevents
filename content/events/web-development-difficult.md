@@ -32,7 +32,7 @@ In this free online meetup, Jory Burson will explore the question of when and ho
   </div>
   <div class="row">
     <div class="col-md-4 col-sm-4">
-      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/images/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
+      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/img/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
     </div>
     <div class="col-md-8 col-sm-8">
       <strong>SaaS Extensibility Reimagined</strong><br>
@@ -47,13 +47,11 @@ Learning web development from scratch can be a daunting task. In addition to pro
 
 #### Jory Burson
 
-<img src="/images/speakers/JoryBurson.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Jory Burson">
+<img src="/img/speakers/JoryBurson.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Jory Burson">
 
 Jory is a consultant and educator working to improve collaboration in open source and open standards communities as a member of several industry boards and standards setting organizations. She is sponsored by Bocoup to advocate for web developers on Ecma International's Executive Committee, the JS Foundation Technical Architecture Committee, the W3C Advisory Council, the MDN Product Advisory Board, and works on projects with Ecma TC39, Ecma TC53, and Web Platform Tests.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@jorydotcom](https://twitter.com/jorydotcom)
-
-<br style="clear:both;">
 
 ## Learning the Web Your Own Way
 
@@ -62,14 +60,8 @@ will discuss various different options, pros and cons of each, and introduce you
 
 #### Raymond Camden
 
-<img src="/images/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Raymond Camden">
+<img src="/img/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Raymond Camden">
 
 Raymond Camden is a developer advocate starting a new job soon. Until then, his bio is boring. Please google "pictures of cats" instead. Raymond can be reached at [his blog](https://www.raymondcamden.com), @raymondcamden on Twitter.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/has-web-development?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

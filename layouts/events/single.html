@@ -52,13 +52,13 @@
 			<ul class="entry__meta">
 				{{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
 				{{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
-				{{ $ageYears := math.Floor (div $ageMonths 12) }}
+				{{ $ageYears := math.Round (div $ageMonths 12.0) }}
 				<li class="entry__meta-date">
 				{{ if lt $ageDays 0 }}
 					{{ $ageDays := mul $ageDays -1 }}
 					In {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}}
 				{{ else if ge $ageYears 1 }}
-				{{ $ageYears }} {{ cond (eq $ageYears 1) "year" "years" }} ago
+					About {{ $ageYears }} {{ cond (eq $ageYears 1) "year" "years" }} ago
 				{{ else if eq $ageDays 0 }}
 					Today
 				{{ else if lt $ageDays 31 }}
@@ -73,6 +73,9 @@
 				<a href="{{ "categories" | absURL }}/{{ $category | urlize }}">{{$category}}</a>
 				{{ end }}
 				</li>
+				{{ if ne .Params.cost "0"}}
+					<li class="entry__meta-category">Cost: {{ if .Params.recording_cost}}<strike style="color:#CCCCCC;">{{ end }}{{ .Params.cost }}{{ if .Params.recording_cost}}</strike> {{ .Params.recording_cost }}{{ end }}</li>
+				{{ end }}
 			</ul>
 			</div>
 		</div>          

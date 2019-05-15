@@ -29,7 +29,7 @@ In this event, Brandon Satrom and Brad Marsh will show simple and practical ways
 
 There's never been a better time to tinker with electronics. Once the domain of hard core enthusiasts with a penchant for obsessing over optimizing C code, the world of electronics and the IoT is now flush with boards, kits and devices that are tailor-made for the new maker, and which have all the speed and power that the pros have. If you're a developer, you already know half of what you need in order to start lighting things up and making things go, and there are a number of kits out there that let you use the languages you know to power the IoT. And once you get into the space, you won't help but want to share it with others, from friends to your kids. In this session, Brandon will share tools and tips for getting yourself--and your kids--involved in the world of electronics.
 
-<img src="/images/speakers/brandonsatrom.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
+<img src="/img/speakers/brandonsatrom.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
 
 ##### Brandon Satrom
 
@@ -43,14 +43,10 @@ Brandon is the founder of [Carrot Pants Press](http://carrotpantsstudios.com/), 
 
 With cheaper and more configurable IOT platforms now available, many of us have made our homes more efficient and more intelligent.  Now it’s time to make them more fun.  In this session we’ll explore easy ways that you can introduce new and exciting experiences into your home using your existing setup.  We’ll show that with a few cheap parts,  some code and an Arduino or two, the magic of your Disney World vacation can be recreated in your living room.  Examples will include immersive interactive fiction, enhanced board game night and ultimate laser tag.  So bring your imaginations and prepare to have some fun.
 
-<img src="/images/speakers/bradmarsh.jpg" style="float:left;margin-right: 10px;" alt="Brad Marsh">
+<img src="/img/speakers/bradmarsh.jpg" style="float:left;margin-right: 10px;" alt="Brad Marsh">
 
 ##### Brad Marsh
 
 Brad is a Senior Developer at SmartThings, who has spent the last 11 years focusing on user experience driven development. For the past 3 years, his primary focus has been on finding better and more intuitive ways for people to interact with their homes. An avid writer, as well as programmer, he founded LitLift.com, a novel planning website which he sold in 2013. Currently he spends his free time doing game development and cooking BBQ.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@Bbqhacker](https://twitter.com/Bbqhacker)
-
-<br style="clear:both;">
-<a name="register"></a>
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/7v1mj9k9?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

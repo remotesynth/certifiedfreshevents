@@ -33,7 +33,7 @@ In this session you will be introduced to Vue.js, a popular Javascript framework
 <li><a href="/slides/vue.pdf">slides</a></li>
 </ul>
 
-<img src="/images/speakers/hollyschinsky.jpg" style="float:left;margin-right: 10px;" alt="Holly Schinsky">
+<img src="/img/speakers/hollyschinsky.jpg" style="float:left;margin-right: 10px;" alt="Holly Schinsky">
 
 ##### Holly Schinsky
 
@@ -54,17 +54,11 @@ Yep, you heard it right, not React, but Preact! Let’s take a look at this smal
 <li><a href="https://github.com/jlooper/quicknoms-preact">code</a></li>
 </ul>
 
-<img src="/images/speakers/jenlooper.jpg" style="float:left;margin-right: 10px;" alt="Jen Looper">
+<img src="/img/speakers/jenlooper.jpg" style="float:left;margin-right: 10px;" alt="Jen Looper">
 
 ##### Jen Looper
 
 Jen Looper is a Boston-based web and mobile developer and developer advocate at Progress specializing in cross-platform educational and fitness apps for iOS, Android, Kindle and more.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@jenlooper](https://twitter.com/jenlooper)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/vc1pp66r?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>
 

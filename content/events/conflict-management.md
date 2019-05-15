@@ -28,7 +28,7 @@ In this interactive event, our panel will discuss conflict that they have person
 
 ### Out Panelists
 
-<img src="/images/speakers/shannonvettes.jpg" style="float:left;margin-right: 10px;" alt="Shannon Vettes">
+<img src="/img/speakers/shannonvettes.jpg" style="float:left;margin-right: 10px;" alt="Shannon Vettes">
 
 ##### Shannon Vettes
 
@@ -36,7 +36,7 @@ Shannon is a swiss-army-knife who has worked in all things from project manageme
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@svettes](https://twitter.com/svettes)
 
-<img src="/images/speakers/christinaaldan.jpg" style="float:left;margin-right: 10px;" alt="Christina Aldan">
+<img src="/img/speakers/christinaaldan.jpg" style="float:left;margin-right: 10px;" alt="Christina Aldan">
 
 ##### Christina Aldan
 
@@ -44,7 +44,7 @@ Christina Aldan is a TEDx speaker, trainer, and digital advertising consultant w
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@luckygirliegirl](https://twitter.com/luckygirliegirl)
 
-<img src="/images/speakers/taramanicsic.jpg" style="float:left;margin-right: 10px;" alt="Tara Manicsic">
+<img src="/img/speakers/taramanicsic.jpg" style="float:left;margin-right: 10px;" alt="Tara Manicsic">
 
 ##### Tara Manicsic
 
@@ -52,17 +52,11 @@ Tara Z. Manicsic is a lifelong student, teacher and maker from Cincinnati, Ohio.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@tzmanics](https://twitter.com/tzmanics)
 
-<img src="/images/speakers/brianrinaldi.jpg" style="float:left;margin-right: 10px;" alt="Brian Rinaldi">
+<img src="/img/speakers/brianrinaldi.jpg" style="float:left;margin-right: 10px;" alt="Brian Rinaldi">
 
 ##### Brian Rinaldi
 
 Brian is the founder of Certified Fresh Events. A regular author and speaker, Brian spends his days working for Progress Software as a Developer Programs Manager on the Developer Relations Team. When he isn’t at work (or running events), Brian spends his time at the gym or playing video games.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@remotesynth](https://twitter.com/remotesynth)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/oh-no-you-didnt-conflict?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>
 

@@ -29,7 +29,8 @@
                 <a href="{{ .URL }}">{{ .Name }}</a>
                 {{ if .HasChildren }}
                 <ul class="nav__dropdown-menu">
-                    {{ range first 10 .Children }}
+                    {{ $children := sort .Children ".Page.Date" "desc" }}
+                    {{ range first 10 $children }}
                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
                     {{ if gt .Children 10 }}

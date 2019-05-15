@@ -30,7 +30,7 @@ In this session, Raymond Camden of Auth0 and Phil Hawksworth of Netlify will sho
 
 We used to call them static sites, so why can't we just leave that name alone? The JAMstack can actually go a lot further than delivering static sites. You can use it to deliver highly performant, secure, scalable... dynamic web sites. In this talk we'll look at what the JAMstack is, and how we can use emerging tools and conventions to embrace the possibilities of modern web development without exposing ourselves to undue risk.
 
-<img src="/images/speakers/philhawksworth.jpg" style="float:left;margin-right: 10px;" alt="Phil Hawksworth">
+<img src="/img/speakers/philhawksworth.jpg" style="float:left;margin-right: 10px;" alt="Phil Hawksworth">
 
 ##### Phil Hawksworth
 
@@ -44,16 +44,10 @@ Phil works in Developer Relations at Netlify, the fastest growing automation and
 
 Now that you've decided to go static, you may find yourself in a odd position. While 95% of your site may work just fine static, there will often be a few parts that need some kind of dynamic aspect to them. From something as simple as a form to more complex data access, I'll discuss ways to add a bit of dynamic back into a static site.
 
-<img src="/images/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
+<img src="/img/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
 
 ##### Raymond Camden
 
 Raymond Camden is a senior developer advocate for Auth0 Extend. His work focuses on Extend, serverless, and the web in general. He's a published author and presents at conferences and user groups on a variety of topics. Raymond can be reached at [his blog](www.raymondcamden.com), @raymondcamden on Twitter, or via email at raymondcamden@gmail.com.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/modern-web-development?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

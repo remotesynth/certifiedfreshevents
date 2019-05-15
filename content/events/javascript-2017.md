@@ -29,7 +29,7 @@ JavaScript has evolved rapidly over the past few years and while that is, 100%, 
 
 [**Download the slide deck here**](/slides/es6.pdf)
 
-<img src="/images/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
+<img src="/img/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
 
 ##### Raymond Camden
 
@@ -47,14 +47,10 @@ In this talk we’ll talk a look at why TypeScript succeeded where other compile
 
 [**Download the slide deck here**](/slides/Typescript.pdf)
 
-<img src="/images/speakers/tjvantoll.jpg" style="float:left;margin-right: 10px;" alt="TJ VanToll">
+<img src="/img/speakers/tjvantoll.jpg" style="float:left;margin-right: 10px;" alt="TJ VanToll">
 
 ##### TJ VanToll
 
 TJ VanToll is a front-end developer, author, and a senior developer advocate for Progress who spends his time helping web developers build mobile apps through projects like Cordova and NativeScript.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@tjvantoll](https://twitter.com/tjvantoll)
-
-<br style="clear:both;">
-<a name="register"></a>
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/rb68byb9?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

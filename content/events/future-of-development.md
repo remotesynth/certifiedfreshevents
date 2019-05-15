@@ -41,7 +41,7 @@ However, building serverless-y apps is very new and as such fought with early da
 
 In this talk Brian will walk you through a new approach to architecting applications with plain text using [arc.codes](https://arc.codes/) to create apps in minutes and subsequently deploy in seconds with zero downtime and unprecedented availability.
 
-<img src="/images/speakers/brianleroux.jpg" style="float:left;margin-right: 10px;" alt="Brian LeRoux">
+<img src="/img/speakers/brianleroux.jpg" style="float:left;margin-right: 10px;" alt="Brian LeRoux">
 
 ##### Brian LeRoux
 
@@ -55,7 +55,7 @@ Brian LeRoux is the Cofounder/CTO of [begin.com](https://begin.com) which is a n
 
 Learn how to quickly get started with Rubotnik boilerplate to build a bot with rich features. Rubotnik is framework- and database agnostic and promotes a «bot-end» approach to build conversational interfaces with an easy-to-follow DSL. And it’s easily deployable to Heroku!
 
-<img src="/images/speakers/andybarnov.jpg" style="float:left;margin-right: 10px;" alt="Andy Barnov">
+<img src="/img/speakers/andybarnov.jpg" style="float:left;margin-right: 10px;" alt="Andy Barnov">
 
 ##### Andy Barnov
 
@@ -65,9 +65,3 @@ programming and got his Ruby/Rails bases covered by graduating from Le Wagon boo
 Rubotnik is his pet project that allows anyone with a minimal programming knowledge to quickly launch a functional (and framework independent) Facebook Messenger bot. 
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@progapandist](https://twitter.com/progapandist)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/the-future-of-development?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

@@ -34,7 +34,7 @@ The key to a good user experience is quickly delivering the content your visitor
 
 In this talk, Tammy will walk you through a brief history of UX and web performance research. She'll highlight key studies that connect the dots between performance and user experience. She'll also demystify the current state of performance metrics and help you understand what you need to focus on for your site and your users. 
 
-<img src="/images/speakers/tammyeverts.jpg" style="float:left;margin-right: 10px;" alt="Tammy Everts">
+<img src="/img/speakers/tammyeverts.jpg" style="float:left;margin-right: 10px;" alt="Tammy Everts">
 
 ##### Tammy Everts
 
@@ -48,16 +48,10 @@ Tammy Everts is chief experience officer at [SpeedCurve](https://speedcurve.com
 
 All too often developers are left completely puzzled when the browser renders CSS in ways they didn’t expect. It’s not dark magic though and as developers, we know that computers are just parsing our instructions. While many talks discuss how to fix common bugs, this talk will focus on the why by taking a deep dive into browser internals to see how our styles are parsed and rendered.
 
-<img src="/images/speakers/aimeeknight.jpg" style="float:left;margin-right: 10px;" alt="Aimee Knight">
+<img src="/img/speakers/aimeeknight.jpg" style="float:left;margin-right: 10px;" alt="Aimee Knight">
 
 ##### Aimee Knight
 
 Aimee Knight is a former figure skater, a graduate of the [Nashville Software School](http://nashvillesoftwareschool.com/), and a software engineer for Warner Bros Digital Labs. Outside of work, she’s a weekly panelist on the JavaScript Jabber podcast, and she regularly participates in a variety of others. In her spare time, she enjoys speaking at conferences, playing with new technology, running, working out, or trying the latest flavor of Kombucha. Find her, and her contagious enthusiasm on Twitter [@Aimee_Knight](https://twitter.com/Aimee_Knight)!
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@Aimee_Knight](https://twitter.com/Aimee_Knight)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/improving-your-apps--?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

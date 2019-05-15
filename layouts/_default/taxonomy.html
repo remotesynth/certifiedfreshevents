@@ -34,7 +34,7 @@
           {{ range .Paginator.Pages.ByDate.Reverse }}
           <article class="entry card post-list">
             <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}')">
-              <a href="single-post.html" class="thumb-url"></a>
+              <a href="{{ .Permalink }}" class="thumb-url"></a>
               <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
               {{ range $category := first 1 .Params.Categories }}
               <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
@@ -94,14 +94,14 @@
                 <article class="post-list-small__entry clearfix">
                   <div class="post-list-small__img-holder">
                     <div class="thumb-container thumb-100">
-                      <a href="single-post.html">
+                      <a href="{{ .Permalink }}">
                         <img data-src="{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
                       </a>
                     </div>
                   </div>
                   <div class="post-list-small__body">
                     <h3 class="post-list-small__entry-title">
-                      <a href="single-post.html">{{.Title}}</a>
+                      <a href="{{ .Permalink }}">{{.Title}}</a>
                     </h3>
                     <ul class="entry__meta">
                       <li class="entry__meta-date">

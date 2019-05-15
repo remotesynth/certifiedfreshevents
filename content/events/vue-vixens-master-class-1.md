@@ -29,7 +29,7 @@ In partnership with [Vue Vixens](https://vuevixens.org/), we're offering a speci
 
 Real life struggles. Real tips and answers. An entertaining (yes!) talk about those things we never talk about.
 
-<img src="/images/speakers/dianarodriguez.jpg" style="float:left;margin-right: 10px;" alt="Diana Rodriguez">
+<img src="/img/speakers/dianarodriguez.jpg" style="float:left;margin-right: 10px;" alt="Diana Rodriguez">
 
 ##### Diana Rodriguez
 
@@ -43,16 +43,10 @@ Diana Rodriguez is a Full Stack Developer & DevOps based in Buenos Aires current
 
 GraphQL is a new buzzword today. Let’s see how to use GraphQL and Apollo in Vue to make API calls more maintainable!
 
-<img src="/images/speakers/nataliatepluhina.jpg" style="float:left;margin-right: 10px;" alt="Natalia Tepluhina">
+<img src="/img/speakers/nataliatepluhina.jpg" style="float:left;margin-right: 10px;" alt="Natalia Tepluhina">
 
 ##### Natalia Tepluhina
 
 Natalia Tepluhina is a Frontend Developer based in Kyiv, Ukraine. She is working at Scalac, where she builds single-page applications using different JavaScript frameworks (mostly Angular & VueJS). Natalia is a constant learner and loves to share knowledge with other people. She is a regular participant of local VueJS meetups and occasional speaker at Scalac internal frontend development presentations. In her spare time Natalia enjoys playing videogames an
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@N_Tepluhina‏](https://twitter.com/N_Tepluhina)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/vue-vixens-master-class?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

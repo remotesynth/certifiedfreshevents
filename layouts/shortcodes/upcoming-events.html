@@ -6,7 +6,7 @@
     {{ range $upcoming }}
     <article class="entry card post-list">
         <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}')">
-        <a href="single-post.html" class="thumb-url"></a>
+        <a href="{{ .Permalink }}" class="thumb-url"></a>
         <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
         {{ range $category := first 1 .Params.Categories }}
         <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>

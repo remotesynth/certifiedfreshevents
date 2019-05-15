@@ -28,14 +28,10 @@ Imposter syndrome, anxiety and perfectionism are not issues that only face peopl
 
 Working in the tech industry can sometimes make us feel inferior. It is easy to start believing that everyone knows more, or finds the work easier. When we’re surrounded by so many intelligent people, how can we not start to judge ourselves against them and our work against theirs? Impostor syndrome - the belief that you don’t deserve to be where you are, and perfectionism - a need to work to impossibly high standards, are exhausting. Learn how to spot these destructive thought patterns in yourself, how to manage anxiety and procrastination and how to start being kinder to yourself.
 
-<img src="/images/speakers/JoFranchetti.jpg" style="float:left;margin-right: 10px;" alt="Jo Franchetti">
+<img src="/img/speakers/JoFranchetti.jpg" style="float:left;margin-right: 10px;" alt="Jo Franchetti">
 
 ##### Jo Franchetti
 
 Jo is a Web Developer Advocate for Samsung Internet who is passionate about VR, Web Bluetooth, PWAs and great CSS. She’s got 6 years experience as a web developer and has worked in various parts of the tech industry from startups, agencies, charities to large organisations. She is also mentor and organiser at codebar.io where she is able to action her passion not only for teaching good use of the web but also for improving the diversity and inclusivity of the tech industry.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@ThisIsJoFrank](https://twitter.com/ThisIsJoFrank)
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/dealing-with?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>
