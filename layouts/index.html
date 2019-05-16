@@ -78,7 +78,7 @@
             {{ range first 6 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.embed_url" "!=" nil)}}
             <a href="{{ .Params.embed_url }}" class="video-playlist__list-item video-playlist__list-item--active">
               <div class="video-playlist__list-item-thumb">
-                <img data-src="{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}" src="{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}" class="video-playlist__list-item-img lazyload" alt="">
+                <img data-src="/img/banners/{{ .Params.Homepage_banner }}" src="/img/banners/{{ .Params.Homepage_banner }}" class="video-playlist__list-item-img lazyload" alt="">
               </div>
               <div class="video-playlist__list-item-description">
                 <h4 class="video-playlist__list-item-title">{{ .Title }}</h4>

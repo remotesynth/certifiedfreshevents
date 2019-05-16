@@ -1,5 +1,5 @@
 <article class="entry thumb thumb--size-4">
-  <div class="entry__img-holder thumb__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}');">
+  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}');">
     <div class="bottom-gradient"></div>
     <div class="thumb-text-holder thumb-text-holder--3">
       {{ range $category := first 1 .Params.Categories }}

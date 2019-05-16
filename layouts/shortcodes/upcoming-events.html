@@ -5,7 +5,7 @@
 <div class="blog__content">
     {{ range $upcoming }}
     <article class="entry card post-list">
-        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}')">
+        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}')">
         <a href="{{ .Permalink }}" class="thumb-url"></a>
         <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
         {{ range $category := first 1 .Params.Categories }}

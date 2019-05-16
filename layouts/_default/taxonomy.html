@@ -33,7 +33,7 @@
           <h1 class="page-title">Search results for: {{ .Title }}</h1>
           {{ range .Paginator.Pages.ByDate.Reverse }}
           <article class="entry card post-list">
-            <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}')">
+            <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}')">
               <a href="{{ .Permalink }}" class="thumb-url"></a>
               <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
               {{ range $category := first 1 .Params.Categories }}
@@ -95,7 +95,7 @@
                   <div class="post-list-small__img-holder">
                     <div class="thumb-container thumb-100">
                       <a href="{{ .Permalink }}">
-                        <img data-src="{{ .Site.BaseURL }}/img/banners/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
+                        <img data-src="/img/banners/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
                       </a>
                     </div>
                   </div>
