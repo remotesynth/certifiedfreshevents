@@ -1,0 +1,12 @@
+{
+  "name": "certifiedfreshevents",
+  "version": "2.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "string": "^3.3.3",
+    "toml": "^3.0.0",
+    "yaml": "^1.5.1"
+  }
+}
