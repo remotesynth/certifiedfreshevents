@@ -32,6 +32,6 @@ Raymond Camden will give a gentle introduction to the Vue.js framework and descr
 
 <img src="/img/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;margin-top: 15px;" alt="Raymond Camden">
 
-Raymond Camden works as a Developer Experience engineer for American Express. He works on serverless, JavaScript, web standards, and enterprise cat demos. He is the author of multiple books on web development and has been actively blogging and presenting for almost twenty years. Raymond can be reached at [his blog](www.raymondcamden.com), [@raymondcamden](https://twitter.com/raymondcamden) on Twitter, or via email at raymondcamden@gmail.com.
+Raymond Camden works as a Developer Experience engineer for American Express. He works on serverless, JavaScript, web standards, and enterprise cat demos. He is the author of multiple books on web development and has been actively blogging and presenting for almost twenty years. Raymond can be reached at [his blog](https://www.raymondcamden.com/), [@raymondcamden](https://twitter.com/raymondcamden) on Twitter, or via email at raymondcamden@gmail.com.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
