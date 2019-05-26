@@ -440,3 +440,20 @@ function openTwitterShare(url,message) {
   var win = window.open(shareUrl, 'ShareOnTwitter', getWindowOptions());
   win.opener = null;
 }
+
+/* Mailchimp form submit
+  -------------------------------------------------------*/
+
+function subscribeForm(email) {
+  axios.get('https://redesign.cfe.dev/.netlify/functions/mailchimp', {
+    data: {
+      email: email
+    }
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+}
