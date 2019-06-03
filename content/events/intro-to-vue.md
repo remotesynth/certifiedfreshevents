@@ -3,7 +3,7 @@ title: "An Introduction to Vue"
 date: "2019-05-23"
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "May 2019"
 categories:
   - JavaScript
