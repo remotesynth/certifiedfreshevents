@@ -4,17 +4,11 @@
   "description": "",
   "main": "Gruntfile.js",
   "devDependencies": {
+    "axios": "^0.19.0",
     "grunt": "^1.0.4",
     "request": "^2.88.0",
     "string": "^3.3.3",
     "toml": "^3.0.0",
     "yaml": "^1.5.1"
-  },
-  "dependencies": {
-    "netlify-lambda": "^1.4.13"
-  },
-  "scripts": {
-    "start:lambda": "netlify-lambda serve src/lambda",
-    "build:lambda": "netlify-lambda build src/lambda"
   }
 }

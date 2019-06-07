@@ -444,10 +444,10 @@ function openTwitterShare(url,message) {
 /* Mailchimp form submit
   -------------------------------------------------------*/
 
-function subscribeForm(email) {
-  axios.get('https://redesign.cfe.dev/.netlify/functions/mailchimp', {
+function subscribeForm(form) {
+  axios.get('http://localhost:34567/.netlify/functions/mailchimp', {
     data: {
-      email: email
+      email: form.email.value
     }
   })
   .then(function (response) {
@@ -456,4 +456,6 @@ function subscribeForm(email) {
   .catch(function (error) {
     console.log(error);
   });
+
+  return false;
 }
