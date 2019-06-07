@@ -445,7 +445,7 @@ function openTwitterShare(url,message) {
   -------------------------------------------------------*/
 
 function subscribeForm(form) {
-  axios.get('http://localhost:34567/.netlify/functions/mailchimp', {
+  axios.get('/.netlify/functions/mailchimp', {
     data: {
       email: form.email.value
     }
