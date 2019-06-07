@@ -36,7 +36,7 @@ exports.handler = async (event, context) => {
       },
       auth: {
         'username': 'anythingreally',
-        'password': 'b8ceff138e4eb6cc7e746a9141a0abea-us16' // process.env.MAILCHIMP_API
+        'password': process.env.MAILCHIMP_API
       }
     }).then(res => {
       return {
