@@ -444,17 +444,17 @@ function openTwitterShare(url,message) {
 /* Mailchimp form submit
   -------------------------------------------------------*/
 
-function subscribeForm(form) {
-  axios.get('/.netlify/functions/mailchimp', {
-    data: {
-      email: form.email.value
-    }
+function subscribeForm(form,messageObj) {
+  axios.post('/.netlify/functions/mailchimp', {
+    email: form.email.value
   })
   .then(function (response) {
-    console.log(response);
+    form.subscribe.disabled = true;
+    form.email.value = "";
+    form.subscribe.value = "Subscribed!";
   })
   .catch(function (error) {
-    console.log(error);
+    messageObj.innerHTML = "We apologize, there was a problem subscribing.";
   });
 
   return false;

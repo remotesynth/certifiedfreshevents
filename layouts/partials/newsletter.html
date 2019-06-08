@@ -10,15 +10,16 @@
     </p>
     </div>
     <div class="newsletter-wide__form">
-    <form id="mailchimp" class="mc4wp-form" onsubmit="return subscribeForm(this);">
+    <form id="mailchimp" class="mc4wp-form" onsubmit="return subscribeForm(this,document.getElementById('subscribe_message'));">
       <div class="mc4wp-form-fields">
       <div class="form-group">
         <input type="email" name="email" placeholder="Your email" required="true" aria-required="true">
       </div>
       <div class="form-group">
-        <input type="submit" class="btn btn-lg btn-color" value="Subscribe">
+        <input type="submit" name="subscribe" class="btn btn-lg btn-color" value="Subscribe">
       </div>
       </div>
+      <div id="subscribe_message" style="color:red;"></div>
     </form>
     </div> 
   </div>         

@@ -15,6 +15,13 @@ const apiRoot = 'https://us16.api.mailchimp.com/3.0/lists/ddcfa6d68b/members/';
 
 exports.handler = async (event, context) => {
   try {
+    if(!event.body) {
+      return { 
+        statusCode: 500, 
+        body: 'email query parameter required'
+      };
+    }
+
     const body = JSON.parse(event.body);
     const email = body.email;
     if(!email) {
@@ -46,12 +53,12 @@ exports.handler = async (event, context) => {
       }
     })
     .catch(err => {
-      console.log('returning from here', err.response.data.detail);
-      return { statusCode: 500, body: JSON.stringify(err.response.data) };
+      console.log(error.det);
+      return { statusCode: 500, body: err.response };
     });
 
   } catch (err) {
-    return { statusCode: 500, body: err.toString() };
+    return { statusCode: 500, body: err.response };
   }
 
 };
