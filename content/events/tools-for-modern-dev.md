@@ -1,17 +1,26 @@
 ---
 title: "Tools for the Modern Web Developer"
 date: "2018-06-20"
+menu:
+  main:
+    parent: "events"
+    name: "June 2018"
+categories:
+    - JavaScript
+    - JAMStack
+    - Web Development
 starttime: "6/20 12:00pm EST"
 endtime: "6/20 1:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/tools_page.jpg"
-homepage_banner: "images/banners/Banner_Tools-For-The-Modern-Web-Developer.jpg"
+banner: "tools_page.jpg"
+homepage_banner: "Banner_Tools-For-The-Modern-Web-Developer.jpg"
 short_desc: "A look at some tools that can improve your development process."
 description: "Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby."
+embed_url: https://www.crowdcast.io/e/tools-for-the-modern-web
 draft: false
-carousel: false
+featured: true
 ---
 
 Developers today have the blessing and the curse of a plethora of tools. On the one hand, we have pretty much all of our bases covered - often for free. On the other, it can be tough to keep pace with all the tools and what they are good for.
@@ -22,7 +31,7 @@ In this month's meetup, we'll explore a couple of these tools and get to know th
 
 [CodePen](https://codepen.io/) is an online code editor for front end code. Let's dig into how you use and get into some trickery you might not know about even if you're a seasoned CodePen user.
 
-<img src="/images/speakers/chriscoyier.jpg" style="float:left;margin-right: 10px;" alt="Chris Coyier">
+<img src="/img/speakers/chriscoyier.jpg" style="float:left;margin-right: 10px;" alt="Chris Coyier">
 
 ##### Chris Coyier
 
@@ -36,16 +45,10 @@ Chris is a web designer and developer. He writes about all things web at [CSS-Tr
 
 Learn what makes [GatsbyJS](https://www.gatsbyjs.org/) sites so fast and hear from other developers why they like building with Gatsby. Then, watch how you can start building a highly performant site in just a few minutes. Finally, learn how to contribute to Gatsby as an open source project and get a sneak peak at upcoming feature releases.
 
-<img src="/images/speakers/shannonsoper.jpg" style="float:left;margin-right: 10px;" alt="Shannon Soper">
+<img src="/img/speakers/shannonsoper.jpg" style="float:left;margin-right: 10px;" alt="Shannon Soper">
 
 ##### Shannon Soper
 
 Shannon works doing UX research at GatsbyJS. She is a Utah native who enjoys teaching aand performing music and keeping up with [her dog’s Instagram fans](https://www.instagram.com/dgtrwatson/). She teaches college-level writing on the side.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@shannonb_ux](https://twitter.com/shannonb_ux)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/tools-for-the-modern-web?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

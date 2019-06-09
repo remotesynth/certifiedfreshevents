@@ -1,17 +1,24 @@
 ---
 title: "Ethics in Software Engineering"
 date: 2018-09-18T18:52:51-04:00
+menu:
+  main:
+    parent: "events"
+    name: "September 2018"
+categories:
+    - Culture
 starttime: "9/18 6:00pm EST"
 endtime: "9/18 7:00pm EST"
 days: 1
 location: "Online"
 cost: "0"
-banner: "images/banners/ethics_page.jpg"
-homepage_banner: "images/banners/Ethics_In_Software_Engineering.png"
+banner: "ethics_page.jpg"
+homepage_banner: "Ethics_In_Software_Engineering.png"
 description: "A panel to discuss how engineering decisions often made by developers can impact the real world."
 short_desc: "This month we're not discussing how we build it, but should we."
+embed_url: https://www.crowdcast.io/e/ethics-in-software
 draft: false
-carousel: false
+featured: false
 ---
 
 As engineers, the decisions we make often have real world consequences but we're often too far removed to understand the impact of our decisions. As an industry, we need to have more candid and frank discussions about the ethics and morality of the tools we build.
@@ -22,7 +29,7 @@ As engineers, the decisions we make often have real world consequences but we're
   </div>
   <div class="row">
     <div class="col-md-4 col-sm-4">
-      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/images/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
+      <a href="https://goextend.io/?utm_source=Certified%20Fresh%20Events&utm_medium=sponsorship&utm_campaign=fresh%20events%20sponsorship"><img src="/img/banners/Extend_Logo.png" alt="Microsoft Cloud Developer Advocacy"></a>
     </div>
     <div class="col-md-8 col-sm-8">
       <strong>SaaS Extensibility Reimagined</strong><br>
@@ -37,7 +44,7 @@ Join a panel featuring members of the [Front End Happy Hour podcast](http://fron
 
 #### Moderators
 
-<img src="/images/speakers/jemyoung.jpg" style="float:left;margin-right: 10px;" alt="Jem Young">
+<img src="/img/speakers/jemyoung.jpg" style="float:left;margin-right: 10px;" alt="Jem Young">
 
 ##### Jem Young
 
@@ -47,17 +54,11 @@ Jem Young is an engineer at Netflix who really enjoys working across the stack b
 
 <br style="clear:both;">
 
-<img src="/images/speakers/brianrinaldi.jpg" style="float:left;margin-right: 10px;" alt="Brian Rinaldi">
+<img src="/img/speakers/brianrinaldi.jpg" style="float:left;margin-right: 10px;" alt="Brian Rinaldi">
 
 ##### Brian Rinaldi
 
 Brian is the founder of Certified Fresh Events. Brian spends his days working for Progress Software as the Director of Content.
 
 <i class="fa fa-twitter" aria-hidden="true"></i> [@remotesynth](https://twitter.com/remotesynth)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/ethics-in-software?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>
 

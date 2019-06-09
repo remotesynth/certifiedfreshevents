@@ -1,17 +1,25 @@
 ---
 title: "Serverless Go!"
 date: "2019-03-08"
+menu:
+  main:
+    parent: "events"
+    name: "Serverless Go Training"
+categories:
+    - Serverless
+    - Golang
 starttime: "3/8 1:00pm EST"
 endtime: "3/8 4:00pm EST"
 days: 1
 location: "Online"
 cost: "$150"
-banner: "images/banners/Serverless-Go_Large.jpg"
-homepage_banner: "images/banners/Serverless-Go_Small.jpg"
+banner: "Serverless-Go_Large.jpg"
+homepage_banner: "Serverless-Go_Small.jpg"
 short_desc: "Hands-on training with Johnny Boursiquot covers how to build scalable serverless applications with golang."
 description: "In this course you will stitch together a series of Lambda functions written in the Go programming language (golang) to build and orchestrate a fully-functional and scalable serverless application while learning how to handle the deployment, logging, metric collection, and distributed tracing that help you effectively adopt the serverless way."
+embed_url: https://www.crowdcast.io/e/serverless-go
 draft: false
-carousel: false
+featured: false
 ---
 
 <style>
@@ -63,7 +71,7 @@ Soon after you decide to embrace serverless architectures you realize that there
 
 <div class="speaker">
     <figure>
-        <img alt="Johnny Boursiquot" class="img-responsive left-block" src="/images/speakers/JohnnyBoursiquot.jpg">
+        <img alt="Johnny Boursiquot" class="img-responsive left-block" src="/img/speakers/JohnnyBoursiquot.jpg">
     </figure>
     <h4>Johnny Boursiquot</h4>
     <div class="speaker-bio"><p>Johnny Boursiquot is a multi-disciplined software and cloud engineer with two decades of industry experience spanning various server, client, and mobile technologies. He enjoys teaching technology, training developers, and has authored “Go Standard Library Solutions” available now from Packt Publishing. He is a GoBridge Core Member, the founder and organizer of the Baltimore Golang User Group.</p></div>
@@ -89,7 +97,7 @@ Soon after you decide to embrace serverless architectures you realize that there
 
 ---
 
-<div style="float:right;text-align:center;"><a href="https://golangweekly.com/"><img src="/images/banners/golang-weekly.png" alt="GoLang Weekly"></a><br><a href="https://golangweekly.com/" style="font-size: 2em;font-weight: 500;color: #6cd7e5;line-height: 1.0em;">Golang Weekly</a></div>
+<div style="float:right;text-align:center;"><a href="https://golangweekly.com/"><img src="/img/banners/golang-weekly.png" alt="GoLang Weekly"></a><br><a href="https://golangweekly.com/" style="font-size: 2em;font-weight: 500;color: #6cd7e5;line-height: 1.0em;">Golang Weekly</a></div>
 
 ## Diversity Scholarship
 ### Sponsored by [GoLang Weekly](https://golangweekly.com/) and [Cooper Press](https://cooperpress.com/)
@@ -97,9 +105,3 @@ Soon after you decide to embrace serverless architectures you realize that there
 Thanks to [GoLang Weekly](https://golangweekly.com/) newsletter and their publisher [Cooper Press](https://cooperpress.com/), we are excited to offer 5 diversity scholarships. The scholarship consists of a free ticket to attend the [Serverless Go training on March 8, 2019](https://certifiedfreshevents.com/events/serverless-go/) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry.
 
 **Thanks to everyone who applied. The scholarship deadline has passed and all spots have been filled. Thanks again to GoLang Weekly and Cooper Press for making this happen.**
-
----
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/serverless-go?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>

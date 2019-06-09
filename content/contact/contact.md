@@ -2,6 +2,9 @@
 title: "Contact Us"
 date: 2017-07-12T18:52:51-04:00
 weight: 4
+menu:
+  top:
+    name: "Contact Us"
 banner: "images/pages/subscribe.jpg"
 draft: false
 ---
@@ -11,13 +14,16 @@ draft: false
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
   <p>
-    <label>Name: <input type="text" name="name" size="40" required></label>
+    <label for="name">Name: </label>
+    <input type="text" name="name" size="40" required>
   </p>
   <p>
-    <label>Email: <input type="email" name="email" size="40" required></label>
+    <label for="email">Email: </label>
+    <input type="email" name="email" size="40" required>
   </p>
   <p>
-    <label>Message: <textarea name="message" cols="40" required></textarea></label>
+    <label for="message">Message: </label>
+    <textarea name="message" cols="40" required></textarea>
   </p>
   <p>
     <button type="submit">Send</button>

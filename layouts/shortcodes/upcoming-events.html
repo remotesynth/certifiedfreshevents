@@ -1,14 +1,36 @@
-{{ range $index, $element := where .Site.Pages.ByDate "Section" "events" }}
-    {{ if and (ge .Date.Unix now.Unix) (eq .Kind "page") }}
-    <div class="event-item">
-        <span class="date"><strong>{{ .Date.Format "2"}}</strong> {{ .Date.Format "Jan"}}</span>
-        <span class="time"><span class="h">{{.Params.Starttime}} <span class="sep"></span> {{.Params.Endtime}}</span></span>
-        <div class="frame">
-            <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
-            <span class="meta">{{.Params.Location}}</span>
-            <span class="meta">{{ if eq .Params.Cost "0"}}FREE{{else}}{{.Params.Cost}}{{end}}</span>
+{{ $upcoming := where .Site.RegularPages.Reverse ".Date" "ge" now }}
+{{ if ne (len $upcoming) 0 }}
+
+<!-- Posts -->
+<div class="blog__content">
+    {{ range $upcoming }}
+    <article class="entry card post-list">
+        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}')">
+        <a href="{{ .Permalink }}" class="thumb-url"></a>
+        <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
+        {{ range $category := first 1 .Params.Categories }}
+        <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
+        {{ end }}
         </div>
-        <a href="{{.Permalink}}" class="more"><i class="fa fa-angle-right"></i></a>
-    </div>
+
+        <div class="entry__body post-list__body card__body">
+        <div class="entry__header">
+            <h2 class="entry__title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <ul class="entry__meta" style="padding-left:0px;">
+            <li class="entry__meta-date">
+                {{ .Date.Format "Mon, Jan 2, 2006" }}
+            </li>
+            </ul>
+        </div>        
+        <div class="entry__excerpt">
+            <p>{{ .Params.short_desc }}</p>
+        </div>
+        </div>
+    </article>
     {{ end }}
+</div>
+{{ else }}
+<p><em>We apologize, but there are no upcoming events currently scheduled. Check back soon!</em></p>
 {{ end }}

@@ -2,6 +2,10 @@
 title: "Upcoming Events"
 date: 2017-07-12T18:52:51-04:00
 weight: 1
+menu:
+  main:
+    identifier: upcoming
+    name: "Upcoming Events"
 banner: "images/pages/events.jpg"
 draft: false
 ---

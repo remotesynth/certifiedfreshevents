@@ -1,18 +1,25 @@
 ---
 title: "Building IoT Apps: From Device to Cloud and Back Again"
 date: "2018-08-29"
+menu:
+  main:
+    parent: "events"
+    name: "IoT Training 2018"
+categories:
+    - IoT
 starttime: "8/29 12:00pm EST"
 endtime: "8/29 4:00pm EST"
 days: 1
 location: "Online"
 cost: "$249"
 recording_cost: "$0"
-banner: "images/banners/Header-Buiding-IoT-Apps.jpg"
-homepage_banner: "images/banners/Banner-Buiding-IoT-Apps.jpg"
+banner: "Header-Buiding-IoT-Apps.jpg"
+homepage_banner: "Banner-Buiding-IoT-Apps.jpg"
 short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
 description: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again."
+embed_url: https://www.crowdcast.io/e/building-iot-apps-from
 draft: false
-carousel: false
+featured: false
 ---
 
 <style>
@@ -77,7 +84,7 @@ In this workshop, Brandon Satrom from Particle and Burke Holland from Microsoft 
             <div class="col-md-6 col-sm-6">
                 <div class="speaker">
                     <figure>
-                        <img alt="Burke Holland" class="img-responsive center-block" src="/images/speakers/burkeholland.jpg">
+                        <img alt="Burke Holland" class="img-responsive center-block" src="/img/speakers/burkeholland.jpg">
                     </figure>
                     <h4>Burke Holland</h4>
                     <div class="speaker-bio"><p>Burke Holland is a front-end developer in Nashville, TN, working on the Azure team at Microsoft. Burke blogs only slightly better than he codes but not as good as he talks about himself in the 3rd person.</p></div>
@@ -90,7 +97,7 @@ In this workshop, Brandon Satrom from Particle and Burke Holland from Microsoft 
             <div class="col-md-6 col-sm-6">
                 <div class="speaker">
                     <figure>
-                        <img alt="Brandon Satrom" class="img-responsive center-block" src="/images/speakers/brandonsatrom.jpg">
+                        <img alt="Brandon Satrom" class="img-responsive center-block" src="/img/speakers/brandonsatrom.jpg">
                     </figure>
                     <h4>Brandon Satrom</h4>
                     <div class="speaker-bio"><p>
@@ -108,7 +115,7 @@ Brandon Satrom is the Developer Evangelist for Particle. An unabashed lover of t
 
 ---
 
-<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
+<a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/img/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>
 
 ## Diversity Scholarship
 ### Sponsored by the Microsoft [Cloud Developer Advocacy](https://developer.microsoft.com/en-us/advocates/index.htm) team
@@ -137,10 +144,4 @@ Thanks to [@AzureAdvocates](https://twitter.com/azureadvocates), we are excited 
 
 ## Sponsored By:
 
-[![Particle](/images/banners/Particle.png)](https://www.particle.io/)
-
-<br style="clear:both;">
-
-<a name="register"></a>
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/building-iot-apps-from?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px;"></iframe><a href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0;">powered by crowdcast</a>
+[![Particle](/img/banners/Particle.png)](https://www.particle.io/)

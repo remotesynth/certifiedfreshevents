@@ -1,21 +1,50 @@
+<style>
+.entry__meta li:after {
+    content: '';
+}
+.post-list-small__img-holder {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+</style>
+
+<div class="container">
+    <div class="row">
 {{ range .Site.Data.speakers.speakers }}
-<div class="col-sm-4">
-    <div class="speaker">
-        <div class="photo-wrapper rounded"><img src="/images/speakers/{{.photo}}" alt="{{ .name }}"></div>
-        <h3 class="name">{{ .name }}</h3>
-        <p class="about">{{.bio | markdownify }}</p>
-        <ul class="speaker-socials">
+<article class="col-sm-4">
+    <div class="post-list-small__img-holder">
+        <div class="thumb-container thumb-100">
+            <a href="single-post.html">
+            <img data-src="/img/speakers/{{.photo}}" src="img/empty.png" alt="" class="lazyload">
+            </a>
+        </div>
+    </div>
+    <div>
+        <h3 class="post-list-small__entry-title">{{.name}}</h3>
+        <ul class="entry__meta">
             {{ if .twitter }}
-            <li><a href="https://twitter.com/{{.twitter}}"><span class="fa fa-twitter"></span></a></li>
+            <li>
+                <a class="social social-twitter" href="https://twitter.com/{{.twitter}}" target="_blank" aria-label="twitter" style="background-color: white;">
+                <i class="ui-twitter"></i>
+                </a>
+            </li>
             {{ end }}
             {{ if .github }}
-            <li><a href="https://github.com/{{.github}}"><span class="fa fa-github"></span></a></li>
+            <li>
+                <a class="social social-github" href="https://github.com/{{.github}}" target="_blank" aria-label="github">
+                <i class="ui-github"></i>
+                </a>
+            </li>
             {{ end }}
             {{ if .website }}
-            <li><a href="{{.website}}"><span class="fa fa-link"></span></a></li>
+            <li>
+                <a class="social social-pin" href="{{.website}}" target="_blank" aria-label="link">
+                <i class="ui-pin"></i>
+                </a>
+            </li>
             {{ end }}
-        </ul>
     </div>
-</div>
+</article>
 {{ end }}
-<br style="clear:both;">
+</div>
+</div>

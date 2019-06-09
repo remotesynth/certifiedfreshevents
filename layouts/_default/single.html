@@ -1,34 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {{ partial "head.html" . }}
 
-<body>
-	<div id="wrapper">
-		<header id="header">
-			<a href="{{ .Site.BaseURL }}index.html" class="logo">
-				<img src="{{ .Site.BaseURL }}images/cfe-logo.png" alt="{{ .Site.Title }}">
-			</a>
-			
-			{{ partial "navigation.html" . }}
-			
-		</header>
-		<img src="{{ .Site.BaseURL }}{{.Params.Banner}}" alt="{{.Title}}" class="promo-image">
-		<main id="main">
-			<div class="container">
-				<article class="single-blog">
-                <h1>{{.Title}}</h1>
-                {{ .Content }}
-                <p>&nbsp;</p>
-                </article>
-			</div>
-		</main>
-        {{ partial "social.html" . }}
-		{{ partial "footer.html" . }}
-	</div>
-	<script src="{{ .Site.BaseURL }}js/jquery-1.11.2.min.js"></script>
-	<script src="{{ .Site.BaseURL }}js/jquery-ui.min.js"></script>
-	<script src="{{ .Site.BaseURL }}js/main.js"></script>
-	<script src="https://use.fontawesome.com/3272ab6501.js"></script>
-</body>
+<body class="style-videos">
 
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Bg Overlay -->
+  <div class="content-overlay"></div>
+
+
+{{ partial "left-nav.html" . }}
+
+  <main class="main oh" id="main">
+
+    {{ partial "top-bar.html" . }}        
+
+		{{ partial "navigation.html" . }}
+		
+<!-- Breadcrumbs -->
+<div class="container">
+		<ul class="breadcrumbs">
+			<li class="breadcrumbs__item">
+				<a href="/index.html" class="breadcrumbs__url">Home</a>
+			</li>
+			<li class="breadcrumbs__item breadcrumbs__item--current">
+				{{ .Title }}
+			</li>
+		</ul>
+	</div>
+
+	<div class="main-container container" id="main-container">
+		<!-- Post Content -->
+		<div class="blog__content mb-72">
+			
+			<!-- Entry Header -->
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="single-post__entry-header entry__header mb-56 text-center">
+						<h1 class="single-post__entry-title">
+							{{ .Title }}
+						</h1>
+					</div>
+				</div>          
+			</div> <!-- end entry header -->
+
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<!-- standard post -->
+					<article class="entry mb-0">
+						<div class="entry__article-wrap">
+
+							<div class="entry__article">
+								{{ .Content }}
+							</div> <!-- end entry article -->
+						</div> <!-- end entry article wrap -->
+						
+						{{ partial "newsletter.html" . }}
+
+					</article> <!-- end standard post -->
+				</div>
+			</div>
+
+		</div> <!-- end post content -->
+	</div> <!-- end main container -->					
+		
+		{{ partial "footer.html" .}}
+
+    </main> <!-- end main-wrapper -->
+
+{{ partial "scripts.html" .}}
+
+</body>
 </html>
