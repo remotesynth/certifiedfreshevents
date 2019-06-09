@@ -83,10 +83,10 @@ In this workshop, Suz Hinton and Brandon Satrom will share one approach for buil
                         <img alt="Suz Hinton" class="img-responsive center-block" src="/img/speakers/susan-hinton.png">
                     </figure>
                     <h4>Suz Hinton</h4>
-                    <div class="speaker-bio"><p>Cloud Developer Advocate focusing on IoT, open source, and NodeJS. She’s worked with several well known companies to help them implement best practices for Azure IoT services and is passionate about improving the open source offerings from Microsoft.</p></div>
+                    <div class="speaker-bio"><p>Cloud Developer Advocate focusing on IoT, open source and NodeJS. She’s works to implement best practices for Azure IoT services and is passionate about improving the open source offerings from Microsoft.</p></div>
                     <ul class="social-block">
-                        <li><a href="https://twitter.com/noopkat"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="https://github.com/noopkat"><span class="fa fa-github"></span></a></li>
+                        <li><a class="social social-twitter" href="https://twitter.com/noopkat" target="_blank" aria-label="twitter" style="float:left;"><i class="ui-twitter"></i></a></li>
+                        <li><a class="social social-github" href="https://github.com/noopkat" target="_blank" aria-label="github" style="float:left;"><i class="ui-github"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -99,9 +99,8 @@ In this workshop, Suz Hinton and Brandon Satrom will share one approach for buil
                     <div class="speaker-bio"><p>
 Brandon Satrom is the Developer Evangelist for Particle. An unabashed lover of the web, mobile and an avid tinkerer, Brandon loves to talk about sensors and circuits, microcontrollers, open source, robots and more.</p></div>
                     <ul class="social-block">
-                        <li><a href="https://twitter.com/BrandonSatrom"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="https://github.com/bsatrom"><span class="fa fa-github"></span></a></li>
-                        <!--<li><a href="{{speaker.website}}"><span class="fa fa-link"></span></a></li>-->
+                        <li><a class="social social-twitter" href="https://twitter.com/BrandonSatrom" target="_blank" aria-label="twitter" style="float:left;"><i class="ui-twitter"></i></a></li>
+                        <li><a class="social social-github" href="https://github.com/bsatrom" target="_blank" aria-label="github" style="float:left;"><i class="ui-github"></i></a></li>
                     </ul>
                 </div>
             </div>
