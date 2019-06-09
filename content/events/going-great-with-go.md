@@ -12,6 +12,7 @@ endtime: "10/30 1:00pm ET"
 days: 1
 location: "Online"
 cost: "0"
+recording_cost: "$0"
 banner: "gopher_page.jpg"
 homepage_banner: "Banner_Going_Great_With_Go.jpg"
 short_desc: "Building serverless and data-driven applications with the Go programming language."
