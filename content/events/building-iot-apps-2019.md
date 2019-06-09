@@ -3,7 +3,7 @@ title: "Building IoT Apps with Azure & Particle"
 date: "2019-07-25"
 menu:
   main:
-    parent: "events"
+    parent: "upcoming"
     name: "IoT Training 2019"
 categories:
     - IoT
