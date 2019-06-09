@@ -2,104 +2,383 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Certified Fresh Events</title>
-    <link>http://certifiedfreshevents.com/</link>
+    <link>https://redesign.cfe.dev/</link>
     <description>Recent content on Certified Fresh Events</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Jul 2017 18:52:51 -0400</lastBuildDate>
     
-	<atom:link href="http://certifiedfreshevents.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://redesign.cfe.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://certifiedfreshevents.com/about/</link>
+      <link>https://redesign.cfe.dev/contact/about/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+      <guid>https://redesign.cfe.dev/contact/about/</guid>
+      <description>We specialize in creating and organizing events around technology, development/programming and IT - both online and in-person. Our goal is to make each of our events:
+ Informative Fun Affordable Cutting-edge Social  We understand that technology changes fast, and it can be tough to keep up. That&amp;rsquo;s why our events focus in on new and important topics and our speakers bring you multiple angles to help attendees get the full picture.</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Events</title>
+      <link>https://redesign.cfe.dev/events/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/</guid>
+      <description>We&amp;rsquo;re adding new meetups, trainings and events all the time. Subscribe to our mailing list to be notified whenever we add a new event.
+We apologize, but there are no upcoming events currently scheduled. Check back soon!</description>
+    </item>
+    
+    <item>
+      <title>GoLang Training Diversity Scholarships</title>
+      <link>https://redesign.cfe.dev/contact/golang-scholarship/</link>
+      <pubDate>Mon, 23 Jul 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/golang-scholarship/</guid>
+      <description>Golang Weekly Sponsored by GoLang Weekly and Cooper Press Thanks to GoLang Weekly newsletter and their publisher Cooper Press, we are excited to offer 5 diversity scholarships. The scholarship consists of a free ticket to attend the Serverless Go training on March 8, 2019 and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry*.
+* under-represented groups may include (but are not limited to) women, people of color, people with disabilities, LGBT+, veterans</description>
+    </item>
+    
+    <item>
+      <title>IoT Training Diversity Scholarships</title>
+      <link>https://redesign.cfe.dev/contact/iot-scholarship/</link>
+      <pubDate>Mon, 23 Jul 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/iot-scholarship/</guid>
+      <description>Sponsored by the Microsoft Cloud Developer Advocacy team Thanks to @AzureAdvocates, we are excited to offer 10 diversity scholarships. The scholarship consists of a free ticket to attend the IoT training on August 29, 2018 including a Particle Maker Kit (retail cost is $89) and access to all the session recordings for qualified applicants. Scholarships are open to anyone in any under-represented group in our industry*.
+* under-represented groups may include (but are not limited to) women, people of color, people with disabilities, LGBT+, veterans</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://redesign.cfe.dev/contact/thanks/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/thanks/</guid>
+      <description>Thank you for contacting us. We&amp;rsquo;ll reply shortly.</description>
+    </item>
+    
+    <item>
+      <title>GoLang Training Diversity Scholarship</title>
+      <link>https://redesign.cfe.dev/contact/scholarship-submitted/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/scholarship-submitted/</guid>
+      <description>Golang Weekly Sponsored by GoLang Weekly and Cooper Press Thank you for submitting your application. Recipients will be notified by March 6.</description>
+    </item>
+    
+    <item>
+      <title>KnowJS Diversity Scholarships</title>
+      <link>https://redesign.cfe.dev/contact/knowjs-scholarship/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/knowjs-scholarship/</guid>
+      <description>Sponsored by the Microsoft Cloud Developer Advocacy team Thanks to everyone who applied. Due to a huge demand for scholarships, we have already filled all the positions. Thanks again to Microsoft Azure Advocates for making this happen.
+Thanks to @AzureAdvocates, we are excited to offer 6 diversity scholarships. The scholarship consists of a free ticket to attend the KnowJS event on April 13, 2018 plus access to all the session recordings for qualified applicants.</description>
+    </item>
+    
+    <item>
+      <title>Recorded Events</title>
+      <link>https://redesign.cfe.dev/recordings/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/recordings/</guid>
+      <description>Missed an event? Don&amp;rsquo;t worry - we got you covered!
+ JavaScript  An Introduction to Vue  Thu, May 23, 2019    A gentle introduction to the Vue.js framework by Raymond Camden
+    Virtual Reality  Exploring Mixed Reality  Thu, Apr 25, 2019    Ayşegül Yönet takes us through virtual reality, augmented reality and mixed reality.
+    Bots  A Chatbot Crash Course  Wed, Mar 27, 2019    Sebastian Witalec covers the fundamentals of building a chatbot.</description>
+    </item>
+    
+    <item>
+      <title>Sponsor Us</title>
+      <link>https://redesign.cfe.dev/contact/sponsors/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/contact/sponsors/</guid>
+      <description>We&amp;rsquo;re just getting started, but we&amp;rsquo;re looking for some great supporters sponsors who want to help us create exciting events for the technology industry and developers. We run free online events for developers every month, paid online training events periodically, and plan to expand to in-person events in 2020.
+Whether you want to support our ongoing free online events, our online paid trainings or our in-person events, we&amp;rsquo;ll create a sponsor package that meets your needs.</description>
     </item>
     
     <item>
       <title>Subscribe</title>
-      <link>http://certifiedfreshevents.com/contact/subscribe/</link>
+      <link>https://redesign.cfe.dev/subscribe/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/contact/subscribe/</guid>
+      <guid>https://redesign.cfe.dev/subscribe/</guid>
       <description>Sign up to be the first to know about new upcoming events, speakers and discounts.
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. /  Subscribe to our mailing list  indicates required Email Address *   First Name   Last Name           (function($) {window.</description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>http://certifiedfreshevents.com/contact/</link>
+      <link>https://redesign.cfe.dev/contact/contact/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/contact/</guid>
-      <description>This is sample text.</description>
-    </item>
-    
-    <item>
-      <title>Events</title>
-      <link>http://certifiedfreshevents.com/events/</link>
-      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
-      
-      <guid>http://certifiedfreshevents.com/events/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+      <guid>https://redesign.cfe.dev/contact/contact/</guid>
+      <description>Don’t fill this out:   Name:   Email:   Message:    Send  </description>
     </item>
     
     <item>
       <title>Speakers</title>
-      <link>http://certifiedfreshevents.com/speakers/</link>
+      <link>https://redesign.cfe.dev/speakers/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/speakers/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
-    </item>
-    
-    <item>
-      <title>Services</title>
-      <link>http://certifiedfreshevents.com/services/</link>
-      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
-      
-      <guid>http://certifiedfreshevents.com/services/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc vel metus tincidunt, rhoncus porta metus consectetur. Etiam porttitor condimentum viverra. Phasellus commodo nibh et libero tempor ultrices. Etiam et posuere tellus, a vulputate orci. Donec sollicitudin tortor sed magna aliquet porttitor. Ut tincidunt lectus in lorem cursus consequat. Praesent suscipit lacus consequat augue convallis, sit amet semper libero feugiat. Curabitur tristique hendrerit sem vel dictum. Phasellus a ligula et lorem bibendum venenatis.</description>
+      <guid>https://redesign.cfe.dev/speakers/</guid>
+      <description>We have been fortunate enough to have some of the world&amp;rsquo;s best speakers speak at our events. This isn&amp;rsquo;t just a boast - check them out!
+ .entry__meta li:after { content: &#39;&#39;; } .post-list-small__img-holder { margin-top: 5px; margin-bottom: 5px; }      Christina Aldan               Paige Bailey                   Andy Barnov                   Johnny Boursiquot                   Jory Burson                   Raymond Camden                   Chris Coyier                   Rizchel Dayao                   Kent C Dodds                   Tammy Everts               Jo Franchetti                   Bianca Gandolfo               Ayan George               Phil Hawksworth                   Burke Holland                   Tomomi Imura                   Aimee Knight                   Brian LeRoux                   Jen Looper                   Simon MacDonald                   Tara Manicsic                   Brad Marsh           Alyssa Nicoll                   Jenell Pizarro                   Diana Rodriguez                   Brandon Satrom                   Holly Schinsky                   David Simmons                   Kyle Simpson               Shannon Soper               Natalia Tepluhina               James Thomas                   TJ VanToll                   Shannon Vettes                   Nick Walsh                   Sebastian Witalec               Robert Wozniak                   Ayşegül Yönet               Jem Young                 </description>
     </item>
     
     <item>
       <title>Code of Conduct</title>
-      <link>http://certifiedfreshevents.com/conduct/</link>
+      <link>https://redesign.cfe.dev/conduct/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/conduct/</guid>
-      <description>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
+      <guid>https://redesign.cfe.dev/conduct/</guid>
+      <description>Note: This code of conduct applies to both our online and in person events. If you encounter any violations, please contact brian@certifiedfreshevents.com.
+All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.</description>
     </item>
     
     <item>
-      <title>Something on Mobile</title>
-      <link>http://certifiedfreshevents.com/events/mobile-event/</link>
-      <pubDate>Sun, 15 Oct 2017 18:52:51 -0400</pubDate>
+      <title>An Introduction to Vue</title>
+      <link>https://redesign.cfe.dev/events/intro-to-vue/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://certifiedfreshevents.com/events/mobile-event/</guid>
-      <description>&lt;p&gt;This is sample text about a mobile event.&lt;/p&gt;</description>
+      <guid>https://redesign.cfe.dev/events/intro-to-vue/</guid>
+      <description>Vue is one of the hottest front-end frameworks right now. It is the top trending project overall in the yearly JavaScipt Rising Stars and earlier this year became the second most starred project on GitHub. It&amp;rsquo;s definitely something every front-end or JavaScript developer should be familiar with. Thankfully, Raymond Camden will give us the rundown on how to get started using it.
+An Introduction to Vue Raymond Camden will give a gentle introduction to the Vue.</description>
     </item>
     
     <item>
-      <title>The Whole Enchilada</title>
-      <link>http://certifiedfreshevents.com/events/whole-enchilada/</link>
-      <pubDate>Tue, 12 Sep 2017 18:52:51 -0400</pubDate>
+      <title>Exploring Mixed Reality</title>
+      <link>https://redesign.cfe.dev/events/mixed-reality/</link>
+      <pubDate>Thu, 25 Apr 2019 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/events/whole-enchilada/</guid>
-      <description>&lt;p&gt;The Whole Enchilada is our in-person event in Orlando, Fl.&lt;/p&gt;</description>
+      <guid>https://redesign.cfe.dev/events/mixed-reality/</guid>
+      <description>In virtual reality, we replace the user&amp;rsquo;s physical world with another entirely. This has important use cases. However, augmented reality and mixed reality applications build upon the user&amp;rsquo;s real-world environment to create a hybrid reality where real world objects and virtual objects coexist. This opens up a whole new set of application possibilities where the user can still interact with their surroundings, but enhanced with information.
+In this session, Ayşegül Yönet will explore VR, AR and Mixed Reality.</description>
+    </item>
+    
+    <item>
+      <title>A Chatbot Crash Course</title>
+      <link>https://redesign.cfe.dev/events/chat-bots-crash-course/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/chat-bots-crash-course/</guid>
+      <description>Natural language interfaces often called &amp;ldquo;bots&amp;rdquo; have become ubiquitous, whether they are text or voice. But building a bot that feels natural and easy-to-use for the end user can seem daunting. In this session, Sebastian Witalec is going to go over the fundamentals of building a chatbot to help you get started.
+Building a Chatbot: The Crash Course What are the usual challenges when building one and how to build a chatbot that people would love to interact with?</description>
+    </item>
+    
+    <item>
+      <title>Serverless Go!</title>
+      <link>https://redesign.cfe.dev/events/serverless-go/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/serverless-go/</guid>
+      <description>.speaker { text-align: left; margin-top: 25px; margin-bottom: 0px; min-height: 400px; } .speaker h4 { margin-top: 15px; margin-bottom: 5px; } .speaker figure { margin-top: 15px; margin-bottom: 5px; } .speaker p { margin-bottom: 5px; text-transform: none; } .speaker .speaker-bio { min-height: 125px; } .social-block { list-style-type: none; padding: 0; } .social-block li { display: inline-block; } .social-block li a { display: inline-block; height: 32px; width: 32px; color: #4e4e4e; } .social-block li a i { font-size: 1.</description>
+    </item>
+    
+    <item>
+      <title>Dealing with Perfectionism, Imposter Syndrome &amp; Anxiety</title>
+      <link>https://redesign.cfe.dev/events/imposter-syndrome/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/imposter-syndrome/</guid>
+      <description>Imposter syndrome, anxiety and perfectionism are not issues that only face people working in tech, but they do seem to inordinately affect people working in tech at some time or another in their careers. In this session, Jo Franchetti discusses how to spot these patterns in yourself and offers strategies to deal with them.
+Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself Working in the tech industry can sometimes make us feel inferior.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript for Enterprise Development</title>
+      <link>https://redesign.cfe.dev/events/enterprise-javascript/</link>
+      <pubDate>Tue, 22 Jan 2019 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/enterprise-javascript/</guid>
+      <description>For years, JavaScript was dismissed as &amp;ldquo;not enterprise ready,&amp;rdquo; but those days have long past. Modern tools and frameworks have made JavaScript a mainstay in the enterprise. In this free online meetup, we&amp;rsquo;ll look at a couple of ways that JavaScript can be utilized in enterprise development. Join Rizchel Dayao presenting &amp;ldquo;Building Enterprise Applications with the Magic of React, Redux, and GraphQL&amp;rdquo; and Simon MacDonald presenting &amp;ldquo;The FaaS and the Serverless.</description>
+    </item>
+    
+    <item>
+      <title>Has Web Development Become Difficult?</title>
+      <link>https://redesign.cfe.dev/events/web-development-difficult/</link>
+      <pubDate>Tue, 27 Nov 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/web-development-difficult/</guid>
+      <description>Developers have never had more tools at their disposal, but has this explosion of tools also made web development difficult? Have we erected new barriers to entry for anyone looking to break into a career in web development?
+In this free online meetup, Jory Burson will explore the question of when and how web development became so complicated by looking at the evolution of the industry. Then Raymond Camden will explore some of the tools out there designed to help developers learn new skills and highlight some of the pros and cons of each.</description>
+    </item>
+    
+    <item>
+      <title>Going Great with Go</title>
+      <link>https://redesign.cfe.dev/events/going-great-with-go/</link>
+      <pubDate>Tue, 30 Oct 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/going-great-with-go/</guid>
+      <description>Over the past few years Go has developed a strong and growing following. IEEE lists it both as one of the top 10 programming languages in 2018, but also as one of its top 5 trending languages. In this session, we&amp;rsquo;ll get to know the Go language better by exploring how to us it to do things like build serverless applications and connect to complex data.
+Sponsored by    SaaS Extensibility Reimagined</description>
+    </item>
+    
+    <item>
+      <title>The Future of Web Payments</title>
+      <link>https://redesign.cfe.dev/events/future-of-web-payments/</link>
+      <pubDate>Tue, 09 Oct 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/future-of-web-payments/</guid>
+      <description>Building a checkout process is almost a right of passage for a web developer, but, unfortunately, it has often been difficult and complicated to do. Part of the problem was that, even though this was a common requirement, there was no standard way to implement payments on the web. The good news is, that is changing. In this session, Robert Wozniak, Invited Expert at the W3C, will discuss new APIs that will help standardize the way we handle payments in the browser.</description>
+    </item>
+    
+    <item>
+      <title>Ethics in Software Engineering</title>
+      <link>https://redesign.cfe.dev/events/ethics-software-engineering/</link>
+      <pubDate>Tue, 18 Sep 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/ethics-software-engineering/</guid>
+      <description>As engineers, the decisions we make often have real world consequences but we&amp;rsquo;re often too far removed to understand the impact of our decisions. As an industry, we need to have more candid and frank discussions about the ethics and morality of the tools we build.
+Sponsored by    SaaS Extensibility Reimagined
+Make it easy to add new integrations and customizations to your SaaS without offloading deployment and management onto your customers.</description>
+    </item>
+    
+    <item>
+      <title>Building IoT Apps: From Device to Cloud and Back Again</title>
+      <link>https://redesign.cfe.dev/events/building-iot-apps/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/building-iot-apps/</guid>
+      <description>.speaker { text-align: center; margin: 25px 0; } .speaker h4 { margin-top: 15px; margin-bottom: 5px; } .speaker p { margin-bottom: 5px; text-transform: none; } .speaker img:hover { opacity: .7; } .speaker .speaker-bio { min-height: 125px; } .social-block { list-style-type: none; padding: 0; } .social-block li { display: inline-block; } .social-block li a { display: inline-block; height: 32px; width: 32px; color: #4e4e4e; } .social-block li a i { font-size: 1.</description>
+    </item>
+    
+    <item>
+      <title>Bots, IoT and AI, Oh My!</title>
+      <link>https://redesign.cfe.dev/events/bots-iot-ai/</link>
+      <pubDate>Fri, 10 Aug 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/bots-iot-ai/</guid>
+      <description>The way people interact with devices and the internet is changing quickly. We&amp;rsquo;re no longer just clicking on a desktop browser or tapping on a phone screen. We&amp;rsquo;re chatting with bots using text or voice. Or we&amp;rsquo;re interacting with all sorts of internet connected devices that, in many cases don&amp;rsquo;t even have a screen. In this free online meetup, Tomomi Imura of Slack and David Simmons of InfluxData will discuss some these important topics around chat bots, IoT and artificial intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Vue Vixens Master Class</title>
+      <link>https://redesign.cfe.dev/events/vue-vixens-master-class-1/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/vue-vixens-master-class-1/</guid>
+      <description>In partnership with Vue Vixens, we&amp;rsquo;re offering a special event featuring two speakers from their organization covering two separate but equally important and interesting topics. Diana Rodriguez will tackle the topic of imposter syndrome - that nagging feeling that you don&amp;rsquo;t really know what you are doing that often afflicts developers (among others). Then Natalia Tepluhina will teach us about GraphQL for querying your API and Apollo, which can help convert an existing REST API into a GraphQL schema.</description>
+    </item>
+    
+    <item>
+      <title>Tools for the Modern Web Developer</title>
+      <link>https://redesign.cfe.dev/events/tools-for-modern-dev/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/tools-for-modern-dev/</guid>
+      <description>Developers today have the blessing and the curse of a plethora of tools. On the one hand, we have pretty much all of our bases covered - often for free. On the other, it can be tough to keep pace with all the tools and what they are good for.
+In this month&amp;rsquo;s meetup, we&amp;rsquo;ll explore a couple of these tools and get to know them. First, Chris Coyier will go through CodePen and how to take advantage of this social development environment for front-end designers and developers.</description>
+    </item>
+    
+    <item>
+      <title>Modern Web Development with the JAMStack</title>
+      <link>https://redesign.cfe.dev/events/jamstack/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/jamstack/</guid>
+      <description>We used to call them &amp;ldquo;static sites,&amp;rdquo; but nowadays they are anything but static. New tools, services and serverless functions are redefining the way we build &amp;ldquo;static sites&amp;rdquo; to the point that they needed a new name that represented their real capabilities: JAMStack.
+In this session, Raymond Camden of Auth0 and Phil Hawksworth of Netlify will show how to get started with the JAMStack and how you can take advantage of all of these tools to build sites that are dynamic, secure and incredibly fast.</description>
+    </item>
+    
+    <item>
+      <title>KnowJS 2018</title>
+      <link>https://redesign.cfe.dev/events/knowjs-2018/</link>
+      <pubDate>Fri, 13 Apr 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/knowjs-2018/</guid>
+      <description>.speaker { text-align: center; margin: 25px 0; } .speaker h4 { margin-top: 15px; margin-bottom: 5px; } .speaker p { margin-bottom: 5px; text-transform: none; } .speaker img:hover { opacity: .7; } .speaker .speaker-bio { min-height: 125px; } .social-block { list-style-type: none; padding: 0; } .social-block li { display: inline-block; } .social-block li a { display: inline-block; height: 32px; width: 32px; color: #4e4e4e; } .social-block li a i { font-size: 1.</description>
+    </item>
+    
+    <item>
+      <title>Developing Success</title>
+      <link>https://redesign.cfe.dev/events/developing-success/</link>
+      <pubDate>Thu, 05 Apr 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/developing-success/</guid>
+      <description>Knowing how to code is only one piece of being a successful developer. The other parts involve a desire to learn, an ability to communicate and work with those around you, and even, sometimes, the willingness to accept and learn from failure.
+In this free event, Alyssa Nicoll of Progress and Jenell Pizarro of Skillcrush will explore how to develop some of these developer skillsets beyond coding and offer advice that will help you succeed in your career.</description>
+    </item>
+    
+    <item>
+      <title>Demystifying Machine Learning</title>
+      <link>https://redesign.cfe.dev/events/machine-learning/</link>
+      <pubDate>Fri, 16 Feb 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/machine-learning/</guid>
+      <description>Of all the new technologies impacting developers today, machine learning has been probably the most immediately impactful. Already it is changing the way we use data to do things like predict how customers will behave or when machines may need repair. It is not an exaggeration to say that developers who understand how to leverage machine learning will become indispensable to companies in the near future.
+In this free event, Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence - what it is and why we should care - and even walk through how to build an application based upon machine learning.</description>
+    </item>
+    
+    <item>
+      <title>Improving Your Apps - Performance and Debugging</title>
+      <link>https://redesign.cfe.dev/events/improving-your-apps/</link>
+      <pubDate>Wed, 17 Jan 2018 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/improving-your-apps/</guid>
+      <description>Most experienced developers will tell you that hardest parts of the job comes after the initial code is written - when it is time to refine, tune and test the application. It can take a deep understanding of the languages, tools and code to maximize the applications performance and experience.
+In this session, we&amp;rsquo;ll take a deeper look at some ways that you can improve your application development - from a deep dive into CSS internals to more general trends and performance issues that can impact your applications user experience.</description>
+    </item>
+    
+    <item>
+      <title>The Future of Development</title>
+      <link>https://redesign.cfe.dev/events/future-of-development/</link>
+      <pubDate>Fri, 15 Dec 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/future-of-development/</guid>
+      <description>Technology is moving quickly - things like bots, serverless, VR/AR, IoT and more are quickly changing both how we develop and what we develop for. And we thought things got complex when we were just targeting desktop and mobile devices! In this free, online event we&amp;rsquo;ll cover two of those trends that are shaping how we develop and what we develop for.
+As we discussed in October, the trend towards serverless architectures is changing the way developers build their apps.</description>
+    </item>
+    
+    <item>
+      <title>Oh No You Didn’t: Conflict Management in Today’s Tech Industry</title>
+      <link>https://redesign.cfe.dev/events/conflict-management/</link>
+      <pubDate>Thu, 09 Nov 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/conflict-management/</guid>
+      <description>On some level, conflict is an unavoidable part of any workplace - it’s tough enough for groups of people to always get along, even when the stresses of work aren’t involved. But how we choose to handle that conflict can factor hugely in the success of the team and in our own happiness.
+In this interactive event, our panel will discuss conflict that they have personally faced and how they handled it (even if not always perfectly or even well).</description>
+    </item>
+    
+    <item>
+      <title>Going Serverless</title>
+      <link>https://redesign.cfe.dev/events/going-serverless/</link>
+      <pubDate>Fri, 20 Oct 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/going-serverless/</guid>
+      <description>Lately the term serverless is everywhere, which naturally makes developers skeptical that it is a marketing buzzword. However, behind the term is a useful concept of tools and architecture that takes the need to worry about servers (if not actual servers themselves) out of the equation. In this free online event, we&amp;rsquo;ll explore what serverless is, why it is an important new development, and where it will have the most impact.</description>
+    </item>
+    
+    <item>
+      <title>Exploring JavaScript Frameworks</title>
+      <link>https://redesign.cfe.dev/events/exploring-javascript-frameworks/</link>
+      <pubDate>Thu, 05 Oct 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/exploring-javascript-frameworks/</guid>
+      <description>It seems that there are few guarantees in life, but two of them are that the sun will rise in the morning and, with it, will come at least two new JavaScript frameworks. So how is a developer supposed to keep up? How can you tell the contenders from the pretenders? In this free online event, Jen Looper and Holly Schinsky will take a look at some of the more prominent new frameworks to help you decide if they are worth exploring further.</description>
+    </item>
+    
+    <item>
+      <title>IoT for Fun and Profit</title>
+      <link>https://redesign.cfe.dev/events/iot-for-fun-and-profit/</link>
+      <pubDate>Fri, 22 Sep 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://redesign.cfe.dev/events/iot-for-fun-and-profit/</guid>
+      <description>For many developers, hardware can be intimidating. This is why the Internet of Things can seem simultaneously appealing and scary. There are so many promising ideas on how to mix code and devices, but how do all the wires and devices connect? Is there soldering involved?
+In this event, Brandon Satrom and Brad Marsh will show simple and practical ways for getting started in IoT - from basic electronics to smart home integration.</description>
     </item>
     
     <item>
       <title>Developing in JavaScript in 2017</title>
-      <link>http://certifiedfreshevents.com/events/javascript-2017/</link>
-      <pubDate>Sun, 06 Aug 2017 18:52:51 -0400</pubDate>
+      <link>https://redesign.cfe.dev/events/javascript-2017/</link>
+      <pubDate>Wed, 23 Aug 2017 18:52:51 -0400</pubDate>
       
-      <guid>http://certifiedfreshevents.com/events/javascript-2017/</guid>
+      <guid>https://redesign.cfe.dev/events/javascript-2017/</guid>
       <description>JavaScript development has seen a lot of changes in recent years, between new specifications like ES6 and ES7 to new tooling like TypeScript. This free event takes a look at some of these advancements and how developers can realistically start taking advantage of them today.
 ES6, ES7, where do I start??? JavaScript has evolved rapidly over the past few years and while that is, 100%, a good thing, some developers may be feeling a bit behind.</description>
     </item>
