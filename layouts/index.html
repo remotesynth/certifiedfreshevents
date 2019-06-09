@@ -27,13 +27,13 @@
     <section class="featured-posts-grid featured-posts-grid--1">
       <div class="container">
         <div class="row">
-
+          {{ $remaining := shuffle (after 2 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
           <div class="col-lg-6">
             {{ range first 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true) }}
               {{ partial "homepage-large-thumb.html" . }}
             {{ end }}
             <div class="row">
-              {{ range first 2 (after 2 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+              {{ range first 2 $remaining }}
                 {{ partial "homepage-small-thumb.html" . }}
               {{ end }}
             </div> <!-- end row -->
@@ -46,7 +46,7 @@
             {{ end }}
 
             <div class="row">
-              {{ range first 2 (after 4 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+              {{ range first 2 (after 2 $remaining) }}
                 {{ partial "homepage-small-thumb.html" . }}
               {{ end }}
             </div> <!-- end row -->
