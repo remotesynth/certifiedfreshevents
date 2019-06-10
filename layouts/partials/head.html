@@ -26,7 +26,7 @@
 	<meta property="og:url" content="{{ .Page.Permalink }}" />
 	<meta property="og:title" content="{{ .Page.Title }}" />
 	<meta property="og:description" content="{{ .Page.Params.Short_desc }}" />
-	<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Page.Params.Homepage_banner }}" />
+	<meta property="og:image" content="{{ .Site.BaseURL }}/img/banners/{{ .Page.Params.Homepage_banner }}" />
 {{ end }}
 
   <!-- Lazyload (must be placed in head in order to work) -->
