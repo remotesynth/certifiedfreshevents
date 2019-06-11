@@ -16,7 +16,7 @@ homepage_banner: "Building-IoT-Apps-with-Azure-and-Particle.jpg"
 short_desc: "Suz Hinton and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."
 description: "In this workshop, Suz Hinton and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."
 embed_url: https://www.crowdcast.io/e/building-iot-apps-with
-draft: false
+draft: true
 featured: true
 ---
 
