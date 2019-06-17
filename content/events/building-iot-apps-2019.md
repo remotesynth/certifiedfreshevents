@@ -1,14 +1,14 @@
 ---
 title: "Building IoT Apps with Azure & Particle"
-date: "2019-07-25"
+date: "2019-09-18"
 menu:
   main:
     parent: "upcoming"
     name: "IoT Training 2019"
 categories:
     - IoT
-starttime: "7/25 1:00pm EST"
-endtime: "7/25 5:00pm EST"
+starttime: "9/18 1:00pm EST"
+endtime: "9/18 5:00pm EST"
 days: 1
 location: "Online"
 cost: "$149"
@@ -16,7 +16,7 @@ homepage_banner: "Building-IoT-Apps-with-Azure-and-Particle.jpg"
 short_desc: "Suz Hinton and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."
 description: "In this workshop, Suz Hinton and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."
 embed_url: https://www.crowdcast.io/e/building-iot-apps-with
-draft: true
+draft: false
 featured: true
 ---
 
@@ -68,7 +68,7 @@ In this workshop, Suz Hinton and Brandon Satrom will share one approach for buil
 
 <h2 style="color: #FFF;">Hardware included!</h2>
 
-<p>Everyone who registers by July 18th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> (retail cost is $35).</p>
+<p>Everyone who registers by September 10th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> (retail cost is $35).</p>
 
 </div>
 
