@@ -3,7 +3,7 @@ title: "Why DevRel Matters"
 date: 2019-06-25T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "June 2019"
 categories:
   - Career
