@@ -89,6 +89,8 @@
 			</iframe>
 		</div>
 		</div>
+		{{ else if ne .Params.banner nil }}
+		<div class="entry__img-holder"><img src="/img/banners/{{ .Params.banner }}"></div>
 		{{ end }}
 
 		<div class="row justify-content-center">
