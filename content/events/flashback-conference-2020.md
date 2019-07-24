@@ -145,8 +145,8 @@ featured: true
 
 .lgx-speakers .lgx-single-speaker-sm {
 	padding: 8px;
-	min-height: 325px;
-	height: 325px;
+	min-height: 285px;
+	height: 285px;
 }
 
 .lgx-speakers .lgx-single-speaker-sm figure figcaption a {
@@ -168,12 +168,12 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
 
 <a href="#register">Register Today</a>
 
-<a name="speakers"></a>
+## Speakers...so far! {#speakers}
 
-## Speakers
+We are building a fantastic lineup of experts! Check back for more speaker announcements.
 
 <div class="lgx-speakers">
-  <div class="row">
+  <div class="row" style="min-height:300px;height:300px;">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -197,23 +197,45 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/jem-young">
-                    <img src="/img/speakers/jemyoung.jpg" alt="speaker">
+                <a class="profile-img" href="/speakers/jay-hoffman">
+                    <img src="/img/speakers/jayhoffman.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jemyoung"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/young"><i class="fa fa-github"></i></a>
-                <a class="sp-link" href="https://jemyoung.com"><i class="fa fa-link"></i></a>
+                <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/JasonHoffmann"><i class="fab fa-github"></i></i></a>
+                <a class="sp-link" href="https://jayhoffmann.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/jem-young">Jem Young</a>
+                    <a href="/speakers/aysegul-yonet">Jay Hoffman</a>
                 </h3>
-                <h4 class="speaker-subtitle">Netflix</h4>
+                <h4 class="speaker-subtitle">Reaktiv Studios</h4>
             </div>
         </div>
     </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/burke-holland">
+                    <img src="/img/speakers/burkeholland.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fa fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/burkeholland"><i class="fa fa-github"></i></a>
+                <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/helena-mccabe">Burke Holland</a>
+                </h3>
+                <h4 class="speaker-subtitle">Microsoft</h4>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="row" style="min-height:300px;height:300px;">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -231,88 +253,6 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
                     <a href="/speakers/jen-looper">Jen Looper</a>
                 </h3>
                 <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
-        </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/aysegul-yonet">
-                    <img src="/img/speakers/aysegulyonet.jpg" alt="speaker">
-                </a>
-                <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/Yonet"><i class="fab fa-github"></i></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/aysegul-yonet">Ayşegül Yönet</a>
-                </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/alyssa-nicoll">
-                    <img src="/img/speakers/alyssanicoll.jpg" alt="speaker">
-                </a>
-                <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/AlyssaNicol"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fa fa-github"></i></a>
-                <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a>
-                </h3>
-                <h4 class="speaker-subtitle">Progress</h4>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/helena-mccabe">
-                    <img src="/img/speakers/helenamccabe.jpg" alt="speaker">
-                </a>
-                <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fa fa-twitter"></i></a>
-                <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/helena-mccabe">Helena McCabe</a>
-                </h3>
-                <h4 class="speaker-subtitle">Lullabot</h4>
-            </div>
-        </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/jay-hoffman">
-                    <img src="/img/speakers/jayhoffman.jpg" alt="speaker">
-                </a>
-                <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/JasonHoffmann"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="https://jayhoffmann.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/aysegul-yonet">Jay Hoffman</a>
-                </h3>
-                <h4 class="speaker-subtitle">Reaktiv Studios</h4>
             </div>
         </div>
     </div>
@@ -339,25 +279,44 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/burke-holland">
-                    <img src="/img/speakers/burkeholland.jpg" alt="speaker">
+                <a class="profile-img" href="/speakers/helena-mccabe">
+                    <img src="/img/speakers/helenamccabe.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/burkeholland"><i class="fa fa-github"></i></a>
-                <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
+                <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fa fa-twitter"></i></a>
+                <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/helena-mccabe">Burke Holland</a>
+                    <a href="/speakers/helena-mccabe">Helena McCabe</a>
                 </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
+                <h4 class="speaker-subtitle">Lullabot</h4>
             </div>
         </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="min-height:300px;height:300px;">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/alyssa-nicoll">
+                    <img src="/img/speakers/alyssanicoll.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/AlyssaNicol"><i class="fa fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fa fa-github"></i></a>
+                <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a>
+                </h3>
+                <h4 class="speaker-subtitle">Progress</h4>
+            </div>
+        </div>
+    </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -378,30 +337,73 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
             </div>
         </div>
     </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/aysegul-yonet">
+                    <img src="/img/speakers/aysegulyonet.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/Yonet"><i class="fab fa-github"></i></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/aysegul-yonet">Ayşegül Yönet</a>
+                </h3>
+                <h4 class="speaker-subtitle">Microsoft</h4>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="row" style="min-height:300px;height:300px;">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/jem-young">
+                    <img src="/img/speakers/jemyoung.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/jemyoung"><i class="fa fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/young"><i class="fa fa-github"></i></a>
+                <a class="sp-link" href="https://jemyoung.com"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/jem-young">Jem Young</a>
+                </h3>
+                <h4 class="speaker-subtitle">Netflix</h4>
+            </div>
+        </div>
+    </div>
   </div>
 </div>
 
-<a name="sponsors"></a>
+## Sponsors {#sponsors}
 
-## Sponsors
+This event wouldn't be possible without the support of our sponsors.
 
-Netlify
+[![Netlify](/img/banners/netlify-logo.png)](https://netlify.com)
 
-<a name="schedule"></a>
+We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
 
-## Schedule
+## Schedule {#schedule}
 
 Flashback Conference will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
 
 <a name="venue"></a>
 
-## Venue
+## Venue {#venue}
+
+![The Abbey Orlando](/img/banners/abbeyinterior580.jpg)
 
 Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbey](http://abbeyorlando.com) offers a fun and relaxed atmosphere that fits the vibe for Flashback Conference.
 
-<a name="register"></a>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.953512511644!2d-81.37270868506415!3d28.541116982453943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77ae2ff2218ab%3A0x4ee879fa4e4501!2sThe+Abbey!5e0!3m2!1sen!2sus!4v1563973075617!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-## Registration
+## Registration {#register}
 
 <div id="eventbrite-widget-container-64004510213"></div>
 
