@@ -173,7 +173,7 @@ Flashback Conference looks at new and cutting-edge web platform features, APIs a
 We are building a fantastic lineup of experts! Check back for more speaker announcements.
 
 <div class="lgx-speakers">
-  <div class="row" style="min-height:300px;height:300px;">
+  <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -234,8 +234,6 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </div>
         </div>
     </div>
-  </div>
-  <div class="row" style="min-height:300px;height:300px;">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -295,8 +293,6 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </div>
         </div>
     </div>
-  </div>
-  <div class="row" style="min-height:300px;height:300px;">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
@@ -356,8 +352,6 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </div>
         </div>
     </div>
-  </div>
-  <div class="row" style="min-height:300px;height:300px;">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
