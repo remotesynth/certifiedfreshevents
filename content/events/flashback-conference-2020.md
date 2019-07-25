@@ -221,8 +221,8 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/burkeholland.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/burkeholland"><i class="fa fa-github"></i></a>
+                <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/burkeholland"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -241,8 +241,8 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/jenlooper.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jenlooper"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/jlooper"><i class="fa fa-github"></i></a>
+                <a class="sp-tw" href="https://twitter.com/jenlooper"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/jlooper"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://www.jenlooper.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -261,8 +261,8 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/davidkhourshid.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/davidkpiano"><i class="fa fa-github"></i></a>
+                <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/davidkpiano"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://codepen.io/davidkpiano/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -281,7 +281,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/helenamccabe.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fa fa-twitter"></i></a>
+                <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fab fa-twitter"></i></a>
                 <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -300,8 +300,8 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/alyssanicoll.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/AlyssaNicol"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fa fa-github"></i></a>
+                <a class="sp-tw" href="https://twitter.com/AlyssaNicol"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -359,8 +359,8 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/jemyoung.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jemyoung"><i class="fa fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/young"><i class="fa fa-github"></i></a>
+                <a class="sp-tw" href="https://twitter.com/jemyoung"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/young"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://jemyoung.com"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
