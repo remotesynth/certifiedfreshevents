@@ -336,6 +336,26 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
+                <a class="profile-img" href="/speakers/carlos-souza">
+                    <img src="/img/speakers/carlossouza.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/caike"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/caike"><i class="fab fa-github"></i></i></a>
+                <a class="sp-link" href="https://csouza.me/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/divya-sasidharan">Carlos Souza</a>
+                </h3>
+                <h4 class="speaker-subtitle">Pluralsight</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
                 <a class="profile-img" href="/speakers/aysegul-yonet">
                     <img src="/img/speakers/aysegulyonet.jpg" alt="speaker">
                 </a>
