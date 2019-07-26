@@ -208,7 +208,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/aysegul-yonet">Jay Hoffman</a>
+                    <a href="/speakers/jay-hoffman">Jay Hoffman</a>
                 </h3>
                 <h4 class="speaker-subtitle">Reaktiv Studios</h4>
             </div>
