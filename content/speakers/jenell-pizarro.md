@@ -8,4 +8,4 @@ github: nellarro
 draft: false
 ---
 
-Coming soon.
+Jenell is a Sass-slinging, semantic markup loving, micro-interaction obsessed UX Developer at Capco. She loves the development community, getting excited about new front end resources, and roller skating.
