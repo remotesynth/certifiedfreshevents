@@ -239,20 +239,20 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/jen-looper">
-                    <img src="/img/speakers/jenlooper.jpg" alt="speaker">
+                <a class="profile-img" href="/speakers/ben-ilegbodu">
+                    <img src="/img/speakers/benilegbodu.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jenlooper"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/jlooper"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://www.jenlooper.com/"><i class="fa fa-link"></i></a>
+                <a class="sp-tw" href="https://twitter.com/benmvp"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/benmvp"><i class="fab fa-github"></i></a>
+                <a class="sp-link" href="http://www.benmvp.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/jen-looper">Jen Looper</a>
+                    <a href="/speakers/david-khourshid">Ben Ilegbodu</a>
                 </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
+                <h4 class="speaker-subtitle">Eventbrite</h4>
             </div>
         </div>
     </div>
@@ -271,6 +271,26 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             <div class="speaker-info">
                 <h3 class="speaker-title">
                     <a href="/speakers/david-khourshid">David Khourshid</a>
+                </h3>
+                <h4 class="speaker-subtitle">Microsoft</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/jen-looper">
+                    <img src="/img/speakers/jenlooper.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/jenlooper"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/jlooper"><i class="fab fa-github"></i></a>
+                <a class="sp-link" href="https://www.jenlooper.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/jen-looper">Jen Looper</a>
                 </h3>
                 <h4 class="speaker-subtitle">Microsoft</h4>
             </div>
@@ -312,6 +332,25 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a>
                 </h3>
                 <h4 class="speaker-subtitle">Progress</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/jenell-pizarro">
+                    <img src="/img/speakers/jenellpizarro.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/nellarro"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/nellarro"><i class="fab fa-github"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/alyssa-nicoll">Jenell Pizarro</a>
+                </h3>
+                <h4 class="speaker-subtitle">Capco</h4>
             </div>
         </div>
     </div>
