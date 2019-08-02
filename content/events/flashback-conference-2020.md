@@ -420,7 +420,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
 
 This event wouldn't be possible without the support of our sponsors.
 
-## Gold Sponsor
+### Gold Sponsor
 
 [![CAPCO](/img/banners/capco_logo.png)](https://www.capco.com/)
 
