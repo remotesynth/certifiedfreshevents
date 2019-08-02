@@ -420,6 +420,12 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
 
 This event wouldn't be possible without the support of our sponsors.
 
+## Gold Sponsor
+
+[![CAPCO](/img/banners/capco_logo.png)](https://www.capco.com/)
+
+### Silver Sponsors
+
 [![Netlify](/img/banners/netlify-logo.png)](https://netlify.com)
 
 We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
