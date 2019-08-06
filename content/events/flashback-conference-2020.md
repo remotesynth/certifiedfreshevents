@@ -250,9 +250,29 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/david-khourshid">Ben Ilegbodu</a>
+                    <a href="/speakers/ben-ilegbodu">Ben Ilegbodu</a>
                 </h3>
                 <h4 class="speaker-subtitle">Eventbrite</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/bobby-johnson">
+                    <img src="/img/speakers/bobbyjohnson.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/NotMyself"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/NotMyself"><i class="fab fa-github"></i></a>
+                <a class="sp-link" href="https://iamnotmyself.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/bobby-johnson">Bobby Johnson</a>
+                </h3>
+                <h4 class="speaker-subtitle">Auth0</h4>
             </div>
         </div>
     </div>
