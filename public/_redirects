@@ -1,2 +1,3 @@
 # Redirect domain aliases to primary domain
 https://certifiedfreshevents.com/* https://cfe.dev/:splat 301!
+https://fashback.dev/* https://cfe.dev/events/flashback-conference-2020/ 301!
