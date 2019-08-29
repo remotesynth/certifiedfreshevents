@@ -448,6 +448,10 @@ This event wouldn't be possible without the support of our sponsors.
 
 [![Netlify](/img/banners/netlify-logo.png)](https://netlify.com)
 
+### Opportunity Sponsor
+
+[![Pluralsight](/img/banners/Pluralsight_logo.png)](https://www.pluralsight.com)
+
 We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
 
 ## Schedule {#schedule}
