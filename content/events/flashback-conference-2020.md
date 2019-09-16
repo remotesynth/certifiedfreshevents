@@ -168,7 +168,7 @@ featured: true
 
 Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved from early HTML, JavaScript and a dependency on plugins like Flash to the web of today. Flashback Conference will feature 2 days and approximately 15 speakers who are experts in the field of front-end development.
 
-Web developers are impacted every day by the evolution of the web platform because HTML, CSS and JavaScript all aim to be fully backwards compatible. Web developers can build the skillsets of their craft by undestanding not just how their tools work, but why they work that way.
+Web developers are impacted every day by the evolution of the web platform because HTML, CSS and JavaScript all aim to be fully backwards compatible. Web developers can build the skillsets of their craft by understanding not just how their tools work, but why they work that way.
 
 <a href="#register">Register Today</a>
 
@@ -194,7 +194,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                 <h3 class="speaker-title">
                     <a href="/speakers/raymond-camden">Raymond Camden</a>
                 </h3>
-                <h4 class="speaker-subtitle">American Express</h4>
+                <h4 class="speaker-subtitle">HERE Tehnologies</h4>
             </div>
         </div>
     </div>
