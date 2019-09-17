@@ -17,8 +17,8 @@ location: "The Abbey Orlando"
 cost: "$149-$249"
 banner: "flashback_large.jpg"
 homepage_banner: "flashback.jpg"
-description: "Flashback Conference features 2 days and 15 expert speakers focused on new and cutting-edge web platform features, APIs and tooling with a historical context."
-short_desc: "Flashback Conference is a 2-day front-end focused conference in Orlando, FL"
+description: "Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved."
+short_desc: "Flashback Conference is a 2-day front-end web development focused conference in Orlando, FL"
 draft: false
 featured: true
 ---
