@@ -441,19 +441,25 @@ function openTwitterShare(url,message) {
   win.opener = null;
 }
 
-/* Mailchimp form submit
+/* ActiveCampaign form submit
   -------------------------------------------------------*/
 
 function subscribeForm(form,messageObj) {
-  axios.post('/.netlify/functions/mailchimp', {
+  axios.post('/.netlify/functions/activecampaign', {
     email: form.email.value
   })
   .then(function (response) {
-    form.subscribe.disabled = true;
-    form.email.value = "";
-    form.subscribe.value = "Subscribed!";
+    if (response.data.contact !== undefined) {
+      form.subscribe.disabled = true;
+      form.email.value = "";
+      form.subscribe.value = "Subscribed!";
+    }
+    else {
+      messageObj.innerHTML = response.data.title;
+    }
   })
   .catch(function (error) {
+    console.log(error);
     messageObj.innerHTML = "We apologize, there was a problem subscribing.";
   });
 
