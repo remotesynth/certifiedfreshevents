@@ -3,7 +3,7 @@ title: "Sextech: The Good, the Bad & the Bias"
 date: 2019-09-19T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "September 2019"
 categories:
     - Culture
