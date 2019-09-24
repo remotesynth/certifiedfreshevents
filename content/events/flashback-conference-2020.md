@@ -301,18 +301,18 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/jen-looper">
-                    <img src="/img/speakers/jenlooper.jpg" alt="speaker">
+                <a class="profile-img" href="/speakers/em-lazer-walker">
+                    <img src="/img/speakers/emlazerwalker.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/jenlooper"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/jlooper"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://www.jenlooper.com/"><i class="fa fa-link"></i></a>
+                <a class="sp-tw" href="https://twitter.com/lazerwalker"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/lazerwalker"><i class="fab fa-github"></i></a>
+                <a class="sp-link" href="https://lazerwalker.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/jen-looper">Jen Looper</a>
+                    <a href="/speakers/em-lazer-walker">Em Lazer Walker</a>
                 </h3>
                 <h4 class="speaker-subtitle">Microsoft</h4>
             </div>
