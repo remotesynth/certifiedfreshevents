@@ -1,22 +1,22 @@
 ---
 title: "Building IoT Apps with Azure & Particle"
-date: "2019-09-18"
+date: "2019-11-13"
 menu:
   main:
     parent: "upcoming"
     name: "IoT Training 2019"
 categories:
     - IoT
-starttime: "9/18 1:00pm EST"
-endtime: "9/18 5:00pm EST"
+starttime: "11/13 1:00pm EST"
+endtime: "11/13 5:00pm EST"
 days: 1
 location: "Online"
-cost: "$149"
+cost: "$99"
 homepage_banner: "Building-IoT-Apps-with-Azure-and-Particle.jpg"
-short_desc: "Suz Hinton and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."
-description: "In this workshop, Suz Hinton and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."
+short_desc: "Paul DeCarlo and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."
+description: "In this workshop, Paul DeCarlo and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."
 embed_url: https://www.crowdcast.io/e/building-iot-apps-with
-draft: true
+draft: false
 featured: true
 ---
 
@@ -62,7 +62,7 @@ featured: true
 
 Modern connected hardware (or IoT) applications are about more than setting up a microcontroller to read sensors or control actuators. Increasingly, these systems need to connect with other devices, backhaul their data to the cloud, or enable remote updates or commands across large distances. These types of solutions require simple, open, and extensible developer tools, and integrations with popular cloud Platforms.
 
-In this workshop, Suz Hinton and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence. Over the course of this half-day, hands-on session, you’ll learn everything you need to know to build your next connected solution.
+In this workshop, Paul DeCarlo and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence. Over the course of this half-day, hands-on session, you’ll learn everything you need to know to build your next connected solution.
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
 
@@ -80,13 +80,13 @@ In this workshop, Suz Hinton and Brandon Satrom will share one approach for buil
             <div class="col-md-6 col-sm-6">
                 <div class="speaker">
                     <figure>
-                        <img alt="Suz Hinton" class="img-responsive center-block" src="/img/speakers/susan-hinton.png">
+                        <img alt="Paul DeCarlo" class="img-responsive center-block" src="/img/speakers/pauldecarlo.png">
                     </figure>
-                    <h4>Suz Hinton</h4>
-                    <div class="speaker-bio"><p>Cloud Developer Advocate focusing on IoT, open source and NodeJS. She’s works to implement best practices for Azure IoT services and is passionate about improving the open source offerings from Microsoft.</p></div>
+                    <h4>Paul DeCarlo</h4>
+                    <div class="speaker-bio"><p>Paul DeCarlo is a Microsoft Cloud Advocate and Professor for the Bauer College of Business at the University of Houston. His technology interests are Internet of Things, cloud applications and cross-platform mobile development.</p></div>
                     <ul class="social-block">
-                        <li><a class="social social-twitter" href="https://twitter.com/noopkat" target="_blank" aria-label="twitter" style="float:left;"><i class="ui-twitter"></i></a></li>
-                        <li><a class="social social-github" href="https://github.com/noopkat" target="_blank" aria-label="github" style="float:left;"><i class="ui-github"></i></a></li>
+                        <li><a class="social social-twitter" href="https://twitter.com/pjdecarlo" target="_blank" aria-label="twitter" style="float:left;"><i class="ui-twitter"></i></a></li>
+                        <li><a class="social social-github" href="https://github.com/toolboc" target="_blank" aria-label="github" style="float:left;"><i class="ui-github"></i></a></li>
                     </ul>
                 </div>
             </div>
