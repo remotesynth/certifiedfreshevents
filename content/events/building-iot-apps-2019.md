@@ -68,7 +68,7 @@ In this workshop, Paul DeCarlo and Brandon Satrom will share one approach for bu
 
 <h2 style="color: #FFF;">Hardware included!</h2>
 
-<p>Everyone who registers by November 6th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit">Argon Kit</a> (with a combined retail cost of $70).</p>
+<p>Everyone who registers by November 6th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit" style="color: #f0cc9b; text-decoration:underline;">Argon Kit</a> (with a combined retail cost of $70).</p>
 
 </div>
 
