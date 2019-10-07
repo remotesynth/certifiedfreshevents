@@ -497,4 +497,4 @@ Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbe
 
 ## Code of Conduct
 
-Attendees of Flashback Conference are expected to abide by the [Certified Fresh Events code of conduct](conduct). If you encounter any violations, please contact an event support staff person on-site, email [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com) or call (857) 919-7630.
+Attendees of Flashback Conference are expected to abide by the [Certified Fresh Events code of conduct](/conduct). If you encounter any violations, please contact an event support staff person on-site, email [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com) or call (857) 919-7630.
