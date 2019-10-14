@@ -176,7 +176,49 @@ Web developers are impacted every day by the evolution of the web platform becau
 
 We are building a fantastic lineup of experts! Check back for more speaker announcements.
 
+### Keynotes
+
 <div class="lgx-speakers">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/kyle-simpson">
+                    <img src="/img/speakers/KyleSimpson.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/getify"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/getify"><i class="fab fa-github"></i></i></a>
+                <a class="sp-link" href="https://me.getify.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/kyle-simpson">Kyle Simpson</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
+                <a class="profile-img" href="/speakers/estelle-weyl">
+                    <img src="/img/speakers/EstelleWeyl.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/estellevw"><i class="fab fa-twitter"></i></a>
+                <a class="sp-gh" href="https://github.com/estelle"><i class="fab fa-github"></i></i></a>
+                <a class="sp-link" href="http://www.standardista.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/estelle-weyl">Estelle Weyl</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
