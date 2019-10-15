@@ -243,7 +243,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/jay-hoffman">
+                <a class="profile-img" href="/speakers/jay-hoffmann">
                     <img src="/img/speakers/jayhoffman.jpg" alt="speaker">
                 </a>
                 <figcaption>   
@@ -254,7 +254,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/jay-hoffman">Jay Hoffman</a>
+                    <a href="/speakers/jay-hoffmann">Jay Hoffmann</a>
                 </h3>
                 <h4 class="speaker-subtitle">Reaktiv Studios</h4>
             </div>
@@ -386,7 +386,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                     <img src="/img/speakers/alyssanicoll.jpg" alt="speaker">
                 </a>
                 <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/AlyssaNicol"><i class="fab fa-twitter"></i></a>
+                <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
                 </figcaption>
