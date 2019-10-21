@@ -13,7 +13,7 @@ days: 1
 location: "Online"
 cost: "0"
 homepage_banner: "networking-for-devs.jpg"
-short_desc: "Wesley Faulkner shares advice on how to be successful at progressional networking as a developer."
+short_desc: "Wesley Faulkner shares advice on how to be successful at professional networking as a developer."
 description: "Wesley Faulkner will share how to become an effective professional networker as a developer and shift away from looking at these interactions as transactional."
 embed_url: https://www.crowdcast.io/e/a-guide-to-professional
 draft: false
