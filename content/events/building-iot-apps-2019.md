@@ -62,13 +62,19 @@ featured: true
 
 Modern connected hardware (or IoT) applications are about more than setting up a microcontroller to read sensors or control actuators. Increasingly, these systems need to connect with other devices, backhaul their data to the cloud, or enable remote updates or commands across large distances. These types of solutions require simple, open, and extensible developer tools, and integrations with popular cloud Platforms.
 
-In this workshop, Paul DeCarlo and Brandon Satrom will share an approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence. Over the course of this half-day, hands-on session, you’ll learn everything you need to know to build your next connected solution.
+In this workshop, Paul DeCarlo and Brandon Satrom will share an approach for building IoT applications using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence. Over the course of this half-day, hands-on session, you’ll learn everything you need to know to build your next connected solution.
 
-<div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
+What's included:
+
+* A full afternoon of live, hands on, online #IoT training from experts Particle & Azure
+* $70 worth of Particle equipment shipped directly to you (register by November 6th).
+* Access to the recordings once the training is complete.
+
+<div style="background-color: #e64614; color: #FFF; margin: 20px 5px 5px 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
 
 <h2 style="color: #FFF;">Hardware included!</h2>
 
-<p>Everyone who registers by November 6th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit" style="color: #f0cc9b; text-decoration:underline;">Argon Kit</a> (with a combined retail cost of $70).</p>
+<p>Everyone who registers by November 6th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit" style="color: #f0cc9b; text-decoration:underline;">Argon Kit</a> (a combined retail cost of $70) at no additional charge.</p>
 
 </div>
 
