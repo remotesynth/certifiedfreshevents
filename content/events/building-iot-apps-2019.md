@@ -1,14 +1,14 @@
 ---
 title: "Building IoT Apps with Azure & Particle"
-date: "2019-11-13"
+date: "2019-11-20"
 menu:
   main:
     parent: "upcoming"
     name: "IoT Training 2019"
 categories:
     - IoT
-starttime: "11/13 1:00pm EST"
-endtime: "11/13 5:00pm EST"
+starttime: "11/20 1:00pm EST"
+endtime: "11/20 5:00pm EST"
 days: 1
 location: "Online"
 cost: "$99"
