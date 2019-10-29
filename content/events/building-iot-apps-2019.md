@@ -74,7 +74,7 @@ What's included:
 
 <h2 style="color: #FFF;">Hardware included!</h2>
 
-<p>Everyone who registers by November 6th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit" style="color: #f0cc9b; text-decoration:underline;">Argon Kit</a> (a combined retail cost of $70) at no additional charge.</p>
+<p>Everyone who registers by November 13th gets a <a href="https://store.particle.io/products/grove-starter-kit" style="color: #f0cc9b; text-decoration:underline;">Grove Starter Kit for Particle Mesh</a> and an <a href="https://store.particle.io/collections/wifi/products/argon-kit" style="color: #f0cc9b; text-decoration:underline;">Argon Kit</a> (a combined retail cost of $70) at no additional charge. (Items are shipped 1 week prior to the event.)</p>
 
 </div>
 

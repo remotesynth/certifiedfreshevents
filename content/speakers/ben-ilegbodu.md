@@ -2,7 +2,7 @@
 title: "Ben Ilegbodu"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: benilegbodu.jpg
-job_title:  Principal Frontend Engineer at Eventbrite
+job_title:  Principal Frontend Engineer at Stitch Fix
 twitter: benmvp
 github: benmvp
 website: http://www.benmvp.com/
