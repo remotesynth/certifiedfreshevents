@@ -172,9 +172,9 @@ Web developers are impacted every day by the evolution of the web platform becau
 
 <a href="#register">Register Today</a>
 
-## Speakers...so far! {#speakers}
+## Speakers {#speakers}
 
-We are building a fantastic lineup of experts! Check back for more speaker announcements.
+We have a fantastic lineup of experts in frontend development, JavaScript and serverless!
 
 ### Keynotes
 
@@ -296,27 +296,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                 <h3 class="speaker-title">
                     <a href="/speakers/ben-ilegbodu">Ben Ilegbodu</a>
                 </h3>
-                <h4 class="speaker-subtitle">Eventbrite</h4>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/bobby-johnson">
-                    <img src="/img/speakers/bobbyjohnson.jpg" alt="speaker">
-                </a>
-                <figcaption>   
-                <a class="sp-tw" href="https://twitter.com/NotMyself"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/NotMyself"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://iamnotmyself.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/bobby-johnson">Bobby Johnson</a>
-                </h3>
-                <h4 class="speaker-subtitle">Auth0</h4>
+                <h4 class="speaker-subtitle">Stitch Fix</h4>
             </div>
         </div>
     </div>
@@ -363,6 +343,25 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
+                <a class="profile-img" href="/speakers/simon-macdonald">
+                    <img src="/img/speakers/simonmacdonald.jpg" alt="speaker">
+                </a>
+                <figcaption>   
+                <a class="sp-tw" href="https://twitter.com/macdonst"><i class="fab fa-twitter"></i></a>
+                <a class="sp-link" href="https://www.simonmacdonald.com/"><i class="fa fa-link"></i></a>
+                </figcaption>
+            </figure>
+            <div class="speaker-info">
+                <h3 class="speaker-title">
+                    <a href="/speakers/simon-macdonald">Simon MacDonald</a>
+                </h3>
+                <h4 class="speaker-subtitle">Adobe</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="lgx-single-speaker lgx-single-speaker-sm">
+            <figure>
                 <a class="profile-img" href="/speakers/helena-mccabe">
                     <img src="/img/speakers/helenamccabe.jpg" alt="speaker">
                 </a>
@@ -387,7 +386,6 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/alyssamichelle"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
                 </figcaption>
             </figure>
@@ -412,7 +410,7 @@ We are building a fantastic lineup of experts! Check back for more speaker annou
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/alyssa-nicoll">Jenell Pizarro</a>
+                    <a href="/speakers/jenell-pizarro">Jenell Pizarro</a>
                 </h3>
                 <h4 class="speaker-subtitle">Capco</h4>
             </div>
@@ -501,6 +499,270 @@ We have very limited room for additional sponsors, so [contact us](/contact/cont
 ## Schedule {#schedule}
 
 Flashback Conference will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
+
+<!-- conference agenda -->
+
+<style>
+.bar {
+  height: 8px;
+  margin-bottom: 22px;
+}
+
+.bar-gold {
+  background-color: #27AAE2;
+  background-image: -webkit-linear-gradient(left, #27AAE2, #A9DAFF);
+  background-image: linear-gradient(to right, #27AAE2, #A9DAFF);
+}
+
+.bar-purple {
+  background-color: #F06E38;
+  background-image: -webkit-linear-gradient(left, #F06E38, #F7AC70);
+  background-image: linear-gradient(to right, #F06E38, #F7AC70);
+}
+
+#conference-agenda {
+  text-align: center;
+}
+#conference-agenda h2 {
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 40px;
+  margin-top: 21px;
+}
+@media (min-width: 630px) {
+  #conference-agenda h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 32px;
+    margin-top: 42px;
+  }
+}
+
+#daily-agenda {
+  font-family: "Poppins", sans-serif;
+}
+#daily-agenda .date {
+  margin-bottom: 34px;
+}
+#daily-agenda .date h2 {
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 13px;
+}
+#daily-agenda .date h2 br {
+  display: none;
+}
+@media (min-width: 630px) and (max-width: 960px) {
+  #daily-agenda .date h2 br {
+    display: block;
+  }
+}
+#daily-agenda .date p {
+  -webkit-font-smoothing: antialiased;
+  color: #666;
+  margin-bottom: 8px;
+}
+#daily-agenda .date ul {
+  margin: 0 0 18px;
+  padding: 0 0 0 18px;
+}
+#daily-agenda .date ul.dash {
+  list-style-type: none;
+}
+#daily-agenda .date ul.dash > li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -1em;
+}
+#daily-agenda .date ul li {
+  -webkit-font-smoothing: antialiased;
+  color: #666;
+  margin-bottom: 6px;
+}
+#daily-agenda .date ul li:last-child {
+  margin-bottom: 0;
+}
+#daily-agenda .date ul li.no-bullet {
+  list-style-type: none;
+}
+#daily-agenda .horz-rule {
+  margin-bottom: 2px;
+  margin-top: 12px;
+}
+@media (min-width: 630px) {
+  #daily-agenda .horz-rule {
+    margin-bottom: 8px;
+    margin-top: 32px;
+  }
+}
+</style>
+
+<!-- 2-col day agenda -->
+<div id="daily-agenda" class="container">
+    <div class="row">
+        <div class="date col-sm-6">
+                <h2>Monday <br>February&nbsp;10,&nbsp;2020</h2>
+                <div class="bar bar-gold"></div>
+                <ul>
+                        <li><span>9:30-9:45</span><br>
+                        <strong>Welcome</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Jenell Pizarro</li>
+                            </ul>
+                        </li>
+                        <li><span>9:45-10:30</span><br>
+                        <strong>Keynote - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Kyle Simpson</li>
+                            </ul>
+                        </li>
+                        <li class="no-bullet"><span>10:30-10:50</span> - Afternoon Break</li>
+                        <li><span>10:50-11:30</span><br>
+                        <strong><a href="/sessions/what-happened-webmaster">Whatever Happened to the Webmaster?</a></strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li><a href="/speakers/jay-hoffmann.html">Jay Hoffmann</a></li>
+                            </ul>
+                        </li>
+                        <li><span>11:35-12:15</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Ayşegül Yönet</li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="no-bullet"><span>12:15-1:30</span> - Lunch</li>
+                        <li><span>1:30-2:10</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Carlos Souza</li>
+                            </ul>
+                        </li>
+                        <li><span>2:15-2:55</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Helena McCabe</li>
+                            </ul>
+                        </li>
+                        <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
+                        <li><span>3:20-4:00</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Em Lazer Walker</li>
+                            </ul>
+                        </li>
+                        <li><span>4:05-4:45</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>TBD</li>
+                            </ul>
+                        </li>
+                        <li><span>4:45-5:00</span><br>
+                        <strong>Closing</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Jenell Pizarro</li>
+                            </ul>
+                        </li>
+                        <li><span>7:00</span><br>
+                        <strong>Attendee Party</strong></li>
+                </ul>
+        </div>
+        <div class="date col-sm-6">
+                <h2>Tuesday <br>February&nbsp;11,&nbsp;2020</h2>
+                <div class="bar bar-purple"></div>
+                <ul>
+                        <li><span>9:30-9:45</span><br>
+                        <strong>Welcome</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Jenell Pizarro</li>
+                            </ul>
+                        </li>
+                        <li><span>9:45-10:30</span><br>
+                        <strong>Keynote - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Estelle Weyl</li>
+                            </ul>
+                        </li>
+                        <li class="no-bullet"><span>10:30-10:50</span> - Afternoon Break</li>
+                        <li><span>10:50-11:30</span><br>
+                        <strong><a href="/sessions/cgi-to-serverless">The Dynamic Web, from CGI to Serverless</a></strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li><a href="/speakers/raymond-camden.html">Raymond Camden</a></li>
+                            </ul>
+                        </li>
+                        <li><span>11:35-12:15</span><br>
+                        <strong><a href="/sessions/webdev-like-1999">Let’s web dev like it’s 1999! 🎉</a></strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li><a href="/speakers/ben-ilegbodu.html">Ben Ilegbodu</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="no-bullet"><span>12:15-1:30</span> - Lunch</li>
+                        <li><span>1:30-2:10</span><br>
+                        <strong>Expert Panel</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>TBD</li>
+                            </ul>
+                        </li>
+                        <li><span>2:15-2:55</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Alyssa Nicoll</li>
+                            </ul>
+                        </li>
+                        <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
+                        <li><span>3:20-4:00</span><br>
+                        <strong>Session - Title TBD</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>David Kourshid</li>
+                            </ul>
+                        </li>
+                        <li><span>4:05-4:45</span><br>
+                        <strong><a href="/sessions/good-bad-serverless">The good, the bad and the ugly of Serverless Web Apps</a></strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li><a href="/speakers/burke-holland.html">Burke Holland</a></li>
+                            </ul>
+                        </li>
+                        <li><span>4:45-5:00</span><br>
+                        <strong>Closing</strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li>Jenell Pizarro</li>
+                            </ul>
+                        </li>
+                </ul>
+        </div>
+    </div>
+    <div class="row">
+            <div class="container">
+                    <div class="horz-rule"></div>
+            </div>
+    </div>
+</div>
 
 <a name="venue"></a>
 
