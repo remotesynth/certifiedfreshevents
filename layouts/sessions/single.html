@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<style>
+.social {
+  text-align: center;
+  width: 100%;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline ul {
+    list-style: none;
+}
+.list-inline>li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    padding: 5px;
+}
+</style>
+<body class="style-videos">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Bg Overlay -->
+  <div class="content-overlay"></div>
+
+
+{{ partial "left-nav.html" . }}
+
+  <main class="main oh" id="main">
+
+    {{ partial "top-bar.html" . }}        
+
+		{{ partial "navigation.html" . }}
+		
+<!-- Breadcrumbs -->
+<div class="container">
+		<ul class="breadcrumbs">
+			<li class="breadcrumbs__item">
+				<a href="/index.html" class="breadcrumbs__url">Home</a>
+			</li>
+			<li class="breadcrumbs__item breadcrumbs__item--current">
+				{{ .Title }}
+			</li>
+		</ul>
+	</div>
+
+	<div class="main-container container" id="main-container">
+		<!-- Post Content -->
+		<div class="blog__content mb-72">
+
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<!-- standard post -->
+					<article class="entry mb-0">
+						<div class="entry__article-wrap">
+
+<!---speaker specific -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm-3 col-xs-12">
+          <figure>
+            <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/><br>
+            <h3><a href="/speakers/{{lower (replace .Params.speaker " " "-")}}" style="color:#2AAAE2;text-decoration: underline;">{{ .Params.speaker }}</a></h3>
+          </figure>
+      </div>
+      <div class="col-sm-7 col-xs-12">
+          <div class="speakers-content">
+              <h1 class="title">{{ .Title }}</h1>
+              {{ .Content }}
+          </div>
+      </div>
+  </div>
+</div>
+<!-- end speaker specific -->
+						</div> <!-- end entry article wrap -->
+						
+						{{ partial "newsletter.html" . }}
+
+					</article> <!-- end standard post -->
+				</div>
+			</div>
+
+		</div> <!-- end post content -->
+	</div> <!-- end main container -->					
+		
+		{{ partial "footer.html" .}}
+
+    </main> <!-- end main-wrapper -->
+
+{{ partial "scripts.html" .}}
+
+</body>
+</html>
