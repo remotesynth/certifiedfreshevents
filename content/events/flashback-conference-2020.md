@@ -644,10 +644,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         </li>
                         <li class="no-bullet"><span>12:15-1:30</span> - Lunch</li>
                         <li><span>1:30-2:10</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/webdev-like-1999">Let’s web dev like it’s 1999! 🎉</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Carlos Souza</li>
+                                <li><a href="/speakers/ben-ilegbodu.html">Ben Ilegbodu</a></li>
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
@@ -710,10 +710,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>11:35-12:15</span><br>
-                        <strong><a href="/sessions/webdev-like-1999">Let’s web dev like it’s 1999! 🎉</a></strong></li>
+                        <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li><a href="/speakers/ben-ilegbodu.html">Ben Ilegbodu</a></li>
+                                <li>Carlos Souza</li>
                             </ul>
                         </li>
                         </li>
