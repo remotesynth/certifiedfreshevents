@@ -67,7 +67,7 @@ In this workshop, Paul DeCarlo and Brandon Satrom will share an approach for bui
 What's included:
 
 * A full afternoon of live, hands on, online #IoT training from experts Particle & Azure
-* $70 worth of Particle equipment shipped directly to you (register by November 6th).
+* $70 worth of Particle equipment shipped directly to you (register by November 13th).
 * Access to the recordings once the training is complete.
 
 <div style="background-color: #e64614; color: #FFF; margin: 20px 5px 5px 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
