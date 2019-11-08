@@ -43,9 +43,9 @@ featured: true
 
 .lgx-speakers .lgx-single-speaker figure {
 	position: relative;
-	-webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
+	/* -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
-	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25); */
 	border-radius: 4px;
 	text-align: center;
 }
@@ -184,7 +184,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/kyle-simpson">
-                    <img src="/img/speakers/KyleSimpson.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/KyleSimpson.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/getify"><i class="fab fa-twitter"></i></a>
@@ -203,7 +203,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/estelle-weyl">
-                    <img src="/img/speakers/EstelleWeyl.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/EstelleWeyl.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/estellevw"><i class="fab fa-twitter"></i></a>
@@ -224,7 +224,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/raymond-camden">
-                    <img src="/img/speakers/raymondcamden.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/RaymondCamden.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/raymondcamden"><i class="fab fa-twitter"></i></a>
@@ -244,7 +244,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/jay-hoffmann">
-                    <img src="/img/speakers/jayhoffman.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/JayHoffmann.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
@@ -264,7 +264,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/burke-holland">
-                    <img src="/img/speakers/burkeholland.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/BurkeHolland.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fab fa-twitter"></i></a>
@@ -284,7 +284,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/ben-ilegbodu">
-                    <img src="/img/speakers/benilegbodu.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/BenIlegbodu.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/benmvp"><i class="fab fa-twitter"></i></a>
@@ -304,7 +304,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/david-khourshid">
-                    <img src="/img/speakers/davidkhourshid.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/DavidKhourshid.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fab fa-twitter"></i></a>
@@ -324,7 +324,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/em-lazer-walker">
-                    <img src="/img/speakers/emlazerwalker.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/EmLazerWalker.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/lazerwalker"><i class="fab fa-twitter"></i></a>
@@ -344,7 +344,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/simon-macdonald">
-                    <img src="/img/speakers/simonmacdonald.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/SimonMacDonald.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/macdonst"><i class="fab fa-twitter"></i></a>
@@ -363,7 +363,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/helena-mccabe">
-                    <img src="/img/speakers/helenamccabe.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/HelenaMcCabe.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fab fa-twitter"></i></a>
@@ -382,7 +382,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/alyssa-nicoll">
-                    <img src="/img/speakers/alyssanicoll.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/AlyssaNicoll.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
@@ -401,7 +401,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/jenell-pizarro">
-                    <img src="/img/speakers/jenellpizarro.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/JenellPizarro.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/nellarro"><i class="fab fa-twitter"></i></a>
@@ -420,7 +420,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/divya-sasidharan">
-                    <img src="/img/speakers/divyasasidharan.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/DivyaSasidharan.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/shortdiv"><i class="fab fa-twitter"></i></a>
@@ -440,7 +440,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/carlos-souza">
-                    <img src="/img/speakers/carlossouza.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/CarlosSouza.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/caike"><i class="fab fa-twitter"></i></a>
@@ -460,7 +460,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
                 <a class="profile-img" href="/speakers/aysegul-yonet">
-                    <img src="/img/speakers/aysegulyonet.jpg" alt="speaker">
+                    <img src="/img/speakers/portraits/AysegulYonet.png" alt="speaker">
                 </a>
                 <figcaption>   
                 <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>

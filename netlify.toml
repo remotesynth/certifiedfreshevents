@@ -1,2 +1,4 @@
 [build]
   functions = "./lambda"
+[dev]
+  command = "hugo serve --buildFuture"
