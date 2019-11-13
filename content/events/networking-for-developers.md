@@ -3,7 +3,7 @@ title: "A Guide to Professional Networking for Developers"
 date: 2019-10-31T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "October 2019"
 categories:
     - Culture
