@@ -166,7 +166,7 @@ featured: true
 
 # Join us on February 10-11 in Orlando, Florida!
 
-Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved from early HTML, JavaScript and a dependency on plugins like Flash to the web of today. Flashback Conference will feature 2 days and approximately 15 speakers who are experts in the field of front-end development.
+Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they’ve evolved from early HTML, JavaScript and plugins of the past to the web of today. Flashback Conference will feature 2 days and approximately 15 speakers who are experts in the field of front-end development.
 
 Web developers are impacted every day by the evolution of the web platform because HTML, CSS and JavaScript all aim to be fully backwards compatible. Web developers can build the skillsets of their craft by understanding not just how their tools work, but why they work that way.
 
@@ -659,7 +659,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         </li>
                         <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
                         <li><span>3:20-4:00</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong>Topic: HTML5 and Serverless Game Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li>Em Lazer Walker</li>
