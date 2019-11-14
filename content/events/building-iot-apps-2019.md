@@ -60,6 +60,8 @@ featured: true
 }
 </style>
 
+<span style="color:#e64614;">Please note that the registration deadline of November 13th for the hardware has passed and we cannot guarantee that your hardware will arrive in time for the workshop.</span>
+
 Modern connected hardware (or IoT) applications are about more than setting up a microcontroller to read sensors or control actuators. Increasingly, these systems need to connect with other devices, backhaul their data to the cloud, or enable remote updates or commands across large distances. These types of solutions require simple, open, and extensible developer tools, and integrations with popular cloud Platforms.
 
 In this workshop, Paul DeCarlo and Brandon Satrom will share an approach for building IoT applications using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence. Over the course of this half-day, hands-on session, you’ll learn everything you need to know to build your next connected solution.

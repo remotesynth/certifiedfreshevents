@@ -719,10 +719,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         </li>
                         <li class="no-bullet"><span>12:15-1:30</span> - Lunch</li>
                         <li><span>1:30-2:10</span><br>
-                        <strong>Expert Panel</strong></li>
+                        <strong>Expert Panel: The Current State of Web Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>TBD</li>
+                                <li>Matt Markham, Luke Penca, Lee Warrick, more TBD</li>
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
