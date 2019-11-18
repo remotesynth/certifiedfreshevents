@@ -710,10 +710,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>11:35-12:15</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/fostering-local-community/">Fostering Your Local JavaScript Community</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Carlos Souza</li>
+                                <li><a href="/speakers/carlos-souza">Carlos Souza</a></li>
                             </ul>
                         </li>
                         </li>
