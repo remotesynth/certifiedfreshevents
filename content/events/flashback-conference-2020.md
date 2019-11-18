@@ -722,7 +722,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Expert Panel: The Current State of Web Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Matt Markham, Luke Penca, Lee Warrick, more TBD</li>
+                                <li>Matt Markham, Luke Penca, <a href="/speakers/lee-warrick">Lee Warrick</a>, more TBD</li>
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
