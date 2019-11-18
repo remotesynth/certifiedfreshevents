@@ -9,4 +9,4 @@ website: https://csouza.me/
 draft: false
 ---
 
-Coming soon.
+Carlos Souza is a Pluralsight author, consultant and community organizer. When not making loud noises with his mechanical keyboard, he can be found playing music or rock climbing
