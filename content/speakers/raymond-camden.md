@@ -2,7 +2,7 @@
 title: "Raymond Camden"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: raymondcamden.jpg
-job_title:  Developer Experience Engineer at American Express
+job_title:  Lead Developer Evangelist at HERE Technologies
 twitter: raymondcamden
 github: cfjedimaster
 website: https://www.raymondcamden.com
