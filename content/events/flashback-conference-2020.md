@@ -669,7 +669,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>TBD</li>
+                                <li>Simon MacDonald</li>
                             </ul>
                         </li>
                         <li><span>4:45-5:00</span><br>
