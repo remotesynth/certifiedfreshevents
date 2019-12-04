@@ -490,9 +490,15 @@ This event wouldn't be possible without the support of our sponsors.
 
 [![Netlify](/img/banners/netlify-logo.png)](https://netlify.com)
 
+[![BlueWave](/img/banners/bluewave-logo.png)](https://bluewaverp.com/)
+
 ### Opportunity Sponsor
 
 [![Pluralsight](/img/banners/Pluralsight_logo.png)](https://www.pluralsight.com)
+
+### Community Partners
+
+[![Project Orlando](/img/banners/project-orlando-logo.png)](https://www.projectorlando.io/)
 
 We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
 
@@ -626,7 +632,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                                 <li>Kyle Simpson</li>
                             </ul>
                         </li>
-                        <li class="no-bullet"><span>10:30-10:50</span> - Afternoon Break</li>
+                        <li class="no-bullet"><span>10:30-10:50</span> - Morning Break</li>
                         <li><span>10:50-11:30</span><br>
                         <strong><a href="/sessions/what-happened-webmaster">Whatever Happened to the Webmaster?</a></strong></li>
                         <li class="no-bullet">
@@ -679,7 +685,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                                 <li>Jenell Pizarro</li>
                             </ul>
                         </li>
-                        <li><span>7:00</span><br>
+                        <li><span>6:30</span><br>
                         <strong>Attendee Party</strong></li>
                 </ul>
         </div>
@@ -701,7 +707,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                                 <li>Estelle Weyl</li>
                             </ul>
                         </li>
-                        <li class="no-bullet"><span>10:30-10:50</span> - Afternoon Break</li>
+                        <li class="no-bullet"><span>10:30-10:50</span> - Morning Break</li>
                         <li><span>10:50-11:30</span><br>
                         <strong><a href="/sessions/cgi-to-serverless">The Dynamic Web, from CGI to Serverless</a></strong></li>
                         <li class="no-bullet">
