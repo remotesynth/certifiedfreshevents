@@ -732,7 +732,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/dark-ui-patterns">Dark Patterns in UI — What not to do to your users</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li>Alyssa Nicoll</li>
