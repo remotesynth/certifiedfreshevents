@@ -3,7 +3,7 @@ title: "Understanding Machine Learning"
 date: 2019-11-22T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "November 2019"
 categories:
     - Machine Learning
