@@ -13,8 +13,8 @@ days: 1
 location: "Online"
 cost: "0"
 homepage_banner: "visual-development.jpg"
-short_desc: "Jen Looper explores the possibilities and limitations of machine learning and natural language processing."
-description: "Jen Looper explores the possibilities and limitations of machine learning and natural language processing while building a fun application to write poetry powered by Azure."
+short_desc: "Amanda Loftis expores the impact of visual development tools on web development."
+description: "Amanda Loftis takes a look at visual development tools like Wix, Squarespace, and Webflow and how they impact web design."
 embed_url: https://www.crowdcast.io/e/is-visual-development
 draft: false
 featured: true
