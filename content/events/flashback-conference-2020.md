@@ -450,7 +450,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/divya-sasidharan">Carlos Souza</a>
+                    <a href="/speakers/carlos-souza">Carlos Souza</a>
                 </h3>
                 <h4 class="speaker-subtitle">Pluralsight</h4>
             </div>
@@ -663,22 +663,29 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                                 <li>Helena McCabe</li>
                             </ul>
                         </li>
-                        <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
-                        <li><span>3:20-4:00</span><br>
+                        <li class="no-bullet"><span>2:55-3:10</span> - Afternoon Break</li>
+                        <li><span>3:10-3:50</span><br>
                         <strong>Topic: HTML5 and Serverless Game Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li>Em Lazer Walker</li>
                             </ul>
                         </li>
-                        <li><span>4:05-4:45</span><br>
+                        <li><span>3:55-4:35</span><br>
                         <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li>Simon MacDonald</li>
                             </ul>
                         </li>
-                        <li><span>4:45-5:00</span><br>
+                        <li><span>4:40-5:20</span><br>
+                        <strong><a href="/sessions/jamstack-hits-the-spot">JAMstack Hits the Spot</a></strong></li>
+                        <li class="no-bullet">
+                            <ul class="dash">
+                                <li><a href="/speakers/divya-sasidharan">Divya Sasidharan</a></li>
+                            </ul>
+                        </li>
+                        <li><span>5:20-5:30</span><br>
                         <strong>Closing</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
@@ -735,7 +742,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong><a href="/sessions/dark-ui-patterns">Dark Patterns in UI — What not to do to your users</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Alyssa Nicoll</li>
+                                <li><a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a></li>
                             </ul>
                         </li>
                         <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
