@@ -643,10 +643,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>9:45-10:30</span><br>
-                        <strong>Keynote - Title TBD</strong></li>
+                        <strong><a href="/sessions/fouc-progressive-enhancement">FOUC, and the Death of Progressive Enhancement</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Kyle Simpson</li>
+                                <li><a href="/speakers/kyle-simpson">Kyle Simpson</a></li>
                             </ul>
                         </li>
                         <li class="no-bullet"><span>10:30-10:50</span> - Morning Break</li>
@@ -677,7 +677,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Helena McCabe</li>
+                                <li><a href="/speakers/helena-mccabe">Helena McCabe</a></li>
                             </ul>
                         </li>
                         <li class="no-bullet"><span>2:55-3:10</span> - Afternoon Break</li>
@@ -685,14 +685,14 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Topic: HTML5 and Serverless Game Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Em Lazer Walker</li>
+                                <li><a href="/speakers/em-lazer-walker">Em Lazer Walker</a></li>
                             </ul>
                         </li>
                         <li><span>3:55-4:35</span><br>
                         <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Simon MacDonald</li>
+                                <li><a href="/speakers/simon-macdonald">Simon MacDonald</a></li>
                             </ul>
                         </li>
                         <li><span>4:40-5:20</span><br>
@@ -728,7 +728,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Keynote - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Estelle Weyl</li>
+                                <li><a href="/speakers/estelle-weyl">Estelle Weyl</a></li>
                             </ul>
                         </li>
                         <li class="no-bullet"><span>10:30-10:50</span> - Morning Break</li>
@@ -767,7 +767,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Session - Title TBD</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>David Kourshid</li>
+                                <li><a href="/speakers/david-kourshid">David Kourshid</a></li>
                             </ul>
                         </li>
                         <li><span>4:05-4:45</span><br>
