@@ -162,6 +162,91 @@ featured: true
 	font-size: 1rem;
 	line-height: 1.3rem;
 }
+.slidein:nth-child(even) {
+  background: #3398ff !important;
+}
+
+.slidein:nth-child(odd) {
+  background: #007eff !important;
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin: 46px 10px 0 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  overflow: hidden;
+  margin: auto;
+}
+.button .ten {
+  font-size: 7px;
+  line-height: 52px;
+}
+.button:hover .slidein {
+  left: 0%;
+}
+.button:hover .two {
+  left: 0%;
+  transition-delay: 1.5s;
+}
+.button:hover .three {
+  left: 0%;
+  transition-delay: 3s;
+}
+.button:hover .four {
+  left: 0%;
+  transition-delay: 4.5s;
+}
+.button:hover .five {
+  left: 0%;
+  transition-delay: 6s;
+}
+.button:hover .six {
+  left: 0%;
+  transition-delay: 7.5s;
+}
+.button:hover .seven {
+  left: 0%;
+  transition-delay: 9s;
+}
+.button:hover .eight {
+  left: 0%;
+  transition-delay: 10.5s;
+}
+.button:hover .nine {
+  left: 0%;
+  transition-delay: 13s;
+}
+.button:hover .ten {
+  left: 0%;
+  transition-delay: 16s;
+}
+.button .slidein {
+  background: #3398ff;
+  left: -100%;
+  z-index: 2;
+}
+.button a {
+  text-transform: uppercase;
+  transition: left 300ms;
+  letter-spacing: 1px;
+  background: #007eff;
+  position: absolute;
+  font-weight: bold;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  line-height: 50px;
+}
 </style>
 
 # Join us on February 10-11 in Orlando, Florida!
@@ -187,7 +272,11 @@ Topics include:
 </ul>
 </div>
 
-<a href="#register">Register Today</a>
+<div class="button">
+  <a href="#register" class="first"> Register Today! </a>
+  <a href="#register" class="slidein"> Don't miss out! </a>
+  <a href="#register" class="slidein two"> What're you waiting for? </a>
+</div>
 
 ## Speakers {#speakers}
 
@@ -826,6 +915,16 @@ Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbe
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
+
+<a name="where-to-stay"></a>
+
+## Where to Stay
+
+[![EO Inn](/img/banners/eoinn.jpg)](https://eoinn.com/flashback/)
+
+Just walking distance from the event in downtown Orlando and right off beautiful Lake Eola, the EO Inn offers a beautifully restored, 1920’s-era building and a special rate for Flashback Conference attendees.
+
+<input type="button" class="btn" value="Book My Room"  onclick=" window.open('https://eoinn.com/flashback/','_blank')">
 
 <a name="coc"></a>
 
