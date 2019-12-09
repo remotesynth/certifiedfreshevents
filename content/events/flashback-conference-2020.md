@@ -771,7 +771,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         </li>
                         <li class="no-bullet"><span>2:55-3:10</span> - Afternoon Break</li>
                         <li><span>3:10-3:50</span><br>
-                        <strong>Topic: HTML5 and Serverless Game Development</strong></li>
+                        <strong><a href="/sessions/scaling-battle-royale">Scaling a Live Battle Royale Game With No Budget</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li><a href="/speakers/em-lazer-walker">Em Lazer Walker</a></li>
