@@ -5,7 +5,6 @@ weight: 4
 menu:
   top:
     name: "Contact Us"
-banner: "images/pages/subscribe.jpg"
 draft: false
 ---
 
