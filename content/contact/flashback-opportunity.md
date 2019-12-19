@@ -11,7 +11,7 @@ display: false
 
 [![Pluralsight](/img/banners/Pluralsight_logo.png)](https://www.pluralsight.com)
 
-Thanks to [Pluralsight](https://www.pluralsight.com), we are excited to offer 10 opportunity scholarships for [Flashback Conference](/events/flashback-conference-2020/). The scholarship consists of a free ticket to attend the event on February 10-11, 2020. Scholarships are open to anyone in any under-represented group in our industry<sup>*</sup> or groups in need of assistance with the cost due to being unemployed or a full-time student.
+Thanks to [Pluralsight](https://www.pluralsight.com), we are excited to offer 10 opportunity scholarships for [Flashback Conference](/events/flashback-conference-2020/). The scholarship consists of a free ticket to attend the event on February 10-11, 2020. Scholarships are open to anyone in any under-represented group in our industry<sup>*</sup> or groups in need of assistance with the cost due to being unemployed.
 
 <small>* under-represented groups may include (but are not limited to) women, people of color, people with disabilities, LGBT+, veterans</small>
 
