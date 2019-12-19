@@ -778,7 +778,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>3:55-4:35</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/pwa-how-did-we-get-here/">PWA, How Did We Get Here?</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li><a href="/speakers/simon-macdonald">Simon MacDonald</a></li>
@@ -925,6 +925,14 @@ Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbe
 Just walking distance from the event in downtown Orlando and right off beautiful Lake Eola, the EO Inn offers a beautifully restored, 1920’s-era building and a special rate for Flashback Conference attendees.
 
 <input type="button" class="btn" value="Book My Room"  onclick=" window.open('https://eoinn.com/flashback/','_blank')">
+
+<a name="opportunity"></a>
+
+## Opportunity Scholarship
+
+Thanks to the support of [Pluralsight](https://www.pluralsight.com/) we are able to offer 10 opportunity scholarships to anyone in any under-represented group in our industry or groups in need of assistance with the cost due to being unemployed or a full-time student.
+
+[For more details or to apply go here](/contact/flashback-opportunity).
 
 <a name="coc"></a>
 

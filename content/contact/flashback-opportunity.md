@@ -18,7 +18,7 @@ Thanks to [Pluralsight](https://www.pluralsight.com), we are excited to offer 10
 #### Fine Print
 
 * Scholarship deadline: January 10, 2020
-* Recipients will be notified no later than January15
+* Recipients will be notified no later than January 15
 * Must be available to attend the event
 * Must be 18 years of age or older
 * Due to limited availability, only one scholarship may be awarded per company
