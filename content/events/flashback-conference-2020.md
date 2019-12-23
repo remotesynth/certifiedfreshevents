@@ -853,7 +853,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         </li>
                         <li class="no-bullet"><span>2:55-3:20</span> - Afternoon Break</li>
                         <li><span>3:20-4:00</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/dhtml-to-css-variables">From DHTML to CSS Variables</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li><a href="/speakers/david-kourshid">David Kourshid</a></li>
