@@ -598,6 +598,8 @@ This event wouldn't be possible without the support of our sponsors.
 
 [![BlueWave](/img/banners/bluewave-logo.png)](https://bluewaverp.com/)
 
+[![Rocket Validator](/img/banners/rocket-validator-logo.png)](http://rocketvalidator.com/try?coupon=FLASHBACK2020)
+
 ### Opportunity Sponsor
 
 [![Pluralsight](/img/banners/Pluralsight_logo.png)](https://www.pluralsight.com)
