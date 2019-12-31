@@ -115,7 +115,22 @@
 
 				<div class="entry__article">
 					{{ .Content }}
-
+					
+					{{ if ne .Params.embed_url nil }}
+					{{ $eventcode := path.Base .Params.embed_url }}
+					<form id="registerForm" class="mc4wp-form" onsubmit="return registerForm(this,document.getElementById('register_message'));">
+						<input type="hidden" name="eventcode" value="{{$eventcode}}">
+						<div class="mc4wp-form-fields">
+						<div class="form-group">
+							<input type="email" name="email" placeholder="Your email" required="true" aria-required="true">
+						</div>
+						<div class="form-group">
+							<input type="submit" name="register" class="btn btn-lg" value="Register Now">
+						</div>
+						</div>
+						<div id="register_message" style="color:red;"></div>
+					</form>
+					{{ end }}
 				<!-- tags -->
 				<div class="entry__tags">
 					<i class="ui-tags"></i>

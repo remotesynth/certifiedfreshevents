@@ -459,8 +459,34 @@ function subscribeForm(form,messageObj) {
     }
   })
   .catch(function (error) {
-    console.log(error);
+    //console.log(error);
     messageObj.innerHTML = "We apologize, there was a problem subscribing.";
+  });
+
+  return false;
+}
+
+/* Crowdcast Registration form submit
+  -------------------------------------------------------*/
+
+function registerForm(form,messageObj) {
+  axios.post('/.netlify/functions/zapier', {
+    email: form.email.value,
+    eventcode: form.eventcode.value
+  })
+  .then(function (response) {
+    if (response.data.status === 'success') {
+      form.register.disabled = true;
+      form.email.value = '';
+      form.register.value = 'You\'ve been registered!';
+    }
+    else {
+      messageObj.innerHTML = 'We apologize, there was a problem registering you.';
+    }
+  })
+  .catch(function (error) {
+    //console.log(error);
+    messageObj.innerHTML = 'We apologize, there was a problem registering you.';
   });
 
   return false;

@@ -31,7 +31,7 @@ exports.handler = async (event, context, callback) => {
       url: 'https://hooks.zapier.com/hooks/catch/2422393/ot2b8az/',
       data:{
             'email':email,
-            'eventcode':eventcode;
+            'eventcode':eventCode
       }
     }).then(res => {
       console.log(res);
