@@ -19,7 +19,7 @@ short_desc: "New technologies like serverless and bots are changing the face of 
 description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."
 embed_url: https://www.crowdcast.io/e/improving-your-apps--
 draft: false
-featured: true
+featured: false
 ---
 
 Most experienced developers will tell you that hardest parts of the job comes after the initial code is written - when it is time to refine, tune and test the application. It can take a deep understanding of the languages, tools and code to maximize the applications performance and experience.

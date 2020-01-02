@@ -18,7 +18,7 @@ short_desc: "A discussion of the importance of the practice of developer relatio
 description: "In this session, Mary Thengvall will discuss what developer relations is and why it matters to developers."
 embed_url: https://www.crowdcast.io/e/developer-relations
 draft: false
-featured: true
+featured: false
 ---
 
 Developer Relations and developer advocates have gone from being that rare "nice to have" that only a handful of companies could afford, to a requirement for most companies that need to connect with developers as consumers of their products and services. Nonetheless, it is still an often misunderstood practice - seen as someone who simply jets around from one conference party to another. In this session, Mary Thengvall will discuss what developer relations is and why it matters to developers.

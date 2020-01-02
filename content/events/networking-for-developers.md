@@ -17,7 +17,7 @@ short_desc: "Wesley Faulkner shares advice on how to be successful at profession
 description: "Wesley Faulkner will share how to become an effective professional networker as a developer and shift away from looking at these interactions as transactional."
 embed_url: https://www.crowdcast.io/e/a-guide-to-professional
 draft: false
-featured: true
+featured: false
 ---
 
 Becoming a successful networker can be critical in helping any developer find a job or further their careers. However, it isn't always a skill that comes naturally or comfortably to developers. In this session, Wesley Faulkner of MongoDB will share some of his advice on how to get beyond that awkwardness and succeed at professional networking.

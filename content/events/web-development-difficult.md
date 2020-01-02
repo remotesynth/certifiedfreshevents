@@ -19,7 +19,7 @@ short_desc: "Jory Burson and Raymond Camden explore whether we've made web devel
 description: "Jory Burson will explore the question of when and how web development became so complicated by looking at the evolution of the industry. Then Raymond Camden will explore some of the tools out there designed to help developers learn new skills and highlight some of the pros and cons of each."
 embed_url: https://www.crowdcast.io/e/has-web-development
 draft: false
-featured: true
+featured: false
 ---
 
 Developers have never had more tools at their disposal, but has this explosion of tools also made web development difficult? Have we erected new barriers to entry for anyone looking to break into a career in web development?

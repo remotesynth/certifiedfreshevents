@@ -18,7 +18,7 @@ short_desc: "Jen Looper explores the possibilities and limitations of machine le
 description: "Jen Looper explores the possibilities and limitations of machine learning and natural language processing while building a fun application to write poetry powered by Azure."
 embed_url: https://www.crowdcast.io/e/understanding-machine
 draft: false
-featured: true
+featured: false
 ---
 
 Machine Learning is rapidly changing the way we build applications and the kinds of capabilities our apps can have. Join us for this free event as Jen Looper explores the possibilities and limitations of machine learning and natural language processing.

@@ -18,7 +18,7 @@ short_desc: "What is machine learning and artificial intelligence."
 description: "Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence."
 embed_url: https://www.crowdcast.io/e/demystifying-machine
 draft: false
-featured: true
+featured: false
 ---
 
 Of all the new technologies impacting developers today, machine learning has been probably the most immediately impactful. Already it is changing the way we use data to do things like predict how customers will behave or when machines may need repair. It is not an exaggeration to say that developers who understand how to leverage machine learning will become indispensable to companies in the near future.
