@@ -749,7 +749,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>11:35-12:15</span><br>
-                        <strong>Session Topic: WebXR</strong></li>
+                        <strong><a href="/sessions/future-of-webxr/">Future of WebXR API's and Data Visualization</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li>Ayşegül Yönet</li>

@@ -13,8 +13,8 @@ days: 1
 location: "Online"
 cost: "0"
 homepage_banner: "Improving-Website-Performance.jpg"
-short_desc: "Henri Helvetica looks at the rules that have guided us in web performance for the last decade and how they apply today."
-description: "Henri Helvetica looks at the rules that have guided web developers when it comes to web performance for the last decade and how they apply today."
+short_desc: "Henri Helvetica looks at the rules that have guided us in web performance for the last decade and how they have evolved."
+description: "Henri Helvetica looks at the rules that have guided web developers when it comes to web performance for the last decade and how they have evolved."
 embed_url: https://www.crowdcast.io/e/improving-website
 draft: false
 featured: true
@@ -23,8 +23,6 @@ featured: true
 The success or failure of a web application is heavily impacted by its performance. As [MDN notes](https://developer.mozilla.org/en-US/docs/Learn/Performance/why_web_performance), "site speed directly affects bounce rates, conversion rates, revenue, user satisfaction, and search engine ranking.  Performant sites have been shown to increase visitor retention and user satisfaction." In this free session, Henri Helvetica will explore the rules we've lived by for the last decade when it comes to web performance and how these rules apply on today's web.
 
 ## 14 Rules Redux
-
-### Rules to Faster Loading Web Sites Revisited.
 
 It’s 2020, and more than ever we live in an age of immediacy. We make demands for speedier processes, or at the very least - less wait times. All industries and services have scrutinized operations in ways to make product delivery as expeditious as possible. 
 
