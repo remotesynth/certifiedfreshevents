@@ -380,7 +380,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/helena-mccabe">Burke Holland</a>
+                    <a href="/speakers/burke-holland">Burke Holland</a>
                 </h3>
                 <h4 class="speaker-subtitle">Microsoft</h4>
             </div>
@@ -765,7 +765,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
-                        <strong>Session - Title TBD</strong></li>
+                        <strong><a href="/sessions/web-accessibility.md">Web Accessibility: Past, Present, and Future</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li><a href="/speakers/helena-mccabe">Helena McCabe</a></li>
