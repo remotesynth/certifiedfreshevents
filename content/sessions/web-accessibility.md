@@ -2,7 +2,7 @@
 title: "Web Accessibility: Past, Present, and Future"
 date: 2019-07-24T18:52:51-04:00
 speaker: "Helena McCabe"
-speaker_image: helenacccabe.jpg
+speaker_image: helenamccabe.jpg
 draft: false
 ---
 
