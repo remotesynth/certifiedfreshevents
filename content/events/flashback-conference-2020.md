@@ -251,7 +251,7 @@ featured: true
 
 # Join us on February 10-11 in Orlando, Florida!
 
-Explore new and cutting-edge web development, browser APIs and developer tooling, including how they’ve evolved from early HTML, JavaScript and plugins of the past to the web of today. Flashback Conference features 2 days and 15 speakers who are experts in the field of front-end development and JavaScript.
+Explore new and cutting-edge web development, browser APIs and developer tooling and how they’ve evolved into the web of today. Flashback Conference features 2 days filled with sessions from experts in the field of front-end development and JavaScript.
 
 Topics include:
 
