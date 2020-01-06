@@ -765,7 +765,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
-                        <strong><a href="/sessions/web-accessibility.md">Web Accessibility: Past, Present, and Future</a></strong></li>
+                        <strong><a href="/sessions/web-accessibility">Web Accessibility: Past, Present, and Future</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
                                 <li><a href="/speakers/helena-mccabe">Helena McCabe</a></li>
