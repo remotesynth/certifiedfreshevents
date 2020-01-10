@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /conduct/
+Disallow: /contact/
+Disallow: /subscribe/
+Disallow: /sponsor/
+Sitemap: https://cfe.dev/sitemap.xml
