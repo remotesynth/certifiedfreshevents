@@ -934,7 +934,7 @@ Just walking distance from the event in downtown Orlando and right off beautiful
 
 Thanks to the support of [Pluralsight](https://www.pluralsight.com/) we are able to offer 10 opportunity scholarships to anyone in any under-represented group in our industry or those in need of assistance with the cost due to being unemployed.
 
-[For more details or to apply go here](/contact/flashback-opportunity).
+_Thanks for your interest, but the deadline for application has passed._
 
 <a name="coc"></a>
 

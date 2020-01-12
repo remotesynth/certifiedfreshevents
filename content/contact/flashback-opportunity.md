@@ -33,31 +33,4 @@ If you have any questions, please [contact us](/contact/).
 
 #### Apply
 
-<form name="apply-flashback" netlify-honeypot="bot-field" action="/contact/scholarship-submitted" netlify>
-  <p style="display:none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
-  <p>
-    <label>Name:</label> <input type="text" name="name" size="40" required>
-  </p>
-  <p>
-    <label>Company (Use student or unemployed if you are not employed full-time):</label> <input type="text" name="company" size="40" required>
-  </p>
-  <p>
-    <label>Email:</label> <input type="email" name="email" size="40" required>
-  </p>
-  <p>
-    <label>What underrepresented group(s) are you a member of, if any?:</label> <input type="text" name="groups" size="40" required>
-  </p>
-   <p>
-    <label>What do you hope to achieve by attending this conference?:</label> <textarea name="goals" cols="40" required></textarea>
-  </p>
-  <p>
-    Are you available to attend the duration of the conference? <br><input type="radio" name="canAttend" id="canAttendYes" value="yes" checked> <label for="canAttendYes">Yes</label> <input type="radio" name="canAttend" id="canAttendNo" value="no"> <label for="canAttendNo">No</label>
-  <p>
-  <p>
-    <label>If employed, have you confirmed with your manager that your company will not cover the cost of attending the conference?</label><br><input type="radio" name="cantCover" id="cantCoverYes" value="yes" checked> <label for="cantCoverYes">Yes</label> <input type="radio" name="cantCover" id="cantCoverNo" value="no"> <label for="cantCoverNo">No</label>
-  <p>
-    <button type="submit">Apply</button>
-  </p>
-</form>
+_Thanks for your interest, but the deadline for application has passed._
