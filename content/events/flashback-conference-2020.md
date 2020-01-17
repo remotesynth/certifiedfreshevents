@@ -831,10 +831,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>11:35-12:15</span><br>
-                        <strong><a href="/sessions/fostering-local-community/">Fostering Your Local JavaScript Community</a></strong></li>
+                        <strong><a href="/sessions/good-bad-serverless">The good, the bad and the ugly of Serverless Web Apps</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li><a href="/speakers/carlos-souza">Carlos Souza</a></li>
+                                <li><a href="/speakers/burke-holland.html">Burke Holland</a></li>
                             </ul>
                         </li>
                         </li>
@@ -862,10 +862,10 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                             </ul>
                         </li>
                         <li><span>4:05-4:45</span><br>
-                        <strong><a href="/sessions/good-bad-serverless">The good, the bad and the ugly of Serverless Web Apps</a></strong></li>
+                        <strong><a href="/sessions/fostering-local-community/">Fostering Your Local JavaScript Community</a></strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li><a href="/speakers/burke-holland.html">Burke Holland</a></li>
+                                <li><a href="/speakers/carlos-souza">Carlos Souza</a></li>
                             </ul>
                         </li>
                         <li><span>4:45-5:00</span><br>
