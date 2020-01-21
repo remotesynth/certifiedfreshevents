@@ -608,6 +608,8 @@ This event wouldn't be possible without the support of our sponsors.
 
 [![Project Orlando](/img/banners/project-orlando-logo.png)](https://www.projectorlando.io/)
 
+[![Manning](/img/banners/Manning_logo.png)](https://www.manning.com/)
+
 We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
 
 ## Schedule {#schedule}
@@ -843,7 +845,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Expert Panel: The Current State of Web Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Matt Markham, Luke Penca, <a href="/speakers/lee-warrick">Lee Warrick</a>, <a href="/speakers/andrea-griffiths">Andrea Griffiths</a></li>
+                                <li>Luke Penca, <a href="/speakers/lee-warrick">Lee Warrick</a>, <a href="/speakers/andrea-griffiths">Andrea Griffiths</a></li>
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>
