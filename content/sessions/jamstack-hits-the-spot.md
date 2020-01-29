@@ -3,6 +3,9 @@ title: "JAMstack Hits the Spot"
 date: 2019-07-24T18:52:51-04:00
 speaker: "Divya Sasidharan"
 speaker_image: divyasasidharan.jpg
+event:
+    name: Flashback Conference
+    URL: flashback-conference-2020
 draft: false
 ---
 

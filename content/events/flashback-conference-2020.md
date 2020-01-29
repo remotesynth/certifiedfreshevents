@@ -845,7 +845,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                         <strong>Expert Panel: The Current State of Web Development</strong></li>
                         <li class="no-bullet">
                             <ul class="dash">
-                                <li>Luke Penca, <a href="/speakers/lee-warrick">Lee Warrick</a>, <a href="/speakers/andrea-griffiths">Andrea Griffiths</a></li>
+                                <li>Luke Penca, <a href="/speakers/lee-warrick">Lee Warrick</a>, <a href="/speakers/andrea-griffiths">Andrea Griffiths</a>, Sergio Cruz</li>
                             </ul>
                         </li>
                         <li><span>2:15-2:55</span><br>

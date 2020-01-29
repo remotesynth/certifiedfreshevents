@@ -3,6 +3,9 @@ title: "FOUC, and the Death of Progressive Enhancement"
 date: 2019-07-24T18:52:51-04:00
 speaker: "Kyle Simpson"
 speaker_image: KyleSimpson.jpg
+event:
+    name: Flashback Conference
+    URL: flashback-conference-2020
 draft: false
 ---
 

@@ -3,6 +3,9 @@ title: "Dark Patterns in UI — What not to do to your users"
 date: 2019-07-24T18:52:51-04:00
 speaker: "Alyssa Nicoll"
 speaker_image: alyssanicoll.jpg
+event:
+    name: Flashback Conference
+    URL: flashback-conference-2020
 draft: false
 ---
 

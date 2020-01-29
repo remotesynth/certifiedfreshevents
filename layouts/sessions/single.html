@@ -22,6 +22,83 @@
     line-height: 2.7rem;
     padding: 5px;
 }
+.button {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin: 46px 10px 0 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  overflow: hidden;
+  margin: auto;
+}
+.button .ten {
+  font-size: 7px;
+  line-height: 52px;
+}
+.button:hover .slidein {
+  left: 0%;
+}
+.button:hover .two {
+  left: 0%;
+  transition-delay: 1.5s;
+}
+.button:hover .three {
+  left: 0%;
+  transition-delay: 3s;
+}
+.button:hover .four {
+  left: 0%;
+  transition-delay: 4.5s;
+}
+.button:hover .five {
+  left: 0%;
+  transition-delay: 6s;
+}
+.button:hover .six {
+  left: 0%;
+  transition-delay: 7.5s;
+}
+.button:hover .seven {
+  left: 0%;
+  transition-delay: 9s;
+}
+.button:hover .eight {
+  left: 0%;
+  transition-delay: 10.5s;
+}
+.button:hover .nine {
+  left: 0%;
+  transition-delay: 13s;
+}
+.button:hover .ten {
+  left: 0%;
+  transition-delay: 16s;
+}
+.button .slidein {
+  background: #3398ff;
+  left: -100%;
+  z-index: 2;
+}
+.button a {
+  text-transform: uppercase;
+  transition: left 300ms;
+  letter-spacing: 1px;
+  background: #007eff;
+  position: absolute;
+  font-weight: bold;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  line-height: 50px;
+}
 </style>
 <body class="style-videos">
 
@@ -49,7 +126,12 @@
 		<ul class="breadcrumbs">
 			<li class="breadcrumbs__item">
 				<a href="/index.html" class="breadcrumbs__url">Home</a>
-			</li>
+      </li>
+      {{ if ne .Params.event nil }}
+      <li class="breadcrumbs__item">
+				<a href="/events/{{ .Params.event.URL}}" class="breadcrumbs__url">{{ .Params.event.name }}</a>
+      </li>
+      {{end}}
 			<li class="breadcrumbs__item breadcrumbs__item--current">
 				{{ .Title }}
 			</li>
@@ -79,6 +161,13 @@
           <div class="speakers-content">
               <h1 class="title">{{ .Title }}</h1>
               {{ .Content }}
+
+              {{ if ne .Params.event nil }}
+              <div class="button">
+                <a href="/events/{{ .Params.event.URL}}#schedule" class="first"> See the full schedule </a>
+                <a href="/events/{{ .Params.event.URL}}#schedule" class="slidein"> See the full schedule! </a>
+              </div>
+              {{ end }}
           </div>
       </div>
   </div>
