@@ -802,7 +802,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
                                 <li>Jenell Pizarro</li>
                             </ul>
                         </li>
-                        <li><span>6:30</span><br>
+                        <li><span>5:30</span><br>
                         <strong>Attendee Party</strong></li>
                 </ul>
         </div>
