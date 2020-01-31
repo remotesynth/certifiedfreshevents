@@ -913,7 +913,7 @@ Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbe
         widgetType: 'checkout',
         eventId: '64004510213',
         iframeContainerId: 'eventbrite-widget-container-64004510213',
-        iframeContainerHeight: 470
+        iframeContainerHeight: 500
     });
 </script>
 
