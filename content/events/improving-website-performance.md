@@ -3,7 +3,7 @@ title: "Improving Website Performance"
 date: 2020-01-17T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "January 2020"
 categories:
     - Web Development
