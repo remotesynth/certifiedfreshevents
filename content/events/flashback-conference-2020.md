@@ -3,7 +3,7 @@ title: "Flashback Conference"
 date: 2020-02-10T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
+    parent: "events"
     name: "Flashback Conference"
 categories:
     - Web Standards
