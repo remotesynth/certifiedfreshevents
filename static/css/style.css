@@ -4958,4 +4958,14 @@ dd {
 		color: #2D95E3;
 		font-size: 14px; }
 
+/* Style speakers
+-------------------------------------------------------*/
+.entry__meta li:after {
+    content: '';
+}
+.post-list-small__img-holder {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */

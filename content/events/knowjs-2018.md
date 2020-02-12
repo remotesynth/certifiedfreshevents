@@ -19,48 +19,9 @@ short_desc: "Lean JavaScript fundamentals through hands-on, online training."
 description: "KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry."
 embed_url: https://www.crowdcast.io/e/fundamental-javascript
 draft: false
-featured: false
+featured: true
+styles: "knowjs.css"
 ---
-
-<style>
-.speaker {
-    text-align: center;
-    margin: 25px 0;
-}
-.speaker h4 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.speaker p {
-    margin-bottom: 5px;
-    text-transform: none;
-}
-.speaker img:hover {
-    opacity: .7;
-}
-.speaker .speaker-bio {
-    min-height: 125px;
-}
-.social-block {
-    list-style-type: none;
-    padding: 0;
-}
-.social-block li {
-    display: inline-block;
-}
-.social-block li a {
-    display: inline-block;
-    height: 32px;
-    width: 32px;
-    color: #4e4e4e;
-}
-.social-block li a i {
-    font-size: 1.5em;
-}
-.social-block li a:hover, .social-block li a:focus {
-    color: #000;
-}
-</style>
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">
 

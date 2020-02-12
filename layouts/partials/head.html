@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="/css/font-icons.css" />
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/colors/violet.css" />
+  {{ if ne .Params.styles nil }}
+  <link rel="stylesheet" href="/css/{{.Params.styles}}" />
+  {{ end }}
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">

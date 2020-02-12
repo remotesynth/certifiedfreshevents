@@ -18,6 +18,7 @@ description: "In this workshop, Paul DeCarlo and Brandon Satrom will share one a
 embed_url: https://www.crowdcast.io/e/building-iot-apps-with
 draft: false
 featured: false
+styles: "iotapps.css"
 ---
 
 <style>

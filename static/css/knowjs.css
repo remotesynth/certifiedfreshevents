@@ -1,0 +1,37 @@
+.speaker {
+    text-align: center;
+    margin: 25px 0;
+}
+.speaker h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.speaker p {
+    margin-bottom: 5px;
+    text-transform: none;
+}
+.speaker img:hover {
+    opacity: .7;
+}
+.speaker .speaker-bio {
+    min-height: 125px;
+}
+.social-block {
+    list-style-type: none;
+    padding: 0;
+}
+.social-block li {
+    display: inline-block;
+}
+.social-block li a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    color: #4e4e4e;
+}
+.social-block li a i {
+    font-size: 1.5em;
+}
+.social-block li a:hover, .social-block li a:focus {
+    color: #000;
+}
