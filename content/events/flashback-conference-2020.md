@@ -20,7 +20,7 @@ homepage_banner: "flashback.jpg"
 description: "Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved."
 short_desc: "Flashback Conference is a 2-day front-end web development focused conference in Orlando, FL"
 draft: false
-featured: true
+featured: false
 ---
 
 <style>
