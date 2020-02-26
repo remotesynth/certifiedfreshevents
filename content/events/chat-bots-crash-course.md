@@ -4,7 +4,7 @@ date: "2019-03-27"
 menu:
   main:
     parent: "events"
-    name: "March 2019"
+    name: "A Chatbot Crash Course"
 categories:
     - Bots
     - JavaScript

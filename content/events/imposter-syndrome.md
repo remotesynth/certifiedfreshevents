@@ -4,7 +4,7 @@ date: "2019-02-22"
 menu:
   main:
     parent: "events"
-    name: "February 2019"
+    name: "Imposter Syndrome & Anxiety"
 categories:
     - Culture
     - Career

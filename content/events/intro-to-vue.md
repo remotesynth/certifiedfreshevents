@@ -4,7 +4,7 @@ date: "2019-05-23"
 menu:
   main:
     parent: "events"
-    name: "May 2019"
+    name: "Introduction to Vue"
 categories:
   - JavaScript
   - Web Development

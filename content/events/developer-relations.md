@@ -4,7 +4,7 @@ date: 2019-06-25T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "June 2019"
+    name: "Why DevRel Matters"
 categories:
   - Career
   - Culture

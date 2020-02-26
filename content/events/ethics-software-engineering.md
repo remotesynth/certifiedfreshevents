@@ -4,7 +4,7 @@ date: 2018-09-18T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "September 2018"
+    name: "Ethics in Software"
 categories:
     - Culture
 starttime: "9/18 6:00pm EST"

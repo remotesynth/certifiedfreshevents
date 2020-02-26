@@ -4,7 +4,7 @@ date: "2018-06-20"
 menu:
   main:
     parent: "events"
-    name: "June 2018"
+    name: "Modern Web Development"
 categories:
     - JavaScript
     - JAMStack

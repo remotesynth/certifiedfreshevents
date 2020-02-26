@@ -4,7 +4,7 @@ date: 2019-11-22T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "November 2019"
+    name: "Machine Learning & NLP"
 categories:
     - Machine Learning
     - Serverless

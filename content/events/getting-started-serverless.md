@@ -3,8 +3,8 @@ title: "Getting Started with Serverless"
 date: 2020-02-21T18:52:51-04:00
 menu:
   main:
-    parent: "upcoming"
-    name: "February 2020"
+    parent: "events"
+    name: "Beginner's Serverless"
 categories:
     - Serverless
 starttime: "2/21 12:00pm ET"

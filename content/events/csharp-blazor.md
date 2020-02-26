@@ -4,7 +4,7 @@ date: 2019-07-31T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "July 2019"
+    name: "Exploring Blazor"
 categories:
   - DotNet
   - Web Development

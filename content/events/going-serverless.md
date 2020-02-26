@@ -4,7 +4,7 @@ date: 2017-10-20T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "October 2017 (Serverless)"
+    name: "Going Serverless"
 categories:
     - Serverless
 starttime: "10/20 12:00pm EST"

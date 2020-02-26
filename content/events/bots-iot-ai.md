@@ -4,7 +4,7 @@ date: 2018-08-10T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "August 2018"
+    name: "Bots, IoT and AI, Oh My!"
 categories:
     - IoT
 starttime: "8/10 1:00pm ET"

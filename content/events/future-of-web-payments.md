@@ -4,7 +4,7 @@ date: 2018-10-09T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "October 2018"
+    name: "Web Payments"
 categories:
     - Web Standards
 starttime: "10/9 12:00pm ET"

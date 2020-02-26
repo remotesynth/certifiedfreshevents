@@ -4,7 +4,7 @@ date: 2018-02-16T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "February 2018"
+    name: "Machine Learning"
 categories:
     - Machine Learning
 starttime: "2/16 12:00pm EST"

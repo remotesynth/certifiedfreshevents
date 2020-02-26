@@ -4,7 +4,7 @@ date: 2020-01-17T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "January 2020"
+    name: "Website Performance"
 categories:
     - Web Development
 starttime: "1/17 12:00pm ET"

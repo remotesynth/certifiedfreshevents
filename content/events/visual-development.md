@@ -4,7 +4,7 @@ date: 2019-12-18T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "December 2019"
+    name: "Visual Development"
 categories:
     - Web Development
 starttime: "12/18 12:00pm ET"

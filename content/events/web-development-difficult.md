@@ -4,7 +4,7 @@ date: 2018-11-27T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "November 2018"
+    name: "Is Web Dev Difficutlt?"
 categories:
   - Web Development
   - Web Standards

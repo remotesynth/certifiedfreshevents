@@ -4,7 +4,7 @@ date: 2017-11-09T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "November 2017"
+    name: "Conflict Management in Tech"
 categories:
     - Culture
     - Career

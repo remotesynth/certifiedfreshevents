@@ -4,7 +4,7 @@ date: 2018-04-05T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "April 2018"
+    name: "Developing Success"
 categories:
     - Career
 starttime: "4/5 12:00pm EST"

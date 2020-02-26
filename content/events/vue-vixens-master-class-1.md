@@ -4,7 +4,7 @@ date: "2018-07-17"
 menu:
   main:
     parent: "events"
-    name: "July 2018"
+    name: "Vue Vixens"
 categories:
   - JavaScript
   - Culture

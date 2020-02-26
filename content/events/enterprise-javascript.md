@@ -4,7 +4,7 @@ date: 2019-01-22T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "January 2019"
+    name: "JavaScript for Enterprise"
 categories:
     - JavaScript
 starttime: "1/22 12:00pm EST"

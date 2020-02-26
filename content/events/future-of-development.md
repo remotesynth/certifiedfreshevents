@@ -4,7 +4,7 @@ date: 2017-12-15T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "December 2017"
+    name: "Future of Development"
 categories:
     - Bots
     - Serverless

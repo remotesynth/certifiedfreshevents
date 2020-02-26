@@ -4,7 +4,7 @@ date: 2018-01-17T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "January 2018"
+    name: "Performance & Debugging"
 categories:
     - CSS
     - Performance

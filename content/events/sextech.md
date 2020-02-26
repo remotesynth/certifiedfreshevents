@@ -4,7 +4,7 @@ date: 2019-09-19T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "September 2019"
+    name: "Sextech"
 categories:
     - Culture
 starttime: "9/19 12:00pm ET"

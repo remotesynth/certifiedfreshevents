@@ -10,5 +10,8 @@
     "string": "^3.3.3",
     "toml": "^3.0.0",
     "yaml": "^1.5.1"
+  },
+  "dependencies": {
+    "netlify-cli": "^2.35.0"
   }
 }

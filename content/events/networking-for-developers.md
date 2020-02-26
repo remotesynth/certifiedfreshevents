@@ -4,7 +4,7 @@ date: 2019-10-31T18:52:51-04:00
 menu:
   main:
     parent: "events"
-    name: "October 2019"
+    name: "Professional Networking"
 categories:
     - Culture
 starttime: "10/31 12:00pm ET"
