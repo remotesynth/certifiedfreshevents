@@ -120,7 +120,8 @@
     {{ partial "top-bar.html" . }}        
 
 		{{ partial "navigation.html" . }}
-		
+
+{{ $event := .GetPage (print "/events/" .Params.event) }}
 <!-- Breadcrumbs -->
 <div class="container">
 		<ul class="breadcrumbs">
@@ -129,7 +130,7 @@
       </li>
       {{ if ne .Params.event nil }}
       <li class="breadcrumbs__item">
-				<a href="/events/{{ .Params.event.URL}}" class="breadcrumbs__url">{{ .Params.event.name }}</a>
+				<a href="{{ $event.Permalink }}" class="breadcrumbs__url">{{ $event.Title }}</a>
       </li>
       {{end}}
 			<li class="breadcrumbs__item breadcrumbs__item--current">
@@ -152,10 +153,12 @@
 <div class="container">
   <div class="row">
       <div class="col-sm-3 col-xs-12">
+        {{ with .GetPage (print "/speakers/" .Params.speaker ) }}
           <figure>
             <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/><br>
-            <h3><a href="/speakers/{{lower (replace .Params.speaker " " "-")}}" style="color:#2AAAE2;text-decoration: underline;">{{ .Params.speaker }}</a></h3>
+            <h3><a href="{{.Permalink}}" style="color:#2AAAE2;text-decoration: underline;">{{ .Title }}</a></h3>
           </figure>
+        {{ end }}
       </div>
       <div class="col-sm-7 col-xs-12">
           <div class="speakers-content">
@@ -164,8 +167,8 @@
 
               {{ if ne .Params.event nil }}
               <div class="button">
-                <a href="/events/{{ .Params.event.URL}}#schedule" class="first"> See the full schedule </a>
-                <a href="/events/{{ .Params.event.URL}}#schedule" class="slidein"> See the full schedule! </a>
+                <a href="{{ $event.Permalink }}#schedule" class="first"> See the full schedule </a>
+                <a href="{{ $event.Permalink }}#schedule" class="slidein"> See the full schedule! </a>
               </div>
               {{ end }}
           </div>

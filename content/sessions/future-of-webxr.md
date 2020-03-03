@@ -1,11 +1,8 @@
 ---
 title: "Future of WebXR API's and Data Visualization"
 date: 2019-07-24T18:52:51-04:00
-speaker: "Ayşegül Yönet"
-speaker_image: aysegulyonet.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+speaker: aysegul-yonet
+event: flashback-conference-2020
 draft: false
 ---
 
