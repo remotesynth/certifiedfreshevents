@@ -4968,4 +4968,25 @@ dd {
     margin-bottom: 5px;
 }
 
+.social {
+	text-align: center;
+	width: 100%;
+  }
+  .list-inline {
+	  padding-left: 0;
+	  margin-left: -5px;
+	  list-style: none;
+  }
+  .list-inline ul {
+	  list-style: none;
+  }
+  .list-inline>li {
+	  display: inline-block;
+	  font-size: 18px;
+	  line-height: 27px;
+	  font-size: 1.8rem;
+	  line-height: 2.7rem;
+	  padding: 5px;
+  }
+
 /*# sourceMappingURL=style.css.map */

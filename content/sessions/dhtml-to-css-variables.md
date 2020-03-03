@@ -1,11 +1,8 @@
 ---
 title: "From DHTML to CSS Variables"
 date: 2019-07-24T18:52:51-04:00
-speaker: "David Khourshid"
-speaker_image: davidkhourshid.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+speaker: david-khourshid
+event: flashback-conference-2020
 draft: false
 ---
 

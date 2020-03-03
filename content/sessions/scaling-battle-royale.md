@@ -1,11 +1,8 @@
 ---
 title: "Scaling a Live Battle Royale Game With No Budget"
 date: 2019-07-24T18:52:51-04:00
-speaker: "Em Lazer Walker"
-speaker_image: emlazerwalker.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+speaker: em-lazer-walker
+event: flashback-conference-2020
 draft: false
 ---
 
