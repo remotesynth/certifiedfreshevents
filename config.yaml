@@ -17,3 +17,9 @@ related:
   - name: date
     weight: 10
 paginate: 5
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
