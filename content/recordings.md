@@ -12,4 +12,4 @@ draft: false
 
 Missed an event? Don't worry - we got you covered!
 
-{{% recorded-events %}}
+{{< recorded-events >}}
