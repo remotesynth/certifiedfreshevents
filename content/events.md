@@ -12,4 +12,4 @@ draft: false
 
 We're adding new meetups, trainings and events all the time. [Subscribe](/subscribe/) to our mailing list to be notified whenever we add a new event.
 
-{{% upcoming-events %}}
+{{< upcoming-events >}}
