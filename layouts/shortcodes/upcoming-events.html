@@ -1,4 +1,4 @@
-{{ $upcoming := where .Site.RegularPages.Reverse ".Date" "ge" now }}
+{{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
 {{ if ne (len $upcoming) 0 }}
 
 <!-- Posts -->

@@ -1,7 +1,8 @@
 ---
-title: "Getting Started with Serverless"
-date: 2020-02-21T18:52:51-04:00
+title: "Get Started with Serverless Using OpenWhisk - Hands On Workshop"
+date: 2020-04-09T18:52:51-04:00
 speaker: upkar-lidder
+event: serverless-with-openwhisk
 draft: false
 ---
 

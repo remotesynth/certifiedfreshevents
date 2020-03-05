@@ -2902,7 +2902,8 @@ img.mfp-img {
 
 .entry__article ol, .entry__article ul {
 	padding-left: 24px;
-	line-height: 26px; }
+	line-height: 26px;
+	padding-bottom: 20px; }
 
 .entry__article ul {
 	list-style: disc; }

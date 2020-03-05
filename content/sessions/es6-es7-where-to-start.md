@@ -2,7 +2,6 @@
 title: "ES6, ES7, where do I start???"
 date: 2017-08-23T18:52:51-04:00
 speaker: raymond-camden
-event: javascript-2017
 draft: false
 ---
 
