@@ -1,7 +1,8 @@
 ---
 title: "An Introduction to Vue"
 date: 2019-05-23T18:52:51-04:00
-speaker: raymond-camden
+speakers:
+    - raymond-camden
 draft: false
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Sextech: The Good, the Bad & the Bias"
 date: 2019-09-19T18:52:51-04:00
-speaker: alison-falk
+speakers:
+    - alison-falk
 draft: false
 ---
 

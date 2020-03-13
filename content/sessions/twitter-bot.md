@@ -1,7 +1,8 @@
 ---
 title: "Creating an Art-making Twitter Bot with Machine Learning"
 date: 2018-02-16T18:52:51-04:00
-speaker: nick-walsh
+speakers:
+    - nick-walsh
 draft: false
 ---
 

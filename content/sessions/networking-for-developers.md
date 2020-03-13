@@ -1,7 +1,8 @@
 ---
 title: "How to Get Through the Awkwardness of Networking"
 date: 2019-10-31T18:52:51-04:00
-speaker: wesley-faulkner
+speakers:
+    - wesley-faulkner
 draft: false
 ---
 

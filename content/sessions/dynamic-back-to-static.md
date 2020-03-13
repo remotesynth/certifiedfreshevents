@@ -1,7 +1,8 @@
 ---
 title: "Bringing Dynamic Back to Static"
 date: 2018-05-23T18:52:51-04:00
-speaker: raymond-camden
+speakers:
+    - raymond-camden
 draft: false
 ---
 

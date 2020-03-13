@@ -1,7 +1,8 @@
 ---
 title: "The Good, the Bad and the Ugly of Serverless Web Apps"
-date: 2019-07-24T18:52:51-04:00
-speaker: burke-holland
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - burke-holland
 event: flashback-conference-2020
 draft: false
 ---

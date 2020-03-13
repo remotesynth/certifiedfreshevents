@@ -60,25 +60,56 @@
 <!---speaker specific -->
 <div class="container">
   <div class="row">
-      <div class="col-sm-3 col-xs-12">
-        {{ with .GetPage (print "/speakers/" .Params.speaker ) }}
-          <figure>
-            <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/><br>
-            <h3><a href="{{.Permalink}}" style="color:#2AAAE2;text-decoration: underline;">{{ .Title }}</a></h3>
-          </figure>
-        {{ end }}
-      </div>
-      <div class="col-sm-7 col-xs-12">
+      <div class="col-sm-12 col-xs-15">
           <div class="speakers-content">
               <h1 class="title">{{ .Title }}</h1>
               {{ .Content }}
 
-              <div class="button">
-                <a href="{{ $event.Permalink }}#schedule" class="first"> See the full schedule </a>
-                <a href="{{ $event.Permalink }}#schedule" class="slidein"> See the full schedule! </a>
-              </div>
+              <p><a href="{{ $event.Permalink }}#schedule"> See the full event listing </a></p>
           </div>
       </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-xs-15">
+      <h2>Speakers</h2>
+      {{ range $speaker := .Params.speakers }}
+        {{ with $.GetPage (print "/speakers/" $speaker ) }}
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-xs-12">
+              <figure>
+              <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
+              </figure>
+              <div class="social">
+                <ul class="list-inline">
+                  {{ if .Params.twitter }}
+                  <li>
+                    <a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  {{ end }}{{ if .Params.github }}
+                  <li>
+                    <a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
+                  </li>
+                  {{ end }} {{ if .Params.website }}
+                  <li>
+                    <a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-9 col-xs-14">
+              <div class="speakers-content">
+                <h2 class="title">{{ .Title }}</h2>
+                <h4 class="subtitle">{{ .Params.Job_title }}</h4>
+                {{ .Content }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
   </div>
 </div>
 <!-- end speaker specific -->

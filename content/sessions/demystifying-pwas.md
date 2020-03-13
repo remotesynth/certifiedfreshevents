@@ -1,7 +1,8 @@
 ---
 title: "Demystifying PWAs"
 date: 2020-03-25T18:52:51-04:00
-speaker: lee-warrick
+speakers:
+    - lee-warrick
 event: demystifying-pwas
 draft: false
 ---

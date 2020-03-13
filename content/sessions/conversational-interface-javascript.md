@@ -1,7 +1,8 @@
 ---
 title: "Let's Get Chatty with Conversational Interface in JavaScript!"
 date: 2018-08-10T18:52:51-04:00
-speaker: tomomi-imura
+speakers:
+    - tomomi-imura
 event: bots-iot-ai
 draft: false
 ---

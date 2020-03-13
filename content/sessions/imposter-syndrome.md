@@ -1,7 +1,8 @@
 ---
 title: "Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself"
 date: 2019-02-22T18:52:51-04:00
-speaker: jo-franchetti
+speakers:
+    - jo-franchetti
 draft: false
 ---
 

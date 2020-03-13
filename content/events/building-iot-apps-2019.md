@@ -9,8 +9,6 @@ categories:
     - IoT
 starttime: "11/20 1:00pm EST"
 endtime: "11/20 5:00pm EST"
-days: 1
-location: "Online"
 cost: "$99"
 homepage_banner: "Building-IoT-Apps-with-Azure-and-Particle.jpg"
 short_desc: "Paul DeCarlo and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."

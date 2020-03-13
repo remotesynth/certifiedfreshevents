@@ -1,7 +1,8 @@
 ---
 title: "How to Get Through the Awkwardness of Networking"
 date: 2017-09-22T18:52:51-04:00
-speaker: brad-marsh
+speakers:
+    - brad-marsh
 draft: false
 ---
 

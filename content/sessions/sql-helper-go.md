@@ -1,7 +1,8 @@
 ---
 title: "Building a SQL Helper Library in Go"
 date: 2018-10-30T18:52:51-04:00
-speaker: ayan-george
+speakers:
+    - ayan-george
 draft: false
 ---
 

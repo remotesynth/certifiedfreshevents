@@ -10,14 +10,14 @@ categories:
     - Serverless
 starttime: "12/15 12:00pm EST"
 endtime: "12/15 1:00pm EST"
-days: 1
-location: "Online"
 cost: "0"
-banner: "future_of_dev_page.jpg"
 homepage_banner: "Banner_The-Future-Of-Development.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact."
 embed_url: https://www.crowdcast.io/e/the-future-of-development
+sessions:
+  - serverless-easy-mode
+  - ruby-messenger-bot
 draft: false
 featured: false
 ---
@@ -27,41 +27,3 @@ Technology is moving quickly - things like bots, serverless, VR/AR, IoT and more
 As we discussed [in October](https://certifiedfreshevents.com/events/going-serverless/), the trend towards serverless architectures is changing the way developers build their apps. It solves a number of problems but also brings new complexities. Brian LeRoux will discuss how one tool is aiming to address the complexities it can bring.
 
 Complex, conversational bots are also changing the ways in which businesses interact with their customers. Many common tasks once handled via the phone or chat with a live person can now be handled by an automated bot. Andy Barnov will teach you how you can build a conversational bot using Ruby.
-
-## Going "Severless" on Easy Mode
-
-With functions as a service, cloud providers have signaled the smallest billable unit of computation is a single function execution. It's a beautifully simple idea, rejecting the metaphor of a server, and freeing developers to design smaller and simpler services. We can iterate on our code with a high degree of isolation, without fear of affecting other parts of the system; deploy systems in seconds with zero downtime; and always be available regardless of load.
-
-However, building serverless-y apps is very new and as such fought with early days complexity:
-
-- Configuration tooling was designed for the last generation of computing metaphors (and often lags behind the releases of new functionality)
-- AWS is massive and overwhelming with many similar, but not the same, products
-- The web console is confusing, with divergent interfaces between interlocking services
-- Deep proprietary knowledge is required to configure and maintain common infrastructure primitives
-
-In this talk Brian will walk you through a new approach to architecting applications with plain text using [arc.codes](https://arc.codes/) to create apps in minutes and subsequently deploy in seconds with zero downtime and unprecedented availability.
-
-<img src="/img/speakers/brianleroux.jpg" style="float:left;margin-right: 10px;" alt="Brian LeRoux">
-
-##### Brian LeRoux
-
-Brian LeRoux is the Cofounder/CTO of [begin.com](https://begin.com) which is a new breed of app that helps teams stay organized in Slack. In the process of developing [begin.com](https://begin.com) an entirely serverless cloud functions thing emerged called [arc.codes](https://arc.codes). In a former life Brian worked at Adobe on PhoneGap and its open source upstream Apache Cordova. A longtime fan of the open web he created [wtfjs.com](http://wtfjs.com) and sports a questionable &amp;nbsp; tattoo. Brian believes the future is mobile, seamlessly running in the cloud, on open source software and will be created by hackers like you.
-
-<i class="fa fa-twitter" aria-hidden="true"></i> [@brianleroux](https://twitter.com/brianleroux)
-
-<br style="clear:both;">
-
-## Develop a Messenger Bot in Pure Ruby
-
-Learn how to quickly get started with Rubotnik boilerplate to build a bot with rich features. Rubotnik is framework- and database agnostic and promotes a «bot-end» approach to build conversational interfaces with an easy-to-follow DSL. And it’s easily deployable to Heroku!
-
-<img src="/img/speakers/andybarnov.jpg" style="float:left;margin-right: 10px;" alt="Andy Barnov">
-
-##### Andy Barnov
-
-Looking for a switch from a 15-year long career as an international TV reporter, Andy taught himself
-programming and got his Ruby/Rails bases covered by graduating from Le Wagon bootcamp in Paris. While pursuing a Computer Science degree in Amsterdam, Andy enjoys teaching beginners to code at various Wagon schools in Europe. 
-
-Rubotnik is his pet project that allows anyone with a minimal programming knowledge to quickly launch a functional (and framework independent) Facebook Messenger bot. 
-
-<i class="fa fa-twitter" aria-hidden="true"></i> [@progapandist](https://twitter.com/progapandist)

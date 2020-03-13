@@ -1,7 +1,8 @@
 ---
 title: "Multi-Provider Serverless Apps using The Serverless Framework"
 date: 2017-10-20T18:52:51-04:00
-speaker: james-thomas
+speakers:
+    - james-thomas
 draft: false
 ---
 

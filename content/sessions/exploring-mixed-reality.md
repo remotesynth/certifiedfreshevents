@@ -1,7 +1,8 @@
 ---
 title: "Exploring Mixed Reality for Good"
 date: 2019-04-25T18:52:51-04:00
-speaker: aysegul-yonet
+speakers:
+    - aysegul-yonet
 draft: false
 ---
 

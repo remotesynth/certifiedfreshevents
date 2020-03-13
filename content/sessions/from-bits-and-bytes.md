@@ -1,7 +1,8 @@
 ---
 title: "From Bits and Bytes to Atoms"
 date: 2017-09-22T18:52:51-04:00
-speaker: brandon-satrom
+speakers:
+    - brandon-satrom
 draft: false
 ---
 

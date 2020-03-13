@@ -1,7 +1,8 @@
 ---
 title: "Getting Started with Serverless"
 date: 2020-02-21T18:52:51-04:00
-speaker: upkar-lidder
+speakers:
+    - upkar-lidder
 draft: false
 ---
 

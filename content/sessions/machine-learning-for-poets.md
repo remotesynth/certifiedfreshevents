@@ -1,7 +1,8 @@
 ---
 title: "Machine Learning for Poets: The eMiLy App"
 date: 2018-07-17T18:52:51-04:00
-speaker: jen-looper
+speakers:
+    - jen-looper
 draft: false
 ---
 

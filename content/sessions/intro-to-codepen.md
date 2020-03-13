@@ -1,7 +1,8 @@
 ---
 title: "An Introduction to Using CodePen"
 date: 2018-06-20T18:52:51-04:00
-speaker: chris-coyier
+speakers:
+    - chris-coyier
 draft: false
 ---
 

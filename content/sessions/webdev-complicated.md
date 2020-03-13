@@ -1,7 +1,8 @@
 ---
 title: "Why'd you have to go and make things so complicated?"
 date: 2018-11-27T18:52:51-04:00
-speaker: jory-burson
+speakers:
+    - jory-burson
 draft: false
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What makes Gatsby sites so fast?"
 date: 2018-06-20T18:52:51-04:00
-speaker: shannon-soper
+speakers:
+    - shannon-soper
 draft: false
 ---
 

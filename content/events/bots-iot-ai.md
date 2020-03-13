@@ -10,7 +10,6 @@ categories:
 starttime: "8/10 1:00pm ET"
 endtime: "8/10 2:00pm ET"
 cost: "0"
-homepage_banner: "Bots-Iot-AI-Oh-My.jpg"
 short_desc: "The ways that we interact with devices and the internet keeps changing."
 description: "In this free online meetup, Tomomi Imura and David Simmons explore new ways of interacting with devices and the internet such as chat bots and the internet of things."
 embed_url: https://www.crowdcast.io/e/bots-iot-and-ai-oh-my

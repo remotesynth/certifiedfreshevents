@@ -1,7 +1,8 @@
 ---
 title: "Web Accessibility: Past, Present, and Future"
-date: 2019-07-24T18:52:51-04:00
-speaker: helena-mccabe
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - helena-mccabe
 event: flashback-conference-2020
 draft: false
 ---

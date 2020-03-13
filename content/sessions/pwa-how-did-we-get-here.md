@@ -1,7 +1,8 @@
 ---
 title: "PWA, How Did We Get Here?"
 date: 2019-07-24T18:52:51-04:00
-speaker: simon-macdonald
+speakers:
+    - simon-macdonald
 event: flashback-conference-2020
 draft: false
 ---

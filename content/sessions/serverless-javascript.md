@@ -1,7 +1,8 @@
 ---
 title: "Serverless JavaScript OMG"
 date: 2017-10-20T18:52:51-04:00
-speaker: burke-holland
+speakers:
+    - burke-holland
 draft: false
 ---
 

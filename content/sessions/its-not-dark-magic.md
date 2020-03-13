@@ -1,7 +1,8 @@
 ---
 title: "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets"
 date: 2018-01-17T18:52:51-04:00
-speaker: aimee-knight
+speakers:
+    - aimee-knight
 draft: false
 ---
 

@@ -75,7 +75,8 @@
               <h3 class="subtitle">{{ .Params.job_title }}</h3>
               {{ .Content }}
               
-              {{ $sessions := where .Site.RegularPages ".Params.speaker" "eq" .Page.File.TranslationBaseName }}
+              {{ $speakerArr := slice .Page.File.TranslationBaseName }}
+              {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
               {{ if ne (len $sessions) 0 }}<h5>Sessions</h5>{{ end }}
               {{ range $session := $sessions }}
                 {{ with  $session}}

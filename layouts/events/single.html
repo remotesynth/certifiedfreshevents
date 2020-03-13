@@ -119,45 +119,48 @@
 					{{ if ne .Params.sessions nil }}
 						{{ range $session := .Params.sessions }}
 							{{ with site.GetPage (print "/sessions/" $session) }}
-								{{ $.Scratch.Set "speaker" .Params.speaker }}
+								{{ $.Scratch.Set "speakers" .Params.speakers }}
 								<h2>{{ .Title }}</h2>
 								{{ .Content }}
 							{{ end }}
-							{{ with site.GetPage (print "/speakers/" ($.Scratch.Get "speaker")) }}
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-3 col-xs-12">
-										<figure>
-										<img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
-										</figure>
-										<div class="social">
-											<ul class="list-inline">
-												{{ if .Params.twitter }}
-												<li>
-													<a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
-												</li>
-												{{ end }}{{ if .Params.github }}
-												<li>
-													<a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
-												</li>
-												{{ end }} {{ if .Params.website }}
-												<li>
-													<a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
-												</li>
-												{{ end }}
-											</ul>
+							{{ $speakers := $.Scratch.Get "speakers" }}
+							{{ range $speaker := $speakers }}
+								{{ with site.GetPage (print "/speakers/" $speaker) }}
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-3 col-xs-12">
+											<figure>
+											<img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
+											</figure>
+											<div class="social">
+												<ul class="list-inline">
+													{{ if .Params.twitter }}
+													<li>
+														<a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
+													</li>
+													{{ end }}{{ if .Params.github }}
+													<li>
+														<a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
+													</li>
+													{{ end }} {{ if .Params.website }}
+													<li>
+														<a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
+													</li>
+													{{ end }}
+												</ul>
+											</div>
 										</div>
-									</div>
-									<div class="col-sm-9 col-xs-14">
-										<div class="speakers-content">
-											<h2 class="title">{{ .Title }}</h2>
-											<h4 class="subtitle">{{ .Params.Job_title }}</h4>
-											{{ .Content }}
+										<div class="col-sm-9 col-xs-14">
+											<div class="speakers-content">
+												<h2 class="title">{{ .Title }}</h2>
+												<h4 class="subtitle">{{ .Params.Job_title }}</h4>
+												{{ .Content }}
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-							{{ end }}
+								{{ end }}
+							{{end}}
 						{{ end }}
 					{{ end }}
 
@@ -188,7 +191,7 @@
 				<div class="entry__tags">
 					<i class="ui-tags"></i>
 					<span class="entry__tags-label">Categories:</span>
-					{{ range $category := first 1 .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
+					{{ range $category := .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
 				</div> <!-- end tags -->
 
 				</div> <!-- end entry article -->

@@ -1,7 +1,8 @@
 ---
 title: "Is Visual Development the Future?"
 date: 2019-12-18T18:52:51-04:00
-speaker: amanda-loftis
+speakers:
+    - amanda-loftis
 draft: false
 ---
 

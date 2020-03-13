@@ -1,7 +1,8 @@
 ---
 title: "Introduction to Artificial Intelligence"
 date: 2018-02-16T18:52:51-04:00
-speaker: paige-bailey
+speakers:
+    - paige-bailey
 draft: false
 ---
 

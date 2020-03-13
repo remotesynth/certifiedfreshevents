@@ -1,7 +1,8 @@
 ---
 title: "The Hunt for the Unicorn Performance Metric"
 date: 2018-01-17T18:52:51-04:00
-speaker: tammy-everts
+speakers:
+    - tammy-everts
 draft: false
 ---
 

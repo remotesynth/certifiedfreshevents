@@ -1,7 +1,8 @@
 ---
 title: "An Introduction to GraphQL & Apollo"
 date: 2018-07-17T18:52:51-04:00
-speaker: natalia-tepluhina
+speakers:
+    - natalia-tepluhina
 draft: false
 ---
 

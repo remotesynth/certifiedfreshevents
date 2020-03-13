@@ -1,7 +1,8 @@
 ---
 title: "14 Rules Redux"
 date: 2020-01-17T18:52:51-04:00
-speaker: henri-helvetica
+speakers:
+    - henri-helvetica
 draft: false
 ---
 

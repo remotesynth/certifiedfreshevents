@@ -1,7 +1,8 @@
 ---
 title: "FOUC, and the Death of Progressive Enhancement"
-date: 2019-07-24T18:52:51-04:00
-speaker: kyle-simpson
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - kyle-simpson
 event: flashback-conference-2020
 draft: false
 ---

@@ -8,4 +8,4 @@ website: https://www.gatsbyjs.org/contributors/shannon-soper/
 draft: false
 ---
 
-hannon works doing UX research at GatsbyJS. She is a Utah native who enjoys teaching aand performing music and keeping up with [her dog’s Instagram fans](https://www.instagram.com/dgtrwatson/). She teaches college-level writing on the side.
+Shannon works doing UX research at GatsbyJS. She is a Utah native who enjoys teaching aand performing music and keeping up with [her dog’s Instagram fans](https://www.instagram.com/dgtrwatson/). She teaches college-level writing on the side.

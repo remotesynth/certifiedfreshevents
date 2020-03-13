@@ -1,7 +1,8 @@
 ---
 title: "Dark Patterns in UI — What not to do to your users"
-date: 2019-07-24T18:52:51-04:00
-speaker: alyssa-nicoll
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - alyssa-nicoll
 event: flashback-conference-2020
 draft: false
 ---

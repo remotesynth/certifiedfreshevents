@@ -1,7 +1,8 @@
 ---
 title: "Learning the Web Your Own Way"
 date: 2018-11-27T18:52:51-04:00
-speaker: raymond-camden
+speakers:
+    - raymond-camden
 draft: false
 ---
 

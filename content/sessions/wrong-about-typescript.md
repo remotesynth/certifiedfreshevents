@@ -1,7 +1,8 @@
 ---
 title: "Why I Was Wrong About TypeScript"
 date: 2017-08-23T18:52:51-04:00
-speaker: tj-vantoll
+speakers:
+    - tj-vantoll
 draft: false
 ---
 

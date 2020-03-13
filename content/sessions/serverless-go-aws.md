@@ -1,7 +1,8 @@
 ---
 title: "Orchestrating Serverless Go Applications on AWS"
 date: 2018-10-30T18:52:51-04:00
-speaker: johnny-boursiquot
+speakers:
+    - johnny-boursiquot
 draft: false
 ---
 
