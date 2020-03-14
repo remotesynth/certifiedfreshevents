@@ -165,7 +165,7 @@
 					{{ end }}
 
 					{{ if ne .Params.sponsor nil }}
-						<h2>Sponsored by:</h2>
+						<h2>Sponsored by {{.Params.sponsor.name}}</h2>
 						<a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
 					{{ end }}
 					

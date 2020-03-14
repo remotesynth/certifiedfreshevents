@@ -17,7 +17,6 @@ description: "In this session, Raymond Camden of Auth0 and Phil Hawksworth of Ne
 embed_url: https://www.crowdcast.io/e/modern-web-development
 sessions:
   - why-jamstack
-  - dynamic-back-to-static
 draft: false
 featured: false
 ---

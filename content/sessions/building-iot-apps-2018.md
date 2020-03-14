@@ -1,6 +1,6 @@
 ---
-title: "Building IoT Apps - Course Outline"
-date: 2019-03-27T18:52:51-04:00
+title: "Building IoT Apps (2018) - Course Outline"
+date: 2018-08-29T18:52:51-04:00
 speakers:
     - brandon-satrom
     - burke-holland
