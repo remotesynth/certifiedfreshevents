@@ -1711,7 +1711,7 @@ img.mfp-img {
 	color: #83858F; }
 	.entry__meta li:after {
 		content: '-';
-		display: inline-block;
+		/* display: inline-block; */
 		margin: 0 3px; }
 	.entry__meta li.entry__meta-views:after {
 		content: '';
