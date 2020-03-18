@@ -9,6 +9,6 @@ banner: "images/pages/speakers.jpg"
 draft: false
 ---
 
-We have been fortunate enough to have some of the world's best speakers speak at our events. This isn't just a boast - check them out!
+We have been fortunate enough to have some of the world's best speakers speak - either online or in-person. This isn't just a boast - check them out!
 
 {{< speakers >}}
