@@ -1,11 +1,9 @@
 ---
 title: "The Dynamic Web, from CGI to Serverless"
-date: 2019-07-24T18:52:51-04:00
-speaker: "Raymond Camden"
-speaker_image: raymondcamden.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - raymond-camden
+event: flashback-conference-2020
 draft: false
 ---
 

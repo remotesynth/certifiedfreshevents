@@ -9,48 +9,16 @@ categories:
     - JavaScript
 starttime: "8/23 12:00pm EST"
 endtime: "8/23 1:00pm EST"
-days: 1
-location: "Online"
 cost: "0"
-banner: "jsframeworks2017_page.jpg"
 homepage_banner: "javascript2017.jpg"
 short_desc: "A look at recent developments in the world of JavaScript."
 description: "In this free event, Raymond Camden and TJ VanToll take a look at some of the advancements in JavaScript and how developers can start using them today."
 embed_url: https://www.crowdcast.io/e/rb68byb9
+sessions:
+  - wrong-about-typescript
+  - es6-es7-where-to-start
 draft: false
 featured: false
 ---
 
 JavaScript development has seen a lot of changes in recent years, between new specifications like ES6 and ES7 to new tooling like TypeScript. This free event takes a look at some of these advancements and how developers can realistically start taking advantage of them today.
-
-### ES6, ES7, where do I start???
-
-JavaScript has evolved rapidly over the past few years and while that is, 100%, a good thing, some developers may be feeling a bit behind. In this session, Raymond will spend some time talking about how JS has changed, and is changing, and what are some good practical ways to start making use of modern JavaScript in your code right now.
-
-[**Download the slide deck here**](/slides/es6.pdf)
-
-<img src="/img/speakers/raymondcamden.jpg" style="float:left;margin-right: 10px;" alt="Raymond Camden">
-
-##### Raymond Camden
-
-Raymond Camden is a developer advocate for IBM. His work focuses on LoopBack, API Connect, serverless, hybrid mobile development, Node.js, HTML5, and web standards in general.
-
-<i class="fa fa-twitter" aria-hidden="true"></i> [@raymondcamden](https://twitter.com/raymondcamden)
-
-<br style="clear:both;"> 
-
-### Why I Was Wrong About TypeScript
-
-In 2014, I made a strong argument that TypeScript was destined to be irrelevant and that my company should not use it in any of our projects. I was wrong. In 2017, TypeScript is taking over the JavaScript world, and we now use TypeScript for pretty much everything we build.
-
-In this talk we’ll talk a look at why TypeScript succeeded where other compile-to-JavaScript frameworks like CoffeeScript and Dart have languished. We’ll then look at whether TypeScript is a good fit for your next development project.
-
-[**Download the slide deck here**](/slides/Typescript.pdf)
-
-<img src="/img/speakers/tjvantoll.jpg" style="float:left;margin-right: 10px;" alt="TJ VanToll">
-
-##### TJ VanToll
-
-TJ VanToll is a front-end developer, author, and a senior developer advocate for Progress who spends his time helping web developers build mobile apps through projects like Cordova and NativeScript.
-
-<i class="fa fa-twitter" aria-hidden="true"></i> [@tjvantoll](https://twitter.com/tjvantoll)

@@ -1,105 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "head.html" . }}
-<style>
-.social {
-  text-align: center;
-  width: 100%;
-}
-.list-inline {
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
-.list-inline ul {
-    list-style: none;
-}
-.list-inline>li {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 27px;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    padding: 5px;
-}
-.button {
-  cursor: pointer;
-  position: relative;
-  text-align: center;
-  margin: 46px 10px 0 0;
-  display: block;
-  width: 100%;
-  height: 50px;
-  text-decoration: none;
-  font-size: 1.2em;
-  font-weight: 600;
-  overflow: hidden;
-  margin: auto;
-}
-.button .ten {
-  font-size: 7px;
-  line-height: 52px;
-}
-.button:hover .slidein {
-  left: 0%;
-}
-.button:hover .two {
-  left: 0%;
-  transition-delay: 1.5s;
-}
-.button:hover .three {
-  left: 0%;
-  transition-delay: 3s;
-}
-.button:hover .four {
-  left: 0%;
-  transition-delay: 4.5s;
-}
-.button:hover .five {
-  left: 0%;
-  transition-delay: 6s;
-}
-.button:hover .six {
-  left: 0%;
-  transition-delay: 7.5s;
-}
-.button:hover .seven {
-  left: 0%;
-  transition-delay: 9s;
-}
-.button:hover .eight {
-  left: 0%;
-  transition-delay: 10.5s;
-}
-.button:hover .nine {
-  left: 0%;
-  transition-delay: 13s;
-}
-.button:hover .ten {
-  left: 0%;
-  transition-delay: 16s;
-}
-.button .slidein {
-  background: #3398ff;
-  left: -100%;
-  z-index: 2;
-}
-.button a {
-  text-transform: uppercase;
-  transition: left 300ms;
-  letter-spacing: 1px;
-  background: #007eff;
-  position: absolute;
-  font-weight: bold;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #ffffff;
-  line-height: 50px;
-}
-</style>
 <body class="style-videos">
 
   <!-- Preloader -->
@@ -120,7 +21,15 @@
     {{ partial "top-bar.html" . }}        
 
 		{{ partial "navigation.html" . }}
-		
+
+{{ if (isset .Params "event") }}
+  {{ $.Scratch.Set "event" (.GetPage (print "/events/" .Params.event)) }}
+{{ else }}
+  {{ $eventArr := slice .Page.File.TranslationBaseName }}
+  {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
+  {{ $.Scratch.Set "event" (index $events 0) }}
+{{ end }}
+{{ $event := $.Scratch.Get "event" }}
 <!-- Breadcrumbs -->
 <div class="container">
 		<ul class="breadcrumbs">
@@ -129,7 +38,7 @@
       </li>
       {{ if ne .Params.event nil }}
       <li class="breadcrumbs__item">
-				<a href="/events/{{ .Params.event.URL}}" class="breadcrumbs__url">{{ .Params.event.name }}</a>
+				<a href="{{ $event.Permalink }}" class="breadcrumbs__url">{{ $event.Title }}</a>
       </li>
       {{end}}
 			<li class="breadcrumbs__item breadcrumbs__item--current">
@@ -151,25 +60,56 @@
 <!---speaker specific -->
 <div class="container">
   <div class="row">
-      <div class="col-sm-3 col-xs-12">
-          <figure>
-            <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/><br>
-            <h3><a href="/speakers/{{lower (replace .Params.speaker " " "-")}}" style="color:#2AAAE2;text-decoration: underline;">{{ .Params.speaker }}</a></h3>
-          </figure>
-      </div>
-      <div class="col-sm-7 col-xs-12">
+      <div class="col-sm-12 col-xs-15">
           <div class="speakers-content">
               <h1 class="title">{{ .Title }}</h1>
               {{ .Content }}
 
-              {{ if ne .Params.event nil }}
-              <div class="button">
-                <a href="/events/{{ .Params.event.URL}}#schedule" class="first"> See the full schedule </a>
-                <a href="/events/{{ .Params.event.URL}}#schedule" class="slidein"> See the full schedule! </a>
-              </div>
-              {{ end }}
+              <p><a href="{{ $event.Permalink }}#schedule"> See the full event listing </a></p>
           </div>
       </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-xs-15">
+      <h2>Speakers</h2>
+      {{ range $speaker := .Params.speakers }}
+        {{ with $.GetPage (print "/speakers/" $speaker ) }}
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-xs-12">
+              <figure>
+              <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
+              </figure>
+              <div class="social">
+                <ul class="list-inline">
+                  {{ if .Params.twitter }}
+                  <li>
+                    <a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  {{ end }}{{ if .Params.github }}
+                  <li>
+                    <a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
+                  </li>
+                  {{ end }} {{ if .Params.website }}
+                  <li>
+                    <a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-9 col-xs-14">
+              <div class="speakers-content">
+                <h2 class="title">{{ .Title }}</h2>
+                <h4 class="subtitle">{{ .Params.Job_title }}</h4>
+                {{ .Content }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
   </div>
 </div>
 <!-- end speaker specific -->

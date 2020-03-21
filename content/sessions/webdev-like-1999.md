@@ -1,11 +1,9 @@
 ---
 Title: "Let’s web dev like it’s 1999! 🎉"
-speaker: "Ben Ilegbodu"
-date: 2019-07-24T18:52:51-04:00
-speaker_image: benilegbodu.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+speakers:
+    - ben-ilegbodu
+date: 2019-02-10T18:52:51-04:00
+event: flashback-conference-2020
 draft: false
 ---
 

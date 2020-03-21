@@ -1711,7 +1711,7 @@ img.mfp-img {
 	color: #83858F; }
 	.entry__meta li:after {
 		content: '-';
-		display: inline-block;
+		/* display: inline-block; */
 		margin: 0 3px; }
 	.entry__meta li.entry__meta-views:after {
 		content: '';
@@ -2902,7 +2902,8 @@ img.mfp-img {
 
 .entry__article ol, .entry__article ul {
 	padding-left: 24px;
-	line-height: 26px; }
+	line-height: 26px;
+	padding-bottom: 20px; }
 
 .entry__article ul {
 	list-style: disc; }
@@ -4967,5 +4968,26 @@ dd {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.social {
+	text-align: center;
+	width: 100%;
+  }
+  .list-inline {
+	  padding-left: 0;
+	  margin-left: -5px;
+	  list-style: none;
+  }
+  .list-inline ul {
+	  list-style: none;
+  }
+  .list-inline>li {
+	  display: inline-block;
+	  font-size: 18px;
+	  line-height: 27px;
+	  font-size: 1.8rem;
+	  line-height: 2.7rem;
+	  padding: 5px;
+  }
 
 /*# sourceMappingURL=style.css.map */

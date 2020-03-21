@@ -1,28 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "head.html" . }}
-<style>
-.social {
-  text-align: center;
-  width: 100%;
-}
-.list-inline {
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
-.list-inline ul {
-    list-style: none;
-}
-.list-inline>li {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 27px;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    padding: 5px;
-}
-</style>
 <body class="style-videos">
 
   <!-- Preloader -->
@@ -96,6 +74,15 @@
               <h1 class="title">{{ .Title }}</h1>
               <h3 class="subtitle">{{ .Params.job_title }}</h3>
               {{ .Content }}
+              
+              {{ $speakerArr := slice .Page.File.TranslationBaseName }}
+              {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
+              {{ if ne (len $sessions) 0 }}<h5>Sessions</h5>{{ end }}
+              {{ range $session := $sessions }}
+                {{ with  $session}}
+                <p><a href="{{.Permalink}}">{{ .Title }}</a></p>
+                {{ end }}
+              {{ end }}
           </div>
       </div>
   </div>

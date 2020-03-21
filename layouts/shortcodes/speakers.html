@@ -1,40 +1,44 @@
+{{ $speakers := where .Site.RegularPages "Section" "speakers" }}
+
 <div class="container">
     <div class="row">
-{{ range .Site.Data.speakers.speakers }}
+{{ range $speaker := $speakers }}
+{{ with $speaker }}
 <article class="col-sm-4">
     <div class="post-list-small__img-holder">
         <div class="thumb-container thumb-100">
-            <a href="single-post.html">
-            <img data-src="/img/speakers/{{.photo}}" src="img/empty.png" alt="" class="lazyload">
+            <a href="{{.Permalink}}">
+            <img data-src="/img/speakers/{{.Params.speaker_image}}" src="img/empty.png" alt="" class="lazyload">
             </a>
         </div>
     </div>
     <div>
-        <h3 class="post-list-small__entry-title">{{.name}}</h3>
+        <h3 class="post-list-small__entry-title"><a href="{{.Permalink}}">{{.Title}}</a></h3>
         <ul class="entry__meta">
-            {{ if .twitter }}
+            {{ if .Params.twitter }}
             <li>
-                <a class="social social-twitter" href="https://twitter.com/{{.twitter}}" target="_blank" aria-label="twitter" style="background-color: white;">
+                <a class="social social-twitter" href="https://twitter.com/{{.Params.twitter}}" target="_blank" aria-label="twitter" style="background-color: white;">
                 <i class="ui-twitter"></i>
                 </a>
             </li>
             {{ end }}
-            {{ if .github }}
+            {{ if .Params.github }}
             <li>
-                <a class="social social-github" href="https://github.com/{{.github}}" target="_blank" aria-label="github">
+                <a class="social social-github" href="https://github.com/{{.Params.github}}" target="_blank" aria-label="github">
                 <i class="ui-github"></i>
                 </a>
             </li>
             {{ end }}
-            {{ if .website }}
+            {{ if .Params.website }}
             <li>
-                <a class="social social-pin" href="{{.website}}" target="_blank" aria-label="link">
+                <a class="social social-pin" href="{{.Params.website}}" target="_blank" aria-label="link">
                 <i class="ui-pin"></i>
                 </a>
             </li>
             {{ end }}
     </div>
 </article>
+{{ end }}
 {{ end }}
 </div>
 </div>

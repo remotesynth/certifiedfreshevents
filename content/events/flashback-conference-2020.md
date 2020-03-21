@@ -295,7 +295,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="lgx-single-speaker lgx-single-speaker-sm">
             <figure>
-                <a class="profile-img" href="/speakers/divya-sasidharan">
+                <a class="profile-img" href="/speakers/divya-tagtachian">
                     <img src="/img/speakers/portraits/DivyaSasidharan.png" alt="speaker">
                 </a>
                 <figcaption>   
@@ -306,7 +306,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
             </figure>
             <div class="speaker-info">
                 <h3 class="speaker-title">
-                    <a href="/speakers/divya-sasidharan">Divya Sasidharan</a>
+                    <a href="/speakers/divya-tagtachian">Divya Sasidharan</a>
                 </h3>
                 <h4 class="speaker-subtitle">Netlify</h4>
             </div>

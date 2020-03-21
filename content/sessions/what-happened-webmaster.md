@@ -1,11 +1,9 @@
 ---
 title: "Whatever Happened to the Webmaster?"
-date: 2019-07-24T18:52:51-04:00
-speaker: "Jay Hoffmann"
-speaker_image: jayhoffman.jpg
-event:
-    name: Flashback Conference
-    URL: flashback-conference-2020
+date: 2019-02-10T18:52:51-04:00
+speakers:
+    - jay-hoffmann
+event: flashback-conference-2020
 draft: false
 ---
 
