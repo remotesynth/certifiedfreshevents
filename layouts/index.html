@@ -61,13 +61,14 @@
     <section class="bg-light pt-32 pb-32">
       <div class="container">
         <div class="title-wrap">
-          <h2 class="section-title">newest videos</h2>
+          <h2 class="section-title">newest recordings</h2>
         </div>
+        {{ $newRecordings := (where (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.embed_url" "!=" nil) ".Date" "le" now) }}
         <div class="video-playlist">
 
           <div class="video-playlist__content thumb-container">
             <div class="embed-responsive embed-responsive-16by9">
-              {{ range first 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.embed_url" "!=" nil)}}
+              {{ range first 1 $newRecordings }}
               <iframe src="{{ .Params.embed_url }}" class="video-playlist__content-video">
               {{ end }}
               </iframe>
@@ -75,7 +76,7 @@
           </div>
 
           <div class="video-playlist__list">
-            {{ range first 6 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.embed_url" "!=" nil)}}
+            {{ range first 6 $newRecordings }}
             <a href="{{ .Params.embed_url }}" class="video-playlist__list-item video-playlist__list-item--active">
               <div class="video-playlist__list-item-thumb">
                 <img data-src="/img/banners/thumbs/{{ .Params.Homepage_banner }}" src="/img/banners/{{ .Params.Homepage_banner }}" class="video-playlist__list-item-img lazyload" alt="{{ .Title }}">
