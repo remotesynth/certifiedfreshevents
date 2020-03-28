@@ -1,8 +1,10 @@
 baseURL: "https://cfe.dev/"
 languageCode: "en-us"
-title: "Certified Fresh Events"
+title: "CFE.dev"
 params:
-  description: "Certified Fresh Events LLC specializes in creating and organizing events around technology, development/programming and IT."
+  description: >-
+    CFE.dev offers a large library of recorded sessions on a wide range of development
+    & technology topics live & interactive virtual meetups featuring the experts.
   twitter: fresheventsfl
   instagram: certifiedfreshevents
   youtube: https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg

@@ -9,23 +9,6 @@ banner: "images/pages/about.jpg"
 draft: false
 ---
 
-We specialize in creating and organizing events around technology, development/programming and IT - both online and in-person. Our goal is to make each of our events:
+As a technologist, you need to stay on the cutting edge to stay competitive. New tools are released or updated constantly and new trends emerge almost daily. CFE.dev lets you keep up with trends, tools and techniques in development and technology by learning directly from the experts.
 
-- Informative
-- Fun
-- Affordable
-- Cutting-edge
-- Social
-
-We understand that technology changes fast, and it can be tough to keep up. That's why our events focus in on new and important topics and our speakers bring you multiple angles to help attendees get the full picture. We know that to be successful in the tech workplace, you can't just specialize in one thing. That's why we are constantly searching for new, important and relevant topics.
-
-#### About the Company
-
-Certified Fresh Events was founded by [Brian Rinaldi](https://twitter.com/remotesynth). Brian has years of experence running events with a focus on the developer community.
-
-* 2007 - Founded Flex Camp Boston which later became RIA Unleashed (the event was sold in 2011 to FITC and still operates as Web Unleashed)
-* 2015 - Brian planned and coordinated a major corporate event, TelerikNEXT, for his employer.
-* 2016 - Planned, organized and ran the first NativeScript Developer Day
-* 2017 - NativeScript Developer Day in NYC. Organized DevReach, a major developer event in Sofia, Bulgaria. * 2018 - Expanded the NativeScript Developer Day event into multi-track jsMobileConf in Boston.
-
-Brian has also served on the committees of various major developer events including O'Reilly's Fluent conference and QCon NYC.
+We offer live, interactive virtual meetups every month where you can learn from some of the world's top technologists as well as a huge library of recorded sessions on a wide range of topics. Our goal is to constantly bring you the information you need to know to stay on top of your field.

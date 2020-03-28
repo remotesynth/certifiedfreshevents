@@ -8,6 +8,8 @@ menu:
 draft: false
 ---
 
+Have a questions? A suggestion for a virtual meetup topic? Or are you interested in speaking or sponsorship? Feel free to reach out!
+
 <form name="contact" netlify-honeypot="bot-field" action="/contact/thanks.html" netlify>
   <p style="display:none;">
     <label>Don’t fill this out: <input name="bot-field"></label>

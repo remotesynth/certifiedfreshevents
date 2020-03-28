@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>{{ if .IsPage }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}</title>
+  <title>{{ .Page.Title }} - {{ .Site.Title }}</title>
 	<meta name="description" content="{{ if and (.IsPage) (ne .Page.Description "")}}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 
   <!-- Google Fonts -->

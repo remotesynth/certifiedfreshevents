@@ -9,6 +9,6 @@ banner: "images/pages/speakers.jpg"
 draft: false
 ---
 
-We have been fortunate enough to have some of the world's best speakers speak - either online or in-person. This isn't just a boast - check them out!
+We've been fortunate to welcome an amazing list of technology and development experts as speakers - both online or in-person. This isn't just a boast - check this list out!
 
 {{< speakers >}}
