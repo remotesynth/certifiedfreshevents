@@ -1,6 +1,6 @@
 ---
 title: "JAMstack FTW"
-date: "2020-05-15"
+date: 2020-05-15T12:00:00-04:00
 menu:
   main:
     parent: "upcoming"

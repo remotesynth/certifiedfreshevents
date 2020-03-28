@@ -78,4 +78,27 @@
 		&noscript=1"/>
 	</noscript>
 	<!-- End Facebook Pixel Code -->
+
+	<!-- event json-ld -->
+	{{ if and (eq .Page.Section "events") (ge .Page.Date now) }}
+		{{ with .Page }}
+	<script type='application/ld+json'> 
+		{
+		  "@context": "https://www.schema.org",
+		  "@type": "Event",
+		  "name": "{{.Title}}",
+		  "url": "{{.Permalink}}",
+		  "description": "{{ .Params.short_desc }}",
+		  "startDate": "{{ .Date.Format "2006-01-02 15:04 MST" }}",
+		  "location": {
+			"@type": "VirtualLocation",
+			"url": "{{.Params.embed_url}}"
+		  },
+		  "image": "{{.Site.BaseURL}}/img/banners/medium/{{.Params.Homepage_banner}}",
+		  "eventStatus": "EventScheduled",
+		  "eventAttendanceMode": "OnlineEventAttendanceMode"
+		}
+	</script>
+		{{ end }}
+	{{ end }}
 </head>
