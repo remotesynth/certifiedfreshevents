@@ -10,6 +10,6 @@ banner: "images/pages/events.jpg"
 draft: false
 ---
 
-We're adding new meetups, trainings and events all the time. [Subscribe](/subscribe/) to our mailing list to be notified whenever we add a new event.
+We're adding new virtual meetups, online trainings and other events all the time. Be sure to [subscribe](/subscribe/) to our mailing list to be notified about everything we are planning.
 
 {{< upcoming-events >}}

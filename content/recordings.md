@@ -10,6 +10,6 @@ banner: "images/pages/events.jpg"
 draft: false
 ---
 
-Missed an event? Don't worry - we got you covered!
+We have a huge library of session recordings from the top experts in development and technology across a wide range of topics.
 
 {{< recorded-events >}}
