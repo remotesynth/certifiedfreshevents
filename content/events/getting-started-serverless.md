@@ -21,7 +21,7 @@ short_desc: "Upkar Lidder of IBM Developer will introduce the concept of serverl
 description: "Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started."
 embed_url: https://www.crowdcast.io/e/getting-started-with-44
 draft: false
-featured: true
+featured: false
 ---
 
 We hear the term serverless all the time, but what does it mean and what is it useful for in the real world of developers? In this free session, Upkar Lidder of [IBM Developer](https://developer.ibm.com/) will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.

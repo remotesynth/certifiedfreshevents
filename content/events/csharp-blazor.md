@@ -18,7 +18,7 @@ embed_url: https://www.crowdcast.io/e/blazor
 sessions:
   - blazor-silverlight-done-right
 draft: false
-featured: true
+featured: false
 ---
 
 There's been a ton of buzz in the .NET community lately around Blazor. Unlike many hyped technologies however, Blazor seems to have earned the attention. It earned it in part by delivering a solution that gives C# developers what they want but doing so in a way that relied on open web standards. In this session, Microsoft's Jeremy Likness will go deeper into what Blazor is, how it works and how you can use it to build web apps.

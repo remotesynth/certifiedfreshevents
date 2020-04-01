@@ -17,7 +17,7 @@ embed_url: https://www.crowdcast.io/e/is-visual-development
 sessions:
   - visual-development-future
 draft: false
-featured: true
+featured: false
 ---
 
 Tools like Wix, Squarespace and Webflow are changing the way much of the web is designed and developed. Join us for this free event as Amanda Loftis takes a look at these tools and how they impact web design.

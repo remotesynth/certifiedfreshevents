@@ -25,7 +25,7 @@ sponsor:
   image: "AzureAdvocates-new.png"
   URL: "https://developer.microsoft.com/en-us/advocates/index.html"
 draft: false
-featured: true
+featured: false
 styles: "knowjs.css"
 ---
 
