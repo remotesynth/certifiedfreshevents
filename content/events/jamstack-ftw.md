@@ -1,6 +1,7 @@
 ---
 title: "JAMstack FTW"
 date: 2020-05-15T12:00:00-04:00
+end_date: 2020-05-15T13:00:00-04:00
 menu:
   main:
     parent: "upcoming"
@@ -8,9 +9,7 @@ menu:
 categories:
     - webdev
     - javascript
-starttime: "5/15 12:00pm EST"
-endtime: "5/15 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "jamstackFTW.jpg"
 short_desc: "Gift Egwuenu shows how to use the Gridsome static site generator and Vue.js to build JAMstack web applications."
 description: "Gift Egwuenu shows how to use the Gridsome static site generator and Vue.js to build JAMstack web applications."

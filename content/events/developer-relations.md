@@ -8,9 +8,7 @@ menu:
 categories:
   - Career
   - Culture
-starttime: "6/25 12:00pm EST"
-endtime: "6/25 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Why-DevRel-Matters.jpg"
 short_desc: "A discussion of the importance of the practice of developer relations by Mary Thengvall."
 description: "In this session, Mary Thengvall will discuss what developer relations is and why it matters to developers."

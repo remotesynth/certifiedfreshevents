@@ -8,9 +8,7 @@ menu:
 categories:
     - Culture
     - Career
-starttime: "2/22 12:00pm EST"
-endtime: "2/22 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Dealing-with-Perfectionism.jpg"
 short_desc: "Jo Franchetti discusses how to understand your fears and learn to be kind to yourself."
 description: "Jo Franchetti discusses how to spot destructive thought patterns in yourself, how to manage anxiety and procrastination and how to start being kinder to yourself."

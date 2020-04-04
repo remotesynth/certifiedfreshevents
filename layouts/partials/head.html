@@ -78,7 +78,16 @@
 		&noscript=1"/>
 	</noscript>
 	<!-- End Facebook Pixel Code -->
-
+	{{- if ne .Params.sessions nil }}{{ range $session := .Params.sessions -}}
+			{{- with site.GetPage (print "/sessions/" $session) -}}
+				{{- range $speaker := .Params.speakers -}}
+					{{- with site.GetPage (print "/speakers/" $speaker) -}}
+						{{- $.Scratch.Add "jsonSpeakers" (slice .Title) -}}
+					{{- end -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
 	<!-- event json-ld -->
 	{{ if and (eq .Page.Section "events") (ge .Page.Date now) }}
 		{{ with .Page }}
@@ -90,10 +99,24 @@
 		  "url": "{{.Permalink}}",
 		  "description": "{{ .Params.short_desc }}",
 		  "startDate": "{{ .Date.Format "2006-01-02 15:04 MST" }}",
+		  "endDate": "{{ dateFormat "2006-01-02 15:04 MST" .Params.End_date}}",
 		  "location": {
 			"@type": "VirtualLocation",
 			"url": "{{.Params.embed_url}}"
 		  },
+		  "offers": {
+			"@type": "Offer",
+			"description": "Live Event Registration",
+			"url": "{{ .Params.embed_url }}",
+			"price": "{{.Params.cost}}",
+			"priceCurrency": "USD",
+			"availability": "https://schema.org/InStock",
+			"validFrom": "{{ dateFormat "2006-01-02 15:04 MST" now }}"
+		  },
+		  "performer": [{{range $jsonSpeaker:= .Scratch.Get "jsonSpeakers"}}{
+			"@type": "Person",
+			"name": "{{$jsonSpeaker}}"
+		  }{{end}}],
 		  "image": "{{.Site.BaseURL}}/img/banners/medium/{{.Params.Homepage_banner}}",
 		  "eventStatus": "EventScheduled",
 		  "eventAttendanceMode": "OnlineEventAttendanceMode"

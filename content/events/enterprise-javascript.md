@@ -7,9 +7,7 @@ menu:
     name: "JavaScript for Enterprise"
 categories:
     - JavaScript
-starttime: "1/22 12:00pm EST"
-endtime: "1/22 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "JavaScript-for-Enterprise-Development.jpg"
 short_desc: "JavaScript is enterprise ready - Rizchel Dayao and Simon MacDonald show how."
 description: "In this free online meetup, we'll look at a couple of ways that JavaScript can be utilized in enterprise development. Join Rizchel Dayao presenting Building Enterprise Applications with the Magic of React, Redux, and GraphQL and Simon MacDonald presenting The FaaS and the Serverless."

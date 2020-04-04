@@ -7,9 +7,7 @@ menu:
     name: "Visual Development"
 categories:
     - Web Development
-starttime: "12/18 12:00pm ET"
-endtime: "12/18 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "visual-development.jpg"
 short_desc: "Amanda Loftis explores the impact of visual development tools on web development."
 description: "Amanda Loftis takes a look at visual development tools like Wix, Squarespace, and Webflow and how they impact web design."

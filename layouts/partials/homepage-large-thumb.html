@@ -8,7 +8,7 @@
       {{ if ge .Date.Unix now.Unix }}
       <ul class="entry__meta">
         <li class="entry__meta-date">
-            {{.Params.Starttime}} - {{.Params.Endtime}}
+            {{ dateFormat "1/02 3:04" .Params.Date}} - {{ dateFormat "3:04 PM EST" .Params.End_date}}
         </li>
       </ul>
       {{ end }}

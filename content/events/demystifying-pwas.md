@@ -7,9 +7,7 @@ menu:
     name: "Demystifying PWAs"
 categories:
     - Web development
-starttime: "3/25 12:00pm ET"
-endtime: "3/25 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "DemistifyingPWA.jpg"
 short_desc: "In this free online meetup, Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one."
 description: "In this free online session, Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one."

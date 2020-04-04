@@ -7,9 +7,7 @@ menu:
     name: "Website Performance"
 categories:
     - Web Development
-starttime: "1/17 12:00pm ET"
-endtime: "1/17 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "Improving-Website-Performance.jpg"
 short_desc: "Henri Helvetica looks at the rules that have guided us in web performance for the last decade and how they have evolved."
 description: "Henri Helvetica looks at the rules that have guided web developers when it comes to web performance for the last decade and how they have evolved."

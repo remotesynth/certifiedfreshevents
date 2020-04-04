@@ -6,11 +6,9 @@ categories:
     - Web Development
     - JavaScript
     - CSS
-starttime: "2/10 9:00am EST"
-endtime: "2/11 5:00pm EST"
 days: 2
 location: "The Abbey Orlando"
-cost: "$149-$249"
+cost: 249
 banner: "flashback_large.jpg"
 homepage_banner: "flashback.jpg"
 description: "Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved."

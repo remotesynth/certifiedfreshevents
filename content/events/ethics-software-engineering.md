@@ -7,9 +7,7 @@ menu:
     name: "Ethics in Software"
 categories:
     - Culture
-starttime: "9/18 6:00pm EST"
-endtime: "9/18 7:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Ethics_In_Software_Engineering.png"
 description: "A panel to discuss how engineering decisions often made by developers can impact the real world."
 short_desc: "This month we're not discussing how we build it, but should we."

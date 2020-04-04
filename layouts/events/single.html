@@ -73,8 +73,8 @@
 				<a href="{{ "categories" | absURL }}/{{ $category | urlize }}">{{$category}}</a>
 				{{ end }}
 				</li>
-				{{ if ne .Params.cost "0"}}
-					<li class="entry__meta-category">Cost: {{ if .Params.recording_cost}}<strike style="color:#CCCCCC;">{{ end }}{{ .Params.cost }}{{ if .Params.recording_cost}}</strike> {{ .Params.recording_cost }}{{ end }}</li>
+				{{ if ne .Params.cost 0}}
+					<li class="entry__meta-category">Cost: {{ if isset .Params "recording_cost"}}<strike style="color:#CCCCCC;">{{ end }}${{ .Params.cost }}{{ if isset .Params "recording_cost"}}</strike> ${{ .Params.recording_cost }}{{ end }}</li>
 				{{ end }}
 			</ul>
 			</div>

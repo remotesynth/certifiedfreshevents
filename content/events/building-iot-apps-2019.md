@@ -7,10 +7,8 @@ menu:
     name: "IoT Training 2019"
 categories:
     - IoT
-starttime: "11/20 1:00pm EST"
-endtime: "11/20 5:00pm EST"
-cost: "$99"
-recording_cost: "$0"
+cost: 99
+recording_cost: 0
 homepage_banner: "Building-IoT-Apps-with-Azure-and-Particle.jpg"
 short_desc: "Paul DeCarlo and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence."
 description: "In this workshop, Paul DeCarlo and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."

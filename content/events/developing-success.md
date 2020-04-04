@@ -7,9 +7,7 @@ menu:
     name: "Developing Success"
 categories:
     - Career
-starttime: "4/5 12:00pm EST"
-endtime: "4/5 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Developing-Success.jpg"
 short_desc: "Learn the skills it takes to become a better developer."
 description: "Alyssa Nicoll and Jenell Pizarro share tips on how to learn and grow to become a better developer with experience."

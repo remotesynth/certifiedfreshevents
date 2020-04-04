@@ -7,9 +7,7 @@ menu:
     name: "Going Serverless"
 categories:
     - Serverless
-starttime: "10/20 12:00pm EST"
-endtime: "10/20 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "serverless2017.jpg"
 short_desc: "Serverless is more than just a buzzword - learn why."
 description: "In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact."

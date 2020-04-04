@@ -7,9 +7,7 @@ menu:
     name: "Practical IoT"
 categories:
     - IoT
-starttime: "9/22 12:00pm EST"
-endtime: "9/22 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "IoT-For-Fun-And-Profit.jpg"
 short_desc: "Simple and practical ways for getting started in IoT - from basic electronics to smart home integration"
 description: "In this free online event, Brandon Satrom and Brad Marsh show simple and practical ways for getting started in IoT - from basic electronics to smart home integration."

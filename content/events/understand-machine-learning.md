@@ -8,9 +8,7 @@ menu:
 categories:
     - Machine Learning
     - Serverless
-starttime: "11/22 12:00pm ET"
-endtime: "11/22 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "Understand-Machine-Learning.jpg"
 short_desc: "Jen Looper explores the possibilities and limitations of machine learning and natural language processing."
 description: "Jen Looper explores the possibilities and limitations of machine learning and natural language processing while building a fun application to write poetry powered by Azure."

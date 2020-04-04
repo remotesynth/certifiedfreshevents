@@ -7,9 +7,7 @@ menu:
     name: "Data-driven Go"
 categories:
     - Golang
-starttime: "10/30 12:00pm ET"
-endtime: "10/30 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Going_Great_With_Go.jpg"
 short_desc: "Building serverless and data-driven applications with the Go programming language."
 description: "In this free online meetup, Johnny Boursiquot and Ayan George will discuss building serverless and data-driven applications with the Go programming language."

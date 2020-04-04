@@ -7,10 +7,8 @@ menu:
     name: "KnowJS 2018"
 categories:
     - JavaScript
-starttime: "4/13 9:00am EST"
-endtime: "4/13 6:00pm EST"
-cost: "$299"
-recording_cost: "$0"
+cost: 299
+recording_cost: 0
 homepage_banner: "Banner_KnowJS.jpg"
 short_desc: "Lean JavaScript fundamentals through hands-on, online training."
 description: "KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry."

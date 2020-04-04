@@ -8,9 +8,7 @@ menu:
 categories:
   - DotNet
   - Web Development
-starttime: "7/31 12:00pm EST"
-endtime: "7/31 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "ExploringBlazor.jpg"
 short_desc: "A look at how Blazor lets you develop front-end web apps using C# with Jeremy Likness."
 description: "In this session, Jeremy Likness looks at Blazor, a framework for building Single Page Applications using WebAssembly to bring .NET apps to your browser."

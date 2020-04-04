@@ -7,10 +7,8 @@ menu:
     name: "IoT Training 2018"
 categories:
     - IoT
-starttime: "8/29 12:00pm EST"
-endtime: "8/29 4:00pm EST"
-cost: "$249"
-recording_cost: "$0"
+cost: 249
+recording_cost: 0
 homepage_banner: "Banner-Buiding-IoT-Apps.jpg"
 short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
 description: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again."

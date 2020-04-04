@@ -8,9 +8,7 @@ menu:
 categories:
     - CSS
     - Performance
-starttime: "1/17 12:00pm EST"
-endtime: "1/17 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Improving-You-Apps-Debugging.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."

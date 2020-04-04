@@ -7,9 +7,7 @@ menu:
     name: "Web Payments"
 categories:
     - Web Standards
-starttime: "10/9 12:00pm ET"
-endtime: "10/9 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "Future-Of-Web-Payments.jpg"
 short_desc: "A deep dive into the new browser Payment Request and Payment Handler APIs"
 description: "In this free online meetup, Robert Wozniak will explore the new browser Payment Request and Payment Handler APIs."

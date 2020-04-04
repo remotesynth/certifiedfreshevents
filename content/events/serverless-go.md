@@ -8,12 +8,10 @@ menu:
 categories:
     - Serverless
     - Golang
-starttime: "3/8 1:00pm EST"
-endtime: "3/8 4:00pm EST"
 days: 1
 location: "Online"
-cost: "$150"
-recording_cost: "$0"
+cost: 150
+recording_cost: 0
 homepage_banner: "Serverless-Go_Small.jpg"
 short_desc: "Hands-on training with Johnny Boursiquot covers how to build scalable serverless applications with golang."
 description: "In this course you will stitch together a series of Lambda functions written in the Go programming language (golang) to build and orchestrate a fully-functional and scalable serverless application while learning how to handle the deployment, logging, metric collection, and distributed tracing that help you effectively adopt the serverless way."

@@ -7,9 +7,7 @@ menu:
     name: "Professional Networking"
 categories:
     - Culture
-starttime: "10/31 12:00pm ET"
-endtime: "10/31 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "networking-for-devs.jpg"
 short_desc: "Wesley Faulkner shares advice on how to be successful at professional networking as a developer."
 description: "Wesley Faulkner will share how to become an effective professional networker as a developer and shift away from looking at these interactions as transactional."

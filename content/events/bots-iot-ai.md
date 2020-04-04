@@ -1,15 +1,13 @@
 ---
 title: "Bots, IoT and AI, Oh My!"
-date: 2018-08-10T18:52:51-04:00
+date: 2018-08-10T12:00:00-04:00
 menu:
   main:
     parent: "events"
     name: "Bots, IoT and AI, Oh My!"
 categories:
     - IoT
-starttime: "8/10 1:00pm ET"
-endtime: "8/10 2:00pm ET"
-cost: "0"
+cost: 0
 short_desc: "The ways that we interact with devices and the internet keeps changing."
 description: "In this free online meetup, Tomomi Imura and David Simmons explore new ways of interacting with devices and the internet such as chat bots and the internet of things."
 homepage_banner: "Bots-Iot-AI-Oh-My.jpg"

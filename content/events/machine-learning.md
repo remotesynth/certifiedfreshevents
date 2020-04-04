@@ -7,9 +7,7 @@ menu:
     name: "Machine Learning"
 categories:
     - Machine Learning
-starttime: "2/16 12:00pm EST"
-endtime: "2/16 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Demystiying-Machine-Learning.jpg"
 short_desc: "What is machine learning and artificial intelligence."
 description: "Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence."

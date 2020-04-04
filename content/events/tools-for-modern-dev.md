@@ -9,9 +9,7 @@ categories:
     - JavaScript
     - JAMStack
     - Web Development
-starttime: "6/20 12:00pm EST"
-endtime: "6/20 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Tools-For-The-Modern-Web-Developer.jpg"
 short_desc: "A look at some tools that can improve your development process."
 description: "Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby."

@@ -9,9 +9,7 @@ categories:
   - JavaScript
   - Culture
   - Career
-starttime: "7/17 12:00pm EST"
-endtime: "7/17 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_Vue-Vixens.jpg"
 short_desc: "Diana Rodriguez discusses imposter syndrome and Natalia Tepluhina talks GraphQL and Apollo."
 description: "In partnership with Vue Vixens, we're offering two speakers talking on the topics of imposter syndrome and GraphQL with Apollo."

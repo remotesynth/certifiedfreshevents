@@ -1,15 +1,14 @@
 ---
 title: "Falling in Love with the Command Line and GitHub CLI"
 date: 2020-05-04T12:00:00-04:00
+end_date: 2020-05-04T13:00:00-04:00
 menu:
   main:
     parent: "upcoming"
     name: "Command Line & GitHub CLI"
 categories:
     - General Development
-starttime: "5/04 12:00pm EST"
-endtime: "5/04 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "GitHub-CLI.jpg"
 description: "Learn tips and tricks and tools for the command line and GitHub CLI that every developer can use from Andrea Griffiths."
 short_desc: "Andrea Griffiths shares some useful tips, ticks and tools that will supercharge your CLI experience."

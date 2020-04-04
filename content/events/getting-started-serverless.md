@@ -7,9 +7,7 @@ menu:
     name: "Beginner's Serverless"
 categories:
     - Serverless
-starttime: "2/21 12:00pm ET"
-endtime: "2/21 1:00pm ET"
-cost: "0"
+cost: 0
 sessions:
   - getting-started-serverless
 sponsor:

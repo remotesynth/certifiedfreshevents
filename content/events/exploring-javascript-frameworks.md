@@ -7,9 +7,7 @@ menu:
     name: "JavaScript Frameworks"
 categories:
     - JavaScript
-starttime: "10/5 12:00pm EST"
-endtime: "10/5 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "jsframeworks2017.jpg"
 description: "In this free online event, Jen Looper & Holly Schinsky take a look at prominent new JavaScript frameworks to help you decide if they are worth exploring."
 short_desc: "A look at new frameworks making an impact in JavaScript."

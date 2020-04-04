@@ -8,9 +8,7 @@ menu:
 categories:
     - Bots
     - JavaScript
-starttime: "3/27 12:00pm EST"
-endtime: "3/27 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "A-Chatbot-Crash-Course.jpg"
 short_desc: "Sebastian Witalec covers the fundamentals of building a chatbot."
 description: "In this session, Sebastian Witalec is going to go over the fundamentals of building a chatbot to help you get started."

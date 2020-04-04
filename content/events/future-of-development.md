@@ -8,9 +8,7 @@ menu:
 categories:
     - Bots
     - Serverless
-starttime: "12/15 12:00pm EST"
-endtime: "12/15 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "Banner_The-Future-Of-Development.jpg"
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact."

@@ -7,9 +7,7 @@ menu:
     name: "Sextech"
 categories:
     - Culture
-starttime: "9/19 12:00pm ET"
-endtime: "9/19 1:00pm ET"
-cost: "0"
+cost: 0
 homepage_banner: "Sextech-The-Good-The-Bad-The-Bias.jpg"
 short_desc: "Alison Faulk gives an overview of the field of sextech and why it isn't what you may imagine."
 description: "Alison Faulk gives an overview of the field of sextech, how it spans an array of technologies and the current biases sextech faces."

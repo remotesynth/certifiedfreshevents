@@ -7,9 +7,7 @@ menu:
     name: "JavaScript in 2017"
 categories:
     - JavaScript
-starttime: "8/23 12:00pm EST"
-endtime: "8/23 1:00pm EST"
-cost: "0"
+cost: 0
 homepage_banner: "javascript2017.jpg"
 short_desc: "A look at recent developments in the world of JavaScript."
 description: "In this free event, Raymond Camden and TJ VanToll take a look at some of the advancements in JavaScript and how developers can start using them today."
