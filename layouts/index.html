@@ -59,37 +59,33 @@
 
     <!-- Newest Videos -->
     <section class="bg-light pt-32 pb-32">
+      {{ range $homepage_category := first 1 ( shuffle (.Site.Params.featured_categories)) }}
       <div class="container">
         <div class="title-wrap">
-          <h2 class="section-title">newest recordings</h2>
+          <h2 class="section-title">Featured Topic: {{$homepage_category | humanize }}</h2>
         </div>
-        {{ $newRecordings := (where (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.embed_url" "!=" nil) ".Date" "le" now) }}
-        <div class="video-playlist">
-
-          <div class="video-playlist__content thumb-container">
-            <div class="embed-responsive embed-responsive-16by9">
-              {{ range first 1 $newRecordings }}
-              <iframe src="{{ .Params.embed_url }}" class="video-playlist__content-video">
-              {{ end }}
-              </iframe>
-            </div>
-          </div>
-
-          <div class="video-playlist__list">
-            {{ range first 6 $newRecordings }}
-            <a href="{{ .Params.embed_url }}" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/{{ .Params.Homepage_banner }}" src="/img/banners/{{ .Params.Homepage_banner }}" class="video-playlist__list-item-img lazyload" alt="{{ .Title }}">
+        <div class="col-lg-12">
+          <div class="row">
+            {{ $category_pages := index $.Site.Taxonomies.categories $homepage_category }}
+            {{ range first 4 (where $category_pages ".Params.embed_url" "ne" nil) }}
+              <div class="col-lg-3">
+                <article class="entry thumb thumb--size-1">
+                  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/{{ .Params.Homepage_banner }}');">
+                    <div class="bottom-gradient"></div>
+                    <div class="thumb-text-holder thumb-text-holder--4">
+                      <h2 class="thumb-entry-title">
+                        <a href="{{ .Permalink }}">{{.Params.Title}}</a>
+                      </h2>
+                    </div>
+                    <a href="{{ .Permalink }}" class="thumb-url"></a>
+                  </div>
+                </article>
               </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">{{ .Title }}</h4>
-              </div>
-            </a>
             {{ end }}
           </div>
-
         </div>
-      </div>      
+      </div>
+      {{ end }}
     </section> <!-- end newest videos -->
 
       {{ partial "footer.html" .}}

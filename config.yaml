@@ -8,6 +8,11 @@ params:
   twitter: fresheventsfl
   instagram: certifiedfreshevents
   youtube: https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg
+  featured_categories:
+    - javascript
+    - culture
+    - iot
+    - serverless
 menu: ["main", "top"]
 related:
   threshold: 80

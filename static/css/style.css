@@ -1910,8 +1910,8 @@ img.mfp-img {
 			.thumb--size-6 {
 				height: 440px; } }
 	@media only screen and (max-width: 767px) {
-		.thumb--size-3, .thumb--size-4, .thumb--size-5, .thumb--size-6 {
-			height: 300px; } }
+		.thumb--size-1, .thumb--size-1b, .thumb--size-3, .thumb--size-4, .thumb--size-5, .thumb--size-6 {
+			height: 200px; } }
 	.thumb__img-holder {
 		height: 100%;
 		margin-bottom: 0; }
