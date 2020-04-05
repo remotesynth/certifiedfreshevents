@@ -62,7 +62,7 @@
       {{ range $homepage_category := first 1 ( shuffle (.Site.Params.featured_categories)) }}
       <div class="container">
         <div class="title-wrap">
-          <h2 class="section-title">Featured Topic: {{$homepage_category | humanize }}</h2>
+          <h2 class="section-title">Featured Topic: <a href="/categories/{{$homepage_category}}" style="text-decoration: underline;color:#29aae2;">{{$homepage_category | humanize }}</a></h2>
         </div>
         <div class="col-lg-12">
           <div class="row">

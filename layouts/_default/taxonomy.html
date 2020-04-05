@@ -84,7 +84,7 @@
         <aside class="col-lg-4 sidebar sidebar--right">
 
           <!-- Widget Popular Posts -->
-          {{ $upcoming := where .Site.RegularPages ".Date" "ge" now }}
+          {{ $upcoming := where (where .Site.RegularPages ".Date" "ge" now) "Section" "events" }}
           {{ if ne (len $upcoming) 0 }}
           <aside class="widget widget-popular-posts">
             <h4 class="widget-title">Upcoming Events</h4>
@@ -95,7 +95,7 @@
                   <div class="post-list-small__img-holder">
                     <div class="thumb-container thumb-100">
                       <a href="{{ .Permalink }}">
-                        <img data-src="/img/banners/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
+                        <img data-src="/img/banners/thumbs/{{ .Params.Homepage_banner }}" src="img/empty.png" alt="" class="lazyload">
                       </a>
                     </div>
                   </div>

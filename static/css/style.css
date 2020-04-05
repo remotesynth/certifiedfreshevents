@@ -1816,7 +1816,7 @@ img.mfp-img {
 /* Post Thumbs
 /*-------------------------------------------------------*/
 .thumb-container {
-	background-color: #f7f7f7;
+	/* background-color: #f7f7f7;*/
 	position: relative;
 	overflow: hidden;
 	-webkit-transform: translateZ(0);
@@ -1827,7 +1827,7 @@ img.mfp-img {
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		min-height: 100%;
+		/* min-height: 100%;*/
 		-webkit-backface-visibility: hidden;
 		        backface-visibility: hidden; }
 	.footer--dark .thumb-container {
@@ -2367,9 +2367,8 @@ img.mfp-img {
 		border-bottom: 0; }
 
 .post-list-small__img-holder {
-	width: 88px;
+	width: 81px;
 	float: left;
-	border-radius: 50%;
 	overflow: hidden;
 	margin-right: 16px; }
 	@media only screen and (max-width: 575px) {
