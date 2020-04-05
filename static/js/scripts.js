@@ -14,11 +14,6 @@
 
   // Init
   initOwlCarousel();
-  setTimeout(function() {
-    initFlickity();
-  }, 1000);
-  
-  
 
   $window.on('resize', function() {
     hideSidenav();
@@ -362,31 +357,6 @@
         owlCustomNav.trigger('next.owl.carousel');
     });
   };
-
-
-  /* Flickity Slider
-  -------------------------------------------------------*/
-  function initFlickity() {
-
-    // 1st carousel, main
-    $('#flickity-hero').flickity({
-      cellAlign: 'left',
-      contain: true,
-      pageDots: false,
-      prevNextButtons: false,
-      draggable: false
-    });
-
-    // 2nd carousel, navigation
-    $('#flickity-thumbs').flickity({
-      cellAlign: 'left',
-      asNavFor: '#flickity-hero',
-      contain: true,
-      pageDots: false,
-      prevNextButtons: false,
-      draggable: false
-    });
-  }
 
 
   /* Sticky Socials

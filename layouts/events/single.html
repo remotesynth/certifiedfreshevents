@@ -228,6 +228,7 @@
 				</div>
 			</nav>            
 
+			{{ if (.Site.RegularPages.Related .) "gt" 0 }}
 			<!-- Related Posts -->
 			<section class="section related-posts mt-40 mb-0">
 				<div class="title-wrap title-wrap--line title-wrap--pr">
@@ -236,7 +237,7 @@
 
 				<!-- Slider -->
 				<div id="owl-posts-3-items" class="owl-carousel owl-theme owl-carousel--arrows-outside">
-				{{ $related := .Site.RegularPages.Related . | first 5 }}
+				{{ $related := where (where (.Site.RegularPages.Related . | first 5) "Section" "events") ".Params.embed_url" "ne" nil }}
 				{{ with $related }}
 					{{ range . }}
 				<article class="entry thumb thumb--size-1b">
@@ -254,7 +255,8 @@
 				{{ end }}
 				</div> <!-- end slider -->
 
-			</section> <!-- end related posts -->            
+			</section> <!-- end related posts -->
+			{{ end }}         
 
 			</article> <!-- end standard post -->
 		</div>
