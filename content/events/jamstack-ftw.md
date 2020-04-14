@@ -4,8 +4,8 @@ date: 2020-05-15T12:00:00-04:00
 end_date: 2020-05-15T13:00:00-04:00
 menu:
   main:
-    parent: "upcoming"
-    name: "JAMstack FTW"
+    parent: upcoming
+    name: JAMstack FTW
 categories:
     - webdev
     - javascript

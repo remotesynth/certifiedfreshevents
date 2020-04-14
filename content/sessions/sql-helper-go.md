@@ -3,6 +3,10 @@ title: "Building a SQL Helper Library in Go"
 date: 2018-10-30T18:52:51-04:00
 speakers:
     - ayan-george
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/going-great-with-go
+        start_time: 03:29
 draft: false
 ---
 

@@ -3,6 +3,10 @@ title: "Debunking myths: Can someone think of developers?"
 date: 2018-07-17T18:52:51-04:00
 speakers:
     - diana-rodriguez
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/vue-vixens-master-class
+        start_time: 39:54
 draft: false
 ---
 

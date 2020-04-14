@@ -3,8 +3,8 @@ title: "Demystifying Machine Learning"
 date: 2018-02-16T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Machine Learning"
+    parent: events
+    name: Machine Learning
 categories:
     - Machine Learning
 cost: 0

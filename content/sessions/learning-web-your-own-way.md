@@ -3,6 +3,10 @@ title: "Learning the Web Your Own Way"
 date: 2018-11-27T18:52:51-04:00
 speakers:
     - raymond-camden
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/has-web-development
+        start_time: 32:13
 draft: false
 ---
 

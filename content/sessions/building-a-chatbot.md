@@ -3,6 +3,10 @@ title: "Building a Chatbot: The Crash Course"
 date: 2019-03-27T18:52:51-04:00
 speakers:
     - sebastian-witalec
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/a-chatbot-crash-course
+        start_time: 02:59
 draft: false
 ---
 

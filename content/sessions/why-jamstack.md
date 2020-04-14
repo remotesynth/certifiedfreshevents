@@ -3,6 +3,10 @@ title: "Why JAMstack? Beyond static sites."
 date: 2018-05-23T18:52:51-04:00
 speakers:
     - phil-hawksworth
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/modern-web-development
+        start_time: 03:45
 draft: false
 ---
 

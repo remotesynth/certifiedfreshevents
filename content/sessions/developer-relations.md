@@ -3,6 +3,10 @@ title: "Developer Relations: Advocates, Evangelists, and Avocados"
 date: 2019-06-25T18:52:51-04:00
 speakers:
     - mary-thengvall
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/developer-relations
+        start_time: 03:07
 draft: false
 ---
 

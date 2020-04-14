@@ -3,18 +3,18 @@ title: "Getting Started with Serverless"
 date: 2020-02-21T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Beginner's Serverless"
+    parent: events
+    name: Beginner's Serverless
 categories:
     - Serverless
 cost: 0
 sessions:
   - getting-started-serverless
 sponsor:
-  name: "IBM Developer"
-  image: "IBM_Developer.png"
-  URL: "https://developer.ibm.com/"
-homepage_banner: "Getting-Started-with-Serverless.jpg"
+  name: IBM Developer
+  image: IBM_Developer.png
+  URL: https://developer.ibm.com/
+homepage_banner: Getting-Started-with-Serverless.jpg
 short_desc: "Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started."
 description: "Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started."
 embed_url: https://www.crowdcast.io/e/getting-started-with-44

@@ -3,13 +3,13 @@ title: "Improving Your Apps - Performance and Debugging"
 date: 2018-01-17T18:52:51-04:00
 menu:
   main:
-    parent: "events"
+    parent: events
     name: "Performance & Debugging"
 categories:
     - CSS
     - Performance
 cost: 0
-homepage_banner: "Banner_Improving-You-Apps-Debugging.jpg"
+homepage_banner: Banner_Improving-You-Apps-Debugging.jpg
 short_desc: "New technologies like serverless and bots are changing the face of development."
 description: "In this free online event, Aimee Knight and Tammy Everts explore ways we can improve the performance of our applications."
 embed_url: https://www.crowdcast.io/e/improving-your-apps--

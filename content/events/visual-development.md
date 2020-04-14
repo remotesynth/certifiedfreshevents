@@ -3,12 +3,12 @@ title: "Is Visual Development the Future?"
 date: 2019-12-18T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Visual Development"
+    parent: events
+    name: Visual Development
 categories:
     - Web Development
 cost: 0
-homepage_banner: "visual-development.jpg"
+homepage_banner: visual-development.jpg
 short_desc: "Amanda Loftis explores the impact of visual development tools on web development."
 description: "Amanda Loftis takes a look at visual development tools like Wix, Squarespace, and Webflow and how they impact web design."
 embed_url: https://www.crowdcast.io/e/is-visual-development

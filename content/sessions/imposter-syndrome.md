@@ -3,6 +3,10 @@ title: "Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears 
 date: 2019-02-22T18:52:51-04:00
 speakers:
     - jo-franchetti
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/dealing-with
+        start_time: 03:29
 draft: false
 ---
 

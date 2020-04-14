@@ -3,6 +3,10 @@ title: "Building Enterprise Applications with the Magic of React, Redux, and Gra
 date: 2019-01-22T18:52:51-04:00
 speakers:
     - rizchel-wood
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/javascript-for
+        start_time: 03:11
 draft: false
 ---
 

@@ -3,6 +3,10 @@ title: "The Future of Web Payments - The Payment Request and Payment Handler API
 date: 2018-10-09T18:52:51-04:00
 speakers:
     - robert-wozniak
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/the-future-of-web
+        start_time: 03:31
 draft: false
 ---
 

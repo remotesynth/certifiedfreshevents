@@ -3,6 +3,10 @@ title: "From Bits and Bytes to Atoms"
 date: 2017-09-22T18:52:51-04:00
 speakers:
     - brandon-satrom
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/7v1mj9k9
+        start_time: 03:45
 draft: false
 ---
 

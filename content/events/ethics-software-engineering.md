@@ -3,12 +3,12 @@ title: "Ethics in Software Engineering"
 date: 2018-09-18T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Ethics in Software"
+    parent: events
+    name: Ethics in Software
 categories:
     - Culture
 cost: 0
-homepage_banner: "Ethics_In_Software_Engineering.png"
+homepage_banner: Ethics_In_Software_Engineering.png
 description: "A panel to discuss how engineering decisions often made by developers can impact the real world."
 short_desc: "This month we're not discussing how we build it, but should we."
 embed_url: https://www.crowdcast.io/e/ethics-in-software

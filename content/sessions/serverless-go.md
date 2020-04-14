@@ -3,6 +3,10 @@ title: "Serverless Go - Course Outline"
 date: 2019-03-08T18:52:51-04:00
 speakers:
     - johnny-boursiquot
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/serverless-go
+        start_time: 01:35
 draft: false
 ---
 

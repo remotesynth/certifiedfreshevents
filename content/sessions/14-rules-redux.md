@@ -3,6 +3,10 @@ title: "14 Rules Redux"
 date: 2020-01-17T18:52:51-04:00
 speakers:
     - henri-helvetica
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/improving-website
+        start_time: 04:10
 draft: false
 ---
 

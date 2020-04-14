@@ -3,6 +3,10 @@ title: "Is Visual Development the Future?"
 date: 2019-12-18T18:52:51-04:00
 speakers:
     - amanda-loftis
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/is-visual-development
+        start_time: 01:32
 draft: false
 ---
 

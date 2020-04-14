@@ -3,6 +3,10 @@ title: "Exploring Mixed Reality for Good"
 date: 2019-04-25T18:52:51-04:00
 speakers:
     - aysegul-yonet
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/exploring-mixed-reality
+        start_time: 02:39
 draft: false
 ---
 

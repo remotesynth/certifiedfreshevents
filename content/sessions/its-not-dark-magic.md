@@ -3,6 +3,10 @@ title: "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets"
 date: 2018-01-17T18:52:51-04:00
 speakers:
     - aimee-knight
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/improving-your-apps--
+        start_time: 38:30
 draft: false
 ---
 

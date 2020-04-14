@@ -3,6 +3,9 @@ title: "Getting Started with Kubernetes Using OpenShift"
 date: 2020-05-20T12:30:00-04:00
 speakers:
     - marek-sadowski
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/getting-started-with-52
 draft: false
 ---
 

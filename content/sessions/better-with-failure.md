@@ -3,6 +3,10 @@ title: "Better with Failure"
 date: 2018-04-05T18:52:51-04:00
 speakers:
     - jenell-pizarro
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/developing-success
+        start_time: 32:40
 draft: false
 ---
 

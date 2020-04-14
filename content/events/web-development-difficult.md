@@ -3,8 +3,8 @@ title: "Has Web Development Become Difficult?"
 date: 2018-11-27T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Is Web Dev Difficutlt?"
+    parent: events
+    name: Is Web Dev Difficult?
 categories:
   - Web Development
   - Web Standards

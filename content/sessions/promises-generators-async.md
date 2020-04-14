@@ -3,6 +3,10 @@ title: "Promises, Generators, Async"
 date: 2018-04-13T18:52:51-04:00
 speakers:
     - kyle-simpson
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/fundamental-javascript/1
+        start_time: 03:13
 draft: false
 ---
 

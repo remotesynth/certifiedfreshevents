@@ -7,15 +7,15 @@ categories:
     - JavaScript
     - CSS
 days: 2
-location: "The Abbey Orlando"
+location: The Abbey Orlando
 cost: 249
-banner: "flashback_large.jpg"
-homepage_banner: "flashback.jpg"
+banner: flashback_large.jpg
+homepage_banner: flashback.jpg
 description: "Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved."
 short_desc: "Flashback Conference is a 2-day front-end web development focused conference in Orlando, FL"
 draft: false
 featured: false
-styles: "flashback.css"
+styles: flashback.css
 ---
 # Join us on February 10-11 in Orlando, Florida!
 

@@ -3,6 +3,10 @@ title: "The FaaS and the Serverless"
 date: 2019-01-22T18:52:51-04:00
 speakers:
     - simon-macdonald
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/javascript-for
+        start_time: 35:09
 draft: false
 ---
 

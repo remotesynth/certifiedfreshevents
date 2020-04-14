@@ -3,6 +3,10 @@ title: "How to Get Through the Awkwardness of Networking"
 date: 2017-09-22T18:52:51-04:00
 speakers:
     - brad-marsh
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/javascript-for
+        start_time: 32:01
 draft: false
 ---
 

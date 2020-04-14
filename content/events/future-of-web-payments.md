@@ -3,12 +3,12 @@ title: "The Future of Web Payments"
 date: 2018-10-09T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Web Payments"
+    parent: events
+    name: Web Payments
 categories:
     - Web Standards
 cost: 0
-homepage_banner: "Future-Of-Web-Payments.jpg"
+homepage_banner: Future-Of-Web-Payments.jpg
 short_desc: "A deep dive into the new browser Payment Request and Payment Handler APIs"
 description: "In this free online meetup, Robert Wozniak will explore the new browser Payment Request and Payment Handler APIs."
 embed_url: https://www.crowdcast.io/e/the-future-of-web

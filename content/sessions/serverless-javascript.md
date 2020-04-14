@@ -3,6 +3,10 @@ title: "Serverless JavaScript OMG"
 date: 2017-10-20T18:52:51-04:00
 speakers:
     - burke-holland
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/mwtxogvi
+        start_time: 04:05
 draft: false
 ---
 

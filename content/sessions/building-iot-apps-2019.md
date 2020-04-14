@@ -4,6 +4,10 @@ date: 2019-11-20T18:52:51-04:00
 speakers:
     - brandon-satrom
     - paul-decarlo
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/building-iot-apps-with/1
+        start_time: 02:39
 draft: false
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "KnowJS 2018"
+title: KnowJS 2018
 date: 2018-04-13T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "KnowJS 2018"
+    parent: events
+    name: KnowJS 2018
 categories:
     - JavaScript
 cost: 299
@@ -19,12 +19,12 @@ sessions:
     - open-source-your-stuff
     - frontend-computer-science
 sponsor:
-  name: "the Microsoft Cloud Developer Advocacy team"
-  image: "AzureAdvocates-new.png"
-  URL: "https://developer.microsoft.com/en-us/advocates/index.html"
+  name: the Microsoft Cloud Developer Advocacy team
+  image: AzureAdvocates-new.png
+  URL: https://developer.microsoft.com/en-us/advocates/index.html
 draft: false
 featured: false
-styles: "knowjs.css"
+styles: knowjs.css
 ---
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">

@@ -3,13 +3,13 @@ title: "Why DevRel Matters"
 date: 2019-06-25T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Why DevRel Matters"
+    parent: events
+    name: Why DevRel Matters
 categories:
   - Career
   - Culture
 cost: 0
-homepage_banner: "Why-DevRel-Matters.jpg"
+homepage_banner: Why-DevRel-Matters.jpg
 short_desc: "A discussion of the importance of the practice of developer relations by Mary Thengvall."
 description: "In this session, Mary Thengvall will discuss what developer relations is and why it matters to developers."
 embed_url: https://www.crowdcast.io/e/developer-relations

@@ -4,6 +4,10 @@ date: 2018-08-10T18:52:51-04:00
 speakers:
     - tomomi-imura
 event: bots-iot-ai
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/bots-iot-and-ai-oh-my
+        start_time: 07:40
 draft: false
 ---
 

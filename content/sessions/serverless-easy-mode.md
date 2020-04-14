@@ -3,6 +3,10 @@ title: "Going Severless on Easy Mode"
 date: 2017-12-15T18:52:51-04:00
 speakers:
     - brian-leroux
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/the-future-of-development
+        start_time: 04:55
 draft: false
 ---
 

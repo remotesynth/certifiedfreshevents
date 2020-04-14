@@ -3,12 +3,12 @@ title: "IoT for Fun and Profit"
 date: 2017-09-22T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Practical IoT"
+    parent: events
+    name: Practical IoT
 categories:
     - IoT
 cost: 0
-homepage_banner: "IoT-For-Fun-And-Profit.jpg"
+homepage_banner: IoT-For-Fun-And-Profit.jpg
 short_desc: "Simple and practical ways for getting started in IoT - from basic electronics to smart home integration"
 description: "In this free online event, Brandon Satrom and Brad Marsh show simple and practical ways for getting started in IoT - from basic electronics to smart home integration."
 embed_url: https://www.crowdcast.io/e/7v1mj9k9

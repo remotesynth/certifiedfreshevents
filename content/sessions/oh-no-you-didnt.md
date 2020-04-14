@@ -5,6 +5,10 @@ speakers:
     - shannon-vettes
     - christina-aldan
     - tara-manicsic
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
+        start_time: 00:21
 draft: false
 ---
 

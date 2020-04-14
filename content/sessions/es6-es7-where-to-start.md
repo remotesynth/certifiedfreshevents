@@ -3,6 +3,10 @@ title: "ES6, ES7, where do I start???"
 date: 2017-08-23T18:52:51-04:00
 speakers:
     - raymond-camden
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/rb68byb9
+        start_time: 04:20
 draft: false
 ---
 

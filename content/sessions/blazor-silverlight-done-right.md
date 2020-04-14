@@ -3,6 +3,10 @@ title: "Blazor: Silverlight Done Right"
 date: 2019-07-31T18:52:51-04:00
 speakers: 
     - jeremy-likness
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/blazor
+        start_time: 03:21
 draft: false
 ---
 

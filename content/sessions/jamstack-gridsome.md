@@ -3,6 +3,9 @@ title: "JAMstack FTW- Static Site Generation With Gridsome"
 date: 2020-05-15T18:52:51-04:00
 speakers:
     - gift-egwuenu
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/jamstack-ftw
 draft: false
 ---
 

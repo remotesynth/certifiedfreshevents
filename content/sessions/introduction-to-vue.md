@@ -3,6 +3,10 @@ title: "An Introduction to Vue"
 date: 2019-05-23T18:52:51-04:00
 speakers:
     - raymond-camden
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/an-introduction-to-vue
+        start_time: 02:26
 draft: false
 ---
 

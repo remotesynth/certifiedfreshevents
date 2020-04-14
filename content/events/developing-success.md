@@ -3,12 +3,12 @@ title: "Developing Success"
 date: 2018-04-05T18:52:51-04:00
 menu:
   main:
-    parent: "events"
-    name: "Developing Success"
+    parent: events
+    name: Developing Success
 categories:
     - Career
 cost: 0
-homepage_banner: "Banner_Developing-Success.jpg"
+homepage_banner: Banner_Developing-Success.jpg
 short_desc: "Learn the skills it takes to become a better developer."
 description: "Alyssa Nicoll and Jenell Pizarro share tips on how to learn and grow to become a better developer with experience."
 embed_url: https://www.crowdcast.io/e/developing-success

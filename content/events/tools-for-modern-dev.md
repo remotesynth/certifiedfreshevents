@@ -3,8 +3,8 @@ title: "Tools for the Modern Web Developer"
 date: "2018-06-20"
 menu:
   main:
-    parent: "events"
-    name: "Modern Web Development"
+    parent: events
+    name: Modern Web Development
 categories:
     - JavaScript
     - JAMStack

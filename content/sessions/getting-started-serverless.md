@@ -3,6 +3,10 @@ title: "Getting Started with Serverless"
 date: 2020-02-21T18:52:51-04:00
 speakers:
     - upkar-lidder
+recordings:
+    crowdcast:
+        url: https://www.crowdcast.io/e/getting-started-with-44
+        start_time: 02:11
 draft: false
 ---
 
