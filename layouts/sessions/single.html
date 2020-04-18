@@ -113,7 +113,19 @@
   </div>
 </div>
 <!-- end speaker specific -->
-						</div> <!-- end entry article wrap -->
+            </div> <!-- end entry article wrap -->
+            {{ with .Params.recordings }}
+            <div style="text-align: center; margin: 20px 0 20px 0">
+              {{ with .vimeo }}
+              {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+              <iframe src="https://player.vimeo.com/video/{{ $vimeo_embed }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              {{ end }}
+              {{ with .crowdcast }}
+              <p>View the full meetup recording with chat history at <a href="{{.url}}" target="_blank">{{.url}}</a><br>(this session begins at {{.start_time}}).</p>
+              {{ end }}
+            </div>
+            {{ end }}
+          
 						
 						{{ partial "newsletter.html" . }}
 

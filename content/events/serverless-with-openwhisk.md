@@ -4,7 +4,7 @@ date: 2020-04-09T15:00:00-04:00
 end_date: 2020-04-09T17:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: OpenWhisk Workshop
 categories:
   - Serverless
