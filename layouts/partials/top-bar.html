@@ -6,7 +6,6 @@
         <!-- Top menu -->
         <div class="col-lg-6">
           <ul class="top-menu">
-          {{ $currentPage := . }}
           {{ range .Site.Menus.top }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
