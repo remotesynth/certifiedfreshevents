@@ -8,6 +8,8 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/bots-iot-and-ai-oh-my
         start_time: 07:40
+    vimeo:
+        url: https://vimeo.com/410689698
 draft: false
 ---
 

@@ -22,14 +22,14 @@
 
 		{{ partial "navigation.html" . }}
 
+{{ $event := "" }}
 {{ if (isset .Params "event") }}
-  {{ $.Scratch.Set "event" (.GetPage (print "/events/" .Params.event)) }}
+  {{ $event = (.GetPage (print "/events/" .Params.event)) }}
 {{ else }}
   {{ $eventArr := slice .Page.File.TranslationBaseName }}
   {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
-  {{ $.Scratch.Set "event" (index $events 0) }}
+  {{ $event = (index $events 0) }}
 {{ end }}
-{{ $event := $.Scratch.Get "event" }}
 <!-- Breadcrumbs -->
 <div class="container">
 		<ul class="breadcrumbs">
