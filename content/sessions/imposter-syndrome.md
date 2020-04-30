@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/dealing-with
         start_time: 03:29
+    vimeo:
+        url: https://vimeo.com/412076649
+        length: "45:04"
 draft: false
 ---
 

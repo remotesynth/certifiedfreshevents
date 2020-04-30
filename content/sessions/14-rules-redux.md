@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/improving-website
         start_time: 04:10
+    vimeo:
+        url: https://vimeo.com/412412878
+        length: "54:00"
 draft: false
 ---
 

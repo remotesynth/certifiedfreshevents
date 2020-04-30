@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/an-introduction-to-vue
         start_time: 02:26
+    vimeo:
+        url: https://vimeo.com/412547453
+        length: "49:18"
 draft: false
 ---
 
