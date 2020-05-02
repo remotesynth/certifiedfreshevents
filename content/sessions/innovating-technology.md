@@ -8,7 +8,7 @@ recordings:
         url: https://www.crowdcast.io/e/developing-success
         start_time: 03:59
     vimeo:
-        url: https://vimeo.com/413697871
+        url: https://vimeo.com/414312638
         length: "28:06"
 draft: false
 ---
