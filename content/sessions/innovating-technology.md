@@ -9,7 +9,7 @@ recordings:
         start_time: 03:59
     vimeo:
         url: https://vimeo.com/414312638
-        length: "28:06"
+        length: "28:05"
 draft: false
 ---
 
