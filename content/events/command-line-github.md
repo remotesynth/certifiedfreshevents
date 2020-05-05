@@ -4,7 +4,7 @@ date: 2020-05-04T12:00:00-04:00
 end_date: 2020-05-04T13:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: Command Line & GitHub CLI
 categories:
     - General Development
