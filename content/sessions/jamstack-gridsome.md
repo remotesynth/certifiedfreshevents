@@ -1,6 +1,6 @@
 ---
 title: "JAMstack FTW- Static Site Generation With Gridsome"
-date: 2020-05-15T18:52:51-04:00
+date: 2020-05-15T13:00:00-04:00
 speakers:
     - gift-egwuenu
 recordings:
