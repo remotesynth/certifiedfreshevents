@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/the-future-of-development
         start_time: 04:55
+    vimeo:
+        url: https://vimeo.com/419164597
+        length: "37:26"
 draft: false
 ---
 

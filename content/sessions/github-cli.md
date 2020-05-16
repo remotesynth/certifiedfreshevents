@@ -6,6 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/falling-in-love-with-the
+        start_time: 3:38
+    vimeo:
+        url: https://vimeo.com/416648508
+        length: "41:15"
 draft: false
 ---
 

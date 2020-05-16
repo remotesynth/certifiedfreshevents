@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/serverless-go
         start_time: 01:35
+    vimeo:
+        url: https://vimeo.com/418610032
+        length: "2:53:55"
 draft: false
 ---
 

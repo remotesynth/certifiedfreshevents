@@ -6,6 +6,7 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/jamstack-ftw
+        start_time: "4:30"
 draft: false
 ---
 

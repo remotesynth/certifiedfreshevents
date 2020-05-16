@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/modern-web-development
         start_time: 03:45
+    vimeo:
+        url: https://vimeo.com/416564149
+        length: "28:46"
 draft: false
 ---
 
