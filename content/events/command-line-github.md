@@ -5,7 +5,7 @@ end_date: 2020-05-04T13:00:00-04:00
 menu:
   main:
     parent: events
-    name: Command Line & GitHub CLI
+    name: Command Line & GitHub
 categories:
     - General Development
 cost: 0

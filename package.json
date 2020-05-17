@@ -12,6 +12,6 @@
     "yaml": "^1.5.1"
   },
   "dependencies": {
-    "netlify-cli": "^2.40.0"
+    "netlify-cli": "^2.51.0"
   }
 }

@@ -1,11 +1,11 @@
 ---
-title: "Upcoming Live Meetups"
+title: "Upcoming Meetups"
 date: 2017-07-12T18:52:51-04:00
 weight: 1
 menu:
   main:
     identifier: upcoming
-    name: "Upcoming Live Meetups"
+    name: "Upcoming Meetups"
 banner: "images/pages/events.jpg"
 draft: false
 ---
