@@ -170,7 +170,7 @@
 						<a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
 					{{ end }}
 					
-					{{ if ne .Params.embed_url nil }}
+					{{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
 					{{ $eventcode := path.Base .Params.embed_url }}
 
 					<h2 id="registration">Registration:</h2>
