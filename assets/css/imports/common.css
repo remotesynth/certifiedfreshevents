@@ -1,0 +1,75 @@
+/*
+  ===============
+  Common Elements
+  ===============
+
+  CSS for smaller elements, links, buttons, etc. 
+  Styles here should represent the "base" after an initial reset.
+*/
+
+.link {
+  @apply underline;
+}
+
+.link:hover {
+  @apply no-underline;
+  @apply text-java;
+}
+
+.button {
+  @apply inline-block;
+  @apply px-4 py-2;
+  @apply text-xl font-bold text-white;
+  @apply bg-sky;
+  @apply border border-current rounded;
+
+  @apply transition-all duration-150 ease-in;
+}
+
+.button:hover {
+  @apply bg-blue;
+}
+
+.button-ghost {
+  @apply inline-block;
+  @apply px-4 py-2;
+  @apply font-bold;
+  @apply border border-b-2 border-current rounded;
+
+  @apply transition-all duration-150 ease-in;
+}
+
+.button-ghost:hover {
+  @apply bg-java;
+  @apply border-java;
+  @apply text-white;
+}
+
+.label {
+  @apply font-bold;
+  @apply text-java;
+}
+
+.field {
+  @apply block px-4 py-3;
+  @apply border border-gray-300 rounded;
+}
+
+/* 
+  Special modification to elements when they are part of long-form content 
+*/
+
+.content {
+  @apply text-lg;
+}
+
+.content ul {
+  @apply ml-6;
+  @apply list-disc;
+}
+
+.content li {
+  @apply ml-6;
+  @apply list-decimal;
+}
+

@@ -1,73 +1,231 @@
 <!-- Navigation -->
-<header class="nav">
-    <div class="nav__holder nav--sticky">
-        <div class="container relative">
-        <div class="flex-parent">
+<nav class="site-nav">
+  <a href="/" class="flex items-center flex-shrink-0 mr-10">
+    <img
+      src="logo.svg"
+      alt="CFE.dev"
+      class="h-16 lg:h-20">
+  </a>
 
-            <!-- Side Menu Button -->
-            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
-            <span class="nav-icon-toggle__box">
-                <span class="nav-icon-toggle__inner"></span>
-            </span>
-            </button> 
+  <button
+    class="flex items-center px-3 py-2 border rounded lg:hidden"
+    data-nav-toggler>
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+  </button>
 
-            <!-- Logo -->
-            <a href="/index.html" class="logo">
-            <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="{{ .Site.Title }}">
+  <div
+    class="flex flex-col block w-full sr-only lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only"
+    id="SiteNav">
+    <ul
+      class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"
+      id="PrimaryNav">
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="category.html"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          Upcoming Meetups
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
+            <use xlink:href="icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        <ul
+          class="space-y-4 menu menu-meetups">
+          <li>
+            <a href="#" class="block px-6 font-medium text-gray-800 hover:text-java anim">Meetup 1: Legend of Serverless</a>
+          </li>
+          <li>
+            <a href="#" class="block px-6 font-medium text-gray-800 hover:text-java anim">Meetup 2: Docker for Dorks</a>
+          </li>
+          <li>
+            <a href="#" class="block px-6 font-medium text-gray-800 hover:text-java anim">Meetup 3: Friendly Refactoring</a>
+          </li>
+          <li>
+            <a href="#" class="block px-6 font-medium text-gray-800 hover:text-java anim">Meetup 4: Don't Touch! Design Tips</a>
+          </li>
+        </ul>
+      </li>
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="sessions.html"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:text-lg lg:mt-0 lg:text-left">
+          Sessions
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block " aria-hidden="true">
+            <use xlink:href="icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        <!-- Sessions Nav -->
+        <ul
+          class="grid-cols-2 gap-6 p-6 menu menu-sessions">
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-user-group"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">Career &amp; Culture</span>
+                <span class="block text-xs text-gray-600">Learn to lead with empathy and master soft skills.</span>
+              </div>
             </a>
+          </li>
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-desktop-computer"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">DevOps</span>
+                <span class="block text-xs text-gray-600">Launch &amp; scale like a pro.</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-code"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">JavaScript</span>
+                <span class="block text-xs text-gray-600">React, Vue, JAMSTACK, and everything in-between.</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-globe"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">Web Development</span>
+                <span class="block text-xs text-gray-600">Stay up on standards, accessibility, and best practices.</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-cog"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">Software Engineering</span>
+                <span class="block text-xs text-gray-600">New languages and tools to take your code to the next level.</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="category.html" class="flex block text-gray-800 has-nav-link-icon">
+              <div class="nav-link-icon">
+                <svg aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-sparkles"></use>
+                </svg>
+              </div>
+              <div class="ml-4">
+                <span class="block text-sm text-lg">Cool Stuff</span>
+                <span class="block text-xs text-gray-600">Check out VR, IoT, and fun experiments.</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="text-center lg:text-left">
+        <a
+          href="#"
+          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
+          Speakers
+        </a>
+      </li>
+    </ul>
+    <div
+      class="flex flex-wrap items-center justify-center order-3 lg:justify-end lg:flex-grow lg:order-2"
+      id="SecondaryNav">
 
-            <!-- Nav-wrap -->
-            <nav class="flex-child nav__wrap d-none d-lg-block">              
-            <ul class="nav__menu">
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ $parentNavURL := .URL }}
-                <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-                {{ if .HasChildren }}
-                <ul class="nav__dropdown-menu">
-                    {{ $children := sort .Children ".Page.Date" "desc" }}
-                    {{ range first 10 $children }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }}
-                    {{ if gt .Children 10 }}
-                    <li><a href="{{ $parentNavURL }}">More...</a></li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-                </li>
-            {{ end }}
+      <!-- Search Toggler -->
+      <button
+        class="hidden font-bold text-gray-700 border-b-8 border-transparent hover:border-java lg:mr-6 lg:inline-block" aria-hidden="true"
+        data-search-toggler
+        aria-label="Toggle Search">
+        <svg class="inline-block w-8 h-8 fill-current">
+          <use xlink:href="icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
 
-            </ul> <!-- end menu -->
-            </nav> <!-- end nav-wrap -->
-
-            <!-- Nav Right -->
-            <div class="nav__right">
-
-            <!-- Search -->
-            <div class="nav__right-item nav__search">
-                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
-                <i class="ui-search nav__search-trigger-icon"></i>
-                </a>
-                <div class="nav__search-box" id="nav__search-box">
-                <form class="nav__search-form">
-                    <input type="text" id="search" placeholder="Search an article" class="nav__search-input" autocomplete="off">
-                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
-                    <i class="ui-search nav__search-icon"></i>
-                    </button>
-                </form>
-                <ul id="results">
-                </ul>
-                </div>
-            </div>
-
-            </div> <!-- end nav right -->            
-        
-        </div> <!-- end flex-parent -->
-        </div> <!-- end container -->
-
+      <a
+        href="login.html"
+        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:inline-block lg:mt-0 lg:text-left ">
+        Log In
+      </a>
+      <a
+        href="signup.html"
+        class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
+        <span class="block mb-2 text-xs">Get FULL Access</span>
+        <span class="block font-bold">Join Now</span>
+      </a>
     </div>
-</header> <!-- end navigation -->
+
+    <form
+      class="flex items-stretch justify-center order-2 w-2/3 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      id="Search">
+      <label class="sr-only" for="search">Enter search terms</label>
+      <input
+        type="text"
+        id="search"
+        placeholder="Enter search terms"
+        autocomplete="off"
+        class="flex-1 mr-1 field">
+      <button
+        type="submit"
+        class="button">
+        <svg class="inline-block w-8 h-8 fill-current" aria-hidden="true">
+          <use xlink:href="icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+
+      <button
+        class="items-center justify-center hidden w-12 h-12 ml-2 close-button lg:inline-flex"
+        aria-hidden="true"
+        data-search-toggler
+        aria-label="Toggle Search">
+         <svg class="inline-block w-8 h-8 text-gray-900 fill-current">
+          <use xlink:href="icons.svg#sm-x"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+</nav>
+
+
+{{/*
+
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+    {{ $parentNavURL := .URL }}
+    <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ if .HasChildren }}
+    <ul class="nav__dropdown-menu">
+        {{ $children := sort .Children ".Page.Date" "desc" }}
+        {{ range first 10 $children }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        {{ if gt .Children 10 }}
+        <li><a href="{{ $parentNavURL }}">More...</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    </li>
+{{ end }}
+
+*/}}

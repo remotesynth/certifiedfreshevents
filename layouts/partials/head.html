@@ -1,21 +1,22 @@
 <head>
   <meta charset="utf-8">
-  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ .Page.Title }} / {{ .Site.Title }}</title>
 	<meta name="description" content="{{ if and (.IsPage) (ne .Page.Description "")}}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
 
   <!-- Css -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/font-icons.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/colors/violet.css" />
-  {{ if ne .Params.styles nil }}
-  <link rel="stylesheet" href="/css/{{.Params.styles}}" />
+  {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+  {{ if .Site.IsServer }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  {{ else }}
+      {{ $styles := $styles| minify | fingerprint | resources.PostProcess }}
+      <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ end }}
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">
@@ -36,7 +37,7 @@
 	<meta name="msapplication-TileImage" content="/img/ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
   <link rel="shortcut icon" href="/img/favicon.ico">
-	
+
 	{{ if eq .Page.Type "events" }}
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@fresheventsfl" />
@@ -46,19 +47,20 @@
 	<meta property="og:image" content="{{ .Site.BaseURL }}img/banners/{{ .Page.Params.Homepage_banner }}" />
 {{ end }}
 
-  <!-- Lazyload (must be placed in head in order to work) -->
+  <!-- Lazyload (must be placed in head in order to work)
 	<script src="/js/lazysizes.min.js"></script>
+   -->
+
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
+
 		ga('create', 'UA-103561809-1', 'auto');
 		ga('send', 'pageview');
-	
+
 	</script>
-	<script src="https://kit.fontawesome.com/74ff27af0b.js"></script>
 	<!-- Facebook Pixel Code -->
 	<script>
 		!function(f,b,e,v,n,t,s)
@@ -69,11 +71,11 @@
 		t.src=v;s=b.getElementsByTagName(e)[0];
 		s.parentNode.insertBefore(t,s)}(window,document,'script',
 		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '402803547299150'); 
+		fbq('init', '402803547299150');
 		fbq('track', 'PageView');
 	</script>
 	<noscript>
-		<img height="1" width="1" 
+		<img height="1" width="1"
 		src="https://www.facebook.com/tr?id=402803547299150&ev=PageView
 		&noscript=1"/>
 	</noscript>
@@ -91,7 +93,7 @@
 	<!-- event json-ld -->
 	{{ if and (eq .Page.Section "events") (ge .Page.Date now) }}
 		{{ with .Page }}
-	<script type='application/ld+json'> 
+	<script type='application/ld+json'>
 		{
 		  "@context": "https://www.schema.org",
 		  "@type": "Event",

@@ -1,0 +1,26 @@
+.card,
+.event-card {
+  @apply transition-all duration-150 ease-in;
+}
+
+.event-card:hover,
+.card:hover {
+  @apply shadow-xl;
+}
+
+.event-card {
+  @apply relative;
+  @apply bg-white;
+  @apply border border-gray-300 rounded-sm;   
+}
+
+.event-card-title {
+  @apply mb-4;
+  @apply text-xl font-bold leading-tight;
+}
+
+.event-card-footer {
+  @apply flex items-center;
+  @apply mt-4;
+  @apply text-sm;
+}

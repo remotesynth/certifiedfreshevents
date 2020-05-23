@@ -4,26 +4,21 @@
 
 <body class="style-videos">
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
-    </div>
-  </div>
+
 
   <!-- Bg Overlay -->
   <div class="content-overlay"></div>
 
 
-{{ partial "left-nav.html" . }}
+
 
   <main class="main oh" id="main">
 
-    {{ partial "top-bar.html" . }}        
+    {{ partial "top-bar.html" . }}
 
     {{ partial "navigation.html" . }}
 
-    <div class="main-container container pt-40" id="main-container">         
+    <div class="main-container container pt-40" id="main-container">
 
       <!-- Content -->
       <div class="row">
@@ -51,7 +46,7 @@
                     {{ .Date.Format "Mon, Jan 2, 2006" }}
                   </li>
                 </ul>
-              </div>        
+              </div>
               <div class="entry__excerpt">
                 <p>{{ .Params.short_desc }}</p>
               </div>
@@ -112,7 +107,7 @@
                 </article>
               </li>
               {{ end }}
-            </ul>           
+            </ul>
           </aside> <!-- end widget popular posts -->
           {{ end }}
 
@@ -159,16 +154,16 @@
                     <i class="ui-rss"></i>
                     <span class="social__text">Rss</span>
                   </a>
-                </div>                
-              </div>            
+                </div>
+              </div>
             </div>
           </aside> <!-- end widget socials -->
 
         </aside> <!-- end sidebar -->
-  
+
       </div> <!-- end content -->
     </div> <!-- end main container -->
-    
+
     {{ partial "footer.html" .}}
 
     </main> <!-- end main-wrapper -->

@@ -4,22 +4,17 @@
 
 <body class="style-videos">
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
-    </div>
-  </div>
+
 
   <!-- Bg Overlay -->
   <div class="content-overlay"></div>
 
 
-{{ partial "left-nav.html" . }}
+
 
   <main class="main oh" id="main">
 
-    {{ partial "top-bar.html" . }}        
+    {{ partial "top-bar.html" . }}
 
 		{{ partial "navigation.html" . }}
 
@@ -41,7 +36,7 @@
 <div class="main-container container" id="main-container">
 	<!-- Post Content -->
 	<div class="blog__content mb-72">
-		
+
 		<!-- Entry Header -->
 		<div class="row justify-content-center">
 		<div class="col-lg-8">
@@ -78,9 +73,9 @@
 				{{ end }}
 			</ul>
 			</div>
-		</div>          
+		</div>
 		</div> <!-- end entry header -->
-		
+
 		{{ if ne .Params.embed_url nil }}
 		<!-- Entry Video -->
 		<div class="entry__img-holder">
@@ -110,7 +105,7 @@
 						<i class="ui-twitter"></i>
 					</a>
 					</div>
-				</div>                  
+				</div>
 				</div> <!-- share -->
 
 				<div class="entry__article">
@@ -118,7 +113,7 @@
 
 					{{ if ne .Params.sessions nil }}
 						{{ range $session := .Params.sessions }}
-							
+
 							{{ with site.GetPage (print "/sessions/" $session) }}
 								{{ $.Scratch.Set "speakers" .Params.speakers }}
 								<h2>{{ .Title }}</h2>
@@ -169,7 +164,7 @@
 						<h2>Sponsored by {{.Params.sponsor.name}}</h2>
 						<a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
 					{{ end }}
-					
+
 					{{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
 					{{ $eventcode := path.Base .Params.embed_url }}
 
@@ -197,7 +192,7 @@
 
 				</div> <!-- end entry article -->
 			</div> <!-- end entry article wrap -->
-			
+
 
 			{{ partial "newsletter.html" . }}
 
@@ -227,7 +222,7 @@
 				</div>
 				{{ end }}
 				</div>
-			</nav>            
+			</nav>
 
 			{{ if (.Site.RegularPages.Related .) "gt" 0 }}
 			<!-- Related Posts -->
@@ -244,7 +239,7 @@
 				<article class="entry thumb thumb--size-1b">
 					<div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}');">
 					<div class="bottom-gradient"></div>
-					<div class="thumb-text-holder">   
+					<div class="thumb-text-holder">
 						<h2 class="thumb-entry-title">
 						<a href="{{ .Permalink }}">{{ .Title }}</a>
 						</h2>
@@ -257,7 +252,7 @@
 				</div> <!-- end slider -->
 
 			</section> <!-- end related posts -->
-			{{ end }}         
+			{{ end }}
 
 			</article> <!-- end standard post -->
 		</div>

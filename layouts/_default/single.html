@@ -4,25 +4,12 @@
 
 <body class="style-videos">
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
-    </div>
-  </div>
-
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
-
-
-{{ partial "left-nav.html" . }}
-
   <main class="main oh" id="main">
 
-    {{ partial "top-bar.html" . }}        
+    {{ partial "top-bar.html" . }}
 
 		{{ partial "navigation.html" . }}
-		
+
 <!-- Breadcrumbs -->
 <div class="container">
 		<ul class="breadcrumbs">
@@ -38,7 +25,7 @@
 	<div class="main-container container" id="main-container">
 		<!-- Post Content -->
 		<div class="blog__content mb-72">
-			
+
 			<!-- Entry Header -->
 			<div class="row justify-content-center">
 				<div class="col-lg-10">
@@ -47,7 +34,7 @@
 							{{ .Title }}
 						</h1>
 					</div>
-				</div>          
+				</div>
 			</div> <!-- end entry header -->
 
 			<div class="row justify-content-center">
@@ -60,7 +47,7 @@
 								{{ .Content }}
 							</div> <!-- end entry article -->
 						</div> <!-- end entry article wrap -->
-						
+
 						{{ partial "newsletter.html" . }}
 
 					</article> <!-- end standard post -->
@@ -68,8 +55,8 @@
 			</div>
 
 		</div> <!-- end post content -->
-	</div> <!-- end main container -->					
-		
+	</div> <!-- end main container -->
+
 		{{ partial "footer.html" .}}
 
     </main> <!-- end main-wrapper -->

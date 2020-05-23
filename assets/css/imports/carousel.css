@@ -1,0 +1,31 @@
+.carousel {
+  @apply relative;
+}
+
+.carousel-item {
+  @apply flex justify-center px-10 pb-10;
+}
+
+.carousel-item.carousel-item-thin {
+  @apply px-4;
+}
+
+.glider-prev,
+.glider-next {
+  @apply absolute;
+  @apply z-20;
+  top: 20%;
+  @apply flex items-center justify-center;
+  @apply w-16 h-16;
+  @apply rounded-full;
+  @apply shadow-xl;
+  @apply bg-white;
+}
+
+.glider-prev {
+  left: 0;
+}
+
+.glider-next {
+  right: 0;
+}

@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/*
+  Begin theme imports.
+  Keep categories alphabetized.
+*/
+
+/* Common, layout, big stuff */
+@import "imports/common.css";
+@import "imports/site-navs.css";
+
+/* Components */
+@import "imports/carousel.css";
+@import "imports/event-card.css";
+@import "imports/logo-list.css";
+@import "imports/modal.css";
+
+/* Effects and utilities */
+@import "imports/effects.css";
+@import "imports/utils.css";
+
+@import "tailwindcss/utilities";

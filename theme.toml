@@ -1,0 +1,12 @@
+name = "cfe-2020"
+license = ""
+licenselink = ""
+description = "Website for CFE.dev"
+homepage = "https://github.com/remotesynth/certifiedfreshevents/"
+tags = []
+features = []
+min_version = "0.69"
+
+[author]
+  name = "YupGup, LLC"
+  homepage = "https://yupgup.com"

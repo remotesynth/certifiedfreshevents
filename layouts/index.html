@@ -2,96 +2,465 @@
 <html lang="en">
 {{ partial "head.html" . }}
 
-<body class="style-videos">
+<body class="antialiased">
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
+{{ partial "navigation.html" . }}
+
+<!-- Begin Main -->
+<main class="mt-20">
+  <div class="container px-6 pb-24 mx-auto md:flex">
+    <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
+      <h1 class="mb-6 text-6xl font-bold leading-tight tracking-tight">Friendly Online Meetups for Developers</h1>
+      <p class="mb-6 text-2xl">Learn alongside hundreds of developers like you. Join live, welcoming events where you can connect with speakers, or watch sessions later at your own pace.</p>
+      <a
+        href="signup.html"
+        class="button">Join Now. It's Free!</a>
+    </header>
+
+    <div class="lg:w-1/3">
+      <section class="flex flex-col items-center highlight-box-dots">
+        <div class="-mb-8 highlight-avatar">
+          <img
+            src="https://picsum.photos/240"
+            alt="">
+        </div>
+        <blockquote class="relative z-0 p-6 pt-10 pl-20 mt-4 text-gray-900 bg-sand round-sm highlight-blockquote">
+          <p class="mb-4 text-lg font-medium">I learn a lot from these meetups that I can apply to my job right away. It's helped my confidence a lot.</p>
+          <footer>
+            <span class="text-xl font-semibold">Jane Smith</span><br/>
+            <span class="text-sm font-medium text-java">Front-End Developer at Netlify</span>
+          </footer>
+        </blockquote>
+      </section>
     </div>
   </div>
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
+  <div class="container px-6 py-12 mx-auto lg:flex">
+    <header class="mb-10 lg:mb-0 lg:w-1/2 lg:mr-20">
+      <h2 class="mb-6 text-4xl">Upcoming Meetups <br>with <strong>Live Energy</strong></h2>
 
+      <p class="mb-8 text-lg">Join us for upcoming, live meetups. These are twice-monthly (or more!) and feature presentations from your favorite technologists.</p>
 
-{{ partial "left-nav.html" . }}
+      <ul class="space-y-6">
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-chat-alt-2"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Engage with speakers</span>
+            <span class="block w-4/5 text-sm text-gray-700">You'll ask questions and get a real-time response from approachable speakers.</span>
+          </div>
+        </li>
+        <li class="flex items-center block text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-lightning-bolt"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Short &amp; Sweet</span>
+            <span class="block w-4/5 text-sm text-gray-700">At two hours on average, you’ll learn a lot without being desperate for a break.</span>
+          </div>
+        </li>
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-emoji-happy"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block text-sm text-lg">No Intimidation</span>
+            <span class="block w-4/5 text-sm text-gray-700">Engage at whatever level you’d like in a welcoming, inclusive&nbsp;space.</span>
+          </div>
+        </li>
+      </ul>
+    </header>
 
-  <main class="main oh" id="main">
+    <div class="lg:w-1/2">
+      <div class="carousel">
+        <div class="carousel-list">
+          <div class="carousel-item">
+            <article class="event-card">
+              <img
+                src="https://picsum.photos/1024/512"
+                loading="lazy"
+                alt="">
 
-    {{ partial "top-bar.html" . }}        
+              <div class="p-6">
+                <h1 class="event-card-title"><a href="session.html" class="click-target">Getting Started with Serverless</a></h1>
 
-    {{ partial "navigation.html" . }}  
+                <p>Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.</p>
 
-    <!-- Featured Posts Grid -->      
-    <section class="featured-posts-grid featured-posts-grid--1">
-      <div class="container">
-        <div class="row">
-          {{ $remaining := shuffle (after 2 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
-          <div class="col-lg-6">
-            {{ range first 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true) }}
-              {{ partial "homepage-large-thumb.html" . }}
-            {{ end }}
-            <div class="row">
-              {{ range first 2 $remaining }}
-                {{ partial "homepage-small-thumb.html" . }}
-              {{ end }}
-            </div> <!-- end row -->
+                <footer class="mt-6">
+                  <ul class="flex justify-between">
+                    <li class="flex items-center text-sm">
+                      <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+                        <use xlink:href="/img/icons.svg#sm-calendar"></use>
+                      </svg>
+                      <time class="font-semibold text-gray-800">Apr 9, 2020</time>
+                    </li>
 
-          </div> <!-- end col -->
+                    <li class="flex items-center font-medium leading-tight">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 border-2 border-white rounded-full">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
 
-          <div class="col-lg-6">
-            {{ range first 1 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
-              {{ partial "homepage-large-thumb.html" . }}
-            {{ end }}
-
-            <div class="row">
-              {{ range first 2 (after 2 $remaining) }}
-                {{ partial "homepage-small-thumb.html" . }}
-              {{ end }}
-            </div> <!-- end row -->
-
-          </div>          
-
-        </div>
-      </div>
-    </section> <!-- end featured posts grid -->
-
-    <!-- Newest Videos -->
-    <section class="bg-light pt-32 pb-32">
-      {{ range $homepage_category := first 1 ( shuffle (.Site.Params.featured_categories)) }}
-      <div class="container">
-        <div class="title-wrap">
-          <h2 class="section-title">Featured Topic: <a href="/categories/{{$homepage_category}}" style="text-decoration: underline;color:#29aae2;">{{$homepage_category | humanize }}</a></h2>
-        </div>
-        <div class="col-lg-12">
-          <div class="row">
-            {{ $category_pages := index $.Site.Taxonomies.categories $homepage_category }}
-            {{ range first 4 (where $category_pages ".Params.embed_url" "ne" nil) }}
-              <div class="col-lg-3">
-                <article class="entry thumb thumb--size-1">
-                  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/{{ .Params.Homepage_banner }}');">
-                    <div class="bottom-gradient"></div>
-                    <div class="thumb-text-holder thumb-text-holder--4">
-                      <h2 class="thumb-entry-title">
-                        <a href="{{ .Permalink }}">{{.Params.Title}}</a>
-                      </h2>
-                    </div>
-                    <a href="{{ .Permalink }}" class="thumb-url"></a>
-                  </div>
-                </article>
+                      <span class="ml-2 text-sm">Person Name <br/>&amp; Person Name</span>
+                    </li>
+                  </ul>
+                </footer>
               </div>
-            {{ end }}
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="event-card">
+              <img
+                src="https://picsum.photos/1024/512"
+                loading="lazy"
+                alt="">
+
+              <div class="p-6">
+                <h1 class="event-card-title"><a href="session.html" class="click-target">Getting Started with Serverless</a></h1>
+
+                <p>Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.</p>
+
+                <footer class="mt-6">
+                  <ul class="flex justify-between">
+                    <li class="flex items-center text-sm">
+                      <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+                        <use xlink:href="/img/icons.svg#sm-calendar"></use>
+                      </svg>
+                      <time class="font-semibold text-gray-800">Apr 9, 2020</time>
+                    </li>
+
+                    <li class="flex items-center font-medium leading-tight">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 border-2 border-white rounded-full">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+                      <span class="ml-2 text-sm">Person Name <br/>&amp; Person Name</span>
+                    </li>
+                  </ul>
+                </footer>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="event-card">
+              <img
+                src="https://picsum.photos/1024/512"
+                loading="lazy"
+                alt="">
+
+              <div class="p-6">
+                <h1 class="event-card-title"><a href="session.html" class="click-target">Getting Started with Serverless</a></h1>
+
+                <p>Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.</p>
+
+                <footer class="mt-6">
+                  <ul class="flex justify-between">
+                    <li class="flex items-center text-sm">
+                      <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+                        <use xlink:href="/img/icons.svg#sm-calendar"></use>
+                      </svg>
+                      <time class="font-semibold text-gray-800">Apr 9, 2020</time>
+                    </li>
+
+                    <li class="flex items-center font-medium leading-tight">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 border-2 border-white rounded-full">
+                      <img
+                        src="https://picsum.photos/80"
+                        alt=""
+                        class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+                      <span class="ml-2 text-sm">Person Name <br/>&amp; Person Name</span>
+                    </li>
+                  </ul>
+                </footer>
+              </div>
+            </article>
           </div>
         </div>
+        <button class="glider-prev" aria-hidden="true" aria-label="Next" title="Next">
+          <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+            <use xlink:href="/img/icons.svg#sm-arrow-left"></use>
+          </svg>
+        </button>
+        <button class="glider-next" aria-hidden="true" aria-label="Previous" title="Previous">
+          <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+            <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+          </svg>
+        </button>
       </div>
-      {{ end }}
-    </section> <!-- end newest videos -->
+    </div>
+  </div>
 
-      {{ partial "footer.html" .}}
-    </main> <!-- end main-wrapper -->
+  <div class="container grid grid-cols-1 gap-6 px-6 py-20 mx-auto lg:grid-cols-3 lg:gap-8">
+    <header class="flex flex-col items-center justify-center p-10 rounded lg:col-span-2 highlight-bg-dots">
+      <div class="flex flex-col justify-center flex-1 p-8 bg-white">
+        <h2 class="mb-4 text-4xl leading-tight">Access a Growing Library of <br/> Recorded Sessions—<strong>Never&nbsp;Miss&nbsp;Out</strong></h2>
+        <p class="mb-6 text-lg">Join CFE.dev and watch dozens of high-quality video sessions today to keep your dev skills certified fresh.</p>
 
+        <div class="flex">
+          <a href="join.html" class="mr-2 text-sky button-ghost">Join Now</a>
+          <a href="#" class="inline-block px-8 py-2 font-bold link text-sky">View All Sessions</a>
+        </div>
+      </div>
+    </header>
+
+    <article class="event-card">
+      <img
+        src="https://picsum.photos/1024/512"
+          loading="lazy"
+        alt="">
+
+      <div class="p-6">
+        <h1 class="event-card-title"><a href="session.html" class="click-target">Getting Started with Serverless</a></h1>
+
+        <p>Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.</p>
+
+        <footer class="mt-6">
+          <ul class="flex justify-between">
+            <li class="flex items-center text-sm">
+              <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+                <use xlink:href="/img/icons.svg#sm-calendar"></use>
+              </svg>
+              <time class="font-semibold text-gray-800">Apr 9, 2020</time>
+            </li>
+
+            <li class="flex items-center font-medium leading-tight">
+              <img
+                src="https://picsum.photos/80"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Person Name</span>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </article>
+
+    <a
+      href="join.html"
+      class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text"><span>FOR FREE</span></strong> and get access to &gt;60 sessions</a>
+  </div>
+
+  <div class="py-20 bg-gray-100">
+    <div class="container grid gap-10 px-6 mx-auto md:grid-cols-2">
+      <div class="mb-10 md:mb-0 md:mr-16 lg:mr-24">
+        <h2 class="mb-6 text-3xl font-bold">CFE Speaker Spotlight </h2>
+        <p class="mb-6 text-lg">Our speakers are front and back-end developers from top companies. They create an environment of growth through attentiveness and a genuine human connection.</p>
+        <a
+          href="#"
+          class="button">View All Speakers</a>
+      </div>
+
+      <section>
+        <div class="flex items-center mb-8">
+          <div class="mr-6 highlight-avatar">
+            <img
+              class="relative z-10 max-w-full rounded-full"
+              src="https://picsum.photos/210"
+              alt=""
+              width="210"
+              height="210">
+          </div>
+
+          <div>
+            <h3 class="font-bold uppercase"><span class="highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
+            <span class="text-2xl font-semibold">Chris Coyier</span><br/>
+            <span class="text-lg font-medium text-java">Founder at CSS-Tricks.com</span>
+          </div>
+        </div>
+
+        <p class="mb-6">Chris is a web designer and developer. He writes about all things web at CSS-Tricks, talks about all things web at conferences around the world and on his podcast ShopTalk, and co-founded CodePen, a social development environment.</p>
+
+        <a href="speaker.html" class="inline-block py-2 font-bold link text-sky">View Sessions by Chris Coyier</a>
+      </section>
+    </div>
+  </div>
+
+  <div class="container px-6 py-20 mx-auto">
+    <h2
+      class="max-w-2xl mx-auto mb-20 text-4xl font-semibold text-center text-gray-700">Learn about the technology you love from <strong>people who love it too</strong>.</h2>
+
+    <ul class="logo-list">
+      <li>
+        <img
+          src="/tech-logos/aws.svg"
+          loading="lazy"
+          alt="AWS">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/vue.svg"
+          loading="lazy"
+          alt="Vue">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/jamstack.svg"
+          loading="lazy"
+          alt="JAMSTACK">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/go.svg"
+          loading="lazy"
+          alt="Go Lang">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/heroku.svg"
+          loading="lazy"
+          alt="Heroku">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/docker.png"
+          loading="lazy"
+          alt="Docker">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/react.svg"
+          loading="lazy"
+          alt="React">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/gitlab.svg"
+          loading="lazy"
+          alt="GitLab">
+      </li>
+      <li>
+        <img
+          src="/tech-logos/python.svg"
+          loading="lazy"
+          alt="Python">
+      </li>
+    </ul>
+
+    <p class="mt-12 text-center">
+      <a
+        href="#"
+        class="button">View Categories</a>
+    </p>
+  </div>
+</main>
+
+<div class="highlight-pattern-blue">
+  <section class="block px-4 py-24 mx-auto text-center text-white">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+    <a href="join.html" class="text-xl button-ghost">Join Now</a>
+    <p class="mt-6">Have an account? <a href="login.html" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
+</div>
+
+
+
+{{/*}}
+
+<!-- Featured Posts Grid -->
+<section class="featured-posts-grid featured-posts-grid--1">
+  <div class="container">
+    <div class="row">
+      {{ $remaining := shuffle (after 2 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+      <div class="col-lg-6">
+        {{ range first 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true) }}
+          {{ partial "homepage-large-thumb.html" . }}
+        {{ end }}
+        <div class="row">
+          {{ range first 2 $remaining }}
+            {{ partial "homepage-small-thumb.html" . }}
+          {{ end }}
+        </div> <!-- end row -->
+
+      </div> <!-- end col -->
+
+      <div class="col-lg-6">
+        {{ range first 1 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+          {{ partial "homepage-large-thumb.html" . }}
+        {{ end }}
+
+        <div class="row">
+          {{ range first 2 (after 2 $remaining) }}
+            {{ partial "homepage-small-thumb.html" . }}
+          {{ end }}
+        </div> <!-- end row -->
+
+      </div>
+
+    </div>
+  </div>
+</section> <!-- end featured posts grid -->
+
+<!-- Newest Videos -->
+<section class="bg-light pt-32 pb-32">
+  {{ range $homepage_category := first 1 ( shuffle (.Site.Params.featured_categories)) }}
+  <div class="container">
+    <div class="title-wrap">
+      <h2 class="section-title">Featured Topic: <a href="/categories/{{$homepage_category}}" style="text-decoration: underline;color:#29aae2;">{{$homepage_category | humanize }}</a></h2>
+    </div>
+    <div class="col-lg-12">
+      <div class="row">
+        {{ $category_pages := index $.Site.Taxonomies.categories $homepage_category }}
+        {{ range first 4 (where $category_pages ".Params.embed_url" "ne" nil) }}
+          <div class="col-lg-3">
+            <article class="entry thumb thumb--size-1">
+              <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/{{ .Params.Homepage_banner }}');">
+                <div class="bottom-gradient"></div>
+                <div class="thumb-text-holder thumb-text-holder--4">
+                  <h2 class="thumb-entry-title">
+                    <a href="{{ .Permalink }}">{{.Params.Title}}</a>
+                  </h2>
+                </div>
+                <a href="{{ .Permalink }}" class="thumb-url"></a>
+              </div>
+            </article>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section> <!-- end newest videos -->
+
+*/}}
+
+
+</main> <!-- end main-wrapper -->
+
+{{ partial "footer.html" .}}
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 {{ partial "scripts.html" .}}
 
+<script>
+new Glider(document.querySelector('.carousel-list'), {
+  resizeLock: true,
+  slidesToShow: 1,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+</script>
 </body>
 </html>
