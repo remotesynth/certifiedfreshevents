@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/javascript-for
         start_time: 03:11
+menu:
+  main:
+    parent: sessions
+    name: Enterprise React Apps
 draft: false
 ---
 

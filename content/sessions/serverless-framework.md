@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/mwtxogvi
         start_time: 31:05
+menu:
+  main:
+    parent: sessions
+    name: Multi-Provider Serverless
 draft: false
 ---
 

@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/rb68byb9
         start_time: 31:08
+menu:
+  main:
+    parent: sessions
+    name: Wrong About Typescript
 draft: false
 ---
 

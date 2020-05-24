@@ -8,8 +8,12 @@ recordings:
         url: https://www.crowdcast.io/e/an-introduction-to-vue
         start_time: 02:26
     vimeo:
-        url: https://vimeo.com/412547453
+        url: https://vimeo.com/413309476
         length: "49:18"
+menu:
+  main:
+    parent: sessions
+    name: Intro to Vue
 draft: false
 ---
 

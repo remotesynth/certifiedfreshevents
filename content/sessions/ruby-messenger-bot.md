@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/the-future-of-development
         start_time: 43:08
+menu:
+  main:
+    parent: sessions
+    name: Building Bots in Ruby
 draft: false
 ---
 

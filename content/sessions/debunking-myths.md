@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/vue-vixens-master-class
         start_time: 39:54
+menu:
+  main:
+    parent: sessions
+    name: Debunking Myths
 draft: false
 ---
 

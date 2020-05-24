@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/tools-for-the-modern-web
         start_time: 04:08
+menu:
+  main:
+    parent: sessions
+    name: Intro to CodePen
 draft: false
 ---
 

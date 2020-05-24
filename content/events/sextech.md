@@ -4,7 +4,7 @@ date: 2019-09-19T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Sextech
+    name: "Sextech: Good, Bad, Bias"
 categories:
     - Culture
 cost: 0

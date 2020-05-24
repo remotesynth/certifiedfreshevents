@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/rb68byb9
         start_time: 04:20
+menu:
+  main:
+    parent: sessions
+    name: JavaScript Features
 draft: false
 ---
 

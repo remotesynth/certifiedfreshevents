@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/javascript-for
         start_time: 35:09
+menu:
+  main:
+    parent: sessions
+    name: FaaS and Serverless
 draft: false
 ---
 

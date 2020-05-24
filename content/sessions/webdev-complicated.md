@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/has-web-development
         start_time: 01:15
+menu:
+  main:
+    parent: sessions
+    name: Is Web Dev Complicated?
 draft: false
 ---
 

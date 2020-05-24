@@ -25,20 +25,27 @@
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
                 {{ $parentNavURL := .URL }}
-                <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-                {{ if .HasChildren }}
-                <ul class="nav__dropdown-menu">
-                    {{ $children := sort .Children ".Page.Date" "desc" }}
-                    {{ range first 10 $children }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ if ne .URL "" }}
+                    <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                    <ul class="nav__dropdown-menu">
+                        {{ if eq $parentNavURL "/events/"}}
+                            {{ $.Scratch.Set "children" (sort .Children ".Page.Date" "desc") }}
+                        {{ else }}
+                            {{ $.Scratch.Set "children" (sort (where .Children ".Page.Date" "le" now) ".Page.Date" "desc") }}
+                        {{ end }}
+                        {{ $children := $.Scratch.Get "children" }}
+                        {{ range first 10 $children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                        {{ if gt .Children 10 }}
+                        <li><a href="{{ $parentNavURL }}">More...</a></li>
+                        {{ end }}
+                    </ul>
                     {{ end }}
-                    {{ if gt .Children 10 }}
-                    <li><a href="{{ $parentNavURL }}">More...</a></li>
-                    {{ end }}
-                </ul>
+                    </li>
                 {{ end }}
-                </li>
             {{ end }}
 
             </ul> <!-- end menu -->

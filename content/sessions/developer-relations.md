@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/411803981
         length: "32:11"
+menu:
+  main:
+    parent: sessions
+    name: Developer Relations
 draft: false
 ---
 

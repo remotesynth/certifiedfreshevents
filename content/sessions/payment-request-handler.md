@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/412788745
         length: "1:00:03"
+menu:
+  main:
+    parent: sessions
+    name: Web Payments
 draft: false
 ---
 

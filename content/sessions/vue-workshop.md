@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/building-web
         start_time: 00:00
+menu:
+  main:
+    parent: sessions
+    name: Hand's On Vue
 draft: false
 ---
 

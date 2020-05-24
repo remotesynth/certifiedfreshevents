@@ -1,0 +1,38 @@
+{{ $recorded := where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil }}
+{{ if ne (len $recorded) 0 }}
+
+<!-- Posts -->
+<div class="blog__content">
+    {{ range $recorded }}
+    {{ $eventArr := slice .Page.File.TranslationBaseName }}
+    {{ $event := index (where .Site.RegularPages ".Params.sessions" "intersect" $eventArr) 0 }}
+    <article class="entry card post-list">
+        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/medium/{{ $event.Params.Homepage_banner }}')">
+        <a href="{{ .Permalink }}" class="thumb-url"></a>
+        {{ with $event.Params.categories }}
+        {{ range $category := first 1 . }}
+        <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
+        {{ end }}
+        {{ end }}
+        </div>
+        <div class="entry__body post-list__body card__body">
+        <div class="entry__header">
+            <h2 class="entry__title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <ul class="entry__meta" style="padding-left:0px;">
+            <li class="entry__meta-date">
+                {{ .Date.Format "Mon, Jan 2, 2006" }}
+            </li>
+            </ul>
+        </div>        
+        <div class="entry__excerpt">
+            <p>{{ $event.Params.short_desc }}</p>
+        </div>
+        </div>
+    </article>
+    {{ end }}
+</div>
+{{ else }}
+<p><em>We apologize, but there are no recordings available. Check back soon!</em></p>
+{{ end }}

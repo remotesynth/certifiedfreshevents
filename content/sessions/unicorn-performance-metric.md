@@ -7,6 +7,13 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/improving-your-apps--
         start_time: 04:18
+    vimeo:
+        url: https://vimeo.com/421721079
+        length: "33:40"
+menu:
+  main:
+    parent: sessions
+    name: Performance Metrics
 draft: false
 ---
 

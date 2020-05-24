@@ -65,11 +65,16 @@
               <h1 class="title">{{ .Title }}</h1>
 
               {{ with .Params.recordings }}
-              {{ with .vimeo }}
-              {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-              <div class='embed-container'><iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe></div>
+                {{ with .vimeo }}
+                {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+                <div class='embed-container'><iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe></div>
+                <p><em>You can also view the <a href="{{ $.Params.Recordings.crowdcast.url }}" target="_blank">full event recording on Crowdcast</a>. This session starts at {{$.Params.Recordings.crowdcast.start_time}}.</em></p>
+                {{ else }}
+                <p><em>This event was recorded on Crowdcast. We're working on editing the recording, but until then you can view the full recording on Crowdcast by clicking the button below.</em></p>
+                {{ if ne .crowdcast.start_time "00:00"}}<p><em>This session starts at {{.crowdcast.start_time}} in the recording.</em></p>{{ end }}
+                <p><input type="button" class="btn btn-lg btn-color btn-button" value="Open Crowdcast Recording"  onclick=" window.open('{{ .crowdcast.url }}','_blank')"></p>
+                {{ end }}
               {{ end }}
-            {{ end }}
 
               {{ .Content }}
 

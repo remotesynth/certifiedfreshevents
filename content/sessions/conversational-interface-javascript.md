@@ -11,6 +11,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/410689698
         length: "38:33"
+menu:
+  main:
+    parent: sessions
+    name: NLP with JavaScript
 draft: false
 ---
 

@@ -4,7 +4,7 @@ date: 2020-01-17T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Website Performance
+    name: Web Performance
 categories:
     - Web Development
 cost: 0

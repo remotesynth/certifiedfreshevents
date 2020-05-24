@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/vc1pp66r
         start_time: 03:31
+menu:
+  main:
+    parent: sessions
+    name: Vue Basics
 draft: false
 ---
 

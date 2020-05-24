@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/get-started-with-3
         start_time: 03:40
+menu:
+  main:
+    parent: sessions
+    name: Serverless + OpenWhisk
 draft: false
 ---
 

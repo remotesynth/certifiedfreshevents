@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/fundamental-javascript/4
         start_time: 00:03
+menu:
+  main:
+    parent: sessions
+    name: CS for Frontend Devs
 draft: false
 ---
 

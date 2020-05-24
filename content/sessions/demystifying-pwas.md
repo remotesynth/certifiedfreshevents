@@ -8,6 +8,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/demystifying-pwas
         start_time: 03:39
+menu:
+  main:
+    parent: sessions
+    name: Demystifying PWAs
 draft: false
 ---
 

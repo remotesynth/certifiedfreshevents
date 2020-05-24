@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/416554711
         length: 24:33
+menu:
+  main:
+    parent: sessions
+    name: Mixed Reality
 draft: false
 ---
 

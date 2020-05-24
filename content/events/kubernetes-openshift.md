@@ -4,7 +4,7 @@ date: 2020-05-20T12:30:00-04:00
 end_date: 2020-05-20T14:30:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: "Kubernetes & OpenShift"
 categories:
     - Cloud Computing

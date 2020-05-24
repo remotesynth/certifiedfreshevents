@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/412412878
         length: "54:00"
+menu:
+  main:
+    parent: sessions
+    name: Website Performance
 draft: false
 ---
 

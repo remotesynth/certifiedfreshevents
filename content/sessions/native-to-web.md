@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/how-native-mobile
         start_time: 00:00
+menu:
+  main:
+    parent: sessions
+    name: Native Mobile to Web
 draft: false
 ---
 

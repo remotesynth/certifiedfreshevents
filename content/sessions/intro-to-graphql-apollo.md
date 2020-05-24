@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/vue-vixens-master-class
         start_time: 08:15
+menu:
+  main:
+    parent: sessions
+    name: GraphQL & Apollo
 draft: false
 ---
 

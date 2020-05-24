@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/mwtxogvi
         start_time: 04:05
+menu:
+  main:
+    parent: sessions
+    name: Serverless with JavaScript
 draft: false
 ---
 

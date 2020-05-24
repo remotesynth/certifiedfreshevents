@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/414313514
         length: "24:11"
+menu:
+  main:
+    parent: sessions
+    name: Embracing Failure
 draft: false
 ---
 

@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/407613468
         length: "41:21"
+menu:
+  main:
+    parent: sessions
+    name: Learning Blazor
 draft: false
 ---
 
