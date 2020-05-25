@@ -109,18 +109,18 @@
   @apply block;
   width: 98%;
   height: 70%;
-  
-  background: url(/dots.svg);
+
+  background: url(/img/dots.svg);
   content: "";
 }
 
 .highlight-bg-dots {
-  background-image: url(/dots.svg);
+  background-image: url(/img/dots.svg);
 }
 
 .highlight-bg-hero {
   padding-bottom: 80px;
-  background-image: url(/dots-alt.svg);
+  background-image: url(/img/dots-alt.svg);
   @apply bg-left-bottom bg-no-repeat;
 }
 
