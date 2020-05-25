@@ -41,7 +41,7 @@
 
     <a
       class="inline-block mr-6 text-java anim hover:text-youtube"
-      href="https://instagram.com/{{.Site.Params.Instagram}}"
+      href="{{.Site.Params.Youtube}}"
       title="youtube"
       aria-label="YouTube">
       <svg class="w-12 h-12 fill-current" aria-hidden="true">
@@ -51,7 +51,7 @@
 
     <a
       class="inline-block mr-6 text-java anim hover:text-instagram"
-      href=""
+      href="https://instagram.com/{{.Site.Params.Instagram}}"
       title="youtube"
       aria-label="Instagram">
       <svg class="w-12 h-12 fill-current" aria-hidden="true">
@@ -61,7 +61,7 @@
 
     <a
       class="inline-block text-java anim hover:text-rss"
-      href=""
+      href="/categories/index.xml"
       title="RSS"
       aria-label="RSS">
       <svg class="w-12 h-12 fill-current" aria-hidden="true">
@@ -72,9 +72,3 @@
 
   <small class="block w-full">&copy; {{now.Year}} {{.Site.Title}}</small>
 </footer>
-
-{{/*
-<div id="back-to-top">
-    <a href="#top" aria-label="Go to top"><i class="ui-arrow-up"></i></a>
-</div>
-*/}}

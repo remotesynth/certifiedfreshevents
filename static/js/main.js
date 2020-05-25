@@ -1,5 +1,4 @@
 /* Navigation */
-
 const navToggler = document.querySelector('[data-nav-toggler]');
 const siteNav = document.getElementById('SiteNav');
 const primaryNav = document.getElementById('PrimaryNav');

@@ -134,7 +134,7 @@
   @apply mx-auto mb-8;
   width: 120px;
   height: 46px;
-  background: url(/dots-alt.svg);
+  background: url(/img/dots-alt.svg);
   @apply bg-center bg-no-repeat bg-contain;
   content: "";
 }
