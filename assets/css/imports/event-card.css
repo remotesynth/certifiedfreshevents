@@ -10,8 +10,15 @@
 
 .event-card {
   @apply relative;
+  @apply flex flex-col;
   @apply bg-white;
-  @apply border border-gray-300 rounded-sm;   
+  @apply border border-gray-300 rounded-sm;
+}
+
+.event-card-body {
+  @apply flex flex-col;
+  @apply flex-1;
+  @apply p-6;
 }
 
 .event-card-title {

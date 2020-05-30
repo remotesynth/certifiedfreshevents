@@ -31,30 +31,14 @@
         <!-- Meetups Sub-Nav -->
         <ul
           class="space-y-6 menu menu-meetups">
-          <li>
-            <a href="#" class="block px-6 leading-5 text-blue hover:text-java anim">
-              <span class="block text-lg font-medium">Legend of Serverless</span>
-              <time class="text-xs text-gray-700 ">Aug 10, 2020 @ 2pm EST</time>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block px-6 leading-5 text-blue hover:text-java anim">
-              <span class="block text-lg font-medium">Docker for Dorks</span>
-              <time class="text-xs text-gray-700 ">Aug 10, 2020 @ 2pm EST</time>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block px-6 leading-5 text-blue hover:text-java anim">
-              <span class="block text-lg font-medium">Friendly Refactoring</span>
-              <time class="text-xs text-gray-700 ">Aug 10, 2020 @ 2pm EST</time>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block px-6 leading-5 text-blue hover:text-java anim">
-              <span class="block text-lg font-medium">Can't Touch This! Design Tips!</span>
-              <time class="text-xs text-gray-700 ">Aug 10, 2020 @ 2pm EST</time>
-            </a>
-          </li>
+          {{ range first 6 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+            <li>
+              <a href="{{ .Permalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
+                <span class="block text-lg font-medium">{{ .Title }}</span>
+                <time class="text-xs text-gray-700 ">Aug 10, 2020 @ 2pm EST</time>
+              </a>
+            </li>
+          {{ end }}
         </ul>
       </li>
       <li class="relative text-center has-menu lg:text-left">

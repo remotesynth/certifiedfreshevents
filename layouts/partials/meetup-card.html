@@ -1,0 +1,39 @@
+<article class="event-card">
+  <img
+    src="/img/banners/medium/{{ .Params.Homepage_banner }}"
+    loading="lazy"
+    alt="Banner for {{ .Title }}"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="{{ .Permalink }}" class="click-target">{{ .Title }}</a>
+    </h1>
+
+    <p class="mb-auto">{{ .Params.short_desc }}</p>
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg
+            class="inline-block w-6 h-6 mr-1 fill-current text-sky"
+            aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </li>
+
+        {{ if isset .Params "speaker" }}
+        <li class="flex items-center font-medium leading-tight">
+          <img
+            src="/img/speakers/{{.Params.speaker_image}}"
+            alt="{{.Params.speaker}}"
+            class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+          <span class="ml-2 text-sm">{{.Params.speaker}}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </footer>
+  </div>
+</article>
