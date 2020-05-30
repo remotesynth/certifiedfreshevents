@@ -8,6 +8,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/building-iot-apps-with/1
         start_time: 02:39
+menu:
+  main:
+    parent: sessions
+    name: Particle and Azure IoT
 draft: false
 ---
 

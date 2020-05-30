@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/417769927
         length: "40:00"
+menu:
+  main:
+    parent: sessions
+    name: Networking for Devs
 draft: false
 ---
 

@@ -6,6 +6,11 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/getting-started-with-52
+        start_time: "5:02"
+menu:
+  main:
+    parent: sessions
+    name: Intro to Kubernetes
 draft: false
 ---
 

@@ -8,6 +8,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/building-iot-apps-from/1
         start_time: 00:59
+menu:
+  main:
+    parent: sessions
+    name: IoT and Azure Workshop
 draft: false
 ---
 

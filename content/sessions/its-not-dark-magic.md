@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/improving-your-apps--
         start_time: 38:30
+menu:
+  main:
+    parent: sessions
+    name: Exploring CSS Rendering
 draft: false
 ---
 

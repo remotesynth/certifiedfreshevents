@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/fundamental-javascript/3
         start_time: 00:02
+menu:
+  main:
+    parent: sessions
+    name: How to Open Source
 draft: false
 ---
 

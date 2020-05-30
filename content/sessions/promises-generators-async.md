@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/fundamental-javascript/1
         start_time: 03:13
+menu:
+  main:
+    parent: sessions
+    name: Async in JavaScript
 draft: false
 ---
 

@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/412581294
         length: "30:11"
+menu:
+  main:
+    parent: sessions
+    name: Visual Development
 draft: false
 ---
 

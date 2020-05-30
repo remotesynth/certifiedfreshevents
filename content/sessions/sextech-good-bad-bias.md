@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/418485270
         length: "32:27"
+menu:
+  main:
+    parent: sessions
+    name: Sextech
 draft: false
 ---
 

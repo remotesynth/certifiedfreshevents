@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/419164597
         length: "37:26"
+menu:
+  main:
+    parent: sessions
+    name: Architect for Serverless
 draft: false
 ---
 

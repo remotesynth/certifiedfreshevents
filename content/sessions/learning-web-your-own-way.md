@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/has-web-development
         start_time: 32:13
+menu:
+  main:
+    parent: sessions
+    name: Learning Strategies
 draft: false
 ---
 

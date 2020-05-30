@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/demystifying-machine
         start_time: 32:29
+menu:
+  main:
+    parent: sessions
+    name: Twitter Bot with ML
 draft: false
 ---
 

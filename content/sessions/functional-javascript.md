@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/fundamental-javascript/2
         start_time: 06:39
+menu:
+  main:
+    parent: sessions
+    name: Functional JavaScript
 draft: false
 ---
 

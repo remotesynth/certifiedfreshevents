@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/416648508
         length: "41:15"
+menu:
+  main:
+    parent: sessions
+    name: Command Line + GitHub
 draft: false
 ---
 

@@ -1,12 +1,16 @@
 ---
-title: "How to Get Through the Awkwardness of Networking"
+title: "Making the Smart Home Fun"
 date: 2017-09-22T18:52:51-04:00
 speakers:
     - brad-marsh
 recordings:
     crowdcast:
-        url: https://www.crowdcast.io/e/javascript-for
+        url: https://www.crowdcast.io/e/7v1mj9k9
         start_time: 32:01
+menu:
+  main:
+    parent: sessions
+    name: Smart Homes
 draft: false
 ---
 

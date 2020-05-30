@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/demystifying-machine
         start_time: 03:12
+menu:
+  main:
+    parent: sessions
+    name: Intro to AI
 draft: false
 ---
 

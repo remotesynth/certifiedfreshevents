@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/414312638
         length: "28:05"
+menu:
+  main:
+    parent: sessions
+    name: Innovation in Tech
 draft: false
 ---
 

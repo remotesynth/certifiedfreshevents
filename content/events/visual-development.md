@@ -4,7 +4,7 @@ date: 2019-12-18T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Visual Development
+    name: Is Visual Development the Future
 categories:
     - Web Development
 cost: 0

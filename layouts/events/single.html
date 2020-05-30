@@ -2,22 +2,14 @@
 <html lang="en">
 {{ partial "head.html" . }}
 
-<body class="style-videos">
+<body class="antialiased">
 
+{{ partial "navigation.html" . }}
 
+<!-- Begin Main -->
+<main class="mt-20">
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
-
-
-
-
-  <main class="main oh" id="main">
-
-    {{ partial "top-bar.html" . }}
-
-		{{ partial "navigation.html" . }}
-
+{{/*
 <!-- Breadcrumbs -->
 <div class="container">
 	<ul class="breadcrumbs">
@@ -32,15 +24,16 @@
 		</li>
 	</ul>
 </div>
+*/}}
 
-<div class="main-container container" id="main-container">
+<div class="container main-container" id="main-container">
 	<!-- Post Content -->
 	<div class="blog__content mb-72">
 
 		<!-- Entry Header -->
 		<div class="row justify-content-center">
 		<div class="col-lg-8">
-			<div class="single-post__entry-header entry__header mb-56 text-center">
+			<div class="mb-56 text-center single-post__entry-header entry__header">
 			<h1 class="single-post__entry-title">
 				{{.Title}}
 			</h1>
@@ -91,7 +84,7 @@
 		<div class="row justify-content-center">
 		<div class="col-lg-8">
 			<!-- standard post -->
-			<article class="entry mb-0">
+			<article class="mb-0 entry">
 			<div class="entry__article-wrap">
 
 				<!-- Share -->
@@ -226,7 +219,7 @@
 
 			{{ if (.Site.RegularPages.Related .) "gt" 0 }}
 			<!-- Related Posts -->
-			<section class="section related-posts mt-40 mb-0">
+			<section class="mt-40 mb-0 section related-posts">
 				<div class="title-wrap title-wrap--line title-wrap--pr">
 				<h3 class="section-title">Related Events</h3>
 				</div>

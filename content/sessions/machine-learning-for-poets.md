@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/412568248
         length: "43:40"
+menu:
+  main:
+    parent: sessions
+    name: Machine Learning
 draft: false
 ---
 

@@ -225,4 +225,36 @@
     </li>
 {{ end }}
 
+<!-- Nav-wrap -->
+<nav class="flex-child nav__wrap d-none d-lg-block">
+<ul class="nav__menu">
+    <li>
+        <a href="/index.html">Home</a>
+    </li>
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+    {{ $parentNavURL := .URL }}
+    {{ if ne .URL "" }}
+        <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ if .HasChildren }}
+        <ul class="nav__dropdown-menu">
+            {{ if eq $parentNavURL "/events/"}}
+                {{ $.Scratch.Set "children" (sort .Children ".Page.Date" "desc") }}
+            {{ else }}
+                {{ $.Scratch.Set "children" (sort (where .Children ".Page.Date" "le" now) ".Page.Date" "desc") }}
+            {{ end }}
+            {{ $children := $.Scratch.Get "children" }}
+            {{ range first 10 $children }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ if gt .Children 10 }}
+            <li><a href="{{ $parentNavURL }}">More...</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        </li>
+    {{ end }}
+{{ end }}
+
 */}}

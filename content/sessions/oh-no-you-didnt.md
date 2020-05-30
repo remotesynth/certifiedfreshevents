@@ -12,6 +12,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/416164555
         length: "56:08"
+menu:
+  main:
+    parent: sessions
+    name: Conflict Management
 draft: false
 ---
 

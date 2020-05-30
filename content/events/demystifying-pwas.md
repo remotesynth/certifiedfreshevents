@@ -4,7 +4,7 @@ date: 2020-03-25T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Demystifying PWAs
+    name: Demystifying Progressive Web Apps
 categories:
     - Web development
 cost: 0

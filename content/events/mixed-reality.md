@@ -4,7 +4,7 @@ date: 2019-04-25T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Mixed Reality
+    name: Exploring Mixed Reality
 categories:
     - Virtual Reality
 cost: 0

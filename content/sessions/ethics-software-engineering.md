@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/ethics-in-software
         start_time: 04:44
+menu:
+  main:
+    parent: sessions
+    name: Ethics in Software Panel
 draft: false
 ---
 

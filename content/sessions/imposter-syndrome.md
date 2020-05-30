@@ -10,6 +10,10 @@ recordings:
     vimeo:
         url: https://vimeo.com/412076649
         length: "45:04"
+menu:
+    main:
+        parent: sessions
+        name: Dealing with Imposter Syndrome
 draft: false
 ---
 

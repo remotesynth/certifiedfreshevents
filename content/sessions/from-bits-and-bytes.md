@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/7v1mj9k9
         start_time: 03:45
+menu:
+  main:
+    parent: sessions
+    name: Learning IoT
 draft: false
 ---
 

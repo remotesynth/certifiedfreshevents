@@ -4,7 +4,7 @@ date: 2018-10-09T18:52:51-04:00
 menu:
   main:
     parent: events
-    name: Web Payments
+    name: Future of Web Payments
 categories:
     - Web Standards
 cost: 0

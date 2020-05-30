@@ -7,6 +7,10 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/tools-for-the-modern-web
         start_time: 30:18
+menu:
+  main:
+    parent: sessions
+    name: What Makes Gatsby Fast
 draft: false
 ---
 
