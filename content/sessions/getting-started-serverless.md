@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/getting-started-with-44
         start_time: 02:11
+    vimeo:
+        url: https://vimeo.com/423606623
+        length: "51:08"
 menu:
   main:
     parent: sessions

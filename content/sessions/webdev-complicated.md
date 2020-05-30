@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/has-web-development
         start_time: 01:15
+    vimeo:
+        url: https://vimeo.com/423732257
+        length: "28:37"
 menu:
   main:
     parent: sessions
