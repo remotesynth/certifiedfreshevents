@@ -39,7 +39,7 @@
   overflow: hidden;
 }
 
-.embed-responsive iframe {
+.embed-responsive > * {
   position: absolute;
   top: 0;
   bottom: 0;

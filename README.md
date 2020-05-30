@@ -10,3 +10,8 @@ Make sure to install `postcss-cli` and `autoprefixer` globally in your environme
 npm install -g postcss-cli
 npm install -g autoprefixer
 ```
+
+## Local Development
+
+Run Hugo with `hugo server --disableFastRender`. This will serve the site locally at `localhost:1313`.
+

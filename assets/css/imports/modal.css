@@ -5,6 +5,7 @@
   z-index: 900;
   @apply w-full;
   @apply h-full;
+  @apply bg-white;
 }
 
 .modal .close-button {
@@ -27,4 +28,9 @@
 
 .close-button:hover svg {
   @apply text-red;
+}
+
+/* When a modal is open, hide the page content */
+body.modal-active > *:not(.modal) {
+  display: none;
 }
