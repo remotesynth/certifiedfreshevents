@@ -1,5 +1,5 @@
 ---
-title: "Building Web Applications with Vue.js"
+title: "How Native Mobile Development Changed the Way I Write Web Apps"
 date: 2020-06-25T12:00:00-04:00
 speakers:
     - tj-vantoll
