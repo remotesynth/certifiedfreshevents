@@ -2,171 +2,88 @@
 <html lang="en">
 {{ partial "head.html" . }}
 
-<body class="style-videos">
+<body class="antialiased">
 
+{{ partial "navigation.html" . }}
 
+<main>
+  <div class="mb-20 highlight-pattern-waves">
+    <header class="container px-6 py-12 mx-auto">
+      <div class="flex flex-wrap mb-6">
+        <span
+          class="flex items-center justify-center flex-shrink-0 w-20 h-20 mr-4 rounded-full bg-flower" aria-hidden="true">
+          <svg
+            class="inline-block w-12 h-12 text-gray-700 fill-current"
+            aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-code"></use>
+          </svg>
+        </span>
+        <h1 class="my-2 text-5xl font-bold">{{ .Title }}</h1>
+      </div>
+      <p class="max-w-3xl text-xl">
+        In in ultricies lorem, id tincidunt felis. Suspendisse potenti. In eleifend massa vitae quam malesuada feugiat non at libero. Nullam sed justo non lacus ullamcorper malesuada et id sem. Proin mollis enim non diam aliquet, ac commodo tellus varius.
+      </p>
+    </header>
+  </div>
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+        {{ partial "session-card.html" .}}
+      {{ end }}
+    </div>
 
+    {{ if gt .Paginator.TotalPages 1}}
+    <nav class="container px-6 py-16 mx-auto mb-10 md:w-4/5 lg:w-2/3">
+      {{ $paginator := .Paginator }}
+      <ul class="flex flex-wrap items-center justify-around space-x-6 font-bold">
+        {{ if .Paginator.HasPrev }}
+        <li>
+          <a href="{{ .Paginator.Prev.URL }}" class="button-ghost text-sky" aria-label="Previous">
+            <svg class="inline-block w-6 h-6 fill-current">
+              <use xlink:href="/img/icons.svg#sm-arrow-left"></use>
+            </svg>
+          </a>
+        </li>
+        {{ end }}
 
-
-
-  <main class="main oh" id="main">
-
-
-
-    {{ partial "navigation.html" . }}
-
-    <div class="main-container container pt-40" id="main-container">
-
-      <!-- Content -->
-      <div class="row">
-
-        <!-- Posts -->
-        <div class="col-lg-8 blog__content mb-72">
-          <h1 class="page-title">Search results for: {{ .Title }}</h1>
-          {{ range .Paginator.Pages.ByDate.Reverse }}
-          <article class="entry card post-list">
-            <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}')">
-              <a href="{{ .Permalink }}" class="thumb-url"></a>
-              <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
-              {{ range $category := first 1 .Params.Categories }}
-              <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
-              {{ end }}
-            </div>
-
-            <div class="entry__body post-list__body card__body">
-              <div class="entry__header">
-                <h2 class="entry__title">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h2>
-                <ul class="entry__meta">
-                  <li class="entry__meta-date">
-                    {{ .Date.Format "Mon, Jan 2, 2006" }}
-                  </li>
-                </ul>
-              </div>
-              <div class="entry__excerpt">
-                <p>{{ .Params.short_desc }}</p>
-              </div>
-            </div>
-          </article>
+        {{ range .Paginator.Pagers }}
+          {{ if eq .PageNumber $paginator.PageNumber }}
+            <li class="hidden p-4 text-2xl sm:inline-block" aria-current="true">{{ .PageNumber }}</li>
+          {{ else }}
+            <li class="hidden sm:inline-block">
+              <a
+                href="{{ .URL }}"
+                class="inline-block p-4 text-sky link">{{ .PageNumber }}</a>
+            </li>
           {{ end }}
+        {{ end }}
 
-          {{ if gt .Paginator.TotalPages 1}}
-          <!-- Pagination -->
-          <nav class="pagination">
-            {{ $paginator := .Paginator }}
-            {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" class="pagination__page pagination__icon pagination__page--next"><i class="ui-arrow-left"></i></a>
-            {{ end }}
-            {{ range .Paginator.Pagers }}
-              {{ if eq .PageNumber $paginator.PageNumber }}
-            <span class="pagination__page pagination__page--current">{{ .PageNumber }}</span>
-              {{ else }}
-            <a href="{{ .URL }}" class="pagination__page">{{ .PageNumber }}</a>
-              {{ end }}
-            {{ end }}
-            {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" class="pagination__page pagination__icon pagination__page--next"><i class="ui-arrow-right"></i></a>
-            {{ end }}
-          </nav>
-          {{ end }}
-        </div> <!-- end posts -->
+        {{ if .Paginator.HasNext }}
+        <li>
+          <a href="{{ .Paginator.Next.URL }}" class="button-ghost text-sky" aria-label="Next">
+            <svg class="inline-block w-6 h-6 fill-current">
+              <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+            </svg>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ end }}
+  </div>
 
-        <!-- Sidebar -->
-        <aside class="col-lg-4 sidebar sidebar--right">
+  <div class="mt-20 bg-blue highlight-pattern-zigzags">
+    <section class="container px-4 py-20 mx-auto text-center text-white">
+      <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+      <a href="/signup/" class="text-2xl button-ghost">Join Now</a>
+      <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+    </section>
+  </div>
+</main>
 
-          <!-- Widget Popular Posts -->
-          {{ $upcoming := where (where .Site.RegularPages ".Date" "ge" now) "Section" "events" }}
-          {{ if ne (len $upcoming) 0 }}
-          <aside class="widget widget-popular-posts">
-            <h4 class="widget-title">Upcoming Events</h4>
-            <ul class="post-list-small">
-              {{ range $upcoming }}
-              <li class="post-list-small__item">
-                <article class="post-list-small__entry clearfix">
-                  <div class="post-list-small__img-holder">
-                    <div class="thumb-container thumb-100">
-                      <a href="{{ .Permalink }}">
-                        <img data-src="/img/banners/thumbs/{{ .Params.Homepage_banner }}" src="/img/empty.png" alt="" class="lazyload">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="post-list-small__body">
-                    <h3 class="post-list-small__entry-title">
-                      <a href="{{ .Permalink }}">{{.Title}}</a>
-                    </h3>
-                    <ul class="entry__meta">
-                      <li class="entry__meta-date">
-                          {{ .Date.Format "Mon, Jan 2, 2006" }}
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-              </li>
-              {{ end }}
-            </ul>
-          </aside> <!-- end widget popular posts -->
-          {{ end }}
 
-          <!-- Widget Newsletter -->
-          <aside class="widget widget_mc4wp_form_widget">
-            <h4 class="widget-title">Newsletter</h4>
-            <p class="newsletter__text">
-              <i class="ui-email newsletter__icon"></i>
-              Subscribe for our daily news
-            </p>
-            <form action="//certifiedfreshevents.us16.list-manage.com/subscribe/post?u=82e13d22ccab323aaceeaef8b&id=ddcfa6d68b" class="mc4wp-form" method="post">
-              <div class="mc4wp-form-fields">
-                <div class="form-group">
-                  <input type="email" name="EMAIL" placeholder="Your email" required="">
-                </div>
-                <div class="form-group">
-                  <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
-                </div>
-              </div>
-            </form>
-          </aside> <!-- end widget newsletter -->
-
-          <!-- Widget Socials -->
-          <aside class="widget widget-socials">
-            <h4 class="widget-title">Let's hang out on social</h4>
-            <div class="socials socials--wide socials--large">
-              <div class="row row-16">
-                <div class="col">
-                  <a class="social social-twitter" href="https://twitter.com/{{.Site.Params.twitter}}" title="twitter" target="_blank" aria-label="twitter">
-                    <i class="ui-twitter"></i>
-                    <span class="social__text">Twitter</span>
-                  </a>
-                  <a class="social social-instagram" href="https://instagram.com/{{.Site.Params.instagram}}" title="instagram" target="_blank" aria-label="instagram">
-                    <i class="ui-instagram"></i>
-                    <span class="social__text">Instagram</span>
-                  </a>
-                </div>
-                <div class="col">
-                  <a class="social social-youtube" href="{{.Site.Params.youtube}}" title="youtube" target="_blank" aria-label="youtube">
-                      <i class="ui-youtube"></i>
-                      <span class="social__text">Youtube</span>
-                  </a>
-                  <a class="social social-rss" href="index.xml" title="rss" target="_blank" aria-label="rss">
-                    <i class="ui-rss"></i>
-                    <span class="social__text">Rss</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </aside> <!-- end widget socials -->
-
-        </aside> <!-- end sidebar -->
-
-      </div> <!-- end content -->
-    </div> <!-- end main container -->
-
-    {{ partial "footer.html" .}}
-
-    </main> <!-- end main-wrapper -->
+{{ partial "footer.html" .}}
 
 {{ partial "scripts.html" .}}
 

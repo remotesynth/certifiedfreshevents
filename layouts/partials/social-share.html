@@ -1,0 +1,26 @@
+<a
+  class="inline-block p-4 mr-2 text-white rounded-full bg-facebook"
+    href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}"
+    title="facebook"
+    target="_blank"
+    aria-label="Facebook">
+    <svg class="w-6 h-6 fill-current" aria-hidden="true">
+      <use xlink:href="/img/social.svg#facebook"></use>
+    </svg>
+</a>
+<a
+  class="inline-block p-4 mr-2 text-white rounded-full bg-twitter"
+  href="https://twitter.com/intent/tweet?url={{.Permalink}}&amp;text={{ .Params.short_desc }}"
+  title="twitter" aria-label="Twitter">
+    <svg class="w-6 h-6 fill-current" aria-hidden="true">
+      <use xlink:href="/img/social.svg#twitter"></use>
+    </svg>
+</a>
+<a
+  class="inline-block p-4 text-white rounded-full bg-reddit"
+  href="http://www.reddit.com/submit?url={{.Permalink}}&amp;title={{.Title}}"
+  title="reddit" aria-label="Reddit">
+    <svg class="w-6 h-6 fill-current" aria-hidden="true">
+      <use xlink:href="/img/social.svg#reddit"></use>
+    </svg>
+</a>

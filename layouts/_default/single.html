@@ -2,64 +2,13 @@
 <html lang="en">
 {{ partial "head.html" . }}
 
-<body class="style-videos">
+<body class="antialiased">
 
-  <main class="main oh" id="main">
+{{ partial "navigation.html" . }}
 
+{{ .Content }}
 
-
-		{{ partial "navigation.html" . }}
-
-<!-- Breadcrumbs -->
-<div class="container">
-		<ul class="breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a href="/index.html" class="breadcrumbs__url">Home</a>
-			</li>
-			<li class="breadcrumbs__item breadcrumbs__item--current">
-				{{ .Title }}
-			</li>
-		</ul>
-	</div>
-
-	<div class="main-container container" id="main-container">
-		<!-- Post Content -->
-		<div class="blog__content mb-72">
-
-			<!-- Entry Header -->
-			<div class="row justify-content-center">
-				<div class="col-lg-10">
-					<div class="single-post__entry-header entry__header mb-56 text-center">
-						<h1 class="single-post__entry-title">
-							{{ .Title }}
-						</h1>
-					</div>
-				</div>
-			</div> <!-- end entry header -->
-
-			<div class="row justify-content-center">
-				<div class="col-lg-10">
-					<!-- standard post -->
-					<article class="entry mb-0">
-						<div class="entry__article-wrap">
-
-							<div class="entry__article">
-								{{ .Content }}
-							</div> <!-- end entry article -->
-						</div> <!-- end entry article wrap -->
-
-						{{ partial "newsletter.html" . }}
-
-					</article> <!-- end standard post -->
-				</div>
-			</div>
-
-		</div> <!-- end post content -->
-	</div> <!-- end main container -->
-
-		{{ partial "footer.html" .}}
-
-    </main> <!-- end main-wrapper -->
+{{ partial "footer.html" .}}
 
 {{ partial "scripts.html" .}}
 

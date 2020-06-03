@@ -6,258 +6,236 @@
 
 {{ partial "navigation.html" . }}
 
-<!-- Begin Main -->
 <main class="mt-20">
+  <header class="container px-6 mx-auto">
+    <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
+
+    <ul class="flex flex-wrap lg:mb-8">
+      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
+
+        {{ if ne .Params.sessions nil }}
+        {{ range $session := .Params.sessions }}
+
+          {{ with site.GetPage (print "/sessions/" $session) }}
+            {{ $.Scratch.Set "speakers" .Params.speakers }}
+          {{ end }}
+
+          {{ $speakers := $.Scratch.Get "speakers" }}
+          {{ range $speaker := $speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <img
+                src="https://picsum.photos/80"
+                alt="{{ .Title }}"
+                class="inline-block w-12 h-12 border-2 border-white rounded-full">
+              <span class="ml-2 text-sm">{{ .Title }}</span>
+            {{ end }}
+          {{end}}
+        {{ end }}
+      {{ end }}
+      </li>
+
+      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
+        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
+          <use xlink:href="icons.svg#sm-calendar"></use>
+        </svg>
+        <time class="font-semibold text-gray-800">Apr 9, 2020</time>
+      </li>
+
+      <li class="flex items-center mb-4 space-x-2 lg:mb-0">
+        {{ range $category := first 1 .Params.Categories }}
+          <a
+            href="{{ "categories" | absURL }}/{{ $category | urlize }}"
+            class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{$category}}</a>
+        {{ end }}
+      </li>
+    </ul>
+  </header>
+
+  <div class="container mx-auto">
+    <div class="block mx-auto bg-black embed-responsive">
+      {{ if ne .Params.embed_url nil }}
+        <iframe
+          src="{{ .Params.embed_url }}"
+          class="absolute z-0 w-full h-full"></iframe>
+      {{ else if ne .Params.banner nil }}
+
+      {{/*
+        TODO: Handle this scenario
+      */}}
+
+        <div class="flex items-center justify-center w-full h-full">
+          <a
+            href="#"
+            target="_blank"
+            class="flex items-center justify-center w-full h-full anim bg-jelly hover:bg-sky">
+              <span class="inline-flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
+                <span class="inline-block mr-2">Open on Crowdcast</span>
+                <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="icons.svg#sm-external-link"></use>
+                </svg>
+              </span>
+          </a>
+        </div>
+        <img src="/img/banners/{{ .Params.banner }}">
+      {{ end }}
+    </div>
+  </div>
+
+  <section
+    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+
+    <a href="/signup/" class="text-2xl button-ghost">Join Now</a>
+
+    <p class="mt-6">Have an account? <a href="login.html" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
+
+
+  <div class="container max-w-3xl px-6 pb-8 mx-auto">
+    <div class="mb-8">
+      {{ partial "social-share.html" .}}
+    </div>
+
+    <div class="mb-20 space-y-4 content">
+      {{ .Content }}
+    </div>
+
+
+    {{ if ne .Params.sponsor nil }}
+      <h2>Sponsored by {{.Params.sponsor.name}}</h2>
+      <a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
+    {{ end }}
+
+    {{ if ne .Params.sessions nil }}
+      <div class="space-y-10">
+        {{ range $session := .Params.sessions }}
+
+          {{ with site.GetPage (print "/sessions/" $session) }}
+            {{ $.Scratch.Set "speakers" .Params.speakers }}
+          {{ end }}
+
+          {{ $speakers := $.Scratch.Get "speakers" }}
+          {{ range $speaker := $speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              {{ partial "speaker-card.html" .}}
+            {{ end }}
+          {{end}}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</main>
+
+
+<div class="mt-24 bg-gray-100">
+  <div class="container px-6 py-16 mx-auto">
+    <h2 class="mb-8 text-4xl font-medium text-center">More <strong class="highlight-text highlight-text-java"><span>Awesome</span></strong> Sessions</h2>
+    <div class="carousel">
+      <div class="carousel-list">
+        <div class="carousel-item carousel-item-thin">
+          {{/*
+            TODO: Sessions go here.
+            Include X amount using partial/session-card.html
+            Each item should be in .carousel-item.carouse-item-thin
+          */}}
+        </div>
+
+        <div class="carousel-item carousel-item-thin">
+          <a
+            href="#"
+            class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">Num</span>&nbsp;sessions</a>
+        </div>
+      </div>
+      <button class="glider-prev" aria-hidden="true" aria-label="Next" title="Next">
+        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+          <use xlink:href="icons.svg#sm-arrow-left"></use>
+        </svg>
+      </button>
+      <button class="glider-next" aria-hidden="true" aria-label="Previous" title="Previous">
+        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+          <use xlink:href="icons.svg#sm-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
 
 {{/*
-<!-- Breadcrumbs -->
-<div class="container">
-	<ul class="breadcrumbs">
-		<li class="breadcrumbs__item">
-		<a href="index.html" class="breadcrumbs__url">Home</a>
-		</li>
-		<li class="breadcrumbs__item">
-		<a href="{{.Page.Parent.Permalink}}" class="breadcrumbs__url">{{.Page.Parent.Name}}</a>
-		</li>
-		<li class="breadcrumbs__item breadcrumbs__item--current">
-			{{.Page.Params.menu.main.name}}
-		</li>
-	</ul>
+{{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
+{{ $eventcode := path.Base .Params.embed_url }}
+  <form id="registerForm" class="mc4wp-form" onsubmit="return registerForm(this,document.getElementById('register_message'));">
+    <input type="hidden" name="eventcode" value="{{$eventcode}}">
+    <div class="mc4wp-form-fields">
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your email" required="true" aria-required="true">
+    </div>
+    <div class="form-group">
+      <input type="submit" name="register" class="btn btn-lg" value="Register Now">
+    </div>
+    </div>
+    <div id="register_message" style="color:red;"></div>
+  </form>
+{{ end }}
+*/}}
+
+
+{{/*
+<div class="entry__tags">
+  <span class="entry__tags-label">Categories:</span>
+  {{ range $category := .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
 </div>
 */}}
 
-<div class="container main-container" id="main-container">
-	<!-- Post Content -->
-	<div class="blog__content mb-72">
+{{/*
+{{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
+{{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
+{{ $ageYears := math.Round (div $ageMonths 12.0) }}
+<li class="entry__meta-date">
+{{ if lt $ageDays 0 }}
+  {{ $ageDays := mul $ageDays -1 }}
+  In {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}}
+{{ else if ge $ageYears 1 }}
+  About {{ $ageYears }} {{ cond (eq $ageYears 1) "year" "years" }} ago
+{{ else if eq $ageDays 0 }}
+  Today
+{{ else if lt $ageDays 31 }}
+  {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}} ago
+{{ else }}
+  {{ $ageMonths }} {{ cond (eq $ageMonths 1) "month" "months" }} ago
+{{ end }}
+*/}}
 
-		<!-- Entry Header -->
-		<div class="row justify-content-center">
-		<div class="col-lg-8">
-			<div class="mb-56 text-center single-post__entry-header entry__header">
-			<h1 class="single-post__entry-title">
-				{{.Title}}
-			</h1>
-			<ul class="entry__meta">
-				{{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
-				{{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
-				{{ $ageYears := math.Round (div $ageMonths 12.0) }}
-				<li class="entry__meta-date">
-				{{ if lt $ageDays 0 }}
-					{{ $ageDays := mul $ageDays -1 }}
-					In {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}}
-				{{ else if ge $ageYears 1 }}
-					About {{ $ageYears }} {{ cond (eq $ageYears 1) "year" "years" }} ago
-				{{ else if eq $ageDays 0 }}
-					Today
-				{{ else if lt $ageDays 31 }}
-					{{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}} ago
-				{{ else }}
-					{{ $ageMonths }} {{ cond (eq $ageMonths 1) "month" "months" }} ago
-				{{ end }}
-				</li>
-				<li class="entry__meta-category">
-				<span>in</span>
-				{{ range $category := first 1 .Params.Categories }}
-				<a href="{{ "categories" | absURL }}/{{ $category | urlize }}">{{$category}}</a>
-				{{ end }}
-				</li>
-				{{ if ne .Params.cost 0}}
-					<li class="entry__meta-category">Cost: {{ if isset .Params "recording_cost"}}<strike style="color:#CCCCCC;">{{ end }}${{ .Params.cost }}{{ if isset .Params "recording_cost"}}</strike> ${{ .Params.recording_cost }}{{ end }}</li>
-				{{ end }}
-			</ul>
-			</div>
-		</div>
-		</div> <!-- end entry header -->
-
-		{{ if ne .Params.embed_url nil }}
-		<!-- Entry Video -->
-		<div class="entry__img-holder">
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe src="{{ .Params.embed_url }}" class="video-playlist__content-video">
-			</iframe>
-		</div>
-		</div>
-		{{ else if ne .Params.banner nil }}
-		<div class="entry__img-holder"><img src="/img/banners/{{ .Params.banner }}"></div>
-		{{ end }}
-
-		<div class="row justify-content-center">
-		<div class="col-lg-8">
-			<!-- standard post -->
-			<article class="mb-0 entry">
-			<div class="entry__article-wrap">
-
-				<!-- Share -->
-				<div class="entry__share">
-				<div class="sticky-col">
-					<div class="socials socials--rounded socials--large">
-					<a class="social social-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" title="facebook" target="_blank" aria-label="facebook">
-						<i class="ui-facebook"></i>
-					</a>
-					<a class="social social-twitter" href="https://twitter.com/intent/tweet?url={{.Permalink}}&text={{ .Params.short_desc }}" title="twitter" aria-label="twitter">
-						<i class="ui-twitter"></i>
-					</a>
-					</div>
-				</div>
-				</div> <!-- share -->
-
-				<div class="entry__article">
-					{{ .Content }}
-
-					{{ if ne .Params.sessions nil }}
-						{{ range $session := .Params.sessions }}
-
-							{{ with site.GetPage (print "/sessions/" $session) }}
-								{{ $.Scratch.Set "speakers" .Params.speakers }}
-								<h2>{{ .Title }}</h2>
-								{{ .Content }}
-							{{ end }}
-							{{ $speakers := $.Scratch.Get "speakers" }}
-							{{ range $speaker := $speakers }}
-								{{ with site.GetPage (print "/speakers/" $speaker) }}
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-3 col-xs-12">
-											<figure>
-											<img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
-											</figure>
-											<div class="social">
-												<ul class="list-inline">
-													{{ if .Params.twitter }}
-													<li>
-														<a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
-													</li>
-													{{ end }}{{ if .Params.github }}
-													<li>
-														<a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
-													</li>
-													{{ end }} {{ if .Params.website }}
-													<li>
-														<a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
-													</li>
-													{{ end }}
-												</ul>
-											</div>
-										</div>
-										<div class="col-sm-9 col-xs-14">
-											<div class="speakers-content">
-												<h2 class="title">{{ .Title }}</h2>
-												<h4 class="subtitle">{{ .Params.Job_title }}</h4>
-												{{ .Content }}
-											</div>
-										</div>
-									</div>
-								</div>
-								{{ end }}
-							{{end}}
-						{{ end }}
-					{{ end }}
-
-					{{ if ne .Params.sponsor nil }}
-						<h2>Sponsored by {{.Params.sponsor.name}}</h2>
-						<a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
-					{{ end }}
-
-					{{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
-					{{ $eventcode := path.Base .Params.embed_url }}
-
-					<h2 id="registration">Registration:</h2>
-					<hr>
-					<form id="registerForm" class="mc4wp-form" onsubmit="return registerForm(this,document.getElementById('register_message'));">
-						<input type="hidden" name="eventcode" value="{{$eventcode}}">
-						<div class="mc4wp-form-fields">
-						<div class="form-group">
-							<input type="email" name="email" placeholder="Your email" required="true" aria-required="true">
-						</div>
-						<div class="form-group">
-							<input type="submit" name="register" class="btn btn-lg" value="Register Now">
-						</div>
-						</div>
-						<div id="register_message" style="color:red;"></div>
-					</form>
-					{{ end }}
-				<!-- tags -->
-				<div class="entry__tags">
-					<i class="ui-tags"></i>
-					<span class="entry__tags-label">Categories:</span>
-					{{ range $category := .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
-				</div> <!-- end tags -->
-
-				</div> <!-- end entry article -->
-			</div> <!-- end entry article wrap -->
-
-
-			{{ partial "newsletter.html" . }}
-
-			<!-- Prev / Next Post -->
-			<nav class="entry-navigation">
-				<div class="clearfix">
-				{{ if ne .PrevInSection  nil }}
-				<div class="entry-navigation--left">
-					<i class="ui-arrow-left"></i>
-					<span class="entry-navigation__label">Previous Event</span>
-					<div class="entry-navigation__link">
-					{{ with .PrevInSection }}
-					<a href="{{.Permalink}}" rel="next">{{ .Title }}</a>
-					{{ end }}
-					</div>
-				</div>
-				{{ end }}
-				{{ if ne .NextInSection  nil }}
-				<div class="entry-navigation--right">
-					<span class="entry-navigation__label">Next Event</span>
-					<i class="ui-arrow-right"></i>
-					<div class="entry-navigation__link">
-					{{ with .NextInSection }}
-					<a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
-					{{ end }}
-					</div>
-				</div>
-				{{ end }}
-				</div>
-			</nav>
-
-			{{ if (.Site.RegularPages.Related .) "gt" 0 }}
-			<!-- Related Posts -->
-			<section class="mt-40 mb-0 section related-posts">
-				<div class="title-wrap title-wrap--line title-wrap--pr">
-				<h3 class="section-title">Related Events</h3>
-				</div>
-
-				<!-- Slider -->
-				<div id="owl-posts-3-items" class="owl-carousel owl-theme owl-carousel--arrows-outside">
-				{{ $related := where (where (.Site.RegularPages.Related . | first 5) "Section" "events") ".Params.embed_url" "ne" nil }}
-				{{ with $related }}
-					{{ range . }}
-				<article class="entry thumb thumb--size-1b">
-					<div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}');">
-					<div class="bottom-gradient"></div>
-					<div class="thumb-text-holder">
-						<h2 class="thumb-entry-title">
-						<a href="{{ .Permalink }}">{{ .Title }}</a>
-						</h2>
-					</div>
-					<a href="{{ .Permalink }}" class="thumb-url"></a>
-					</div>
-				</article>
-					{{ end }}
-				{{ end }}
-				</div> <!-- end slider -->
-
-			</section> <!-- end related posts -->
-			{{ end }}
-
-			</article> <!-- end standard post -->
-		</div>
-		</div>
-
-	</div> <!-- end post content -->
-</div> <!-- end main container -->
-		{{ partial "footer.html" .}}
-
-    </main> <!-- end main-wrapper -->
+{{ partial "footer.html" .}}
 
 {{ partial "scripts.html" .}}
 
+<script>
+new Glider(document.querySelector('.carousel-list'), {
+  resizeLock: true,
+  slidesToShow: 1,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  },
+
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      }
+    }
+  ]
+});
+</script>
 </body>
 </html>

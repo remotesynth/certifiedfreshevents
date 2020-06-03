@@ -6,7 +6,6 @@
 
 {{ partial "navigation.html" . }}
 
-<!-- Begin Main -->
 <main class="mt-20">
 
 {{ $event := "" }}
@@ -18,64 +17,10 @@
   {{ $event = (index $events 0) }}
 {{ end }}
 
-{{/*
-<!-- Breadcrumbs -->
-<div class="container">
-		<ul class="breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a href="/index.html" class="breadcrumbs__url">Home</a>
-      </li>
-      {{ if ne .Params.event nil }}
-      <li class="breadcrumbs__item">
-				<a href="{{ $event.Permalink }}" class="breadcrumbs__url">{{ $event.Title }}</a>
-      </li>
-      {{end}}
-			<li class="breadcrumbs__item breadcrumbs__item--current">
-				{{ .Title }}
-			</li>
-		</ul>
-	</div>
-*/}}
-
-
-<main class="mt-8">
+<main class="mt-20">
   <header class="container px-6 mx-auto">
-    <h1 class="mb-4 text-5xl font-semibold leading-tight tracking-tight">{{ .Title }}</h1>
-
-    <!-- Metadata -->
-    <ul class="flex flex-wrap lg:mb-4">
-      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
-        <div class="flex items-center font-medium leading-tight">
-          <img
-            src="https://picsum.photos/80"
-            alt=""
-            class="inline-block w-12 h-12 border-2 border-white rounded-full">
-          <img
-            src="https://picsum.photos/80"
-            alt=""
-            class="inline-block w-12 h-12 -ml-2 border-2 border-white rounded-full">
-
-          <span class="ml-2">Person Name <br/>&amp; Person Name</span>
-        </div>
-      </li>
-      <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
-          <use xlink:href="icons.svg#sm-clock"></use>
-        </svg>
-        <span class="font-semibold text-gray-800">54 min.</span>
-      </li>
-      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
-          <use xlink:href="icons.svg#sm-calendar"></use>
-        </svg>
-        <time class="font-semibold text-gray-800">Apr 9, 2020</time>
-      </li>
-      <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-        <a href="category.html" class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">JAVASCRIPT</a>
-      </li>
-    </ul>
+    <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
   </header>
-
 
   {{ with .Params.recordings }}
     {{ with .vimeo }}
@@ -91,40 +36,27 @@
 
 {{ .Content }}
 
-<p><a href="{{ $event.Permalink }}#schedule"> See the full event listing </a></p>
+<p>
+  <a href="{{ $event.Permalink }}#schedule"> See the full event listing </a>
+</p>
 
+{{ if ne .Params.sessions nil }}
+  <div class="space-y-10">
+    {{ range $session := .Params.sessions }}
 
-
-{{ range $speaker := .Params.speakers }}
-  {{ with $.GetPage (print "/speakers/" $speaker ) }}
-
-    <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
-
-      {{ if .Params.twitter }}
-      <li>
-        <a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
-      </li>
-      {{ end }}{{ if .Params.github }}
-      <li>
-        <a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
-      </li>
-      {{ end }} {{ if .Params.website }}
-      <li>
-        <a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
-      </li>
+      {{ with site.GetPage (print "/sessions/" $session) }}
+        {{ $.Scratch.Set "speakers" .Params.speakers }}
       {{ end }}
-    </ul>
 
-    <h2 class="title">{{ .Title }}</h2>
-    <h4 class="subtitle">{{ .Params.Job_title }}</h4>
-    {{ .Content }}
-  {{ end }}
+      {{ $speakers := $.Scratch.Get "speakers" }}
+      {{ range $speaker := $speakers }}
+        {{ with site.GetPage (print "/speakers/" $speaker) }}
+          {{ partial "speaker-card.html" .}}
+        {{ end }}
+      {{end}}
+    {{ end }}
+  </div>
 {{ end }}
-
-
-{{ partial "newsletter.html" . }}
-
-
 </main>
 
 {{ partial "footer.html" .}}

@@ -9,6 +9,9 @@ banner: "images/pages/conduct.jpg"
 draft: false
 ---
 
+<div class="container max-w-4xl px-6 mx-auto">
+<div class="content">
+
 **This code of conduct applies to any online and in-person events. If you encounter any violations, please contact [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com).**
 
 All attendees, speakers, sponsors and volunteers at our virtual meetups, live events or other organized activity, whether online or in-person, are required to agree with the following code of conduct. The organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
@@ -32,3 +35,6 @@ If you are being harassed, notice that someone else is being harassed, or have a
 For in-person events, staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+
+</div>
+</div>
