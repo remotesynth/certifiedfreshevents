@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/improving-your-apps--
         start_time: 38:30
+    vimeo:
+        url: https://vimeo.com/422876767
+        length: "32:11"
 menu:
   main:
     parent: sessions
