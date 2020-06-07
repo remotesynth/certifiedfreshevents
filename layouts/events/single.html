@@ -12,26 +12,44 @@
 
     <ul class="flex flex-wrap lg:mb-8">
       <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
+        <div class="flex items-center font-medium leading-tight avatar-list">
+          {{ if ne .Params.sessions nil }}
+            {{ range $session := .Params.sessions }}
+              {{ with site.GetPage (print "/sessions/" $session) }}
+                {{ $.Scratch.Set "speakers" .Params.speakers }}
+              {{ end }}
 
-        {{ if ne .Params.sessions nil }}
-        {{ range $session := .Params.sessions }}
-
-          {{ with site.GetPage (print "/sessions/" $session) }}
-            {{ $.Scratch.Set "speakers" .Params.speakers }}
-          {{ end }}
-
-          {{ $speakers := $.Scratch.Get "speakers" }}
-          {{ range $speaker := $speakers }}
-            {{ with site.GetPage (print "/speakers/" $speaker) }}
-              <img
-                src="https://picsum.photos/80"
-                alt="{{ .Title }}"
-                class="inline-block w-12 h-12 border-2 border-white rounded-full">
-              <span class="ml-2 text-sm">{{ .Title }}</span>
+              {{ $speakers := $.Scratch.Get "speakers" }}
+              {{ range $speaker := $speakers }}
+                {{ with site.GetPage (print "/speakers/" $speaker) }}
+                  <img
+                    src="/img/speakers/{{ .Params.speaker_image }}"
+                    alt="Avatar for {{ .Title }}"
+                    class="inline-block w-12 h-12 border-2 border-white rounded-full"
+                    width="140"
+                    height="140"
+                    title="{{ .Title }}">
+                {{ end }}
+              {{ end }}
             {{ end }}
-          {{end}}
-        {{ end }}
-      {{ end }}
+
+            <span class="max-w-xs ml-2">
+            {{ range $session := .Params.sessions }}
+              {{ with site.GetPage (print "/sessions/" $session) }}
+                {{ $.Scratch.Set "speakers" .Params.speakers }}
+              {{ end }}
+
+              {{ $speakers := $.Scratch.Get "speakers" }}
+              {{ range $index, $speaker := $speakers }}
+                {{ with site.GetPage (print "/speakers/" $speaker) }}
+                  {{ .Title }}
+                  <span class="delimiter">&amp;</span>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            </span>
+          {{ end }}
+        </div>
       </li>
 
       <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
@@ -100,14 +118,15 @@
       {{ .Content }}
     </div>
 
-
     {{ if ne .Params.sponsor nil }}
-      <h2>Sponsored by {{.Params.sponsor.name}}</h2>
+      <h2
+        class="mb-4 text-xl">Sponsored by <strong>{{.Params.sponsor.name}}</strong>
+      </h2>
       <a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
     {{ end }}
 
     {{ if ne .Params.sessions nil }}
-      <div class="space-y-10">
+      <div class="mt-24 space-y-20">
         {{ range $session := .Params.sessions }}
 
           {{ with site.GetPage (print "/sessions/" $session) }}

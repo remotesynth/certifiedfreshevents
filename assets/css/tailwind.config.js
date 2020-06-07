@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      
+
       black      : '#040419',
       white      : '#FFFFFF',
 
@@ -38,6 +38,7 @@ module.exports = {
       red        : '#E53E3E',
 
       facebook   : '#39599F',
+      github     : '#6CC644',
       twitter    : '#55ACEE',
       youtube    : '#FF0000',
       reddit     : '#FF5700',

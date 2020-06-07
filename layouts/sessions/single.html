@@ -20,43 +20,73 @@
 <main class="mt-20">
   <header class="container px-6 mx-auto">
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
+
+    {{/* Add speaker byline, categories, and time */}}
+
+    <a href="{{ $event.Permalink }}#schedule"> See full event listing</a>
   </header>
 
-  {{ with .Params.recordings }}
-    {{ with .vimeo }}
-    {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-    <div class='embed-container'><iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe></div>
-    <p><em>You can also view the <a href="{{ $.Params.Recordings.crowdcast.url }}" target="_blank">full event recording on Crowdcast</a>. This session starts at {{$.Params.Recordings.crowdcast.start_time}}.</em></p>
-    {{ else }}
-    <p><em>This event was recorded on Crowdcast. We're working on editing the recording, but until then you can view the full recording on Crowdcast by clicking the button below.</em></p>
-    {{ if ne .crowdcast.start_time "00:00"}}<p><em>This session starts at {{.crowdcast.start_time}} in the recording.</em></p>{{ end }}
-    <p><input type="button" class="btn btn-lg btn-color btn-button" value="Open Crowdcast Recording"  onclick=" window.open('{{ .crowdcast.url }}','_blank')"></p>
-    {{ end }}
-  {{ end }}
+  <div class="container mx-auto">
+    <div class="block mx-auto bg-black embed-responsive">
+      {{ with .Params.recordings }}
+        {{ with .vimeo }}
+          {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+            <iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe>
 
-{{ .Content }}
+            <p>
+              <em>You can also view the <a href="{{ $.Params.Recordings.crowdcast.url }}" target="_blank">full event recording on Crowdcast</a>. This session starts at {{$.Params.Recordings.crowdcast.start_time}}.</em>
+            </p>
+        {{ else }}
 
-<p>
-  <a href="{{ $event.Permalink }}#schedule"> See the full event listing </a>
-</p>
 
-{{ if ne .Params.sessions nil }}
-  <div class="space-y-10">
-    {{ range $session := .Params.sessions }}
+          <p><em>This event was recorded on Crowdcast. We're working on editing the recording, but until then you can view the full recording on Crowdcast by clicking the button below.</em></p>
+          {{ if ne .crowdcast.start_time "00:00"}}
+            <p><em>This session starts at {{.crowdcast.start_time}} in the recording.</em></p>
+          {{ end }}
 
-      {{ with site.GetPage (print "/sessions/" $session) }}
-        {{ $.Scratch.Set "speakers" .Params.speakers }}
-      {{ end }}
-
-      {{ $speakers := $.Scratch.Get "speakers" }}
-      {{ range $speaker := $speakers }}
-        {{ with site.GetPage (print "/speakers/" $speaker) }}
-          {{ partial "speaker-card.html" .}}
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center justify-center w-full h-full anim bg-jelly hover:bg-sky">
+                <span class="inline-flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
+                  <span class="inline-block mr-2">Open Crowdcast Recording</span>
+                  <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
+                    <use xlink:href="/img/icons.svg#sm-external-link"></use>
+                  </svg>
+                </span>
+            </a>
         {{ end }}
-      {{end}}
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-16">
+    <div class="mb-8">
+      {{ partial "social-share.html" .}}
+    </div>
+
+    <div class="mb-20 space-y-4 content">
+      {{ .Content }}
+    </div>
+
+    {{ if ne .Params.sessions nil }}
+      <div class="space-y-10">
+        {{ range $session := .Params.sessions }}
+
+          {{ with site.GetPage (print "/sessions/" $session) }}
+            {{ $.Scratch.Set "speakers" .Params.speakers }}
+          {{ end }}
+
+          {{ $speakers := $.Scratch.Get "speakers" }}
+          {{ range $speaker := $speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              {{ partial "speaker-card.html" .}}
+            {{ end }}
+          {{end}}
+        {{ end }}
+      </div>
     {{ end }}
   </div>
-{{ end }}
 </main>
 
 {{ partial "footer.html" .}}

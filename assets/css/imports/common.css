@@ -3,7 +3,7 @@
   Common Elements
   ===============
 
-  CSS for smaller elements, links, buttons, etc. 
+  CSS for smaller elements, links, buttons, etc.
   Styles here should represent the "base" after an initial reset.
 */
 
@@ -58,27 +58,44 @@
 
 .select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23696969'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E%0A");
-  
+
   background-position: right .5em center;
   @apply bg-no-repeat;
   background-size: 2em 2em;
 }
 
-/* 
-  Special modification to elements when they are part of long-form content 
+/*
+  Special modification to elements when they are part of long-form content
 */
 
 .content {
   @apply text-lg;
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+}
+
+.content img {
+  @apply block max-w-full;
 }
 
 .content ul {
-  @apply ml-6;
+  @apply mb-4;
   @apply list-disc;
 }
 
 .content li {
-  @apply ml-6;
+  @apply mb-3 ml-6;
   @apply list-decimal;
 }
 
