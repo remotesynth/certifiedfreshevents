@@ -1,73 +1,75 @@
-<footer class="container px-6 py-16 mx-auto text-center lg:text-left lg:flex lg:flex-wrap">
-  <div class="mb-10 lg:w-2/3">
-    <nav class="mb-8">
+<footer class="border border-b-0 border-l-0 border-r-0 border-gray-300 ">
+  <div class="container px-6 py-16 mx-auto text-center lg:text-left lg:flex lg:flex-wrap">
+    <div class="mb-10 lg:w-2/3">
+      <nav class="mb-8">
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/conduct/">Code of Conduct</a>
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/contact/">Contact</a>
+      </nav>
+
+      <form
+        class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
+        method="POST">
+        <label for="email" class="w-full label">Subscribe to our mailing list</label>
+        <p class="w-full mb-3">Stay up to date with the latest meetups and sessions.</p>
+        <input
+          type="email"
+          id="email"
+          placeholder="you@domain.com"
+          autocomplete="off"
+          class="w-64 mr-1 field">
+        <button
+          type="submit"
+          class="button">Subscribe</button>
+      </form>
+    </div>
+
+    <nav class="mb-10 lg:w-1/3">
+      <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
       <a
-        class="inline-block mr-6 text-lg nav-link anim"
-        href="/conduct/">Code of Conduct</a>
+        class="inline-block mr-6 text-java anim hover:text-twitter"
+        href="https://twitter.com/{{.Site.Params.Twitter}}"
+        title="twitter"
+        aria-label="Twitter">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#twitter"></use>
+        </svg>
+      </a>
+
       <a
-        class="inline-block mr-6 text-lg nav-link anim"
-        href="/contact/">Contact</a>
+        class="inline-block mr-6 text-java anim hover:text-youtube"
+        href="{{.Site.Params.Youtube}}"
+        title="youtube"
+        aria-label="YouTube">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#youtube"></use>
+        </svg>
+      </a>
+
+      <a
+        class="inline-block mr-6 text-java anim hover:text-instagram"
+        href="https://instagram.com/{{.Site.Params.Instagram}}"
+        title="youtube"
+        aria-label="Instagram">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#instagram"></use>
+        </svg>
+      </a>
+
+      <a
+        class="inline-block text-java anim hover:text-rss"
+        href="/categories/index.xml"
+        title="RSS"
+        aria-label="RSS">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#rss"></use>
+        </svg>
+      </a>
     </nav>
 
-    <form
-      class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
-      method="POST">
-      <label for="email" class="w-full label">Subscribe to our mailing list</label>
-      <p class="w-full mb-3">Stay up to date with the latest meetups and sessions.</p>
-      <input
-        type="email"
-        id="email"
-        placeholder="you@domain.com"
-        autocomplete="off"
-        class="w-64 mr-1 field">
-      <button
-        type="submit"
-        class="button">Subscribe</button>
-    </form>
+    <small class="block w-full">&copy; {{now.Year}} {{.Site.Title}}</small>
   </div>
-
-  <nav class="mb-10 lg:w-1/3">
-    <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
-    <a
-      class="inline-block mr-6 text-java anim hover:text-twitter"
-      href="https://twitter.com/{{.Site.Params.Twitter}}"
-      title="twitter"
-      aria-label="Twitter">
-      <svg class="w-12 h-12 fill-current" aria-hidden="true">
-        <use xlink:href="/img/social.svg#twitter"></use>
-      </svg>
-    </a>
-
-    <a
-      class="inline-block mr-6 text-java anim hover:text-youtube"
-      href="{{.Site.Params.Youtube}}"
-      title="youtube"
-      aria-label="YouTube">
-      <svg class="w-12 h-12 fill-current" aria-hidden="true">
-        <use xlink:href="/img/social.svg#youtube"></use>
-      </svg>
-    </a>
-
-    <a
-      class="inline-block mr-6 text-java anim hover:text-instagram"
-      href="https://instagram.com/{{.Site.Params.Instagram}}"
-      title="youtube"
-      aria-label="Instagram">
-      <svg class="w-12 h-12 fill-current" aria-hidden="true">
-        <use xlink:href="/img/social.svg#instagram"></use>
-      </svg>
-    </a>
-
-    <a
-      class="inline-block text-java anim hover:text-rss"
-      href="/categories/index.xml"
-      title="RSS"
-      aria-label="RSS">
-      <svg class="w-12 h-12 fill-current" aria-hidden="true">
-        <use xlink:href="/img/social.svg#rss"></use>
-      </svg>
-    </a>
-  </nav>
-
-  <small class="block w-full">&copy; {{now.Year}} {{.Site.Title}}</small>
 </footer>

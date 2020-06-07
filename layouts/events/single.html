@@ -6,7 +6,7 @@
 
 {{ partial "navigation.html" . }}
 
-<main class="mt-20">
+<main class="my-20">
   <header class="container px-6 mx-auto">
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
 
@@ -54,7 +54,7 @@
 
       <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
-          <use xlink:href="icons.svg#sm-calendar"></use>
+          <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
         <time class="font-semibold text-gray-800">Apr 9, 2020</time>
       </li>
@@ -89,7 +89,7 @@
               <span class="inline-flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
                 <span class="inline-block mr-2">Open on Crowdcast</span>
                 <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
-                  <use xlink:href="icons.svg#sm-external-link"></use>
+                  <use xlink:href="/img/icons.svg#sm-external-link"></use>
                 </svg>
               </span>
           </a>
@@ -143,42 +143,9 @@
       </div>
     {{ end }}
   </div>
+
+  {{ partial "related-sessions.html" .}}
 </main>
-
-
-<div class="mt-24 bg-gray-100">
-  <div class="container px-6 py-16 mx-auto">
-    <h2 class="mb-8 text-4xl font-medium text-center">More <strong class="highlight-text highlight-text-java"><span>Awesome</span></strong> Sessions</h2>
-    <div class="carousel">
-      <div class="carousel-list">
-        <div class="carousel-item carousel-item-thin">
-          {{/*
-            TODO: Sessions go here.
-            Include X amount using partial/session-card.html
-            Each item should be in .carousel-item.carouse-item-thin
-          */}}
-        </div>
-
-        <div class="carousel-item carousel-item-thin">
-          <a
-            href="#"
-            class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">Num</span>&nbsp;sessions</a>
-        </div>
-      </div>
-      <button class="glider-prev" aria-hidden="true" aria-label="Next" title="Next">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
-          <use xlink:href="icons.svg#sm-arrow-left"></use>
-        </svg>
-      </button>
-      <button class="glider-next" aria-hidden="true" aria-label="Previous" title="Previous">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
-          <use xlink:href="icons.svg#sm-arrow-right"></use>
-        </svg>
-      </button>
-    </div>
-  </div>
-</div>
-
 
 {{/*
 {{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
