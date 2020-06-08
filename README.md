@@ -13,5 +13,10 @@ npm install -g autoprefixer
 
 ## Local Development
 
-Run Hugo with `hugo server --disableFastRender`. This will serve the site locally at `localhost:1313`.
+Run Hugo with `hugo server --disableFastRender`. This will serve the site locally at `localhost:1313`. Alternatively, run `npm run serve`.
 
+## Design Assets
+
+Icons by [Heroicons](https://github.com/refactoringui/heroicons). Use [HeroIcons.dev](https://heroicons.dev/) to easily identify each icon.
+
+Icon sprites are compiled with: [svg-sprite-generator](https://www.npmjs.com/package/svg-sprite-generator)
