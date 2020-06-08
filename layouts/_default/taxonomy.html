@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "head.html" . }}
-
-<body class="antialiased">
-
-{{ partial "navigation.html" . }}
-
+{{ define "main" }}
 <main>
   <div class="mb-20 highlight-pattern-waves">
     <header class="container px-6 py-12 mx-auto">
@@ -81,11 +74,4 @@
     </section>
   </div>
 </main>
-
-
-{{ partial "footer.html" .}}
-
-{{ partial "scripts.html" .}}
-
-</body>
-</html>
+{{ end }}

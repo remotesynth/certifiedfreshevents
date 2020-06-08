@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "head.html" . }}
-
-<body class="antialiased">
-
-{{ partial "navigation.html" . }}
-
+{{ define "main" }}
 <main class="my-20">
   <header class="container px-6 mx-auto">
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
@@ -108,7 +101,6 @@
     <p class="mt-6">Have an account? <a href="login.html" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
 
-
   <div class="container max-w-3xl px-6 pb-8 mx-auto">
     <div class="mb-8">
       {{ partial "social-share.html" .}}
@@ -147,6 +139,8 @@
   {{ partial "related-sessions.html" .}}
 </main>
 
+{{/* Code to use? */}}
+
 {{/*
 {{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
 {{ $eventcode := path.Base .Params.embed_url }}
@@ -163,17 +157,12 @@
     <div id="register_message" style="color:red;"></div>
   </form>
 {{ end }}
-*/}}
 
-
-{{/*
 <div class="entry__tags">
   <span class="entry__tags-label">Categories:</span>
   {{ range $category := .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
 </div>
-*/}}
 
-{{/*
 {{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
 {{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
 {{ $ageYears := math.Round (div $ageMonths 12.0) }}
@@ -192,10 +181,9 @@
 {{ end }}
 */}}
 
-{{ partial "footer.html" .}}
+{{ end }}
 
-{{ partial "scripts.html" .}}
-
+{{ define "scripts" }}
 <script>
 new Glider(document.querySelector('.carousel-list'), {
   resizeLock: true,
@@ -223,5 +211,4 @@ new Glider(document.querySelector('.carousel-list'), {
   ]
 });
 </script>
-</body>
-</html>
+{{ end }}

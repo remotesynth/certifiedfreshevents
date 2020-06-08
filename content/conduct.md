@@ -9,10 +9,16 @@ banner: "images/pages/conduct.jpg"
 draft: false
 ---
 
-<div class="container max-w-4xl px-6 mx-auto">
-<div class="content">
+<!-- markdownlint-disable -->
+<main class="mb-20">
+  <header class="container max-w-3xl px-6 py-12 mx-auto">
+    <h1 class="my-2 text-5xl font-bold">Contact Us</h1>
+    <p class="text-xl">This code of conduct applies to any online and in-person events. If you encounter any violations, please contact <a href="mailto:brian@certifiedfreshevents.com" class="font-bold link text-sky">brian@certifiedfreshevents.com</a>.</p>
+  </header>
 
-**This code of conduct applies to any online and in-person events. If you encounter any violations, please contact [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com).**
+  <div class="container max-w-3xl px-6 mx-auto">
+    <div class="space-y-4 content">
+<!-- markdownlint-restore -->
 
 All attendees, speakers, sponsors and volunteers at our virtual meetups, live events or other organized activity, whether online or in-person, are required to agree with the following code of conduct. The organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
@@ -36,5 +42,7 @@ For in-person events, staff will be happy to help participants contact hotel/ven
 
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
-</div>
-</div>
+<!-- markdownlint-disable -->
+  </div>
+</main>
+<!-- markdownlint-restore -->

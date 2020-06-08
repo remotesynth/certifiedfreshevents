@@ -9,6 +9,7 @@ banner: "images/pages/speakers.jpg"
 draft: false
 ---
 
+<!-- markdownlint-disable -->
 <main class="mb-20">
   <div class="mb-20">
     <header class="container px-6 py-12 mx-auto">
@@ -21,3 +22,4 @@ draft: false
 
   {{< speakers >}}
 </main>
+<!-- markdownlint-restore -->

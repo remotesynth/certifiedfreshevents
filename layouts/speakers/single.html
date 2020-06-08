@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "head.html" . }}
-
-<body class="antialiased">
-
-{{ partial "navigation.html" . }}
-
+{{ define "main" }}
 <main class="mb-20">
   <div>
     <header class="container max-w-4xl px-6 pt-10 mx-auto">
@@ -79,11 +72,4 @@
       {{ end }}
     </div>
 </main>
-
-
-{{ partial "footer.html" .}}
-
-{{ partial "scripts.html" .}}
-
-</body>
-</html>
+{{ end }}
