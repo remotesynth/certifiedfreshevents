@@ -2,3 +2,5 @@
 !/public/_redirects
 .DS_Store
 /node_modules/
+Thumbs.db
+resources/

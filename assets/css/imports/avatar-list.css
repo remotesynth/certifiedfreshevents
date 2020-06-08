@@ -1,0 +1,7 @@
+.avatar-list img + img {
+  @apply -ml-4;
+}
+
+.avatar-list .delimiter:last-child {
+  display: none;
+}

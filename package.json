@@ -9,9 +9,24 @@
     "request": "^2.88.0",
     "string": "^3.3.3",
     "toml": "^3.0.0",
-    "yaml": "^1.5.1"
+    "yaml": "^1.5.1",
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "postcss": "^7.0.29",
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.4.5"
   },
   "dependencies": {
     "netlify-cli": "^2.51.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    ">1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "serve": "hugo serve --disableFastRender"
   }
 }

@@ -1,44 +1,64 @@
+<div class="container px-6 mx-auto">
 {{ $speakers := where .Site.RegularPages "Section" "speakers" }}
 
-<div class="container">
-    <div class="row">
+<div class="grid gap-8 lg:grid-cols-2">
 {{ range $speaker := $speakers }}
 {{ with $speaker }}
-<article class="col-sm-4">
-    <div class="post-list-small__img-holder">
-        <div class="thumb-container thumb-100">
-            <a href="{{.Permalink}}">
-            <img data-src="/img/speakers/{{.Params.speaker_image}}" src="/img/empty.png" alt="" class="lazyload">
+  <article>
+    <div class="flex items-center mb-8">
+      <a href="{{ .Permalink }}" class="mr-4">
+        <img
+          class="max-w-full rounded-full"
+          src="/img/speakers/{{ .Params.speaker_image }}"
+          alt="{{ .Title }}"
+          width="140"
+          height="140">
+      </a>
+
+      <div>
+        <a href="{{ .Permalink }}">
+          <h2 class="text-3xl font-semibold">{{ .Title }}</h2>
+          <span class="text-lg font-medium text-java">{{ .Params.Job_title }}</span>
+        </a>
+
+        <nav class="mt-1 space-x-4">
+          {{ if .Params.twitter }}
+            <a
+              href="https://twitter.com/{{ .Params.twitter }}"
+              class="inline-block p-2 -ml-2 text-blue anim hover:text-twitter"
+              target="_blank">
+              <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                <use xlink:href="/img/social.svg#twitter"></use>
+              </svg>
             </a>
-        </div>
+          {{ end }}
+          {{ if .Params.github }}
+            <a
+              href="https://github.com/{{ .Params.github }}"
+              class="inline-block p-2 -ml-2 text-blue anim hover:text-github"
+              target="_blank">
+              <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                <use xlink:href="/img/social.svg#github"></use>
+              </svg>
+            </a>
+          {{ end }}
+          {{ if .Params.website }}
+            <a
+              href="{{ .Params.website }}"
+              class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+              target="_blank">
+              <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                <use xlink:href="/img/social.svg#link"></use>
+              </svg>
+            </a>
+          {{ end }}
+        </nav>
+      </div>
     </div>
-    <div>
-        <h3 class="post-list-small__entry-title"><a href="{{.Permalink}}">{{.Title}}</a></h3>
-        <ul class="entry__meta">
-            {{ if .Params.twitter }}
-            <li>
-                <a class="social social-twitter" href="https://twitter.com/{{.Params.twitter}}" target="_blank" aria-label="twitter" style="background-color: white;">
-                <i class="ui-twitter"></i>
-                </a>
-            </li>
-            {{ end }}
-            {{ if .Params.github }}
-            <li>
-                <a class="social social-github" href="https://github.com/{{.Params.github}}" target="_blank" aria-label="github">
-                <i class="ui-github"></i>
-                </a>
-            </li>
-            {{ end }}
-            {{ if .Params.website }}
-            <li>
-                <a class="social social-pin" href="{{.Params.website}}" target="_blank" aria-label="link">
-                <i class="ui-pin"></i>
-                </a>
-            </li>
-            {{ end }}
-    </div>
-</article>
+  </article>
 {{ end }}
 {{ end }}
 </div>
 </div>
+
+

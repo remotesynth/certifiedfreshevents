@@ -1,0 +1,36 @@
+.modal {
+  @apply absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  @apply w-full;
+  @apply h-full;
+  @apply bg-white;
+}
+
+.modal .close-button {
+  right: 4px;
+  top: 4px;
+}
+
+.close-button {
+  @apply rounded-full;
+}
+
+.close-button:hover {
+  @apply bg-gray-100;
+  @apply transition-all duration-150 ease-in;
+}
+
+.close-button svg {
+  @apply transition-all duration-150 ease-in;
+}
+
+.close-button:hover svg {
+  @apply text-red;
+}
+
+/* When a modal is open, hide the page content */
+body.modal-active > *:not(.modal) {
+  display: none;
+}

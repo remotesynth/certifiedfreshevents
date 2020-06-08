@@ -1,0 +1,97 @@
+.site-nav {
+  @apply sticky top-0 z-40;
+  @apply flex flex-wrap items-center justify-between;
+  @apply px-6 pt-6 pb-3;
+  @apply bg-white;
+}
+
+.nav-link {
+  @apply font-bold;
+  @apply text-blue;
+  @apply border-b-8 border-transparent;
+}
+
+.nav-link:hover {
+  @apply border-current;
+  @apply text-java;
+}
+
+.nav-link-icon {
+  @apply flex items-center justify-center flex-shrink-0;
+  @apply w-12 h-12;
+  @apply rounded-full;
+  @apply bg-lightBlue;
+  @apply text-blue;
+}
+
+.nav-link-icon svg {
+  @apply inline-block w-8 h-8;
+  @apply text-current fill-current;
+}
+
+.has-nav-link-icon:hover .nav-link-icon {
+  @apply bg-java;
+  @apply text-white;
+  @apply transition-all duration-150 ease-in;
+}
+
+
+.menu {
+  @apply absolute z-20;
+  top: calc(100% + 1.5rem);
+  left: 50%;
+  @apply hidden;
+  @apply py-8;
+  @apply bg-white;
+  @apply border border-gray-300 rounded shadow-xl;
+  transform: translateX(-50%);
+}
+
+.menu:before,
+.menu:after {
+  @apply absolute;
+  @apply inline-block;
+  left: 50%;
+
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  content: "";
+}
+
+.menu:before {
+  top: -17px;
+  width: 38px;
+  height: 18px;
+  @apply bg-gray-300;
+  @apply rounded;
+
+  transform: translateX(-38px);
+}
+
+.menu:after {
+  top: -15px;
+  width: 34px;
+  height: 16px;
+  @apply bg-white;
+  transform: translateX(-36px);
+}
+
+.menu-meetups {
+  width: 34ch;
+}
+
+.menu-sessions {
+  width: 60ch;
+}
+
+@screen lg {
+  .has-menu:hover:after {
+    @apply absolute z-10;
+    @apply block;
+    @apply w-full h-full;
+    content: "";
+  }
+
+  .has-menu:hover .menu {
+    @apply grid;
+  }
+}

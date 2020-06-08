@@ -1,109 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "head.html" . }}
-<body class="style-videos">
+{{ define "main" }}
+<main class="mb-20">
+  <div>
+    <header class="container max-w-4xl px-6 pt-10 mx-auto">
+      <div class="flex items-center mb-8">
+        <div class="mr-6">
+          <img
+            class="max-w-full rounded-full"
+            src="/img/speakers/{{ .Params.speaker_image }}"
+            alt="{{ .Title }}"
+            width="200"
+            height="200">
+        </div>
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
+        <div>
+          <h1 class="text-4xl font-semibold">{{ .Title }}</h1>
+          <span class="text-xl font-medium text-java">{{ .Params.Job_title }}</span>
+
+          <nav class="mt-1 space-x-4">
+            {{ if .Params.twitter }}
+              <a
+                href="https://twitter.com/{{ .Params.twitter }}"
+                class="inline-block p-2 -ml-2 text-blue anim hover:text-twitter"
+                target="_blank">
+                <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#twitter"></use>
+                </svg>
+              </a>
+            {{ end }}
+            {{ if .Params.github }}
+              <a
+                href="https://github.com/{{ .Params.github }}"
+                class="inline-block p-2 -ml-2 text-blue anim hover:text-github"
+                target="_blank">
+                <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#github"></use>
+                </svg>
+              </a>
+            {{ end }}
+            {{ if .Params.website }}
+              <a
+                href="{{ .Params.website }}"
+                class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+                target="_blank">
+                <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#link"></use>
+                </svg>
+              </a>
+            {{ end }}
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container max-w-4xl px-6 mx-auto mb-12 text-lg">
+      {{ .Content }}
     </div>
-  </div>
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
-
-
-{{ partial "left-nav.html" . }}
-
-  <main class="main oh" id="main">
-
-    {{ partial "top-bar.html" . }}        
-
-		{{ partial "navigation.html" . }}
-		
-<!-- Breadcrumbs -->
-<div class="container">
-		<ul class="breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a href="/index.html" class="breadcrumbs__url">Home</a>
-			</li>
-			<li class="breadcrumbs__item breadcrumbs__item--current">
-				{{ .Title }}
-			</li>
-		</ul>
-	</div>
-
-	<div class="main-container container" id="main-container">
-		<!-- Post Content -->
-		<div class="blog__content mb-72">
-
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<!-- standard post -->
-					<article class="entry mb-0">
-						<div class="entry__article-wrap">
-
-<!---speaker specific -->
-<div class="container">
-  <div class="row">
-      <div class="col-sm-3 col-xs-12">
-          <figure>
-            <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
-          </figure>
-          <div class="social">
-              <ul class="list-inline">
-                  {{ if .Params.twitter }}
-                  <li>
-                      <a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  {{ end }}{{ if .Params.github }}
-                  <li>
-                      <a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
-                  </li>
-                  {{ end }} {{ if .Params.website }}
-                  <li>
-                      <a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
-                  </li>
-                  {{ end }}
-              </ul>
-          </div>
-      </div>
-      <div class="col-sm-7 col-xs-12">
-          <div class="speakers-content">
-              <h1 class="title">{{ .Title }}</h1>
-              <h3 class="subtitle">{{ .Params.job_title }}</h3>
-              {{ .Content }}
-              
-              {{ $speakerArr := slice .Page.File.TranslationBaseName }}
-              {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
-              {{ if ne (len $sessions) 0 }}<h5>Sessions</h5>{{ end }}
-              {{ range $session := $sessions }}
-                {{ with  $session}}
-                <p><a href="{{.Permalink}}">{{ .Title }}</a></p>
-                {{ end }}
-              {{ end }}
-          </div>
-      </div>
-  </div>
-</div>
-<!-- end speaker specific -->
-						</div> <!-- end entry article wrap -->
-						
-						{{ partial "newsletter.html" . }}
-
-					</article> <!-- end standard post -->
-				</div>
-			</div>
-
-		</div> <!-- end post content -->
-	</div> <!-- end main container -->					
-		
-		{{ partial "footer.html" .}}
-
-    </main> <!-- end main-wrapper -->
-
-{{ partial "scripts.html" .}}
-
-</body>
-</html>
+    <div class="container max-w-4xl px-6 mx-auto">
+      {{ $speakerArr := slice .Page.File.TranslationBaseName }}
+      {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
+      {{ if ne (len $sessions) 0 }}
+        <h2 class="mb-4 text-3xl font-medium">Sessions</h2>
+        <ul class="space-y-4">
+        {{ range $session := $sessions }}
+          <li>
+            {{ with  $session}}
+              <a href="{{.Permalink}}" class="text-lg link text-sky">{{ .Title }}</a>
+            {{ end }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </div>
+</main>
+{{ end }}

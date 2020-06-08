@@ -1,0 +1,92 @@
+/*
+  ===============
+  Common Elements
+  ===============
+
+  CSS for smaller elements, links, buttons, etc.
+  Styles here should represent the "base" after an initial reset.
+*/
+
+.link {
+  @apply underline;
+}
+
+.link:hover {
+  @apply no-underline;
+  @apply text-java;
+}
+
+.button {
+  @apply inline-block;
+  @apply px-4 py-2;
+  @apply text-xl font-bold text-white;
+  @apply bg-sky;
+  @apply border border-current rounded;
+
+  @apply transition-all duration-150 ease-in;
+}
+
+.button:hover {
+  @apply bg-blue;
+}
+
+.button-ghost {
+  @apply inline-block;
+  @apply px-4 py-2;
+  @apply font-bold;
+  @apply border border-b-2 border-current rounded;
+
+  @apply transition-all duration-150 ease-in;
+}
+
+.button-ghost:hover {
+  @apply bg-java;
+  @apply border-java;
+  @apply text-white;
+}
+
+.label {
+  @apply font-bold;
+  @apply text-java;
+}
+
+.field {
+  @apply appearance-none;
+  @apply block px-4 py-3;
+  @apply border border-gray-500 rounded;
+}
+
+.select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23696969'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E%0A");
+
+  background-position: right .5em center;
+  @apply bg-no-repeat;
+  background-size: 2em 2em;
+}
+
+/*
+  Special modification to elements when they are part of long-form content
+*/
+
+.content {
+  @apply text-lg;
+}
+
+.content h2 { @apply text-4xl; }
+.content h3 { @apply text-3xl; }
+.content h4 { @apply text-2xl; }
+
+.content img {
+  @apply block max-w-full;
+}
+
+.content ul {
+  @apply mb-4;
+  @apply list-disc;
+}
+
+.content li {
+  @apply mb-3 ml-6;
+  @apply list-decimal;
+}
+
