@@ -20,3 +20,9 @@ Run Hugo with `hugo server --disableFastRender`. This will serve the site locall
 Icons by [Heroicons](https://github.com/refactoringui/heroicons). Use [HeroIcons.dev](https://heroicons.dev/) to easily identify each icon.
 
 Icon sprites are compiled with: [svg-sprite-generator](https://www.npmjs.com/package/svg-sprite-generator)
+
+### Adding Categories
+
+Each category is visually represented with an icon, color, and pattern. For a list of all available colors, see `assets/css/tailwind.config.js`.
+
+Any repeatable pattern will work, but initial patterns were selected from [Hero Patterns](https://www.heropatterns.com/).
