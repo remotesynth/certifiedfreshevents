@@ -6,7 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/tools-for-the-modern-web
-        start_time: 30:18
+        start_time: "30:18"
+    vimeo:
+        url: https://vimeo.com/428627846
+        length: "25:25"
 menu:
   main:
     parent: sessions
