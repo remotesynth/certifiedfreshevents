@@ -23,7 +23,7 @@ related:
     weight: 100
   - name: date
     weight: 10
-paginate: 5
+paginate: 6
 
 markup:
   defaultMarkdownHandler: goldmark

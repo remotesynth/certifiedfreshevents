@@ -1,6 +1,15 @@
+{{ $event := "" }}
+{{ if (isset .Params "event") }}
+  {{ $event = (.GetPage (print "/events/" .Params.event)) }}
+{{ else }}
+  {{ $eventArr := slice .Page.File.TranslationBaseName }}
+  {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
+  {{ $event = (index $events 0) }}
+{{ end }}
+
 <article class="event-card">
   <img
-    src="/img/banners/medium/{{ .Params.Homepage_banner }}"
+    src="/img/banners/medium/{{ $event.Params.Homepage_banner }}"
       loading="lazy"
     alt="Banner for {{ .Title }}"
     aria-hidden="true">
