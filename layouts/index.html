@@ -6,6 +6,8 @@
 
 {{ partial "navigation.html" . }}
 
+
+
 <main class="mt-12 lg:mt-20">
   <div class="container px-6 pb-24 mx-auto md:flex">
     <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
@@ -83,7 +85,8 @@
     <div class="lg:w-1/2">
       <div class="carousel">
         <div class="carousel-list">
-          {{ range first 6 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ range $upcoming }}
             <div class="carousel-item">
               {{ partial "meetup-card.html" . }}
             </div>

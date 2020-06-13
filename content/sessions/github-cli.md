@@ -2,18 +2,16 @@
 title: "Love is Blind: Falling in Love with the Command Line and GitHub CLI"
 date: 2020-05-04T12:00:00-04:00
 speakers:
-    - andrea-griffiths
+  - andrea-griffiths
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/falling-in-love-with-the
-        start_time: 3:38
-    vimeo:
-        url: https://vimeo.com/416648508
-        length: "41:15"
-menu:
-  main:
-    parent: sessions
-    name: Command Line + GitHub
+  crowdcast:
+      url: https://www.crowdcast.io/e/falling-in-love-with-the
+      start_time: 3:38
+  vimeo:
+      url: https://vimeo.com/416648508
+      length: "41:15"
+categories:
+  - devops
 draft: false
 ---
 

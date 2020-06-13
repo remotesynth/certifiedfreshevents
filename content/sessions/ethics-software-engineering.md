@@ -2,15 +2,13 @@
 title: "Ethics in Software Engineering - Panel Discussion"
 date: 2018-09-18T18:52:51-04:00
 speakers:
-    - jem-young
+  - jem-young
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/ethics-in-software
-        start_time: 04:44
-menu:
-  main:
-    parent: sessions
-    name: Ethics in Software Panel
+  crowdcast:
+      url: https://www.crowdcast.io/e/ethics-in-software
+      start_time: 04:44
+categories:
+  - culture
 draft: false
 ---
 

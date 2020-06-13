@@ -1,18 +1,11 @@
 ---
-title: "Building Web Applications with Vue.js"
+title: Building Web Applications with Vue.js
 date: 2020-06-16T13:00:00-04:00
 end_date: 2020-06-16T16:00:00-04:00
-menu:
-  main:
-    parent: upcoming
-    name: Vue Workshop
-categories:
-  - JavaScript
-  - Web Development
 cost: 49
 homepage_banner: Web-App-with-VUE.jpg
-short_desc: "A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden."
-description: "A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden."
+short_desc: A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden.
+description: A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden.
 embed_url: https://www.crowdcast.io/e/building-web
 sessions:
   - vue-workshop

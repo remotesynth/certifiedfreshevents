@@ -2,18 +2,17 @@
 title: "Building Enterprise Applications with the Magic of React, Redux, and GraphQL"
 date: 2019-01-22T18:52:51-04:00
 speakers:
-    - rizchel-wood
+  - rizchel-wood
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/javascript-for
-        start_time: "03:11"
-    vimeo:
-        url: https://vimeo.com/426399587
-        length: "28:38"
-menu:
-  main:
-    parent: sessions
-    name: Enterprise React Apps
+  crowdcast:
+      url: https://www.crowdcast.io/e/javascript-for
+      start_time: "03:11"
+  vimeo:
+      url: https://vimeo.com/426399587
+      length: "28:38"
+categories:
+  - webdev
+  - javascript
 draft: false
 ---
 

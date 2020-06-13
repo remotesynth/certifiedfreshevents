@@ -2,15 +2,13 @@
 title: "Get Started with Serverless Using OpenWhisk - Hands On Workshop"
 date: 2020-04-09T18:52:51-04:00
 speakers:
-    - upkar-lidder
+  - upkar-lidder
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/get-started-with-3
-        start_time: 03:40
-menu:
-  main:
-    parent: sessions
-    name: Serverless + OpenWhisk
+  crowdcast:
+      url: https://www.crowdcast.io/e/get-started-with-3
+      start_time: 03:40
+categories:
+  - devops
 draft: false
 ---
 

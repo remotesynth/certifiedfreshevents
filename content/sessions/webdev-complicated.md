@@ -2,18 +2,16 @@
 title: "Why'd you have to go and make things so complicated?"
 date: 2018-11-27T18:52:51-04:00
 speakers:
-    - jory-burson
+  - jory-burson
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/has-web-development
-        start_time: 01:15
-    vimeo:
-        url: https://vimeo.com/423732257
-        length: "28:37"
-menu:
-  main:
-    parent: sessions
-    name: Is Web Dev Complicated?
+  crowdcast:
+      url: https://www.crowdcast.io/e/has-web-development
+      start_time: 01:15
+  vimeo:
+      url: https://vimeo.com/423732257
+      length: "28:37"
+categories:
+  - webdev
 draft: false
 ---
 

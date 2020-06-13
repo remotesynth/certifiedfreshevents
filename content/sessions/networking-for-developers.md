@@ -2,18 +2,16 @@
 title: "How to Get Through the Awkwardness of Networking"
 date: 2019-10-31T18:52:51-04:00
 speakers:
-    - wesley-faulkner
+  - wesley-faulkner
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/a-guide-to-professional
-        start_time: 03:47
-    vimeo:
-        url: https://vimeo.com/417769927
-        length: "40:00"
-menu:
-  main:
-    parent: sessions
-    name: Networking for Devs
+  crowdcast:
+      url: https://www.crowdcast.io/e/a-guide-to-professional
+      start_time: 03:47
+  vimeo:
+      url: https://vimeo.com/417769927
+      length: "40:00"
+categories:
+  - culture
 draft: false
 ---
 

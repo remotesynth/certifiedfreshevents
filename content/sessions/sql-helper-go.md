@@ -2,18 +2,16 @@
 title: "Building a SQL Helper Library in Go"
 date: 2018-10-30T18:52:51-04:00
 speakers:
-    - ayan-george
+  - ayan-george
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/going-great-with-go
-        start_time: 03:29
-    vimeo:
-        url: https://vimeo.com/421230329
-        length: "38:37"
-menu:
-  main:
-    parent: sessions
-    name: ORM with Go
+  crowdcast:
+      url: https://www.crowdcast.io/e/going-great-with-go
+      start_time: 03:29
+  vimeo:
+      url: https://vimeo.com/421230329
+      length: "38:37"
+categories:
+  - software
 draft: false
 ---
 

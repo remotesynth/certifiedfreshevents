@@ -2,20 +2,18 @@
 title: "Oh No You Didn’t: Conflict Management Panel"
 date: 2017-11-09T18:52:51-04:00
 speakers:
-    - shannon-vettes
-    - christina-aldan
-    - tara-manicsic
+  - shannon-vettes
+  - christina-aldan
+  - tara-manicsic
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
-        start_time: 00:21
-    vimeo:
-        url: https://vimeo.com/416164555
-        length: "56:08"
-menu:
-  main:
-    parent: sessions
-    name: Conflict Management
+  crowdcast:
+      url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
+      start_time: 00:21
+  vimeo:
+      url: https://vimeo.com/416164555
+      length: "56:08"
+categories:
+  - culture
 draft: false
 ---
 

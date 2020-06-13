@@ -2,15 +2,13 @@
 title: "Preact - Up and Running"
 date: 2017-10-05T18:52:51-04:00
 speakers:
-    - jen-looper
+  - jen-looper
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/vc1pp66r
-        start_time: 31:16
-menu:
-  main:
-    parent: sessions
-    name: Intro to Preact
+  crowdcast:
+      url: https://www.crowdcast.io/e/vc1pp66r
+      start_time: 31:16
+categories:
+  - webdev
 draft: false
 ---
 

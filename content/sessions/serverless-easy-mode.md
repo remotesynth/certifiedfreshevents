@@ -2,18 +2,16 @@
 title: "Going Severless on Easy Mode"
 date: 2017-12-15T18:52:51-04:00
 speakers:
-    - brian-leroux
+  - brian-leroux
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/the-future-of-development
-        start_time: 04:55
-    vimeo:
-        url: https://vimeo.com/419164597
-        length: "37:26"
-menu:
-  main:
-    parent: sessions
-    name: Architect for Serverless
+  crowdcast:
+      url: https://www.crowdcast.io/e/the-future-of-development
+      start_time: 04:55
+  vimeo:
+      url: https://vimeo.com/419164597
+      length: "37:26"
+categories:
+  - devops
 draft: false
 ---
 

@@ -2,16 +2,14 @@
 title: "Building IoT Apps (2018) - Course Outline"
 date: 2018-08-29T18:52:51-04:00
 speakers:
-    - brandon-satrom
-    - burke-holland
+  - brandon-satrom
+  - burke-holland
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/building-iot-apps-from/1
-        start_time: 00:59
-menu:
-  main:
-    parent: sessions
-    name: IoT and Azure Workshop
+  crowdcast:
+      url: https://www.crowdcast.io/e/building-iot-apps-from/1
+      start_time: 00:59
+categories:
+  - stuff
 draft: false
 ---
 
@@ -26,4 +24,4 @@ draft: false
 9. Hands On: Azure (Burke) [15 minutes]
 10. Controlling your devices from the Cloud (Burke and Brandon) [15 minutes]
 11. Hands On: Bringing it all together (Burke and Brandon) [15 minutes]
-12. Q&A and Wrap-up 
+12. Q&A and Wrap-up

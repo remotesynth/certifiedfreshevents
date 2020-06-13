@@ -2,7 +2,7 @@
 title: "Jamstack Hits the Spot"
 date: 2019-02-10T18:52:51-04:00
 speakers:
-    - divya-tagtachian
+  - divya-tagtachian
 event: flashback-conference-2020
 draft: false
 ---

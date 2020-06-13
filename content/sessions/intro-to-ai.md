@@ -2,15 +2,14 @@
 title: "Introduction to Artificial Intelligence"
 date: 2018-02-16T18:52:51-04:00
 speakers:
-    - paige-bailey
+  - paige-bailey
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/demystifying-machine
-        start_time: 03:12
-menu:
-  main:
-    parent: sessions
-    name: Intro to AI
+  crowdcast:
+      url: https://www.crowdcast.io/e/demystifying-machine
+      start_time: 03:12
+categories:
+  - software
+  - stuff
 draft: false
 ---
 

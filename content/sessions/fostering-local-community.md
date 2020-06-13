@@ -2,7 +2,7 @@
 title: "Fostering Your Local JavaScript Community"
 date: 2019-02-10T18:52:51-04:00
 speakers:
-    - carlos-souza
+  - carlos-souza
 event: flashback-conference-2020
 draft: false
 ---

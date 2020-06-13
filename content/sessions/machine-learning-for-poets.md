@@ -2,18 +2,17 @@
 title: "Machine Learning for Poets: The eMiLy App"
 date: 2018-07-17T18:52:51-04:00
 speakers:
-    - jen-looper
+  - jen-looper
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/understanding-machine
-        start_time: 03:30
-    vimeo:
-        url: https://vimeo.com/412568248
-        length: "43:40"
-menu:
-  main:
-    parent: sessions
-    name: Machine Learning
+  crowdcast:
+      url: https://www.crowdcast.io/e/understanding-machine
+      start_time: 03:30
+  vimeo:
+      url: https://vimeo.com/412568248
+      length: "43:40"
+categories:
+  - software
+  - stuff
 draft: false
 ---
 

@@ -1,16 +1,10 @@
 ---
 title: "Sextech: The Good, the Bad & the Bias"
 date: 2019-09-19T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: "Sextech: Good, Bad, Bias"
-categories:
-    - Culture
 cost: 0
 homepage_banner: Sextech-The-Good-The-Bad-The-Bias.jpg
-short_desc: "Alison Faulk gives an overview of the field of sextech and why it isn't what you may imagine."
-description: "Alison Faulk gives an overview of the field of sextech, how it spans an array of technologies and the current biases sextech faces."
+short_desc: Alison Faulk gives an overview of the field of sextech and why it isn't what you may imagine.
+description: Alison Faulk gives an overview of the field of sextech, how it spans an array of technologies and the current biases sextech faces.
 embed_url: https://www.crowdcast.io/e/sextech-the-good-the-bad
 sessions:
   - sextech-good-bad-bias

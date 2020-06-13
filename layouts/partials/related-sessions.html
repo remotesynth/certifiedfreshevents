@@ -14,7 +14,7 @@
         <div class="carousel-item carousel-item-thin">
           <a
             href="#"
-            class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">Num</span>&nbsp;sessions</a>
+            class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">{{ len (where .Site.RegularPages "Section" "==" "sessions" )}}</span>&nbsp;sessions</a>
         </div>
       </div>
       {{ partial "carousel-buttons.html" . }}

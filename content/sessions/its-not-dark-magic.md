@@ -2,18 +2,16 @@
 title: "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets"
 date: 2018-01-17T18:52:51-04:00
 speakers:
-    - aimee-knight
+  - aimee-knight
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/improving-your-apps--
-        start_time: 38:30
-    vimeo:
-        url: https://vimeo.com/422876767
-        length: "32:11"
-menu:
-  main:
-    parent: sessions
-    name: Exploring CSS Rendering
+  crowdcast:
+      url: https://www.crowdcast.io/e/improving-your-apps--
+      start_time: 38:30
+  vimeo:
+      url: https://vimeo.com/422876767
+      length: "32:11"
+categories:
+  - webdev
 draft: false
 ---
 

@@ -2,15 +2,13 @@
 title: "Making the Smart Home Fun"
 date: 2017-09-22T18:52:51-04:00
 speakers:
-    - brad-marsh
+  - brad-marsh
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/7v1mj9k9
-        start_time: 32:01
-menu:
-  main:
-    parent: sessions
-    name: Smart Homes
+  crowdcast:
+      url: https://www.crowdcast.io/e/7v1mj9k9
+      start_time: 32:01
+categories:
+  - stuff
 draft: false
 ---
 

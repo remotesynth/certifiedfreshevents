@@ -31,7 +31,8 @@
         <!-- Meetups Sub-Nav -->
         <ul
           class="space-y-6 menu menu-meetups">
-          {{ range first 6 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ range $upcoming }}
             <li>
               <a href="{{ .Permalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
                 <span class="block text-lg font-medium">{{ .Title }}</span>
@@ -56,84 +57,23 @@
         <!-- Sessions Nav -->
         <ul
           class="grid-cols-2 gap-6 p-6 menu menu-sessions">
+          {{ range $key, $value := .Site.Taxonomies.categories}}
+            {{ with site.GetPage (print "/categories/" $key) }}
           <li>
             <a href="/categories/career/" class="flex block text-gray-800 has-nav-link-icon">
               <div class="nav-link-icon">
                 <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-user-group"></use>
+                  <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
                 </svg>
               </div>
               <div class="ml-4">
-                <span class="block text-sm text-lg">Career &amp; Culture</span>
-                <span class="block text-xs text-gray-600">Learn to lead with empathy and master soft skills.</span>
+                <span class="block text-sm text-lg">{{ .Title }}</span>
+                <span class="block text-xs text-gray-600">{{.Params.description}}</span>
               </div>
             </a>
           </li>
-          <li>
-            <a href="/categories/webdev/" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-desktop-computer"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">DevOps</span>
-                <span class="block text-xs text-gray-600">Launch &amp; scale like a pro.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/categories/javascript/" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-code"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">JavaScript</span>
-                <span class="block text-xs text-gray-600">React, Vue, JAMSTACK, and everything in-between.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/categories/webdev/" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-globe"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">Web Development</span>
-                <span class="block text-xs text-gray-600">Stay up on standards, accessibility, and best practices.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/categories/software-engineering/" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-cog"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">Software Engineering</span>
-                <span class="block text-xs text-gray-600">New languages and tools to take your code to the next level.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/categories/cool-stuff/" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-sparkles"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">Cool Stuff</span>
-                <span class="block text-xs text-gray-600">Check out VR, IoT, and fun experiments.</span>
-              </div>
-            </a>
-          </li>
+            {{ end }}
+          {{ end }}
         </ul>
       </li>
       <li class="text-center lg:text-left">

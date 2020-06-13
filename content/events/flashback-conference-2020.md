@@ -1,18 +1,13 @@
 ---
-title: "Flashback Conference"
+title: Flashback Conference
 date: 2020-02-10T18:52:51-04:00
-categories:
-    - Web Standards
-    - Web Development
-    - JavaScript
-    - CSS
 days: 2
 location: The Abbey Orlando
 cost: 249
 banner: flashback_large.jpg
 homepage_banner: flashback.jpg
-description: "Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved."
-short_desc: "Flashback Conference is a 2-day front-end web development focused conference in Orlando, FL"
+description: Flashback Conference looks at new and cutting-edge web development, browser APIs and developer tooling, but adds the understanding how they've evolved.
+short_desc: Flashback Conference is a 2-day front-end web development focused conference in Orlando, FL
 draft: false
 featured: false
 styles: flashback.css
@@ -60,7 +55,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/kyle-simpson">
                     <img src="/img/speakers/portraits/KyleSimpson.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/getify"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/getify"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="https://me.getify.com/"><i class="fa fa-link"></i></a>
@@ -79,7 +74,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/estelle-weyl">
                     <img src="/img/speakers/portraits/EstelleWeyl.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/estellevw"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/estelle"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="http://www.standardista.com/"><i class="fa fa-link"></i></a>
@@ -100,7 +95,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/raymond-camden">
                     <img src="/img/speakers/portraits/RaymondCamden.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/raymondcamden"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/cfjedimaster"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="https://www.raymondcamden.com/"><i class="fa fa-link"></i></a>
@@ -120,7 +115,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/jay-hoffmann">
                     <img src="/img/speakers/portraits/JayHoffmann.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/JasonHoffmann"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="https://jayhoffmann.com/"><i class="fa fa-link"></i></a>
@@ -140,7 +135,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/burke-holland">
                     <img src="/img/speakers/portraits/BurkeHolland.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/burkeholland"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
@@ -160,7 +155,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/ben-ilegbodu">
                     <img src="/img/speakers/portraits/BenIlegbodu.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/benmvp"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/benmvp"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="http://www.benmvp.com/"><i class="fa fa-link"></i></a>
@@ -180,7 +175,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/david-khourshid">
                     <img src="/img/speakers/portraits/DavidKhourshid.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/davidkpiano"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://codepen.io/davidkpiano/"><i class="fa fa-link"></i></a>
@@ -200,7 +195,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/em-lazer-walker">
                     <img src="/img/speakers/portraits/EmLazerWalker.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/lazerwalker"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/lazerwalker"><i class="fab fa-github"></i></a>
                 <a class="sp-link" href="https://lazerwalker.com/"><i class="fa fa-link"></i></a>
@@ -220,7 +215,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/simon-macdonald">
                     <img src="/img/speakers/portraits/SimonMacDonald.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/macdonst"><i class="fab fa-twitter"></i></a>
                 <a class="sp-link" href="https://www.simonmacdonald.com/"><i class="fa fa-link"></i></a>
                 </figcaption>
@@ -239,7 +234,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/helena-mccabe">
                     <img src="/img/speakers/portraits/HelenaMcCabe.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fab fa-twitter"></i></a>
                 <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
                 </figcaption>
@@ -258,7 +253,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/alyssa-nicoll">
                     <img src="/img/speakers/portraits/AlyssaNicoll.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
                 <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
                 </figcaption>
@@ -277,7 +272,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/jenell-pizarro">
                     <img src="/img/speakers/portraits/JenellPizarro.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/nellarro"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/nellarro"><i class="fab fa-github"></i></a>
                 </figcaption>
@@ -296,7 +291,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/divya-tagtachian">
                     <img src="/img/speakers/portraits/DivyaSasidharan.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/shortdiv"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/shortdiv"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="http://shortdiv.com/"><i class="fa fa-link"></i></a>
@@ -316,7 +311,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/carlos-souza">
                     <img src="/img/speakers/portraits/CarlosSouza.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/caike"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/caike"><i class="fab fa-github"></i></i></a>
                 <a class="sp-link" href="https://csouza.me/"><i class="fa fa-link"></i></a>
@@ -336,7 +331,7 @@ We have a fantastic lineup of experts in frontend development, JavaScript and se
                 <a class="profile-img" href="/speakers/aysegul-yonet">
                     <img src="/img/speakers/portraits/AysegulYonet.png" alt="speaker">
                 </a>
-                <figcaption>   
+                <figcaption>
                 <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>
                 <a class="sp-gh" href="https://github.com/Yonet"><i class="fab fa-github"></i></i></a>
                 </figcaption>

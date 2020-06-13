@@ -51,14 +51,19 @@
         </svg>
         <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
       </li>
-
+      {{ if ne .Params.sessions nil }}
+        {{ $session := index .Params.sessions 0 }}
+        {{ with site.GetPage (print "/sessions/" $session) }}
+          {{ $category := index .Params.Categories 0 }}
+          {{ with site.GetPage (print "/categories/" $category) }}
       <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-        {{ range $category := first 1 .Params.Categories }}
           <a
             href="{{ "categories" | absURL }}/{{ $category | urlize }}"
-            class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{$category}}</a>
-        {{ end }}
+            class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{.Title}}</a>
       </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
     </ul>
   </header>
 

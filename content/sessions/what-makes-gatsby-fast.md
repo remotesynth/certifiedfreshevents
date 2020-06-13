@@ -2,18 +2,16 @@
 title: "What makes Gatsby sites so fast?"
 date: 2018-06-20T18:52:51-04:00
 speakers:
-    - shannon-soper
+  - shannon-soper
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/tools-for-the-modern-web
-        start_time: "30:18"
-    vimeo:
-        url: https://vimeo.com/428627846
-        length: "25:25"
-menu:
-  main:
-    parent: sessions
-    name: What Makes Gatsby Fast
+  crowdcast:
+      url: https://www.crowdcast.io/e/tools-for-the-modern-web
+      start_time: "30:18"
+  vimeo:
+      url: https://vimeo.com/428627846
+      length: "25:25"
+categories:
+  - webdev
 draft: false
 ---
 

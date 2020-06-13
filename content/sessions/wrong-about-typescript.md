@@ -2,15 +2,13 @@
 title: "Why I Was Wrong About TypeScript"
 date: 2017-08-23T18:52:51-04:00
 speakers:
-    - tj-vantoll
+  - tj-vantoll
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/rb68byb9
-        start_time: 31:08
-menu:
-  main:
-    parent: sessions
-    name: Wrong About Typescript
+  crowdcast:
+      url: https://www.crowdcast.io/e/rb68byb9
+      start_time: 31:08
+categories:
+  - javascript
 draft: false
 ---
 

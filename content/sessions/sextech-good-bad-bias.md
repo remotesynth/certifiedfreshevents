@@ -2,18 +2,16 @@
 title: "Sextech: The Good, the Bad & the Bias"
 date: 2019-09-19T18:52:51-04:00
 speakers:
-    - alison-falk
+  - alison-falk
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/sextech-the-good-the-bad
-        start_time: 03:25
-    vimeo:
-        url: https://vimeo.com/418485270
-        length: "32:27"
-menu:
-  main:
-    parent: sessions
-    name: Sextech
+  crowdcast:
+      url: https://www.crowdcast.io/e/sextech-the-good-the-bad
+      start_time: 03:25
+  vimeo:
+      url: https://vimeo.com/418485270
+      length: "32:27"
+categories:
+  - culture
 draft: false
 ---
 

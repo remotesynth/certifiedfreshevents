@@ -2,18 +2,17 @@
 title: "Serverless Go - Course Outline"
 date: 2019-03-08T18:52:51-04:00
 speakers:
-    - johnny-boursiquot
+  - johnny-boursiquot
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/serverless-go
-        start_time: 01:35
-    vimeo:
-        url: https://vimeo.com/418610032
-        length: "2:53:55"
-menu:
-  main:
-    parent: sessions
-    name: Serverless with Go
+  crowdcast:
+      url: https://www.crowdcast.io/e/serverless-go
+      start_time: 01:35
+  vimeo:
+      url: https://vimeo.com/418610032
+      length: "2:53:55"
+categories:
+  - software
+  - devops
 draft: false
 ---
 

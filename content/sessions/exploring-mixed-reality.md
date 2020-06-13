@@ -2,18 +2,16 @@
 title: "Exploring Mixed Reality for Good"
 date: 2019-04-25T18:52:51-04:00
 speakers:
-    - aysegul-yonet
+  - aysegul-yonet
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/exploring-mixed-reality
-        start_time: 02:39
-    vimeo:
-        url: https://vimeo.com/416554711
-        length: 24:33
-menu:
-  main:
-    parent: sessions
-    name: Mixed Reality
+  crowdcast:
+      url: https://www.crowdcast.io/e/exploring-mixed-reality
+      start_time: 02:39
+  vimeo:
+      url: https://vimeo.com/416554711
+      length: 24:33
+categories:
+  - stuff
 draft: false
 ---
 

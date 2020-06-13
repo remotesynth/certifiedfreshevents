@@ -2,18 +2,16 @@
 title: "The FaaS and the Serverless"
 date: 2019-01-22T18:52:51-04:00
 speakers:
-    - simon-macdonald
+  - simon-macdonald
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/javascript-for
-        start_time: "35:09"
-    vimeo:
-        url: https://vimeo.com/426541623
-        length: "28:38"
-menu:
-  main:
-    parent: sessions
-    name: FaaS and Serverless
+  crowdcast:
+      url: https://www.crowdcast.io/e/javascript-for
+      start_time: "35:09"
+  vimeo:
+      url: https://vimeo.com/426541623
+      length: "28:38"
+categories:
+  - software
 draft: false
 ---
 

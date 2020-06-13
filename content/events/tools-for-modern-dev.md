@@ -1,18 +1,10 @@
 ---
-title: "Tools for the Modern Web Developer"
-date: "2018-06-20"
-menu:
-  main:
-    parent: events
-    name: Modern Web Development
-categories:
-    - JavaScript
-    - JAMStack
-    - Web Development
+title: Tools for the Modern Web Developer
+date: 2018-06-20T12:00:00-04:00
 cost: 0
-homepage_banner: "Banner_Tools-For-The-Modern-Web-Developer.jpg"
-short_desc: "A look at some tools that can improve your development process."
-description: "Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby."
+homepage_banner: Banner_Tools-For-The-Modern-Web-Developer.jpg
+short_desc: A look at some tools that can improve your development process.
+description: Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby.
 embed_url: https://www.crowdcast.io/e/tools-for-the-modern-web
 sessions:
   - intro-to-codepen

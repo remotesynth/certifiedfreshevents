@@ -2,15 +2,13 @@
 title: "Creating an Art-making Twitter Bot with Machine Learning"
 date: 2018-02-16T18:52:51-04:00
 speakers:
-    - nick-walsh
+  - nick-walsh
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/demystifying-machine
-        start_time: 32:29
-menu:
-  main:
-    parent: sessions
-    name: Twitter Bot with ML
+  crowdcast:
+      url: https://www.crowdcast.io/e/demystifying-machine
+      start_time: 32:29
+categories:
+  - stuff
 draft: false
 ---
 

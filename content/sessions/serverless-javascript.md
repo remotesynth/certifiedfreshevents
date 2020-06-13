@@ -2,15 +2,13 @@
 title: "Serverless JavaScript OMG"
 date: 2017-10-20T18:52:51-04:00
 speakers:
-    - burke-holland
+  - burke-holland
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/mwtxogvi
-        start_time: 04:05
-menu:
-  main:
-    parent: sessions
-    name: Serverless with JavaScript
+  crowdcast:
+      url: https://www.crowdcast.io/e/mwtxogvi
+      start_time: 04:05
+categories:
+  - javascript
 draft: false
 ---
 

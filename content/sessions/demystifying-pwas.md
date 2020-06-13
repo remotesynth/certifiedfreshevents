@@ -2,16 +2,14 @@
 title: "Demystifying PWAs"
 date: 2020-03-25T18:52:51-04:00
 speakers:
-    - lee-warrick
+  - lee-warrick
 event: demystifying-pwas
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/demystifying-pwas
-        start_time: 03:39
-menu:
-  main:
-    parent: sessions
-    name: Demystifying PWAs
+  crowdcast:
+      url: https://www.crowdcast.io/e/demystifying-pwas
+      start_time: 03:39
+categories:
+  - webdev
 draft: false
 ---
 
