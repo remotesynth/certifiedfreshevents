@@ -7,8 +7,14 @@ const secondaryNav = document.getElementById('SecondaryNav');
 const searchToggler = document.querySelectorAll('[data-search-toggler]');
 const topSearch = document.getElementById('Search');
 
+const toggleModalEffect = () => {
+  const body = document.querySelector('body');
+  body.classList.toggle('modal-active');
+}
+
 navToggler.addEventListener('click', () => {
   siteNav.classList.toggle('sr-only');
+  toggleModalEffect();
 });
 
 searchToggler.forEach( (button) => {
@@ -18,6 +24,16 @@ searchToggler.forEach( (button) => {
     secondaryNav.classList.toggle('lg:sr-only');
   });
 });
+
+const surveyToggler = document.querySelector('[data-survey-toggler]');
+const surveyModal = document.getElementById('SurveyModal');
+
+if (surveyToggler) {
+  surveyToggler.addEventListener('click', () => {
+    surveyModal.classList.toggle('sr-only');
+    toggleModalEffect();
+  });
+}
 
 /* Carousel Helpers */
 document.addEventListener('glider-loaded', hideFFScrollBars);

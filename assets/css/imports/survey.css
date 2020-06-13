@@ -1,0 +1,19 @@
+.survey-cta {
+  @apply fixed z-50;
+  left: 50%;
+  bottom: 30px;
+  width: 90%;
+  max-width: 45ch;
+  transform: translateX(-50%);
+  @apply p-8 py-6;
+  @apply border border-gray-300 rounded shadow-xl;
+  @apply text-center;
+}
+
+@screen lg {
+  .survey-cta {
+    left: auto;
+    right: 30px;
+    @apply transform-none;
+  }
+}

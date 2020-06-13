@@ -17,16 +17,7 @@
             class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">Num</span>&nbsp;sessions</a>
         </div>
       </div>
-      <button class="glider-prev" aria-hidden="true" aria-label="Next" title="Next">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
-          <use xlink:href="/img/icons.svg#sm-arrow-left"></use>
-        </svg>
-      </button>
-      <button class="glider-next" aria-hidden="true" aria-label="Previous" title="Previous">
-        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
-          <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
-        </svg>
-      </button>
+      {{ partial "carousel-buttons.html" . }}
     </div>
   </div>
 </div>
