@@ -18,22 +18,25 @@
         class="button">Join Now. It's Free!</a>
     </header>
 
+    {{ $testimonial := index (shuffle site.Data.testimonials) 0 }}
+    {{ with $testimonial }}
     <div class="lg:w-1/3">
       <section class="flex flex-col items-center highlight-box-dots">
         <div class="-mb-8 highlight-avatar">
           <img
-            src="https://picsum.photos/240"
+            src="{{.image}}"
             alt="">
         </div>
         <blockquote class="relative z-0 p-6 pt-10 pl-20 mt-4 text-gray-900 bg-sand round-sm highlight-blockquote">
-          <p class="mb-4 text-lg font-medium">I learn a lot from these meetups that I can apply to my job right away. It's helped my confidence a lot.</p>
+          <p class="mb-4 text-lg font-medium">{{.quote}}</p>
           <footer>
-            <span class="text-xl font-semibold">Jane Smith</span><br/>
-            <span class="text-sm font-medium text-java">Front-End Developer at Netlify</span>
+            <span class="text-xl font-semibold">{{.name}}</span><br/>
+            <span class="text-sm font-medium text-java">{{.title}}</span>
           </footer>
         </blockquote>
       </section>
     </div>
+    {{ end }}
   </div>
 
 
