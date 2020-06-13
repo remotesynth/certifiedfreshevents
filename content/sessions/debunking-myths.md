@@ -6,7 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/vue-vixens-master-class
-        start_time: 39:54
+        start_time: "39:54"
+    vimeo:
+        url: https://vimeo.com/427862376
+        length: "18:02"
 menu:
   main:
     parent: sessions
