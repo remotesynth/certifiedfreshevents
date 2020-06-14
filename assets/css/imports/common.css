@@ -19,7 +19,7 @@
 .button {
   @apply inline-block;
   @apply px-4 py-2;
-  @apply text-xl font-bold text-white;
+  @apply text-xl font-bold text-center text-white;
   @apply bg-sky;
   @apply border border-current rounded;
 
@@ -33,7 +33,7 @@
 .button-ghost {
   @apply inline-block;
   @apply px-4 py-2;
-  @apply font-bold;
+  @apply text-xl font-bold text-center;
   @apply border border-b-2 border-current rounded;
 
   @apply transition-all duration-150 ease-in;

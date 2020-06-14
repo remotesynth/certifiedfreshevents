@@ -27,6 +27,6 @@
     "not dead"
   ],
   "scripts": {
-    "serve": "hugo serve --disableFastRender"
+    "serve": "hugo serve --disableFastRender --bind 0.0.0.0"
   }
 }

@@ -16,7 +16,7 @@ draft: false
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Discover Sessions</h1>
       <p class="max-w-3xl text-xl">
-        We have a huge library of session recordings from the top experts in development and technology across a wide range of topics.
+        We have a huge and evergrowing library of session from the top experts in development and technology across a wide range of topics.
       </p>
     </header>
   </div>
