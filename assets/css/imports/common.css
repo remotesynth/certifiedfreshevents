@@ -90,3 +90,19 @@
   @apply list-decimal;
 }
 
+/*
+  Handle Contrast
+*/
+
+.bg-carlo > svg,
+.bg-blue > svg,
+.bg-jelly > svg,
+.bg-salmon > svg {
+  @apply text-white;
+}
+
+.bg-lightBlue > svg,
+.bg-flower > svg {
+  @apply text-gray-700;
+}
+
