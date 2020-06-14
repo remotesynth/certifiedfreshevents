@@ -24,6 +24,8 @@ searchToggler.forEach( (button) => {
   });
 });
 
+
+/* Survay Modal */
 const survey = document.getElementById('Survey');
 const surveyModal = document.getElementById('SurveyModal');
 
@@ -46,6 +48,43 @@ if (!localStorage.getItem('doneSurvey') && survey) {
 
   survey.classList.remove('hidden');
 }
+
+/*
+  Setup Carousels
+  Note: Only 1 per page
+*/
+
+const carousel = document.querySelector('.carousel-list');
+
+let carouselConfig = {
+  resizeLock: true,
+  slidesToShow: 1,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+}
+
+if (carousel.hasAttribute('data-carousel-responsive')) {
+  carouselConfig['responsive'] = [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      }
+    }
+  ];
+}
+
+new Glider(carousel, carouselConfig);
 
 /* Carousel Helpers */
 document.addEventListener('glider-loaded', hideFFScrollBars);
