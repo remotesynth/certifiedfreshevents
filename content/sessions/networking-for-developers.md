@@ -12,6 +12,7 @@ recordings:
       length: "40:00"
 categories:
   - culture
+featured: true
 draft: false
 ---
 

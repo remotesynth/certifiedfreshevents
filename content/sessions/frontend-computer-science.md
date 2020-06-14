@@ -10,6 +10,7 @@ recordings:
 categories:
   - software
   - javascript
+featured: true
 draft: false
 ---
 

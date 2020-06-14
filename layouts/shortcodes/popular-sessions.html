@@ -6,7 +6,10 @@
 
         {{/* TODO: Inject carousel items */}}
         <div class="carousel-item carousel-item-thin">
-          {{/* <!-- Include session-card.html --> */}}
+          {{ $recorded := where (where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil) ".Params.featured" "eq" true }}
+          {{ range first 4 (shuffle $recorded) }}
+            {{ partial "session-card" . }}
+          {{ end }}
         </div>
 
       </div>

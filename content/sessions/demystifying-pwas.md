@@ -10,6 +10,7 @@ recordings:
       start_time: 03:39
 categories:
   - webdev
+featured: true
 draft: false
 ---
 
