@@ -30,8 +30,6 @@
 }
 
 .has-nav-link-icon:hover .nav-link-icon {
-  @apply bg-java;
-  @apply text-white;
   @apply transition-all duration-150 ease-in;
 }
 

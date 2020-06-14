@@ -59,19 +59,19 @@
           class="grid-cols-2 gap-6 p-6 menu menu-sessions">
           {{ range $key, $value := .Site.Taxonomies.categories}}
             {{ with site.GetPage (print "/categories/" $key) }}
-          <li>
-            <a href="{{.Permalink}}" class="flex block text-gray-800 has-nav-link-icon">
-              <div class="nav-link-icon">
-                <svg aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
-                </svg>
-              </div>
-              <div class="ml-4">
-                <span class="block text-sm text-lg">{{ .Title }}</span>
-                <span class="block text-xs text-gray-600">{{.Params.description}}</span>
-              </div>
-            </a>
-          </li>
+              <li>
+                <a href="{{.Permalink}}" class="flex block text-gray-800 has-nav-link-icon">
+                  <div class="nav-link-icon">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">{{ .Title }}</span>
+                    <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
+                  </div>
+                </a>
+              </li>
             {{ end }}
           {{ end }}
         </ul>
@@ -113,7 +113,7 @@
     </div>
 
     <form
-      class="flex items-stretch justify-center order-2 w-2/3 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      class="flex items-stretch justify-center order-2 w-2/3 px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
       id="Search">
       <label class="sr-only" for="search">Enter search terms</label>
       <input

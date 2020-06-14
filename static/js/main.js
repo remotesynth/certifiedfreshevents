@@ -14,7 +14,6 @@ const toggleModalEffect = () => {
 
 navToggler.addEventListener('click', () => {
   siteNav.classList.toggle('sr-only');
-  toggleModalEffect();
 });
 
 searchToggler.forEach( (button) => {
@@ -25,14 +24,27 @@ searchToggler.forEach( (button) => {
   });
 });
 
-const surveyToggler = document.querySelector('[data-survey-toggler]');
+const survey = document.getElementById('Survey');
 const surveyModal = document.getElementById('SurveyModal');
 
-if (surveyToggler) {
+if (!localStorage.getItem('doneSurvey') && survey) {
+  const surveyToggler = document.querySelector('[data-survey-toggler]');
+  const surveyDismiss = document.querySelector('[data-survey-dismiss]');
+
   surveyToggler.addEventListener('click', () => {
     surveyModal.classList.toggle('sr-only');
     toggleModalEffect();
   });
+
+  if (surveyDismiss) {
+    surveyDismiss.addEventListener('click', () => {
+      survey.remove();
+      surveyModal.remove();
+      localStorage.setItem('doneSurvey', true);
+    });
+  }
+
+  survey.classList.remove('hidden');
 }
 
 /* Carousel Helpers */
