@@ -10,6 +10,8 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
 
   <!-- Css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+
   {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
   {{ if .Site.IsServer }}
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
@@ -17,8 +19,6 @@
       {{ $styles := $styles| minify | fingerprint | resources.PostProcess }}
       <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ end }}
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">
