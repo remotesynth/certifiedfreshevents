@@ -97,7 +97,8 @@
 .bg-carlo > svg,
 .bg-blue > svg,
 .bg-jelly > svg,
-.bg-salmon > svg {
+.bg-salmon > svg,
+.bg-sky > svg {
   @apply text-white;
 }
 

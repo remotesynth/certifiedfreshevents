@@ -110,22 +110,21 @@
 
           <div class="flex flex-col space-y-6 md:flex-row md:space-y-0">
             <a href="/signup/" class="mr-2 text-sky button-ghost">Join Now</a>
-            <a href="/sessions/" class="inline-block px-8 py-2 font-bold link text-sky">View All Sessions</a>
+            <a href="/sessions/" class="inline-block px-8 py-2 text-xl font-bold link text-sky">View All Sessions</a>
           </div>
         </div>
       </header>
 
-      {{/*
-        TODO: Sessions go here. Include X amount using partial/session-card.html
-      */}}
+      {{ $recorded := where (where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil) ".Params.featured" "eq" true }}
+      {{ range first 6 (shuffle $recorded) }}
+          {{ partial "session-card" . }}
+      {{ end }}
 
       <a
         href="/signup/"
-        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text"><span>FOR FREE</span></strong> and get access to all {{ len (where .Site.RegularPages "Section" "==" "sessions" )}} sessions</a>
+        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text highlight-text-java"><span>FOR FREE</span></strong> and get access to all {{ len (where .Site.RegularPages "Section" "==" "sessions" )}} sessions</a>
     </div>
   </div>
-
-
 
   <!-- Speaker Spotlight -->
   {{ $speaker := index (shuffle .Params.featured_speakers) 0 }}
@@ -156,9 +155,9 @@
           </div>
         </div>
 
-        <p class="mb-6">{{.Content}}</p>
+        <div class="mb-6">{{.Content}}</div>
 
-        <a href="{{.Permalink}}" class="inline-block py-2 font-bold link text-sky">View Sessions by {{.Title}}</a>
+        <a href="{{.Permalink}}" class="inline-block py-2 text-xl font-bold link text-sky">View Sessions by {{.Title}}</a>
       </section>
       {{ end }}
     </div>
