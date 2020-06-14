@@ -96,7 +96,9 @@
 
 .bg-carlo > svg,
 .bg-blue > svg,
+.bg-java > svg,
 .bg-jelly > svg,
+.bg-red > svg,
 .bg-salmon > svg,
 .bg-sky > svg {
   @apply text-white;
