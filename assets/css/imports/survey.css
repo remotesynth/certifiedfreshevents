@@ -1,5 +1,5 @@
 .survey-cta {
-  @apply fixed z-50;
+  @apply fixed z-20;
   left: 50%;
   bottom: 30px;
   width: 90%;
