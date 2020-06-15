@@ -74,6 +74,10 @@
   @apply text-lg;
 }
 
+.content > * + * {
+  @apply mt-4;
+}
+
 .content h2 { @apply text-4xl; }
 .content h3 { @apply text-3xl; }
 .content h4 { @apply text-2xl; }

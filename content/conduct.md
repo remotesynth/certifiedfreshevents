@@ -17,7 +17,7 @@ draft: false
   </header>
 
   <div class="container max-w-3xl px-6 mx-auto">
-    <div class="space-y-4 content">
+    <div class="content">
 <!-- markdownlint-restore -->
 
 All attendees, speakers, sponsors and volunteers at our virtual meetups, live events or other organized activity, whether online or in-person, are required to agree with the following code of conduct. The organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
