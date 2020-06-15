@@ -7,11 +7,13 @@
   Styles here should represent the "base" after an initial reset.
 */
 
-.link {
+.link,
+.content a {
   @apply underline;
 }
 
-.link:hover {
+.link:hover,
+.content a:hover {
   @apply no-underline;
   @apply text-java;
 }
@@ -88,6 +90,10 @@
 .content li {
   @apply mb-3 ml-6;
   @apply list-decimal;
+}
+
+.content a {
+  @apply text-sky;
 }
 
 /*
