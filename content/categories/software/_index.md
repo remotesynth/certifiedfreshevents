@@ -6,4 +6,4 @@ pattern: signal
 color: sky
 ---
 
-The sessions listed here will introduce you to new languages, tools, or methodologies you can use to write and ship better code. Want to level up? You're in the right place!
+The sessions listed here will introduce you to languages, tools, or ideas you can use to level up. Many of these sessions touch on core concepts essential to modern development, such as scalable architecture and managing projects with Git. With such a range of topics, there’s something for developers of all levels.
