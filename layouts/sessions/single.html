@@ -86,22 +86,23 @@
           <iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe>
         </div>
       {{ else }}
-        <div
-          role="banner">
-          This event is being converted for improved playback.{{ if ne .crowdcast.start_time "00:00"}} This session starts at {{.crowdcast.start_time}}.{{ end }}
-        </div>
         <div class="block mx-auto bg-black embed-responsive">
-          <a
-            href="#"
-            target="_blank"
-            class="flex items-center justify-center w-full h-full anim bg-jelly hover:bg-sky">
-              <span class="inline-flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
-                <span class="inline-block mr-2">Open on Crowdcast</span>
-                <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-external-link"></use>
-                </svg>
-              </span>
-          </a>
+          <div
+            class="flex flex-col items-center justify-center w-full h-full bg-jelly"
+            role="banner">
+            <p class="px-6 mb-6 text-lg text-center text-white">This event is being converted for improved playback.{{ if ne .crowdcast.start_time "00:00"}} <strong>This session starts at {{.crowdcast.start_time}}</strong>.{{ end }}</p>
+            <a
+              href="{{.crowdcast.url}}"
+              target="_blank"
+              class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
+                <span class="inline-flex px-8 py-4">
+                  <span class="inline-block mr-2">Open on Crowdcast</span>
+                  <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
+                    <use xlink:href="/img/icons.svg#sm-external-link"></use>
+                  </svg>
+                </span>
+            </a>
+          </div>
         </div>
       {{ end }}
     {{ end }}

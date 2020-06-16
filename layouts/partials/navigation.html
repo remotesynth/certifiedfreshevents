@@ -42,6 +42,16 @@
               </a>
             </li>
           {{ end }}
+          <li>
+            <a
+              href="/events/"
+              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+              Discover Meetups
+              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </li>
       <li class="relative text-center has-menu lg:text-left">
@@ -60,7 +70,7 @@
           {{ range $key, $value := .Site.Taxonomies.categories}}
             {{ with site.GetPage (print "/categories/" $key) }}
               <li>
-                <a href="{{.Permalink}}" class="flex block text-gray-800 has-nav-link-icon">
+                <a href="{{.Permalink}}" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
                   <div class="nav-link-icon bg-{{.Params.color }}">
                     <svg aria-hidden="true">
                       <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
@@ -74,6 +84,18 @@
               </li>
             {{ end }}
           {{ end }}
+          {{/*
+          <li>
+            <a
+              href="/sessions/"
+              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+              Discover Sessions
+              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
+          */}}
         </ul>
       </li>
       <li class="text-center lg:text-left">
