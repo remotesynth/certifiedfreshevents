@@ -31,10 +31,9 @@
           <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
         </li>
 
-        {{ $speakers := $.Scratch.Get "speakers" }}
-        {{ if $speakers }}
+        {{ if .Params.speakers }}
         <li class="flex items-center font-medium leading-tight">
-          {{ range $speaker := $speakers }}
+          {{ range $speaker := first 1 .Params.speakers }}
             {{ with site.GetPage (print "/speakers/" $speaker) }}
               <img
                 src="/img/speakers/{{.Params.speaker_image}}"
