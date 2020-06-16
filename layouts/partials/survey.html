@@ -11,8 +11,8 @@
 </section>
 
 <div class="sr-only modal" id="SurveyModal">
-  <button class="absolute p-4 close-button" onclick="surveyModal.classList.toggle('sr-only');toggleModalEffect();">
-    <svg class="inline-block w-8 h-8 text-gray-900 fill-current">
+  <button class="absolute p-4 close-button" aria-label="Toggle Survey Modal" onclick="surveyModal.classList.toggle('sr-only');toggleModalEffect();">
+    <svg aria-hidden="true" class="inline-block w-8 h-8 text-gray-900 fill-current">
       <use xlink:href="/img/icons.svg#sm-x"></use>
     </svg>
   </button>
@@ -35,17 +35,17 @@
       class="max-w-md px-8 pt-8 pb-12 mx-auto mb-10 border border-gray-300 rounded shadow-xl">
 
       <div class="mb-8">
-        <label for="text" class="label">Email Address</label>
+        <label for="SurveyEmail" class="label">Email Address</label>
         <input
           type="text"
-          id="text"
+          id="Survey-Email"
           class="w-full field"
           required>
       </div>
 
       <div class="mb-8">
-        <label for="text" class="label">What best describes your role?</label>
-        <select class="w-full field select" required>
+        <label for="Survey-Role" class="label">What best describes your role?</label>
+        <select id="Survey-Role" class="w-full field select" required>
           <option>Developer</option>
           <option>Designer</option>
           <option>Product Management</option>
@@ -53,8 +53,8 @@
         </select>
       </div>
 
-      <div class="mb-8">
-        <label for="text" class="block mb-3 label">How many years of experience do you have?</label>
+      <fieldset class="mb-8">
+        <legend class="block mb-3 label">How many years of experience do you have?</legend>
         <ul class="grid grid-cols-2 row-gap-3 col-gap-3">
           <li>
             <label class="block">
@@ -87,10 +87,10 @@
             </label>
           </li>
         </ul>
-      </div>
+      </fieldset>
 
-      <div class="mb-8">
-        <label for="text" class="block mb-3 label">Which topics interest you most?</label>
+      <fieldset class="mb-8">
+        <legend class="block mb-3 label">Which topics interest you most?</legend>
         <ul class="grid grid-cols-2 row-gap-3 col-gap-3">
           <li>
             <label class="block">
@@ -142,7 +142,7 @@
           </li>
         </ul>
         <p class="mt-3 text-sm italic text-red">Please make a selection.</p>
-      </div>
+      </fieldset>
 
 
       <div class="flex justify-end">
