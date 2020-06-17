@@ -1,10 +1,6 @@
+HUGO_VERSION = "0.69.2"
+NODE_VERSION="12.16.1"
 [build]
   functions = "./lambda"
 [dev]
   command = "hugo serve --buildFuture"
-[context]
-    [context.production]
-        [context.production.environment]
-            HUGO_VERSION = "0.69.2"
-            HUGO_ENV = "production"
-            NODE_VERSION="12.16.1"
