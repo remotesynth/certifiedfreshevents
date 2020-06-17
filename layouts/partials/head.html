@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   {{ else }}
       {{ $styles := $styles| minify | fingerprint | resources.PostProcess }}
-      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
   {{ end }}
 
   <!-- Favicons -->
