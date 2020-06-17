@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://cfe.dev/contact/about/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
   
   <url>
     <loc>https://cfe.dev/events/</loc>
@@ -13,47 +8,12 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/contact/golang-scholarship/</loc>
-    <lastmod>2018-07-23T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/iot-scholarship/</loc>
-    <lastmod>2018-07-23T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/thanks/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/scholarship-submitted/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/knowjs-scholarship/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/recordings/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/sponsors/</loc>
+    <loc>https://cfe.dev/sessions/</loc>
     <lastmod>2017-07-12T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/subscribe/</loc>
-    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/contact/contact/</loc>
     <lastmod>2017-07-12T18:52:51-04:00</lastmod>
   </url>
   
@@ -68,23 +28,103 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/events/vue-workshop/</loc>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/vue-workshop/</loc>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/categories/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/categories/css/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/</loc>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/categories/webdev/</loc>
+    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/categories/devops/</loc>
+    <lastmod>2020-05-20T12:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/kubernetes-openshift/</loc>
+    <lastmod>2020-05-20T12:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/kubernetes-openshift/</loc>
+    <lastmod>2020-05-20T12:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/jamstack-ftw/</loc>
+    <lastmod>2020-05-15T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/jamstack-gridsome/</loc>
+    <lastmod>2020-05-15T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/categories/javascript/</loc>
+    <lastmod>2020-05-15T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/command-line-github/</loc>
+    <lastmod>2020-05-04T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/github-cli/</loc>
+    <lastmod>2020-05-04T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/get-started-with-openwhisk/</loc>
+    <lastmod>2020-04-09T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/serverless-with-openwhisk/</loc>
+    <lastmod>2020-04-09T15:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/demystifying-pwas/</loc>
+    <lastmod>2020-03-25T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/demystifying-pwas/</loc>
+    <lastmod>2020-03-25T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/getting-started-serverless/</loc>
+    <lastmod>2020-02-21T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/getting-started-serverless/</loc>
+    <lastmod>2020-02-21T18:52:51-04:00</lastmod>
   </url>
   
   <url>
@@ -93,28 +133,48 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/javascript/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
+    <loc>https://cfe.dev/sessions/14-rules-redux/</loc>
+    <lastmod>2020-01-17T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/web-development/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
+    <loc>https://cfe.dev/events/improving-website-performance/</loc>
+    <lastmod>2020-01-17T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/web-standards/</loc>
-    <lastmod>2020-02-10T18:52:51-04:00</lastmod>
+    <loc>https://cfe.dev/events/visual-development/</loc>
+    <lastmod>2019-12-18T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/visual-development-future/</loc>
+    <lastmod>2019-12-18T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/understand-machine-learning/</loc>
+    <lastmod>2019-11-22T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/building-iot-apps-2019/</loc>
+    <lastmod>2019-11-20T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/categories/stuff/</loc>
+    <lastmod>2019-11-20T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/building-iot-apps-2019/</loc>
-    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-20T12:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/iot/</loc>
-    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+    <loc>https://cfe.dev/events/networking-for-developers/</loc>
+    <lastmod>2019-10-31T18:52:51-04:00</lastmod>
   </url>
   
   <url>
@@ -123,7 +183,7 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/events/networking-for-developers/</loc>
+    <loc>https://cfe.dev/sessions/networking-for-developers/</loc>
     <lastmod>2019-10-31T18:52:51-04:00</lastmod>
   </url>
   
@@ -133,7 +193,12 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/dotnet/</loc>
+    <loc>https://cfe.dev/sessions/sextech-good-bad-bias/</loc>
+    <lastmod>2019-09-19T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/blazor-silverlight-done-right/</loc>
     <lastmod>2019-07-31T18:52:51-04:00</lastmod>
   </url>
   
@@ -143,7 +208,42 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/categories/software/</loc>
+    <lastmod>2019-07-31T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/aimee-knight/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/alison-falk/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/speakers/alyssa-nicoll/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/amanda-loftis/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/andrea-griffiths/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/andy-barnov/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/ayan-george/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
@@ -158,7 +258,22 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/speakers/bobby-johnson/</loc>
+    <loc>https://cfe.dev/speakers/bianca-gandolfo/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/brad-marsh/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/brandon-satrom/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/brian-leroux/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
@@ -173,12 +288,27 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/speakers/chris-coyier/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/christina-aldan/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/speakers/david-khourshid/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/speakers/divya-sasidharan/</loc>
+    <loc>https://cfe.dev/speakers/diana-rodriguez/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/divya-tagtachian/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
@@ -188,12 +318,42 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/speakers/estelle-weyl/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/gift-egwuenu/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/speakers/helena-mccabe/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/speakers/jay-hoffman/</loc>
+    <loc>https://cfe.dev/speakers/henri-helvetica/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/holly-schinsky/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/james-thomas/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/jay-hoffmann/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/jem-young/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
@@ -208,7 +368,112 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/speakers/jeremy-likness/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/jo-franchetti/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/johnny-boursiquot/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/jory-burson/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/kent-c-dodds/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/kyle-simpson/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/lee-warrick/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/marek-sadowski/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/mary-thengvall/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/natalia-tepluhina/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/nick-walsh/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/paige-bailey/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/paul-decarlo/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/phil-hawksworth/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/pwa-how-did-we-get-here/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/speakers/raymond-camden/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/rizchel-wood/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/robert-wozniak/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/sebastian-witalec/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/shannon-soper/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/shannon-vettes/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/simon-macdonald/</loc>
     <lastmod>2019-07-24T18:52:51-04:00</lastmod>
   </url>
   
@@ -218,7 +483,42 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/career/</loc>
+    <loc>https://cfe.dev/speakers/tammy-everts/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/tara-manicsic/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/humble-radio-button/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/tj-vantoll/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/tomomi-imura/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/upkar-lidder/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/speakers/wesley-faulkner/</loc>
+    <lastmod>2019-07-24T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/developer-relations/</loc>
     <lastmod>2019-06-25T18:52:51-04:00</lastmod>
   </url>
   
@@ -228,8 +528,13 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/introduction-to-vue/</loc>
+    <lastmod>2019-05-23T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/intro-to-vue/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-23T12:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -238,42 +543,112 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/virtual-reality/</loc>
+    <loc>https://cfe.dev/sessions/exploring-mixed-reality/</loc>
     <lastmod>2019-04-25T18:52:51-04:00</lastmod>
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/building-a-chatbot/</loc>
+    <lastmod>2019-03-27T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/chat-bots-crash-course/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-27T12:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/bots/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/categories/golang/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/categories/serverless/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <loc>https://cfe.dev/sessions/serverless-go/</loc>
+    <lastmod>2019-03-08T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/serverless-go/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-08T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/imposter-syndrome/</loc>
+    <lastmod>2019-02-22T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/imposter-syndrome/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-22T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/dark-ui-patterns/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/fostering-local-community/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/fouc-progressive-enhancement/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/dhtml-to-css-variables/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/future-of-webxr/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/jamstack-hits-the-spot/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/webdev-like-1999/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/scaling-battle-royale/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/cgi-to-serverless/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/good-bad-serverless/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/web-accessibility/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/what-happened-webmaster/</loc>
+    <lastmod>2019-02-10T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/enterprise-react-apps/</loc>
+    <lastmod>2019-01-22T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/enterprise-javascript/</loc>
+    <lastmod>2019-01-22T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/faas-and-serverless/</loc>
     <lastmod>2019-01-22T18:52:51-04:00</lastmod>
   </url>
   
@@ -283,7 +658,27 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/learning-web-your-own-way/</loc>
+    <lastmod>2018-11-27T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/webdev-complicated/</loc>
+    <lastmod>2018-11-27T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/sql-helper-go/</loc>
+    <lastmod>2018-10-30T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/going-great-with-go/</loc>
+    <lastmod>2018-10-30T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/serverless-go-aws/</loc>
     <lastmod>2018-10-30T18:52:51-04:00</lastmod>
   </url>
   
@@ -293,43 +688,98 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/payment-request-handler/</loc>
+    <lastmod>2018-10-09T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/ethics-software-engineering/</loc>
     <lastmod>2018-09-18T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/events/building-iot-apps/</loc>
-    <lastmod>2018-08-29T00:00:00+00:00</lastmod>
+    <loc>https://cfe.dev/sessions/ethics-software-engineering/</loc>
+    <lastmod>2018-09-18T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/events/bots-iot-ai/</loc>
+    <loc>https://cfe.dev/sessions/building-iot-apps-2018/</loc>
+    <lastmod>2018-08-29T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/events/building-iot-apps/</loc>
+    <lastmod>2018-08-29T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/conversational-interface-javascript/</loc>
     <lastmod>2018-08-10T18:52:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/contact/</loc>
-    <lastmod>2018-07-23T18:52:51-04:00</lastmod>
+    <loc>https://cfe.dev/events/bots-iot-ai/</loc>
+    <lastmod>2018-08-10T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/intro-to-graphql-apollo/</loc>
+    <lastmod>2018-07-17T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/debunking-myths/</loc>
+    <lastmod>2018-07-17T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/machine-learning-for-poets/</loc>
+    <lastmod>2018-07-17T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/vue-vixens-master-class-1/</loc>
-    <lastmod>2018-07-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-17T12:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/jamstack/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <loc>https://cfe.dev/sessions/intro-to-codepen/</loc>
+    <lastmod>2018-06-20T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/what-makes-gatsby-fast/</loc>
+    <lastmod>2018-06-20T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/tools-for-modern-dev/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-20T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/why-jamstack/</loc>
+    <lastmod>2018-05-23T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/jamstack/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-23T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/frontend-computer-science/</loc>
+    <lastmod>2018-04-13T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/open-source-your-stuff/</loc>
+    <lastmod>2018-04-13T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/functional-javascript/</loc>
+    <lastmod>2018-04-13T18:52:51-04:00</lastmod>
   </url>
   
   <url>
@@ -338,8 +788,28 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/promises-generators-async/</loc>
+    <lastmod>2018-04-13T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/better-with-failure/</loc>
+    <lastmod>2018-04-05T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/developing-success/</loc>
     <lastmod>2018-04-05T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/innovating-technology/</loc>
+    <lastmod>2018-04-05T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/twitter-bot/</loc>
+    <lastmod>2018-02-16T18:52:51-04:00</lastmod>
   </url>
   
   <url>
@@ -348,7 +818,7 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/machine-learning/</loc>
+    <loc>https://cfe.dev/sessions/intro-to-ai/</loc>
     <lastmod>2018-02-16T18:52:51-04:00</lastmod>
   </url>
   
@@ -358,8 +828,23 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/performance/</loc>
+    <loc>https://cfe.dev/sessions/its-not-dark-magic/</loc>
     <lastmod>2018-01-17T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/unicorn-performance-metric/</loc>
+    <lastmod>2018-01-17T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/ruby-messenger-bot/</loc>
+    <lastmod>2017-12-15T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/serverless-easy-mode/</loc>
+    <lastmod>2017-12-15T18:52:51-04:00</lastmod>
   </url>
   
   <url>
@@ -373,7 +858,22 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/oh-no-you-didnt/</loc>
+    <lastmod>2017-11-09T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/going-serverless/</loc>
+    <lastmod>2017-10-20T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/serverless-framework/</loc>
+    <lastmod>2017-10-20T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/serverless-javascript/</loc>
     <lastmod>2017-10-20T18:52:51-04:00</lastmod>
   </url>
   
@@ -383,13 +883,53 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/sessions/preact-up-and-running/</loc>
+    <lastmod>2017-10-05T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/point-of-vue/</loc>
+    <lastmod>2017-10-05T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/from-bits-and-bytes/</loc>
+    <lastmod>2017-09-22T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/events/iot-for-fun-and-profit/</loc>
+    <lastmod>2017-09-22T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/making-smart-home-fun/</loc>
     <lastmod>2017-09-22T18:52:51-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://cfe.dev/events/javascript-2017/</loc>
     <lastmod>2017-08-23T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/es6-es7-where-to-start/</loc>
+    <lastmod>2017-08-23T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/sessions/wrong-about-typescript/</loc>
+    <lastmod>2017-08-23T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/contact/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
   </url>
   
   <url>

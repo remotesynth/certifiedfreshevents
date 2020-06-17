@@ -1,720 +1,1092 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.58.3" />
+	<meta name="generator" content="Hugo 0.69.2" />
   <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Certified Fresh Events</title>
-	<meta name="description" content="Certified Fresh Events LLC specializes in creating and organizing events around technology, development/programming and IT." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Virtual Meetups and Sessions for Technologists / CFE.dev</title>
+	<meta
+    name="description"
+    content="CFE.dev offers a large library of recorded sessions on a wide range of development &amp; technology topics live &amp; interactive virtual meetups featuring the experts." />
 
   
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
 
   
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/font-icons.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/colors/violet.css" />
-
-	
-	<link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/img/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/img/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/img/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/img/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/img/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/img/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/img/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/img/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/img/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/ico/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/img/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-  <link rel="shortcut icon" href="/img/favicon.ico">
-	
-	
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 
   
-	<script src="/js/lazysizes.min.js"></script>
+  
+      
+      <link rel="stylesheet" href="https://cfe.dev/css/styles.min.0af99e6b109862751ad0349e87fd35d70bba03b0ee4378e588cc13283083ae0e.css" integrity="sha256-CvmeaxCYYnUa0DSeh/011wu6A7DuQ3jliMwTKDCDrg4=">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/img/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/ico/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
+  
+
+  
+
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
+
 		ga('create', 'UA-103561809-1', 'auto');
 		ga('send', 'pageview');
-	
+
 	</script>
-	<script src="https://kit.fontawesome.com/74ff27af0b.js"></script>
+	
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '402803547299150');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1"
+		src="https://www.facebook.com/tr?id=402803547299150&ev=PageView
+		&noscript=1"/>
+	</noscript>
+	
+	
 </head>
 
-<body class="style-videos">
 
-  
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
-    </div>
-  </div>
+<body class="antialiased">
 
-  
-  <div class="content-overlay"></div>
+<nav class="site-nav">
+  <a href="/" class="flex items-center flex-shrink-0 mr-10">
+    <img
+      src="/img/logo.svg"
+      alt="CFE.dev"
+      class="h-16 lg:h-20">
+  </a>
 
+  <button
+    class="flex items-center px-3 py-2 border rounded lg:hidden"
+    data-nav-toggler>
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+  </button>
 
-      
-  <header class="sidenav" id="sidenav">
+  <div
+    class="flex flex-col block w-full sr-only lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only"
+    id="SiteNav">
+    <ul
+      class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"
+      id="PrimaryNav">
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="/events/"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          Upcoming Meetups
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
 
-  
-  <div class="sidenav__close">
-    <button class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">
-      <i class="ui-close sidenav__close-icon"></i>
-    </button>
-  </div>
-  
-  <nav class="sidenav__menu-container">
-    <ul class="sidenav__menu" role="menubar">
-      <li>
-        <a href="/index.html" class="sidenav__menu-url">Home</a>
-      </li>
-      
-      
         
-        <li>
-          <a href="/events/" class="sidenav__menu-url">Upcoming Events</a>
-          
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            
-            <li><a href="/events/flashback-conference-2020/" class="sidenav__menu-url">Flashback Conference</a></li>
-            
-            <li><a href="/events/building-iot-apps-2019/" class="sidenav__menu-url">IoT Training 2019</a></li>
-            
-            <li><a href="/events/networking-for-developers/" class="sidenav__menu-url">October 2019</a></li>
-            
-            
-          </ul>
-        </li>
-        
-      
-        
-        <li>
-          <a href="/recordings/" class="sidenav__menu-url">Recorded Events</a>
-          
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            
-            <li><a href="/events/developing-success/" class="sidenav__menu-url">April 2018</a></li>
-            
-            <li><a href="/events/mixed-reality/" class="sidenav__menu-url">April 2019</a></li>
-            
-            <li><a href="/events/javascript-2017/" class="sidenav__menu-url">August 2017</a></li>
-            
-            <li><a href="/events/bots-iot-ai/" class="sidenav__menu-url">August 2018</a></li>
-            
-            <li><a href="/events/future-of-development/" class="sidenav__menu-url">December 2017</a></li>
-            
-            <li><a href="/events/machine-learning/" class="sidenav__menu-url">February 2018</a></li>
-            
-            <li><a href="/events/imposter-syndrome/" class="sidenav__menu-url">February 2019</a></li>
-            
-            <li><a href="/events/building-iot-apps/" class="sidenav__menu-url">IoT Training 2018</a></li>
-            
-            <li><a href="/events/improving-your-apps/" class="sidenav__menu-url">January 2018</a></li>
-            
-            <li><a href="/events/enterprise-javascript/" class="sidenav__menu-url">January 2019</a></li>
-            
-            
-            <li><a href="/recordings/" class="sidenav__menu-url">More</a></li>
-            
-          </ul>
-        </li>
-        
-      
-        
-        <li>
-          <a href="/subscribe/" class="sidenav__menu-url">Subscribe</a>
-          
-      
-        
-        <li>
-          <a href="/speakers/" class="sidenav__menu-url">Speakers</a>
-          
-      
-        
-        <li>
-          <a href="/conduct/" class="sidenav__menu-url">Code of Conduct</a>
+        <ul
+          class="space-y-6 menu menu-meetups">
           
           
 
-      
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Bots</a>
+          
+        </ul>
       </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Career</a>
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="/sessions/"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:text-lg lg:mt-0 lg:text-left">
+          Sessions
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block " aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        
+        <ul
+          class="grid-cols-2 gap-6 p-6 menu menu-sessions">
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/culture/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-carlo">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-user-group"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">Career &amp; Culture</span>
+                    <span class="block text-xs text-gray-600">Learn to lead with empathy and master soft skills.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/devops/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-salmon">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-desktop-computer"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">DevOps</span>
+                    <span class="block text-xs text-gray-600">Launch &amp; scale high performance apps like a pro.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/javascript/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-flower">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-code"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">JavaScript</span>
+                    <span class="block text-xs text-gray-600">React, Vue, JAMSTACK, and everything in-between.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/software/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-sky">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-cog"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">Software Engineering</span>
+                    <span class="block text-xs text-gray-600">New languages and tools to take your code to the next level.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/stuff/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-lightBlue">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-sparkles"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">Cool Stuff</span>
+                    <span class="block text-xs text-gray-600">Check out VR, IoT, and fun experiments.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://cfe.dev/categories/webdev/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-jelly">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#sm-globe"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">Web Development</span>
+                    <span class="block text-xs text-gray-600">Stay up on standards, accessibility, and best practices.</span>
+                  </div>
+                </a>
+              </li>
+            
+          
+          
+        </ul>
       </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Css</a>
+      <li class="text-center lg:text-left">
+        <a
+          href="/speakers/"
+          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
+          Speakers
+        </a>
       </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Culture</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Dotnet</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Golang</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Iot</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Jamstack</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Javascript</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Machine learning</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Performance</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Serverless</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Virtual reality</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Web development</a>
-      </li>
-      
-      <li>
-        <a href="" class="sidenav__menu-url">Web standards</a>
-      </li>
-      
     </ul>
-  </nav>
-  <div class="socials sidenav__socials"> 
-    <a class="social social-twitter" href="https://twitter.com/fresheventsfl" target="_blank" aria-label="twitter">
-      <i class="ui-twitter"></i>
-    </a>
-    <a class="social social-youtube" href="https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg" target="_blank" aria-label="youtube">
-      <i class="ui-youtube"></i>
-    </a>
-    <a class="social social-instagram" href="https://www.instagram.com/certifiedfreshevents/" target="_blank" aria-label="instagram">
-      <i class="ui-instagram"></i>
-    </a>
+    <div
+      class="flex flex-wrap items-center justify-center order-3 lg:justify-end lg:flex-grow lg:order-2"
+      id="SecondaryNav">
+
+      
+      <button
+        class="hidden font-bold text-gray-700 border-b-8 border-transparent hover:border-java lg:mr-6 lg:inline-block" aria-hidden="true"
+        data-search-toggler
+        aria-label="Toggle Search">
+        <svg class="inline-block w-8 h-8 fill-current">
+          <use xlink:href="/img/icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+
+      <a
+        href="/login/"
+        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:inline-block lg:mt-0 lg:text-left ">
+        Log In
+      </a>
+      <a
+        href="/signup/"
+        class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
+        <span class="block mb-2 text-xs">Get FULL Access</span>
+        <span class="block font-bold">Join Now</span>
+      </a>
+    </div>
+
+    <form
+      class="flex items-stretch justify-center order-2 w-full px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      id="Search">
+      <label class="sr-only" for="search">Enter search terms</label>
+      <input
+        type="text"
+        id="search"
+        placeholder="Enter search terms"
+        autocomplete="off"
+        class="w-64 mr-1 field lg:w-auto">
+      <button
+        type="submit"
+        class="button">
+        <svg class="inline-block w-8 h-8 fill-current" aria-hidden="true">
+          <use xlink:href="/img/icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+
+      <button
+        class="items-center justify-center hidden w-12 h-12 ml-2 close-button lg:inline-flex"
+        aria-hidden="true"
+        data-search-toggler
+        aria-label="Toggle Search">
+         <svg class="inline-block w-8 h-8 text-gray-900 fill-current">
+          <use xlink:href="/img/icons.svg#sm-x"></use>
+        </svg>
+      </button>
+    </form>
   </div>
-</header> 
+</nav>
 
-  <main class="main oh" id="main">
+
+
+
+
+
+<main class="mt-12 lg:mt-20">
+  <div class="container px-6 pb-24 mx-auto md:flex">
+    <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
+      <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">Friendly Online Meetups for Developers</h1>
+      <p class="mb-6 text-xl md:text-2xl">Learn alongside hundreds of developers like you. Join live, welcoming events where you can connect with speakers, or watch sessions later at your own pace.</p>
+      <a
+        href="/signup/"
+        class="button">Join Now. It's Free!</a>
+    </header>
 
     
-<div class="top-bar d-none d-lg-block">
-    <div class="container">
-      <div class="row">
-
-        
-        <div class="col-lg-6">
-          <ul class="top-menu">
-          
-          
-            <li><a href="/contact/about/">About</a></li>
-          
-            <li><a href="/contact/sponsors/">Sponsor</a></li>
-          
-            <li><a href="/contact/contact/">Contact Us</a></li>
-          
-          </ul>
+    
+    <div class="lg:w-1/3">
+      <section class="flex flex-col items-center highlight-box-dots">
+        <div class="-mb-8 highlight-avatar">
+          <img
+            src="/img/speakers/ayangeorge.jpg"
+            alt="">
         </div>
-        
-        
-        <div class="col-lg-6">
-          <div class="socials nav__socials socials--nobase socials--white justify-content-end"> 
-            
-            <a class="social social-twitter" href="https://twitter.com/fresheventsfl" target="_blank" aria-label="twitter">
-              <i class="ui-twitter"></i>
-            </a>
-            <a class="social social-youtube" href="https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg" target="_blank" aria-label="youtube">
-              <i class="ui-youtube"></i>
-            </a>
-            <a class="social social-instagram" href="https://instagram.com/certifiedfreshevents" target="_blank" aria-label="instagram">
-              <i class="ui-instagram"></i>
-            </a>
+        <blockquote class="relative z-0 max-w-full p-6 pt-10 pl-16 mt-4 text-gray-900 md:max-w-none bg-sand round-sm highlight-blockquote">
+          <p class="mb-4 text-lg font-medium">I learn a lot from these meetups that I can apply to my job right away. It&#39;s helped my confidence a lot.</p>
+          <footer>
+            <span class="text-xl font-semibold">Bob Smith</span><br/>
+            <span class="text-sm font-medium text-java">Beck-End Developer at Weblify</span>
+          </footer>
+        </blockquote>
+      </section>
+    </div>
+    
+  </div>
+
+
+
+  
+  <div class="container px-6 py-12 mx-auto lg:flex">
+    <header class="mb-10 lg:mb-0 lg:w-1/2 lg:mr-20">
+      <h2 class="mb-6 text-4xl">Upcoming Meetups <br>with <strong>Live Energy</strong></h2>
+
+      <p class="mb-8 text-lg">Join us for upcoming, live meetups. These are twice-monthly (or more!) and feature presentations from your favorite technologists.</p>
+
+      <ul class="space-y-6">
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-chat-alt-2"></use>
+            </svg>
           </div>
-        </div>
-
-      </div>
-    </div>
-  </div>         
-
-    
-<header class="nav">
-    <div class="nav__holder nav--sticky">
-        <div class="container relative">
-        <div class="flex-parent">
-
-            
-            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
-            <span class="nav-icon-toggle__box">
-                <span class="nav-icon-toggle__inner"></span>
-            </span>
-            </button> 
-
-            
-            <a href="/index.html" class="logo">
-            <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="Certified Fresh Events">
-            </a>
-
-            
-            <nav class="flex-child nav__wrap d-none d-lg-block">              
-            <ul class="nav__menu">
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-            
-            
-                
-                <li class="nav__dropdown">
-                <a href="/events/">Upcoming Events</a>
-                
-                <ul class="nav__dropdown-menu">
-                    
-                    
-                    <li><a href="/events/flashback-conference-2020/">Flashback Conference</a></li>
-                    
-                    <li><a href="/events/building-iot-apps-2019/">IoT Training 2019</a></li>
-                    
-                    <li><a href="/events/networking-for-developers/">October 2019</a></li>
-                    
-                    
-                </ul>
-                
-                </li>
-            
-                
-                <li class="nav__dropdown">
-                <a href="/recordings/">Recorded Events</a>
-                
-                <ul class="nav__dropdown-menu">
-                    
-                    
-                    <li><a href="/events/sextech/">September 2019</a></li>
-                    
-                    <li><a href="/events/csharp-blazor/">July 2019</a></li>
-                    
-                    <li><a href="/events/developer-relations/">June 2019</a></li>
-                    
-                    <li><a href="/events/intro-to-vue/">May 2019</a></li>
-                    
-                    <li><a href="/events/mixed-reality/">April 2019</a></li>
-                    
-                    <li><a href="/events/chat-bots-crash-course/">March 2019</a></li>
-                    
-                    <li><a href="/events/serverless-go/">Serverless Go Training</a></li>
-                    
-                    <li><a href="/events/imposter-syndrome/">February 2019</a></li>
-                    
-                    <li><a href="/events/enterprise-javascript/">January 2019</a></li>
-                    
-                    <li><a href="/events/web-development-difficult/">November 2018</a></li>
-                    
-                    
-                    <li><a href="/recordings/">More...</a></li>
-                    
-                </ul>
-                
-                </li>
-            
-                
-                <li>
-                <a href="/subscribe/">Subscribe</a>
-                
-                </li>
-            
-                
-                <li>
-                <a href="/speakers/">Speakers</a>
-                
-                </li>
-            
-                
-                <li>
-                <a href="/conduct/">Code of Conduct</a>
-                
-                </li>
-            
-
-            </ul> 
-            </nav> 
-
-            
-            <div class="nav__right">
-
-            
-            <div class="nav__right-item nav__search">
-                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
-                <i class="ui-search nav__search-trigger-icon"></i>
-                </a>
-                <div class="nav__search-box" id="nav__search-box">
-                <form class="nav__search-form">
-                    <input type="text" id="search" placeholder="Search an article" class="nav__search-input" autocomplete="off">
-                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
-                    <i class="ui-search nav__search-icon"></i>
-                    </button>
-                </form>
-                <ul id="results">
-                </ul>
-                </div>
-            </div>
-
-            </div>             
-        
-        </div> 
-        </div> 
-
-    </div>
-</header>   
-
-          
-    <section class="featured-posts-grid featured-posts-grid--1">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-6">
-            
-              <article class="entry thumb thumb--size-4">
-  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/medium/flashback.jpg');">
-    <div class="bottom-gradient"></div>
-    <div class="thumb-text-holder thumb-text-holder--3">
-      
-      <a href="https://cfe.dev/categories/web-standards" class="entry__meta-category entry__meta-category--label entry__meta-category--violet">Web Standards</a>
-      
-      
-      <ul class="entry__meta">
-        <li class="entry__meta-date">
-            2/10 9:00am EST - 2/11 5:00pm EST
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Engage with speakers</span>
+            <span class="block w-4/5 text-sm text-gray-700">You'll ask questions and get a real-time response from approachable speakers.</span>
+          </div>
+        </li>
+        <li class="flex items-center block text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-lightning-bolt"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Short &amp; Sweet</span>
+            <span class="block w-4/5 text-sm text-gray-700">At two hours on average, you’ll learn a lot without being desperate for a break.</span>
+          </div>
+        </li>
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-emoji-happy"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block text-sm text-lg">No Intimidation</span>
+            <span class="block w-4/5 text-sm text-gray-700">Engage at whatever level you’d like in a welcoming, inclusive&nbsp;space.</span>
+          </div>
         </li>
       </ul>
-      
-      <h2 class="thumb-entry-title">
-        <a href="https://cfe.dev/events/flashback-conference-2020/">Flashback Conference</a>
-      </h2>
-    </div>
-    <a href="https://cfe.dev/events/flashback-conference-2020/" class="thumb-url"></a>
-  </div>
-</article>
-            
-            <div class="row">
-              
-                <div class="col-lg-6">
-  <article class="entry thumb thumb--size-1">
-    <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/Sextech-The-Good-The-Bad-The-Bias.jpg');">
-      <div class="bottom-gradient"></div>
-      <div class="thumb-text-holder thumb-text-holder--4">
-        <h2 class="thumb-entry-title">
-          <a href="https://cfe.dev/events/sextech/">Sextech: The Good, the Bad &amp; the Bias</a>
-        </h2>
-      </div>
-      <a href="https://cfe.dev/events/sextech/" class="thumb-url"></a>
-    </div>
-  </article>
-</div>
-              
-                <div class="col-lg-6">
-  <article class="entry thumb thumb--size-1">
-    <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/Banner_Improving-You-Apps-Debugging.jpg');">
-      <div class="bottom-gradient"></div>
-      <div class="thumb-text-holder thumb-text-holder--4">
-        <h2 class="thumb-entry-title">
-          <a href="https://cfe.dev/events/improving-your-apps/">Improving Your Apps - Performance and Debugging</a>
-        </h2>
-      </div>
-      <a href="https://cfe.dev/events/improving-your-apps/" class="thumb-url"></a>
-    </div>
-  </article>
-</div>
-              
-            </div> 
+    </header>
 
-          </div> 
-
-          <div class="col-lg-6">
-            
-              <article class="entry thumb thumb--size-4">
-  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/medium/Building-IoT-Apps-with-Azure-and-Particle.jpg');">
-    <div class="bottom-gradient"></div>
-    <div class="thumb-text-holder thumb-text-holder--3">
-      
-      <a href="https://cfe.dev/categories/iot" class="entry__meta-category entry__meta-category--label entry__meta-category--violet">IoT</a>
-      
-      
-      <ul class="entry__meta">
-        <li class="entry__meta-date">
-            11/13 1:00pm EST - 11/13 5:00pm EST
-        </li>
-      </ul>
-      
-      <h2 class="thumb-entry-title">
-        <a href="https://cfe.dev/events/building-iot-apps-2019/">Building IoT Apps with Azure &amp; Particle</a>
-      </h2>
-    </div>
-    <a href="https://cfe.dev/events/building-iot-apps-2019/" class="thumb-url"></a>
-  </div>
-</article>
-            
-
-            <div class="row">
-              
-                <div class="col-lg-6">
-  <article class="entry thumb thumb--size-1">
-    <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/networking-for-devs.jpg');">
-      <div class="bottom-gradient"></div>
-      <div class="thumb-text-holder thumb-text-holder--4">
-        <h2 class="thumb-entry-title">
-          <a href="https://cfe.dev/events/networking-for-developers/">Sextech: The Good, the Bad &amp; the Bias</a>
-        </h2>
-      </div>
-      <a href="https://cfe.dev/events/networking-for-developers/" class="thumb-url"></a>
-    </div>
-  </article>
-</div>
-              
-                <div class="col-lg-6">
-  <article class="entry thumb thumb--size-1">
-    <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/Has-Web-Development-Become-Difficult.jpg');">
-      <div class="bottom-gradient"></div>
-      <div class="thumb-text-holder thumb-text-holder--4">
-        <h2 class="thumb-entry-title">
-          <a href="https://cfe.dev/events/web-development-difficult/">Has Web Development Become Difficult?</a>
-        </h2>
-      </div>
-      <a href="https://cfe.dev/events/web-development-difficult/" class="thumb-url"></a>
-    </div>
-  </article>
-</div>
-              
-            </div> 
-
-          </div>          
-
+    <div class="lg:w-1/2">
+      <div class="carousel">
+        <div class="carousel-list">
+          
+          
         </div>
+        <button class="glider-prev" aria-hidden="true" aria-label="Next" title="Next">
+  <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+    <use xlink:href="/img/icons.svg#sm-arrow-left"></use>
+  </svg>
+</button>
+<button class="glider-next" aria-hidden="true" aria-label="Previous" title="Previous">
+  <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky">
+    <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+  </svg>
+</button>
+
       </div>
-    </section> 
+    </div>
+  </div>
+
+
+  
+  <div class="container px-6 py-20 mx-auto">
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8 xl:grid-cols-3 ">
+      <header class="flex flex-col items-center justify-center p-4 rounded md:pb-6 lg:p-10 lg:col-span-2 highlight-bg-dots">
+        <div class="flex flex-col justify-center flex-1 p-8 bg-white">
+          <h2 class="mb-4 text-4xl leading-tight">Access a Growing Library of Recorded Sessions—<strong>Never&nbsp;Miss&nbsp;Out</strong></h2>
+          <p class="mb-6 text-lg">Join CFE.dev and watch dozens of high-quality video sessions today to keep your dev skills certified fresh.</p>
+
+          <div class="flex flex-col space-y-6 md:flex-row md:space-y-0">
+            <a href="/signup/" class="mr-2 text-sky button-ghost">Join Now</a>
+            <a href="/sessions/" class="inline-block px-8 py-2 font-bold text-center link text-sky">View All Sessions</a>
+          </div>
+        </div>
+      </header>
+
+      
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/Banner_Tools-For-The-Modern-Web-Developer.jpg"
+      loading="lazy"
+    alt="Banner for An Introduction to Using CodePen"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/intro-to-codepen/" class="click-target">An Introduction to Using CodePen</a>
+    </h1>
+
+    <p class="mb-auto">A look at some tools that can improve your development process.</p>
 
     
-    <section class="bg-light pt-32 pb-32">
-      <div class="container">
-        <div class="title-wrap">
-          <h2 class="section-title">newest videos</h2>
-        </div>
-        <div class="video-playlist">
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Jun 20, 2018</time>
+        </li>
 
-          <div class="video-playlist__content thumb-container">
-            <div class="embed-responsive embed-responsive-16by9">
-              
-              <iframe src="https://www.crowdcast.io/e/building-iot-apps-with" class="video-playlist__content-video">
-              
-              </iframe>
-            </div>
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/chriscoyier.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Chris Coyier</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/networking-for-devs.jpg"
+      loading="lazy"
+    alt="Banner for How to Get Through the Awkwardness of Networking"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/networking-for-developers/" class="click-target">How to Get Through the Awkwardness of Networking</a>
+    </h1>
+
+    <p class="mb-auto">Wesley Faulkner shares advice on how to be successful at professional networking as a developer.</p>
+
+    
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Oct 31, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/WesleyFaulkner.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Wesley Faulkner</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/visual-development.jpg"
+      loading="lazy"
+    alt="Banner for Is Visual Development the Future?"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/visual-development-future/" class="click-target">Is Visual Development the Future?</a>
+    </h1>
+
+    <p class="mb-auto">Amanda Loftis explores the impact of visual development tools on web development.</p>
+
+    
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Dec 18, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/amandaloftis.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Amanda Loftis</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/DemistifyingPWA.jpg"
+      loading="lazy"
+    alt="Banner for Demystifying PWAs"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/demystifying-pwas/" class="click-target">Demystifying PWAs</a>
+    </h1>
+
+    <p class="mb-auto">Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one.</p>
+
+    
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Mar 25, 2020</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/leewarrick.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Lee Warrick</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/Sextech-The-Good-The-Bad-The-Bias.jpg"
+      loading="lazy"
+    alt="Banner for Sextech: The Good, the Bad &amp; the Bias"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/sextech-good-bad-bias/" class="click-target">Sextech: The Good, the Bad &amp; the Bias</a>
+    </h1>
+
+    <p class="mb-auto">Alison Faulk gives an overview of the field of sextech and why it isn&#39;t what you may imagine.</p>
+
+    
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Sep 19, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/alisonfalk.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Alison Falk</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/GitHub-CLI.jpg"
+      loading="lazy"
+    alt="Banner for Love is Blind: Falling in Love with the Command Line and GitHub CLI"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/github-cli/" class="click-target">Love is Blind: Falling in Love with the Command Line and GitHub CLI</a>
+    </h1>
+
+    <p class="mb-auto">Andrea Griffiths shares some useful tips, ticks and tools that will supercharge your CLI experience.</p>
+
+    
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">May 4, 2020</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/andreagriffiths.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Andrea Griffiths</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+
+      <a
+        href="/signup/"
+        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text highlight-text-java"><span>FOR FREE</span></strong> and get access to all 70 sessions</a>
+    </div>
+  </div>
+
+  
+  
+  <div class="py-20 bg-gray-100">
+    <div class="container grid gap-10 px-6 mx-auto md:grid-cols-2">
+      <div class="mb-10 md:mb-0 md:mr-16 lg:mr-24">
+        <h2 class="mb-6 text-3xl font-bold">CFE Speaker Spotlight </h2>
+        <p class="mb-6 text-lg">Our speakers are front and back-end developers from top companies. They create an environment of growth through attentiveness and a genuine human connection.</p>
+        <a
+          href="/speakers/"
+          class="button">View All Speakers</a>
+      </div>
+      
+      <section>
+        <div class="flex items-center mb-8">
+          <div class="mr-6 highlight-avatar">
+            <img
+              class="relative z-10 max-w-full rounded-full"
+              src="/img/speakers/alisonfalk.jpg"
+              alt=""
+              width="210"
+              height="210">
           </div>
-
-          <div class="video-playlist__list">
-            
-            <a href="https://www.crowdcast.io/e/building-iot-apps-with" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/Building-IoT-Apps-with-Azure-and-Particle.jpg" src="/img/banners/Building-IoT-Apps-with-Azure-and-Particle.jpg" class="video-playlist__list-item-img lazyload" alt="Building IoT Apps with Azure &amp; Particle">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">Building IoT Apps with Azure &amp; Particle</h4>
-              </div>
-            </a>
-            
-            <a href="https://www.crowdcast.io/e/sextech-the-good-the-bad" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/networking-for-devs.jpg" src="/img/banners/networking-for-devs.jpg" class="video-playlist__list-item-img lazyload" alt="Sextech: The Good, the Bad &amp; the Bias">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">Sextech: The Good, the Bad &amp; the Bias</h4>
-              </div>
-            </a>
-            
-            <a href="https://www.crowdcast.io/e/sextech-the-good-the-bad" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/Sextech-The-Good-The-Bad-The-Bias.jpg" src="/img/banners/Sextech-The-Good-The-Bad-The-Bias.jpg" class="video-playlist__list-item-img lazyload" alt="Sextech: The Good, the Bad &amp; the Bias">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">Sextech: The Good, the Bad &amp; the Bias</h4>
-              </div>
-            </a>
-            
-            <a href="https://www.crowdcast.io/e/blazor" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/ExploringBlazor.jpg" src="/img/banners/ExploringBlazor.jpg" class="video-playlist__list-item-img lazyload" alt="Exploring Blazor">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">Exploring Blazor</h4>
-              </div>
-            </a>
-            
-            <a href="https://www.crowdcast.io/e/developer-relations" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/Why-DevRel-Matters.jpg" src="/img/banners/Why-DevRel-Matters.jpg" class="video-playlist__list-item-img lazyload" alt="Why DevRel Matters">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">Why DevRel Matters</h4>
-              </div>
-            </a>
-            
-            <a href="https://www.crowdcast.io/e/an-introduction-to-vue" class="video-playlist__list-item video-playlist__list-item--active">
-              <div class="video-playlist__list-item-thumb">
-                <img data-src="/img/banners/thumbs/An_Introduction_To_VUE.jpg" src="/img/banners/An_Introduction_To_VUE.jpg" class="video-playlist__list-item-img lazyload" alt="An Introduction to Vue">
-              </div>
-              <div class="video-playlist__list-item-description">
-                <h4 class="video-playlist__list-item-title">An Introduction to Vue</h4>
-              </div>
-            </a>
-            
+          <div>
+            <h3 class="font-bold uppercase"><span class="text-sm md:text-base highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
+            <span class="text-2xl font-semibold">Alison Falk</span><br/>
+            <span class="text-lg font-medium text-java">CEO of WIT PGH</span>
           </div>
-
         </div>
-      </div>      
-    </section> 
 
-       
- <footer class="footer footer--grey">
-    <div class="container">
-        <div class="footer__widgets">
-        <div class="row">
-
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget-logo">
-                <a href="/index.html">
-                    <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="Certified Fresh Events">
-                </a>
-                <p class="mt-24">Certified Fresh Events LLC specializes in creating and organizing events around technology, development/programming and IT.</p>
-                <div class="socials socials--large socials--white-base socials--rounded mb-24">
-                <a href="https://twitter.com/fresheventsfl" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
-                <a href="https://instagram.com/certifiedfreshevents" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
-                </div>
-            </aside>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget-twitter">
-                <h4 class="widget-title">Latest Tweets</h4>
-                <div class="tweets-container">
-                <div id="tweets">
-                    <a class="twitter-timeline" href="https://twitter.com/fresheventsfl?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by fresheventsfl</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>                  
-                </div>
-            </aside>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget_categories">
-                <h4 class="widget-title">Categories</h4>
-                <ul>
-                
-                <li><a href="/categories/bots">Bots <span class="categories-count">2</span></a></li>
-                
-                <li><a href="/categories/career">Career <span class="categories-count">5</span></a></li>
-                
-                <li><a href="/categories/css">Css <span class="categories-count">2</span></a></li>
-                
-                <li><a href="/categories/culture">Culture <span class="categories-count">7</span></a></li>
-                
-                <li><a href="/categories/dotnet">Dotnet <span class="categories-count">1</span></a></li>
-                
-                <li><a href="/categories/golang">Golang <span class="categories-count">2</span></a></li>
-                
-                <li><a href="/categories/iot">Iot <span class="categories-count">4</span></a></li>
-                
-                <li><a href="/categories/jamstack">Jamstack <span class="categories-count">2</span></a></li>
-                
-                <li><a href="/categories/javascript">Javascript <span class="categories-count">9</span></a></li>
-                
-                <li><a href="/categories/machine-learning">Machine learning <span class="categories-count">1</span></a></li>
-                
-                <li><a href="/categories/performance">Performance <span class="categories-count">1</span></a></li>
-                
-                <li><a href="/categories/serverless">Serverless <span class="categories-count">3</span></a></li>
-                
-                <li><a href="/categories/virtual-reality">Virtual reality <span class="categories-count">1</span></a></li>
-                
-                <li><a href="/categories/web-development">Web development <span class="categories-count">6</span></a></li>
-                
-                <li><a href="/categories/web-standards">Web standards <span class="categories-count">3</span></a></li>
-                
-                </ul>
-            </aside>
-            </div>
-
-        </div>
-        </div>    
-    </div> 
-
-    <div class="footer__bottom footer__bottom--white">
-        <div class="container text-center">
-            <ul class="footer__nav-menu footer__nav-menu--1">
-            
-            
-            <li><a href="/contact/about/">About</a></li>
-            
-            <li><a href="/contact/sponsors/">Sponsor</a></li>
-            
-            <li><a href="/contact/contact/">Contact Us</a></li>
-            
-            </ul>
-            <p class="copyright">
-            © 2019 Certified Fresh Events</a>
-            </p>   
-        </div>            
-    </div> 
-</footer> 
-
-<div id="back-to-top">
-    <a href="#top" aria-label="Go to top"><i class="ui-arrow-up"></i></a>
+        <div class="mb-6"><p>Alison is the founder of <a href="https://www.womenintechpgh.com/">Women In Tech Pittsburgh</a> and <a href="https://www.sextechspace.com/">Sex Tech Space</a>, as well as the Managing Director of <a href="https://www.womenofsextech.com/">Women of Sex Tech</a>. She is a previous software engineer with experience in startup and corporate environments. Alison is currently a cybersecurity master’s candidate at the George Washington University and a recipient of the (ISC)2 Center for Cyber Safety and Education award. She has also been awarded the RedChair Pgh scholarship for leadership as a mid-career woman in IT and recognized as one of fourteen individuals shaping Pittsburgh tech scene by The Incline’s Who’s Next in Technology 2019. She has been featured in WIRED, WomenInTech, Female Tech Leaders, Women of Silicon Valley, Sextech Guide, PGH City Paper, and has spoken on the CyberSexurity panel at DEFCON, Abst, Google, CISCO, and more. In her free time she likes to hang out with her pet cockatiel.</p>
 </div>
-    </main> 
+
+        <a href="https://cfe.dev/speakers/alison-falk/" class="inline-block py-2 font-bold link text-sky">View Sessions by Alison Falk</a>
+      </section>
+      
+    </div>
+  </div>
+
+  <div class="container px-6 py-20 mx-auto">
+    <h2
+      class="max-w-2xl mx-auto mb-20 text-4xl font-semibold text-center text-gray-700">Learn about the technology you love from <strong>people who love it too</strong>.</h2>
+
+    <ul class="logo-list">
+  <li>
+    <img
+      src="/img/tech-logos/aws.svg"
+      loading="lazy"
+      alt="AWS">
+  </li>
+  <li>
+    <img
+      src="/img/tech-logos/vue.svg"
+      loading="lazy"
+      alt="Vue">
+  </li>
+  <li>
+    <img
+      src="/img/tech-logos/jamstack.svg"
+      loading="lazy"
+      alt="JAMSTACK">
+  </li>
+  <li>
+    <img
+      src="/img/tech-logos/graphql.svg"
+      loading="lazy"
+      alt="GraphQL">
+  </li>
+  <li>
+    <img
+      src="/img/tech-logos/go.svg"
+      loading="lazy"
+      alt="Go Lang">
+  </li>
+  <li>
+    <img
+      src="/img/tech-logos/react.svg"
+      loading="lazy"
+      alt="React">
+  </li>
+    <li>
+    <img
+      src="/img/tech-logos/typescript.svg"
+      loading="lazy"
+      alt="TypeScript">
+  </li>
+</ul>
 
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/easing.min.js"></script>
-<script src="/js/owl-carousel.min.js"></script>
-<script src="/js/flickity.pkgd.min.js"></script>
-<script src="/js/twitterFetcher_min.js"></script>
-<script src="/js/jquery.newsTicker.min.js"></script>  
-<script src="/js/modernizr.min.js"></script>
-<script src="/js/scripts.js"></script>
+    <p class="mt-12 text-center">
+      <a
+        href="/sessions/"
+        class="button">View Sessions</a>
+    </p>
+  </div>
+</main>
+
+
+
+<div class="bg-blue highlight-pattern-zigzags">
+  <section class="block px-4 py-24 mx-auto text-center text-white">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+    <a href="/signup/" class="text-xl button-ghost">Join Now</a>
+    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
+</div>
+
+</main>
+
+<section
+  class="hidden bg-white survey-cta highlight-pattern-rain"
+  id="Survey">
+  <h2 class="mb-1 mb-4 text-lg text-gray-700">
+    <strong>Help us improve</strong> by taking a short survey.
+  </h2>
+  <button
+    class="mb-2 bg-white button-ghost text-blue" data-survey-toggler>Provide Feedback</button>
+  <button
+    class="inline-block px-8 py-2 mb-2 font-bold text-red link" data-survey-dismiss>No, Thanks!</button>
+</section>
+
+<div class="sr-only modal" id="SurveyModal">
+  <button class="absolute p-4 close-button" aria-label="Toggle Survey Modal" onclick="surveyModal.classList.toggle('sr-only');toggleModalEffect();">
+    <svg aria-hidden="true" class="inline-block w-8 h-8 text-gray-900 fill-current">
+      <use xlink:href="/img/icons.svg#sm-x"></use>
+    </svg>
+  </button>
+
+  <div class="max-w-5xl px-6 py-10 mx-auto">
+
+    <header class="mb-8 text-center md:mb-12">
+      <img
+        src="/img/logo.svg"
+        alt="CFE.dev"
+        class="inline-block h-16">
+
+      <h1 class="mt-6 mb-6 text-4xl font-medium leading-tight md:text-5xl"><strong>Help Us</strong> Improve</h1>
+      <p class="text-lg">Please complete the following short survey to help us improve CFE.dev.</p>
+    </header>
+
+    <form
+      action="."
+      method="POST"
+      class="max-w-md px-8 pt-8 pb-12 mx-auto mb-10 border border-gray-300 rounded shadow-xl">
+
+      <div class="mb-8">
+        <label for="Survey-Email" class="label">Email Address</label>
+        <input
+          type="text"
+          id="Survey-Email"
+          class="w-full field"
+          required>
+      </div>
+
+      <div class="mb-8">
+        <label for="Survey-Role" class="label">What best describes your role?</label>
+        <select id="Survey-Role" class="w-full field select" required>
+          <option>Developer</option>
+          <option>Designer</option>
+          <option>Product Management</option>
+          <option>Marketing</option>
+        </select>
+      </div>
+
+      <fieldset class="mb-8">
+        <legend class="block mb-3 label">How many years of experience do you have?</legend>
+        <ul class="grid grid-cols-2 row-gap-3 col-gap-3">
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="radio">
+              <span class="text-sm">0-1 years</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="radio">
+              <span class="text-sm">1-3 years</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="radio">
+              <span class="text-sm">5-8 years</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="radio">
+              <span class="text-sm">8-12 years</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="radio">
+              <span class="text-sm">12+ years</span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="mb-8">
+        <legend class="block mb-3 label">Which topics interest you most?</legend>
+        <ul class="grid grid-cols-2 row-gap-3 col-gap-3">
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 1</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 2</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 3</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 4</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 5</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 6</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm font-normal">Tag 7</span>
+            </label>
+          </li>
+          <li>
+            <label class="block">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Tag 8</span>
+            </label>
+          </li>
+        </ul>
+        <p class="mt-3 text-sm italic text-red">Please make a selection.</p>
+      </fieldset>
+
+
+      <div class="flex justify-end">
+        <button class="order-2 button">Send</button>
+        <button class="order-1 inline-block px-8 py-2 font-bold text-red link">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<footer class="border border-b-0 border-l-0 border-r-0 border-gray-300 ">
+  <div class="container px-6 py-16 mx-auto text-center lg:text-left lg:flex lg:flex-wrap">
+    <div class="mb-10 lg:w-2/3">
+      <nav class="mb-8">
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/conduct/">Code of Conduct</a>
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/contact/">Contact</a>
+      </nav>
+
+      <form
+        class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
+        method="POST">
+        <label for="email" class="w-full label">Subscribe to our mailing list</label>
+        <p class="w-full mb-3">Stay up to date with the latest meetups and sessions.</p>
+        <input
+          type="email"
+          id="email"
+          placeholder="you@domain.com"
+          autocomplete="off"
+          class="w-64 mb-2 mr-1 field">
+        <button
+          type="submit"
+          class="mb-2 button">Subscribe</button>
+      </form>
+    </div>
+
+    <nav class="mb-10 lg:w-1/3">
+      <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
+      <a
+        class="inline-block mr-6 text-java anim hover:text-twitter"
+        href="https://twitter.com/fresheventsfl"
+        title="twitter"
+        aria-label="Twitter">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#twitter"></use>
+        </svg>
+      </a>
+
+      <a
+        class="inline-block mr-6 text-java anim hover:text-youtube"
+        href="https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg"
+        title="youtube"
+        aria-label="YouTube">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#youtube"></use>
+        </svg>
+      </a>
+
+      <a
+        class="inline-block mr-6 text-java anim hover:text-instagram"
+        href="https://instagram.com/certifiedfreshevents"
+        title="youtube"
+        aria-label="Instagram">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#instagram"></use>
+        </svg>
+      </a>
+
+      <a
+        class="inline-block text-java anim hover:text-rss"
+        href="/sessions/index.xml"
+        title="RSS"
+        aria-label="RSS">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#rss"></use>
+        </svg>
+      </a>
+    </nav>
+
+    <small class="block w-full">&copy; 2020 CFE.dev</small>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="/js/main.js"></script>
+
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="/js/search.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+  (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+  vgo('setAccount', '799333501');
+  vgo('setTrackByDefault', true);
+
+  vgo('process');
+</script>
 
 </body>
 </html>
