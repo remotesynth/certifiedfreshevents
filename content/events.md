@@ -11,7 +11,7 @@ draft: false
 ---
 
 <!-- markdownlint-disable -->
-<main>
+<main class="mb-20">
   <div class="mb-20">
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Upcoming Meetups</h1>

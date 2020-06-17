@@ -61,14 +61,14 @@
       {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
       {{ if ne (len $sessions) 0 }}
         <h2 class="mb-4 text-3xl font-medium">Sessions</h2>
-        <ul class="space-y-4">
-        {{ range $session := $sessions }}
-          <li>
-            {{ with  $session}}
-              <a href="{{.Permalink}}" class="text-lg link text-sky">{{ .Title }}</a>
-            {{ end }}
-          </li>
-        {{ end }}
+
+        <div class="grid grid-cols-1 gap-6 pb-8 md:grid-cols-2 lg:grid-cols-2 lg:gap-8">
+          {{ range $session := $sessions }}
+          {{ with  $session}}
+            {{ partial "session-card.html" .}}
+          {{ end }}
+          {{ end }}
+        </div>
       {{ end }}
     </div>
 </main>
