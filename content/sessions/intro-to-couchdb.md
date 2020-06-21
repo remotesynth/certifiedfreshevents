@@ -4,13 +4,11 @@ date: 2020-07-17T12:30:00-04:00
 speakers:
     - upkar-lidder
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/introduction-to-apache-2
-        start_time: 00:00
-menu:
-  main:
-    parent: sessions
-    name: Intro to CouchDB
+  crowdcast:
+      url: https://www.crowdcast.io/e/introduction-to-apache-2
+      start_time: 00:00
+categories:
+  - software
 draft: false
 ---
 

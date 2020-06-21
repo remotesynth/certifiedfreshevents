@@ -28,10 +28,6 @@
 
             <span class="max-w-xs ml-2">
             {{ range $session := .Params.sessions }}
-              {{ with site.GetPage (print "/sessions/" $session) }}
-                {{ $.Scratch.Set "speakers" .Params.speakers }}
-              {{ end }}
-
               {{ $speakers := $.Scratch.Get "speakers" }}
               {{ range $index, $speaker := $speakers }}
                 {{ with site.GetPage (print "/speakers/" $speaker) }}
@@ -113,6 +109,14 @@
 
     <div class="mb-20 content">
       {{ .Content }}
+
+      {{ range $session := .Params.sessions }}
+        {{ with site.GetPage (print "/sessions/" $session) }}
+          <h2>{{ .Title }}</h2>
+
+          {{.Content}}
+        {{ end }}
+      {{ end }}
     </div>
 
     {{ if ne .Params.sponsor nil }}
