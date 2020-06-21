@@ -5,8 +5,11 @@ speakers:
   - kyle-simpson
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/fundamental-javascript/1
-      start_time: 03:13
+        url: https://www.crowdcast.io/e/fundamental-javascript/1
+        start_time: "03:13"
+  vimeo:
+      url: https://vimeo.com/430922421
+      length: "01:57:44"
 categories:
   - javascript
 draft: false

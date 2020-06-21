@@ -4,9 +4,12 @@ date: 2018-02-16T18:52:51-04:00
 speakers:
   - nick-walsh
 recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/demystifying-machine
-      start_time: 32:29
+    crowdcast:
+        url: https://www.crowdcast.io/e/demystifying-machine
+        start_time: "32:29"
+    vimeo:
+        url: https://vimeo.com/430732206
+        length: "30:07"
 categories:
   - stuff
 draft: false
