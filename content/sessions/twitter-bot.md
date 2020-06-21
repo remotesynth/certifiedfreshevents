@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/demystifying-machine
         start_time: 32:29
+    vimeo:
+        url: https://vimeo.com/430732206
+        length: "30:07"
 menu:
   main:
     parent: sessions
