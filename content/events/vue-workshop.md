@@ -4,7 +4,7 @@ date: 2020-06-16T13:00:00-04:00
 end_date: 2020-06-16T16:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: Vue Workshop
 categories:
   - JavaScript
