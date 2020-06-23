@@ -16,6 +16,10 @@
   @apply sr-only;
 }
 
+body.nav-open {
+  overflow: hidden;
+}
+
 body.nav-open .site-nav {
   height: 100vh;
   @apply overflow-y-auto;
@@ -24,7 +28,11 @@ body.nav-open .site-nav {
 
 body.nav-open .site-nav-secondary {
   @apply not-sr-only;
+  @apply w-full;
+  @apply pb-16;
 }
+
+/* Primary Nav */
 
 .nav-link {
   @apply font-bold;
@@ -117,5 +125,9 @@ body.nav-open .site-nav-secondary {
   .site-nav-primary {
     flex-shrink: 1;
     width: auto;
+  }
+
+  body.nav-open .site-nav {
+    height: auto;
   }
 }

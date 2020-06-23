@@ -845,6 +845,10 @@ video {
   border-width: 0;
 }
 
+body.nav-open {
+  overflow: hidden;
+}
+
 body.nav-open .site-nav {
   height: 100vh;
   overflow-y: auto;
@@ -861,7 +865,11 @@ body.nav-open .site-nav-secondary {
   overflow: visible;
   clip: auto;
   white-space: normal;
+  width: 100%;
+  padding-bottom: 4rem;
 }
+
+/* Primary Nav */
 
 .nav-link {
   font-weight: 700;
@@ -982,6 +990,10 @@ body.nav-open .site-nav-secondary {
   .site-nav-primary {
     flex-shrink: 1;
     width: auto;
+  }
+
+  body.nav-open .site-nav {
+    height: auto;
   }
 }
 
