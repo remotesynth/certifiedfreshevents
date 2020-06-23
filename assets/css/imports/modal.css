@@ -1,3 +1,9 @@
+/*
+  =====
+  Modal
+  =====
+*/
+
 .modal {
   @apply absolute;
   top: 0;

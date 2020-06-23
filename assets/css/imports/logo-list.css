@@ -1,8 +1,0 @@
-.logo-list {
-  @apply flex flex-wrap justify-center;
-}
-
-.logo-list li {
-  @apply flex items-center;
-  @apply mx-10 mb-10;
-}

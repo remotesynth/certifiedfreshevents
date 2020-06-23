@@ -95,12 +95,7 @@
               href="{{.crowdcast.url}}"
               target="_blank"
               class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
-                <span class="inline-flex px-8 py-4">
-                  <span class="inline-block mr-2">Open on Crowdcast</span>
-                  <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
-                    <use xlink:href="/img/icons.svg#sm-external-link"></use>
-                  </svg>
-                </span>
+              {{ partial "crowdcast-button-content" .}}
             </a>
           </div>
         </div>
@@ -108,7 +103,7 @@
     {{ end }}
   </div>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-16">
+  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
       {{ partial "social-share.html" .}}
     </div>

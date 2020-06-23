@@ -52,11 +52,11 @@
         {{ with site.GetPage (print "/sessions/" $session) }}
           {{ $category := index .Params.Categories 0 }}
           {{ with site.GetPage (print "/categories/" $category) }}
-      <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-          <a
-            href="{{ "categories" | absURL }}/{{ $category | urlize }}"
-            class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{.Title}}</a>
-      </li>
+            <li class="flex items-center mb-4 space-x-2 lg:mb-0">
+                <a
+                  href="{{ "categories" | absURL }}/{{ $category | urlize }}"
+                  class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{.Title}}</a>
+            </li>
           {{ end }}
         {{ end }}
       {{ end }}
@@ -70,29 +70,25 @@
           src="{{ .Params.embed_url }}"
           class="absolute z-0 w-full h-full"></iframe>
       {{ else if ne .Params.banner nil }}
-
-      {{/*
-        TODO: Handle this scenario
-      */}}
-
         <div class="flex items-center justify-center w-full h-full">
           <a
             href="#"
             target="_blank"
             class="flex items-center justify-center w-full h-full anim bg-jelly hover:bg-sky">
-              <span class="inline-flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
-                <span class="inline-block mr-2">Open on Crowdcast</span>
-                <svg class="inline-block w-6 h-6 fill-current" aria-hidden="true">
-                  <use xlink:href="/img/icons.svg#sm-external-link"></use>
-                </svg>
+              <span class="flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
+                  {{ partial "crowdcast-button-content" .}}
               </span>
           </a>
         </div>
-        <img src="/img/banners/{{ .Params.banner }}">
+        <img
+          src="/img/banners/{{ .Params.banner }}"
+          alt="Banner for {{ .Title }}"
+          aria-hidden="true">
       {{ end }}
     </div>
   </div>
 
+  {{/* Hide if authenticated */}}
   <section
     class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves">
     <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
@@ -102,7 +98,16 @@
     <p class="mt-6">Have an account? <a href="login.html" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto">
+
+  {{/* If authenticated, show w/external URL */}}
+  <!--
+  <a href="#"
+    class="container flex justify-center px-8 py-3 mx-auto -mt-1 text-center text-white bg-blue hover:bg-jelly anim">
+    {{ partial "crowdcast-button-content" .}}
+  </a>
+  -->
+
+  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
       {{ partial "social-share.html" .}}
     </div>

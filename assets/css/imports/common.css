@@ -18,6 +18,7 @@
   @apply text-java;
 }
 
+/* Form Controls */
 .button {
   @apply inline-block;
   @apply px-4 py-2;
@@ -66,44 +67,28 @@
   background-size: 2em 2em;
 }
 
-/*
-  Special modification to elements when they are part of long-form content
-*/
-
-.content {
-  @apply text-lg;
+/* Avatar List */
+.avatar-list img + img {
+  @apply -ml-4;
 }
 
-.content > * + * {
-  @apply mt-4;
+.avatar-list .delimiter:last-child {
+  display: none;
 }
 
-.content h2 { @apply text-4xl; }
-.content h3 { @apply text-3xl; }
-.content h4 { @apply text-2xl; }
 
-.content img {
-  @apply block max-w-full;
+/* Logo List */
+.logo-list {
+  @apply flex flex-wrap justify-center;
 }
 
-.content ul {
-  @apply mb-4;
-  @apply list-disc;
+.logo-list li {
+  @apply flex items-center;
+  @apply mx-10 mb-10;
 }
 
-.content li {
-  @apply mb-3 ml-6;
-  @apply list-decimal;
-}
 
-.content a {
-  @apply text-sky;
-}
-
-/*
-  Handle Contrast
-*/
-
+/* Handle contrast w/basic themes */
 .bg-carlo > svg,
 .bg-blue > svg,
 .bg-java > svg,

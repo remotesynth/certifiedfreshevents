@@ -10,11 +10,11 @@
 @import "imports/common.css";
 @import "imports/site-navs.css";
 
+@import "imports/content.css";
+
 /* Components */
-@import "imports/avatar-list.css";
 @import "imports/carousel.css";
-@import "imports/event-card.css";
-@import "imports/logo-list.css";
+@import "imports/card.css";
 @import "imports/modal.css";
 @import "imports/survey.css";
 

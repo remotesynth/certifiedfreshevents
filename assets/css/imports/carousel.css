@@ -1,3 +1,15 @@
+/*
+  ========
+  Carousel
+  ========
+
+  Carousels are powered by glider.js
+  https://nickpiscitelli.github.io/Glider.js/
+
+  See main.js for JavaScript configuration.
+*/
+
+
 .carousel {
   @apply relative;
 }
