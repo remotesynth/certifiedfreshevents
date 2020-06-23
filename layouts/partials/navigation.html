@@ -1,19 +1,22 @@
 <nav class="site-nav">
-  <a href="/" class="flex items-center flex-shrink-0 mr-10">
-    <img
-      src="/img/logo.svg"
-      alt="CFE.dev"
-      class="h-16 lg:h-20">
-  </a>
+  <div class="site-nav-primary">
+    <a href="/" class="flex items-center flex-shrink-0 mr-10">
+      <img
+        src="/img/logo.svg"
+        alt="CFE.dev"
+        class="h-16 lg:h-20">
+    </a>
 
-  <button
-    class="flex items-center px-3 py-2 border rounded lg:hidden"
-    data-nav-toggler>
-    <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-  </button>
+    <button
+      type="button"
+      class="flex items-center px-3 py-2 border rounded lg:hidden"
+      data-nav-toggler>
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
 
   <div
-    class="flex flex-col block w-full sr-only lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only"
+    class="flex flex-col block w-full lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
     id="SiteNav">
     <ul
       class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"

@@ -1,6 +1,6 @@
 /* Navigation */
 const navToggler = document.querySelector('[data-nav-toggler]');
-const siteNav = document.getElementById('SiteNav');
+const body = document.getElementsByTagName('body')[0];
 const primaryNav = document.getElementById('PrimaryNav');
 const secondaryNav = document.getElementById('SecondaryNav');
 
@@ -13,7 +13,7 @@ const toggleModalEffect = () => {
 }
 
 navToggler.addEventListener('click', () => {
-  siteNav.classList.toggle('sr-only');
+  body.classList.toggle('nav-open');
 });
 
 searchToggler.forEach( (button) => {

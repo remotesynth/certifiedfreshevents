@@ -1,8 +1,29 @@
 .site-nav {
   @apply sticky top-0 z-40;
-  @apply flex flex-wrap items-center justify-between;
+  @apply flex flex-col justify-between;
   @apply px-6 pt-6 pb-3;
   @apply bg-white;
+}
+
+.site-nav-primary {
+  @apply flex items-center justify-between;
+  @apply w-full;
+}
+
+/* Handle Nav Open */
+
+.site-nav-secondary {
+  @apply sr-only;
+}
+
+body.nav-open .site-nav {
+  height: 100vh;
+  @apply overflow-y-auto;
+  @apply items-start justify-start;
+}
+
+body.nav-open .site-nav-secondary {
+  @apply not-sr-only;
 }
 
 .nav-link {
@@ -87,5 +108,14 @@
 
   .has-menu:hover .menu {
     @apply grid;
+  }
+
+  .site-nav {
+    @apply flex-row items-center;
+  }
+
+  .site-nav-primary {
+    flex-shrink: 1;
+    width: auto;
   }
 }
