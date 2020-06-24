@@ -7,6 +7,8 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/scaling-a-live-battle
         start_time: 00:00
+categories:
+  - stuff
 draft: false
 ---
 
