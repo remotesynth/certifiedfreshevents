@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/fundamental-javascript/3
         start_time: 00:02
+    vimeo:
+        url: https://vimeo.com/431836942
+        length: "1:58:27"
 menu:
   main:
     parent: sessions
