@@ -95,7 +95,9 @@
               href="{{.crowdcast.url}}"
               target="_blank"
               class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
-              {{ partial "crowdcast-button-content" .}}
+              <span class="flex px-8 py-4">
+                {{ partial "crowdcast-button-content" .}}
+              </span>
             </a>
           </div>
         </div>

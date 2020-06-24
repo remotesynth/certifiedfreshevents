@@ -74,16 +74,12 @@
           <a
             href="#"
             target="_blank"
-            class="flex items-center justify-center w-full h-full anim bg-jelly hover:bg-sky">
-              <span class="flex px-8 py-4 font-bold text-white border border-b-2 border-current rounded">
-                  {{ partial "crowdcast-button-content" .}}
+            class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
+              <span class="flex px-8 py-4">
+                {{ partial "crowdcast-button-content" .}}
               </span>
           </a>
         </div>
-        <img
-          src="/img/banners/{{ .Params.banner }}"
-          alt="Banner for {{ .Title }}"
-          aria-hidden="true">
       {{ end }}
     </div>
   </div>
