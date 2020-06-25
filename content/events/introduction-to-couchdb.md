@@ -16,6 +16,10 @@ description: "In this virtual meetup, Upkar Lidder of IBM will allow you to get 
 embed_url: https://www.crowdcast.io/e/introduction-to-apache-2
 sessions:
   - intro-to-couchdb
+sponsor:
+  name: IBM Developer
+  image: IBM_Developer.png
+  URL: https://developer.ibm.com/
 draft: false
 featured: true
 ---
