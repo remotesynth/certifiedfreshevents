@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body class="antialiased">
+{{ partial "navigation.html" . }}
+
+{{ block "main" . }}{{ .Content }}{{ end }}
+
+{{ partial "footer.html" .}}
+{{ partial "scripts.html" .}}
+
+{{ block "scripts". }}{{ end }}
+</body>
+</html>

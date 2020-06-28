@@ -7,7 +7,7 @@
   <title>Virtual Meetups and Sessions for Technologists / CFE.dev</title>
 	<meta
     name="description"
-    content="CFE.dev offers a large library of recorded sessions on a wide range of development &amp; technology topics live &amp; interactive virtual meetups featuring the experts." />
+    content="" />
 
   
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
@@ -18,7 +18,7 @@
   
   
       
-      <link rel="stylesheet" href="https://cfe.dev/css/styles.min.0af99e6b109862751ad0349e87fd35d70bba03b0ee4378e588cc13283083ae0e.css" integrity="sha256-CvmeaxCYYnUa0DSeh/011wu6A7DuQ3jliMwTKDCDrg4=">
+      <link rel="stylesheet" href="/css/styles.min.64ec65ae33c28611c2c22e34ff72e24694f50f07ebda72e807fe6723424f5b61.css">
   
 
   
@@ -81,21 +81,24 @@
 <body class="antialiased">
 
 <nav class="site-nav">
-  <a href="/" class="flex items-center flex-shrink-0 mr-10">
-    <img
-      src="/img/logo.svg"
-      alt="CFE.dev"
-      class="h-16 lg:h-20">
-  </a>
+  <div class="site-nav-primary">
+    <a href="/" class="flex items-center flex-shrink-0 mr-10">
+      <img
+        src="/img/logo.svg"
+        alt="CFE.dev"
+        class="h-16 lg:h-20">
+    </a>
 
-  <button
-    class="flex items-center px-3 py-2 border rounded lg:hidden"
-    data-nav-toggler>
-    <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-  </button>
+    <button
+      type="button"
+      class="flex items-center px-3 py-2 border rounded lg:hidden"
+      data-nav-toggler>
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
 
   <div
-    class="flex flex-col block w-full sr-only lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only"
+    class="flex flex-col block w-full lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
     id="SiteNav">
     <ul
       class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"
@@ -215,6 +218,22 @@
           
             
               <li>
+                <a href="https://cfe.dev/categories/web-development/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">Web Development</span>
+                    <span class="block text-xs text-gray-600"></span>
+                  </div>
+                </a>
+              </li>
+            
+          
+            
+              <li>
                 <a href="https://cfe.dev/categories/webdev/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
                   <div class="nav-link-icon bg-jelly">
                     <svg aria-hidden="true">
@@ -246,8 +265,7 @@
 
       
       <button
-        class="hidden font-bold text-gray-700 border-b-8 border-transparent hover:border-java lg:mr-6 lg:inline-block" aria-hidden="true"
-        data-search-toggler
+        class="hidden font-bold text-gray-700 border-b-8 border-transparent hover:border-java lg:mr-6 lg:inline-block" aria-hidden="true" data-search-toggler
         aria-label="Toggle Search">
         <svg class="inline-block w-8 h-8 fill-current">
           <use xlink:href="/img/icons.svg#sm-search"></use>
@@ -261,7 +279,7 @@
         Log In
       </a>
       <a
-        href="/signup/"
+        href="/join/"
         class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
         <span class="block mb-2 text-xs">Get FULL Access</span>
         <span class="block font-bold">Join Now</span>
@@ -269,7 +287,7 @@
     </div>
 
     <form
-      class="flex items-stretch justify-center order-2 w-full px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      class="flex items-stretch justify-center order-2 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
       id="Search">
       <label class="sr-only" for="search">Enter search terms</label>
       <input
@@ -277,7 +295,7 @@
         id="search"
         placeholder="Enter search terms"
         autocomplete="off"
-        class="w-64 mr-1 field lg:w-auto">
+        class="flex-1 mr-1 field">
       <button
         type="submit"
         class="button">
@@ -288,6 +306,7 @@
       </button>
 
       <button
+        type="button"
         class="items-center justify-center hidden w-12 h-12 ml-2 close-button lg:inline-flex"
         aria-hidden="true"
         data-search-toggler
@@ -311,7 +330,7 @@
       <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">Friendly Online Meetups for Developers</h1>
       <p class="mb-6 text-xl md:text-2xl">Learn alongside hundreds of developers like you. Join live, welcoming events where you can connect with speakers, or watch sessions later at your own pace.</p>
       <a
-        href="/signup/"
+        href="/join/"
         class="button">Join Now. It's Free!</a>
     </header>
 
@@ -321,14 +340,14 @@
       <section class="flex flex-col items-center highlight-box-dots">
         <div class="-mb-8 highlight-avatar">
           <img
-            src="/img/speakers/ayangeorge.jpg"
+            src="/img/speakers/BiancaGandolfo.jpg"
             alt="">
         </div>
         <blockquote class="relative z-0 max-w-full p-6 pt-10 pl-16 mt-4 text-gray-900 md:max-w-none bg-sand round-sm highlight-blockquote">
           <p class="mb-4 text-lg font-medium">I learn a lot from these meetups that I can apply to my job right away. It&#39;s helped my confidence a lot.</p>
           <footer>
-            <span class="text-xl font-semibold">Bob Smith</span><br/>
-            <span class="text-sm font-medium text-java">Beck-End Developer at Weblify</span>
+            <span class="text-xl font-semibold">Jane Smith</span><br/>
+            <span class="text-sm font-medium text-java">Front-End Developer at Netlify</span>
           </footer>
         </blockquote>
       </section>
@@ -413,13 +432,117 @@
           <p class="mb-6 text-lg">Join CFE.dev and watch dozens of high-quality video sessions today to keep your dev skills certified fresh.</p>
 
           <div class="flex flex-col space-y-6 md:flex-row md:space-y-0">
-            <a href="/signup/" class="mr-2 text-sky button-ghost">Join Now</a>
+            <a href="/join/" class="mr-2 text-sky button-ghost">Join Now</a>
             <a href="/sessions/" class="inline-block px-8 py-2 font-bold text-center link text-sky">View All Sessions</a>
           </div>
         </div>
       </header>
 
       
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/Dealing-with-Perfectionism.jpg"
+      loading="lazy"
+    alt="Banner for Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/imposter-syndrome/" class="click-target">Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself</a>
+    </h1>
+
+    <p class="mb-auto">Jo Franchetti discusses how to understand your fears and learn to be kind to yourself.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Feb 22, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/JoFranchetti.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Jo Franchetti</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/Banner_Improving-You-Apps-Debugging.jpg"
+      loading="lazy"
+    alt="Banner for The Hunt for the Unicorn Performance Metric"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/unicorn-performance-metric/" class="click-target">The Hunt for the Unicorn Performance Metric</a>
+    </h1>
+
+    <p class="mb-auto">New technologies like serverless and bots are changing the face of development.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Jan 17, 2018</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/tammyeverts.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Tammy Everts</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
       
           
 
@@ -443,6 +566,7 @@
     <p class="mb-auto">A look at some tools that can improve your development process.</p>
 
     
+
     <footer class="mt-6">
       <ul class="flex justify-between">
         <li class="flex items-center text-sm">
@@ -481,157 +605,6 @@
 
 <article class="event-card">
   <img
-    src="/img/banners/medium/networking-for-devs.jpg"
-      loading="lazy"
-    alt="Banner for How to Get Through the Awkwardness of Networking"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/networking-for-developers/" class="click-target">How to Get Through the Awkwardness of Networking</a>
-    </h1>
-
-    <p class="mb-auto">Wesley Faulkner shares advice on how to be successful at professional networking as a developer.</p>
-
-    
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Oct 31, 2019</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/WesleyFaulkner.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Wesley Faulkner</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
-          
-
-  
-  
-  
-
-
-<article class="event-card">
-  <img
-    src="/img/banners/medium/visual-development.jpg"
-      loading="lazy"
-    alt="Banner for Is Visual Development the Future?"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/visual-development-future/" class="click-target">Is Visual Development the Future?</a>
-    </h1>
-
-    <p class="mb-auto">Amanda Loftis explores the impact of visual development tools on web development.</p>
-
-    
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Dec 18, 2019</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/amandaloftis.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Amanda Loftis</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
-          
-
-  
-
-
-<article class="event-card">
-  <img
-    src="/img/banners/medium/DemistifyingPWA.jpg"
-      loading="lazy"
-    alt="Banner for Demystifying PWAs"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/demystifying-pwas/" class="click-target">Demystifying PWAs</a>
-    </h1>
-
-    <p class="mb-auto">Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one.</p>
-
-    
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Mar 25, 2020</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/leewarrick.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Lee Warrick</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
-          
-
-  
-  
-  
-
-
-<article class="event-card">
-  <img
     src="/img/banners/medium/Sextech-The-Good-The-Bad-The-Bias.jpg"
       loading="lazy"
     alt="Banner for Sextech: The Good, the Bad &amp; the Bias"
@@ -645,6 +618,7 @@
     <p class="mb-auto">Alison Faulk gives an overview of the field of sextech and why it isn&#39;t what you may imagine.</p>
 
     
+
     <footer class="mt-6">
       <ul class="flex justify-between">
         <li class="flex items-center text-sm">
@@ -696,6 +670,7 @@
     <p class="mb-auto">Andrea Griffiths shares some useful tips, ticks and tools that will supercharge your CLI experience.</p>
 
     
+
     <footer class="mt-6">
       <ul class="flex justify-between">
         <li class="flex items-center text-sm">
@@ -725,10 +700,62 @@
 </article>
 
       
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/visual-development.jpg"
+      loading="lazy"
+    alt="Banner for Is Visual Development the Future?"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/visual-development-future/" class="click-target">Is Visual Development the Future?</a>
+    </h1>
+
+    <p class="mb-auto">Amanda Loftis explores the impact of visual development tools on web development.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Dec 18, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/amandaloftis.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Amanda Loftis</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
 
       <a
-        href="/signup/"
-        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text highlight-text-java"><span>FOR FREE</span></strong> and get access to all 70 sessions</a>
+        href="/join/"
+        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text highlight-text-java"><span>FOR FREE</span></strong> and get access to all 71 sessions</a>
     </div>
   </div>
 
@@ -749,22 +776,22 @@
           <div class="mr-6 highlight-avatar">
             <img
               class="relative z-10 max-w-full rounded-full"
-              src="/img/speakers/alisonfalk.jpg"
+              src="/img/speakers/chriscoyier.jpg"
               alt=""
               width="210"
               height="210">
           </div>
           <div>
             <h3 class="font-bold uppercase"><span class="text-sm md:text-base highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
-            <span class="text-2xl font-semibold">Alison Falk</span><br/>
-            <span class="text-lg font-medium text-java">CEO of WIT PGH</span>
+            <span class="text-2xl font-semibold">Chris Coyier</span><br/>
+            <span class="text-lg font-medium text-java">Founder at CSS Tricks</span>
           </div>
         </div>
 
-        <div class="mb-6"><p>Alison is the founder of <a href="https://www.womenintechpgh.com/">Women In Tech Pittsburgh</a> and <a href="https://www.sextechspace.com/">Sex Tech Space</a>, as well as the Managing Director of <a href="https://www.womenofsextech.com/">Women of Sex Tech</a>. She is a previous software engineer with experience in startup and corporate environments. Alison is currently a cybersecurity master’s candidate at the George Washington University and a recipient of the (ISC)2 Center for Cyber Safety and Education award. She has also been awarded the RedChair Pgh scholarship for leadership as a mid-career woman in IT and recognized as one of fourteen individuals shaping Pittsburgh tech scene by The Incline’s Who’s Next in Technology 2019. She has been featured in WIRED, WomenInTech, Female Tech Leaders, Women of Silicon Valley, Sextech Guide, PGH City Paper, and has spoken on the CyberSexurity panel at DEFCON, Abst, Google, CISCO, and more. In her free time she likes to hang out with her pet cockatiel.</p>
+        <div class="mb-6"><p>Chris is a web designer and developer. He writes about all things web at <a href="https://css-tricks.com">CSS-Tricks</a>, talks about all things web at conferences around the world and on his podcast <a href="https://shoptalkshow.com">ShopTalk</a>, and co-founded <a href="https://codepen.io">CodePen</a>, a social development environment.</p>
 </div>
 
-        <a href="https://cfe.dev/speakers/alison-falk/" class="inline-block py-2 font-bold link text-sky">View Sessions by Alison Falk</a>
+        <a href="https://cfe.dev/speakers/chris-coyier/" class="inline-block py-2 font-bold link text-sky">View Sessions by Chris Coyier</a>
       </section>
       
     </div>
@@ -833,7 +860,7 @@
 <div class="bg-blue highlight-pattern-zigzags">
   <section class="block px-4 py-24 mx-auto text-center text-white">
     <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
-    <a href="/signup/" class="text-xl button-ghost">Join Now</a>
+    <a href="/join/" class="text-xl button-ghost">Join Now</a>
     <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
 </div>
@@ -1029,7 +1056,7 @@
       <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
       <a
         class="inline-block mr-6 text-java anim hover:text-twitter"
-        href="https://twitter.com/fresheventsfl"
+        href="https://twitter.com/"
         title="twitter"
         aria-label="Twitter">
         <svg class="w-12 h-12 fill-current" aria-hidden="true">
@@ -1039,7 +1066,7 @@
 
       <a
         class="inline-block mr-6 text-java anim hover:text-youtube"
-        href="https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg"
+        href=""
         title="youtube"
         aria-label="YouTube">
         <svg class="w-12 h-12 fill-current" aria-hidden="true">
@@ -1049,7 +1076,7 @@
 
       <a
         class="inline-block mr-6 text-java anim hover:text-instagram"
-        href="https://instagram.com/certifiedfreshevents"
+        href="https://instagram.com/"
         title="youtube"
         aria-label="Instagram">
         <svg class="w-12 h-12 fill-current" aria-hidden="true">

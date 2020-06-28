@@ -6,7 +6,7 @@
     <description>Recent content in Virtual Meetups and Sessions for Technologists on CFE.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jul 2017 18:52:51 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cfe.dev/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
       <guid>https://cfe.dev/events/</guid>
-      <description> Upcoming Meetups We add new virtual meetups, online trainings, and other events all the time. Subscribe to our mailing list to be notified about everything we have&amp;nbsp;planning.   There are no upcoming virtual meetups scheduled. Check back soon!   </description>
+      <description>Upcoming Meetups We add new virtual meetups, online trainings, and other events all the time. Subscribe to our mailing list to be notified about everything we have&amp;nbsp;planning.   There are no upcoming virtual meetups scheduled. Check back soon!   </description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       
       <guid>https://cfe.dev/speakers/</guid>
       <description>Speakers We&#39;ve been fortunate to welcome an amazing list of technology and development experts as speakers - both online or in-person. This isn&#39;t just a boast - check this list out!
-      Aimee Knight Software Engineer at Tuft &amp;amp; Needle                  Alison Falk CEO of WIT PGH               Alyssa Nicoll Developer Advocate at Progress                  Amanda Loftis UX Director at Fluree               Andrea Griffiths Community Specialist at GitHub               Andy Barnov Teacher at Le Wagon Berlin               Ayan George Organizer of Orlando Go               Ayşegül Yönet Senior Azure Cloud Developer Advocate at Microsoft               Ben Ilegbodu Principal Frontend Engineer at Stitch Fix                  Bianca Gandolfo Software Engineer at Thumbtack                  Brad Marsh Senior Developer at SmartThings            Brandon Satrom Developer Evangelist at Particle                  Brian Leroux Co-founder at Begin                  Burke Holland Principal Developer Advocate at Microsoft                  Carlos Souza Author at Pluralsight                  Chris Coyier Founder at CSS Tricks                  Christina Aldan Speaker, Trainer, Consultant               David Khourshid Software Engineer at Microsoft                  Diana Rodriguez Developer Advocate at Nexmo                  Divya Tagtachian Developer Advocate at Progress                  Em Lazer Walker Cloud Developer Advocate at Microsoft                  Estelle Weyl Developer, Author, Trainer                  Gift Egwuenu Developer Evangelist at Datopian                  Helena McCabe Senior Front-end Developer at Lullabot               Henri Helvetica Freelance Developer            Holly Schinsky Software Engineer at Adobe                  James Thomas Developer Advocate at IBM Cloud                  Jay Hoffmann Lead Developer at Reaktiv Studios                  Jem Young Software Engineer at Netflix                  Jen Looper Cloud Developer Advocate Lead at Microsoft                  Jenell Pizarro User Experience Consultant at Capco               Jeremy Likness Product Manager at Microsoft                  Jo Franchetti Developer Advocate at Ably Realtime                  Johnny Boursiquot Site Reliability Engineer at Heroku                  Jory Burson Open Source Educator at Bocoup                  Kent C.</description>
+      Aimee Knight Software Engineer at Tuft &amp;amp; Needle                  Alison Falk CEO of WIT PGH               Alyssa Nicoll Developer Advocate at Progress                  Amanda Loftis UX Director at Fluree               Andrea Griffiths Community Specialist at GitHub               Andy Barnov Teacher at Le Wagon Berlin               Ayan George Organizer of Orlando Go               Ayşegül Yönet Senior Azure Cloud Developer Advocate at Microsoft               Ben Ilegbodu Principal Frontend Engineer at Stitch Fix                  Bianca Gandolfo Software Engineer at Thumbtack                  Brad Marsh Senior Developer at SmartThings            Brandon Satrom Developer Evangelist at Particle                  Brian Leroux Co-founder at Begin                  Burke Holland Principal Developer Advocate at Microsoft                  Carlos Souza Author at Pluralsight                  Chris Coyier Founder at CSS Tricks                  Christina Aldan Speaker, Trainer, Consultant               David Khourshid Software Engineer at Microsoft                  Diana Rodriguez Developer Advocate at Nexmo                  Divya Tagtachian Developer Advocate at Progress                  Em Lazer-Walker Cloud Developer Advocate at Microsoft                  Estelle Weyl Developer, Author, Trainer                  Gift Egwuenu Developer Evangelist at Datopian                  Helena McCabe Senior Front-end Developer at Lullabot               Henri Helvetica Freelance Developer            Holly Schinsky Software Engineer at Adobe                  James Thomas Developer Advocate at IBM Cloud                  Jay Hoffmann Lead Developer at Reaktiv Studios                  Jem Young Software Engineer at Netflix                  Jen Looper Cloud Developer Advocate Lead at Microsoft                  Jenell Pizarro User Experience Consultant at Capco               Jeremy Likness Product Manager at Microsoft                  Jo Franchetti Developer Advocate at Ably Realtime                  Johnny Boursiquot Site Reliability Engineer at Heroku                  Jory Burson Open Source Educator at Bocoup                  Kent C.</description>
     </item>
     
     <item>
@@ -56,6 +56,46 @@
       <guid>https://cfe.dev/conduct/</guid>
       <description>Contact Us This code of conduct applies to any online and in-person events. If you encounter any violations, please contact brian@certifiedfreshevents.com.
  All attendees, speakers, sponsors and volunteers at our virtual meetups, live events or other organized activity, whether online or in-person, are required to agree with the following code of conduct. The organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</description>
+    </item>
+    
+    <item>
+      <title>How Native Mobile Development Changed the Way I Write Web Apps</title>
+      <link>https://cfe.dev/sessions/native-to-web/</link>
+      <pubDate>Thu, 25 Jun 2020 12:00:00 -0400</pubDate>
+      
+      <guid>https://cfe.dev/sessions/native-to-web/</guid>
+      <description>Web developers tend to be unabashed defenders of the web platform, and tend to view native mobile platforms as proprietary, gated and bloated.
+As a long-time web developer I felt this way too, but then something unexpected happened: I joined the dark side, and spent five years of my career working on—gasp—iOS and Android applications.
+Now, like an explorer returning from a multi-year safari—I have so much to share! In this talk I’ll discuss how native development has improved the way I write code for the web, and how you can incorporate the best native app performance and testing tips into your web workflows.</description>
+    </item>
+    
+    <item>
+      <title>Moving from Native Mobile to Web Development</title>
+      <link>https://cfe.dev/events/native-to-web/</link>
+      <pubDate>Thu, 25 Jun 2020 12:00:00 -0400</pubDate>
+      
+      <guid>https://cfe.dev/events/native-to-web/</guid>
+      <description>Getting out of our comfort zones can be scary but often leads to new realizations and inspirations. In this session, TJ VanToll explains the things he learned when he returned to web development after spending years deep in mobile app development.</description>
+    </item>
+    
+    <item>
+      <title>Join CFE.dev</title>
+      <link>https://cfe.dev/join/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfe.dev/join/</guid>
+      <description>Join &amp;amp; Get FULL Access  Your Name  Email Address  Password Pick a good one!   Sign Up Cancel  Have an account already? Log in instead.
+ Why Join CFE.dev?     Catch meetups live Learn alongside the community in real-time.      New content regularly 2-3 meetups a month provides plenty to learn.      Stay up on the latest tech Stay fresh by learning new things from industry experts.</description>
+    </item>
+    
+    <item>
+      <title>Log in to CFE.dev</title>
+      <link>https://cfe.dev/login/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfe.dev/login/</guid>
+      <description>Log In &amp;amp;Get Watching  Email Address  Password  Log In Cancel  Need an account? Join CFE.dev instead.
+   </description>
     </item>
     
     <item>
@@ -503,7 +543,7 @@ Ayan was introduced to Go in 2011 but fell in love with it in the last 4 years o
     </item>
     
     <item>
-      <title>Em Lazer Walker</title>
+      <title>Em Lazer-Walker</title>
       <link>https://cfe.dev/speakers/em-lazer-walker/</link>
       <pubDate>Wed, 24 Jul 2019 18:52:51 -0400</pubDate>
       

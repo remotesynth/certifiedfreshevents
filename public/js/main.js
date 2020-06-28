@@ -1,6 +1,6 @@
 /* Navigation */
 const navToggler = document.querySelector('[data-nav-toggler]');
-const siteNav = document.getElementById('SiteNav');
+const body = document.getElementsByTagName('body')[0];
 const primaryNav = document.getElementById('PrimaryNav');
 const secondaryNav = document.getElementById('SecondaryNav');
 
@@ -13,7 +13,7 @@ const toggleModalEffect = () => {
 }
 
 navToggler.addEventListener('click', () => {
-  siteNav.classList.toggle('sr-only');
+  body.classList.toggle('nav-open');
 });
 
 searchToggler.forEach( (button) => {
@@ -56,47 +56,51 @@ if (!localStorage.getItem('doneSurvey') && survey) {
 
 const carousel = document.querySelector('.carousel-list');
 
-let carouselConfig = {
-  resizeLock: true,
-  slidesToShow: 1,
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-  }
-}
 
-if (carousel.hasAttribute('data-carousel-responsive')) {
-  carouselConfig['responsive'] = [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-      }
-    },
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-      }
+if (carousel) {
+
+  let carouselConfig = {
+    resizeLock: true,
+    slidesToShow: 1,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
     }
-  ];
-}
+  }
 
-new Glider(carousel, carouselConfig);
+  if (carousel.hasAttribute('data-carousel-responsive')) {
+    carouselConfig['responsive'] = [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        }
+      }
+    ];
+  }
 
-/* Carousel Helpers */
-document.addEventListener('glider-loaded', hideFFScrollBars);
-document.addEventListener('glider-refresh', hideFFScrollBars);
+  new Glider(carousel, carouselConfig);
 
-function hideFFScrollBars(e) {
-  const scrollbarHeight = 17; // Currently 17, may change with updates
-  if (/firefox/i.test(navigator.userAgent)) {
-    // We only need to appy to desktop. Firefox for mobile uses
-    // a different rendering engine (WebKit)
-    if (window.innerWidth > 575) {
-      e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
+  /* Carousel Helpers */
+  document.addEventListener('glider-loaded', hideFFScrollBars);
+  document.addEventListener('glider-refresh', hideFFScrollBars);
+
+  function hideFFScrollBars(e) {
+    const scrollbarHeight = 17; // Currently 17, may change with updates
+    if (/firefox/i.test(navigator.userAgent)) {
+      // We only need to appy to desktop. Firefox for mobile uses
+      // a different rendering engine (WebKit)
+      if (window.innerWidth > 575) {
+        e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
+      }
     }
   }
 }

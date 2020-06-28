@@ -2,10 +2,6 @@
 title: "Subscribe to our Mailing List"
 date: 2017-07-12T18:52:51-04:00
 weight: 3
-menu:
-  main:
-    name: "Subscribe"
-banner: "images/pages/subscribe.jpg"
 draft: false
 ---
 
