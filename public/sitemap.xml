@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://cfe.dev/search/</loc>
+    <lastmod>2017-07-12T18:52:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cfe.dev/conduct/</loc>
     <lastmod>2017-07-12T18:52:51-04:00</lastmod>
   </url>
@@ -83,16 +88,6 @@
   </url>
   
   <url>
-    <loc>https://cfe.dev/categories/javascript/</loc>
-    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cfe.dev/categories/web-development/</loc>
-    <lastmod>2020-06-16T13:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cfe.dev/categories/devops/</loc>
     <lastmod>2020-05-20T12:30:00-04:00</lastmod>
   </url>
@@ -114,6 +109,11 @@
   
   <url>
     <loc>https://cfe.dev/sessions/jamstack-gridsome/</loc>
+    <lastmod>2020-05-15T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cfe.dev/categories/javascript/</loc>
     <lastmod>2020-05-15T13:00:00-04:00</lastmod>
   </url>
   

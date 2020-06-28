@@ -141,9 +141,10 @@
 
     <form
       class="flex items-stretch justify-center order-2 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
-      id="Search">
+      id="Search" action="/search" method="get">
       <label class="sr-only" for="search">Enter search terms</label>
       <input
+        name="search"
         type="text"
         id="search"
         placeholder="Enter search terms"

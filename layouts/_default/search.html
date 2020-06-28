@@ -6,11 +6,54 @@
 <body class="antialiased">
 {{ partial "navigation.html" . }}
 
-{{ block "main" . }}{{ .Content }}{{ end }}
+<main>
+  <div class="mb-20 highlight-pattern-dotgrid">
+    <header class="container px-6 py-12 mx-auto">
+      <div class="flex flex-wrap mb-6">
+        <span
+          class="flex items-center justify-center flex-shrink-0 w-20 h-20 mr-4 rounded-full bg-salmon" aria-hidden="true">
+          <svg
+            class="inline-block w-12 h-12 fill-current"
+            aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-search"></use>
+          </svg>
+        </span>
+        <h1 class="my-2 text-5xl font-bold">{{ .Title }}</h1>
+      </div>
+      <div class="max-w-3xl text-xl content">{{.Content}}</div>
+    </header>
+  </div>
+
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-8" id="searchResults">
+    </div>
+  </div>
+</main>
 
 {{ partial "footer.html" .}}
 {{ partial "scripts.html" .}}
 
 {{ block "scripts". }}{{ end }}
+<script>
+function getQueryVariable(variable)
+{
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if(pair[0] == variable){return pair[1];}
+  }
+  return(false);
+}
+
+const query = getQueryVariable('search')
+const searchResults = document.getElementById('searchResults');
+axios.post('/.netlify/functions/algolia', {
+  search: query
+})
+  .then(function (response) {
+    searchResults.innerHTML = response.data;
+  });
+</script>
 </body>
 </html>

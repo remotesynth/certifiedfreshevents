@@ -49,12 +49,21 @@
     </item>
     
     <item>
+      <title>Search</title>
+      <link>https://cfe.dev/search/</link>
+      <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
+      
+      <guid>https://cfe.dev/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Code of Conduct</title>
       <link>https://cfe.dev/conduct/</link>
       <pubDate>Wed, 12 Jul 2017 18:52:51 -0400</pubDate>
       
       <guid>https://cfe.dev/conduct/</guid>
-      <description>Contact Us This code of conduct applies to any online and in-person events. If you encounter any violations, please contact brian@certifiedfreshevents.com.
+      <description>Code of Conduct This code of conduct applies to any online and in-person events. If you encounter any violations, please contact brian@certifiedfreshevents.com.
  All attendees, speakers, sponsors and volunteers at our virtual meetups, live events or other organized activity, whether online or in-person, are required to agree with the following code of conduct. The organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</description>
     </item>
     

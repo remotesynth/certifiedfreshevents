@@ -8,7 +8,7 @@ draft: false
 <!-- markdownlint-disable -->
 <main class="mb-20">
   <header class="container max-w-3xl px-6 py-12 mx-auto">
-    <h1 class="my-2 text-5xl font-bold">Contact Us</h1>
+    <h1 class="my-2 text-5xl font-bold">Code of Conduct</h1>
     <p class="text-xl">This code of conduct applies to any online and in-person events. If you encounter any violations, please contact <a href="mailto:brian@certifiedfreshevents.com" class="font-bold link text-sky">brian@certifiedfreshevents.com</a>.</p>
   </header>
 

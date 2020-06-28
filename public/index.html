@@ -55,6 +55,10 @@
 		ga('send', 'pageview');
 
 	</script>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
 	
 	<script>
 		!function(f,b,e,v,n,t,s)
@@ -218,22 +222,6 @@
           
             
               <li>
-                <a href="https://cfe.dev/categories/web-development/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
-                  <div class="nav-link-icon bg-">
-                    <svg aria-hidden="true">
-                      <use xlink:href="/img/icons.svg#"></use>
-                    </svg>
-                  </div>
-                  <div class="ml-4">
-                    <span class="block text-sm text-lg">Web Development</span>
-                    <span class="block text-xs text-gray-600"></span>
-                  </div>
-                </a>
-              </li>
-            
-          
-            
-              <li>
                 <a href="https://cfe.dev/categories/webdev/" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
                   <div class="nav-link-icon bg-jelly">
                     <svg aria-hidden="true">
@@ -288,9 +276,10 @@
 
     <form
       class="flex items-stretch justify-center order-2 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
-      id="Search">
+      id="Search" action="/search" method="get">
       <label class="sr-only" for="search">Enter search terms</label>
       <input
+        name="search"
         type="text"
         id="search"
         placeholder="Enter search terms"
@@ -449,17 +438,17 @@
 
 <article class="event-card">
   <img
-    src="/img/banners/medium/Dealing-with-Perfectionism.jpg"
+    src="/img/banners/medium/Banner_KnowJS.jpg"
       loading="lazy"
-    alt="Banner for Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself"
+    alt="Banner for Computer Science in Front End Dev: It&#39;s For More than Just Interviews"
     aria-hidden="true">
 
   <div class="event-card-body">
     <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/imposter-syndrome/" class="click-target">Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself</a>
+      <a href="https://cfe.dev/sessions/frontend-computer-science/" class="click-target">Computer Science in Front End Dev: It&#39;s For More than Just Interviews</a>
     </h1>
 
-    <p class="mb-auto">Jo Franchetti discusses how to understand your fears and learn to be kind to yourself.</p>
+    <p class="mb-auto">Lean JavaScript fundamentals through hands-on, online training.</p>
 
     
 
@@ -469,7 +458,7 @@
           <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
             <use xlink:href="/img/icons.svg#sm-calendar"></use>
           </svg>
-          <time class="font-semibold text-gray-800">Feb 22, 2019</time>
+          <time class="font-semibold text-gray-800">Apr 13, 2018</time>
         </li>
 
         
@@ -477,115 +466,11 @@
           
             
               <img
-                src="/img/speakers/JoFranchetti.jpg"
+                src="/img/speakers/jemyoung.jpg"
                 alt=""
                 class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
 
-              <span class="ml-2 text-sm">Jo Franchetti</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
-          
-
-  
-  
-  
-
-
-<article class="event-card">
-  <img
-    src="/img/banners/medium/Banner_Improving-You-Apps-Debugging.jpg"
-      loading="lazy"
-    alt="Banner for The Hunt for the Unicorn Performance Metric"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/unicorn-performance-metric/" class="click-target">The Hunt for the Unicorn Performance Metric</a>
-    </h1>
-
-    <p class="mb-auto">New technologies like serverless and bots are changing the face of development.</p>
-
-    
-
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Jan 17, 2018</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/tammyeverts.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Tammy Everts</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
-          
-
-  
-  
-  
-
-
-<article class="event-card">
-  <img
-    src="/img/banners/medium/Banner_Tools-For-The-Modern-Web-Developer.jpg"
-      loading="lazy"
-    alt="Banner for An Introduction to Using CodePen"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/intro-to-codepen/" class="click-target">An Introduction to Using CodePen</a>
-    </h1>
-
-    <p class="mb-auto">A look at some tools that can improve your development process.</p>
-
-    
-
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Jun 20, 2018</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/chriscoyier.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Chris Coyier</span>
+              <span class="ml-2 text-sm">Jem Young</span>
             
           
         </li>
@@ -657,6 +542,162 @@
 
 <article class="event-card">
   <img
+    src="/img/banners/medium/Banner_Tools-For-The-Modern-Web-Developer.jpg"
+      loading="lazy"
+    alt="Banner for An Introduction to Using CodePen"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/intro-to-codepen/" class="click-target">An Introduction to Using CodePen</a>
+    </h1>
+
+    <p class="mb-auto">A look at some tools that can improve your development process.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Jun 20, 2018</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/chriscoyier.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Chris Coyier</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/Banner_Improving-You-Apps-Debugging.jpg"
+      loading="lazy"
+    alt="Banner for The Hunt for the Unicorn Performance Metric"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/unicorn-performance-metric/" class="click-target">The Hunt for the Unicorn Performance Metric</a>
+    </h1>
+
+    <p class="mb-auto">New technologies like serverless and bots are changing the face of development.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Jan 17, 2018</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/tammyeverts.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Tammy Everts</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
+    src="/img/banners/medium/networking-for-devs.jpg"
+      loading="lazy"
+    alt="Banner for How to Get Through the Awkwardness of Networking"
+    aria-hidden="true">
+
+  <div class="event-card-body">
+    <h1 class="event-card-title">
+      <a href="https://cfe.dev/sessions/networking-for-developers/" class="click-target">How to Get Through the Awkwardness of Networking</a>
+    </h1>
+
+    <p class="mb-auto">Wesley Faulkner shares advice on how to be successful at professional networking as a developer.</p>
+
+    
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">Oct 31, 2019</time>
+        </li>
+
+        
+        <li class="flex items-center font-medium leading-tight">
+          
+            
+              <img
+                src="/img/speakers/WesleyFaulkner.jpg"
+                alt=""
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">Wesley Faulkner</span>
+            
+          
+        </li>
+        
+      </ul>
+    </footer>
+  </div>
+</article>
+
+      
+          
+
+  
+  
+  
+
+
+<article class="event-card">
+  <img
     src="/img/banners/medium/GitHub-CLI.jpg"
       loading="lazy"
     alt="Banner for Love is Blind: Falling in Love with the Command Line and GitHub CLI"
@@ -700,58 +741,6 @@
 </article>
 
       
-          
-
-  
-  
-  
-
-
-<article class="event-card">
-  <img
-    src="/img/banners/medium/visual-development.jpg"
-      loading="lazy"
-    alt="Banner for Is Visual Development the Future?"
-    aria-hidden="true">
-
-  <div class="event-card-body">
-    <h1 class="event-card-title">
-      <a href="https://cfe.dev/sessions/visual-development-future/" class="click-target">Is Visual Development the Future?</a>
-    </h1>
-
-    <p class="mb-auto">Amanda Loftis explores the impact of visual development tools on web development.</p>
-
-    
-
-    <footer class="mt-6">
-      <ul class="flex justify-between">
-        <li class="flex items-center text-sm">
-          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-calendar"></use>
-          </svg>
-          <time class="font-semibold text-gray-800">Dec 18, 2019</time>
-        </li>
-
-        
-        <li class="flex items-center font-medium leading-tight">
-          
-            
-              <img
-                src="/img/speakers/amandaloftis.jpg"
-                alt=""
-                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
-
-              <span class="ml-2 text-sm">Amanda Loftis</span>
-            
-          
-        </li>
-        
-      </ul>
-    </footer>
-  </div>
-</article>
-
-      
 
       <a
         href="/join/"
@@ -776,22 +765,24 @@
           <div class="mr-6 highlight-avatar">
             <img
               class="relative z-10 max-w-full rounded-full"
-              src="/img/speakers/chriscoyier.jpg"
+              src="/img/speakers/andreagriffiths.jpg"
               alt=""
               width="210"
               height="210">
           </div>
           <div>
             <h3 class="font-bold uppercase"><span class="text-sm md:text-base highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
-            <span class="text-2xl font-semibold">Chris Coyier</span><br/>
-            <span class="text-lg font-medium text-java">Founder at CSS Tricks</span>
+            <span class="text-2xl font-semibold">Andrea Griffiths</span><br/>
+            <span class="text-lg font-medium text-java">Community Specialist at GitHub</span>
           </div>
         </div>
 
-        <div class="mb-6"><p>Chris is a web designer and developer. He writes about all things web at <a href="https://css-tricks.com">CSS-Tricks</a>, talks about all things web at conferences around the world and on his podcast <a href="https://shoptalkshow.com">ShopTalk</a>, and co-founded <a href="https://codepen.io">CodePen</a>, a social development environment.</p>
+        <div class="mb-6"><p>Andrea Griffiths is a Community Support Hype Woman with over a decade experience in customer management, success and support.
+Currently a Community Specialist at GitHub, Andrea is customer obsessed, and an effective advocate for all users.
+Andrea is a super fan of OSS and the unlimited power of community.</p>
 </div>
 
-        <a href="https://cfe.dev/speakers/chris-coyier/" class="inline-block py-2 font-bold link text-sky">View Sessions by Chris Coyier</a>
+        <a href="https://cfe.dev/speakers/andrea-griffiths/" class="inline-block py-2 font-bold link text-sky">View Sessions by Andrea Griffiths</a>
       </section>
       
     </div>
@@ -1103,9 +1094,6 @@
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 <script src="/js/main.js"></script>
 
-
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="/js/search.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
   (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");

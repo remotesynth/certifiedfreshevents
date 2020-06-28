@@ -2,13 +2,6 @@
 title: "Introduction to Apache CouchDB"
 date: 2020-07-17T12:30:00-04:00
 end_date: 2020-07-17T13:30:00-04:00
-menu:
-  main:
-    parent: upcoming
-    name: Intro to CouchDB
-categories:
-  - JavaScript
-  - Web Development
 cost: 0
 homepage_banner: Introduction-To-Apache-Couch.jpg
 short_desc: "A hands-on virtual meetup with Apache CouchDB, a NoSQL database, with Upkar Lidder of IBM."

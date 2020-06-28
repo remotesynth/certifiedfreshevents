@@ -21,31 +21,22 @@
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>https://cfe.dev/categories/javascript/</link>
-      <pubDate>Tue, 16 Jun 2020 13:00:00 -0400</pubDate>
-      
-      <guid>https://cfe.dev/categories/javascript/</guid>
-      <description>JavaScript has taken over the software development world and established the web as an application platform. This popular language powers real-time web sites, mobile apps, games, and lightning fast services. JavaScript&amp;rsquo;s growth has made it difficult to keep track of all it can do. New frameworks, libraries, and tools are released all the time.
-New developers may find themselves wrestling with questions like React vs Vue, whether or not to invest into TypeScript, or how to tie different tools together to deliver a blissful JavaScript-centric product.</description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://cfe.dev/categories/web-development/</link>
-      <pubDate>Tue, 16 Jun 2020 13:00:00 -0400</pubDate>
-      
-      <guid>https://cfe.dev/categories/web-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DevOps</title>
       <link>https://cfe.dev/categories/devops/</link>
       <pubDate>Wed, 20 May 2020 12:30:00 -0400</pubDate>
       
       <guid>https://cfe.dev/categories/devops/</guid>
       <description>Architecting your application to support surges of traffic used to be a costly dark art. Serverless, AWS, Kubernetes, and newer technologies have made building, managing, and scaling high performance applications achievable. Our sessions cover many of these techniques and shed light on what it takes to make it through launch.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://cfe.dev/categories/javascript/</link>
+      <pubDate>Fri, 15 May 2020 13:00:00 -0400</pubDate>
+      
+      <guid>https://cfe.dev/categories/javascript/</guid>
+      <description>JavaScript has taken over the software development world and established the web as an application platform. This popular language powers real-time web sites, mobile apps, games, and lightning fast services. JavaScript&amp;rsquo;s growth has made it difficult to keep track of all it can do. New frameworks, libraries, and tools are released all the time.
+New developers may find themselves wrestling with questions like React vs Vue, whether or not to invest into TypeScript, or how to tie different tools together to deliver a blissful JavaScript-centric product.</description>
     </item>
     
     <item>
