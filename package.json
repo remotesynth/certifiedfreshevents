@@ -12,6 +12,7 @@
     "yaml": "^1.5.1"
   },
   "dependencies": {
+    "algoliasearch": "^4.3.0",
     "netlify-cli": "^2.51.0"
   }
 }
