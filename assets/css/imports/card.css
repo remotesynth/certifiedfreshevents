@@ -29,7 +29,7 @@
 .event-card-body {
   @apply flex flex-col;
   @apply flex-1;
-  @apply p-6;
+  @apply p-6 pt-4;
 }
 
 .event-card-title {
