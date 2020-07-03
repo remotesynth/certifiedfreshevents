@@ -20,6 +20,7 @@
 
 /* Effects and utilities */
 @import "imports/effects.css";
+@import "imports/spinner.css";
 @import "imports/utils.css";
 
 @import "tailwindcss/utilities";
