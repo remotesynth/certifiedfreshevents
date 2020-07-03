@@ -5,8 +5,11 @@ speakers:
   - tj-vantoll
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/rb68byb9
-      start_time: 31:08
+    url: https://www.crowdcast.io/e/rb68byb9
+    start_time: "31:08"
+  vimeo:
+    url: https://vimeo.com/434807146
+    length: "30:32"
 categories:
   - javascript
 draft: false

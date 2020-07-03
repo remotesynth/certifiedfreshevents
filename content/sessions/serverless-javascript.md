@@ -5,8 +5,11 @@ speakers:
   - burke-holland
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/mwtxogvi
-      start_time: 04:05
+    url: https://www.crowdcast.io/e/mwtxogvi
+    start_time: "04:05"
+  vimeo:
+    url: https://vimeo.com/434459163
+    length: "26:11"
 categories:
   - javascript
 draft: false
