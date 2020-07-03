@@ -6,6 +6,7 @@ const secondaryNav = document.getElementById('SecondaryNav');
 
 const searchToggler = document.querySelectorAll('[data-search-toggler]');
 const topSearch = document.getElementById('Search');
+const topSearchInput = document.getElementById('searchInput');
 
 const toggleModalEffect = () => {
   const body = document.querySelector('body');
@@ -21,6 +22,9 @@ searchToggler.forEach( (button) => {
     topSearch.classList.toggle('lg:sr-only');
     primaryNav.classList.toggle('lg:sr-only');
     secondaryNav.classList.toggle('lg:sr-only');
+    if (!topSearch.classList.contains('lg:sr-only')) {
+      topSearchInput.focus();
+    }
   });
 });
 
