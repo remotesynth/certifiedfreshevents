@@ -14,7 +14,7 @@
 
       <form
         class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
-        method="POST">
+        onsubmit="return subscribeForm(this,document.getElementById('subscribe_message'));">
         <label for="email" class="w-full label">Subscribe to our mailing list</label>
         <p class="w-full mb-3">Stay up to date with the latest meetups and sessions.</p>
         <input
@@ -24,9 +24,12 @@
           autocomplete="off"
           class="w-64 mb-2 mr-1 field">
         <button
+          id="foo"
+          name="subscribe"
           type="submit"
           class="mb-2 button">Subscribe</button>
       </form>
+      <div id="subscribe_message" style="color:red;"></div>
     </div>
 
     <nav class="mb-10 lg:w-1/3">

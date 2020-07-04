@@ -29,7 +29,7 @@ searchToggler.forEach( (button) => {
 });
 
 
-/* Survay Modal */
+/* Survey Modal */
 const survey = document.getElementById('Survey');
 const surveyModal = document.getElementById('SurveyModal');
 
@@ -52,6 +52,54 @@ if (!localStorage.getItem('doneSurvey') && survey) {
 
   survey.classList.remove('hidden');
 }
+
+function serialize(form) {
+	var field,
+		l,
+		s = [];
+
+	if (typeof form == 'object' && form.nodeName == "FORM") {
+    var len = form.elements.length;
+		for (var i = 0; i < len; i++) {
+			field = form.elements[i];
+			if (field.name && !field.disabled && field.type != 'button' && field.type != 'file' && field.type != 'hidden' && field.type != 'reset' && field.type != 'submit') {
+				if (field.type == 'select-multiple') {
+					l = form.elements[i].options.length;
+
+					for (var j = 0; j < l; j++) {
+						if (field.options[j].selected) {
+							s[s.length] = encodeURIComponent(field.name) + "=" + encodeURIComponent(field.options[j].value);
+						}
+					}
+				}
+				else if ((field.type != 'checkbox' && field.type != 'radio') || field.checked) {
+					s[s.length] = encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value);
+				}
+			}
+		}
+  }
+	return s.join('&').replace(/%20/g, '+');
+};
+
+function surveySubmit(e) {
+  e.preventDefault();
+
+  const surveyForm = e.currentTarget;
+  axios.post(surveyForm.action, serialize(surveyForm))
+  .then(function (response) {
+    localStorage.setItem('doneSurvey', true);
+    surveyModal.classList.toggle('sr-only');
+    toggleModalEffect();
+    survey.remove();
+    surveyModal.remove();
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+}
+
+const surveyForm = document.getElementById('surveyResponse');
+surveyForm.addEventListener('submit',surveySubmit);
 
 /*
   Setup Carousels
@@ -107,4 +155,28 @@ if (carousel) {
       }
     }
   }
+}
+
+/* ActiveCampaign form submit
+  -------------------------------------------------------*/
+
+function subscribeForm(form,messageObj) {
+  axios.post('/.netlify/functions/activecampaign', {
+    email: form.email.value
+  })
+  .then(function (response) {
+    if (response.data.contact !== undefined) {
+      form.subscribe.disabled = true;
+      form.email.value = "";
+      form.subscribe.innerHTML = "Subscribed!";
+    }
+    else {
+      messageObj.innerHTML = response.data.title;
+    }
+  })
+  .catch(function (error) {
+    messageObj.innerHTML = "We apologize, there was a problem subscribing.";
+  });
+
+  return false;
 }
