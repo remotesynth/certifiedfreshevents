@@ -1,10 +1,8 @@
 ---
 title: "IoT Training Diversity Scholarships"
 date: 2018-07-23T18:52:51-04:00
-weight: 2
-banner: "images/pages/conduct.jpg"
+layout: contact
 draft: false
-display: false
 ---
 
 <a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="/images/banners/AzureAdvocates-new.png" alt="Microsoft Cloud Developer Advocacy" style="float:right;"></a>

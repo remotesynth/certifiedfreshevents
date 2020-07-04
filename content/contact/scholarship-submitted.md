@@ -1,9 +1,8 @@
 ---
 title: "Flashback Conference Opportunity Scholarship"
 date: 2017-07-12T18:52:51-04:00
-weight: 2
+layout: contact
 draft: false
-display: false
 ---
 
 ### Sponsored by:

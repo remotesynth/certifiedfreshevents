@@ -1,10 +1,8 @@
 ---
 title: "GoLang Training Diversity Scholarships"
 date: 2018-07-23T18:52:51-04:00
-weight: 2
-banner: "images/pages/conduct.jpg"
+layout: contact
 draft: false
-display: false
 ---
 
 <div style="float:right;text-align:center;"><a href="https://golangweekly.com/"><img src="/images/banners/golang-weekly.png" alt="GoLang Weekly"></a><br><a href="https://golangweekly.com/" style="font-size: 2em;font-weight: 500;color: #6cd7e5;line-height: 1.0em;">Golang Weekly</a></div>
