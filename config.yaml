@@ -35,6 +35,8 @@ outputs:
     - HTML
     - RSS
     - Algolia
+  page:
+    - HTML
 outputFormats:
   Algolia:
     baseName: algolia
