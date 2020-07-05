@@ -20,7 +20,7 @@
   "dependencies": {
     "algoliasearch": "^4.3.0",
     "atomic-algolia": "^0.3.17",
-    "netlify-cli": "^2.51.0"
+    "netlify-cli": "^2.57.0"
   },
   "browserslist": [
     "last 1 version",
