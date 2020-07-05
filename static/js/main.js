@@ -73,7 +73,7 @@ if (!localStorage.getItem('doneSurvey') && survey) {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
     axios.post(
-      surveyForm.action,
+      "/",
       encode(surveyForm),
       options
     )
