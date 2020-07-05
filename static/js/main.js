@@ -33,11 +33,34 @@ searchToggler.forEach( (button) => {
 const survey = document.getElementById('Survey');
 const surveyModal = document.getElementById('SurveyModal');
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
+const serialize = function (form) {
+	var field,
+		l,
+		s = [];
+
+	if (typeof form == 'object' && form.nodeName == "FORM") {
+		var len = form.elements.length;
+
+		for (var i = 0; i < len; i++) {
+			field = form.elements[i];
+			if (field.name && !field.disabled && field.type != 'button' && field.type != 'file' && field.type != 'hidden' && field.type != 'reset' && field.type != 'submit') {
+				if (field.type == 'select-multiple') {
+					l = form.elements[i].options.length;
+
+					for (var j = 0; j < l; j++) {
+						if (field.options[j].selected) {
+							s[s.length] = encodeURIComponent(field.name) + "=" + encodeURIComponent(field.options[j].value);
+						}
+					}
+				}
+				else if ((field.type != 'checkbox' && field.type != 'radio') || field.checked) {
+					s[s.length] = encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value);
+				}
+			}
+		}
+	}
+	return s.join('&').replace(/%20/g, '+');
+};
 
 if (!localStorage.getItem('doneSurvey') && survey) {
   const surveyToggler = document.querySelector('[data-survey-toggler]');
@@ -72,14 +95,15 @@ if (!localStorage.getItem('doneSurvey') && survey) {
     const options = {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
+    console.log(serialize(surveyForm))
     axios.post(
       "/",
-      encode(surveyForm),
+      serialize(surveyForm),
       options
     )
     .then(function (response) {
       localStorage.setItem('doneSurvey', true);
-      window.location.assign(surveyForm.action);
+      //window.location.assign(surveyForm.action);
     })
     .catch(function (error) {
       console.log(error);
