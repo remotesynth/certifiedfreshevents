@@ -5,6 +5,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
     'layouts/**/*.html',
   ],
+  whitelist: ['modal-active'],
 
   // This is the function used to extract class names from your templates
   defaultExtractor: content => {

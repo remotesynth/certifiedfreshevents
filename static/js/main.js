@@ -33,26 +33,6 @@ searchToggler.forEach( (button) => {
 const survey = document.getElementById('Survey');
 const surveyModal = document.getElementById('SurveyModal');
 
-if (!localStorage.getItem('doneSurvey') && survey) {
-  const surveyToggler = document.querySelector('[data-survey-toggler]');
-  const surveyDismiss = document.querySelector('[data-survey-dismiss]');
-
-  surveyToggler.addEventListener('click', () => {
-    surveyModal.classList.toggle('sr-only');
-    toggleModalEffect();
-  });
-
-  if (surveyDismiss) {
-    surveyDismiss.addEventListener('click', () => {
-      survey.remove();
-      surveyModal.remove();
-      localStorage.setItem('doneSurvey', true);
-    });
-  }
-
-  survey.classList.remove('hidden');
-}
-
 function serialize(form) {
 	var field,
 		l,
@@ -81,25 +61,57 @@ function serialize(form) {
 	return s.join('&').replace(/%20/g, '+');
 };
 
-function surveySubmit(e) {
-  e.preventDefault();
+if (!localStorage.getItem('doneSurvey') && survey) {
+  const surveyToggler = document.querySelector('[data-survey-toggler]');
+  const surveyDismiss = document.querySelector('[data-survey-dismiss]');
+  const surveyCancel = document.querySelector('[data-survey-cancel]');
+  const surveyForm = document.getElementById('surveyResponse');
 
-  const surveyForm = e.currentTarget;
-  axios.post(surveyForm.action, serialize(surveyForm))
-  .then(function (response) {
-    localStorage.setItem('doneSurvey', true);
+  surveyToggler.addEventListener('click', () => {
+    surveyModal.classList.toggle('sr-only');
+    toggleModalEffect();
+  });
+
+  if (surveyDismiss) {
+    surveyDismiss.addEventListener('click', () => {
+      survey.remove();
+      surveyModal.remove();
+      localStorage.setItem('doneSurvey', true);
+    });
+  }
+
+  function removeSurveyModal() {
     surveyModal.classList.toggle('sr-only');
     toggleModalEffect();
     survey.remove();
     surveyModal.remove();
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
-}
+  }
 
-const surveyForm = document.getElementById('surveyResponse');
-surveyForm.addEventListener('submit',surveySubmit);
+  function surveySubmit(e) {
+    e.preventDefault();
+
+    const surveyForm = e.currentTarget;
+    axios.post(surveyForm.action, serialize(surveyForm))
+    .then(function (response) {
+      localStorage.setItem('doneSurvey', true);
+      window.location.assign(surveyForm.action);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
+  surveyForm.addEventListener('submit',surveySubmit);
+
+  if (surveyCancel) {
+    surveyCancel.addEventListener('click', (e) => {
+      e.preventDefault();
+      removeSurveyModal();
+    });
+  }
+
+  survey.classList.remove('hidden');
+}
 
 /*
   Setup Carousels
