@@ -95,10 +95,11 @@ if (!localStorage.getItem('doneSurvey') && survey) {
     const options = {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
-    console.log(serialize(surveyForm))
+    const formData = "form-name=surveyResponse&" + serialize(surveyForm);
+    console.log(formData)
     axios.post(
       "/",
-      serialize(surveyForm),
+      formData,
       options
     )
     .then(function (response) {
