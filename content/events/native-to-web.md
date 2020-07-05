@@ -4,7 +4,7 @@ date: 2020-06-25T12:00:00-04:00
 end_date: 2020-06-25T13:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: From Native to Web
 categories:
   - Web Development
