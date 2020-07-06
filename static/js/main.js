@@ -66,7 +66,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
+if (!localStorage.getItem('doneSurvey') && survey) {
   const surveyToggler = document.querySelector('[data-survey-toggler]');
   const surveyDismiss = document.querySelector('[data-survey-dismiss]');
   const surveyCancel = document.querySelector('[data-survey-cancel]');
@@ -95,11 +95,12 @@ if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
   function surveySubmit(e) {
     e.preventDefault();
 
-    const surveyForm = e.currentTarget;
+    const theForm = e.currentTarget;
+    console.log(theForm.name)
     const options = {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
-    const formData = "form-name=surveyResponse&" + serialize(surveyForm);
+    const formData = "form-name="+ theForm.name + "&" + serialize(theForm);
     axios.post(
       "/",
       formData,
@@ -107,7 +108,7 @@ if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
     )
     .then(function (response) {
       localStorage.setItem('doneSurvey', (new Date()).toUTCString());
-      window.location.assign(surveyForm.action);
+      window.location.assign(theForm.action);
     })
     .catch(function (error) {
       console.log(error);
