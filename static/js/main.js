@@ -62,7 +62,11 @@ const serialize = function (form) {
 	return s.join('&').replace(/%20/g, '+');
 };
 
-if (!localStorage.getItem('doneSurvey') && survey) {
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
   const surveyToggler = document.querySelector('[data-survey-toggler]');
   const surveyDismiss = document.querySelector('[data-survey-dismiss]');
   const surveyCancel = document.querySelector('[data-survey-cancel]');
@@ -77,7 +81,7 @@ if (!localStorage.getItem('doneSurvey') && survey) {
     surveyDismiss.addEventListener('click', () => {
       survey.remove();
       surveyModal.remove();
-      localStorage.setItem('doneSurvey', true);
+      localStorage.setItem('doneSurvey', (new Date()).toUTCString());
     });
   }
 
@@ -96,15 +100,14 @@ if (!localStorage.getItem('doneSurvey') && survey) {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
     const formData = "form-name=surveyResponse&" + serialize(surveyForm);
-    console.log(formData)
     axios.post(
       "/",
       formData,
       options
     )
     .then(function (response) {
-      localStorage.setItem('doneSurvey', true);
-      //window.location.assign(surveyForm.action);
+      localStorage.setItem('doneSurvey', (new Date()).toUTCString());
+      window.location.assign(surveyForm.action);
     })
     .catch(function (error) {
       console.log(error);

@@ -37,16 +37,6 @@
       class="max-w-md px-8 pt-8 pb-12 mx-auto mb-10 border border-gray-300 rounded shadow-xl" data-netlify="true">
 
       <div class="mb-8">
-        <label for="Survey-Email" class="label">Email Address</label>
-        <input
-          type="text"
-          name="email"
-          id="Survey-Email"
-          class="w-full field"
-          required>
-      </div>
-
-      <div class="mb-8">
         <label for="Survey-Role" class="label">What best describes your role?</label>
         <select name="role" id="Survey-Role" class="w-full field select" required>
           <option>Developer</option>
@@ -146,6 +136,16 @@
         </ul>
         <p class="mt-3 text-sm italic text-red">Please make a selection.</p>
       </fieldset>
+
+      <div class="mb-8">
+        <label for="Survey-Comments" class="label">Additional Comments</label>
+        <textarea
+          rows="2"
+          name="comments"
+          id="Survey-Comments"
+          class="w-full field">
+        </textarea>
+      </div>
 
 
       <div class="flex justify-end">
