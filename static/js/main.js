@@ -66,7 +66,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-if (!localStorage.getItem('doneSurvey') && survey) {
+if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
   const surveyToggler = document.querySelector('[data-survey-toggler]');
   const surveyDismiss = document.querySelector('[data-survey-dismiss]');
   const surveyCancel = document.querySelector('[data-survey-cancel]');
@@ -96,7 +96,6 @@ if (!localStorage.getItem('doneSurvey') && survey) {
     e.preventDefault();
 
     const theForm = e.currentTarget;
-    console.log(theForm.name)
     const options = {
       headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }
@@ -206,3 +205,22 @@ function subscribeForm(form,messageObj) {
 
   return false;
 }
+
+function handleSignupConfirm(token) {
+  const auth = new GoTrue({
+    APIUrl: 'https://cfe.dev/.netlify/identity',
+    audience: '',
+    setCookie: false,
+  });
+  auth
+  .confirm(token)
+  .then(function(response) {
+    console.log("Account confirmed!Welcome to the party!", JSON.stringify({ response }));
+  })
+  .catch(function(e) {
+    console.log(e);
+  });
+}
+
+const hash = (document.location.hash || "").replace(/^#\/?/, "");
+if (hash) handleSignupConfirm(hash);
