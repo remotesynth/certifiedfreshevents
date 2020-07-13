@@ -5,8 +5,11 @@ speakers:
   - brandon-satrom
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/7v1mj9k9
-      start_time: 03:45
+    url: https://www.crowdcast.io/e/7v1mj9k9
+    start_time: "03:45"
+  vimeo:
+    url: https://vimeo.com/437239727
+    length: "27:32"
 categories:
   - stuff
 draft: false

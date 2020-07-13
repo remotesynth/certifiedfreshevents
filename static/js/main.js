@@ -205,22 +205,3 @@ function subscribeForm(form,messageObj) {
 
   return false;
 }
-
-function handleSignupConfirm(token) {
-  const auth = new GoTrue({
-    APIUrl: 'https://cfe.dev/.netlify/identity',
-    audience: '',
-    setCookie: false,
-  });
-  auth
-  .confirm(token)
-  .then(function(response) {
-    console.log("Account confirmed!Welcome to the party!", JSON.stringify({ response }));
-  })
-  .catch(function(e) {
-    console.log(e);
-  });
-}
-
-const hash = (document.location.hash || "").replace(/^#\/?/, "");
-if (hash) handleSignupConfirm(hash);
