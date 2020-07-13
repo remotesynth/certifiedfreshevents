@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/7v1mj9k9
         start_time: 03:45
+    vimeo:
+        url: https://vimeo.com/437257212
+        length: "22:30"
 menu:
   main:
     parent: sessions
