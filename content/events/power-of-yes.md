@@ -12,7 +12,7 @@ sessions:
 menu:
   main:
     parent: upcoming
-    name: Scaling Battle Royale
+    name: Power of Yes
 categories:
     - culture
 draft: false
