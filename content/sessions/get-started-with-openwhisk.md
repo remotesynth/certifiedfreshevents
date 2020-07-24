@@ -5,8 +5,11 @@ speakers:
   - upkar-lidder
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/get-started-with-3
-      start_time: 03:40
+    url: https://www.crowdcast.io/e/get-started-with-3
+    start_time: "03:40"
+  vimeo:
+    url: https://vimeo.com/438515372
+    length: "01:53:02"
 categories:
   - devops
 draft: false
