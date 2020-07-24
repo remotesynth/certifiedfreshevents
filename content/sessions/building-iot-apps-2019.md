@@ -8,6 +8,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/building-iot-apps-with/1
         start_time: 02:39
+    vimeo:
+        url: https://vimeo.com/440699817
+        length: "02:45:53"
 menu:
   main:
     parent: sessions

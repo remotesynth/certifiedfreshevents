@@ -6,7 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/ethics-in-software
-        start_time: 04:44
+        start_time: "04:44"
+    vimeo:
+        url: https://vimeo.com/438167296
+        length: "50:23"
 menu:
   main:
     parent: sessions

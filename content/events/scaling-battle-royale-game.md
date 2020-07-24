@@ -1,7 +1,7 @@
 ---
 title: "Scaling a Live Battle Royale Game With No Budget"
-date: 2020-07-24T12:00:00-04:00
-end_date: 2020-07-24T13:00:00-04:00
+date: 2020-07-31T12:00:00-04:00
+end_date: 2020-07-31T13:00:00-04:00
 menu:
   main:
     parent: upcoming
