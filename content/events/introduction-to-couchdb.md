@@ -4,7 +4,7 @@ date: 2020-07-17T12:30:00-04:00
 end_date: 2020-07-17T13:30:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: Intro to CouchDB
 categories:
   - JavaScript
