@@ -6,7 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/introduction-to-apache-2
-        start_time: 00:00
+        start_time: "01:20"
+    vimeo:
+        url: https://vimeo.com/442232619
+        length: "01:00:22"
 menu:
   main:
     parent: sessions

@@ -7,6 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/getting-started-with-52
         start_time: "5:02"
+    vimeo:
+        url: https://vimeo.com/442885538
+        length: "02:00:15"
 menu:
   main:
     parent: sessions
