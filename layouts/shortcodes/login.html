@@ -7,7 +7,7 @@
     <form
       id="loginForm"
       class="max-w-md px-8 pt-8 pb-12 mx-auto">
-
+      <div class="mb-8 error-message" id="errorMessage"></div>
       <div class="mb-8">
         <label for="join-email" class="label">Email Address</label>
         <input
@@ -36,35 +36,3 @@
     </form>
   </div>
 </main>
-
-<script>
-function handleLogin(email,password) {
-  const auth = new GoTrue({
-    APIUrl: 'https://cfe.dev/.netlify/identity',
-    audience: '',
-    setCookie: false,
-  });
-  auth
-  .login(email, password)
-  .then(response => {
-    if (document.referrer && ((document.referrer.includes('cfe.dev') && !(document.referrer.includes('login'))) || document.referrer.includes('localhost:8888'))) {
-      window.location.assign(document.referrer);
-    }
-    else {
-      window.location.assign('/');
-    }
-  })
-  .catch(error => console.log(JSON.stringify(error)));
-}
-
-document.getElementById("loginForm").addEventListener('submit',(e) =>{
-  e.preventDefault();
-
-  let form = e.currentTarget;
-  let email = form.elements['join-email'].value;
-  let password = form.elements['join-password'].value;
-  console.log(document.referrer)
-
-  handleLogin(email,password);
-});
-</script>

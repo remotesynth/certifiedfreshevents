@@ -38,3 +38,11 @@
 .content a {
   @apply text-sky;
 }
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
