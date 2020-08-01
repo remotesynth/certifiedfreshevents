@@ -8,7 +8,8 @@
     <div class="flex flex-col items-center justify-center md:items-start md:flex-row">
       <form
         class="flex-shrink-0 w-full max-w-md px-8 py-12 mb-12 border border-gray-300 rounded shadow-xl flex-grow-1 md:w-auto md:mb-0 md:order-2"
-        id="signupForm">
+        id="registerForm" method="post">
+        <div class="error-message" id="errorMessage"></div>
         <div class="mb-8">
           <label for="join-name" class="label">Your Name</label>
           <input
@@ -102,32 +103,3 @@
   </div>
 
 </main>
-
-<script>
-/* Identity handling */
-
-function handleSignup(email,password,name) {
-  const auth = new GoTrue({
-    APIUrl: 'https://cfe.dev/.netlify/identity',
-    audience: '',
-    setCookie: false,
-  });
-  auth
-    .signup(email, password,{ full_name: name})
-    .then((response) => {
-      window.location.assign('/signup/confirmation/');
-    })
-    .catch((error) => console.log("It's an error", error));
-}
-
-document.getElementById("signupForm").addEventListener('submit',(e) =>{
-  e.preventDefault();
-
-  let form = e.currentTarget;
-  let name = form.elements['join-name'].value;
-  let email = form.elements['join-email'].value;
-  let password = form.elements['join-password'].value;
-
-  handleSignup(email,password,name);
-});
-</script>

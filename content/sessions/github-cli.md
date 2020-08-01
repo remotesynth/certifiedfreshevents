@@ -5,11 +5,11 @@ speakers:
   - andrea-griffiths
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/falling-in-love-with-the
-      start_time: 3:38
+    url: https://www.crowdcast.io/e/falling-in-love-with-the
+    start_time: 3:38
   vimeo:
-      url: https://vimeo.com/416648508
-      length: "41:15"
+    url: https://vimeo.com/441448459
+    length: "40:55"
 categories:
   - devops
 featured: true
