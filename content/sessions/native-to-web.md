@@ -6,7 +6,10 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/how-native-mobile
-        start_time: 00:00
+        start_time: "03:00"
+    vimeo:
+        url: https://vimeo.com/443525463
+        length: "38:10"
 menu:
   main:
     parent: sessions

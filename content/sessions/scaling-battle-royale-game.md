@@ -6,7 +6,7 @@ speakers:
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/scaling-a-live-battle
-        start_time: 00:00
+        start_time: "04:07"
 draft: false
 ---
 
