@@ -145,51 +145,14 @@
       </div>
     {{ end }}
   </div>
-
-  {{ partial "related-sessions.html" .}}
+  {{ if ne .Params.sessions nil }}
+    {{ range $session := .Params.sessions | first 1 }}
+      {{ with site.GetPage (print "/sessions/" $session) }}
+        {{ partial "related-sessions.html" .}}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 </main>
-
-{{/* Code to use? */}}
-
-{{/*
-{{ if and (ne .Params.embed_url nil) (eq .Params.cost 0) }}
-{{ $eventcode := path.Base .Params.embed_url }}
-  <form id="registerForm" class="mc4wp-form" onsubmit="return registerForm(this,document.getElementById('register_message'));">
-    <input type="hidden" name="eventcode" value="{{$eventcode}}">
-    <div class="mc4wp-form-fields">
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Your email" required="true" aria-required="true">
-    </div>
-    <div class="form-group">
-      <input type="submit" name="register" class="btn btn-lg" value="Register Now">
-    </div>
-    </div>
-    <div id="register_message" style="color:red;"></div>
-  </form>
-{{ end }}
-
-<div class="entry__tags">
-  <span class="entry__tags-label">Categories:</span>
-  {{ range $category := .Params.Categories }}<a href="{{ "categories" | absURL }}/{{ $category | urlize }}" rel="tag">{{ $category }}</a>{{ end }}
-</div>
-
-{{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
-{{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
-{{ $ageYears := math.Round (div $ageMonths 12.0) }}
-<li class="entry__meta-date">
-{{ if lt $ageDays 0 }}
-  {{ $ageDays := mul $ageDays -1 }}
-  In {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}}
-{{ else if ge $ageYears 1 }}
-  About {{ $ageYears }} {{ cond (eq $ageYears 1) "year" "years" }} ago
-{{ else if eq $ageDays 0 }}
-  Today
-{{ else if lt $ageDays 31 }}
-  {{ $ageDays }} {{ cond (eq $ageDays 1) "day" "days"}} ago
-{{ else }}
-  {{ $ageMonths }} {{ cond (eq $ageMonths 1) "month" "months" }} ago
-{{ end }}
-*/}}
 
 {{ end }}
 

@@ -108,10 +108,10 @@ function handleSignupConfirm(token) {
 
 function handleRecovery(token) {
   auth
-  .recover(token)
-  .then(response =>
-    console.log("Logged in as %s", JSON.stringify({ response }))
-  )
+  .recover(token, true)
+  .then(response => {
+    window.location.assign('/signup/manage/');
+  })
   .catch(error => {
     window.location.assign('/signup/recover-fail/');
   });
@@ -133,10 +133,12 @@ if (user)  {
     // get the login button
     const loginBtn = document.querySelector('a[href="/login/"]');
     const registerBtn = document.querySelector('a[href="/join/"]');
+    const manageBtn = document.querySelector('a[href="/signup/manage/"]');
 
     loginBtn.href = window.location.href + '?logout';
     loginBtn.innerHTML = 'Log Out';
     registerBtn.classList.add('hidden');
+    manageBtn.classList.remove('hidden');
 }
 
 const params = new URLSearchParams(window.location.search);
@@ -148,4 +150,53 @@ if (params.has('logout') && user) {
             console.log("Failed to logout user: %o", error);
             throw error;
         });
+}
+
+// handle account management form
+const manageForm = document.getElementById("manageForm");
+if (manageForm) {
+  if (user) {
+    manageForm['manage-name'].value = user.user_metadata.full_name;
+    document.getElementById("manage-email").innerHTML += user.email;
+  }
+  else {
+    const errorMessage = document.getElementById("errorMessage");
+    if (errorMessage) {
+      errorMessage.innerHTML = 'You must be logged in to manage your account. <a href="/login/" class="font-bold link">Log in.</a>';
+      manageForm['manage-name'].disabled = true;
+      manageForm['manage-email'].disabled = true;
+      manageForm['manage-submit'].disabled = true;
+    }
+    else {
+      console.log("Failed to update user");
+      throw error;
+    }
+  }
+  manageForm.addEventListener('submit',(e) =>{
+    e.preventDefault();
+
+    let form = e.target;
+    let update = {};
+    update.email = user.email;
+    update.data = {
+      full_name: form.elements['manage-name'].value
+    };
+    if (form.elements['manage-password'].value !== '')
+      update.password = form.elements['manage-password'].value;
+
+    const errorMessage = document.getElementById("errorMessage");
+    user
+      .update(update, { full_name: form.elements['manage-name'].value})
+      .then(user => {
+        errorMessage.innerHTML = "Your account has been updated."
+      })
+      .catch(error => {
+        if (errorMessage)
+          errorMessage.innerHTML = error.json.msg;
+        else {
+          console.log("Failed to update user: %o", error);
+          throw error;
+        }
+      });
+    });
 }
