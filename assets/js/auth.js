@@ -134,11 +134,49 @@ if (user)  {
     const loginBtn = document.querySelector('a[href="/login/"]');
     const registerBtn = document.querySelector('a[href="/join/"]');
     const manageBtn = document.querySelector('a[href="/signup/manage/"]');
+    // event and session pages
+    const crowdcastEmbed = document.getElementById('crowdcast-embed');
+    const vimeoEmbed = document.getElementById('vimeo-embed');
+    const crowdcastOpen = document.getElementById('crowdcast-open');
+    const bannerImage = document.getElementById('banner-image');
+    const bannerSignup = document.getElementById('banner-signup');
 
     loginBtn.href = window.location.href + '?logout';
     loginBtn.innerHTML = 'Log Out';
     registerBtn.classList.add('hidden');
     manageBtn.classList.remove('hidden');
+
+    // event and session pages
+    if (crowdcastEmbed) {
+      let iframe = document.createElement('iframe');
+      iframe.classList.add('absolute');
+      iframe.classList.add('z-0');
+      iframe.classList.add('w-full');
+      iframe.classList.add('h-full');
+      iframe.src = crowdcastEmbed.getAttribute('data-embed-url');
+
+      crowdcastEmbed.appendChild(iframe);
+    }
+    else if (vimeoEmbed) {
+      let iframe = document.createElement('iframe');
+      iframe.setAttribute('frameborder',0);
+      iframe.setAttribute('allowFullScreen','true');
+      iframe.src = vimeoEmbed.getAttribute('data-embed-url');
+
+      vimeoEmbed.classList.add('block');
+      vimeoEmbed.classList.add('mx-auto');
+      vimeoEmbed.classList.add('bg-black');
+      vimeoEmbed.classList.add('embed-responsive');
+
+      vimeoEmbed.appendChild(iframe);
+    }
+    else if (crowdcastOpen) {
+      crowdcastOpen.classList.remove('hidden');
+    }
+    if (bannerImage)
+      bannerImage.classList.add('hidden');
+    if (bannerSignup)
+      bannerSignup.classList.add('hidden');
 }
 
 const params = new URLSearchParams(window.location.search);

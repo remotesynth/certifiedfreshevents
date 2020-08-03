@@ -62,23 +62,17 @@
       {{ end }}
     </ul>
   </header>
-
   <div class="container mx-auto">
     <div class="block mx-auto bg-black embed-responsive">
       {{ if ne .Params.embed_url nil }}
+        <div id="crowdcast-embed" data-embed-url="{{ .Params.embed_url }}"></div>
         <iframe
           src="{{ .Params.embed_url }}"
-          class="absolute z-0 w-full h-full"></iframe>
-      {{ else if ne .Params.banner nil }}
-        <div class="flex items-center justify-center w-full h-full">
-          <a
-            href="#"
-            target="_blank"
-            class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
-              <span class="flex px-8 py-4">
-                {{ partial "crowdcast-button-content" .}}
-              </span>
-          </a>
+          class="absolute z-0 w-full h-full" id="crowdcast-embed"></iframe>
+      {{ end }}
+      {{ if ne .Params.homepage_banner nil }}
+        <div class="flex justify-center w-full h-full" id="banner-image">
+          <img src="/img/banners/{{.Params.homepage_banner}}" width="100%" />
         </div>
       {{ end }}
     </div>
@@ -86,12 +80,12 @@
 
   {{/* Hide if authenticated */}}
   <section
-    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves">
+    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
     <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
 
     <a href="/join/" class="text-2xl button-ghost">Join Now</a>
 
-    <p class="mt-6">Have an account? <a href="login.html" class="font-medium link hover:text-lightBlue">Log in</a></p>
+    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
 
 

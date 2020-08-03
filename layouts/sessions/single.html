@@ -79,14 +79,17 @@
   </header>
 
   <div class="container mx-auto">
+    <div class="flex justify-center w-full h-full" id="banner-image">
+      <img src="/img/banners/{{$event.Params.homepage_banner}}" width="100%" />
+    </div>
     {{ with .Params.recordings }}
       {{ with .vimeo }}
-        <div class="block mx-auto bg-black embed-responsive">
-          {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-          <iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe>
+        {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+        <div id="vimeo-embed" data-embed-url="https://player.vimeo.com/video/{{ $vimeo_embed }}">
+
         </div>
       {{ else }}
-        <div class="block mx-auto bg-black embed-responsive">
+        <div class="block mx-auto bg-black embed-responsive hidden" id="crowdcast-open">
           <div
             class="flex flex-col items-center justify-center w-full h-full bg-jelly"
             role="banner">
@@ -104,6 +107,16 @@
       {{ end }}
     {{ end }}
   </div>
+
+  {{/* Hide if authenticated */}}
+  <section
+    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+
+    <a href="/join/" class="text-2xl button-ghost">Join Now</a>
+
+    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
 
   <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
