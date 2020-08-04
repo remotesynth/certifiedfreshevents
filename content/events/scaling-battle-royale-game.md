@@ -4,7 +4,7 @@ date: 2020-07-31T12:00:00-04:00
 end_date: 2020-07-31T13:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: Scaling Battle Royale
 categories:
     - serverless
