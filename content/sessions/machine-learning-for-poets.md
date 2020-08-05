@@ -8,7 +8,7 @@ recordings:
       url: https://www.crowdcast.io/e/understanding-machine
       start_time: 03:30
   vimeo:
-      url: https://vimeo.com/412568248
+      url: https://vimeo.com/413286468
       length: "43:40"
 categories:
   - software
