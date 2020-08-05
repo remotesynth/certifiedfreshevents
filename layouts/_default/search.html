@@ -2,6 +2,17 @@
 <html lang="en">
 
 {{ partial "head.html" . }}
+<style>
+.search-by {
+    font-size: 12px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.search-by-label {
+  float:left;
+  padding-right:0.5rem;
+}
+</style>
 
 <body class="antialiased">
 {{ partial "navigation.html" . }}
@@ -23,7 +34,10 @@
       <div class="max-w-3xl text-xl content" id="searchDescription">{{.Content}}</div>
     </header>
   </div>
-
+  <div class="container mx-auto search-by">
+    <span class="search-by-label">Search by</span>
+    <a href="https://www.algolia.com/?utm_source=hn_search&amp;amp;utm_medium=link&amp;amp;utm_term=logo&amp;amp;utm_campaign=hn_algolia" title="Realtime Search Engine" target="_blank"><img src="//d3nb9u6x572n0.cloudfront.net/packs/media/images/logo-algolia-blue-35c461b6.svg" alt="Algolia Logo" width="60"></a>
+  </div>
   <div class="container mx-auto text-center">
 
     <div class="mx-auto my-8" id="loader">
@@ -34,7 +48,6 @@
 
       <h2 class="text-sm font-medium">Just a moment...</h2>
     </div>
-
     <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-8" id="searchResults">
     </div>
 

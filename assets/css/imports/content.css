@@ -42,3 +42,13 @@
 .error-message {
   color: red;
 }
+
+.search-by {
+  font-size: 12px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+.search-by-label {
+float:left;
+padding-right:0.5rem;
+}

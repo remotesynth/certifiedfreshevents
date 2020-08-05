@@ -13,6 +13,15 @@ params:
     - culture
     - iot
     - serverless
+  algolia:
+    vars:
+      - title
+      - summary
+      - date
+      - permalink
+      - description
+    params:
+      - categories
 menu: ["main", "top"]
 related:
   threshold: 80
@@ -43,13 +52,3 @@ outputFormats:
     isPlainText: true
     mediaType: application/json
     notAlternative: true
-params:
-  algolia:
-    vars:
-      - title
-      - summary
-      - date
-      - permalink
-      - description
-    params:
-      - categories
