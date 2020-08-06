@@ -1,5 +1,7 @@
+{{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
+{{- $src := $src.Resize "608x" }}
 <article class="entry thumb thumb--size-4">
-  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/medium/{{ .Params.Homepage_banner }}');">
+  <div class="entry__img-holder thumb__img-holder" style="background-image: url('{{ $src.RelPermalink }}');">
     <div class="bottom-gradient"></div>
     <div class="thumb-text-holder thumb-text-holder--3">
       {{ range $category := first 1 .Params.Categories }}

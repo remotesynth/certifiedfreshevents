@@ -155,6 +155,7 @@ if (user)  {
       iframe.classList.add('h-full');
       iframe.src = crowdcastEmbed.getAttribute('data-embed-url');
 
+      crowdcastEmbed.parentElement.classList.add('embed-responsive');
       crowdcastEmbed.appendChild(iframe);
     }
     else if (vimeoEmbed) {

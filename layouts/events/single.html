@@ -63,16 +63,14 @@
     </ul>
   </header>
   <div class="container mx-auto">
-    <div class="block mx-auto bg-black embed-responsive">
+    <div class="block mx-auto bg-black">
       {{ if ne .Params.embed_url nil }}
         <div id="crowdcast-embed" data-embed-url="{{ .Params.embed_url }}"></div>
-        <iframe
-          src="{{ .Params.embed_url }}"
-          class="absolute z-0 w-full h-full" id="crowdcast-embed"></iframe>
       {{ end }}
       {{ if ne .Params.homepage_banner nil }}
+        {{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
         <div class="flex justify-center w-full h-full" id="banner-image">
-          <img src="/img/banners/{{.Params.homepage_banner}}" width="100%" />
+          <img src="{{$src.RelPermalink}}" width="100%" />
         </div>
       {{ end }}
     </div>
