@@ -1,6 +1,8 @@
+{{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
+{{- $src := $src.Resize "608x" }}
 <article class="event-card">
   <img
-    src="/img/banners/medium/{{ .Params.Homepage_banner }}"
+    src="{{ $src.RelPermalink }}"
     loading="lazy"
     alt="Banner for {{ .Title }}"
     aria-hidden="true">

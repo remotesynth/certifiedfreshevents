@@ -7,13 +7,18 @@
   {{ $event = (index $events 0) }}
 {{ end }}
 
+{{- $src := resources.Get (print "img/banners/" $event.Params.homepage_banner) -}}
+{{ if $src }}
+  {{- $src := $src.Resize "608x" }}
+{{ end}}
 <article class="event-card">
+  {{ if $src }}
   <img
-    src="/img/banners/medium/{{ $event.Params.Homepage_banner }}"
+    src="{{ $src.RelPermalink }}"
       loading="lazy"
     alt="Banner for {{ .Title }}"
     aria-hidden="true">
-
+  {{ end }}
   <div class="event-card-body">
     <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-java">SESSION</span></div>
     <h1 class="event-card-title">
