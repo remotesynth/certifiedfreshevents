@@ -1,6 +1,6 @@
 <section>
   <div class="relative flex items-center mb-8">
-    <a href="{{ .Permalink }}" class="mr-4">
+    <a href="{{ .RelPermalink }}" class="mr-4">
       <img
         class="max-w-full rounded-full"
         src="/img/speakers/{{ .Params.speaker_image }}"
@@ -10,7 +10,7 @@
     </a>
 
     <div>
-      <a href="{{ .Permalink }}">
+      <a href="{{ .RelPermalink }}">
         <h2 class="text-3xl font-semibold">{{ .Title }}</h2>
         <span class="text-lg font-medium text-java">{{ .Params.Job_title }}</span>
       </a>

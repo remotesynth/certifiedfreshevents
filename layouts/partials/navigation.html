@@ -37,7 +37,7 @@
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
-              <a href="{{ .Permalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
+              <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
                 <span class="block text-lg font-medium">{{ .Title }}</span>
                 <time class="text-sm text-gray-700">
                   {{ .Date.Format "Jan 2, 2006 3:04PM MST" }}
@@ -76,7 +76,7 @@
           {{ range $key, $value := .Site.Taxonomies.categories}}
             {{ with site.GetPage (print "/categories/" $key) }}
               <li>
-                <a href="{{.Permalink}}" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                <a href="{{.RelPermalink}}" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
                   <div class="nav-link-icon bg-{{.Params.color }}">
                     <svg aria-hidden="true">
                       <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>

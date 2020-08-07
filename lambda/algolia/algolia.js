@@ -15,7 +15,7 @@ exports.handler = async (event, context, callback) => {
         let itemHTML = `
         <article class="event-card">
           <img
-            src="/img/banners/medium/${ hit.banner }"
+            src="/img/banners/${ hit.banner }"
               loading="lazy"
             alt="Banner for ${ hit.title }"
             aria-hidden="true">
