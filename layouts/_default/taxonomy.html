@@ -18,7 +18,7 @@
   </div>
 
   <div class="container mx-auto">
-    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ partial "session-card.html" .}}
       {{ end }}
