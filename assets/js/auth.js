@@ -100,6 +100,15 @@ function handleSignupConfirm(token) {
       .confirm(token, true)
       .then(function(response) {
           window.location.assign('/signup/confirm-success/');
+          axios.post('/.netlify/functions/activecampaign', {
+            email: response.email
+          })
+          .then(function (response) {
+            // we don't need to do anything
+          })
+          .catch(function (error) {
+            // it's okay, just ignore it
+          });
       })
       .catch(function(e) {
           window.location.assign('/signup/confirm-fail/');
