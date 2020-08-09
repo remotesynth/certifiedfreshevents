@@ -121,7 +121,6 @@ function handleRecovery(token) {
 const hash = (document.location.hash || "").replace(/^#\/?/, "");
 if (hash) {
     const [key, value] = hash.split("=");
-    console.log(hash)
     if (key === 'confirmation_token')
       handleSignupConfirm(value);
     else if (key === 'recovery_token')
