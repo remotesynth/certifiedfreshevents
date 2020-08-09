@@ -7,7 +7,9 @@
     {{- $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr -}}
     {{- $event = (index $events 0) -}}
     {{- $eventdate := .Date.Format "Jan 2, 2006" }}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" $eventdate "description" .Description "dir" .File.Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .Permalink "section" .Section "categories" .Params.Categories "description" .Params.Description "banner" $event.Params.Homepage_banner )}}
+    {{- $speakerPage := index (first 1 .Params.speakers) 0 -}}
+    {{- $speaker := site.GetPage (print "/speakers/" $speakerPage) -}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" $eventdate "description" .Description "dir" .File.Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .Permalink "section" .Section "categories" .Params.Categories "description" .Params.Description "banner" $event.Params.Homepage_banner "speaker" $speaker.Title )}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

@@ -110,7 +110,12 @@ if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
       window.location.assign(theForm.action);
     })
     .catch(function (error) {
-      console.log(error);
+      let errorMessage = document.getElementById("errorMessage");
+      if (errorMessage) {
+        errorMessage.innerHTML = 'We apologize. Something went wrong submitting your survey.';
+      }
+      else
+        console.log(error);
     });
   }
 

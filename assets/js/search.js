@@ -19,6 +19,8 @@ if (query) {
   })
     .then(function (response) {
       loader.hidden = true;
+      if (response.data == '')
+        response.data = '<div style="text-align:left;">You\'re search didn\'t return any results</div>';
       searchResults.innerHTML = response.data;
       searchDescription.innerHTML = 'Search results for: "' + query + '"';
     });
