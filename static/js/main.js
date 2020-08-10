@@ -194,7 +194,7 @@ function subscribeForm(form,messageObj) {
       form.subscribe.innerHTML = "Subscribed!";
     }
     else {
-      messageObj.innerHTML = response.data.title;
+      messageObj.innerHTML = "We are unable to subscribe you. An account may already exist with this email."
     }
   })
   .catch(function (error) {

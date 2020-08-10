@@ -38,12 +38,14 @@
   @apply px-4 py-2;
   @apply text-xl font-bold text-center;
   @apply border border-b-2 border-current rounded;
+  @apply bg-java;
+  @apply border-java;
 
   @apply transition-all duration-150 ease-in;
 }
 
 .button-ghost:hover {
-  @apply bg-java;
+  @apply bg-blue;
   @apply border-java;
   @apply text-white;
 }
