@@ -5,8 +5,11 @@ speakers:
     - em-lazer-walker
 recordings:
     crowdcast:
-        url: https://www.crowdcast.io/e/scaling-a-live-battle
-        start_time: "04:07"
+      url: https://www.crowdcast.io/e/scaling-a-live-battle
+      start_time: "04:07"
+    vimeo:
+      url: https://vimeo.com/447357320
+      length: "28:12"
 draft: false
 ---
 
