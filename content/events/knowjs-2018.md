@@ -18,7 +18,6 @@ sponsor:
   URL: https://developer.microsoft.com/en-us/advocates/index.html
 draft: false
 featured: false
-styles: knowjs.css
 ---
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">

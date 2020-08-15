@@ -77,6 +77,7 @@
   </div>
 
   {{/* Hide if authenticated */}}
+  {{ if eq .Params.location nil }}
   <section
     class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
     <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
@@ -85,7 +86,7 @@
 
     <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
-
+  {{ end }}
 
   {{/* If authenticated, show w/external URL */}}
   <!--

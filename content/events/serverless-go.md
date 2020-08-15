@@ -2,7 +2,6 @@
 title: Serverless Go!
 date: 2019-03-08T12:00:00-04:00
 days: 1
-location: Online
 cost: 150
 recording_cost: 0
 homepage_banner: Serverless-Go_Small.jpg

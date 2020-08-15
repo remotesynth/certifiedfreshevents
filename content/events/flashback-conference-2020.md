@@ -12,11 +12,11 @@ draft: false
 featured: false
 styles: flashback.css
 ---
-# Join us on February 10-11 in Orlando, Florida!
+# Flashback Conference was February 10-11, 2020 in Orlando, Florida!
 
 Explore new and cutting-edge web development, browser APIs and developer tooling and how they’ve evolved into the web of today. Flashback Conference features 2 days filled with sessions from experts in the field of front-end development and JavaScript.
 
-Topics include:
+Topics included:
 
 <div style="width:50%;float:left;margin-bottom:30px;">
 <ul>
@@ -35,314 +35,316 @@ Topics include:
 </ul>
 </div>
 
-<div class="button">
-  <a href="#register" class="first"> Register Today! </a>
-  <a href="#register" class="slidein"> Don't miss out! </a>
-  <a href="#register" class="slidein two"> What're you waiting for? </a>
-</div>
-
 ## Speakers {#speakers}
 
-We have a fantastic lineup of experts in frontend development, JavaScript and serverless!
+We had a fantastic lineup of experts in frontend development, JavaScript and serverless!
 
 ### Keynotes
 
 <div class="lgx-speakers">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/kyle-simpson">
-                    <img src="/img/speakers/portraits/KyleSimpson.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/getify"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/getify"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="https://me.getify.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/kyle-simpson">Kyle Simpson</a>
-                </h3>
-            </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/kyle-simpson">
+                <img src="/img/speakers/portraits/KyleSimpson.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/getify"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/getify"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="https://me.getify.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/kyle-simpson">Kyle Simpson</a>
+            </h3>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/estelle-weyl">
-                    <img src="/img/speakers/portraits/EstelleWeyl.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/estellevw"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/estelle"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="http://www.standardista.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/estelle-weyl">Estelle Weyl</a>
-                </h3>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/estelle-weyl">
+                <img src="/img/speakers/portraits/EstelleWeyl.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/estellevw"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/estelle"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="http://www.standardista.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/estelle-weyl">Estelle Weyl</a>
+            </h3>
         </div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/raymond-camden">
-                    <img src="/img/speakers/portraits/RaymondCamden.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/raymondcamden"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/cfjedimaster"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="https://www.raymondcamden.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/raymond-camden">Raymond Camden</a>
-                </h3>
-                <h4 class="speaker-subtitle">HERE Tehnologies</h4>
-            </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/raymond-camden">
+                <img src="/img/speakers/portraits/RaymondCamden.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/raymondcamden"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/cfjedimaster"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="https://www.raymondcamden.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/raymond-camden">Raymond Camden</a>
+            </h3>
+            <h4 class="speaker-subtitle">HERE Tehnologies</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/jay-hoffmann">
-                    <img src="/img/speakers/portraits/JayHoffmann.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/JasonHoffmann"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="https://jayhoffmann.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/jay-hoffmann">Jay Hoffmann</a>
-                </h3>
-                <h4 class="speaker-subtitle">Reaktiv Studios</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/jay-hoffmann">
+                <img src="/img/speakers/portraits/JayHoffmann.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/jay_hoffmann"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/JasonHoffmann"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="https://jayhoffmann.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/jay-hoffmann">Jay Hoffmann</a>
+            </h3>
+            <h4 class="speaker-subtitle">Reaktiv Studios</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/burke-holland">
-                    <img src="/img/speakers/portraits/BurkeHolland.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/burkeholland"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/burke-holland">Burke Holland</a>
-                </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/burke-holland">
+                <img src="/img/speakers/portraits/BurkeHolland.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/burkeholland"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/burkeholland"><i class="fab fa-github"></i></a>
+            <a class="sp-link" href="https://burkeknowswords.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/burke-holland">Burke Holland</a>
+            </h3>
+            <h4 class="speaker-subtitle">Microsoft</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/ben-ilegbodu">
-                    <img src="/img/speakers/portraits/BenIlegbodu.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/benmvp"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/benmvp"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="http://www.benmvp.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/ben-ilegbodu">Ben Ilegbodu</a>
-                </h3>
-                <h4 class="speaker-subtitle">Stitch Fix</h4>
-            </div>
+  </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/ben-ilegbodu">
+                <img src="/img/speakers/portraits/BenIlegbodu.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/benmvp"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/benmvp"><i class="fab fa-github"></i></a>
+            <a class="sp-link" href="http://www.benmvp.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/ben-ilegbodu">Ben Ilegbodu</a>
+            </h3>
+            <h4 class="speaker-subtitle">Stitch Fix</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/david-khourshid">
-                    <img src="/img/speakers/portraits/DavidKhourshid.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/davidkpiano"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://codepen.io/davidkpiano/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/david-khourshid">David Khourshid</a>
-                </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/david-khourshid">
+                <img src="/img/speakers/portraits/DavidKhourshid.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/DavidKPiano"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/davidkpiano"><i class="fab fa-github"></i></a>
+            <a class="sp-link" href="https://codepen.io/davidkpiano/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/david-khourshid">David Khourshid</a>
+            </h3>
+            <h4 class="speaker-subtitle">Microsoft</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/em-lazer-walker">
-                    <img src="/img/speakers/portraits/EmLazerWalker.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/lazerwalker"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/lazerwalker"><i class="fab fa-github"></i></a>
-                <a class="sp-link" href="https://lazerwalker.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/em-lazer-walker">Em Lazer Walker</a>
-                </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/em-lazer-walker">
+                <img src="/img/speakers/portraits/EmLazerWalker.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/lazerwalker"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/lazerwalker"><i class="fab fa-github"></i></a>
+            <a class="sp-link" href="https://lazerwalker.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/em-lazer-walker">Em Lazer Walker</a>
+            </h3>
+            <h4 class="speaker-subtitle">Microsoft</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/simon-macdonald">
-                    <img src="/img/speakers/portraits/SimonMacDonald.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/macdonst"><i class="fab fa-twitter"></i></a>
-                <a class="sp-link" href="https://www.simonmacdonald.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/simon-macdonald">Simon MacDonald</a>
-                </h3>
-                <h4 class="speaker-subtitle">Adobe</h4>
-            </div>
+  </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/simon-macdonald">
+                <img src="/img/speakers/portraits/SimonMacDonald.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/macdonst"><i class="fab fa-twitter"></i></a>
+            <a class="sp-link" href="https://www.simonmacdonald.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/simon-macdonald">Simon MacDonald</a>
+            </h3>
+            <h4 class="speaker-subtitle">Adobe</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/helena-mccabe">
-                    <img src="/img/speakers/portraits/HelenaMcCabe.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fab fa-twitter"></i></a>
-                <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/helena-mccabe">Helena McCabe</a>
-                </h3>
-                <h4 class="speaker-subtitle">Lullabot</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/helena-mccabe">
+                <img src="/img/speakers/portraits/HelenaMcCabe.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/misshelenasue"><i class="fab fa-twitter"></i></a>
+            <a class="sp-link" href="https://noti.st/helenasue"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/helena-mccabe">Helena McCabe</a>
+            </h3>
+            <h4 class="speaker-subtitle">Lullabot</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/alyssa-nicoll">
-                    <img src="/img/speakers/portraits/AlyssaNicoll.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
-                <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a>
-                </h3>
-                <h4 class="speaker-subtitle">Progress</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/alyssa-nicoll">
+                <img src="/img/speakers/portraits/AlyssaNicoll.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/AlyssaNicoll"><i class="fab fa-twitter"></i></a>
+            <a class="sp-link" href="http://alyssa.io/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/alyssa-nicoll">Alyssa Nicoll</a>
+            </h3>
+            <h4 class="speaker-subtitle">Progress</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/jenell-pizarro">
-                    <img src="/img/speakers/portraits/JenellPizarro.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/nellarro"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/nellarro"><i class="fab fa-github"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/jenell-pizarro">Jenell Pizarro</a>
-                </h3>
-                <h4 class="speaker-subtitle">Capco</h4>
-            </div>
+  </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/jenell-pizarro">
+                <img src="/img/speakers/portraits/JenellPizarro.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/nellarro"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/nellarro"><i class="fab fa-github"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/jenell-pizarro">Jenell Pizarro</a>
+            </h3>
+            <h4 class="speaker-subtitle">Capco</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/divya-tagtachian">
-                    <img src="/img/speakers/portraits/DivyaSasidharan.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/shortdiv"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/shortdiv"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="http://shortdiv.com/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/divya-tagtachian">Divya Sasidharan</a>
-                </h3>
-                <h4 class="speaker-subtitle">Netlify</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/divya-tagtachian">
+                <img src="/img/speakers/portraits/DivyaSasidharan.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/shortdiv"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/shortdiv"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="http://shortdiv.com/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/divya-tagtachian">Divya Sasidharan</a>
+            </h3>
+            <h4 class="speaker-subtitle">Netlify</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/carlos-souza">
-                    <img src="/img/speakers/portraits/CarlosSouza.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/caike"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/caike"><i class="fab fa-github"></i></i></a>
-                <a class="sp-link" href="https://csouza.me/"><i class="fa fa-link"></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/carlos-souza">Carlos Souza</a>
-                </h3>
-                <h4 class="speaker-subtitle">Pluralsight</h4>
-            </div>
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/carlos-souza">
+                <img src="/img/speakers/portraits/CarlosSouza.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/caike"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/caike"><i class="fab fa-github"></i></i></a>
+            <a class="sp-link" href="https://csouza.me/"><i class="fa fa-link"></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/carlos-souza">Carlos Souza</a>
+            </h3>
+            <h4 class="speaker-subtitle">Pluralsight</h4>
         </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="lgx-single-speaker lgx-single-speaker-sm">
-            <figure>
-                <a class="profile-img" href="/speakers/aysegul-yonet">
-                    <img src="/img/speakers/portraits/AysegulYonet.png" alt="speaker">
-                </a>
-                <figcaption>
-                <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>
-                <a class="sp-gh" href="https://github.com/Yonet"><i class="fab fa-github"></i></i></a>
-                </figcaption>
-            </figure>
-            <div class="speaker-info">
-                <h3 class="speaker-title">
-                    <a href="/speakers/aysegul-yonet">Ayşegül Yönet</a>
-                </h3>
-                <h4 class="speaker-subtitle">Microsoft</h4>
-            </div>
+  </div>
+  <div class="flex flex-row">
+    <div class="m-2">
+      <div class="lgx-single-speaker lgx-single-speaker-sm">
+        <figure>
+            <a class="profile-img" href="/speakers/aysegul-yonet">
+                <img src="/img/speakers/portraits/AysegulYonet.png" alt="speaker">
+            </a>
+            <figcaption>
+            <a class="sp-tw" href="https://twitter.com/AysSomething"><i class="fab fa-twitter"></i></a>
+            <a class="sp-gh" href="https://github.com/Yonet"><i class="fab fa-github"></i></i></a>
+            </figcaption>
+        </figure>
+        <div class="speaker-info">
+            <h3 class="speaker-title">
+                <a href="/speakers/aysegul-yonet">Ayşegül Yönet</a>
+            </h3>
+            <h4 class="speaker-subtitle">Microsoft</h4>
         </div>
+      </div>
     </div>
   </div>
 </div>
@@ -353,25 +355,25 @@ This event wouldn't be possible without the support of our sponsors.
 
 ### Gold Sponsor
 
-[![CAPCO](/img/banners/capco_logo.png)](https://www.capco.com/)
+[![CAPCO](/img/flashback/capco_logo.png)](https://www.capco.com/)
 
 ### Silver Sponsors
 
-[![Netlify](/img/banners/netlify-logo.png)](https://netlify.com)
+[![Netlify](/img/flashback/netlify-logo.png)](https://netlify.com)
 
-[![BlueWave](/img/banners/bluewave-logo.png)](https://bluewaverp.com/)
+[![BlueWave](/img/flashback/bluewave-logo.png)](https://bluewaverp.com/)
 
-[![Rocket Validator](/img/banners/rocket-validator-logo.png)](http://rocketvalidator.com/try?coupon=FLASHBACK2020)
+[![Rocket Validator](/img/flashback/rocket-validator-logo.png)](http://rocketvalidator.com/try?coupon=FLASHBACK2020)
 
 ### Opportunity Sponsor
 
-[![Pluralsight](/img/banners/Pluralsight_logo.png)](https://www.pluralsight.com)
+[![Pluralsight](/img/flashback/Pluralsight_logo.png)](https://www.pluralsight.com)
 
 ### Community Partners
 
-[![Project Orlando](/img/banners/project-orlando-logo.png)](https://www.projectorlando.io/)
+[![Project Orlando](/img/flashback/project-orlando-logo.png)](https://www.projectorlando.io/)
 
-[![Manning](/img/banners/Manning_logo.png)](https://www.manning.com/)
+[![Manning](/img/flashback/Manning_logo.png)](https://www.manning.com/)
 
 We have very limited room for additional sponsors, so [contact us](/contact/contact/) if you'd like to be a part of this special event!
 
@@ -551,7 +553,7 @@ Flashback Conference will feature 2 full days of sessions in a single track form
 
 ## Venue {#venue}
 
-![The Abbey Orlando](/img/banners/abbeyinterior580.jpg)
+![The Abbey Orlando](/img/flashback/abbeyinterior580.jpg)
 
 Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbey](http://abbeyorlando.com) offers a fun and relaxed atmosphere that fits the vibe for Flashback Conference.
 
@@ -581,11 +583,11 @@ Located in downtown Orlando just steps away from the famous Lake Eola, [The Abbe
 
 ## Where to Stay
 
-[![EO Inn](/img/banners/eoinn.jpg)](https://eoinn.com/flashback/)
+[![EO Inn](/img/flashback/eoinn.jpg)](https://eoinn.com/flashback/)
 
 Just walking distance from the event in downtown Orlando and right off beautiful Lake Eola, the EO Inn offers a beautifully restored, 1920’s-era building and a special rate for Flashback Conference attendees.
 
-<input type="button" class="btn" value="Book My Room"  onclick=" window.open('https://eoinn.com/flashback/','_blank')">
+<input type="button" class="fb-button" value="Book My Room"  onclick=" window.open('https://eoinn.com/flashback/','_blank')">
 
 <a name="opportunity"></a>
 
