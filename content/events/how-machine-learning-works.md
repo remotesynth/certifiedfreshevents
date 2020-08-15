@@ -4,7 +4,7 @@ date: 2020-08-14T12:00:00-04:00
 end_date: 2020-08-14T13:00:00-04:00
 menu:
   main:
-    parent: upcoming
+    parent: events
     name: Machine Learning
 categories:
     - JavaScript
