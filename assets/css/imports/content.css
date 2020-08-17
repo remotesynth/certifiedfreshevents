@@ -49,6 +49,13 @@
   padding-left: 2rem;
 }
 .search-by-label {
-float:left;
-padding-right:0.5rem;
+  float:left;
+  padding-right:0.5rem;
+}
+/* this is a bit of a hack fix to overcome the banner covering the whole image on mobile */
+@media only screen
+  and (max-width : 411px) {
+    #banner-signup {
+      margin-top: -3em;
+    }
 }

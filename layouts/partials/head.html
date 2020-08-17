@@ -85,7 +85,8 @@
 		&noscript=1"/>
 	</noscript>
 	<!-- End Facebook Pixel Code -->
-	{{- if ne .Params.sessions nil }}{{ range $session := .Params.sessions -}}
+	{{- if ne .Params.sessions nil -}}
+  {{- range $session := .Params.sessions -}}
 			{{- with site.GetPage (print "/sessions/" $session) -}}
 				{{- range $speaker := .Params.speakers -}}
 					{{- with site.GetPage (print "/speakers/" $speaker) -}}
