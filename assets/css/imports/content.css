@@ -54,7 +54,7 @@
 }
 /* this is a bit of a hack fix to overcome the banner covering the whole image on mobile */
 @media only screen
-  and (max-width : 411px) {
+  and (max-width : 412px) {
     #banner-signup {
       margin-top: -3em;
     }
