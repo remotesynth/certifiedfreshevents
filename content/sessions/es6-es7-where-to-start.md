@@ -2,18 +2,17 @@
 title: "ES6, ES7, where do I start???"
 date: 2017-08-23T18:52:51-04:00
 speakers:
-    - raymond-camden
+  - raymond-camden
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/rb68byb9
-        start_time: "04:20"
-    vimeo:
-        url: https://vimeo.com/434797043
-        length: "26:39"
-menu:
-  main:
-    parent: sessions
-    name: JavaScript Features
+  crowdcast:
+    url: https://www.crowdcast.io/e/rb68byb9
+    start_time: 04:20
+  vimeo:
+    url: https://vimeo.com/434797043
+    length: "26:39"
+categories:
+  - webdev
+  - javascript
 draft: false
 ---
 

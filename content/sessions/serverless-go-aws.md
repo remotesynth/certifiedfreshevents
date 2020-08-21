@@ -2,14 +2,17 @@
 title: "Orchestrating Serverless Go Applications on AWS"
 date: 2018-10-30T18:52:51-04:00
 speakers:
-    - johnny-boursiquot
+  - johnny-boursiquot
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/going-great-with-go
-        start_time: 42:30
-    vimeo:
-        url: https://vimeo.com/421308847
-        length: "40:38"
+  crowdcast:
+      url: https://www.crowdcast.io/e/going-great-with-go
+      start_time: 42:30
+  vimeo:
+      url: https://vimeo.com/421308847
+      length: "40:38"
+categories:
+  - devops
+  - software
 draft: false
 ---
 

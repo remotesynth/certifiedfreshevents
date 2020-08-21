@@ -2,18 +2,16 @@
 title: "The Point of Vue"
 date: 2017-10-05T18:52:51-04:00
 speakers:
-    - holly-schinsky
+  - holly-schinsky
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/vc1pp66r
-        start_time: "03:31"
-    vimeo:
-        url: https://vimeo.com/439069482
-        time: "33:50"
-menu:
-  main:
-    parent: sessions
-    name: Vue Basics
+  crowdcast:
+    url: https://www.crowdcast.io/e/vc1pp66r
+    start_time: 03:31
+  vimeo:
+    url: https://vimeo.com/439069482
+    length: "33:50"
+categories:
+  - webdev
 draft: false
 ---
 

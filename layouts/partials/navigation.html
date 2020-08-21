@@ -1,80 +1,236 @@
-<!-- Navigation -->
-<header class="nav">
-    <div class="nav__holder nav--sticky">
-        <div class="container relative">
-        <div class="flex-parent">
+<nav class="site-nav">
+  <div class="site-nav-primary">
+    <a href="/" class="flex items-center flex-shrink-0 mr-10">
+      <img
+        src="/img/logo.svg"
+        alt="CFE.dev"
+        class="h-16 lg:h-20">
+    </a>
 
-            <!-- Side Menu Button -->
-            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
-            <span class="nav-icon-toggle__box">
-                <span class="nav-icon-toggle__inner"></span>
-            </span>
-            </button> 
+    <button
+      type="button"
+      class="flex items-center px-3 py-2 border rounded lg:hidden"
+      data-nav-toggler>
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
 
-            <!-- Logo -->
-            <a href="/index.html" class="logo">
-            <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="{{ .Site.Title }}">
+  <div
+    class="flex flex-col block w-full lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
+    id="SiteNav">
+    <ul
+      class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"
+      id="PrimaryNav">
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="/events/"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          Upcoming Meetups
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        <!-- Meetups Sub-Nav -->
+        <ul
+          class="space-y-6 menu menu-meetups">
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ range $upcoming }}
+            <li>
+              <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
+                <span class="block text-lg font-medium">{{ .Title }}</span>
+                <time class="text-sm text-gray-700">
+                  {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
+                </time>
+              </a>
+            </li>
+          {{ end }}
+
+          {{/*
+          <li>
+            <a
+              href="/events/"
+              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+              Discover Meetups
+              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+              </svg>
             </a>
+          </li>
+          */}}
+        </ul>
+      </li>
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="/sessions/"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:text-lg lg:mt-0 lg:text-left">
+          Sessions
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block " aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
 
-            <!-- Nav-wrap -->
-            <nav class="flex-child nav__wrap d-none d-lg-block">              
-            <ul class="nav__menu">
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ $parentNavURL := .URL }}
-                {{ if ne .URL "" }}
-                    <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
-                    <a href="{{ .URL }}">{{ .Name }}</a>
-                    {{ if .HasChildren }}
-                    <ul class="nav__dropdown-menu">
-                        {{ if eq $parentNavURL "/events/"}}
-                            {{ $.Scratch.Set "children" (sort .Children ".Page.Date" "desc") }}
-                        {{ else }}
-                            {{ $.Scratch.Set "children" (sort (where .Children ".Page.Date" "le" now) ".Page.Date" "desc") }}
-                        {{ end }}
-                        {{ $children := $.Scratch.Get "children" }}
-                        {{ range first 10 $children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{ end }}
-                        {{ if gt .Children 10 }}
-                        <li><a href="{{ $parentNavURL }}">More...</a></li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
-                    </li>
-                {{ end }}
-            {{ end }}
-
-            </ul> <!-- end menu -->
-            </nav> <!-- end nav-wrap -->
-
-            <!-- Nav Right -->
-            <div class="nav__right">
-
-            <!-- Search -->
-            <div class="nav__right-item nav__search">
-                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
-                <i class="ui-search nav__search-trigger-icon"></i>
+        <!-- Sessions Nav -->
+        <ul
+          class="grid-cols-2 gap-6 p-6 menu menu-sessions">
+          {{ range $key, $value := .Site.Taxonomies.categories}}
+            {{ with site.GetPage (print "/categories/" $key) }}
+              <li>
+                <a href="{{.RelPermalink}}" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                  <div class="nav-link-icon bg-{{.Params.color }}">
+                    <svg aria-hidden="true">
+                      <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <span class="block text-sm text-lg">{{ .Title }}</span>
+                    <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
+                  </div>
                 </a>
-                <div class="nav__search-box" id="nav__search-box">
-                <form class="nav__search-form">
-                    <input type="text" id="search" placeholder="Search an article" class="nav__search-input" autocomplete="off">
-                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
-                    <i class="ui-search nav__search-icon"></i>
-                    </button>
-                </form>
-                <ul id="results">
-                </ul>
-                </div>
-            </div>
+              </li>
+            {{ end }}
+          {{ end }}
+          {{/*
+          <li>
+            <a
+              href="/sessions/"
+              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+              Discover Sessions
+              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
+          */}}
+        </ul>
+      </li>
+      <li class="text-center lg:text-left">
+        <a
+          href="/speakers/"
+          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
+          Speakers
+        </a>
+      </li>
+    </ul>
+    <div
+      class="flex flex-wrap items-center justify-center order-3 lg:justify-end lg:flex-grow lg:order-2"
+      id="SecondaryNav">
 
-            </div> <!-- end nav right -->            
-        
-        </div> <!-- end flex-parent -->
-        </div> <!-- end container -->
+      <!-- Search Toggler -->
+      <button
+        class="hidden font-bold text-gray-700 border-b-8 border-transparent hover:border-java lg:mr-6 lg:inline-block" aria-hidden="true" data-search-toggler
+        aria-label="Toggle Search">
+        <svg class="inline-block w-8 h-8 fill-current">
+          <use xlink:href="/img/icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
 
+      <a
+        href="/login/"
+        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:inline-block lg:mt-0 lg:text-left ">
+        Log In
+      </a>
+      <a
+        href="/join/"
+        class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
+        <span class="block mb-2 text-xs">Get FULL Access</span>
+        <span class="block font-bold">Join Now</span>
+      </a>
+      <a
+        href="/signup/manage/"
+        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:mt-0 lg:text-left hidden">
+        Manage Account
+      </a>
     </div>
-</header> <!-- end navigation -->
+
+    <form
+      class="flex items-stretch justify-center order-2 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      id="Search" action="/search" method="get">
+      <label class="sr-only" for="search">Enter search terms</label>
+      <input
+        name="search"
+        type="text"
+        id="searchInput"
+        placeholder="Enter search terms"
+        autocomplete="off"
+        class="flex-1 mr-1 field">
+      <button
+        type="submit"
+        class="button">
+        <svg class="inline-block w-8 h-8 fill-current" aria-hidden="true">
+          <use xlink:href="/img/icons.svg#sm-search"></use>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+
+      <button
+        type="button"
+        class="items-center justify-center hidden w-12 h-12 ml-2 close-button lg:inline-flex"
+        aria-hidden="true"
+        data-search-toggler
+        aria-label="Toggle Search">
+         <svg class="inline-block w-8 h-8 text-gray-900 fill-current">
+          <use xlink:href="/img/icons.svg#sm-x"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+</nav>
+
+
+
+{{/*
+
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+    {{ $parentNavURL := .URL }}
+    <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ if .HasChildren }}
+    <ul class="nav__dropdown-menu">
+        {{ $children := sort .Children ".Page.Date" "desc" }}
+        {{ range first 10 $children }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        {{ if gt .Children 10 }}
+        <li><a href="{{ $parentNavURL }}">More...</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    </li>
+{{ end }}
+
+<!-- Nav-wrap -->
+<nav class="flex-child nav__wrap d-none d-lg-block">
+<ul class="nav__menu">
+    <li>
+        <a href="/index.html">Home</a>
+    </li>
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+    {{ $parentNavURL := .URL }}
+    {{ if ne .URL "" }}
+        <li{{ if .HasChildren }} class="nav__dropdown"{{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ if .HasChildren }}
+        <ul class="nav__dropdown-menu">
+            {{ if eq $parentNavURL "/events/"}}
+                {{ $.Scratch.Set "children" (sort .Children ".Page.Date" "desc") }}
+            {{ else }}
+                {{ $.Scratch.Set "children" (sort (where .Children ".Page.Date" "le" now) ".Page.Date" "desc") }}
+            {{ end }}
+            {{ $children := $.Scratch.Get "children" }}
+            {{ range first 10 $children }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ if gt .Children 10 }}
+            <li><a href="{{ $parentNavURL }}">More...</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        </li>
+    {{ end }}
+{{ end }}
+
+*/}}

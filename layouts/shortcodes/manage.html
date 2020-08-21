@@ -1,0 +1,41 @@
+<main class="mt-8 mb-20 lg:mt-12">
+  <div class="max-w-5xl px-6 py-10 mx-auto">
+    <header class="mb-10 text-center md:mb-12">
+      <h1 class="mt-6 mb-6 text-4xl font-medium leading-tight md:text-5xl">Manage &amp;<br/><strong class="text-bold">Your Account</strong></h1>
+    </header>
+
+    <form
+      id="manageForm"
+      class="max-w-md px-8 pt-8 pb-12 mx-auto" method="post">
+      <div class="error-message" id="errorMessage"></div>
+        <div class="mb-8" id="manage-email"><p class="label">Your Email Address: </p></div>
+        <div class="mb-8">
+          <label for="manage-name" class="label">Update Your Name</label>
+          <input
+            type="text"
+            name="manage-name"
+            id="manage-name"
+            class="w-full field"
+            required>
+        </div>
+
+        <div class="mb-8">
+          <div class="flex justify-between">
+            <label for="manage-password" class="label">Update Your Password</label>
+            <span class="text-sm italic">Pick a good one!</span>
+          </div>
+          <input
+            type="password"
+            name="manage-password"
+            id="manage-password"
+            class="w-full field"
+            required>
+        </div>
+
+      <div class="flex justify-end mb-10">
+        <button class="order-2 button" id="manage-submit">Update</button>
+        <button class="order-1 inline-block px-8 py-2 font-bold text-red link" onclick="window.history.back()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</main>

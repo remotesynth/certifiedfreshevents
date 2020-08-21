@@ -1,4 +1,4 @@
-baseURL: "https://cfe.dev/"
+baseURL: "https://redesign.cfe.dev/"
 languageCode: "en-us"
 title: "CFE.dev"
 params:
@@ -13,6 +13,15 @@ params:
     - culture
     - iot
     - serverless
+  algolia:
+    vars:
+      - title
+      - summary
+      - date
+      - permalink
+      - description
+    params:
+      - categories
 menu: ["main", "top"]
 related:
   threshold: 80
@@ -23,10 +32,23 @@ related:
     weight: 100
   - name: date
     weight: 10
-paginate: 5
+paginate: 6
 
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - Algolia
+  page:
+    - HTML
+outputFormats:
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: application/json
+    notAlternative: true

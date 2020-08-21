@@ -10,10 +10,8 @@ recordings:
     vimeo:
         url: https://vimeo.com/411093620
         length: "54:09"
-menu:
-  main:
-    parent: sessions
-    name: Build a Chatbot
+categories:
+  - stuff
 draft: false
 ---
 

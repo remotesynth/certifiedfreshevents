@@ -1,0 +1,51 @@
+/*
+  =========
+  Utilities
+  =========
+
+  Helper classes that empower functionality
+*/
+
+/*
+  Creates a larger click area using a pseudo element.
+  Parent element must have position: relative.
+*/
+.click-target:after {
+  @apply absolute;
+  @apply z-10;
+  @apply top-0;
+  @apply left-0;
+
+  @apply block;
+  @apply w-full;
+  @apply h-full;
+
+  content: "";
+}
+
+/*
+  !IMPORTANT!
+  Apply standard animation to elements. Useful for hover effects.
+*/
+.anim {
+  @apply transition-all duration-150 ease-in;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.embed-responsive > * {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  @apply border border-gray-200;
+}

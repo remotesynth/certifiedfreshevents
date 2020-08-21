@@ -1,17 +1,11 @@
 ---
 title: KnowJS 2018
 date: 2018-04-13T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: KnowJS 2018
-categories:
-    - JavaScript
 cost: 299
 recording_cost: 0
-homepage_banner: "Banner_KnowJS.jpg"
-short_desc: "Lean JavaScript fundamentals through hands-on, online training."
-description: "KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry."
+homepage_banner: Banner_KnowJS.jpg
+short_desc: Lean JavaScript fundamentals through hands-on, online training.
+description: KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry.
 embed_url: https://www.crowdcast.io/e/fundamental-javascript
 sessions:
     - promises-generators-async
@@ -24,7 +18,6 @@ sponsor:
   URL: https://developer.microsoft.com/en-us/advocates/index.html
 draft: false
 featured: false
-styles: knowjs.css
 ---
 
 <div style="background-color: #e64614; color: #FFF; margin: 5px; padding: 5px 10px 2px 10px;border-radius: 10px;">

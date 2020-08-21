@@ -2,18 +2,17 @@
 title: "Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself"
 date: 2019-02-22T18:52:51-04:00
 speakers:
-    - jo-franchetti
+  - jo-franchetti
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/dealing-with
-        start_time: 03:29
-    vimeo:
-        url: https://vimeo.com/412076649
-        length: "45:04"
-menu:
-    main:
-        parent: sessions
-        name: Dealing with Imposter Syndrome
+  crowdcast:
+      url: https://www.crowdcast.io/e/dealing-with
+      start_time: 03:29
+  vimeo:
+      url: https://vimeo.com/412076649
+      length: "45:04"
+categories:
+  - culture
+featured: true
 draft: false
 ---
 

@@ -2,18 +2,16 @@
 title: "Multi-Provider Serverless Apps using The Serverless Framework"
 date: 2017-10-20T18:52:51-04:00
 speakers:
-    - james-thomas
+  - james-thomas
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/mwtxogvi
-        start_time: "31:05"
-    vimeo:
-        url: https://vimeo.com/434463782
-        length: "28:24"
-menu:
-  main:
-    parent: sessions
-    name: Multi-Provider Serverless
+  crowdcast:
+    url: https://www.crowdcast.io/e/mwtxogvi
+    start_time: "31:05"
+  vimeo:
+    url: https://vimeo.com/434463782
+    length: "28:24"
+categories:
+  - devops
 draft: false
 ---
 

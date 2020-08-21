@@ -2,96 +2,195 @@
 <html lang="en">
 {{ partial "head.html" . }}
 
-<body class="style-videos">
+{{/* To open the nav is class="body.nav-open". Do not delete, needed for PurgeCSS */}}
+<body class="antialiased">
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
+{{ partial "navigation.html" . }}
+
+<main class="mt-12 lg:mt-20">
+  <div class="container px-6 pb-24 mx-auto md:flex">
+    <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
+      <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">Friendly Online Meetups for Developers</h1>
+      <p class="mb-6 text-xl md:text-2xl">Learn alongside hundreds of developers like you. Join live, welcoming events where you can connect with speakers, or watch sessions later at your own pace.</p>
+      <a
+        href="/join/"
+        class="button">Join Now. It's Free!</a>
+    </header>
+
+    {{ $testimonial := index (shuffle site.Data.testimonials) 0 }}
+    {{ with $testimonial }}
+    <div class="lg:w-1/3">
+      <section class="flex flex-col items-center highlight-box-dots">
+        <div class="-mb-8 highlight-avatar">
+          <img
+            src="{{.image}}"
+            alt="">
+        </div>
+        <blockquote class="relative z-0 max-w-full p-6 pt-10 pl-16 mt-4 text-gray-900 md:max-w-none bg-sand round-sm highlight-blockquote">
+          <p class="mb-4 text-lg font-medium">{{.quote}}</p>
+          <footer>
+            <span class="text-xl font-semibold">{{.name}}</span><br/>
+            <span class="text-sm font-medium text-java">{{.title}}</span>
+          </footer>
+        </blockquote>
+      </section>
+    </div>
+    {{ end }}
+  </div>
+
+
+
+  <!-- Upcoming Meetups -->
+  <div class="container px-6 py-12 mx-auto lg:flex">
+    <header class="mb-10 lg:mb-0 lg:w-1/2 lg:mr-20">
+      <h2 class="mb-6 text-4xl">Upcoming Meetups <br>with <strong>Live Energy</strong></h2>
+
+      <p class="mb-8 text-lg">Join us for upcoming, live meetups. These are twice-monthly (or more!) and feature presentations from your favorite technologists.</p>
+
+      <ul class="space-y-6">
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-chat-alt-2"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Engage with speakers</span>
+            <span class="block w-4/5 text-sm text-gray-700">You'll ask questions and get a real-time response from approachable speakers.</span>
+          </div>
+        </li>
+        <li class="flex items-center block text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-lightning-bolt"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block mb-1 text-sm text-lg">Short &amp; Sweet</span>
+            <span class="block w-4/5 text-sm text-gray-700">At two hours on average, you’ll learn a lot without being desperate for a break.</span>
+          </div>
+        </li>
+        <li class="flex items-center text-gray-800">
+          <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-lightBlue">
+            <svg class="inline-block w-10 h-10 fill-current text-blue" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-emoji-happy"></use>
+            </svg>
+          </div>
+          <div class="ml-5">
+            <span class="block text-sm text-lg">No Intimidation</span>
+            <span class="block w-4/5 text-sm text-gray-700">Engage at whatever level you’d like in a welcoming, inclusive&nbsp;space.</span>
+          </div>
+        </li>
+      </ul>
+    </header>
+
+    <div class="lg:w-1/2">
+      <div class="carousel">
+        <div class="carousel-list">
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ range $upcoming }}
+            <div class="carousel-item">
+              {{ partial "meetup-card.html" . }}
+            </div>
+          {{ end }}
+        </div>
+        {{ partial "carousel-buttons.html" . }}
+      </div>
     </div>
   </div>
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
 
+  <!-- Featured Sessions -->
+  <div class="container px-6 py-20 mx-auto">
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8 xl:grid-cols-3 ">
+      <header class="flex flex-col items-center justify-center p-4 rounded md:pb-6 lg:p-10 lg:col-span-2 highlight-bg-dots">
+        <div class="flex flex-col justify-center flex-1 p-8 bg-white">
+          <h2 class="mb-4 text-4xl leading-tight">Access a Growing Library of Recorded Sessions—<strong>Never&nbsp;Miss&nbsp;Out</strong></h2>
+          <p class="mb-6 text-lg">Join CFE.dev and watch dozens of high-quality video sessions today to keep your dev skills certified fresh.</p>
 
-{{ partial "left-nav.html" . }}
-
-  <main class="main oh" id="main">
-
-    {{ partial "top-bar.html" . }}        
-
-    {{ partial "navigation.html" . }}  
-
-    <!-- Featured Posts Grid -->      
-    <section class="featured-posts-grid featured-posts-grid--1">
-      <div class="container">
-        <div class="row">
-          {{ $remaining := shuffle (after 2 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
-          <div class="col-lg-6">
-            {{ range first 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true) }}
-              {{ partial "homepage-large-thumb.html" . }}
-            {{ end }}
-            <div class="row">
-              {{ range first 2 $remaining }}
-                {{ partial "homepage-small-thumb.html" . }}
-              {{ end }}
-            </div> <!-- end row -->
-
-          </div> <!-- end col -->
-
-          <div class="col-lg-6">
-            {{ range first 1 (after 1 (where (where .Site.Pages.ByDate.Reverse "Section" "events") ".Params.featured" true)) }}
-              {{ partial "homepage-large-thumb.html" . }}
-            {{ end }}
-
-            <div class="row">
-              {{ range first 2 (after 2 $remaining) }}
-                {{ partial "homepage-small-thumb.html" . }}
-              {{ end }}
-            </div> <!-- end row -->
-
-          </div>          
-
-        </div>
-      </div>
-    </section> <!-- end featured posts grid -->
-
-    <!-- Newest Videos -->
-    <section class="bg-light pt-32 pb-32">
-      {{ range $homepage_category := first 1 ( shuffle (.Site.Params.featured_categories)) }}
-      <div class="container">
-        <div class="title-wrap">
-          <h2 class="section-title">Featured Topic: <a href="/categories/{{$homepage_category}}" style="text-decoration: underline;color:#29aae2;">{{$homepage_category | humanize }}</a></h2>
-        </div>
-        <div class="col-lg-12">
-          <div class="row">
-            {{ $category_pages := index $.Site.Taxonomies.categories $homepage_category }}
-            {{ range first 4 (where $category_pages ".Params.embed_url" "ne" nil) }}
-              <div class="col-lg-3">
-                <article class="entry thumb thumb--size-1">
-                  <div class="entry__img-holder thumb__img-holder" style="background-image: url('/img/banners/small/{{ .Params.Homepage_banner }}');">
-                    <div class="bottom-gradient"></div>
-                    <div class="thumb-text-holder thumb-text-holder--4">
-                      <h2 class="thumb-entry-title">
-                        <a href="{{ .Permalink }}">{{.Params.Title}}</a>
-                      </h2>
-                    </div>
-                    <a href="{{ .Permalink }}" class="thumb-url"></a>
-                  </div>
-                </article>
-              </div>
-            {{ end }}
+          <div class="flex flex-col space-y-6 md:flex-row md:space-y-0">
+            <a href="/join/" class="mr-2 text-white button-ghost">Join Now</a>
+            <a href="/sessions/" class="inline-block px-8 py-2 font-bold text-center link text-sky">View All Sessions</a>
           </div>
         </div>
-      </div>
-      {{ end }}
-    </section> <!-- end newest videos -->
+      </header>
 
-      {{ partial "footer.html" .}}
-    </main> <!-- end main-wrapper -->
+      {{ $recorded := where (where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil) ".Params.featured" "eq" true }}
+      {{ range first 6 (shuffle $recorded) }}
+          {{ partial "session-card" . }}
+      {{ end }}
+
+      <a
+        href="/join/"
+        class="flex items-center justify-center px-4 py-8 text-2xl font-medium rounded-sm lg:col-span-2 xl:col-span-1 bg-sand card"><span class="text-center highlight-text-t-dots">Join <strong class="highlight-text highlight-text-java"><span>FOR FREE</span></strong> and get access to all {{ len (where .Site.RegularPages "Section" "==" "sessions" )}} sessions</a>
+    </div>
+  </div>
+
+  <!-- Speaker Spotlight -->
+  {{ $speaker := index (shuffle .Params.featured_speakers) 0 }}
+  <div class="py-20 bg-gray-100">
+    <div class="container grid gap-10 px-6 mx-auto md:grid-cols-2">
+      <div class="mb-10 md:mb-0 md:mr-16 lg:mr-24">
+        <h2 class="mb-6 text-3xl font-bold">CFE Speaker Spotlight </h2>
+        <p class="mb-6 text-lg">Our speakers are front and back-end developers from top companies. They create an environment of growth through attentiveness and a genuine human connection.</p>
+        <a
+          href="/speakers/"
+          class="button">View All Speakers</a>
+      </div>
+      {{ with site.GetPage (print "/speakers/" $speaker )}}
+      <section>
+        <div class="flex items-center mb-8">
+          <div class="mr-6 highlight-avatar">
+            <img
+              class="relative z-10 max-w-full rounded-full"
+              src="/img/speakers/{{.Params.speaker_image}}"
+              alt=""
+              width="210"
+              height="210">
+          </div>
+          <div>
+            <h3 class="font-bold uppercase"><span class="text-sm md:text-base highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
+            <span class="text-2xl font-semibold">{{.Title}}</span><br/>
+            <span class="text-lg font-medium text-java">{{.Params.job_title}}</span>
+          </div>
+        </div>
+
+        <div class="mb-6">{{.Content}}</div>
+
+        <a href="{{.RelPermalink}}" class="inline-block py-2 font-bold link text-sky">View Sessions by {{.Title}}</a>
+      </section>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container px-6 py-20 mx-auto">
+    <h2
+      class="max-w-2xl mx-auto mb-20 text-4xl font-semibold text-center text-gray-700">Learn about the technology you love from <strong>people who love it too</strong>.</h2>
+
+    {{ partial "logo-list.html" . }}
+
+    <p class="mt-12 text-center">
+      <a
+        href="/sessions/"
+        class="button">View Sessions</a>
+    </p>
+  </div>
+</main>
+
+
+<!-- Pre-footer CTA -->
+<div class="bg-blue highlight-pattern-zigzags">
+  <section class="block px-4 py-24 mx-auto text-center text-white">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+    <a href="/join/" class="text-xl button-ghost">Join Now</a>
+    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
+</div>
+
+</main>
+
+{{ partial "footer.html" .}}
 
 {{ partial "scripts.html" .}}
-
 </body>
 </html>

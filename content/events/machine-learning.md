@@ -1,16 +1,10 @@
 ---
-title: "Demystifying Machine Learning"
+title: Demystifying Machine Learning
 date: 2018-02-16T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: Demystifying Machine Learning
-categories:
-    - Machine Learning
 cost: 0
-homepage_banner: "Banner_Demystiying-Machine-Learning.jpg"
-short_desc: "What is machine learning and artificial intelligence."
-description: "Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence."
+homepage_banner: Banner_Demystiying-Machine-Learning.jpg
+short_desc: What is machine learning and artificial intelligence.
+description: Paige Bailey of Microsoft and Nick Walsh of Datmo will explain the basics of machine learning and artificial intelligence.
 embed_url: https://www.crowdcast.io/e/demystifying-machine
 sessions:
   - intro-to-ai

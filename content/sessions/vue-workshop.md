@@ -2,15 +2,13 @@
 title: "Building Web Applications with Vue.js"
 date: 2020-06-16T13:00:00-04:00
 speakers:
-    - raymond-camden
+  - raymond-camden
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/building-web
-        start_time: 00:00
-menu:
-  main:
-    parent: sessions
-    name: Hand's On Vue
+  crowdcast:
+      url: https://www.crowdcast.io/e/building-web
+      start_time: 00:00
+categories:
+  - webdev
 draft: false
 ---
 

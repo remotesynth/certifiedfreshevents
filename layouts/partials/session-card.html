@@ -1,0 +1,60 @@
+{{ $event := "" }}
+{{ if (isset .Params "event") }}
+  {{ $event = (.GetPage (print "/events/" .Params.event)) }}
+{{ else }}
+  {{ $eventArr := slice .Page.File.TranslationBaseName }}
+  {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
+  {{ $event = (index $events 0) }}
+{{ end }}
+
+{{- $src := resources.Get (print "img/banners/" $event.Params.homepage_banner) -}}
+{{ if $src }}
+  {{- $src := $src.Resize "608x" }}
+{{ end}}
+<article class="event-card">
+  {{ if $src }}
+  <img
+    src="{{ $src.RelPermalink }}"
+      loading="lazy"
+    alt="Banner for {{ .Title }}"
+    aria-hidden="true">
+  {{ end }}
+  <div class="event-card-body">
+    <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-java">SESSION</span></div>
+    <h1 class="event-card-title">
+      <a href="{{ .RelPermalink }}" class="click-target">{{ .Title }}</a>
+    </h1>
+
+
+
+    <p class="mb-auto">{{ $event.Params.short_desc }}</p>
+
+    {{/* TODO: Not showing */}}
+
+    <footer class="mt-6">
+      <ul class="flex justify-between">
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </li>
+
+        {{ if .Params.speakers }}
+        <li class="flex items-center font-medium leading-tight">
+          {{ range $speaker := first 1 .Params.speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <img
+                src="/img/speakers/{{.Params.speaker_image}}"
+                alt="{{.Params.speaker}}"
+                class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-sm">{{.Params.title}}</span>
+            {{end}}
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </footer>
+  </div>
+</article>

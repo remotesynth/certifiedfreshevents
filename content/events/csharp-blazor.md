@@ -1,17 +1,10 @@
 ---
-title: "Exploring Blazor"
+title: Exploring Blazor
 date: 2019-07-31T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: Exploring Blazor
-categories:
-  - DotNet
-  - Web Development
 cost: 0
 homepage_banner: ExploringBlazor.jpg
-short_desc: "A look at how Blazor lets you develop front-end web apps using C# with Jeremy Likness."
-description: "In this session, Jeremy Likness looks at Blazor, a framework for building Single Page Applications using WebAssembly to bring .NET apps to your browser."
+short_desc: A look at how Blazor lets you develop front-end web apps using C# with Jeremy Likness.
+description: In this session, Jeremy Likness looks at Blazor, a framework for building Single Page Applications using WebAssembly to bring .NET apps to your browser.
 embed_url: https://www.crowdcast.io/e/blazor
 sessions:
   - blazor-silverlight-done-right

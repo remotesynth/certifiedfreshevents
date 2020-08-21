@@ -1,6 +1,6 @@
 ---
 title: "Scaling a Live Battle Royale Game With No Budget"
-date: 2020-07-24T12:00:00-04:00
+date: 2020-07-31T12:00:00-04:00
 speakers:
     - em-lazer-walker
 recordings:
@@ -10,6 +10,8 @@ recordings:
     vimeo:
       url: https://vimeo.com/447357320
       length: "28:12"
+categories:
+  - stuff
 draft: false
 ---
 

@@ -1,146 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "head.html" . }}
-<body class="style-videos">
+{{ define "main" }}
+<main class="my-20">
+  {{ $event := "" }}
+  {{ if (isset .Params "event") }}
+    {{ $event = (.GetPage (print "/events/" .Params.event)) }}
+  {{ else }}
+    {{ $eventArr := slice .Page.File.TranslationBaseName }}
+    {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
+    {{ $event = (index $events 0) }}
+  {{ end }}
 
-  <!-- Preloader -->
-  <div class="loader-mask">
-    <div class="loader">
-      <div></div>
-    </div>
-  </div>
+  <header class="container px-6 mx-auto">
+    <a
+      class="inline-block mb-1 align-middle"
+      href="{{ $event.RelPermalink }}">
+        <svg
+          class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
+          <use xlink:href="/img/icons.svg#sm-arrow-circle-left"></use>
+        </svg>
+        <span>See full event listing</span>
+    </a>
+    <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
 
-  <!-- Bg Overlay -->
-  <div class="content-overlay"></div>
+    <ul class="flex flex-wrap lg:mb-8">
+      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
+        <div class="flex items-center font-medium leading-tight avatar-list">
+          {{ range $speaker := .Params.speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <img
+                src="/img/speakers/{{ .Params.speaker_image }}"
+                alt="Avatar for {{ .Title }}"
+                class="inline-block w-12 h-12 border-2 border-white rounded-full"
+                width="140"
+                height="140"
+                title="{{ .Title }}">
+            {{ end }}
+          {{ end }}
 
-
-{{ partial "left-nav.html" . }}
-
-  <main class="main oh" id="main">
-
-    {{ partial "top-bar.html" . }}        
-
-		{{ partial "navigation.html" . }}
-
-{{ $event := "" }}
-{{ if (isset .Params "event") }}
-  {{ $event = (.GetPage (print "/events/" .Params.event)) }}
-{{ else }}
-  {{ $eventArr := slice .Page.File.TranslationBaseName }}
-  {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
-  {{ $event = (index $events 0) }}
-{{ end }}
-<!-- Breadcrumbs -->
-<div class="container">
-		<ul class="breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a href="/index.html" class="breadcrumbs__url">Home</a>
-      </li>
-      {{ if ne .Params.event nil }}
-      <li class="breadcrumbs__item">
-				<a href="{{ $event.Permalink }}" class="breadcrumbs__url">{{ $event.Title }}</a>
-      </li>
-      {{end}}
-			<li class="breadcrumbs__item breadcrumbs__item--current">
-				{{ .Title }}
-			</li>
-		</ul>
-	</div>
-
-	<div class="main-container container" id="main-container">
-		<!-- Post Content -->
-		<div class="blog__content mb-72">
-
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<!-- standard post -->
-					<article class="entry mb-0">
-						<div class="entry__article-wrap">
-
-<!---speaker specific -->
-<div class="container">
-  <div class="row">
-      <div class="col-sm-12 col-xs-15">
-          <div class="speakers-content">
-              <h1 class="title">{{ .Title }}</h1>
-
-              {{ with .Params.recordings }}
-                {{ with .vimeo }}
-                {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-                <div class='embed-container'><iframe src='https://player.vimeo.com/video/{{ $vimeo_embed }}' frameborder='0' allowFullScreen></iframe></div>
-                <p><em>You can also view the <a href="{{ $.Params.Recordings.crowdcast.url }}" target="_blank">full event recording on Crowdcast</a>. This session starts at {{$.Params.Recordings.crowdcast.start_time}}.</em></p>
-                {{ else }}
-                <p><em>This event was recorded on Crowdcast. We're working on editing the recording, but until then you can view the full recording on Crowdcast by clicking the button below.</em></p>
-                {{ if ne .crowdcast.start_time "00:00"}}<p><em>This session starts at {{.crowdcast.start_time}} in the recording.</em></p>{{ end }}
-                <p><input type="button" class="btn btn-lg btn-color btn-button" value="Open Crowdcast Recording"  onclick=" window.open('{{ .crowdcast.url }}','_blank')"></p>
-                {{ end }}
+          <span class="max-w-xs ml-2">
+            {{ range $index, $speaker := .Params.speakers }}
+              {{ with site.GetPage (print "/speakers/" $speaker) }}
+                {{ .Title }}
+                <span class="delimiter">&amp;</span>
               {{ end }}
-
-              {{ .Content }}
-
-              <p><a href="{{ $event.Permalink }}#schedule"> See the full event listing </a></p>
-          </div>
-      </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-xs-15">
-      <h2>Speakers</h2>
-      {{ range $speaker := .Params.speakers }}
-        {{ with $.GetPage (print "/speakers/" $speaker ) }}
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3 col-xs-12">
-              <figure>
-              <img src="/img/speakers/{{ .Params.speaker_image }}" alt="speaker"/>
-              </figure>
-              <div class="social">
-                <ul class="list-inline">
-                  {{ if .Params.twitter }}
-                  <li>
-                    <a class="sp-tw" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  {{ end }}{{ if .Params.github }}
-                  <li>
-                    <a class="sp-gh" href="https://github.com/{{ .Params.github }}"><i class="fab fa-github"></i></a>
-                  </li>
-                  {{ end }} {{ if .Params.website }}
-                  <li>
-                    <a class="sp-link" href="{{ .Params.website }}"><i class="fa fa-link"></i></a>
-                  </li>
-                  {{ end }}
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-9 col-xs-14">
-              <div class="speakers-content">
-                <h2 class="title">{{ .Title }}</h2>
-                <h4 class="subtitle">{{ .Params.Job_title }}</h4>
-                {{ .Content }}
-              </div>
-            </div>
-          </div>
+            {{ end }}
+          </span>
         </div>
+      </li>
+
+      {{ .Params.records.vimeo.length }}
+
+      {{ if .Params.records.vimeo.length }}
+        {{ with .Params.recordings.vimeo }}
+          {{ with .vimeo }}
+            <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
+              <svg
+                class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
+                <use xlink:href="/img/icons.svg#sm-clock"></use>
+              </svg>
+              <span class="font-semibold text-gray-800">{{ .length }} min</span>
+            </li>
+          {{ end }}
         {{ end }}
       {{ end }}
+
+      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
+        <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
+          <use xlink:href="/img/icons.svg#sm-calendar"></use>
+        </svg>
+        <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </li>
+
+      {{/*
+      <li class="flex items-center mb-4 space-x-2 lg:mb-0">
+        Add categories
+      </li>
+      */}}
+    </ul>
+  </header>
+
+  <div class="container mx-auto">
+    <div class="flex justify-center w-full h-full" id="banner-image">
+      <img src="/img/banners/{{$event.Params.homepage_banner}}" width="100%" />
+    </div>
+    {{ with .Params.recordings }}
+      {{ with .vimeo }}
+        {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+        <div id="vimeo-embed" data-embed-url="https://player.vimeo.com/video/{{ $vimeo_embed }}">
+
+        </div>
+      {{ else }}
+        <div class="block mx-auto bg-black embed-responsive hidden" id="crowdcast-open">
+          <div
+            class="flex flex-col items-center justify-center w-full h-full bg-jelly"
+            role="banner">
+            <p class="px-6 mb-6 text-lg text-center text-white">This event is being converted for improved playback.{{ if ne .crowdcast.start_time "00:00"}} <strong>This session starts at {{.crowdcast.start_time}}</strong>.{{ end }}</p>
+            <a
+              href="{{.crowdcast.url}}"
+              target="_blank"
+              class="flex items-center justify-center font-bold text-white border border-b-2 border-current rounded anim hover:bg-white hover:text-jelly click-target">
+              <span class="flex px-8 py-4">
+                {{ partial "crowdcast-button-content" .}}
+              </span>
+            </a>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  {{/* Hide if authenticated */}}
+  <section
+    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
+    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+
+    <a href="/join/" class="text-2xl button-ghost">Join Now</a>
+
+    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+  </section>
+
+  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
+    <div class="mb-8">
+      {{ partial "social-share.html" .}}
+    </div>
+
+    <div class="mb-20 content">
+      {{ .Content }}
+    </div>
+
+    <div class="mt-24 space-y-20">
+      {{ range $speaker := .Params.speakers }}
+        {{ with site.GetPage (print "/speakers/" $speaker) }}
+          {{ partial "speaker-card.html" .}}
+        {{ end }}
+      {{end}}
     </div>
   </div>
-</div>
-<!-- end speaker specific -->
-            </div> <!-- end entry article wrap -->						
-						{{ partial "newsletter.html" . }}
 
-					</article> <!-- end standard post -->
-				</div>
-			</div>
+  {{ partial "related-sessions.html" .}}
+</main>
+{{ end }}
 
-		</div> <!-- end post content -->
-	</div> <!-- end main container -->					
-		
-		{{ partial "footer.html" .}}
+{{ define "scripts" }}
 
-    </main> <!-- end main-wrapper -->
-
-{{ partial "scripts.html" .}}
-
-</body>
-</html>
+{{ end }}

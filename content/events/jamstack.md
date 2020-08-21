@@ -1,17 +1,10 @@
 ---
-title: "Modern Web Development with the JAMStack"
-date: "2018-05-23"
-menu:
-  main:
-    parent: events
-    name: Modern JAMstack
-categories:
-    - JAMStack
-    - Web Development
+title: Modern Web Development with the JAMStack
+date: 2018-05-23T12:00:00-04:00
 cost: 0
 homepage_banner: Banner_JAMStack.jpg
-short_desc: "Raymond Camden of Auth0 and Phil Hawksworth of Netlify will show how to get started with the JAMStack."
-description: "In this session, Raymond Camden of Auth0 and Phil Hawksworth of Netlify will show how to get started with the JAMStack and how you can take advantage of all of these tools to build sites that are dynamic, secure and incredibly fast."
+short_desc: Phil Hawksworth of Netlify will show how to get started with the JAMStack.
+description: In this session, Phil Hawksworth of Netlify will show how to get started with the JAMStack and how you can take advantage of all of these tools to build sites that are dynamic, secure and incredibly fast.
 embed_url: https://www.crowdcast.io/e/modern-web-development
 sessions:
   - why-jamstack

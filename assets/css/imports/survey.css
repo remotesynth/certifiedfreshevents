@@ -1,0 +1,28 @@
+/*
+  ======
+  Survey
+  ======
+
+  A fixed mini CTA that links off to a survey, or, opens a survey modal.
+  See survey.html for more details.
+*/
+
+.survey-cta {
+  @apply fixed z-20;
+  left: 50%;
+  bottom: 30px;
+  width: 90%;
+  max-width: 45ch;
+  transform: translateX(-50%);
+  @apply p-8 py-6;
+  @apply border border-gray-300 rounded shadow-xl;
+  @apply text-center;
+}
+
+@screen lg {
+  .survey-cta {
+    left: auto;
+    right: 30px;
+    @apply transform-none;
+  }
+}

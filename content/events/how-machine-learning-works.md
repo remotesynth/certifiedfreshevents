@@ -2,13 +2,6 @@
 title: "How Machine Learning Works"
 date: 2020-08-14T12:00:00-04:00
 end_date: 2020-08-14T13:00:00-04:00
-menu:
-  main:
-    parent: events
-    name: Machine Learning
-categories:
-    - JavaScript
-    - Machine Learning
 cost: 0
 homepage_banner: HowMachineLearningWorks.jpg
 short_desc: "Matt Dupree will walk through how gradient descent can be used to form predictions in a machine learning models."

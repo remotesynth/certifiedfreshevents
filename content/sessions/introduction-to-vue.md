@@ -2,18 +2,17 @@
 title: "An Introduction to Vue"
 date: 2019-05-23T18:52:51-04:00
 speakers:
-    - raymond-camden
+  - raymond-camden
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/an-introduction-to-vue
-        start_time: 02:26
-    vimeo:
-        url: https://vimeo.com/413309476
-        length: "49:18"
-menu:
-  main:
-    parent: sessions
-    name: Intro to Vue
+  crowdcast:
+      url: https://www.crowdcast.io/e/an-introduction-to-vue
+      start_time: 02:26
+  vimeo:
+      url: https://vimeo.com/413309476
+      length: "49:18"
+categories:
+  - webdev
+  - javascript
 draft: false
 ---
 

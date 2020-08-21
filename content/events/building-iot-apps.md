@@ -1,17 +1,11 @@
 ---
 title: "Building IoT Apps: From Device to Cloud and Back Again"
-date: "2018-08-29"
-menu:
-  main:
-    parent: events
-    name: IoT Training 2018
-categories:
-    - IoT
+date: 2018-08-29T12:00:00-04:00
 cost: 249
 recording_cost: 0
 homepage_banner: Banner-Buiding-IoT-Apps.jpg
-short_desc: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack."
-description: "Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again."
+short_desc: Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack.
+description: Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again.
 embed_url: https://www.crowdcast.io/e/building-iot-apps-from
 sessions:
     - building-iot-apps-2018

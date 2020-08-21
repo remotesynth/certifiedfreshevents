@@ -2,18 +2,16 @@
 title: "Innovating is not about technology, but psychology."
 date: 2018-04-05T18:52:51-04:00
 speakers:
-    - alyssa-nicoll
+  - alyssa-nicoll
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/developing-success
-        start_time: 03:59
-    vimeo:
-        url: https://vimeo.com/414312638
-        length: "28:05"
-menu:
-  main:
-    parent: sessions
-    name: Innovation in Tech
+  crowdcast:
+      url: https://www.crowdcast.io/e/developing-success
+      start_time: 03:59
+  vimeo:
+      url: https://vimeo.com/414312638
+      length: "28:05"
+categories:
+  - culture
 draft: false
 ---
 

@@ -1,64 +1,80 @@
- <!-- Footer -->
- <footer class="footer footer--grey">
-    <div class="container">
-        <div class="footer__widgets">
-        <div class="row">
+{{ partial "survey.html" .}}
 
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget-logo">
-                <a href="/index.html">
-                    <img class="logo__img" src="/img/cfe-logo.png" srcset="/img/cfe-logo.png 1x, /img/cfe-logo@2x.png 2x" alt="{{ .Site.Title }}">
-                </a>
-                <p class="mt-24">{{.Site.Params.Description}}</p>
-                <div class="socials socials--large socials--white-base socials--rounded mb-24">
-                <a href="https://twitter.com/{{.Site.Params.Twitter}}" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
-                <a href="{{.Site.Params.Youtube}}" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
-                <a href="https://instagram.com/{{.Site.Params.Instagram}}" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
-                </div>
-            </aside>
-            </div>
+<footer class="border border-b-0 border-l-0 border-r-0 border-gray-300 ">
+  <div class="container px-6 py-16 mx-auto text-center lg:text-left lg:flex lg:flex-wrap">
+    <div class="mb-10 lg:w-2/3">
+      <nav class="mb-8">
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/conduct/">Code of Conduct</a>
+        <a
+          class="inline-block mr-6 text-lg nav-link anim"
+          href="/contact/">Contact</a>
+      </nav>
 
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget-twitter">
-                <h4 class="widget-title">Latest Tweets</h4>
-                <div class="tweets-container">
-                <div id="tweets">
-                    <a class="twitter-timeline" href="https://twitter.com/{{.Site.Params.Twitter}}?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by {{.Site.Params.Twitter}}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>                  
-                </div>
-            </aside>
-            </div>
+      <form
+        class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
+        onsubmit="return subscribeForm(this,document.getElementById('subscribe_message'));">
+        <label for="email" class="w-full label">Subscribe to our mailing list</label>
+        <p class="w-full mb-3">Stay up to date with the latest meetups and sessions.</p>
+        <input
+          type="email"
+          id="email"
+          placeholder="you@domain.com"
+          autocomplete="off"
+          class="w-64 mb-2 mr-1 field">
+        <button
+          id="foo"
+          name="subscribe"
+          type="submit"
+          class="mb-2 button">Subscribe</button>
+      </form>
+      <div id="subscribe_message" style="color:red;"></div>
+    </div>
 
-            <div class="col-lg-4 col-md-6">
-            <aside class="widget widget_categories">
-                <h4 class="widget-title">Categories</h4>
-                <ul>
-                {{ range $key, $value := .Site.Taxonomies.categories}}
-                <li><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }} <span class="categories-count">{{.Count}}</span></a></li>
-                {{ end }}
-                </ul>
-            </aside>
-            </div>
+    <nav class="mb-10 lg:w-1/3">
+      <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
+      <a
+        class="inline-block mr-6 text-java anim hover:text-twitter"
+        href="https://twitter.com/{{.Site.Params.Twitter}}"
+        title="twitter"
+        aria-label="Twitter">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#twitter"></use>
+        </svg>
+      </a>
 
-        </div>
-        </div>    
-    </div> <!-- end container -->
+      <a
+        class="inline-block mr-6 text-java anim hover:text-youtube"
+        href="{{.Site.Params.Youtube}}"
+        title="youtube"
+        aria-label="YouTube">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#youtube"></use>
+        </svg>
+      </a>
 
-    <div class="footer__bottom footer__bottom--white">
-        <div class="container text-center">
-            <ul class="footer__nav-menu footer__nav-menu--1">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.top }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-            </ul>
-            <p class="copyright">
-            © {{now.Year}} {{.Site.Title}}</a>
-            </p>   
-        </div>            
-    </div> <!-- end footer bottom -->
-</footer> <!-- end footer -->
+      <a
+        class="inline-block mr-6 text-java anim hover:text-instagram"
+        href="https://instagram.com/{{.Site.Params.Instagram}}"
+        title="youtube"
+        aria-label="Instagram">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#instagram"></use>
+        </svg>
+      </a>
 
-<div id="back-to-top">
-    <a href="#top" aria-label="Go to top"><i class="ui-arrow-up"></i></a>
-</div>
+      <a
+        class="inline-block text-java anim hover:text-rss"
+        href="/sessions/index.xml"
+        title="RSS"
+        aria-label="RSS">
+        <svg class="w-12 h-12 fill-current" aria-hidden="true">
+          <use xlink:href="/img/social.svg#rss"></use>
+        </svg>
+      </a>
+    </nav>
+
+    <small class="block w-full">&copy; {{now.Year}} {{.Site.Title}}</small>
+  </div>
+</footer>

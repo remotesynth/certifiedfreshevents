@@ -9,12 +9,6 @@ description: Hiro Nishimura will share how saying "yes" to opportunities, even w
 embed_url: https://www.crowdcast.io/e/the-power-of-yes-against
 sessions:
   - yes-against-imposter-syndrome
-menu:
-  main:
-    parent: upcoming
-    name: Power of Yes
-categories:
-    - culture
 draft: false
 featured: true
 ---

@@ -2,18 +2,16 @@
 title: "How Native Mobile Development Changed the Way I Write Web Apps"
 date: 2020-06-25T12:00:00-04:00
 speakers:
-    - tj-vantoll
+  - tj-vantoll
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/how-native-mobile
-        start_time: "03:00"
-    vimeo:
-        url: https://vimeo.com/443525463
-        length: "38:10"
-menu:
-  main:
-    parent: sessions
-    name: Native Mobile to Web
+  crowdcast:
+    url: https://www.crowdcast.io/e/how-native-mobile
+    start_time: "03:00"
+  vimeo:
+      url: https://vimeo.com/443525463
+      length: "38:10"
+categories:
+  - webdev
 draft: false
 ---
 

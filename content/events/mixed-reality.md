@@ -1,16 +1,10 @@
 ---
-title: "Exploring Mixed Reality"
+title: Exploring Mixed Reality
 date: 2019-04-25T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: Exploring Mixed Reality
-categories:
-    - Virtual Reality
 cost: 0
 homepage_banner: Exploring-Mixed-Reality.jpg
-short_desc: "Ayşegül Yönet takes us through virtual reality, augmented reality and mixed reality."
-description: "Is VR going to happen? Is Augmented Reality a buzzword? What is this Mixed Reality anyway? Ayşegül Yönet explains what they are and how to get started."
+short_desc: Ayşegül Yönet takes us through virtual reality, augmented reality and mixed reality.
+description: Is VR going to happen? Is Augmented Reality a buzzword? What is this Mixed Reality anyway? Ayşegül Yönet explains what they are and how to get started.
 embed_url: https://www.crowdcast.io/e/exploring-mixed-reality
 sessions:
   - exploring-mixed-reality

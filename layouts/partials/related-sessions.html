@@ -1,0 +1,21 @@
+{{ $related := where (where (.Site.RegularPages.Related . | first 5) "Section" "sessions") ".Params.recordings.vimeo" "ne" nil }}
+<div class="mt-24 bg-gray-100">
+  <div class="container px-6 py-16 mx-auto">
+    <h2 class="mb-10 text-4xl font-medium text-center">More <strong class="highlight-text highlight-text-java"><span>Awesome</span></strong> Sessions</h2>
+    <div class="carousel">
+      <div class="carousel-list" data-carousel-responsive>
+        {{ range $related }}
+        <div class="carousel-item carousel-item-thin">
+            {{ partial "session-card" . }}
+        </div>
+        {{ end }}
+        <div class="carousel-item carousel-item-thin">
+          <a
+            href="/sessions/"
+            class="flex items-center justify-center w-full px-4 py-8 text-2xl font-medium rounded-sm bg-sand card"><span class="text-center highlight-text-t-dots">Check out all <span class="text-4xl font-bold text-blue">{{ len (where .Site.RegularPages "Section" "==" "sessions" )}}</span> sessions</a>
+        </div>
+      </div>
+      {{ partial "carousel-buttons.html" . }}
+    </div>
+  </div>
+</div>

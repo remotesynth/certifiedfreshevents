@@ -1,34 +1,19 @@
 {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
 {{ if ne (len $upcoming) 0 }}
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
+      {{ range $upcoming }}
+        {{ partial "meetup-card" . }}
+      {{ end }}
+    </div>
+  </div>
 
-<!-- Posts -->
-<div class="blog__content">
-    {{ range $upcoming }}
-    <article class="entry card post-list">
-        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url('/img/banners/{{ .Params.Homepage_banner }}')">
-        <a href="{{ .Permalink }}" class="thumb-url"></a>
-        {{ range $category := first 1 .Params.Categories }}
-        <a href="{{ "categories" | absURL }}/{{ $category | urlize }}" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">{{$category}}</a>
-        {{ end }}
-        </div>
-        <div class="entry__body post-list__body card__body">
-        <div class="entry__header">
-            <h2 class="entry__title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h2>
-            <ul class="entry__meta" style="padding-left:0px;">
-            <li class="entry__meta-date">
-                {{ .Date.Format "Mon, Jan 2, 2006" }}
-            </li>
-            </ul>
-        </div>        
-        <div class="entry__excerpt">
-            <p>{{ .Params.short_desc }}</p>
-        </div>
-        </div>
-    </article>
-    {{ end }}
-</div>
 {{ else }}
-<p><em>We apologize, but there are no upcoming virtual meetups currently scheduled. Check back soon!</em></p>
+
+<div class="container px-6 mx-auto mb-20">
+  <p class="inline-block px-8 py-4 text-xl text-gray-800 bg-sand">
+    <strong>There are no upcoming virtual meetups scheduled</strong>. Check back soon!
+  </p>
+</div>
+
 {{ end }}

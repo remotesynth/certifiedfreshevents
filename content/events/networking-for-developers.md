@@ -1,16 +1,10 @@
 ---
-title: "A Guide to Professional Networking for Developers"
+title: A Guide to Professional Networking for Developers
 date: 2019-10-31T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: Professional Networking
-categories:
-    - Culture
 cost: 0
 homepage_banner: networking-for-devs.jpg
-short_desc: "Wesley Faulkner shares advice on how to be successful at professional networking as a developer."
-description: "Wesley Faulkner will share how to become an effective professional networker as a developer and shift away from looking at these interactions as transactional."
+short_desc: Wesley Faulkner shares advice on how to be successful at professional networking as a developer.
+description: Wesley Faulkner will share how to become an effective professional networker as a developer and shift away from looking at these interactions as transactional.
 embed_url: https://www.crowdcast.io/e/a-guide-to-professional
 sessions:
   - networking-for-developers

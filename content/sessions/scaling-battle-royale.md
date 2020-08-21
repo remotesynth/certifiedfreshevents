@@ -2,7 +2,7 @@
 title: "Scaling a Live Battle Royale Game With No Budget"
 date: 2019-07-31T12:00:00-04:00
 speakers:
-    - em-lazer-walker
+  - em-lazer-walker
 event: flashback-conference-2020
 draft: false
 ---

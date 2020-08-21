@@ -1,16 +1,10 @@
 ---
-title: "Improving Website Performance"
+title: Improving Website Performance
 date: 2020-01-17T18:52:51-04:00
-menu:
-  main:
-    parent: events
-    name: Web Performance
-categories:
-    - Web Development
 cost: 0
 homepage_banner: Improving-Website-Performance.jpg
-short_desc: "Henri Helvetica looks at the rules that have guided us in web performance for the last decade and how they have evolved."
-description: "Henri Helvetica looks at the rules that have guided web developers when it comes to web performance for the last decade and how they have evolved."
+short_desc: Henri Helvetica looks at the rules that have guided us in web performance for the last decade and how they have evolved.
+description: Henri Helvetica looks at the rules that have guided web developers when it comes to web performance for the last decade and how they have evolved.
 embed_url: https://www.crowdcast.io/e/improving-website
 sessions:
   - 14-rules-redux

@@ -2,18 +2,16 @@
 title: "Getting Started with Serverless"
 date: 2020-02-21T18:52:51-04:00
 speakers:
-    - upkar-lidder
+  - upkar-lidder
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/getting-started-with-44
-        start_time: 02:11
-    vimeo:
-        url: https://vimeo.com/423606623
-        length: "51:08"
-menu:
-  main:
-    parent: sessions
-    name: Getting Started Serverless
+  crowdcast:
+      url: https://www.crowdcast.io/e/getting-started-with-44
+      start_time: 02:11
+  vimeo:
+      url: https://vimeo.com/423606623
+      length: "51:08"
+categories:
+  - devops
 draft: false
 ---
 

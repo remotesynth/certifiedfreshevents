@@ -1,8 +1,8 @@
 ---
 title: "Blazor: Silverlight Done Right"
 date: 2019-07-31T18:52:51-04:00
-speakers: 
-    - jeremy-likness
+speakers:
+  - jeremy-likness
 recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/blazor
@@ -10,10 +10,9 @@ recordings:
     vimeo:
         url: https://vimeo.com/407613468
         length: "41:21"
-menu:
-  main:
-    parent: sessions
-    name: Learning Blazor
+categories:
+  - software
+  - webdev
 draft: false
 ---
 

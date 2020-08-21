@@ -1,0 +1,61 @@
+/*
+  =======
+  Content
+  =======
+
+  Any area of long-form content. The code here provides a sensible set of defaults.
+*/
+.content {
+  @apply text-lg;
+}
+
+.content > * + * {
+  @apply mt-4;
+}
+
+.content h1, h2, h3, h4 {
+  @apply leading-tight;
+}
+
+.content h2 { @apply text-4xl; }
+.content h3 { @apply text-3xl; }
+.content h4 { @apply text-2xl; }
+
+.content img {
+  @apply block max-w-full;
+}
+
+.content ul {
+  @apply mb-4;
+  @apply list-disc;
+}
+
+.content li {
+  @apply mb-3 ml-6;
+  @apply list-decimal;
+}
+
+.content a {
+  @apply text-sky;
+}
+
+.error-message {
+  color: red;
+}
+
+.search-by {
+  font-size: 12px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+.search-by-label {
+  float:left;
+  padding-right:0.5rem;
+}
+/* this is a bit of a hack fix to overcome the banner covering the whole image on mobile */
+@media only screen
+  and (max-width : 412px) {
+    #banner-signup {
+      margin-top: -3em;
+    }
+}

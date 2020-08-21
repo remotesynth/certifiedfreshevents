@@ -2,7 +2,7 @@
 title: "From DHTML to CSS Variables"
 date: 2019-02-10T18:52:51-04:00
 speakers:
-    - david-khourshid
+  - david-khourshid
 event: flashback-conference-2020
 draft: false
 ---
