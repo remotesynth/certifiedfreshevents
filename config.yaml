@@ -1,4 +1,4 @@
-baseURL: "https://redesign.cfe.dev/"
+baseURL: "https://cfe.dev/"
 languageCode: "en-us"
 title: "CFE.dev"
 params:
