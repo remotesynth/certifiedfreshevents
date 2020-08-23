@@ -1,5 +1,5 @@
 ---
-title: "Jamstack 101: Using Gatsby with Netlify"
+title: "Jamstack 101: Using Next.js with Vercel"
 date: 2020-10-22T12:00:00-04:00
 end_date: 2020-10-22T13:00:00-04:00
 cost: 0
