@@ -4,9 +4,12 @@ date: 2020-08-14T12:00:00-04:00
 speakers:
     - matt-dupree
 recordings:
-    crowdcast:
-        url: https://www.crowdcast.io/e/an-intro-to-gradient
-        start_time: "00:00"
+  crowdcast:
+    url: https://www.crowdcast.io/e/an-intro-to-gradient
+    start_time: "00:00"
+  vimeo:
+    url: https://vimeo.com/456411189
+    length: "45:18"
 categories:
   - software
   - javascript

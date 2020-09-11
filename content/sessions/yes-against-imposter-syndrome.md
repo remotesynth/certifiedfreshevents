@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-power-of-yes-against
     start_time: "00:00"
+  vimeo:
+    url: https://vimeo.com/456363495
+    length: "31:01"
 categories:
   - culture
 draft: false
@@ -14,7 +17,7 @@ draft: false
 
 ### From "AWS newbies" to AWS Community Leader
 
-As a Special Education teacher turned Helpdesk Engineer turned SysAdmin, a lot of my career has hinged on me learning on the job, and saying "Yes" to opportunities, despite feeling 150% unprepared. When I created [awsnewbies.com](http://awsnewbies.com/) in Summer 2018, I barely understood what "Cloud Computing" was. To study for my AWS Certified Cloud Practitioner exam, I created a blog based on my study notes. Few months later, I was working on my first course for the "Introduction to AWS for Non-Engineers" series with LinkedIn Learning. 
+As a Special Education teacher turned Helpdesk Engineer turned SysAdmin, a lot of my career has hinged on me learning on the job, and saying "Yes" to opportunities, despite feeling 150% unprepared. When I created [awsnewbies.com](http://awsnewbies.com/) in Summer 2018, I barely understood what "Cloud Computing" was. To study for my AWS Certified Cloud Practitioner exam, I created a blog based on my study notes. Few months later, I was working on my first course for the "Introduction to AWS for Non-Engineers" series with LinkedIn Learning.
 
 In Summer 2019, I quit my job as a sysadmin at a tech startup in NYC to work as a freelance Technical Writer and Technical Instructor. I focus on creating jargon-free documentations and resources to help break down technical concepts for people with non-traditional tech backgrounds. That fall, I was invited to attend AWS re:Invent on an "AWS Community Leaders Grant," and was also one of 3 subjects selected to be filmed throughout the conference for AWS's "Day in the Life" project.
 
