@@ -11,6 +11,21 @@ function relocate() {
   }
 }
 
+function crowdcastSignup(email, eventcode) {
+  axios.post('/.netlify/functions/zapier', {
+    email: email,
+    eventcode: eventcode
+  })
+  .then(function (response) {
+    if (response.data.status != 'success') {
+      console.log('There was a problem automatically registering you. Please register via Crowdcast');
+    }
+  })
+  .catch(function (error) {
+    console.log('There was a problem automatically registering you. Please register via Crowdcast');
+  });
+}
+
 const auth = new GoTrue({
   APIUrl: 'https://cfe.dev/.netlify/identity',
   audience: '',
@@ -31,6 +46,10 @@ if (registerForm)
     auth
         .signup(email, password,{ full_name: name})
         .then((response) => {
+            // see if they came from an event page and auto register them
+            let params = new URLSearchParams(window.location.search);
+            if (params.has('eventcode'))
+              crowdcastSignup(email,params.get('eventcode'));
             window.location.assign('/signup/confirm/');
         })
         .catch(error => {
@@ -57,11 +76,15 @@ if (loginForm)
     auth
         .login(email, password, true)
         .then(response => {
+            // see if they came from an event page and auto register them
+            let params = new URLSearchParams(window.location.search);
+            if (params.has('eventcode'))
+              crowdcastSignup(email,params.get('eventcode'));
             relocate();
         })
         .catch(error => {
           const errorMessage = document.getElementById("errorMessage");
-          if (errorMessage)
+          if (errorMessage && error.json)
             errorMessage.innerHTML = error.json.error_description;
           else {
             console.log("Failed to login user: %o", error);

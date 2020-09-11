@@ -4,8 +4,8 @@ const axios = require('axios');
 exports.handler = async (event, context, callback) => {
   try {
     if(!event.body) {
-        return { 
-            statusCode: 500, 
+        return {
+            statusCode: 500,
             body: 'Email and event code are required.'
         };
     }
@@ -14,18 +14,18 @@ exports.handler = async (event, context, callback) => {
     const email = body.email;
     const eventCode = body.eventcode;
     if(!email) {
-        return { 
-            statusCode: 500, 
-            body: 'email query parameter required' 
+        return {
+            statusCode: 500,
+            body: 'email query parameter required'
         };
     }
     if(!eventCode) {
-        return { 
-            statusCode: 500, 
-            body: 'eventCode query parameter required' 
+        return {
+            statusCode: 500,
+            body: 'eventCode query parameter required'
         };
     }
-    
+
     return axios({
       method: 'post',
       url: 'https://hooks.zapier.com/hooks/catch/2422393/ot2b8az/',
@@ -34,9 +34,9 @@ exports.handler = async (event, context, callback) => {
             'eventcode':eventCode
       }
     }).then(res => {
-      console.log(res);
+      //console.log(res);
       return {
-        statusCode:200, 
+        statusCode:200,
         body: JSON.stringify(res.data)
       }
     })
