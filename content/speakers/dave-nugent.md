@@ -8,5 +8,5 @@ github: drnugent
 draft: false
 ---
 
-David is a JavaScript developer and enthusiast who runs the ForwardJS confernence. By day, he works as a developer advocate - cognitive, data and analytics for IBM. He's passionate about the open web, open source and donut shops that are open late. You can check out his previous [presentations on GitHub](https://github.com/drnugent/presentations)
+David is a JavaScript developer and enthusiast who runs the ForwardJS conference. By day, he works as a developer advocate - cognitive, data and analytics for IBM. He's passionate about the open web, open source and donut shops that are open late. You can check out his previous [presentations on GitHub](https://github.com/drnugent/presentations)
  and DM any questions to him on [Twitter](https://twitter.com/drnugent).

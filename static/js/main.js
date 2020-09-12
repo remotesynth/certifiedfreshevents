@@ -62,11 +62,7 @@ const serialize = function (form) {
 	return s.join('&').replace(/%20/g, '+');
 };
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
-
-if (!localStorage.getItem('doneSurvey') && survey && getRandomInt(20) === 1) {
+if (!localStorage.getItem('doneSurvey') && survey) {
   const surveyToggler = document.querySelector('[data-survey-toggler]');
   const surveyDismiss = document.querySelector('[data-survey-dismiss]');
   const surveyCancel = document.querySelector('[data-survey-cancel]');
