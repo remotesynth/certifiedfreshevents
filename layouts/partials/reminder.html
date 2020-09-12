@@ -1,0 +1,16 @@
+{{- $nextmeetup := index (first 1 (where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now)) 0 -}}
+{{- if and ($nextmeetup) (ne $nextmeetup.RelPermalink .RelPermalink) -}}
+  {{- with $nextmeetup -}}
+<section
+  class="hidden bg-white survey-cta highlight-pattern-rain"
+  id="Reminder">
+  <h2 class="mb-1 mb-4 text-lg text-gray-700">
+    Don't miss <strong>{{ .Title }}</strong> coming up on {{ .Date.Format "Jan 2" }}
+  </h2>
+  <button
+    class="mb-2 bg-white button-ghost text-blue" data-reminder-toggler data-event-url="{{.RelPermalink}}" data-event-id="{{ path.Base .Params.embed_url }}">Take me there!</button>
+  <button
+    class="inline-block px-8 py-2 mb-2 font-bold text-red link" data-reminder-dismiss>No, thanks</button>
+</section>
+  {{- end -}}
+{{- end -}}
