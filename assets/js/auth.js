@@ -162,8 +162,8 @@ if (hash) {
 const user = auth.currentUser();
 if (user)  {
     // get the login button
-    const loginBtn = document.querySelector('a[href="/login/"]');
-    const registerBtn = document.querySelector('a[href="/join/"]');
+    const loginBtn = document.querySelector('a[href*="/login/"]');
+    const registerBtn = document.querySelector('a[href*="/join/"]');
     const manageBtn = document.querySelector('a[href="/signup/manage/"]');
     // event and session pages
     const crowdcastEmbed = document.getElementById('crowdcast-embed');
