@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with the DOM"
-date: 2020-01-17T18:52:51-04:00
+date: 2020-09-18T12:00:00-04:00
 speakers:
     - edidiong-asikpo
 recordings:
