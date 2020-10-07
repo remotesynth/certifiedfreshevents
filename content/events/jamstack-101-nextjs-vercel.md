@@ -4,8 +4,8 @@ date: 2020-10-22T12:00:00-04:00
 end_date: 2020-10-22T13:00:00-04:00
 cost: 0
 homepage_banner: JAMstack101-102220.jpg
-short_desc: Joel Varty will show how to get started using Gatsby to create blazing fast websites using the Jamstack.
-description: Joel Varty will show how to get started building Jamstack websites using Gatsby connected to a headless CMS and deployed to Neltify.
+short_desc: Joel Varty will show how to get started using Next.js to create Jamstack websites using React.
+description: Joel Varty will show you everything you need to know to get started building and deploying Jamstack sites using Next.js.
 embed_url: https://www.crowdcast.io/e/jamstack-101-getting
 sessions:
   - jamstack-nextjs-vercel

@@ -3,7 +3,7 @@ title: "Getting Started with the DOM"
 date: 2020-09-18T12:00:00-04:00
 end_date: 2020-09-18T13:00:00-04:00
 cost: 0
-homepage_banner: "DOM-Getting-Started.jpg"
+homepage_banner: DOM-Getting-Started.jpg
 short_desc: "Edidiong Asikpo explains the DOM, it’s tree-like structure, and how to target and manipulate it."
 description: "Edidiong Asikpo explains the DOM, it’s tree-like structure, and how to target and manipulate it with JavaScript."
 embed_url: https://www.crowdcast.io/e/getting-started-with-the-2

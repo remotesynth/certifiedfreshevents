@@ -4,8 +4,8 @@ date: 2020-11-12T12:00:00-04:00
 end_date: 2020-11-12T13:00:00-04:00
 cost: 0
 homepage_banner: JAMstack101-111220.jpg
-short_desc: Joel Varty will show how to get started using Gatsby to create blazing fast websites using the Jamstack.
-description: Joel Varty will show how to get started building Jamstack websites using Gatsby connected to a headless CMS and deployed to Neltify.
+short_desc: Joel Varty will show you how to get started building Jamstack sites using JavaScript and Eleventy.
+description: Joel Varty will show you how to get started building Jamstack sites using JavaScript and Eleventy.
 embed_url: https://www.crowdcast.io/e/jamstack-101-getting-2
 sessions:
   - jamstack-11ty
