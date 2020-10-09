@@ -17,4 +17,4 @@ draft: false
 featured: true
 ---
 
-Next.js has been rapidly gaining adoption. This is because is a React-based framework for building websites that can be either server-side rendered, statically rendered (i.e. Jamstack) or any combination of the two. Plus, Next.js simplifies many aspects of React website development. In this free virtual meetup, Joel Varty will show you everything you need to know to get started building and deploying Jamstack sites using Next.js.
+Next.js has been rapidly gaining adoption. This is because it is a React-based framework for building websites that can be either server-side rendered, statically rendered (i.e. Jamstack) or any combination of the two. Plus, Next.js simplifies many aspects of React website development. In this free virtual meetup, Joel Varty will show you everything you need to know to get started building and deploying Jamstack sites using Next.js.
