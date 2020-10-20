@@ -5,8 +5,11 @@ speakers:
     - edidiong-asikpo
 recordings:
     crowdcast:
-        url: https://www.crowdcast.io/e/getting-started-with-the-2
-        start_time: "00:00"
+      url: https://www.crowdcast.io/e/getting-started-with-the-2
+      start_time: "02:31"
+    vimeo:
+      url: https://vimeo.com/468098153
+      length: "47:07"
 categories:
   - webdev
   - javascript
