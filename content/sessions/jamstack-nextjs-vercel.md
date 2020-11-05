@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/jamstack-101-getting
-    start_time: "00:00"
+    start_time: "02:35"
+  vimeo:
+    url: https://vimeo.com/475417909
+    length: "1:04:43"
 categories:
   - webdev
 draft: false

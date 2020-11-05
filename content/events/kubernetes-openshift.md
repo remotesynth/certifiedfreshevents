@@ -9,6 +9,10 @@ short_desc: A hands-on virtual workshop on enterprise application deployment, sc
 embed_url: https://www.crowdcast.io/e/getting-started-with-52
 sessions:
   - kubernetes-openshift
+sponsor:
+  name: IBM Developer
+  image: IBM_Developer.png
+  URL: https://developer.ibm.com/
 draft: false
 featured: true
 ---
