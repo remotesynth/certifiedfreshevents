@@ -3,7 +3,7 @@ title: "The Developer's Pandemic Survival Guide"
 date: 2020-12-20T12:00:00-04:00
 end_date: 2020-12-20T13:00:00-04:00
 cost: 0
-homepage_banner: Pandemic-Survival-Guide-121020
+homepage_banner: Pandemic-Survival-Guide-121020.jpg
 short_desc: Dawn Parzych talks about dealing with remote work and Peter McKee covers how to deal with burnout.
 description: Dawn Parzych talks about when remote work becomes permanent and Peter McKee covers how to deal with burnout and stress.
 embed_url: https://www.crowdcast.io/e/jamstack-101-getting-2
