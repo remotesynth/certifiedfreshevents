@@ -5,7 +5,7 @@ speakers:
     - dawn-parzych
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/developing-success
+      url: https://www.crowdcast.io/e/the-developers-pandemic
       start_time: "00:00"
 categories:
   - culture

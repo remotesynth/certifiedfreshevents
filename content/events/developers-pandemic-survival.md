@@ -6,7 +6,7 @@ cost: 0
 homepage_banner: Pandemic-Survival-Guide-121020.jpg
 short_desc: Dawn Parzych talks about dealing with remote work and Peter McKee covers how to deal with burnout.
 description: Dawn Parzych talks about when remote work becomes permanent and Peter McKee covers how to deal with burnout and stress.
-embed_url: https://www.crowdcast.io/e/jamstack-101-getting-2
+embed_url: https://www.crowdcast.io/e/the-developers-pandemic
 sessions:
   - deal-with-stress
   - remote-work
