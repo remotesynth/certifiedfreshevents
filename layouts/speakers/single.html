@@ -58,7 +58,7 @@
 
     <div class="container max-w-4xl px-6 mx-auto">
       {{ $speakerArr := slice .Page.File.TranslationBaseName }}
-      {{ $sessions := where .Site.RegularPages ".Params.speakers" "intersect" $speakerArr }}
+      {{ $sessions := where (where .Site.RegularPages "Section" "sessions") ".Params.speakers" "intersect" $speakerArr }}
       {{ if ne (len $sessions) 0 }}
         <h2 class="mb-4 text-3xl font-medium">Sessions</h2>
 

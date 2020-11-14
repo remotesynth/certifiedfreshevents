@@ -1,8 +1,8 @@
-{{- $speakers := where .Site.RegularPages "Section" "speakers" -}}
+{{- $speakers := $.Page.Params.speakers -}}
 <div class="container px-6 mx-auto">
   <div class="grid gap-8 lg:grid-cols-2">
     {{- range $speaker := $speakers -}}
-    {{- with $speaker -}}
+    {{ with site.GetPage (print "/speakers/" $speaker) }}
     <article>
       <div class="flex items-center mb-8">
         <a href="{{ .RelPermalink }}" class="mr-4">
@@ -16,8 +16,8 @@
         </a>
 
         <div>
-          <a href="{{ .RelPermalink }}">
-            <h2 class="text-3xl font-semibold leading-tight">{{ .Title }}</h2>
+          <a href="{{ .RelPermalink }}" style="text-decoration:none;">
+            <h2 class="text-3xl font-semibold leading-tight" style="font-size: 1.875rem;font-weight: 600;line-height:1.25;">{{ .Title }}</h2>
             <span class="text-lg font-medium leading-tight text-java"
               >{{ .Params.Job_title }}</span
             >
@@ -34,7 +34,8 @@
                 <use xlink:href="/img/social.svg#twitter"></use>
               </svg>
             </a>
-            {{ end }} {{ if .Params.github }}
+            {{ end }}
+            {{ if .Params.github }}
             <a
               href="https://github.com/{{ .Params.github }}"
               class="inline-block p-2 -ml-2 text-blue anim hover:text-github"
@@ -44,7 +45,8 @@
                 <use xlink:href="/img/social.svg#github"></use>
               </svg>
             </a>
-            {{ end }} {{ if .Params.website }}
+            {{ end }}
+            {{ if .Params.website }}
             <a
               href="{{ .Params.website }}"
               class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"

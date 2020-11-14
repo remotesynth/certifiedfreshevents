@@ -6,38 +6,11 @@
     <ul class="flex flex-wrap lg:mb-8">
       <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
         <div class="flex items-center font-medium leading-tight avatar-list">
-          {{ if ne .Params.sessions nil }}
-            {{ range $session := .Params.sessions }}
-              {{ with site.GetPage (print "/sessions/" $session) }}
-                {{ $.Scratch.Set "speakers" .Params.speakers }}
-              {{ end }}
 
-              {{ $speakers := $.Scratch.Get "speakers" }}
-              {{ range $speaker := $speakers }}
-                {{ with site.GetPage (print "/speakers/" $speaker) }}
-                  <img
-                    src="/img/speakers/{{ .Params.speaker_image }}"
-                    alt="Avatar for {{ .Title }}"
-                    class="inline-block w-12 h-12 border-2 border-white rounded-full"
-                    width="140"
-                    height="140"
-                    title="{{ .Title }}">
-                {{ end }}
-              {{ end }}
-            {{ end }}
 
             <span class="max-w-xs ml-2">
-            {{ range $session := .Params.sessions }}
-              {{ $speakers := $.Scratch.Get "speakers" }}
-              {{ range $index, $speaker := $speakers }}
-                {{ with site.GetPage (print "/speakers/" $speaker) }}
-                  {{ .Title }}
-                  <span class="delimiter">&amp;</span>
-                {{ end }}
-              {{ end }}
-            {{ end }}
+            {{ .Params.days }} days - ${{ .Params.cost}}
             </span>
-          {{ end }}
         </div>
       </li>
 
@@ -45,7 +18,7 @@
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
           <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
-        <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2" }}</time> - <time class="font-semibold text-gray-800">{{ dateFormat "Jan 2, 2006" .Params.end_date }}</time>
       </li>
       {{ if ne .Params.sessions nil }}
         {{ $session := index .Params.sessions 0 }}
@@ -76,18 +49,6 @@
     </div>
   </div>
 
-  {{/* Hide if authenticated */}}
-  {{ if ne .Params.embed_url nil }}
-  <section
-    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
-    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
-
-    <a href="/join/{{ if isset .Params "embed_url" }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}" class="text-2xl button-ghost">Join Now</a>
-
-    <p class="mt-6">Have an account? <a href="/login/{{ if isset .Params "embed_url" }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}" class="font-medium link hover:text-lightBlue">Log in</a></p>
-  </section>
-  {{ end }}
-
   {{/* If authenticated, show w/external URL */}}
   <!--
   <a href="#"
@@ -96,7 +57,7 @@
   </a>
   -->
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
+  <div class="container max-w-5xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
       {{ partial "social-share.html" .}}
     </div>
