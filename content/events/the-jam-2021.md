@@ -77,6 +77,10 @@ Join an amazing list of experts to gain insights into how to develop real-world 
 </a>
 </div>
 
+#### A CFE & FITC Joint Event
+
+[![FITC](/img/sponsors/fitc.png)](https://fitc.ca)
+
 ## Speakers (so far) {#speakers}
 
 We're building a fantastic lineup of Jamstack experts! More to come.
