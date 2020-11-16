@@ -110,7 +110,7 @@
 		  "endDate": "{{ dateFormat "2006-01-02 15:04 MST" .Params.End_date}}",
 		  "location": {
 			"@type": "VirtualLocation",
-			"url": "{{.Params.embed_url}}"
+			"url": "{{- if ne .Params.embed_url nil}}{{ .Params.embed_url}}{{- else if ne .Params.ticket_url nil -}}{{ .Params.ticket_url }}{{- end -}}"
 		  },
 		  "offers": {
 			"@type": "Offer",

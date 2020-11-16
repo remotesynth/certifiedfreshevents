@@ -4,6 +4,7 @@ date: 2021-01-28T11:00:00-04:00
 end_date: 2021-01-29T17:00:00-04:00
 days: 2
 cost: 79
+ticket_url: https://jamdev.eventbrite.ca
 homepage_banner: JamDev.jpg
 description: TheJam.dev is a 2-day virtual conference focused on how to build web applications using the Jamstack and featuring some of the top experts in the Jamstack community.
 short_desc: TheJam.dev is a 2-day virtual conference focused on building real-world applications using the Jamstack.
@@ -11,8 +12,10 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - sarah-drasner
   - tom-preston-werner
   - gift-egwuenu
+  - phil-hawksworth
   - tara-manicsic
   - raymond-camden
   - henri-helvetica
