@@ -15,6 +15,7 @@ speakers:
   - gift-egwuenu
   - tara-manicsic
   - raymond-camden
+  - henri-helvetica
   - ohad-eder-pressman
   - stephanie-eckles
   - michal-zielinski
