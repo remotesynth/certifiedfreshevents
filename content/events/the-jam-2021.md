@@ -22,6 +22,7 @@ speakers:
   - ohad-eder-pressman
   - stephanie-eckles
   - miriam-schwab
+  - colby-fayock
   - michal-zielinski
 ---
 
