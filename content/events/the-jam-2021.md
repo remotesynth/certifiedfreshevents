@@ -15,12 +15,13 @@ speakers:
   - sarah-drasner
   - tom-preston-werner
   - gift-egwuenu
-  - phil-hawksworth
   - tara-manicsic
+  - phil-hawksworth
   - raymond-camden
   - henri-helvetica
   - ohad-eder-pressman
   - stephanie-eckles
+  - miriam-schwab
   - michal-zielinski
 ---
 
