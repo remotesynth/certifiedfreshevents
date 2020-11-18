@@ -9,4 +9,14 @@ website: https://tom.preston-werner.com/
 draft: false
 ---
 
-Building [Chatterbug](https://chatterbug.com/) and [RedwoodJS](https://redwoodjs.com/). Tom was formerly GitHub's cofounder and CEO and now serves on the board of [@Netlify](https://twitter.com/Netlify) , [@HackClub](https://twitter.com/HackClub). He is also an angel investor and pilot. Tom is the creator pf Gravatar, Jekyll, SemVer and TOML.
+Tom Preston-Werner is a software developer, inventor, and entrepreneur
+living and working in San Francisco. He is currently the cofounder and
+Chief Product Officer of Chatterbug, the best way to learn a foreign
+language online. He’s also building RedwoodJS, a full-stack JavaScript
+web framework for the Jamstack. Prior to these, Tom cofounded GitHub
+in 2008, where he served as CEO and helped grow it into the world’s
+most popular code collaboration tool. On the side, Tom is an angel
+investor and philanthropist, with an investment thesis focused on
+fighting climate change. In his spare time, Tom enjoys flying
+helicopters, snowboarding, and chasing his three young children around
+the house while making dinosaur noises.

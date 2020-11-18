@@ -24,6 +24,7 @@ speakers:
   - miriam-schwab
   - colby-fayock
   - michal-zielinski
+  - jaden-baptista
 ---
 
 ## A Jamstack community conference
