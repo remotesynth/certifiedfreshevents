@@ -4,7 +4,7 @@
     {{- range $speaker := $speakers -}}
     {{ with site.GetPage (print "/speakers/" $speaker) }}
     <article>
-      <div class="flex items-center mb-8">
+      <div class="flex mb-8">
         <a href="{{ .RelPermalink }}" class="mr-4">
           <img
             class="max-w-full rounded-full"
@@ -15,7 +15,7 @@
           />
         </a>
 
-        <div>
+        <div style="width:75%">
           <a href="{{ .RelPermalink }}" style="text-decoration:none;">
             <h2 class="text-3xl font-semibold leading-tight" style="font-size: 1.875rem;font-weight: 600;line-height:1.25;">{{ .Title }}</h2>
             <span class="text-lg font-medium leading-tight text-java"

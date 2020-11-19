@@ -23,6 +23,7 @@ speakers:
   - stephanie-eckles
   - miriam-schwab
   - colby-fayock
+  - tessa-mero
   - michal-zielinski
   - jaden-baptista
 ---
