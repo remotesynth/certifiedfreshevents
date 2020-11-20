@@ -21,9 +21,11 @@ speakers:
   - henri-helvetica
   - ohad-eder-pressman
   - stephanie-eckles
+  - flor-antara
   - miriam-schwab
   - colby-fayock
   - tessa-mero
+  - tamas-piros
   - michal-zielinski
   - jaden-baptista
 ---

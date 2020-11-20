@@ -8,4 +8,4 @@ github: zielinsm
 draft: false
 ---
 
-Aspiring software engineer with a passion for front-end and serverless solutions. Enjoys solving problems and I'm always eager to learn new skills. A technology enthusiast with love for both programming and human languages. Privately loves hiking and brewing coffee.
+Aspiring software engineer with a passion for front-end and serverless solutions. Enjoys solving problems and always eager to learn new skills. A technology enthusiast with love for both programming and human languages. Privately loves hiking and brewing coffee.
