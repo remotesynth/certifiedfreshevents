@@ -28,8 +28,11 @@
 
             <span class="max-w-xs ml-2">
             {{ range $session := .Params.sessions }}
+              {{ with site.GetPage (print "/sessions/" $session) }}
+                {{ $.Scratch.Set "speakers" .Params.speakers }}
+              {{ end }}
               {{ $speakers := $.Scratch.Get "speakers" }}
-              {{ range $index, $speaker := $speakers }}
+              {{ range $speaker := $speakers }}
                 {{ with site.GetPage (print "/speakers/" $speaker) }}
                   {{ .Title }}
                   <span class="delimiter">&amp;</span>
