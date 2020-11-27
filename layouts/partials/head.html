@@ -121,10 +121,10 @@
 			"availability": "https://schema.org/InStock",
 			"validFrom": "{{ dateFormat "2006-01-02 15:04 MST" now }}"
 		  },
-		  "performer": [{{range $jsonSpeaker:= .Scratch.Get "jsonSpeakers"}}{
+		  "performer": [{{- $speakers := .Scratch.Get "jsonSpeakers" -}}{{- range $index, $jsonSpeaker:= $speakers -}}{
 			"@type": "Person",
 			"name": "{{$jsonSpeaker}}"
-		  }{{end}}],
+		  }{{- if and (ne $index (sub (len $speakers) 1) (ne (len $speakers) 1))}},{{- end -}}{{- end -}}],
 		  "image": "{{.Site.BaseURL}}/img/banners/medium/{{.Params.Homepage_banner}}",
 		  "eventStatus": "EventScheduled",
 		  "eventAttendanceMode": "OnlineEventAttendanceMode"
