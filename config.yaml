@@ -5,7 +5,7 @@ params:
   description: >-
     CFE.dev offers a large library of recorded sessions on a wide range of development
     & technology topics live & interactive virtual meetups featuring the experts.
-  twitter: fresheventsfl
+  twitter: cfe_dev
   instagram: certifiedfreshevents
   youtube: https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg
   featured_categories:
@@ -28,10 +28,10 @@ related:
   includeNewer: true
   toLower: true
   indices:
-  - name: categories
-    weight: 100
-  - name: date
-    weight: 10
+    - name: categories
+      weight: 100
+    - name: date
+      weight: 10
 paginate: 6
 
 markup:
