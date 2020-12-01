@@ -26,6 +26,7 @@ speakers:
   - colby-fayock
   - tessa-mero
   - tamas-piros
+  - joel-varty
   - michal-zielinski
   - jaden-baptista
 ---
