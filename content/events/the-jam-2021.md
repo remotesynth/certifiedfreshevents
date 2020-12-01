@@ -101,7 +101,13 @@ We're building a fantastic lineup of Jamstack experts! More to come.
 ## Sponsors {#sponsors}
 
 TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
+### Gold Sponsor
 
+[![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
+
+### Opportunity Sponsor
+
+[![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
 ## Schedule {#schedule}
 
 TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
