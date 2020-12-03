@@ -105,6 +105,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
 
+[![Gatsby](/img/sponsors/Gatsby.png)](https://www.gatsbyjs.com/)
+
 ### Opportunity Sponsor
 
 [![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
