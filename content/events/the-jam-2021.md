@@ -101,13 +101,13 @@ We're building a fantastic lineup of Jamstack experts! More to come.
 ## Sponsors {#sponsors}
 
 TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
-### Gold Sponsor
+### Lead Day Sponsors
 
 [![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
 
 [![Gatsby](/img/sponsors/Gatsby.png)](https://www.gatsbyjs.com/)
 
-### Opportunity Sponsor
+### Sponsors
 
 [![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
 ## Schedule {#schedule}
