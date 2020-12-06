@@ -25,6 +25,7 @@ speakers:
   - miriam-schwab
   - colby-fayock
   - tessa-mero
+  - bryan-robinson
   - tamas-piros
   - joel-varty
   - michal-zielinski
