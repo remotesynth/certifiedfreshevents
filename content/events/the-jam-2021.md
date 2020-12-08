@@ -22,6 +22,7 @@ speakers:
   - ohad-eder-pressman
   - stephanie-eckles
   - flor-antara
+  - obinna-ekwuno
   - miriam-schwab
   - colby-fayock
   - tessa-mero
