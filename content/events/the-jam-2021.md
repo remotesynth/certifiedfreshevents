@@ -22,6 +22,7 @@ speakers:
   - ohad-eder-pressman
   - stephanie-eckles
   - flor-antara
+  - shmuela-jacobs
   - obinna-ekwuno
   - miriam-schwab
   - colby-fayock
@@ -94,9 +95,9 @@ Join an amazing list of experts to gain insights into how to develop real-world 
 
 [![FITC](/img/sponsors/fitc.png)](https://fitc.ca)
 
-## Speakers (so far) {#speakers}
+## Speakers {#speakers}
 
-We're building a fantastic lineup of Jamstack experts! More to come.
+We've got a fantastic lineup of Jamstack experts!
 
 {{< conf-speakers >}}
 
