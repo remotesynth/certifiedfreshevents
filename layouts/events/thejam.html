@@ -20,19 +20,6 @@
         </svg>
         <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2" }}</time> - <time class="font-semibold text-gray-800">{{ dateFormat "Jan 2, 2006" .Params.end_date }}</time>
       </li>
-      {{ if ne .Params.sessions nil }}
-        {{ $session := index .Params.sessions 0 }}
-        {{ with site.GetPage (print "/sessions/" $session) }}
-          {{ $category := index .Params.Categories 0 }}
-          {{ with site.GetPage (print "/categories/" $category) }}
-            <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-                <a
-                  href="{{ "categories" | absURL }}/{{ $category | urlize }}"
-                  class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{.Title}}</a>
-            </li>
-          {{ end }}
-        {{ end }}
-      {{ end }}
     </ul>
   </header>
   <div class="container mx-auto">
@@ -64,48 +51,7 @@
 
     <div class="mb-20 content">
       {{ .Content }}
-
-      {{ range $session := .Params.sessions }}
-        {{ with site.GetPage (print "/sessions/" $session) }}
-          <h2>{{ .Title }}</h2>
-
-          {{.Content}}
-        {{ end }}
-      {{ end }}
     </div>
-
-    {{ if ne .Params.sponsor nil }}
-      <h2
-        class="mb-4 text-xl">Sponsored by <strong>{{.Params.sponsor.name}}</strong>
-      </h2>
-      <a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
-    {{ end }}
-
-    {{ if ne .Params.sessions nil }}
-      <div class="mt-24 space-y-20">
-        {{ range $session := .Params.sessions }}
-
-          {{ with site.GetPage (print "/sessions/" $session) }}
-            {{ $.Scratch.Set "speakers" .Params.speakers }}
-          {{ end }}
-
-          {{ $speakers := $.Scratch.Get "speakers" }}
-          {{ range $speaker := $speakers }}
-            {{ with site.GetPage (print "/speakers/" $speaker) }}
-              {{ partial "speaker-card.html" .}}
-            {{ end }}
-          {{end}}
-        {{ end }}
-      </div>
-    {{ end }}
-  </div>
-  {{ if ne .Params.sessions nil }}
-    {{ range $session := .Params.sessions | first 1 }}
-      {{ with site.GetPage (print "/sessions/" $session) }}
-        {{ partial "related-sessions.html" .}}
-      {{ end }}
-    {{ end }}
-  {{ end }}
 </main>
 
 {{ end }}

@@ -32,6 +32,28 @@ speakers:
   - joel-varty
   - michal-zielinski
   - jaden-baptista
+sessions:
+  - thejam21-opening
+  - search-this
+  - tbd-shmuela-jacobs
+  - beyond-static-eleventy
+  - add-on-ecommerce-jamstack
+  - tbd-henri-helvetica
+  - media-management-jamstack
+  - tbd-miriam-schwab
+  - personal-ecommerce-jamstack
+  - going-beyond-static-sites
+  - thejam21-opening-day2
+  - tbd-michal-zielinski
+  - jamstack-angular
+  - tbd-obinna-ekwuno
+  - fullstack-jamstack
+  - media-accessibility-jamstack
+  - nextjs-think-like-amateur
+  - tbd-ohad-eder-pressman
+  - cms-editable-pages
+  - past-present-future-jamstack
+styles: thejam.css
 ---
 
 ## A Jamstack community conference
@@ -113,9 +135,6 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 ### Sponsors
 
 [![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
-## Schedule {#schedule}
-
-TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
 
 ## Register {#register}
 
@@ -154,6 +173,11 @@ Requirements:
  Apply Now
 </a>
 
+## Schedule {#schedule}
+
+TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
+
+{{< conf-schedule >}}
 ## Code of Conduct {#coc}
 
 Attendees of TheJam.dev are expected to abide by the [Certified Fresh Events code of conduct](/conduct). If you encounter any violations, please contact an event support staff person on-site, email [brian@certifiedfreshevents.com](mailto:brian@certifiedfreshevents.com) or call (857) 919-7630.
