@@ -50,7 +50,7 @@ sessions:
   - fullstack-jamstack
   - media-accessibility-jamstack
   - nextjs-think-like-amateur
-  - tbd-ohad-eder-pressman
+  - easy-tools-jamstack
   - cms-editable-pages
   - past-present-future-jamstack
 styles: thejam.css
