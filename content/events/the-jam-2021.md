@@ -35,7 +35,7 @@ speakers:
 sessions:
   - thejam21-opening
   - search-this
-  - tbd-shmuela-jacobs
+  - app-to-cloud
   - beyond-static-eleventy
   - add-on-ecommerce-jamstack
   - tbd-henri-helvetica
