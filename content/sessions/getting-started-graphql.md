@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/getting-started-with-71
-    start_time: "00:00"
+    start_time: "03:55"
+  vimeo:
+    url: https://vimeo.com/495885647
+    length: "45:25"
 categories:
   - webdev
 draft: false

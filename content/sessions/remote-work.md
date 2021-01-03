@@ -5,8 +5,11 @@ speakers:
     - dawn-parzych
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/the-developers-pandemic
-      start_time: "00:00"
+    url: https://www.crowdcast.io/e/the-developers-pandemic
+    start_time: "32:41"
+  vimeo:
+    url: https://vimeo.com/496095670
+    length: "25:13"
 categories:
   - culture
 draft: false

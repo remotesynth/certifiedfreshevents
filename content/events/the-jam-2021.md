@@ -44,9 +44,9 @@ sessions:
   - personal-ecommerce-jamstack
   - going-beyond-static-sites
   - thejam21-opening-day2
-  - tbd-michal-zielinski
+  - building-large-scale-jamstack-apps
   - jamstack-angular
-  - tbd-obinna-ekwuno
+  - everything-should-be-simple
   - fullstack-jamstack
   - media-accessibility-jamstack
   - nextjs-think-like-amateur

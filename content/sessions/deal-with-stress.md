@@ -5,8 +5,11 @@ speakers:
     - peter-mckee
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/the-developers-pandemic
-      start_time: "00:00"
+    url: https://www.crowdcast.io/e/the-developers-pandemic
+    start_time: "03:47"
+  vimeo:
+    url: https://vimeo.com/496095670
+    length: "25:13"
 categories:
   - culture
 draft: false
