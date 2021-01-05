@@ -40,7 +40,7 @@ sessions:
   - add-on-ecommerce-jamstack
   - tbd-henri-helvetica
   - media-management-jamstack
-  - tbd-miriam-schwab
+  - future-of-jamstack-is-wordpress
   - personal-ecommerce-jamstack
   - going-beyond-static-sites
   - thejam21-opening-day2
