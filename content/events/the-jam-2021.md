@@ -138,6 +138,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.com)
 
+[![StepZen](/img/sponsors/stepzen.png)](https://www.stepzen.com/)
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-127489744257"></div>
