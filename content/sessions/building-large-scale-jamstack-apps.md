@@ -8,4 +8,4 @@ event: the-jam-2021
 draft: false
 ---
 
-Details coming soon.
+The talk describes how Jamstack benefits web projects in large organizations. Starting with a general description of advantages of the approach over monolithic architectures in those use cases. Both technical and non-technical points are brought up. A focus is also put on how to talk about Jamstack with non-technical stakeholders. Further the talk will touch on best solutions and tools for Jamstack-based web projects in large organizations.  An emphasis is put on describing the importance of understanding stakeholders needs and choosing a stack that allows the development team to quickly deliver new features and easily maintain existing ones. The presentation touches on practical examples of successful web projects that made the seemingly risky move to go with Jamstack.
