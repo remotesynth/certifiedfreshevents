@@ -37,12 +37,12 @@ sessions:
   - search-this
   - app-to-cloud
   - beyond-static-eleventy
-  - add-on-ecommerce-jamstack
+  - going-beyond-static-sites
   - tbd-henri-helvetica
   - media-management-jamstack
   - future-of-jamstack-is-wordpress
   - personal-ecommerce-jamstack
-  - going-beyond-static-sites
+  - add-on-ecommerce-jamstack
   - thejam21-opening-day2
   - building-large-scale-jamstack-apps
   - jamstack-angular

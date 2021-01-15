@@ -1,7 +1,7 @@
 ---
 title: "Add-on E-commerce for the JAMStack"
-date: 2021-01-28T14:20:00-04:00
-end_date: 2021-01-28T15:05:00-04:00
+date: 2021-01-28T16:30:00-04:00
+end_date: 2021-01-28T17:15:00-04:00
 speakers:
   - flor-antara
 event: the-jam-2021
