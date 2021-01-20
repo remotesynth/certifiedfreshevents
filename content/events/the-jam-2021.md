@@ -145,6 +145,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 ### Media Partners
 
 [![Jamstack Training](/img/sponsors/jamstack-training.png)](https://jamstack.training/)
+[![Peak Zebra](/img/sponsors/PeakZebra.png)](https://peakzebra.com/)
 
 ## Register {#register}
 
