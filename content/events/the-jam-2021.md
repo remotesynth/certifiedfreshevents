@@ -38,7 +38,7 @@ sessions:
   - app-to-cloud
   - beyond-static-eleventy
   - going-beyond-static-sites
-  - tbd-henri-helvetica
+  - performance-for-all
   - media-management-jamstack
   - future-of-jamstack-is-wordpress
   - personal-ecommerce-jamstack
