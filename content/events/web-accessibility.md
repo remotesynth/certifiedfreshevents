@@ -9,6 +9,10 @@ description: Obinna Ekwuno makes the case for prioritizing web accessibility bas
 embed_url: https://www.crowdcast.io/e/the-case-for-web
 sessions:
   - accessibility-for-humans
+sponsor:
+  name: Gatsby
+  image: Gatsby.png
+  URL: https://www.gatsbyjs.com/
 draft: false
 featured: true
 ---
