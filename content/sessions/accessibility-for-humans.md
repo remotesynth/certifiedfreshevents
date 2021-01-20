@@ -12,4 +12,4 @@ categories:
 draft: false
 ---
 
-Mostly when developers think of accessibility, they focus on the code and making syntax semantic and all the ARIA and all that cute stuff. However, I argue that, before the code, accessibility is human in the sense that it stems from our sense of self and our sense of empathy. In this talk, these are the parts we will discuss.
+When developers think of accessibility, they often focus on the code, making syntax semantic, all of the ARIA, etc. However, I believe that even before the code, accessibility is human in the sense that it stems from our sense of self and our sense of empathy. In my talk, I'll focus on these two things and how you can use them to build better, more accessible websites.
