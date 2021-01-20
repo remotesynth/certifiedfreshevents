@@ -142,6 +142,10 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Uniform](/img/sponsors/uniform-logo-blue.png)](https://uniform.dev/)
 
+### Media Partners
+
+[![Jamstack Training](/img/sponsors/jamstack-training.png)](https://jamstack.training/)
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-127489744257"></div>
