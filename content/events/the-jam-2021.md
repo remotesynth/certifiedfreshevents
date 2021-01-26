@@ -143,6 +143,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 [![Uniform](/img/sponsors/uniform-logo-blue.png)](https://uniform.dev/)
 
 [![Snipcart](/img/sponsors/snipcart.png)](https://snipcart.com/)
+
+[![Fauna](/img/sponsors/Fauna.png)](https://fauna.com/)
 ### Media Partners
 
 [![Jamstack Training](/img/sponsors/jamstack-training.png)](https://jamstack.training/)
