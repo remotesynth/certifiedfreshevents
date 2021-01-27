@@ -8,6 +8,10 @@ short_desc: Adam Lamarre will explore a solution to adding personalization to a 
 embed_url: https://www.crowdcast.io/e/personalizing-the
 sessions:
   - blazing-fast-jamstack-personalization
+sponsor:
+  name: Uniform.dev
+  image: uniform-logo-blue.png
+  URL: https://uniform.dev/
 draft: false
 featured: true
 ---
