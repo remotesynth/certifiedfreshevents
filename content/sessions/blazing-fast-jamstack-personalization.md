@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/personalizing-the
-    start_time: "00:00"
+    start_time: "02:25"
+  vimeo:
+    url: https://vimeo.com/519020714
+    length: "43:26"
 categories:
   - webdev
 draft: false

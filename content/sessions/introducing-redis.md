@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/introduction-to-redis
-    start_time: "00:00"
+    start_time: "03:24"
+  vimeo:
+    url: https://vimeo.com/518885921
+    length: "1:00:55"
 categories:
   - software
 draft: false

@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-case-for-web
-    start_time: "00:00"
+    start_time: "02:41"
+  vimeo:
+    url: https://vimeo.com/518807418
+    length: "19:37"
 categories:
   - webdev
 draft: false
