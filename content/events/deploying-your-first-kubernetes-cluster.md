@@ -1,7 +1,7 @@
 ---
 title: Deploying Your First Kubernetes Cluster
-date: 2021-04-25T12:00:00-04:00
-end_date: 2021-04-25T13:00:00-04:00
+date: 2021-03-25T12:00:00-04:00
+end_date: 2021-03-25T13:00:00-04:00
 cost: 0
 sessions:
   - your-first-kubernetes-cluster
