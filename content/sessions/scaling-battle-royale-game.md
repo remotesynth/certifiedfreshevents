@@ -12,6 +12,7 @@ recordings:
       length: "28:12"
 categories:
   - stuff
+featured: true
 draft: false
 ---
 

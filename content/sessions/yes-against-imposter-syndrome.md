@@ -13,6 +13,7 @@ recordings:
 categories:
   - culture
 draft: false
+featured: true
 ---
 
 ### From "AWS newbies" to AWS Community Leader

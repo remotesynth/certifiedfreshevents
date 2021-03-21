@@ -4,6 +4,7 @@ date: 2019-02-10T18:52:51-04:00
 speakers:
   - helena-mccabe
 event: flashback-conference-2020
+featured: false
 draft: false
 ---
 
