@@ -10,11 +10,11 @@ embed_url: https://www.crowdcast.io/e/core-web-vitals-and-web
 sessions:
   - core-web-vitals
 sponsor:
-  name: Moovweb
-  image: moovweb.png
-  URL: https://moovweb.com/
+  name: Layer0
+  image: layer0.png
+  URL: https://Layer0.co/
 draft: false
 featured: true
 ---
 
-Core Web Vitals are key metrics that aim to measure the user experience of your web site via performance - things like largest contentful paint, first input delay and cumulative layout shift. The terms may sound obtuse but they are critical to understand because of how they represent how the user experiences your site and because they can impact your search ranking. Both of these can directly affect your business. In this session, Ishan Anand will look at each of the metrics in Core Web Vitals, how to best find out your Core Web Vitals score, and common techniques and gotchas when optimizing Core Web Vitals.
+Core Web Vitals are key metrics that aim to measure the user experience of your web site via performance - things like Largest Contentful Paint, First Input Delay and Cumulative Layout Shift. The terms may sound obtuse but they are critical to understand because of how they represent how the user experiences your site and because they can impact your search ranking. Both of these can directly affect your business. In this session, Ishan Anand will look at each of the metrics in Core Web Vitals, how to best find out your Core Web Vitals score, and common techniques and gotchas when optimizing Core Web Vitals.
