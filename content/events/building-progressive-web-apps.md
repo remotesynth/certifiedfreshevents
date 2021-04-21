@@ -2,7 +2,7 @@
 title: Building Progressive Web Apps (Workshop)
 date: 2021-04-29T13:00:00-04:00
 end_date: 2021-04-29T17:00:00-04:00
-cost: 99
+cost: 49
 homepage_banner: ProgressiveWebApps-042921.jpg
 short_desc: In this hands-on workshop, Tamas Piros will show you how to build a progressive web app (PWA).
 description: In this hands-on workshop, Tamas Piros will show you how to build a PWA focussing on some of its core features and fundamental components such as the Service Worker.
