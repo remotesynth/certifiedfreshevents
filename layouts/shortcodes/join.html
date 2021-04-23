@@ -1,14 +1,22 @@
 <main class="mt-8 mb-20 lg:mt-12">
-
   <div class="max-w-5xl px-6 py-10 mx-auto">
     <header class="mb-10 text-center md:mb-12">
-      <h1 class="mt-10 text-4xl font-medium md:text-5xl">Join &amp; Get <strong class="highlight-text highlight-text-blue"><span>FULL Access</span></strong></h1>
+      <h1 class="mt-10 text-4xl font-medium md:text-5xl">
+        Join Free &amp; Get
+        <strong class="highlight-text highlight-text-blue"
+          ><span>FULL Access</span></strong
+        >
+      </h1>
     </header>
 
-    <div class="flex flex-col items-center justify-center md:items-start md:flex-row">
+    <div
+      class="flex flex-col items-center justify-center md:items-start md:flex-row"
+    >
       <form
         class="flex-shrink-0 w-full max-w-md px-8 py-12 mb-12 border border-gray-300 rounded shadow-xl flex-grow-1 md:w-auto md:mb-0 md:order-2"
-        id="registerForm" method="post">
+        id="registerForm"
+        method="post"
+      >
         <div class="error-message" id="errorMessage"></div>
         <div class="mb-8">
           <label for="join-name" class="label">Your Name</label>
@@ -17,16 +25,13 @@
             name="join-name"
             id="join-name"
             class="w-full field"
-            required>
+            required
+          />
         </div>
 
         <div class="mb-8">
           <label for="join-email" class="label">Email Address</label>
-          <input
-            type="email"
-            id="join-email"
-            class="w-full field"
-            required>
+          <input type="email" id="join-email" class="w-full field" required />
         </div>
 
         <div class="mb-8">
@@ -39,67 +44,128 @@
             name="join-password"
             id="join-password"
             class="w-full field"
-            required>
+            required
+          />
         </div>
 
         <div class="flex justify-end mb-10">
           <button class="order-2 button">Sign Up</button>
-          <button class="order-1 inline-block px-8 py-2 font-bold text-red link" onclick="window.history.back()">Cancel</button>
+          <button
+            class="order-1 inline-block px-8 py-2 font-bold text-red link"
+            onclick="window.history.back()"
+          >
+            Cancel
+          </button>
         </div>
 
-        <p class="text-sm text-right">Have an account already? <a href="/login/" class="font-bold link">Log in instead</a>.</p>
+        <p class="text-sm text-right">
+          Have an account already?
+          <a href="/login/" class="font-bold link">Log in instead</a>.
+        </p>
       </form>
       <section class="pt-10 md:w-1/2 md:mr-8 lg:mr-20 md:order-1">
         <h2 class="mb-6 text-2xl font-medium">Why Join CFE.dev?</h2>
 
         <ul>
           <li class="flex block mb-10 text-gray-800">
-            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue">
-              <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
+            >
+              <svg
+                class="inline-block w-8 h-8 fill-current text-blue"
+                aria-hidden="true"
+              >
+                <use xlink:href="/img/icons.svg#sm-currency-dollar"></use>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <span class="block mb-1 text-sm text-lg">It's FREE!</span>
+              <span class="block text-sm text-gray-600"
+                >Get access to our archive at no cost.</span
+              >
+            </div>
+          </li>
+          <li class="flex block mb-10 text-gray-800">
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
+            >
+              <svg
+                class="inline-block w-8 h-8 fill-current text-blue"
+                aria-hidden="true"
+              >
                 <use xlink:href="/img/icons.svg#sm-microphone"></use>
               </svg>
             </div>
             <div class="ml-4">
               <span class="block mb-1 text-sm text-lg">Catch meetups live</span>
-              <span class="block text-sm text-gray-600">Learn alongside the community in real-time.</span>
+              <span class="block text-sm text-gray-600"
+                >Learn alongside the community in real-time.</span
+              >
             </div>
           </li>
           <li class="flex block mb-10 text-gray-800">
-            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue">
-              <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
+            >
+              <svg
+                class="inline-block w-8 h-8 fill-current text-blue"
+                aria-hidden="true"
+              >
                 <use xlink:href="/img/icons.svg#sm-sparkles"></use>
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">New content regularly</span>
-              <span class="block text-sm text-gray-600">2-3 meetups a month provides plenty to learn.</span>
+              <span class="block mb-1 text-sm text-lg"
+                >New content regularly</span
+              >
+              <span class="block text-sm text-gray-600"
+                >2-3 meetups a month provides plenty to learn.</span
+              >
             </div>
           </li>
           <li class="flex block mb-10 text-gray-800">
-            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue">
-              <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
+            >
+              <svg
+                class="inline-block w-8 h-8 fill-current text-blue"
+                aria-hidden="true"
+              >
                 <use xlink:href="/img/icons.svg#sm-desktop-computer"></use>
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Stay up on the latest tech</span>
-              <span class="block text-sm text-gray-600">Stay fresh by learning new things from industry experts.</span>
+              <span class="block mb-1 text-sm text-lg"
+                >Stay up on the latest tech</span
+              >
+              <span class="block text-sm text-gray-600"
+                >Stay fresh by learning new things from industry experts.</span
+              >
             </div>
           </li>
-          <li class="flex block mb-10 text-gray-800">
-            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue">
-              <svg class="inline-block w-8 h-8 fill-current text-blue" aria-hidden="true">
+          <!--<li class="flex block mb-10 text-gray-800">
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
+            >
+              <svg
+                class="inline-block w-8 h-8 fill-current text-blue"
+                aria-hidden="true"
+              >
                 <use xlink:href="/img/icons.svg#sm-collection"></use>
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Access wide-ranging content</span>
-              <span class="block text-sm text-gray-600">CSS to Kubernetes; CFE.dev covers the full-stack.</span>
+              <span class="block mb-1 text-sm text-lg"
+                >Access wide-ranging content</span
+              >
+              <span class="block text-sm text-gray-600"
+                >CSS to Kubernetes; CFE.dev covers the full-stack.</span
+              >
             </div>
+          </li>-->
           </li>
         </ul>
       </section>
     </div>
   </div>
-
 </main>
