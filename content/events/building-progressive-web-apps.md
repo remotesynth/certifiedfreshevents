@@ -9,7 +9,7 @@ description: In this hands-on workshop, Tamas Piros will show you how to build a
 embed_url: https://www.crowdcast.io/e/building-progressive-web
 sessions:
   - building-progressive-web-apps
-draft: false
+draft: true
 featured: true
 ---
 
