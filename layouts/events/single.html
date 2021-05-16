@@ -146,6 +146,9 @@
       </div>
     {{ end }}
   </div>
+  <div>
+    {{ partial "logo-list.html" }}
+  </div>
   {{ if ne .Params.sessions nil }}
     {{ range $session := .Params.sessions | first 1 }}
       {{ with site.GetPage (print "/sessions/" $session) }}
