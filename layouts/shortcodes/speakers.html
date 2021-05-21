@@ -1,8 +1,7 @@
-{{- $speakers := where .Site.RegularPages "Section" "speakers" -}}
+{{- $speakers := where .Site.RegularPages.ByLinkTitle "Section" "speakers" -}}
 <div class="container px-6 mx-auto">
   <div class="grid gap-8 lg:grid-cols-2">
-    {{- range $speaker := $speakers -}}
-    {{- with $speaker -}}
+    {{- range $speaker := $speakers -}} {{- with $speaker -}}
     <article>
       <div class="flex items-center mb-8">
         <a href="{{ .RelPermalink }}" class="mr-4">
@@ -59,7 +58,6 @@
         </div>
       </div>
     </article>
-    {{- end -}}
-    {{- end -}}
+    {{- end -}} {{- end -}}
   </div>
 </div>
