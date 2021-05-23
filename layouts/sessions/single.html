@@ -95,8 +95,8 @@
         {{ end }}
       {{ else if isset . "youtube" }}
         {{ with .youtube }}
-          <div id="vimeo-embed" data-embed-url="{{ .url }}">
-
+          {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+          <div id="vimeo-embed" data-embed-url="https://youtube.com/embed/{{ $vimeo_embed }}">
         </div>
         {{ end }}
       {{ else }}

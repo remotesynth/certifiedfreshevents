@@ -4,6 +4,10 @@ date: 2021-01-29T12:30:00-04:00
 end_date: 2021-01-29T13:15:00-04:00
 speakers:
   - tara-manicsic
+recordings:
+  youtube:
+    url: https://youtu.be/20lMtj3Ri0A
+    length: "41:43"
 event: the-jam-2021
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2021-01-29T11:35:00-04:00
 end_date: 2021-01-29T12:20:00-04:00
 recordings:
   youtube:
-    url: https://youtube.com/embed/m7vmaMIrPAM
+    url: https://youtu.be/20lMtj3Ri0A
     length: "41:08"
 speakers:
   - michal-zielinski
