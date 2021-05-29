@@ -23,7 +23,6 @@ speakers:
   - tbd-moar-serverless
 styles: thejam.css
 ---
-
 ## A serverless community conference
 
 Join an amazing list of experts to gain insights into how to develop real-world applications that leverage serverless and microservice architectures.
