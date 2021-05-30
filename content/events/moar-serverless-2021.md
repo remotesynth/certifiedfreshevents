@@ -3,7 +3,7 @@ title: Moar Serverless!! 2021
 date: 2021-08-12T11:00:00-04:00
 end_date: 2021-08-12T17:00:00-04:00
 days: 1
-cost: 49
+cost: 39 Early Bird / $49 Full Price
 ticket_url: https://moar_serverless.eventbrite.ca
 homepage_banner: MoarServerless-062421.jpg
 description: TheJam.dev is a 2-day virtual conference focused on how to build web applications using the Jamstack and featuring some of the top experts in the Jamstack community.
