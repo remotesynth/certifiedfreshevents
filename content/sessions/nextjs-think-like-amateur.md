@@ -2,6 +2,10 @@
 title: "Next.JS: Thinking Like An Amateur"
 date: 2021-01-29T15:45:00-04:00
 end_date: 2021-01-29T15:55:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/6y0GKhOR3mU
+    length: "12:45"
 speakers:
   - jaden-baptista
 event: the-jam-2021

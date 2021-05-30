@@ -13,7 +13,7 @@
     <li>
       <div class="time"><time>{{ .Date.Format "15:04" }}</time><time>{{ dateFormat "15:04" .Params.end_date }}</time></div>
       <div class="details">
-        <h3><a href="{{.Permalink}}">{{.Title }}</a></h3>
+        <h3><a href="{{.RelPermalink}}">{{.Title }}</a></h3>
         {{ range $speaker := .Params.speakers }}
           {{ with site.GetPage (print "/speakers/" $speaker) }}
         <div class="speaker">{{.Title}}</div>

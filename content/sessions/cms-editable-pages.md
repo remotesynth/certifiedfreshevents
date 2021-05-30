@@ -2,6 +2,10 @@
 title: Create CMS-editable pages with no client-side JS or frameworks
 date: 2021-01-29T16:05:00-04:00
 end_date: 2021-01-29T16:15:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/zjlkUvx14Fc
+    length: "9:03"
 speakers:
   - bryan-robinson
 event: the-jam-2021

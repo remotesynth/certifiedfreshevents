@@ -2,6 +2,10 @@
 title: Everything Should Be As Simple As It Is
 date: 2021-01-29T13:25:00-04:00
 end_date: 2021-01-29T14:10:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/rilL8wPuEUg
+    length: "29:55"
 speakers:
   - obinna-ekwuno
 event: the-jam-2021

@@ -2,6 +2,10 @@
 title: Architecting Fullstack solutions in a Jamstack World
 date: 2021-01-29T14:20:00-04:00
 end_date: 2021-01-29T15:05:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/D3-IlBX4kcQ
+    length: "46:56"
 speakers:
   - joel-varty
 event: the-jam-2021

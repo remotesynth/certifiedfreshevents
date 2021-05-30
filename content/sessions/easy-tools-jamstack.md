@@ -2,6 +2,10 @@
 title: "Easy Tools for Spinning Up Jamstack Sites"
 date: 2021-01-29T15:55:00-04:00
 end_date: 2021-01-29T16:05:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/tBZwls4gdBY
+    length: "8:28"
 speakers:
   - ohad-eder-pressman
 event: the-jam-2021

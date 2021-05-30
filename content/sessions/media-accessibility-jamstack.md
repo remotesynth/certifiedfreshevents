@@ -2,6 +2,10 @@
 title: 5 Ways to Simply Add Media Accessibility (m16y) to your Jamstack app
 date: 2021-01-29T15:35:00-04:00
 end_date: 2021-01-29T15:45:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/Q5E2eWP_q0g
+    length: "9:10"
 speakers:
   - tessa-mero
 event: the-jam-2021
