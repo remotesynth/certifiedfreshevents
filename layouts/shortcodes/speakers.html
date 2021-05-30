@@ -1,7 +1,9 @@
 {{- $speakers := where .Site.RegularPages.ByLinkTitle "Section" "speakers" -}}
 <div class="container px-6 mx-auto">
   <div class="grid gap-8 lg:grid-cols-2">
-    {{- range $speaker := $speakers -}} {{- with $speaker -}}
+    {{- range $speaker := $speakers -}}
+      {{- with $speaker -}}
+        {{- if ne (isset .Params "list_hide") true -}}
     <article>
       <div class="flex items-center mb-8">
         <a href="{{ .RelPermalink }}" class="mr-4">
@@ -17,9 +19,7 @@
         <div>
           <a href="{{ .RelPermalink }}">
             <h2 class="text-3xl font-semibold leading-tight">{{ .Title }}</h2>
-            <span class="text-lg font-medium leading-tight text-java"
-              >{{ .Params.Job_title }}</span
-            >
+            <span class="text-lg font-medium leading-tight text-java">{{ .Params.Job_title }}</span>
           </a>
 
           <nav class="mt-1 space-x-4">
@@ -58,6 +58,8 @@
         </div>
       </div>
     </article>
-    {{- end -}} {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   </div>
 </div>
