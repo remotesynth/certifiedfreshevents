@@ -2,6 +2,10 @@
 title: Going Beyond Static Sites With Eleventy
 date: 2021-01-28T13:25:00-04:00
 end_date: 2021-01-28T14:10:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/S1GCsdEegOc
+    length: "38:56"
 speakers:
   - stephanie-eckles
 event: the-jam-2021

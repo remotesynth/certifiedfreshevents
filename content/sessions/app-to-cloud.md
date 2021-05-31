@@ -2,6 +2,10 @@
 title: "From App to Cloud: Azure Static Web Apps"
 date: 2021-01-28T12:30:00-04:00
 end_date: 2021-01-28T13:15:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/quQ0r03erGA
+    length: "43:31"
 speakers:
   - shmuela-jacobs
 event: the-jam-2021

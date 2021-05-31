@@ -2,6 +2,10 @@
 title: Media Management in the Jamstack
 date: 2021-01-28T15:45:00-04:00
 end_date: 2021-01-28T15:55:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/3-AcvyH1oSc
+    length: "11:01"
 speakers:
   - tamas-piros
 event: the-jam-2021

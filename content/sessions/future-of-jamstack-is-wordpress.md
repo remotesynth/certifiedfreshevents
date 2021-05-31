@@ -2,6 +2,10 @@
 title: The Future of WordPress is Jamstack. Say what now?
 date: 2021-01-28T15:55:00-04:00
 end_date: 2021-01-28T16:05:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/lyAaS2uMFxc
+    length: "10:52"
 speakers:
   - miriam-schwab
 event: the-jam-2021
