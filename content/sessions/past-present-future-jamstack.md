@@ -2,6 +2,10 @@
 title: The Past, Present and Future of the Jamstack (Fireside Chat)
 date: 2021-01-29T16:30:00-04:00
 end_date: 2021-01-29T17:15:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/e6GWF6Mnan0
+    length: "45:07"
 speakers:
   - tom-preston-werner
 event: the-jam-2021

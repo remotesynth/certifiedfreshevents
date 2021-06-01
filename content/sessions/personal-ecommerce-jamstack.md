@@ -2,6 +2,10 @@
 title: Getting Personal with Ecommerce, React & the Static Web
 date: 2021-01-28T16:05:00-04:00
 end_date: 2021-01-28T16:15:00-04:00
+recordings:
+  youtube:
+    url: https://youtu.be/_KaEKs11zcY
+    length: "9:39"
 speakers:
   - colby-fayock
 event: the-jam-2021
