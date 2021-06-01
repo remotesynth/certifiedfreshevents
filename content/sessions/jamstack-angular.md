@@ -6,7 +6,7 @@ speakers:
   - tara-manicsic
 recordings:
   youtube:
-    url: https://youtu.be/20lMtj3Ri0A
+    url: https://youtu.be/dSx8FkMBRu4
     length: "41:43"
 event: the-jam-2021
 draft: false
