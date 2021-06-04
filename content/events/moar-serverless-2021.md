@@ -14,7 +14,7 @@ layout: thejam
 speakers:
   - ali-spittel
   - brian-leroux
-  - tbd-moar-serverless
+  - ceora-ford
   - tbd-moar-serverless
   - tbd-moar-serverless
   - tbd-moar-serverless
