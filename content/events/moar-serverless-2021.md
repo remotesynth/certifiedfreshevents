@@ -96,7 +96,7 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
 
 ### Sponsors
 
-[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/te2)
+[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/qpk)
 
 ## Register {#register}
 
