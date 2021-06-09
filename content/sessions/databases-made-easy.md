@@ -2,7 +2,7 @@
 title: Databases Made Easy
 date: 2021-06-10T12:00:00-04:00
 speakers:
-    - brecht-de-rooms
+    - rob-sutter
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/databases-made-easy

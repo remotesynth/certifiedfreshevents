@@ -15,7 +15,7 @@ speakers:
   - ali-spittel
   - brian-leroux
   - ceora-ford
-  - tbd-moar-serverless
+  - denis-bauer
   - tbd-moar-serverless
   - tbd-moar-serverless
   - tbd-moar-serverless
