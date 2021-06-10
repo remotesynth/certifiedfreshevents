@@ -16,7 +16,7 @@ speakers:
   - brian-leroux
   - ceora-ford
   - denis-bauer
-  - tbd-moar-serverless
+  - domitrius-clark
   - tbd-moar-serverless
   - tbd-moar-serverless
   - tbd-moar-serverless
