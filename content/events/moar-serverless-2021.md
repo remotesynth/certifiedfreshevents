@@ -17,7 +17,7 @@ speakers:
   - ceora-ford
   - denis-bauer
   - domitrius-clark
-  - tbd-moar-serverless
+  - ben-hong
   - tbd-moar-serverless
   - tbd-moar-serverless
   - tbd-moar-serverless
