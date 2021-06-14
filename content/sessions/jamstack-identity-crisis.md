@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-jamstack-identity-crisis
-    start_time: "00:00"
+    start_time: "03:35"
+  vimeo:
+    url: https://vimeo.com/562735510
+    length: "51:29"
 categories:
   - webdev
 draft: false
