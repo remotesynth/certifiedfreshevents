@@ -18,7 +18,7 @@ speakers:
   - denis-bauer
   - domitrius-clark
   - ben-hong
-  - tbd-moar-serverless
+  - gwyneth-pena-siguenza
   - tbd-moar-serverless
   - tbd-moar-serverless
 styles: thejam.css
