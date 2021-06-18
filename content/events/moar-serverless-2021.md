@@ -94,7 +94,10 @@ We've already got some  fantastic speakers. Moar speakers being announced soon!
 
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
 
-### Sponsors
+#### Scholarship Sponsor
+
+[![Fauna](/img/sponsors/Fauna.png)](https://fauna.com/)
+#### Sponsors
 
 [![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/qpk)
 
