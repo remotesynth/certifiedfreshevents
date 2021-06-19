@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-state-of-modern
-    start_time: "00:00"
+    start_time: "02:30"
+  vimeo:
+    url: https://vimeo.com/564864939
+    length: "53:25"
 categories:
   - webdev
 draft: false

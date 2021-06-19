@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/supercharge-javascript
-    start_time: "00:00"
+    start_time: "02:06"
+  vimeo:
+    url: https://vimeo.com/564982490
+    length: "1:04:28"
 categories:
   - javascript
   - webdev
