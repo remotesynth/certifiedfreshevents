@@ -19,7 +19,7 @@ speakers:
   - domitrius-clark
   - ben-hong
   - gwyneth-pena-siguenza
-  - tbd-moar-serverless
+  - rob-sutter
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -124,6 +124,19 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
     });
 </script>
 
+## Fauna Opportunity Scholarship Program {#scholarship}
+
+We believe that including a diverse range of voices at our events makes them better, stronger, more inclusive, and more fun. Our current definition of diversity includes people of any gender, including identity and expression; sexual orientation; disabilities, mental or physical; physical appearance, including but not limited to body size; ethnicity/culture; personal expression; and beliefs – religious, political or otherwise. Having these voices on our stages, on our volunteer teams, and in our audiences allow us all to grow through hearing a variety of experiences, stories, and viewpoints.
+
+Requirements:
+
+* Must agree to follow our code of conduct
+* This program is aimed at those who are unable to secure a ticket through their company, or unable to afford a ticket themselves.
+* Applications close on August 1, 2021
+
+<a class="button" style="text-decoration:none;color:#FFF" href="https://docs.google.com/forms/d/e/1FAIpQLSe2MkOoWO0M7xAtKXLpE-xAFOhrcYzXPacQllIrByi_fIQUbA/viewform">
+ Apply Now
+</a>
 ## Schedule {#schedule}
 
 Moar Serverless!! will feature a full day of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
