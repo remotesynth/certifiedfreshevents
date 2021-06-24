@@ -134,7 +134,7 @@ Requirements:
 * This program is aimed at those who are unable to secure a ticket through their company, or unable to afford a ticket themselves.
 * Applications close on August 1, 2021
 
-<a class="button" style="text-decoration:none;color:#FFF" href="https://docs.google.com/forms/d/e/1FAIpQLSe2MkOoWO0M7xAtKXLpE-xAFOhrcYzXPacQllIrByi_fIQUbA/viewform">
+<a class="button" style="text-decoration:none;color:#FFF" href="https://fitc.ca/fauna-scholarship/">
  Apply Now
 </a>
 
