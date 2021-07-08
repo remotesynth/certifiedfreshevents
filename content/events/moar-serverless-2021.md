@@ -21,6 +21,17 @@ speakers:
   - gwyneth-pena-siguenza
   - rob-sutter
   - tbd-moar-serverless
+sessions:
+  - moar2021-opening
+  - moar2021-app-backend-amplify
+  - moar2021-session2
+  - moar2021-session3
+  - moar2021-active-architectures
+  - moar2021-nuxt-serverless
+  - moar2021-serverless-health
+  - moar2021-lightning3
+  - moar2021-session5
+  - moar2021-session6
 styles: thejam.css
 ---
 ## A serverless community conference
@@ -140,7 +151,9 @@ Requirements:
 
 ## Schedule {#schedule}
 
-Moar Serverless!! will feature a full day of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
+Moar Serverless!! will feature a full day of sessions in a single track format. We're still working to finalize our schedule. Check back again soon for final session details.
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
