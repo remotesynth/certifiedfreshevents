@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/deploying-your-first-2
-    start_time: "00:00"
+    start_time: "05:26"
+  vimeo:
+    url: https://vimeo.com/573398397
+    length: "48:51"
 categories:
   - devops
 draft: false
