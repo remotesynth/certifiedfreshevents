@@ -24,8 +24,8 @@ speakers:
 sessions:
   - moar2021-opening
   - moar2021-app-backend-amplify
-  - moar2021-session2
-  - moar2021-session3
+  - moar2021-azure-crash-course
+  - moar2021-aws-full-stack
   - moar2021-active-architectures
   - moar2021-nuxt-serverless
   - moar2021-serverless-health
@@ -104,6 +104,10 @@ We've already got some  fantastic speakers. Moar speakers being announced soon!
 ## Sponsors {#sponsors}
 
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
+
+#### Lead Sponsor
+
+[![Microsoft Azure](/img/sponsors/Azure.png)](https://azure.microsoft.com)
 
 #### Scholarship Sponsor
 
