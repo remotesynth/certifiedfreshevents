@@ -31,7 +31,7 @@ sessions:
   - moar2021-serverless-health
   - moar2021-lightning3
   - moar2021-session5
-  - moar2021-session6
+  - moar2021-functional-web-apps
 styles: thejam.css
 ---
 ## A serverless community conference
