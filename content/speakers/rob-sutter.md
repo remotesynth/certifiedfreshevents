@@ -2,7 +2,7 @@
 title: Rob Sutter
 date: 2019-07-24T18:52:51-04:00
 speaker_image: robsutter.jpg
-job_title:  Head of Developer Advocacy
+job_title:  Head of Developer Advocacy at Fauna
 twitter: rts_rob
 website: https://robsutter.com
 draft: false
