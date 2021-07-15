@@ -29,8 +29,8 @@ sessions:
   - moar2021-active-architectures
   - moar2021-nuxt-serverless
   - moar2021-serverless-health
-  - moar2021-lightning3
-  - moar2021-session5
+  - moar2021-serverless-wings
+  - moar2021-cloudinary-nextjs
   - moar2021-functional-web-apps
 styles: thejam.css
 ---
