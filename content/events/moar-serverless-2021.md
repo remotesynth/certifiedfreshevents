@@ -20,7 +20,7 @@ speakers:
   - ben-hong
   - gwyneth-pena-siguenza
   - rob-sutter
-  - tbd-moar-serverless
+  - obinna-ekwuno
 sessions:
   - moar2021-opening
   - moar2021-app-backend-amplify
