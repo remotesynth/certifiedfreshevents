@@ -5,7 +5,7 @@ end_date: 2021-08-12T17:00:00-04:00
 days: 1
 cost: $39
 ticket_url: https://moar_serverless.eventbrite.ca
-homepage_banner: MoarServerless-EarlyBird.jpg
+homepage_banner: MoarServerless-062421.jpg
 description: Moar Serverless is a 1-day conference exploring how real-world applications are built leveraging serverless and microservice architectures.
 short_desc: Moar Serverless is a 1-day conference exploring how real-world applications are built leveraging serverless.
 draft: false
