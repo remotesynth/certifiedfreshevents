@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/databases-made-easy
-    start_time: "00:00"
+    start_time: "05:50"
+  vimeo:
+    url: https://vimeo.com/581860536
+    length: "46:07"
 categories:
   - software
 draft: false
