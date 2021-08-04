@@ -116,6 +116,9 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
 
 [![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/qpk)
 
+[![AntStack](/img/sponsors/AntStack.png)](https://www.antstack.io/?utm_source=event&utm_medium=espage&utm_campaign=moar_sponsorship&utm_id=moarsponsorship)
+
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-156100796685"></div>
