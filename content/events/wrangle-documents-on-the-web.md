@@ -5,7 +5,7 @@ end_date: 2021-08-26T14:00:00-04:00
 cost: 0
 homepage_banner: WorkingDocsOnWeb-082621.jpg
 short_desc: Raymond Camden will show us how to manage documents as PDFs on the web like a pro.
-description: or our 4 year anniversary, we welcome back Raymond Camden, who spoke at our first virtual meetup, to tell us how to manage PDFs on the web like a pro.
+description: For our 4 year anniversary, we welcome back Raymond Camden, who spoke at our first virtual meetup, to tell us how to manage PDFs on the web like a pro.
 embed_url: https://www.crowdcast.io/e/working-with-documents
 sessions:
   - working-with-documents-web

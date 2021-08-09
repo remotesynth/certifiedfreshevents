@@ -147,7 +147,9 @@
     {{ end }}
   </div>
   <div>
+  {{ if eq .Params.cost 0 }}
     {{ partial "logo-list.html" }}
+  {{ end }}
   </div>
   {{ if ne .Params.sessions nil }}
     {{ range $session := .Params.sessions | first 1 }}
