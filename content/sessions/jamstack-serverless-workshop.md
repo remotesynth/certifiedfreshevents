@@ -13,3 +13,11 @@ draft: false
 ---
 
 With the rise of the Jamstack architectures we need to reshape how they think about the overall arhcitecture of their web applications. Deploying apps to CDN edge servers means that server-side code execution ceases to exist. How can we create RESTful APIs or call functionality that relies on API keys and secrets? The answer is to leverage serverless functions. During this workshop, we’ll take a look at the most prominent serverless function providers and learn how to integrate such functions seamlessly with any Jamstack application.
+
+**Course Outline**
+
+- Serverless 101 - What is “serverless”?
+- Benefits of using serverless functions in the Jamstack
+- Anatomy of a serverless function (AWS, Netlify and Vercel)
+- Creating and invoking a simple serverless function
+- Advanced use-cases for serverless functions (chaining methods, utilising HTTP POST, API fallback for Jamstack builds)
