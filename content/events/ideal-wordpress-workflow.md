@@ -13,4 +13,4 @@ draft: false
 featured: true
 ---
 
-Wordpress is the backbone to so much of the web today. The WordPress API opens up the possibility of using WordPress as the content backend to just about any kind of site including Jamstack sites. In this talk, Nate Finch will cover everything you need to know about building and deploying Wordpress in a headless/static ecosystem.
+WordPress is the backbone to so much of the web today. The WordPress API opens up the possibility of using WordPress as the content backend to just about any kind of site including Jamstack sites. In this talk, Nate Finch will cover everything you need to know about building and deploying WordPress in a headless/static ecosystem.
