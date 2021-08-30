@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/working-with-documents
-    start_time: "00:00"
+    start_time: "03:16"
+  vimeo:
+    url: https://vimeo.com/594716532
+    length: "59:23"
 categories:
   - webdev
 draft: false

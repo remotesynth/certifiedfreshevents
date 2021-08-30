@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/better-video-on-the-web
-    start_time: "00:00"
+    start_time: "03:37"
+  vimeo:
+    url: https://vimeo.com/594693728
+    length: "54:46"
 categories:
   - stuff
 draft: false
