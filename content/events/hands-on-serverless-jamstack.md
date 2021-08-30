@@ -9,7 +9,7 @@ description: Tamas Piros will walk through how to use serverless cloud functions
 embed_url: https://www.crowdcast.io/e/hands-on-serverless-for
 sessions:
   - jamstack-serverless-workshop
-draft: false
+draft: true
 featured: true
 ---
 

@@ -9,7 +9,7 @@ recordings:
     start_time: "00:00"
 categories:
   - webdev
-draft: false
+draft: true
 ---
 
 With the rise of the Jamstack architectures we need to reshape how they think about the overall arhcitecture of their web applications. Deploying apps to CDN edge servers means that server-side code execution ceases to exist. How can we create RESTful APIs or call functionality that relies on API keys and secrets? The answer is to leverage serverless functions. During this workshop, we’ll take a look at the most prominent serverless function providers and learn how to integrate such functions seamlessly with any Jamstack application.
