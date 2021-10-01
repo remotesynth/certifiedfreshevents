@@ -13,4 +13,4 @@ draft: false
 featured: true
 ---
 
-Astro is one of the newest static site generators for building Jamstack applications, but it is already having a huge impact on how web sites are built because of its focus on delivering less JavaScript to the client to improve performance. In this session, Cassidy Williamsn will show you why you should care about Astro and give you all the information you need to get started.
+Astro is one of the newest static site generators for building Jamstack applications, but it is already having a huge impact on how web sites are built because of its focus on delivering less JavaScript to the client to improve performance. In this session, Cassidy Williams will show you why you should care about Astro and give you all the information you need to get started.
