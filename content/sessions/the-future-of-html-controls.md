@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-future-of-html
-    start_time: "00:00"
+    start_time: "02:38"
+  vimeo:
+    url: https://vimeo.com/621678873
+    length: "40:34"
 categories:
   - webdev
 draft: false

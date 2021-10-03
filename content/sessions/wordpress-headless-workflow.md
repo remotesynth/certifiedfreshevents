@@ -6,10 +6,13 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/an-ideal-wordpress
-    start_time: "00:00"
+    start_time: "04:30"
+  vimeo:
+    url: https://vimeo.com/621602125
+    length: "57:07"
 categories:
   - webdev
 draft: false
 ---
 
-At over 40% of the web, WordPress maintains a massive footprint on the Internet. While this platform, with its 20+ years of code, can easily be dreaded, misunderstood, and dismissed as antiquated, WordPress continues to evolve with the latest JavaScript technologies, is used  and is beloved by marketers and enterprises to manage their content (that is, there is a lot of capital behind this CMS!). In this talk we'll cover what you need to know about WordPress code, database, and file structure, as well as a development and deployment workflow that will serve you well in the headless/static ecosystem, and show you how to avoid common pitfalls of mixed up code and overwritten production databases.
+At over 40% of the web, WordPress maintains a massive footprint on the Internet. While this platform, with its 20+ years of code, can easily be dreaded, misunderstood, and dismissed as antiquated, WordPress continues to evolve with the latest JavaScript technologies, is used and is beloved by marketers and enterprises to manage their content (that is, there is a lot of capital behind this CMS!). In this talk we'll cover what you need to know about WordPress code, database, and file structure, as well as a development and deployment workflow that will serve you well in the headless/static ecosystem, and show you how to avoid common pitfalls of mixed up code and overwritten production databases.
