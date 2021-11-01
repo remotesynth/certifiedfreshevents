@@ -1,6 +1,6 @@
 ---
 title: "Stealth-mode North Star: Rebranding in secret with feature flags"
-date: 2021-11-11T13:00:00-04:00
+date: 2021-11-11T13:00:00-05:00
 speakers:
   - kathleen-mcmahon
 recordings:

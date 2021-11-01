@@ -1,7 +1,7 @@
 ---
 title: Releasing in Secret with Feature Flags
-date: 2021-11-11T13:00:00-04:00
-end_date: 2021-11-11T14:00:00-04:00
+date: 2021-11-11T13:00:00-05:00
+end_date: 2021-11-11T14:00:00-05:00
 cost: 0
 homepage_banner: FeatureFlags-111121.jpg
 short_desc: Kathleen McMahon will show how using feature flags can allow a developer to launch an entire site rebrand in secret!
