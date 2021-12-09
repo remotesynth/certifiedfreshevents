@@ -18,6 +18,8 @@ speakers:
   - colby-fayock
   - simona-cotin
   - anthony-chu
+  - roy-derks
+  - tim-benniks
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -97,9 +99,15 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Uniform](/img/sponsors/uniform.png)](https://uniform.dev/)
 
+### Scholarship Sponsor
+
+[![StepZen](/img/sponsors/stepzen.png)](https://www.stepzen.com/)
+
 ### Sponsors
 
 [![Media Jams](/img/sponsors/mediajams.png)](https://mediajams.dev/)
+
+[![Layer0](/img/sponsors/layer0.png)](https://www.layer0.co/)
 
 ## Register {#register}
 
