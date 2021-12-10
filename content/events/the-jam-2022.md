@@ -19,6 +19,7 @@ speakers:
   - simona-cotin
   - anthony-chu
   - roy-derks
+  - joyce-lin
   - tim-benniks
   - tbd-moar-serverless
 styles: thejam.css
