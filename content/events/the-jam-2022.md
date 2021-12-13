@@ -21,6 +21,7 @@ speakers:
   - roy-derks
   - joyce-lin
   - tim-benniks
+  - ifeoma-imoh
   - tbd-moar-serverless
 styles: thejam.css
 ---
