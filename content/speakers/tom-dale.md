@@ -5,6 +5,7 @@ speaker_image: TomDale.jpg
 job_title: Head of Customer Success at imgix
 twitter: letsgoheadless
 website: https://tomdale.website/
+github: daletom
 draft: false
 ---
 

@@ -113,6 +113,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Layer0](/img/sponsors/layer0.png)](https://www.layer0.co/)
 
+[![Imgix](/img/sponsors/imgix.png)](https://imgix.com/)
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-203927662127"></div>
