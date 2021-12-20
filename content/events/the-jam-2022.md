@@ -23,6 +23,7 @@ speakers:
   - tim-benniks
   - ifeoma-imoh
   - ben-holmes
+  - alexandra-spalato
   - tom-dale
   - tbd-moar-serverless
 styles: thejam.css
