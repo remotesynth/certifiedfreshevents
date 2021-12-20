@@ -4,7 +4,7 @@ date: 2019-07-24T18:52:51-04:00
 speaker_image: AlexandraSpalato.jpg
 job_title: Founder of Gatsby WP Themes
 twitter: alexadark
-website: https://alexandraspalato.com/
+website: https://gatsbywpthemes.com/
 draft: false
 ---
 
