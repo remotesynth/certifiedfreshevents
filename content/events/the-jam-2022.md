@@ -25,6 +25,7 @@ speakers:
   - ben-holmes
   - alexandra-spalato
   - tom-dale
+  - hakon-krogh
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -103,6 +104,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 ### Lead Day Sponsors
 
 [![Uniform](/img/sponsors/uniform.png)](https://uniform.dev/)
+
+[![Crystallize](/img/sponsors/crystallize.png)](https://crystallize.com/)
 
 ### Scholarship Sponsor
 
