@@ -26,6 +26,7 @@ speakers:
   - alexandra-spalato
   - tom-dale
   - hakon-krogh
+  - abhi-aiyer
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -115,9 +116,13 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Media Jams](/img/sponsors/mediajams.png)](https://mediajams.dev/)
 
+[![Imgix](/img/sponsors/imgix.png)](https://imgix.com/)
+
+[![Gatsby](/img/sponsors/Gatsby.png)](https://www.gatsbyjs.com/)
+
 [![Layer0](/img/sponsors/layer0.png)](https://www.layer0.co/)
 
-[![Imgix](/img/sponsors/imgix.png)](https://imgix.com/)
+[![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
 
 ## Register {#register}
 
