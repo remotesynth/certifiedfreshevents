@@ -24,6 +24,7 @@ speakers:
   - ifeoma-imoh
   - ben-holmes
   - alexandra-spalato
+  - patricio-vargas
   - tom-dale
   - hakon-krogh
   - abhi-aiyer

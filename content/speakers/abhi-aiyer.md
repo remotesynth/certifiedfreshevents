@@ -8,4 +8,4 @@ github: abhiaiyer91
 draft: false
 ---
 
-Abhi is a Principal Engineer at Gatsby.
+Abhi Aiyer is Gatsby’s Principal Engineer/Tech Lead where he works on Platform architecture. He’s all about Making Moves and creating tools that enable engineers to be productive aka Make Moves. When he's not busy scaling Gatsby, he enjoys long walks to STAPLES Center and adding to his NBA NFTs collection which you can find if you follow him on Twitter, @AbhiAiyer.
