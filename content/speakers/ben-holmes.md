@@ -2,7 +2,7 @@
 title: Ben Holmes
 date: 2019-07-24T18:52:51-04:00
 speaker_image: benholmes.jpg
-job_title: Frontend Developer at Peleton
+job_title: Creator of Slinkity
 twitter: BHolmesDev
 github: holben888
 website: https://bholmes.dev/
