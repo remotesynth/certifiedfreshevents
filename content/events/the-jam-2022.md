@@ -125,6 +125,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
 
+[![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-203927662127"></div>
