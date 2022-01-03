@@ -4,6 +4,10 @@ date: 2021-08-12T11:05:00-04:00
 end_date: 2021-08-12T11:45:00-04:00
 speakers:
   - ali-spittel
+recordings:
+  youtube:
+    url: https://www.youtube.com/JntsYLX0JQI
+    length: "38:35"
 event: moar-serverless-2021
 draft: false
 ---

@@ -5,6 +5,10 @@ end_date: 2021-08-12T13:25:00-04:00
 speakers:
   - ceora-ford
 event: moar-serverless-2021
+recordings:
+  youtube:
+    URL: https://www.youtube.com/yWnNDwlrteM
+    length: "32:46"
 draft: false
 ---
 

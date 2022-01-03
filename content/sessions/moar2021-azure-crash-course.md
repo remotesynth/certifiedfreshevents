@@ -4,6 +4,10 @@ date: 2021-08-12T11:55:00-04:00
 end_date: 2021-08-12T12:35:00-04:00
 speakers:
   - gwyneth-pena-siguenza
+recordings:
+  youtube:
+    url: https://www.youtube.com/JIVyxThd9Wo
+    length: "39:09"
 event: moar-serverless-2021
 draft: false
 ---

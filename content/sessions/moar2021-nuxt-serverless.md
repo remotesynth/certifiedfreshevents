@@ -5,6 +5,10 @@ end_date: 2021-08-12T14:55:00-04:00
 speakers:
   - ben-hong
 event: moar-serverless-2021
+recordings:
+  youtube:
+    URL: https://www.youtube.com/wC7zHnt2qt8
+    length: "10:01"
 draft: false
 ---
 

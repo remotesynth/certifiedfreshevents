@@ -5,6 +5,10 @@ end_date: 2021-08-12T14:15:00-04:00
 speakers:
   - rob-sutter
 event: moar-serverless-2021
+recordings:
+  youtube:
+    URL: https://www.youtube.com/ZQNWBQjeDXU
+    length: "38:00"
 draft: false
 ---
 
