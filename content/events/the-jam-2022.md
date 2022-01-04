@@ -3,7 +3,7 @@ title: TheJam.dev 2022
 date: 2022-01-26T11:00:00-04:00
 end_date: 2022-01-27T17:00:00-04:00
 days: 2
-cost: 79
+cost: 0
 ticket_url: https://thejamdev.eventbrite.ca/
 homepage_banner: JamDev-012622.png
 description: TheJam.dev is a 2-day virtual conference focused on how to build web applications using the Jamstack and featuring some of the top experts in the Jamstack community.
@@ -152,6 +152,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 ## StepZen Opportunity Scholarship Program {#scholarship}
 
+**Thanks to support of StepZen and our other sponsors, TheJam.dev is now FREE! No need to apply for a scholarship. Just register.**
+
 We believe that including a diverse range of voices at our events makes them better, stronger, more inclusive, and more fun. Our current definition of diversity includes people of any gender, including identity and expression; sexual orientation; disabilities, mental or physical; physical appearance, including but not limited to body size; ethnicity/culture; personal expression; and beliefs – religious, political or otherwise. Having these voices on our stages, on our volunteer teams, and in our audiences allow us all to grow through hearing a variety of experiences, stories, and viewpoints.
 
 Requirements:
@@ -159,10 +161,6 @@ Requirements:
 - Must agree to follow our code of conduct
 - This program is aimed at those who are unable to secure a ticket through their company, or unable to afford a ticket themselves.
 - Applications close on January 15, 2022
-
-<a class="button" style="text-decoration:none;color:#FFF" href="https://forms.gle/aP1phQtHFx5Hx6g37">
- Apply Now
-</a>
 
 ## Schedule {#schedule}
 
