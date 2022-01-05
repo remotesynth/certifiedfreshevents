@@ -4,6 +4,9 @@ date: 2021-08-12T16:15:00-04:00
 end_date: 2021-08-12T16:45:00-04:00
 speakers:
   - brian-leroux
+recordings:
+  youtube: https://www.youtube.com/ivK4YraawtU
+  length: "36:11"
 event: moar-serverless-2021
 draft: false
 ---

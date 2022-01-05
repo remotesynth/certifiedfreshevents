@@ -4,6 +4,10 @@ date: 2021-08-12T14:55:00-04:00
 end_date: 2021-08-12T15:05:00-04:00
 speakers:
   - denis-bauer
+recordings:
+  youtube:
+    URL: https://www.youtube.com/ARQ6X-rWKWU
+    length: "09:41"
 event: moar-serverless-2021
 draft: false
 ---

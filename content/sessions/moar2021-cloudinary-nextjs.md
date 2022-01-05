@@ -4,6 +4,9 @@ date: 2021-08-12T15:25:00-04:00
 end_date: 2021-08-12T16:05:00-04:00
 speakers:
   - domitrius-clark
+recordings:
+  youtube: https://www.youtube.com/Hy6a1hO5BLM
+  length: "36:48"
 event: moar-serverless-2021
 draft: false
 ---
