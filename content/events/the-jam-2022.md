@@ -25,10 +25,32 @@ speakers:
   - ben-holmes
   - alexandra-spalato
   - patricio-vargas
+  - rob-sutter
+  - kapehe
+  - abhi-aiyer
   - tom-dale
   - hakon-krogh
-  - abhi-aiyer
-  - tbd-moar-serverless
+sessions:
+  - jamdev2022-day1-opening
+  - jamdev2022-conference-website
+  - jamdev2022-engaging-ecommerce
+  - jamdev2022-day1-session3
+  - jamdev2022-day1-session4
+  - jamdev2022-everything-a-shortcode
+  - jamdev2022-day1-session6
+  - jamdev2022-day1-session7
+  - jamdev2022-jamstack-postman
+  - jamdev2022-gatsby-evolving
+  - jamdev2022-day2-opening
+  - jamdev2022-day2-session1
+  - jamdev2022-day2-session2
+  - jamdev2022-automate-one-more-thing
+  - jamdev2022-modern-streaming-jamstack
+  - jamdev2022-concurrent-rendering-react
+  - jamdev2022-day2-session6
+  - jamdev2022-day2-session7
+  - jamdev2022-day2-session8
+  - jamdev2022-day2-session9
 styles: thejam.css
 ---
 
@@ -127,6 +149,8 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
 
+[![Fauna](/img/sponsors/Fauna.png)](https://fauna.com/)
+
 ## Register {#register}
 
 <div id="eventbrite-widget-container-203927662127"></div>
@@ -164,7 +188,9 @@ Requirements:
 
 ## Schedule {#schedule}
 
-TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back again soon.
+TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back soon for more updates.
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
