@@ -42,7 +42,7 @@ sessions:
   - jamdev2022-jamstack-postman
   - jamdev2022-gatsby-evolving
   - jamdev2022-day2-opening
-  - jamdev2022-day2-session1
+  - jamdev2022-cable-management-jamstack
   - jamdev2022-day2-session2
   - jamdev2022-automate-one-more-thing
   - jamdev2022-modern-streaming-jamstack
