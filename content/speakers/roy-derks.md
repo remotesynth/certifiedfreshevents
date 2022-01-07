@@ -8,4 +8,4 @@ github: royderks
 draft: false
 ---
 
-Roy Derks is a developer, author and public speaker from the Netherlands. His mission is to make the world a better place through tech by training and inspiring developers worldwide. Currently he is working with StepZen on a mission to make GraphQL adoption easy and scalable.
+Roy is an entrepreneur, speaker and author from The Netherlands and, in his own words, 'wants to make the world a better place through tech'. He has been giving talks and training to developers worldwide on technologies like GraphQL, React and TypeScript. Most recently he wrote the book Fullstack GraphQL.
