@@ -47,7 +47,7 @@ sessions:
   - jamdev2022-automate-one-more-thing
   - jamdev2022-modern-streaming-jamstack
   - jamdev2022-concurrent-rendering-react
-  - jamdev2022-day2-session6
+  - jamdev2022-content-lake
   - jamdev2022-day2-session7
   - jamdev2022-day2-session8
   - jamdev2022-day2-session9
