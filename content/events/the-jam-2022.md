@@ -125,31 +125,69 @@ We're creating a fantastic lineup featuring 20+ Jamstack experts!
 
 TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@cfe.dev).
 
-### Lead Day Sponsors
-
-[![Uniform](/img/sponsors/uniform.png)](https://uniform.dev/)
-
-[![Crystallize](/img/sponsors/crystallize.png)](https://crystallize.com/)
-
-### Scholarship Sponsor
-
-[![StepZen](/img/sponsors/stepzen.png)](https://www.stepzen.com/)
-
-### Sponsors
-
-[![Media Jams](/img/sponsors/mediajams.png)](https://mediajams.dev/)
-
-[![Imgix](/img/sponsors/imgix.png)](https://imgix.com/)
-
-[![Gatsby](/img/sponsors/Gatsby.png)](https://www.gatsbyjs.com/)
-
-[![Layer0](/img/sponsors/layer0.png)](https://www.layer0.co/)
-
-[![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
-
-[![Netlify](/img/sponsors/netlify.png)](https://netlify.com)
-
-[![Fauna](/img/sponsors/Fauna.png)](https://fauna.com/)
+<section>
+    <h3 id="lead-day-sponsors" class="mb-6">Lead Day Sponsors</h3>
+    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://uniform.dev/">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/a2f31c8e066ad95da55efce51572b24d573d8cd8/e5b98/img/sponsors/uniform.png" alt="Uniform" />
+                </a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://crystallize.com/"><img src="https://d33wubrfki0l68.cloudfront.net/1e34f0233ea06b6ecaa9f3cee66f537eeb2dd571/90c57/img/sponsors/crystallize.png" alt="Crystallize"></a>
+            </div>
+        </article>
+    </div>
+    <h3 id="scholarship-sponsor" class="mb-6">Scholarship Sponsor</h3>
+    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://www.stepzen.com/"><img src="https://d33wubrfki0l68.cloudfront.net/eeea02a68199acb68df48499bc1815d0b41e4e67/7727e/img/sponsors/stepzen.png" alt="StepZen"></a>
+            </div>
+        </article>
+    </div>
+    <h3 id="sponsors-1" class="mb-6">Sponsors</h3>
+    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://mediajams.dev/"><img src="https://d33wubrfki0l68.cloudfront.net/01820974aa7db284ba34c76cef20c69d5039a796/86bb3/img/sponsors/mediajams.png" alt="Media Jams"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://imgix.com/"><img src="https://d33wubrfki0l68.cloudfront.net/6d76c812b4b8b4f1d974c6409964ae40614451f7/2c48d/img/sponsors/imgix.png" alt="Imgix"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://www.gatsbyjs.com/"><img src="https://d33wubrfki0l68.cloudfront.net/7a5342d78066e123e6cd7dc1729ac516c5dbc7b6/cce89/img/sponsors/gatsby.png" alt="Gatsby"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://www.layer0.co/"><img src="https://d33wubrfki0l68.cloudfront.net/f0f473572d16bb2e02de8a5b8b1a25cbda33cfbc/3640b/img/sponsors/layer0.png" alt="Layer0"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://agilitycms.com"><img src="https://d33wubrfki0l68.cloudfront.net/a976ca934280b5626a96d4a55b0042ab8065797f/16429/img/sponsors/agilitycms.png" alt="Agility CMS"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://netlify.com"><img src="https://d33wubrfki0l68.cloudfront.net/8370ee7372df596a6b39b9858683a7df0fea96c4/e2733/img/sponsors/netlify.png" alt="Netlify"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://fauna.com/"><img src="https://d33wubrfki0l68.cloudfront.net/3689504b546e22ffc053222feb40ee456c78fffa/19cbd/img/sponsors/fauna.png" alt="Fauna"></a>
+            </div>
+        </article>
+    </div>
+</section>
 
 ## Register {#register}
 
