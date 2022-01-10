@@ -28,6 +28,7 @@ speakers:
   - rob-sutter
   - kapehe
   - abhi-aiyer
+  - brittney-postma
   - tom-dale
   - hakon-krogh
 sessions:
