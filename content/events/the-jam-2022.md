@@ -35,7 +35,7 @@ sessions:
   - jamdev2022-conference-website
   - jamdev2022-engaging-ecommerce
   - jamdev2022-day1-session3
-  - jamdev2022-day1-session4
+  - jamdev2022-jamstack-can-do-that
   - jamdev2022-everything-a-shortcode
   - jamdev2022-day1-session6
   - jamdev2022-day1-session7
