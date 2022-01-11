@@ -38,7 +38,7 @@ sessions:
   - jamdev2022-day1-session3
   - jamdev2022-jamstack-can-do-that
   - jamdev2022-everything-a-shortcode
-  - jamdev2022-day1-session6
+  - jamdev2022-gatsby-wordpress
   - jamdev2022-day1-session7
   - jamdev2022-jamstack-postman
   - jamdev2022-gatsby-evolving
@@ -50,7 +50,7 @@ sessions:
   - jamdev2022-concurrent-rendering-react
   - jamdev2022-content-lake
   - jamdev2022-day2-session7
-  - jamdev2022-day2-session8
+  - jamdev2022-svelte-magic
   - jamdev2022-day2-session9
 styles: thejam.css
 ---
