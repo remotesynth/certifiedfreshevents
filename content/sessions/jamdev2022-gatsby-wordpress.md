@@ -8,4 +8,4 @@ event: the-jam-2022
 draft: false
 ---
 
-TBD
+In this session, Alexandra Spalato is going to set upgatsby a beautiful Gatsby blog, powered by WordPress backend in 10 mn, she will use the free theme from gatsbywpthemes.com, and will also show how to make some quick and easy customizations!
