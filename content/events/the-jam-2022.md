@@ -1,7 +1,7 @@
 ---
 title: TheJam.dev 2022
-date: 2022-01-26T11:00:00-04:00
-end_date: 2022-01-27T17:00:00-04:00
+date: 2022-01-26T11:00:00-05:00
+end_date: 2022-01-27T17:00:00-05:00
 days: 2
 cost: 0
 ticket_url: https://thejamdev.eventbrite.ca/
