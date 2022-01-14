@@ -39,7 +39,7 @@ sessions:
   - jamdev2022-jamstack-can-do-that
   - jamdev2022-everything-a-shortcode
   - jamdev2022-gatsby-wordpress
-  - jamdev2022-day1-session7
+  - jamdev2022-angular-scully
   - jamdev2022-jamstack-postman
   - jamdev2022-gatsby-evolving
   - jamdev2022-day2-opening

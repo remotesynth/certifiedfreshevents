@@ -2,7 +2,7 @@
 title: Fred K. Schott
 date: 2019-07-24T18:52:51-04:00
 speaker_image: FredKSchott.jpg
-job_title: Creator of Astro
+job_title: CEO of Astro
 twitter: fredkschott
 website: http://fredkschott.com/
 github: fredkschott
