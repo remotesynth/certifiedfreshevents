@@ -237,7 +237,7 @@ Requirements:
 
 ## Schedule {#schedule}
 
-TheJam.dev will feature 2 full days of sessions in a single track format. We're still working to finalize our schedule. Check back soon for more updates.
+TheJam.dev will feature 2 full days of sessions in a single track format. Please note that all schedule times listed are US Eastern Time (GMT -5).
 
 {{< conf-schedule >}}
 
