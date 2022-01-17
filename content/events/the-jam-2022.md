@@ -118,7 +118,7 @@ styles: thejam.css
 
 ## Speakers {#speakers}
 
-We're creating a fantastic lineup featuring 20+ Jamstack experts!
+We've got a fantastic lineup of Jamstack experts!
 
 {{< conf-speakers >}}
 
