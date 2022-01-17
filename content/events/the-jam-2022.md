@@ -51,7 +51,7 @@ sessions:
   - jamdev2022-content-lake
   - jamdev2022-graphql-fauna
   - jamdev2022-svelte-magic
-  - jamdev2022-day2-session9
+  - jamdev2022-what-is-jamstack
 styles: thejam.css
 ---
 
