@@ -37,6 +37,7 @@ sessions:
   - jamdev2022-engaging-ecommerce
   - jamdev2022-localhost-vscode
   - jamdev2022-jamstack-can-do-that
+  - jamdev2022-up-and-running-serverless
   - jamdev2022-everything-a-shortcode
   - jamdev2022-gatsby-wordpress
   - jamdev2022-angular-scully
