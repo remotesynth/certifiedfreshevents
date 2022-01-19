@@ -48,6 +48,7 @@ sessions:
   - jamdev2022-graphql-data-layer
   - jamdev2022-automate-one-more-thing
   - jamdev2022-modern-streaming-jamstack
+  - jamdev2022-virtual-pub-quiz
   - jamdev2022-concurrent-rendering-react
   - jamdev2022-content-lake
   - jamdev2022-graphql-fauna

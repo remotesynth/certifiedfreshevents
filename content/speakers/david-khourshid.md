@@ -2,11 +2,11 @@
 title: "David Khourshid"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: davidkhourshid.jpg
-job_title:  Software Engineer at Microsoft
+job_title: Founder of Stately
 twitter: DavidKPiano
 github: davidkpiano
 website: https://codepen.io/davidkpiano/
 draft: false
 ---
 
-Coming soon.
+David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on building the best visual software modeling tools and services.
