@@ -83,7 +83,12 @@
 
   <div class="container mx-auto">
     <div class="flex justify-center w-full h-full" id="banner-image">
+      {{ if isset .Params "banner" }}
+      {{- $src := resources.Get (print "img/banners/" .Params.banner) -}}
+      <img src="{{$src.RelPermalink}}" width="100%" />
+      {{ else }}
       <img src="/img/banners/{{$event.Params.homepage_banner}}" width="100%" />
+      {{ end}}
     </div>
     {{ with .Params.recordings }}
       {{ if isset . "vimeo" }}
@@ -120,6 +125,7 @@
   </div>
 
   {{/* Hide if authenticated */}}
+  {{ if ne .Params.recordings nil}}
   <section
     class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
     <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
@@ -128,6 +134,7 @@
 
     <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
   </section>
+  {{ end}}
 
   <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">

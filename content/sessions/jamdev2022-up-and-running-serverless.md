@@ -5,6 +5,7 @@ end_date: 2022-01-26T15:35:00-04:00
 speakers:
   - ben-hong
 event: the-jam-2022
+banner: up-and-running-serverless.png
 draft: false
 ---
 
