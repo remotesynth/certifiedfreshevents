@@ -3,7 +3,7 @@ title: "Virtual Pub Quiz with Uniform.dev"
 date: 2022-01-27T15:05:00-04:00
 end_date: 2022-01-27T15:35:00-04:00
 speakers:
-  - tim-benniks
+  - will-robinson
 banner: Jam-Dev-Pub-Quiz.png
 event: the-jam-2022
 draft: false
