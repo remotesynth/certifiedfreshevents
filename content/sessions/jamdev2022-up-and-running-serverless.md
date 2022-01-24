@@ -1,7 +1,7 @@
 ---
 title: "Up and Running with Serverless Functions in 30 Minutes"
-date: 2022-01-26T15:05:00-04:00
-end_date: 2022-01-26T15:35:00-04:00
+date: 2022-01-26T15:05:00-05:00
+end_date: 2022-01-26T15:35:00-05:00
 speakers:
   - ben-hong
 event: the-jam-2022

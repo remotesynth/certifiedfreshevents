@@ -1,7 +1,7 @@
 ---
 title: "Let's automate one more thing"
-date: 2022-01-27T13:25:00-04:00
-end_date: 2022-01-27T14:10:00-04:00
+date: 2022-01-27T13:25:00-05:00
+end_date: 2022-01-27T14:10:00-05:00
 speakers:
   - brian-douglas
 event: the-jam-2022

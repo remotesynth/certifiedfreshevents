@@ -1,7 +1,7 @@
 ---
 title: "The Jamstack can do that?!"
-date: 2022-01-26T14:20:00-04:00
-end_date: 2022-01-26T15:05:00-04:00
+date: 2022-01-26T14:20:00-05:00
+end_date: 2022-01-26T15:05:00-05:00
 speakers:
   - charlie-gerard
 event: the-jam-2022

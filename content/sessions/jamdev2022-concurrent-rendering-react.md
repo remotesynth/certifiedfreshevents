@@ -1,7 +1,7 @@
 ---
 title: "Concurrent Rendering in React 18"
-date: 2022-01-27T15:35:00-04:00
-end_date: 2022-01-27T15:45:00-04:00
+date: 2022-01-27T15:35:00-05:00
+end_date: 2022-01-27T15:45:00-05:00
 speakers:
   - ifeoma-imoh
 event: the-jam-2022

@@ -1,7 +1,7 @@
 ---
 title: "Your data’s journey from the Content Lake and beyond"
-date: 2022-01-27T15:45:00-04:00
-end_date: 2022-01-27T15:55:00-04:00
+date: 2022-01-27T15:45:00-05:00
+end_date: 2022-01-27T15:55:00-05:00
 speakers:
   - kapehe
 event: the-jam-2022

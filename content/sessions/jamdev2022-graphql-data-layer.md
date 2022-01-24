@@ -1,7 +1,7 @@
 ---
 title: "GraphQL as a Data Layer for Your UI"
-date: 2022-01-27T12:30:00-04:00
-end_date: 2022-01-27T13:15:00-04:00
+date: 2022-01-27T12:30:00-05:00
+end_date: 2022-01-27T13:15:00-05:00
 speakers:
   - roy-derks
 event: the-jam-2022

@@ -1,7 +1,7 @@
 ---
 title: "Engaging Ecommerce with the Visual Web"
-date: 2022-01-26T12:30:00-04:00
-end_date: 2022-01-26T13:15:00-04:00
+date: 2022-01-26T12:30:00-05:00
+end_date: 2022-01-26T13:15:00-05:00
 speakers:
   - colby-fayock
 event: the-jam-2022

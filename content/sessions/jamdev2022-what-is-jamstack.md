@@ -1,7 +1,7 @@
 ---
 title: "No, Seriously… What is Jamstack?"
-date: 2022-01-27T16:25:00-04:00
-end_date: 2022-01-27T17:10:00-04:00
+date: 2022-01-27T16:25:00-05:00
+end_date: 2022-01-27T17:10:00-05:00
 speakers:
   - fred-k-schott
 event: the-jam-2022

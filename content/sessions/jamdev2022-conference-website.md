@@ -1,7 +1,7 @@
 ---
 title: "Building a conference website on Jamstack with Next.js and Crystallize"
-date: 2022-01-26T11:35:00-04:00
-end_date: 2022-01-26T12:20:00-04:00
+date: 2022-01-26T11:35:00-05:00
+end_date: 2022-01-26T12:20:00-05:00
 speakers:
   - hakon-krogh
 event: the-jam-2022

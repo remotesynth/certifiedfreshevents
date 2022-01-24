@@ -1,7 +1,7 @@
 ---
 title: "One lazy dev’s Jamstack in Postman"
-date: 2022-01-26T16:05:00-04:00
-end_date: 2022-01-26T16:15:00-04:00
+date: 2022-01-26T16:05:00-05:00
+end_date: 2022-01-26T16:15:00-05:00
 speakers:
   - joyce-lin
 event: the-jam-2022

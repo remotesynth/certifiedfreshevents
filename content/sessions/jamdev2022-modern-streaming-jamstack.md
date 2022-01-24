@@ -1,7 +1,7 @@
 ---
 title: "Modern Streaming Video for the Jamstack"
-date: 2022-01-27T14:20:00-04:00
-end_date: 2022-01-27T15:05:00-04:00
+date: 2022-01-27T14:20:00-05:00
+end_date: 2022-01-27T15:05:00-05:00
 speakers:
   - tom-dale
 event: the-jam-2022
