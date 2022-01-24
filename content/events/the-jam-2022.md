@@ -219,11 +219,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 Got a great Jamstack project that you'd like to showcase at the event? This is your chance! Submit details and a recording of your project via [this form](https://forms.gle/ojsanQgnt7MvQi7M7) and, if chosen, we'll showcase your project in front of TheJam.dev audience during intermissions. Deadline is January 19.
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://forms.gle/ojsanQgnt7MvQi7M7">
- Submit your project
-</a>
-</div>
+_The submission deadline has passed_
 
 ## StepZen Opportunity Scholarship Program {#scholarship}
 
