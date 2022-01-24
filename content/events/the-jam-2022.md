@@ -32,6 +32,7 @@ speakers:
   - tom-dale
   - hakon-krogh
 sessions:
+  - jamdev2022-bonfire-in-the-fjords
   - jamdev2022-day1-opening
   - jamdev2022-conference-website
   - jamdev2022-engaging-ecommerce
@@ -49,6 +50,7 @@ sessions:
   - jamdev2022-automate-one-more-thing
   - jamdev2022-modern-streaming-jamstack
   - jamdev2022-virtual-pub-quiz
+  - jamdev2022-arctic-drive-crystallize
   - jamdev2022-concurrent-rendering-react
   - jamdev2022-content-lake
   - jamdev2022-graphql-fauna
