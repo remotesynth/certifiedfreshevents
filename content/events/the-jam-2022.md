@@ -32,7 +32,7 @@ speakers:
   - tom-dale
   - hakon-krogh
 sessions:
-  - jamdev2022-bonfire-in-the-fjords
+  - jamdev2022-bonfire-and-a-fjord
   - jamdev2022-day1-opening
   - jamdev2022-conference-website
   - jamdev2022-engaging-ecommerce

@@ -1,5 +1,5 @@
 ---
-title: "Bonfire in the Fjords (Pre-conference)"
+title: "Bonfire and a Fjord (Pre-conference)"
 date: 2022-01-26T10:30:00-05:00
 end_date: 2022-01-26T11:25:00-05:00
 speakers:
