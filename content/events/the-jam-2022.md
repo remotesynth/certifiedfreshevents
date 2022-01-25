@@ -191,6 +191,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
                 <a href="https://fauna.com/"><img src="https://d33wubrfki0l68.cloudfront.net/3689504b546e22ffc053222feb40ee456c78fffa/19cbd/img/sponsors/fauna.png" alt="Fauna"></a>
             </div>
         </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://azure.microsoft.com/en-us/services/app-service/static/"><img src="/img/sponsors/azure-staticwebapps.png" alt="Azure Static Web Apps"></a>
+            </div>
+        </article>
     </div>
 </section>
 
