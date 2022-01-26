@@ -63,7 +63,13 @@ styles: thejam.css
 
 2021 was a year of big changes in the Jamstack world. Join an amazing list of experts to gain insights into what it means to develop Jamstack in 2022.
 
-## Why Buy a Ticket?
+<div class="mt-8 mb-8 flex items-center justify-center w-full">
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev22">
+ Click Here to Join the Crowdcast Live!
+</a>
+</div>
+
+## Why Join?
 
 <div class="container px-6 mx-auto mt-8">
   <div class="grid gap-8 lg:grid-cols-2">
@@ -109,12 +115,6 @@ styles: thejam.css
     All the presentations will be recorded for your viewing pleasure after the event, so don’t sweat it if you have to dip out for a bit. You’ll be able to view the content 24/7 well after the conference closes.
   </div>
 </section>
-
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="#register">
- Get Your Ticket Today!
-</a>
-</div>
 
 #### A CFE & FITC Joint Event
 
@@ -201,26 +201,13 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 ## Register {#register}
 
-<div id="eventbrite-widget-container-203927662127"></div>
+_The event is going live **right now!** Join us via Crowdcast._
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '203927662127',
-        iframeContainerId: 'eventbrite-widget-container-203927662127',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+<div class="mt-8 mb-8 flex items-center justify-center w-full">
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev22">
+ Click Here to Join the Crowdcast Live!
+</a>
+</div>
 
 ## Jamstack Showcase
 
