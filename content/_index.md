@@ -3,7 +3,8 @@ title: "Virtual Meetups and Sessions for Technologists"
 featured_speakers:
   - chris-coyier
   - andrea-griffiths
-  - kyle-simpson
-  - alison-falk
+  - brian-douglas
   - gift-egwuenu
+  - cassidy-williams
+  - stephanie-stimac
 ---
