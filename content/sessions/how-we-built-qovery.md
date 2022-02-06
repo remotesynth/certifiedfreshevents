@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/what-it-takes-to-build-a
-    start_time: "00:00"
+    start_time: "04:28"
+  vimeo:
+    url: https://vimeo.com/674136562
+    length: "43:58"
 categories:
   - webdev
 draft: false

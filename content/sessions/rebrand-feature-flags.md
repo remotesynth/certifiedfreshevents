@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/releasing-in-secret-with
-    start_time: "00:00"
+    start_time: "04:45"
+  vimeo:
+    url: https://vimeo.com/674133188
+    length: "32:32"
 categories:
   - devops
 draft: false

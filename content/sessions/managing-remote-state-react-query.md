@@ -1,11 +1,14 @@
 ---
-title: Managing Remote State w/ React Query
+title: Managing Remote State with React Query
 date: 2022-01-13T13:00:00-05:00
 end_date: 2021-01-13T14:00:00-05:00
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/managing-remote-state-in
-    start_time: "00:00"
+    start_time: "04:40"
+  vimeo:
+    url: https://vimeo.com/674140322
+    length: "38:25"
 speakers:
   - jarel-fryer
 categories:
