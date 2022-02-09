@@ -3,7 +3,7 @@ title: The Ultimate WordPress CI/CD Pipeline
 date: 2022-03-10T13:00:00-04:00
 end_date: 2022-03-10T14:00:00-04:00
 cost: 0
-homepage_banner: UltimateWordpressPipeline-032422.jpg
+homepage_banner: UltimateWordpressPipeline-032422.png
 short_desc: Maciek Palmowski will show you the ideal setup for everything from setting up a Wordpress site in Git to deploying it to production
 description: Maciek Palmowski will show you the ideal setup for everything from setting up a Wordpress site in Git to deploying it to production
 embed_url: https://www.crowdcast.io/e/the-ultimate-wordpress
