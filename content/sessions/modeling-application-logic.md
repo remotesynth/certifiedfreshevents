@@ -5,6 +5,13 @@ speakers:
   - david-khourshid
 categories:
   - webdev
+recordings:
+  crowdcast:
+    url: https://www.crowdcast.io/e/modeling-application
+    start_time: "04:33"
+  youtube:
+    url: https://youtu.be/E_pBY6sO2ug
+    length: "42:23"
 draft: false
 featured: true
 ---

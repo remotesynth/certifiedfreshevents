@@ -4,6 +4,10 @@ date: 2022-01-26T12:30:00-05:00
 end_date: 2022-01-26T13:15:00-05:00
 speakers:
   - colby-fayock
+recordings:
+  youtube:
+    url: https://youtu.be/LsZdxGQn17A
+    length: "42:22"
 event: the-jam-2022
 draft: false
 ---

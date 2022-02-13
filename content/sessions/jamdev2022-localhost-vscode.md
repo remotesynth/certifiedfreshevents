@@ -6,6 +6,10 @@ speakers:
   - simona-cotin
   - anthony-chu
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/bnAlZYRZb9c
+    length: "41:13"
 draft: false
 ---
 

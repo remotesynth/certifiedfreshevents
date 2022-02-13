@@ -5,6 +5,10 @@ end_date: 2022-01-26T12:20:00-05:00
 speakers:
   - hakon-krogh
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/pn3LHzjmNGY
+    length: "46:22"
 draft: false
 ---
 

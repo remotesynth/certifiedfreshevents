@@ -5,6 +5,10 @@ end_date: 2022-01-26T15:05:00-05:00
 speakers:
   - charlie-gerard
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/1wyeAA_vxcc
+    length: "41:56"
 draft: false
 ---
 
