@@ -1,5 +1,5 @@
 ---
-title: "Virtual Meetups and Sessions for Technologists"
+title: "Virtual meetups and conferences for developers"
 featured_speakers:
   - chris-coyier
   - andrea-griffiths
