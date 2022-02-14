@@ -4,6 +4,10 @@ date: 2022-01-26T16:05:00-05:00
 end_date: 2022-01-26T16:15:00-05:00
 speakers:
   - joyce-lin
+recordings:
+  youtube:
+    url: https://youtu.be/Xosuqete6SU
+    length: "09:49"
 event: the-jam-2022
 draft: false
 ---

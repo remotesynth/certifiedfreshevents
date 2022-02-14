@@ -4,6 +4,10 @@ date: 2022-01-26T15:35:00-05:00
 end_date: 2022-01-26T15:45:00-05:00
 speakers:
   - ben-holmes
+recordings:
+  youtube:
+    url: https://youtu.be/0Ycqer9YRzg
+    length: "10:27"
 event: the-jam-2022
 draft: false
 ---
