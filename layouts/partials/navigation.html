@@ -134,15 +134,10 @@
       </button>
 
       <a
-        href="/login/{{ if and (isset .Params "embed_url") (eq .Params.cost 0) }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}"
-        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:inline-block lg:mt-0 lg:text-left ">
-        Log In
-      </a>
-      <a
-        href="/join/{{ if and (isset .Params "embed_url") (eq .Params.cost 0) }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}"
+        href="/join/"
         class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
-        <span class="block mb-2 text-xs">Get FULL Access</span>
-        <span class="block font-bold">Join Now</span>
+        <span class="block mb-2 text-xs">Never miss an event</span>
+        <span class="block font-bold">Join Our Mailing List</span>
       </a>
       <a
         href="/signup/manage/"
