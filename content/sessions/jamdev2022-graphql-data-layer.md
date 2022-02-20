@@ -5,6 +5,10 @@ end_date: 2022-01-27T13:15:00-05:00
 speakers:
   - roy-derks
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/-VtXt1YCsQo
+    length: "42:26"
 draft: false
 ---
 

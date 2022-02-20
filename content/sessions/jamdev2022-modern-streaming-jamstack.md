@@ -5,6 +5,10 @@ end_date: 2022-01-27T15:05:00-05:00
 speakers:
   - tom-dale
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/NKit7p3qjy4
+    length: "43:20"
 draft: false
 ---
 

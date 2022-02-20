@@ -5,6 +5,10 @@ end_date: 2022-01-27T12:20:00-05:00
 speakers:
   - tim-benniks
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/NXcvAKtF3VA
+    length: "40:54"
 draft: false
 ---
 

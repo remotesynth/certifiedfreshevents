@@ -5,6 +5,10 @@ end_date: 2022-01-27T14:10:00-05:00
 speakers:
   - brian-douglas
 event: the-jam-2022
+recordings:
+  youtube:
+    url: https://youtu.be/TLUFyb0SXiw
+    length: "44:46"
 draft: false
 ---
 
