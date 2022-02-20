@@ -2,9 +2,9 @@
   <div class="max-w-5xl px-6 py-10 mx-auto">
     <header class="mb-10 text-center md:mb-12">
       <h1 class="mt-10 text-4xl font-medium md:text-5xl">
-        Join Free &amp; Get
+        Join Our Mailing List 
         <strong class="highlight-text highlight-text-blue"
-          ><span>FULL Access</span></strong
+          ><span>Never Miss An Event</span></strong
         >
       </h1>
     </header>
@@ -17,6 +17,9 @@
         id="registerForm"
         method="post"
       >
+      <p class="text-sm mb-2">
+        Receive updates about new events and recordings.
+      </p>
         <div class="error-message" id="errorMessage"></div>
         <div class="mb-8">
           <label for="join-name" class="label">Your Name</label>
@@ -34,37 +37,13 @@
           <input type="email" id="join-email" class="w-full field" required />
         </div>
 
-        <div class="mb-8">
-          <div class="flex justify-between">
-            <label for="join-password" class="label">Password</label>
-            <span class="text-sm italic">Pick a good one!</span>
-          </div>
-          <input
-            type="password"
-            name="join-password"
-            id="join-password"
-            class="w-full field"
-            required
-          />
-        </div>
-
         <div class="flex justify-end mb-10">
           <button class="order-2 button">Sign Up</button>
-          <button
-            class="order-1 inline-block px-8 py-2 font-bold text-red link"
-            onclick="window.history.back()"
-          >
-            Cancel
-          </button>
         </div>
 
-        <p class="text-sm text-right">
-          Have an account already?
-          <a href="/login/" class="font-bold link">Log in instead</a>.
-        </p>
       </form>
       <section class="pt-10 md:w-1/2 md:mr-8 lg:mr-20 md:order-1">
-        <h2 class="mb-6 text-2xl font-medium">Why Join CFE.dev?</h2>
+        <h2 class="mb-6 text-2xl font-medium">Why sign up?</h2>
 
         <ul>
           <li class="flex block mb-10 text-gray-800">
@@ -79,9 +58,9 @@
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">It's FREE!</span>
+              <span class="block mb-1 text-sm text-lg">Live events</span>
               <span class="block text-sm text-gray-600"
-                >Get access to our archive at no cost.</span
+                >Get updates about our upcoming live meetups so that you can join the conversation live.</span
               >
             </div>
           </li>
@@ -97,9 +76,9 @@
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Catch meetups live</span>
+              <span class="block mb-1 text-sm text-lg">Latest recordings</span>
               <span class="block text-sm text-gray-600"
-                >Learn alongside the community in real-time.</span
+                >We're adding to our archive every week. Keep up with the latest videos we've posted.</span
               >
             </div>
           </li>
@@ -116,10 +95,10 @@
             </div>
             <div class="ml-4">
               <span class="block mb-1 text-sm text-lg"
-                >New content regularly</span
+                >Special events</span
               >
               <span class="block text-sm text-gray-600"
-                >2-3 meetups a month provides plenty to learn.</span
+                >Be the first to know about special events like TheJam.dev and Moar Serverless.</span
               >
             </div>
           </li>
