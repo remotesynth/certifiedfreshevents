@@ -11,6 +11,16 @@
 {{ if $src }}
   {{- $src := $src.Resize "608x" }}
 {{ end}}
+
+{{- $t := time .Date -}}
+{{- $.Scratch.Set "link" .RelPermalink -}}
+{{- $.Scratch.Set "heading" "SESSION" -}}
+{{ if $t.After now }}
+  {{- $.Scratch.Set "link" $event.RelPermalink -}}
+  {{- $.Scratch.Set "heading" "UPCOMING SESSION" -}}
+{{ end }}
+{{- $sessionLink := $.Scratch.Get "link" -}}
+{{- $heading := $.Scratch.Get "heading" -}}
 <article class="event-card">
   {{ if $src }}
   <img
@@ -20,9 +30,9 @@
     aria-hidden="true">
   {{ end }}
   <div class="event-card-body">
-    <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-java">SESSION</span></div>
+    <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-java">{{ $heading }}</span></div>
     <h1 class="event-card-title">
-      <a href="{{ .RelPermalink }}" class="click-target">{{ .Title }}</a>
+      <a href="{{ $sessionLink }}" class="click-target">{{ .Title }}</a>
     </h1>
 
 
