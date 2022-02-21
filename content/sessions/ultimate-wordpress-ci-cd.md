@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate WordPress CI/CD Pipeline"
-date: 2022-02-24T13:00:00-05:00
+date: 2022-03-10T13:00:00-05:00
 speakers:
   - maciek-palmowski
 recordings:
