@@ -1,16 +1,35 @@
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-{{ $built := resources.Get "js/auth.js"  | js.Build "js/auth.js" }}
+{{ $built := resources.Get "js/newsletter.js" | js.Build "js/newsletter.js" }}
 <script src="{{ $built.RelPermalink }}"></script>
-{{ $built := resources.Get "js/search.js"  | js.Build "js/search.js" }}
+{{ $built := resources.Get "js/search.js" | js.Build "js/search.js" }}
 <script src="{{ $built.RelPermalink }}"></script>
-{{ $built := resources.Get "js/reminder.js"  | js.Build "js/reminder.js" }}
+{{ $built := resources.Get "js/reminder.js" | js.Build "js/reminder.js" }}
 <script src="{{ $built.RelPermalink }}"></script>
 <script src="/js/main.js"></script>
 <script type="text/javascript">
-  (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
-  vgo('setAccount', '799333501');
-  vgo('setTrackByDefault', true);
+  (function (e, t, o, n, p, r, i) {
+    e.visitorGlobalObjectAlias = n;
+    e[e.visitorGlobalObjectAlias] =
+      e[e.visitorGlobalObjectAlias] ||
+      function () {
+        (e[e.visitorGlobalObjectAlias].q =
+          e[e.visitorGlobalObjectAlias].q || []).push(arguments);
+      };
+    e[e.visitorGlobalObjectAlias].l = new Date().getTime();
+    r = t.createElement("script");
+    r.src = o;
+    r.async = true;
+    i = t.getElementsByTagName("script")[0];
+    i.parentNode.insertBefore(r, i);
+  })(
+    window,
+    document,
+    "https://diffuser-cdn.app-us1.com/diffuser/diffuser.js",
+    "vgo"
+  );
+  vgo("setAccount", "799333501");
+  vgo("setTrackByDefault", true);
 
-  vgo('process');
+  vgo("process");
 </script>
