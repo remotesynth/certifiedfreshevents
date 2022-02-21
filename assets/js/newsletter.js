@@ -64,3 +64,34 @@ function crowdcastSignup(email, eventcode) {
       );
     });
 }
+
+/* ActiveCampaign form submit
+  -------------------------------------------------------*/
+const subscribeForm = document.getElementById("subscribeForm");
+if (subscribeForm)
+  subscribeForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let form = e.target;
+    let messageObj = document.getElementById("subscribe_message");
+    axios
+      .post("/.netlify/functions/activecampaign", {
+        email: form.email.value,
+      })
+      .then(function (response) {
+        if (response.data.errorMsg && messageObj) {
+          messageObj.innerHTML = response.data.errorMsg;
+        } else if (response.data.msg && messageObj) {
+          form.subscribe.disabled = true;
+          form.email.value = "";
+          form.subscribe.innerHTML = "You've been subscribed!";
+          messageObj.innerHTML = "";
+        } else {
+          messageObj.innerHTML =
+            "We apologize, there was a problem subscribing.";
+        }
+      })
+      .catch(function (error) {
+        messageObj.innerHTML = "We apologize, there was a problem subscribing.";
+      });
+  });

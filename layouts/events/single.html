@@ -69,17 +69,7 @@
     <div class="block mx-auto bg-black">
       {{/* if this is for a future event or live event, just show the embed */}}
       {{ if ne .Params.embed_url nil }}
-        {{ if ge .Params.date now }}
           <iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="{{.Params.embed_url}}?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="microphone; camera;"></iframe>
-        {{ else }}
-          <div id="crowdcast-embed" data-embed-url="{{ .Params.embed_url }}"></div>
-          {{ if ne .Params.homepage_banner nil }}
-          {{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
-          <div class="flex justify-center w-full h-full" id="banner-image">
-            <img src="{{$src.RelPermalink}}" width="100%" />
-          </div>
-        {{ end }}
-        {{ end }}
       {{ end }}
     </div>
   </div>

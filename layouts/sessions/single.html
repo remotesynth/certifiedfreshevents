@@ -82,27 +82,29 @@
   </header>
 
   <div class="container mx-auto">
-    <div class="flex justify-center w-full h-full" id="banner-image">
+    <!---<div class="flex justify-center w-full h-full" id="banner-image">
       {{ if isset .Params "banner" }}
       {{- $src := resources.Get (print "img/banners/" .Params.banner) -}}
       <img src="{{$src.RelPermalink}}" width="100%" />
       {{ else }}
       <img src="/img/banners/{{$event.Params.homepage_banner}}" width="100%" />
       {{ end}}
-    </div>
+    </div>--->
     {{ with .Params.recordings }}
       {{ if isset . "vimeo" }}
         {{ with .vimeo }}
         {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-        <div id="vimeo-embed" data-embed-url="https://player.vimeo.com/video/{{ $vimeo_embed }}">
-
+        <div class="block mx-auto bg-black embed-responsive">
+          <iframe src="https://player.vimeo.com/video/{{ $vimeo_embed }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }}"></iframe>
         </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
         {{ end }}
       {{ else if isset . "youtube" }}
         {{ with .youtube }}
-          {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-          <div id="vimeo-embed" data-embed-url="https://youtube.com/embed/{{ $vimeo_embed }}">
-        </div>
+          {{ $youtube_embed :=  delimit (last 1 (split .url "/")) "" }}
+          <div class="block mx-auto bg-black embed-responsive">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $youtube_embed }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         {{ end }}
       {{ else }}
         <div class="block mx-auto bg-black embed-responsive hidden" id="crowdcast-open">
@@ -123,18 +125,6 @@
       {{ end }}
     {{ end }}
   </div>
-
-  {{/* Hide if authenticated */}}
-  {{ if ne .Params.recordings nil}}
-  <section
-    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
-    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
-
-    <a href="/join/" class="text-2xl button-ghost">Join Now</a>
-
-    <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
-  </section>
-  {{ end}}
 
   <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
