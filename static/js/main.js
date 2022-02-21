@@ -1,28 +1,28 @@
 /* Navigation */
-const navToggler = document.querySelector('[data-nav-toggler]');
-const body = document.getElementsByTagName('body')[0];
-const primaryNav = document.getElementById('PrimaryNav');
-const secondaryNav = document.getElementById('SecondaryNav');
+const navToggler = document.querySelector("[data-nav-toggler]");
+const body = document.getElementsByTagName("body")[0];
+const primaryNav = document.getElementById("PrimaryNav");
+const secondaryNav = document.getElementById("SecondaryNav");
 
-const searchToggler = document.querySelectorAll('[data-search-toggler]');
-const topSearch = document.getElementById('Search');
-const topSearchInput = document.getElementById('searchInput');
+const searchToggler = document.querySelectorAll("[data-search-toggler]");
+const topSearch = document.getElementById("Search");
+const topSearchInput = document.getElementById("searchInput");
 
 const toggleModalEffect = () => {
-  const body = document.querySelector('body');
-  body.classList.toggle('modal-active');
-}
+  const body = document.querySelector("body");
+  body.classList.toggle("modal-active");
+};
 
-navToggler.addEventListener('click', () => {
-  body.classList.toggle('nav-open');
+navToggler.addEventListener("click", () => {
+  body.classList.toggle("nav-open");
 });
 
-searchToggler.forEach( (button) => {
-  button.addEventListener('click', () => {
-    topSearch.classList.toggle('lg:sr-only');
-    primaryNav.classList.toggle('lg:sr-only');
-    secondaryNav.classList.toggle('lg:sr-only');
-    if (!topSearch.classList.contains('lg:sr-only')) {
+searchToggler.forEach((button) => {
+  button.addEventListener("click", () => {
+    topSearch.classList.toggle("lg:sr-only");
+    primaryNav.classList.toggle("lg:sr-only");
+    secondaryNav.classList.toggle("lg:sr-only");
+    if (!topSearch.classList.contains("lg:sr-only")) {
       topSearchInput.focus();
     }
   });
@@ -33,37 +33,35 @@ searchToggler.forEach( (button) => {
   Note: Only 1 per page
 */
 
-const carousel = document.querySelector('.carousel-list');
-
+const carousel = document.querySelector(".carousel-list");
 
 if (carousel) {
-
   let carouselConfig = {
     resizeLock: true,
     slidesToShow: 1,
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  }
+      prev: ".glider-prev",
+      next: ".glider-next",
+    },
+  };
 
-  if (carousel.hasAttribute('data-carousel-responsive')) {
-    carouselConfig['responsive'] = [
+  if (carousel.hasAttribute("data-carousel-responsive")) {
+    carouselConfig["responsive"] = [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-        }
-      }
+        },
+      },
     ];
   }
 
   new Glider(carousel, carouselConfig);
 
   /* Carousel Helpers */
-  document.addEventListener('glider-loaded', hideFFScrollBars);
-  document.addEventListener('glider-refresh', hideFFScrollBars);
+  document.addEventListener("glider-loaded", hideFFScrollBars);
+  document.addEventListener("glider-refresh", hideFFScrollBars);
 
   function hideFFScrollBars(e) {
     const scrollbarHeight = 17; // Currently 17, may change with updates
@@ -71,32 +69,9 @@ if (carousel) {
       // We only need to appy to desktop. Firefox for mobile uses
       // a different rendering engine (WebKit)
       if (window.innerWidth > 575) {
-        e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
+        e.target.parentNode.style.height =
+          e.target.offsetHeight - scrollbarHeight + "px";
       }
     }
   }
-}
-
-/* ActiveCampaign form submit
-  -------------------------------------------------------*/
-
-function subscribeForm(form,messageObj) {
-  axios.post('/.netlify/functions/activecampaign', {
-    email: form.email.value
-  })
-  .then(function (response) {
-    if (response.data.contact !== undefined) {
-      form.subscribe.disabled = true;
-      form.email.value = "";
-      form.subscribe.innerHTML = "Subscribed!";
-    }
-    else {
-      messageObj.innerHTML = "We are unable to subscribe you. An account may already exist with this email."
-    }
-  })
-  .catch(function (error) {
-    messageObj.innerHTML = "We apologize, there was a problem subscribing.";
-  });
-
-  return false;
 }
