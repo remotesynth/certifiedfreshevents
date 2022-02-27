@@ -4,6 +4,10 @@ date: 2022-01-27T15:55:00-05:00
 end_date: 2022-01-27T16:05:00-05:00
 speakers:
   - rob-sutter
+recordings:
+  youtube:
+    url: https://youtu.be/LtuQliwLORA
+    length: "08:31"
 event: the-jam-2022
 draft: false
 ---

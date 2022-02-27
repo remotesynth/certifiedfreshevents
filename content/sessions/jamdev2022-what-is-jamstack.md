@@ -4,6 +4,10 @@ date: 2022-01-27T16:25:00-05:00
 end_date: 2022-01-27T17:10:00-05:00
 speakers:
   - fred-k-schott
+recordings:
+  youtube:
+    url: https://youtu.be/B3_yz6b2ZMc
+    length: "44:26"
 event: the-jam-2022
 draft: false
 ---

@@ -6,9 +6,12 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/building-better
-    start_time: 00:00
+    start_time: 05:30
+  youtube:
+    url: https://youtu.be/QKTY--y9Rcg
+    length: "46:31"
 categories:
-  - devops
+  - culture
 draft: false
 ---
 

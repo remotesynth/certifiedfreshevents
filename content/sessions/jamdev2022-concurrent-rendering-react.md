@@ -4,6 +4,10 @@ date: 2022-01-27T15:35:00-05:00
 end_date: 2022-01-27T15:45:00-05:00
 speakers:
   - ifeoma-imoh
+recordings:
+  youtube:
+    url: https://youtu.be/gAFAlckB4Jo
+    length: "09:03"
 event: the-jam-2022
 draft: false
 ---
