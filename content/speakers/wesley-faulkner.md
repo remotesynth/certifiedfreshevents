@@ -2,8 +2,8 @@
 title: "Wesley Faulkner"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: WesleyFaulkner.jpg
-job_title:  Developer Advocate for MongoDB
-twitter: cotufwesley83a82
+job_title: Developer Advocate for MongoDB
+twitter: wesley83
 github: wesley83
 draft: false
 ---

@@ -2,8 +2,7 @@
 title: "Robert Wozniak"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: robertwozniak.jpg
-job_title:  Lead Engineer at TruePill
-twitter: RobertJWozniak
+job_title: Lead Engineer at TruePill
 github: robertjwozniak
 website: https://robertwozniak.blog/
 draft: false

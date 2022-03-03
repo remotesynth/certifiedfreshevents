@@ -2,8 +2,8 @@
 title: "Upkar Lidder"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: UpkarLidder.jpg
-job_title:  Developer Advocate at IBM
-twitter: lidderupk
+job_title: Developer Advocate at IBM
+twitter: upkarlidder
 github: lidderupk
 website: http://upkarlidder.com/
 draft: false
