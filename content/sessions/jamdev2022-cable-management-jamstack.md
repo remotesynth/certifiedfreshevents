@@ -9,6 +9,8 @@ recordings:
   youtube:
     url: https://youtu.be/NXcvAKtF3VA
     length: "40:54"
+categories:
+  - webdev
 draft: false
 ---
 

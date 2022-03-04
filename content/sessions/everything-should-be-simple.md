@@ -9,6 +9,8 @@ recordings:
 speakers:
   - obinna-ekwuno
 event: the-jam-2021
+categories:
+  - culture
 draft: false
 ---
 

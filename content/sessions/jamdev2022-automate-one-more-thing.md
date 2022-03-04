@@ -9,6 +9,8 @@ recordings:
   youtube:
     url: https://youtu.be/TLUFyb0SXiw
     length: "44:46"
+categories:
+  - devops
 draft: false
 ---
 

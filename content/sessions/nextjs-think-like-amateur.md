@@ -9,6 +9,8 @@ recordings:
 speakers:
   - jaden-baptista
 event: the-jam-2021
+categories:
+  - webdev
 draft: false
 ---
 

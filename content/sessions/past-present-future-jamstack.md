@@ -9,6 +9,8 @@ recordings:
 speakers:
   - tom-preston-werner
 event: the-jam-2021
+categories:
+  - webdev
 draft: false
 ---
 

@@ -9,11 +9,14 @@ recordings:
 speakers:
   - henri-helvetica
 event: the-jam-2021
+categories:
+  - stuff
 draft: false
 ---
 
 With web traffic becoming predominantly mobile, performance is a priority in development. With one click, developers can now generate a Lighthouse performance report and score.
-* But what if the scores that don’t attain 100?
-* Do you understand the granularities of the given grade?
-* Can you dive into the details of the report results and understand where to make updates??
-This is a talk about the subtleties of the Lighthouse performance score, understanding the speed metrics and how to parse the remainder of the performance audit to improve page loads and ux.
+
+- But what if the scores that don’t attain 100?
+- Do you understand the granularities of the given grade?
+- Can you dive into the details of the report results and understand where to make updates??
+  This is a talk about the subtleties of the Lighthouse performance score, understanding the speed metrics and how to parse the remainder of the performance audit to improve page loads and ux.

@@ -9,6 +9,8 @@ recordings:
   youtube:
     url: https://youtu.be/-VtXt1YCsQo
     length: "42:26"
+categories:
+  - software
 draft: false
 ---
 

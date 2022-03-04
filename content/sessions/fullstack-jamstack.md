@@ -9,6 +9,8 @@ recordings:
 speakers:
   - joel-varty
 event: the-jam-2021
+categories:
+  - webdev
 draft: false
 ---
 
@@ -16,8 +18,6 @@ Jamstack is primarily a set of technologies to drive UIs. It empowers frontend d
 
 In this session, I'll take you through a Jamstack architecture that has more than just a frontend. I will help you architect and build solutions that enable you to solve all of your customers' requirements.
 
-* Learn the kinds of solutions that Jamstack is great at solving
-* See how you can add existing APIs onto your Jamstack solution
-* Learn how you can build new APIs to solve unique customer problems as part of your Jamstack website
-
-
+- Learn the kinds of solutions that Jamstack is great at solving
+- See how you can add existing APIs onto your Jamstack solution
+- Learn how you can build new APIs to solve unique customer problems as part of your Jamstack website

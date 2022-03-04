@@ -9,6 +9,8 @@ recordings:
     url: https://youtu.be/gAFAlckB4Jo
     length: "09:03"
 event: the-jam-2022
+categories:
+  - javascript
 draft: false
 ---
 

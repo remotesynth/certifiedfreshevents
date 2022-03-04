@@ -9,6 +9,8 @@ recordings:
 speakers:
   - tamas-piros
 event: the-jam-2021
+categories:
+  - webdev
 draft: false
 ---
 

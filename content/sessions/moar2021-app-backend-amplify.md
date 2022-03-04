@@ -9,6 +9,8 @@ recordings:
     url: https://www.youtube.com/JntsYLX0JQI
     length: "38:35"
 event: moar-serverless-2021
+categories:
+  - software
 draft: false
 ---
 
