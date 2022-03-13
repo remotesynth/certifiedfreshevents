@@ -1,6 +1,6 @@
 ---
 title: The Rise of the Developer Community
-date: 2022-03-24T13:00:00-05:00
+date: 2022-03-24T13:00:00-04:00
 speakers:
   - bryan-robinson
 recordings:

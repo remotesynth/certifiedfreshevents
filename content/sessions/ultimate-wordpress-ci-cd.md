@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-ultimate-wordpress
     start_time: 00:00
+  youtube:
+    url: https://youtu.be/xsfq8q-xdOo
+    length: "46:16"
 categories:
   - devops
 draft: false
