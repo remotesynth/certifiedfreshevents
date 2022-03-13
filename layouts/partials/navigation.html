@@ -104,6 +104,32 @@
           */}}
         </ul>
       </li>
+      <li class="relative text-center has-menu lg:text-left">
+        <a
+          href="/talkshows/"
+          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          Talk&nbsp;Shows
+          <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        <!-- Meetups Sub-Nav -->
+        <ul
+          class="space-y-6 menu menu-meetups">
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "talkshows") ".Date" "ge" now }}
+          {{ range $upcoming }}
+            <li>
+              <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
+                <span class="block text-lg font-medium">{{ .Title }}</span>
+                <time class="text-sm text-gray-700">
+                  {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
+                </time>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </li>
       <li class="text-center lg:text-left">
         <a
           href="/speakers/"
@@ -113,9 +139,16 @@
       </li>
       <li class="text-center lg:text-left">
         <a
+          href="https://discord.com/invite/E2ysUYPzJH"
+          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
+          <i class="fab fa-discord"></i> Community
+        </a>
+      </li>
+      <li class="text-center lg:text-left">
+        <a
           href="https://patreon.com/cfedev"
           class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          Support Us
+          <i class="fab fa-patreon"></i> Support&nbsp;Us
         </a>
       </li>
     </ul>

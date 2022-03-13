@@ -8,6 +8,8 @@
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
+  <!-- font awesome-->
+  <script src="https://kit.fontawesome.com/74ff27af0b.js" crossorigin="anonymous"></script>
 
   <!-- Css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
@@ -81,25 +83,6 @@
 		ga('send', 'pageview');
 
 	</script>
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window,document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '402803547299150');
-		fbq('track', 'PageView');
-	</script>
-	<noscript>
-		<img height="1" width="1"
-		src="https://www.facebook.com/tr?id=402803547299150&ev=PageView
-		&noscript=1"/>
-	</noscript>
-	<!-- End Facebook Pixel Code -->
 	{{- if ne .Params.sessions nil -}}
   {{- range $session := .Params.sessions -}}
 			{{- with site.GetPage (print "/sessions/" $session) -}}
