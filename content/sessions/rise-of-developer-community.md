@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-rise-of-developer
     start_time: 00:00
+  youtube:
+    url: https://youtu.be/mdGplwsk8OQ
+    length: "48:47"
 categories:
   - culture
 draft: false
@@ -18,4 +21,4 @@ For the past decade, most product companies have been striving to create their o
 
 When built properly, maintained actively, and measured correctly, these efforts are among the best word-of-mouth "marketing" for developers, a group of people with a historical and notorious disdain for traditional tactics. Unfortunately, we all too often see this optimized for the wrong metrics and reasons, leaving developers running for the hills.
 
-In this presentation, we’ll explore the evolving role of community in technology. From humble user groups and IRC to modern communities of practice or product. Alon
+In this presentation, we’ll explore the evolving role of community in technology. From humble user groups and IRC to modern communities of practice or product.
