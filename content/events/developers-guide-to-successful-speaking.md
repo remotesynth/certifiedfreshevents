@@ -1,9 +1,9 @@
 ---
 title: A Developer's Guide to Successful Speaking
-date: 2022-04-14T13:00:00-04:00
-end_date: 2022-04-14T14:00:00-04:00
+date: 2022-05-12T13:00:00-04:00
+end_date: 2022-05-12T14:00:00-04:00
 cost: 0
-homepage_banner: SuccessfulSpeakingGuide-041422.jpg
+homepage_banner: SuccessfulSpeakingGuide-041422.png
 short_desc: Oscar Santolalla will share tips and guidance on what makes a great session and how to get started speaking at tech conferences.
 description: Oscar Santolalla will share tips and guidance on what makes a great session and how to get started speaking at tech conferences.
 embed_url: https://www.crowdcast.io/e/a-developers-guide-to
