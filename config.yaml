@@ -28,6 +28,7 @@ related:
     - name: date
       weight: 10
 paginate: 6
+rssLimit: 20
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -47,3 +48,6 @@ outputFormats:
     isPlainText: true
     mediaType: application/json
     notAlternative: true
+  RSS:
+    mediatype: "application/rss"
+    baseName: "rss"
