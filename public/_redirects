@@ -6,3 +6,4 @@ https://moarserverless.com/ https://cfe.dev/events/moar-serverless-2021/ 301!
 /signup/* / 301!
 /subscribe /join 301!
 /recover / 301!
+/sessions/index.xml /rss.xml 301!

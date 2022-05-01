@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/an-introduction-to-13
-    start_time: "00:00"
+    start_time: "06:18"
+  youtube:
+    url: https://youtu.be/VSnil7MVoCM
+    length: "43:15"
 categories:
   - devops
 draft: false
