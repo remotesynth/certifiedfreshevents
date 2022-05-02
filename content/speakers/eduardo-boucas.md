@@ -9,4 +9,4 @@ website: https://eduardoboucas.com
 draft: false
 ---
 
-Eduardo is a Senior Staff Engineer at Netlify. He maintains several [open-source projects](https://github.com/eduardoboucas).
+Eduardo is a Senior Staff Engineer at Netlify. He works on serverless computing, with a focus on creating a seamless and inclusive developer experience for people coming from any type of background.
