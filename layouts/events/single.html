@@ -74,26 +74,6 @@
     </div>
   </div>
 
-  {{/* Hide if authenticated */}}
-  {{ if and (ne .Params.embed_url nil) (lt .Params.date now) }}
-  <section
-    class="container relative z-10 p-10 mx-auto mb-20 -mt-32 text-center text-white shadow-xl bg-blue highlight-pattern-waves" id="banner-signup">
-    <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
-
-    <a href="/join/{{ if and (isset .Params "embed_url") (eq .Params.cost 0) }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}" class="text-2xl button-ghost">Join Now</a>
-
-    <p class="mt-6">Have an account? <a href="/login/{{ if and (isset .Params "embed_url") (eq .Params.cost 0) }}?eventcode={{ path.Base .Params.embed_url }}{{ end}}" class="font-medium link hover:text-lightBlue">Log in</a></p>
-  </section>
-  {{ end }}
-
-  {{/* If authenticated, show w/external URL */}}
-  <!--
-  <a href="#"
-    class="container flex justify-center px-8 py-3 mx-auto -mt-1 text-center text-white bg-blue hover:bg-jelly anim">
-    {{ partial "crowdcast-button-content" .}}
-  </a>
-  -->
-
   <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
     <div class="mb-8">
       {{ partial "social-share.html" .}}

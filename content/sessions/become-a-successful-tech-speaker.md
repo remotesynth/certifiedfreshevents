@@ -1,12 +1,15 @@
 ---
 title: Become a Successful Speaker in Tech Events
-date: 2021-05-12T13:00:00-04:00
+date: 2022-05-12T13:00:00-04:00
 speakers:
   - oscar-santolalla
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/a-developers-guide-to
-    start_time: "00:00"
+    start_time: "06:17"
+  youtube:
+    url: https://youtu.be/9J3BxKC0_p8
+    length: "46:22"
 categories:
   - culture
 draft: false
