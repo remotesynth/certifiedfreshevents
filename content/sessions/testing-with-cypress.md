@@ -1,0 +1,17 @@
+---
+title: "Mission Impossible: Testing with Cypress"
+date: 2022-06-09T12:00:00-04:00
+speakers:
+  - bekah-hawrot-wiegel
+recordings:
+  crowdcast:
+    url: https://www.crowdcast.io/e/supercharge-javascript
+    start_time: "00:00"
+categories:
+  - webdev
+draft: false
+---
+
+We write tests to give us confidence that things won’t break and to save time. But it takes time to write tests. How does that save time? When you use the JavaScript testing framework Cypress, you’ve got the Swiss Army Knife of end-to-end testing. Cypress has bundled together the tools you need to get up and testing fast.
+
+We’ll take a look at how to get started with Cypress, how to write reliable tests to give you confidence in your code, and how using Cypress enables you to get the mission accomplished.
