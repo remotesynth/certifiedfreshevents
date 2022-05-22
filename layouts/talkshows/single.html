@@ -45,6 +45,13 @@
           </li>
         {{ end}}
       {{ end }}
+      {{ with .Params.recordings.vimeo }}
+        {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+        <div class="block mx-auto bg-black embed-responsive">
+          <iframe src="https://player.vimeo.com/video/{{ $vimeo_embed }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }}"></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      {{ end }}
 
       <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">

@@ -70,8 +70,8 @@ Join an amazing list of experts to gain insights into how to develop real-world 
 </section>
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="#register">
- Get Your Ticket Today!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/serverless22/register" target="_blank">
+ Get Your Free Ticket Today!
 </a>
 </div>
 
@@ -91,7 +91,13 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
 
 ## Register {#register}
 
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/serverless22?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="microphone; camera;"></iframe><a ng-href="https://www.crowdcast.io/?utm_source=embed&utm_medium=website&utm_campaign=embed" style="color: #aaa; font-family: 'Helvetica', 'Arial', sans-serif;text-decoration: none;display: block;text-align: center;font-size: 13px;padding: 5px 0">powered by Crowdcast</a>
+**Moar Serverless is completely free to attend!**
+
+Just register via [Crowdcast](https://www.crowdcast.io/e/serverless22/register).
+
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/serverless22/register" target="_blank">
+Register for free today!
+</a>
 
 ## Schedule {#schedule}
 
