@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/getting-started-with-the-3
-    start_time: "00:00"
+    start_time: "07:02"
+  youtube:
+    url: https://youtu.be/xC2Md43tOPs
+    length: "48:33"
 categories:
   - webdev
 draft: false

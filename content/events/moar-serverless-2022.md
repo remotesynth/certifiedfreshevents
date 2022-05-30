@@ -89,6 +89,8 @@ We've already got some fantastic speakers and we're just getting started. Moar s
 
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
 
+[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/aaw)
+
 ## Register {#register}
 
 **Moar Serverless is completely free to attend!**

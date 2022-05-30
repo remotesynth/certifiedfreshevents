@@ -1,4 +1,4 @@
-{{ $related := where (where (.Site.RegularPages.Related . | first 5) "Section" "sessions") ".Params.recordings.vimeo" "ne" nil }}
+{{ $related := where (where (.Site.RegularPages.Related . | first 5) "Section" "sessions") ".Params.recordings.youtube" "ne" nil }}
 <div class="mt-24 bg-gray-100">
   <div class="container px-6 py-16 mx-auto">
     <h2 class="mb-10 text-4xl font-medium text-center">More <strong class="highlight-text highlight-text-java"><span>Awesome</span></strong> Sessions</h2>
