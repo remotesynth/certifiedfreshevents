@@ -14,6 +14,7 @@ layout: thejam
 speakers:
   - jeremy-daly
   - salma-alam-naylor
+  - gift-egwuenu
   - tbd-moar-serverless
 styles: thejam.css
 ---

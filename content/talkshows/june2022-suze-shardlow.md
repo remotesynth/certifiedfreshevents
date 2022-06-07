@@ -12,4 +12,4 @@ recordings:
 draft: false
 ---
 
-In this episode, Sean C. Davis interviews Suze Shardlow, the developer community manager at Redis Labs.
+In this episode, Sean C. Davis interviews Suze Shardlow, the developer community manager at Redis.
