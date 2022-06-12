@@ -5,8 +5,11 @@ speakers:
   - bekah-hawrot-wiegel
 recordings:
   crowdcast:
-    url: https://www.crowdcast.io/e/supercharge-javascript
-    start_time: "00:00"
+    url: https://www.crowdcast.io/e/mission-impossible
+    start_time: "06:24"
+  youtube:
+    url: https://youtu.be/Q-mHCxrccTU
+    length: "52:12"
 categories:
   - webdev
 draft: false
