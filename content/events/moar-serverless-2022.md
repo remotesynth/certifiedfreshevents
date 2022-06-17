@@ -15,6 +15,7 @@ speakers:
   - jeremy-daly
   - salma-alam-naylor
   - gift-egwuenu
+  - colby-fayock
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -91,6 +92,8 @@ We've already got some fantastic speakers and we're just getting started. Moar s
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
 
 [![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/aaw)
+
+[![Cloudflare](/img/sponsors/cloudflare.png)](https://cloudflare.com)
 
 ## Register {#register}
 
