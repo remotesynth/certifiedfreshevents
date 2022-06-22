@@ -16,6 +16,7 @@ speakers:
   - salma-alam-naylor
   - gift-egwuenu
   - colby-fayock
+  - adrienne-tacke
   - tbd-moar-serverless
 styles: thejam.css
 ---
