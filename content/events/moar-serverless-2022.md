@@ -17,6 +17,7 @@ speakers:
   - gift-egwuenu
   - colby-fayock
   - adrienne-tacke
+  - parnab-basak
   - tbd-moar-serverless
 styles: thejam.css
 ---

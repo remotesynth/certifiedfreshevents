@@ -1,12 +1,15 @@
 ---
 title: Databases Aren't History in the Jamstack
-date: 2022-05-26T13:00:00-04:00
+date: 2022-06-23T13:00:00-04:00
 speakers:
   - taylor-barnett
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/jamstack-and-databases
-    start_time: "00:00"
+    start_time: "05:38"
+  youtube:
+    url: https://youtu.be/D3dhrRsEDJQ
+    length: "49:22"
 categories:
   - webdev
 draft: false
