@@ -19,6 +19,18 @@ speakers:
   - adrienne-tacke
   - parnab-basak
   - tbd-moar-serverless
+sessions:
+  - moar2022-opening
+  - moar2022-living-on-the-edge
+  - moar2022-serverless-media
+  - moar2022-session-3
+  - moar2022-cloudflare-pages
+  - moar2022-aws-serverless
+  - moar2022-session-7
+  - moar2022-session-8
+  - moar2022-session-9
+  - moar2022-session-10
+  - moar2022-closing
 styles: thejam.css
 ---
 
@@ -109,7 +121,9 @@ Register for free today!
 
 ## Schedule {#schedule}
 
-Moar Serverless will feature a full day of sessions running from 11am ET (GMT -4) until 5pm ET. Session details coming soon!
+Moar Serverless will feature a full day of sessions running from 11am ET (GMT -4) until 5pm ET. We're still finalizing our schedule with more session details coming soon!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
