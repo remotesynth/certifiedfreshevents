@@ -2,7 +2,7 @@
 title: Geetha Anne
 date: 2019-07-24T18:52:51-04:00
 speaker_image: GeethaAnne.jpg
-job_title: Enterprise Solutions Engineee at Confluent
+job_title: Enterprise Solutions Engineer at Confluent
 twitter: geethaay
 draft: false
 ---
