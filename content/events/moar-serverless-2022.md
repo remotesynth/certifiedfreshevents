@@ -18,6 +18,7 @@ speakers:
   - colby-fayock
   - adrienne-tacke
   - parnab-basak
+  - geetha-anne
   - tbd-moar-serverless
 sessions:
   - moar2022-opening
