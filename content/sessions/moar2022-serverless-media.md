@@ -1,7 +1,7 @@
 ---
 title: Managing Media Without a Server
-date: 2022-08-11T11:55:00-04:00
-end_date: 2022-08-11T12:35:00-04:00
+date: 2022-08-11T15:25:00-04:00
+end_date: 2022-08-11T16:05:00-04:00
 speakers:
   - colby-fayock
 event: moar-serverless-2022

@@ -17,20 +17,21 @@ speakers:
   - gift-egwuenu
   - colby-fayock
   - adrienne-tacke
+  - jonah-andersson
   - parnab-basak
   - geetha-anne
   - tbd-moar-serverless
 sessions:
   - moar2022-opening
   - moar2022-living-on-the-edge
-  - moar2022-serverless-media
+  - moar2022-azure-durable-functions
   - moar2022-session-3
   - moar2022-cloudflare-pages
   - moar2022-aws-serverless
-  - serverless-streaming
+  - moar2022-serverless-streaming
   - moar2022-session-8
-  - moar2022-session-9
-  - past-present-future-serverless
+  - moar2022-serverless-media
+  - moar2022-past-present-future-serverless
   - moar2022-closing
 styles: thejam.css
 ---
