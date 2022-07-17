@@ -27,10 +27,10 @@ sessions:
   - moar2022-session-3
   - moar2022-cloudflare-pages
   - moar2022-aws-serverless
-  - moar2022-session-7
+  - serverless-streaming
   - moar2022-session-8
   - moar2022-session-9
-  - moar2022-session-10
+  - past-present-future-serverless
   - moar2022-closing
 styles: thejam.css
 ---
@@ -106,9 +106,27 @@ We've already got some fantastic speakers and we're just getting started. Moar s
 
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
 
-[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/aaw)
-
-[![Cloudflare](/img/sponsors/cloudflare.png)](https://cloudflare.com)
+<section>
+  <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+    <article class="flex flex-row items-center">
+      <div>
+        <a href="https://cloudinary.rocks/aaw">
+          <img src="/img/sponsors/cloudinary.png" alt="Cloudinary" />
+        </a>
+      </div>
+    </article>
+    <article class="flex flex-row items-center">
+      <div>
+        <a href="https://netlify.com"><img src="/img/sponsors/netlify.png" alt="Netlify"></a>
+      </div>
+    </article>
+    <article class="flex flex-row items-center">
+      <div>
+        <a href="https://cloudflare.com"><img src="/img/sponsors/cloudflare.png" alt="Cloudflare"></a>
+      </div>
+    </article>
+  </div>
+</section>
 
 ## Register {#register}
 
