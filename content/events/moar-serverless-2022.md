@@ -20,7 +20,7 @@ speakers:
   - jonah-andersson
   - parnab-basak
   - geetha-anne
-  - tbd-moar-serverless
+  - ben-read
 sessions:
   - moar2022-opening
   - moar2022-living-on-the-edge
@@ -29,7 +29,7 @@ sessions:
   - moar2022-cloudflare-pages
   - moar2022-aws-serverless
   - moar2022-serverless-streaming
-  - moar2022-session-8
+  - moar2022-serverless-competetive-advantage
   - moar2022-serverless-media
   - moar2022-past-present-future-serverless
   - moar2022-closing
