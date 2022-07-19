@@ -25,7 +25,7 @@ sessions:
   - moar2022-opening
   - moar2022-living-on-the-edge
   - moar2022-azure-durable-functions
-  - moar2022-session-3
+  - moar2022-serverless-idempotency
   - moar2022-cloudflare-pages
   - moar2022-aws-serverless
   - moar2022-serverless-streaming
