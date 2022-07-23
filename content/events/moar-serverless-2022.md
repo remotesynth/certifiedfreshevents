@@ -40,7 +40,7 @@ styles: thejam.css
 
 Join an amazing list of experts to gain insights into how to develop real-world applications that leverage serverless and microservice architectures.
 
-## Why Buy a Ticket?
+## Why Attend?
 
 <div class="container px-6 mx-auto mt-8">
   <div class="grid gap-8 lg:grid-cols-2">
@@ -99,7 +99,7 @@ Join an amazing list of experts to gain insights into how to develop real-world 
 
 ## Speakers {#speakers}
 
-We've already got some fantastic speakers and we're just getting started. Moar speakers being announced soon!
+We've already got some fantastic speakers lined up!
 
 {{< conf-speakers >}}
 
