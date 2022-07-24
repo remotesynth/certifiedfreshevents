@@ -4,10 +4,10 @@ date: 2022-09-13T09:00:00-04:00
 end_date: 2022-09-13T17:00:00-04:00
 days: 1
 cost: 0
-ticket_url: https://moar_serverless.eventbrite.ca
+ticket_url: https://www.crowdcast.io/e/front-end-foxes-day/register
 homepage_banner: FrontEndFoxesDay-090122.jpg
-description: Moar Serverless is a 1-day conference exploring how real-world applications are built leveraging serverless and microservice architectures.
-short_desc: Moar Serverless is a 1-day conference exploring how real-world applications are built leveraging serverless.
+description: Join 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
+short_desc: Join 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
 draft: false
 featured: false
 layout: thejam
@@ -24,12 +24,25 @@ speakers:
   - isabel-costa
   - julia-undeutsch
   - phylis-atieno
+sessions:
+  - fefd2022-tech-career-track-record
+  - fefd2022-effective-developer-portfolio
+  - fefd2022-headless-cms-nextjs
+  - fefd2022-demystifying-accessibility
+  - fefd2022-nevertheless-dont-quit
+  - fefd2022-a11y-myths
+  - fefd2022-non-linear-paths-to-tech
+  - fefd2022-power-of-graphql
+  - fefd2022-semantic-html
+  - fefd2022-contributing-to-open-source
+  - fefd2022-community-as-a-service
+  - fefd2022-github-pages-reimagined
 styles: thejam.css
 ---
 
-## A serverless community conference
+## Front-end Development + Career Development
 
-Join an amazing list of experts to gain insights into how to develop real-world applications that leverage serverless and microservice architectures.
+A free one-day vitual event featuring 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
 
 ## Why Attend?
 
@@ -40,28 +53,14 @@ Join an amazing list of experts to gain insights into how to develop real-world 
       <p><img src="/img/thejam/iconmonstr-idea-7-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">Ideas and inspiration</h4>
       </div>
-      <p class="text-base">Join well-known developers from around the world to explore how real-world applications are built leveraging serverless. Bring cutting-edge techniques back to your team.</p>
-    </article>
-    <article>
-      <div class="flex items-center mb-8">
-      <p><img src="/img/thejam/iconmonstr-rocket-14-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
-      <h4 style="margin-left:.7em">Exciting Programming</h4>
-      </div>
-      <p class="text-base">Hear from the serverless experts from Amazon, Microsoft, Cloudinary and others. Take part in live Q&As and Slack groups.</p>
-    </article>
-    <article>
-      <div class="flex items-center mb-8">
-      <p><img src="/img/thejam/iconmonstr-thumb-15-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
-      <h4 style="margin-left:.7em">Amazing Quality</h4>
-      </div>
-      <p class="text-base">CFE.dev and FITC have been leaders in hosting online conferences that combine live learning with great networking opportunities. Expect top-end production values and content you can trust.</p>
+      <p class="text-base">Accelerate your skills and career by joining women developers from around the world to explore topics in front-end development and career development.</p>
     </article>
     <article>
       <div class="flex items-center mb-8">
       <p><img src="/img/thejam/iconmonstr-friend-3-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">A Sense of Community</h4>
       </div>
-      <p class="text-base">This is a time to make new friends and connect with people you never knew you missed! Relax, share, mix and mingle with like-minded folks throughout the serverless developer community.</p>
+      <p class="text-base">Make new friends and connect with people you miss! Relax, share, mix and mingle with like-minded folks throughout the front-end developer community. Open attendance for all people, regardless of gender</p>
     </article>
   </div>
 </div>
@@ -79,10 +78,14 @@ Join an amazing list of experts to gain insights into how to develop real-world 
 </section>
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/serverless22/register" target="_blank">
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/front-end-foxes-day/register" target="_blank">
  Get Your Free Ticket Today!
 </a>
 </div>
+
+#### In conjuction with Front-end Foxes School
+
+[![Front-end Foxes School](/img/sponsors/front-end-foxes.png)](https://www.frontendfoxes.org/)
 
 ## Speakers {#speakers}
 
@@ -94,15 +97,17 @@ We've already got some fantastic speakers and we're just getting started.
 
 **Front-end Foxes Day is completely free to attend!**
 
-Just register via [Crowdcast](https://www.crowdcast.io/e/serverless22/register).
+Just register via [Crowdcast](https://www.crowdcast.io/e/front-end-foxes-day/register).
 
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/serverless22/register" target="_blank">
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/front-end-foxes-day/register" target="_blank">
 Register for free today!
 </a>
 
 ## Schedule {#schedule}
 
-Front-end Foxes Day will feature a full day of sessions running from 9am ET (GMT -4) until 5pm ET. We're still finalizing our schedule with more session details coming soon!
+Front-end Foxes Day will feature a full day of sessions running from 9am ET (GMT -4) until 5pm ET. Check out the schedule below!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
