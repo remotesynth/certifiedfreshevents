@@ -2,7 +2,7 @@
 title: Ifeoma Nwosu
 date: 2019-07-24T18:52:51-04:00
 speaker_image: IfeomaNwosu.jpg
-job_title: Software Engineer at Kuda
+job_title: Software Engineer
 twitter: Ifeoma__N
 draft: false
 ---
