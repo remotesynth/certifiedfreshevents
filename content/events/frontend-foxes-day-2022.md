@@ -42,7 +42,7 @@ styles: thejam.css
 
 ## Front-end Development + Career Development
 
-A free one-day vitual event featuring 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
+A free one-day virtual event featuring 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
 
 ## Why Attend?
 

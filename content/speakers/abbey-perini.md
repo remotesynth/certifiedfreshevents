@@ -8,4 +8,4 @@ website: https://abbeyperini.dev/
 draft: false
 ---
 
-Abbey is a full-stack web developer out of Atlanta, GA with way too many hobbies. You can read more about her and her work at abbeyperini.dev.
+Abbey Perini is many things - a metro Atlanta native, a person of many hobbies, and a full-stack web developer. She loves blogging about fun and useful things about programming. You can find her work and ways to connect with her at [abbeyperini.dev](https://abbeyperini.dev).

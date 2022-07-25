@@ -11,4 +11,4 @@ categories:
 draft: false
 ---
 
-Details coming soon.
+Abbey will cover how to leverage HTML to do your work for you, including making your page much more accessible. It'll touch on everything from initial set up and SEO to sectioning your page so it makes sense to a screen reader. Finally, we'll discuss some really hardworking elements. For instance, did you know the `<input>` type attribute has 21 possible values?
