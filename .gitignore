@@ -6,3 +6,6 @@ Thumbs.db
 resources/
 .env
 .prettierrc
+
+# Local Netlify folder
+.netlify
