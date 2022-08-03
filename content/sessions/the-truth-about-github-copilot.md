@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-truth-about-github
-    start_time: "00:00"
+    start_time: "05:13"
+  youtube:
+    url: https://youtu.be/CuQSoHbOpTQ
+    length: "33:39"
 categories:
   - stuff
 draft: false
