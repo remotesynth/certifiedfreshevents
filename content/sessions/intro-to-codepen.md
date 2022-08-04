@@ -5,14 +5,13 @@ speakers:
   - chris-coyier
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/tools-for-the-modern-web
-      start_time: 04:08
+    url: https://www.crowdcast.io/e/tools-for-the-modern-web
+    start_time: 04:08
   vimeo:
-      url: https://vimeo.com/428605202
-      length: "25:27"
+    url: https://vimeo.com/428605202
+    length: "25:27"
 categories:
   - webdev
-featured: true
 draft: false
 ---
 

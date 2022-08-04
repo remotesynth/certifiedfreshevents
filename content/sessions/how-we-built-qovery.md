@@ -13,7 +13,6 @@ recordings:
 categories:
   - webdev
 draft: false
-featured: true
 ---
 
 In this talk, I will share my experience in building Qovery for the 2 last years - a platform that empowers developers to deploy their applications on AWS, Digital Ocean, and all the other cloud service providers.

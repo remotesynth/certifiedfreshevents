@@ -13,6 +13,7 @@ speakers:
   - jarel-fryer
 categories:
   - webdev
+featured: true
 draft: false
 ---
 

@@ -12,6 +12,7 @@ recordings:
     length: "48:33"
 categories:
   - webdev
+featured: true
 draft: false
 ---
 

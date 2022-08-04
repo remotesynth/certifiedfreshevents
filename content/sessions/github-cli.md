@@ -12,7 +12,6 @@ recordings:
     length: "40:55"
 categories:
   - devops
-featured: true
 draft: false
 ---
 

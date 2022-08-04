@@ -13,6 +13,7 @@ recordings:
 categories:
   - webdev
 draft: false
+featured: true
 ---
 
 Many of the applications we build today could be considered part of the Jamstack. But where do relational databases fit in? In this talk, we will explore how relational databases fit into our Jamstack applications, different database use cases, and dive into some of the misconceptions about databases in the Jamstack. For example, doesn't the "A" in Jamstack mean that everything needs an API? We will also cover Jamstack database requirements, how to get started, and learn more about serverless databases.

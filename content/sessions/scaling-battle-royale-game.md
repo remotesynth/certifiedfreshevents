@@ -2,17 +2,16 @@
 title: "Scaling a Live Battle Royale Game With No Budget"
 date: 2020-07-31T12:00:00-04:00
 speakers:
-    - em-lazer-walker
+  - em-lazer-walker
 recordings:
-    crowdcast:
-      url: https://www.crowdcast.io/e/scaling-a-live-battle
-      start_time: "04:07"
-    vimeo:
-      url: https://vimeo.com/447357320
-      length: "28:12"
+  crowdcast:
+    url: https://www.crowdcast.io/e/scaling-a-live-battle
+    start_time: "04:07"
+  vimeo:
+    url: https://vimeo.com/447357320
+    length: "28:12"
 categories:
   - stuff
-featured: true
 draft: false
 ---
 

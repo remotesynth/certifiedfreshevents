@@ -13,6 +13,7 @@ recordings:
 categories:
   - webdev
 draft: false
+featured: true
 ---
 
 We write tests to give us confidence that things won’t break and to save time. But it takes time to write tests. How does that save time? When you use the JavaScript testing framework Cypress, you’ve got the Swiss Army Knife of end-to-end testing. Cypress has bundled together the tools you need to get up and testing fast.
