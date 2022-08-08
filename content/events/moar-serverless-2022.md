@@ -27,6 +27,7 @@ sessions:
   - moar2022-azure-durable-functions
   - moar2022-serverless-idempotency
   - moar2022-cloudflare-pages
+  - moar2022-netlify-live-ama
   - moar2022-aws-serverless
   - moar2022-serverless-streaming
   - moar2022-serverless-competetive-advantage
