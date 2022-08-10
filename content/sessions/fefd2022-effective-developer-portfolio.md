@@ -11,4 +11,8 @@ categories:
 draft: false
 ---
 
-Details coming soon.
+How do you build an online portfolio? In this talk, you’ll walk away with actionable tips and a bucketload of inspiration to get you started! We’ll cover:
+
+- What’s a portfolio & do you really need one?
+- Three must-haves employers and recruiters are looking for
+- Tips to stand-out & other ways of showcasing your work
