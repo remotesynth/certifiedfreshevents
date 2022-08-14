@@ -6,7 +6,11 @@ speakers:
   - jeremy-daly
 event: moar-serverless-2022
 categories:
-  - webdev
+  - software
+recordings:
+  youtube:
+    url: https://youtu.be/Nwg0T39Lrxc
+    length: "49:06"
 draft: false
 ---
 

@@ -6,7 +6,11 @@ speakers:
   - ben-read
 event: moar-serverless-2022
 categories:
-  - webdev
+  - software
+recordings:
+  youtube:
+    url: https://youtu.be/S3fqGuzpgMg
+    length: "09:00"
 draft: false
 ---
 

@@ -11,4 +11,4 @@ categories:
 draft: false
 ---
 
-Details coming soon.
+The tech journey seems to be challenging. In this section, I will be providing helpful tips on how to learn, build and maintain a successful career in tech. How to stand out, be excellent and grow rapidly in your journey.

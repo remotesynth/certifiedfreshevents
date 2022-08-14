@@ -6,7 +6,11 @@ speakers:
   - adrienne-tacke
 event: moar-serverless-2022
 categories:
-  - webdev
+  - software
+recordings:
+  youtube:
+    url: https://youtu.be/X24mIe0LrgM
+    length: "38:21"
 draft: false
 ---
 

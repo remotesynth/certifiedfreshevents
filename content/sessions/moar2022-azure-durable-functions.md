@@ -6,7 +6,11 @@ speakers:
   - jonah-andersson
 event: moar-serverless-2022
 categories:
-  - webdev
+  - software
+recordings:
+  youtube:
+    url: https://youtu.be/pS1DfzvV6IY
+    length: "38:14"
 draft: false
 ---
 

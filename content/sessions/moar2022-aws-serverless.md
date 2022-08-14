@@ -7,6 +7,10 @@ speakers:
 event: moar-serverless-2022
 categories:
   - software
+recordings:
+  youtube:
+    url: https://youtu.be/cnuUQvTgEYY
+    length: "10:05"
 draft: false
 ---
 
