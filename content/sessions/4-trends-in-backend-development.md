@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/4-trends-in-backend
-    start_time: "00:00"
+    start_time: "05:46"
+  youtube:
+    url: https://youtu.be/Z3RlhmZuh5M
+    length: "58:02"
 categories:
   - software
 draft: false

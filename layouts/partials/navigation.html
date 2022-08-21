@@ -104,6 +104,8 @@
           */}}
         </ul>
       </li>
+      {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "talkshows") ".Date" "ge" now }}
+      {{ if len $upcoming }}
       <li class="relative text-center has-menu lg:text-left">
         <a
           href="/talkshows/"
@@ -117,19 +119,27 @@
         <!-- Meetups Sub-Nav -->
         <ul
           class="space-y-6 menu menu-meetups">
-          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "talkshows") ".Date" "ge" now }}
-          {{ range $upcoming }}
-            <li>
-              <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
-                <span class="block text-lg font-medium">{{ .Title }}</span>
-                <time class="text-sm text-gray-700">
-                  {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
-                </time>
-              </a>
-            </li>
-          {{ end }}
+            {{ range $upcoming }}
+              <li>
+                <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
+                  <span class="block text-lg font-medium">{{ .Title }}</span>
+                  <time class="text-sm text-gray-700">
+                    {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
+                  </time>
+                </a>
+              </li>
+            {{ end }}
         </ul>
       </li>
+      {{ else }}
+      <li class="text-center lg:text-left">
+        <a
+          href="/talkshows/"
+          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
+          Talk&nbsp;Shows
+        </a>
+      </li>
+      {{ end }}
       <li class="text-center lg:text-left">
         <a
           href="/speakers/"
