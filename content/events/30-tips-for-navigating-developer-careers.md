@@ -1,5 +1,5 @@
 ---
-title: 30 Tips for Navigating Your Devloper Career
+title: 30 Tips for Navigating Your Developer Career
 date: 2022-09-22T13:00:00-04:00
 end_date: 2022-09-22T14:00:00-04:00
 cost: 0
