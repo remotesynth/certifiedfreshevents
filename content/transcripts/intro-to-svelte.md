@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# Svelte
-
 **Brittney Postma:** [00:00:00] Welcome everyone. This is starting with Svelte. My name is Brittany Postma. I'm a developer experience engineer at Netlify where I get to do all sorts of fun content like this. I also create content with coding, cat.dev. We do a stream cast called perfect.dev, and we're starting a weekly code with coding cat session on Fridays.
 
 I'm really excited about. I also cohost two other podcasts. I know it's crazy how much I do remotely interesting and Svelte radio. And I'm also the founder of the Svelte sirens. It's the first group of the Svelte in the Svelte community for women, non-binary people and allies to learn, build, and teach about Svelte.
