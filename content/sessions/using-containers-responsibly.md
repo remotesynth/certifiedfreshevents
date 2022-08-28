@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/using-containers
-    start_time: "00:00"
+    start_time: "04:58"
+  youtube:
+    url: https://youtu.be/A1H7p6jqdGY
+    length: "56:12"
 categories:
   - devops
 draft: false
