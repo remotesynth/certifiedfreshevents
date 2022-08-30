@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# Azure Functions
-
 **Gwyneth Pena-Siguenza:** [00:00:00] Hi everyone. Thank you for joining us here at more serverless. My name is Gweneth Panza by day. I'm a cloud at Microsoft and by night, I like to consider myself a YouTuber over the next 30 minutes or so. I've got an Azure functions crash course for you. And my goal with this talk slash demo is to kickstart your Azure function.
 
 Journey. We've got a little picture of me and obviously my face is here. I'll have some resources and some next steps in the social media. So you can ask me any questions towards the end of the demo. Okay. So let's start off with what is Azure functions? What is serverless? Microsoft docs tells us that Azure functions is a serverless solution that allows you to write less code, maintain less infrastructure and save on costs.

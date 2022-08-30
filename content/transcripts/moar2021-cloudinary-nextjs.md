@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# Serverless Cloudinary
-
 **Domitrius Clark:** [00:00:00] Thank you. Thank you so much. First of all, thank y'all so much for being here. I'm super excited to get into some next JS and serverless today and just be here, live with y'all. I think that's like such a, an important part of the puzzle for me. Let's let's just dive right.
 
 Cool. So today we're gonna be doing some serverless cloud area with next JS. We're gonna be dealing with dynamic API dynamic API routes, setting up the custom dynamic OG images through those routes and dealing with a little bit of upload inside of the serverless. For those who don't know, we just got a little bit of an intro introduction.

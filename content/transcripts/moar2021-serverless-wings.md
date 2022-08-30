@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# Serverless Wings
-
 **Obinna Ekwuno:** [00:00:00] Hey there. I know you might be wondering why you have a gift of Ironman flying across your screen, but this is a visual representation of how I feel. Every time I launch a server less function that does a particular. So today we're going to be talking about serverless and how it gives you wings. And the other side note is a question I always ask myself, like, where do all the functions go?
 
 Like after we hit deploy, what happens to them? How are they optimized for us? But I have 10 minutes, so let's make the most out of it. My name is Obina Ikuno. I'm a developer advocate at CloudFlare and you can find me on Twitter at speaks. I also do. I also function as a technical editor at the list. So this is a tale of two developers.

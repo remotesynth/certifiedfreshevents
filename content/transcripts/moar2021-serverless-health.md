@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# Serverless Human Health
-
 **Denis Bauer:** [00:00:00] Hello, everyone. It's fantastic to be here with you today at more servers. My name is Dr. Dennis Bower I'm and the research scientist professor at an Australian university and an AWS. And today I want to talk to you about how we're using serverless in order to tackle human health problems. By the end of the talk, I hope that I have convinced you that other than the usual arguments for serverless, like being scalable and being cheap, serverless has other benefits as well.
 
 We can develop solutions much faster. We can cater for global. And we can democratize access to quality solutions. And I want to convince you by telling you three stories [00:01:00] about three application cases, the first one is around how we're using serverless as a modular toolbox, where we bring in the right analysis technology in order to answer scientific questions, which helps us stay ahead of the pandemic.
