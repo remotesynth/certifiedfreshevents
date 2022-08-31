@@ -5,7 +5,7 @@ speaker_image: JuliaUndeutsch.jpg
 job_title: Software Developer at Atos
 twitter: YuriDevAT
 github: YuriDevAT
-website: https://yuridevat.mailchimpsites.com/
+website: http://yuriscodingclub.com/
 draft: false
 ---
 
