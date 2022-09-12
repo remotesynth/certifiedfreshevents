@@ -29,12 +29,12 @@ sessions:
   - fefd2022-effective-developer-portfolio
   - fefd2022-headless-cms-nextjs
   - fefd2022-demystifying-accessibility
-  - fefd2022-nevertheless-dont-quit
+  - fefd2022-contributing-to-open-source
   - fefd2022-a11y-myths
   - fefd2022-non-linear-paths-to-tech
   - fefd2022-power-of-graphql
   - fefd2022-semantic-html
-  - fefd2022-contributing-to-open-source
+  - fefd2022-nevertheless-dont-quit
   - fefd2022-community-as-a-service
   - fefd2022-github-pages-reimagined
 styles: thejam.css

@@ -7,4 +7,4 @@ twitter: ___leria
 draft: false
 ---
 
-Phylis is am an Open-source and Cloud advocate with experience in software development and a lover of tech communities.
+Phylis is an Open-source and Cloud advocate with experience in software development and a lover of tech communities.
