@@ -8,7 +8,11 @@ recordings:
 event: frontend-foxes-day-2022
 categories:
   - culture
+recordings:
+  youtube:
+    url: https://youtu.be/RkoHkDnGfpY
+    length: "04:59"
 draft: false
 ---
 
-Details coming soon.
+Community gives you a platform to grow in your career. In this session, Phylis shares from her experience how you can take advantage of the opportunities that getting involved in the developer community can offer you.

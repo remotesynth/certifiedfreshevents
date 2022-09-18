@@ -8,6 +8,10 @@ recordings:
 event: frontend-foxes-day-2022
 categories:
   - culture
+recordings:
+  youtube:
+    url: https://youtu.be/1bptTD52COk
+    length: "32:25"
 draft: false
 ---
 

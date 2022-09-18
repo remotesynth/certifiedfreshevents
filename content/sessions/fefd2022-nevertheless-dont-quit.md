@@ -8,7 +8,11 @@ recordings:
 event: frontend-foxes-day-2022
 categories:
   - culture
+recordings:
+  youtube:
+    url: https://youtu.be/9UV9Mqy6FOM
+    length: "12:27"
 draft: false
 ---
 
-Details coming soon.
+There may be many obstacles and challenges that you may face as a woman in tech, but Mónica shares her experiences to help you navigate these.

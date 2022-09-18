@@ -8,7 +8,19 @@ recordings:
 event: frontend-foxes-day-2022
 categories:
   - webdev
+recordings:
+  youtube:
+    url: https://youtu.be/9goOuRJMEHY
+    length: "28:57"
 draft: false
 ---
 
-Details coming soon.
+This talk looks at:
+
+- What accessibility is and why you should care.
+- Debunking common accessibility myths like:
+  - Accessibility only benefits a small minorty.
+  - Automated testing is enough.
+  - Accessibility is a short term project.
+  - Accessibility is hard and expensive.
+  - Accessibility is ugly.

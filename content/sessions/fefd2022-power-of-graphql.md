@@ -8,7 +8,11 @@ recordings:
 event: frontend-foxes-day-2022
 categories:
   - webdev
+recordings:
+  youtube:
+    url: https://youtu.be/Rm3pzv602C8
+    length: "22:42"
 draft: false
 ---
 
-Details coming soon.
+What is GraphQL and how does it compare with other technologies like REST? This talk gives you the background you need to understand when using GraphQL can be helpful and when it may not be the best fit.
