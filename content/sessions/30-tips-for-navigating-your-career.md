@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/30-tips-for-navigating
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/_06XiPWCjPg
+    length: "51:59"
 categories:
   - culture
 draft: false
