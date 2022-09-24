@@ -96,6 +96,14 @@
         {{ partial "speaker-card.html" .}}
       {{end}}
     </div>
+    {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
+    
+    {{ with $transcript }}
+    <div class="mt-10 content">
+      <h2>Transcript</h2>
+      {{.Content}}
+    </div>
+    {{ end }}
   </div>
 </main>
 {{ end }}

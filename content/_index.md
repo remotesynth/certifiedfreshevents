@@ -1,10 +1,11 @@
 ---
-title: "Virtual meetups and conferences for developers"
+title: "Virtual meetups, workshops and conferences for developers"
 featured_speakers:
-  - chris-coyier
+  - bekah-hawrot-wiegel
   - andrea-griffiths
   - brian-douglas
   - gift-egwuenu
   - cassidy-williams
   - stephanie-stimac
+  - james-quick
 ---

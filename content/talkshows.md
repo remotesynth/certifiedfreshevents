@@ -11,7 +11,7 @@ draft: false
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Upcoming Talk Shows</h1>
       <p class="max-w-3xl text-xl">
-        Join Sean C. Davis for <strong>Code Sandwich Hour</strong>, a live talk show where you'll meet prominent members of the developer community and learn more about them and what they're working on these days.
+        Join Sean C. Davis for <strong>Code Sandwich Hour</strong>, a live talk show where you'll meet prominent members of the developer community and learn more about them and what they're working on these days. Can't make it live? Watch the recordings below or <a href="https://codesandwichhour.buzzsprout.com/" style="text-decoration:underline">listen to the podcast</a>.
       </p>
     </header>
   </div>
