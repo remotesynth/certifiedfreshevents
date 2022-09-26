@@ -6,8 +6,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/managing-remote-state-in
     start_time: "04:40"
-  vimeo:
-    url: https://vimeo.com/674140322
+  youtube:
+    url: https://youtu.be/YnwX4kn8nU0
     length: "38:25"
 speakers:
   - jarel-fryer
