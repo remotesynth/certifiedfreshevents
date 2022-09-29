@@ -7,15 +7,12 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/working-with-documents
     start_time: "03:16"
-  vimeo:
-    url: https://vimeo.com/594716532
+  youtube:
+    url: https://youtu.be/DS7vB9V9E0g
     length: "59:23"
 categories:
   - webdev
 draft: false
 ---
 
-A look at how to use the free Adobe PDF Embed API makes it easier to
-use PDFs in your web site. I'll demonstrate how to use it, the various
-ways you can control the user interface of the PDF, and how to listen
-for events so you can track usage and other analytics for PDFs.
+A look at how to use the free Adobe PDF Embed API makes it easier to use PDFs in your web site. I'll demonstrate how to use it, the various ways you can control the user interface of the PDF, and how to listen for events so you can track usage and other analytics for PDFs.

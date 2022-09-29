@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/better-video-on-the-web
     start_time: "03:37"
-  vimeo:
-    url: https://vimeo.com/594693728
+  youtube:
+    url: https://youtu.be/Yaiorua8edA
     length: "54:46"
 categories:
   - stuff
