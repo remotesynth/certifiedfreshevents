@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/running-developer
-    start_time: "00:00"
+    start_time: "05:40"
+  youtube:
+    url: https://youtu.be/SlpQrRXuq_w
+    length: "1:41:46"
 categories:
   - culture
 draft: false
