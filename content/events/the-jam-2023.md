@@ -21,7 +21,7 @@ styles: thejam.css
 
 ## Jamstack, web development, serverless and more!
 
-Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. Don't worry, we've got you covered!
+Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. Dnpm ruon't worry, we've got you covered!
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev23" target="_blank">
@@ -120,7 +120,7 @@ Registration is FREE. Just sign up via [Crowdcast](https://www.crowdcast.io/e/ja
 
 ## Schedule {#schedule}
 
-TheJam.dev will feature 2 full days of sessions in a single track format. Details to be announced soon!
+TheJam.dev will feature 2 full days of sessions in a single track format. Session and schedule details to be announced soon!
 
 ## Code of Conduct {#coc}
 
