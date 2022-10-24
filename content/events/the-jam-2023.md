@@ -21,7 +21,7 @@ styles: thejam.css
 
 ## Jamstack, web development, serverless and more!
 
-Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. But, don't worry, we've got you covered!
+Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. Don't worry, we've got you covered!
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev23" target="_blank">
