@@ -12,4 +12,4 @@ recordings:
 draft: false
 ---
 
-In this episode, Sean C. Davis interviews Knut Melvær, who leads developer relations at Sanity.io, about Jamstack, headless CMSs and more.
+In this episode, Sean C. Davis interviews Knut Melvær, who leads developer relations at Sanity.io, about Jamstack, headless CMSs, future of Markdown and more.
