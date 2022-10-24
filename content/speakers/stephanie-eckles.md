@@ -9,4 +9,4 @@ website: https://thinkdobecreate.com/
 draft: false
 ---
 
-Stephanie is a front-end focused Software Engineer at Microsoft, [publishing a video series for beginner developers](https://learnfromsteph.dev/), author of [ModernCSS.dev](https://moderncss.dev/), creator of the CSS community project [Style Stage](https://stylestage.dev/), and an [egghead instructor](https://egghead.io/instructors/stephanie-eckles?af=2s65ms).
+Stephanie is a front-end focused Software Engineer at Microsoft who enjoys the jamstack and thinks [11ty Rocks](https://11ty.rocks/). She's also the author of [ModernCSS.dev](https://moderncss.dev/), creator of the CSS community project [Style Stage](https://stylestage.dev/), and an [egghead instructor](https://egghead.io/instructors/stephanie-eckles?af=2s65ms).
