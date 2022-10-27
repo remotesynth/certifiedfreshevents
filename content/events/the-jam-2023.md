@@ -5,7 +5,7 @@ end_date: 2023-01-26T17:00:00-05:00
 days: 2
 cost: 0
 ticket_url: https://thejamdev.eventbrite.ca/
-homepage_banner: TheJamDev2023.jpg
+homepage_banner: JamDev-012523.png
 description: TheJam.dev is a 2-day virtual conference focused on how to build modern web applications using Jamstack, serverless and more.
 short_desc: TheJam.dev is a 2-day virtual conference focused on how to build modern web applications using Jamstack, serverless and more
 draft: false
