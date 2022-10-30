@@ -1,10 +1,8 @@
-\_build:
-list: false
-render: never
-
 ---
-
-# releasing_in_secret_with_feature_flags (1080p)
+_build:
+  list: false
+  render: never
+---
 
 **Kathleen McMahon:** [00:00:00] Welcome everyone. I'm Kathleen McMahon and this is for, And we are here today to show you how we rolled out a rebrand in secret using feature flags. Before we begin, let's get some details out of the way. You are just killing me, dude. , for those who like to follow along my presentation. We'll be posted on noticed.
 

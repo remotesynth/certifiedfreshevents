@@ -1,14 +1,17 @@
 ---
 title: Building a multi-tenant SaaS solution on AWS
-date: 2022-02-10T13:00:00-05:00
+date: 2022-10-27T13:00:00-04:00
 speakers:
   - anubhav-sharma
 categories:
-  - software
+  - devops
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/building-multi-tenant
-    start_time: "00:00"
+    start_time: "05:00"
+  youtube:
+    url: https://youtu.be/zf8gcvbnsKg
+    length: "53:27"
 draft: false
 featured: true
 ---
