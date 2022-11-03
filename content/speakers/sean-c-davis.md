@@ -1,5 +1,5 @@
 ---
-title: "Sean C. Davis"
+title: "Sean C Davis"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: sean-c-davis.jpg
 job_title:
