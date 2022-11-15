@@ -6,9 +6,13 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/server-side-rendering
-    start_time: "00:00"
+    start_time: "06:07"
+  youtube:
+    url: https://youtu.be/hb7TYoc0etk
+    length: "48:36"
 categories:
   - webdev
+  - javascript
 draft: false
 ---
 
