@@ -1,7 +1,7 @@
 ---
 title: "The Best JavaScript Framework with Salma Alam-Naylor"
 date: 2022-12-15T13:00:00-04:00
-homepage_banner: uptime-stephanie-eckles.png
+# homepage_banner: uptime-stephanie-eckles.png
 host: sean-c-davis
 speakers:
   - salma-alam-naylor
@@ -9,7 +9,7 @@ speakers:
 #   youtube:
 #     url: https://youtu.be/MNiRcWBCxkg
 #     length: "00:00"
-draft: false
+draft: true
 ---
 
 You're ready to build your next project for the web, but how do you go about choosing the right JavaScript framework?
