@@ -15,6 +15,7 @@ speakers:
   - stephanie-eckles
   - colby-fayock
   - natalia-venditto
+  - henri-helvetica
   - tbd-moar-serverless
 styles: thejam.css
 ---

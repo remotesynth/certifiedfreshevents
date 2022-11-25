@@ -2,9 +2,9 @@
 title: "Henri Helvetica"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: HenriHelvetica.jpg
-job_title:  Freelance Developer
+job_title:  Software Engineer at Catchpoint Systems
 twitter: HenriHelvetica
 draft: false
 ---
 
-Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience. When not reading the deluge of daily research docs and case studies, or indiscriminately auditing sites in devtools, Henri can be found contributing back to the community, co-programming meetups including the Toronto Web Performance Group or volunteering his time for lunch and learns at various bootcamps. Otherwise, he’s riding track bikes, tooling with music production software or more recently, focusing on the fastest 5k possible.
+Henri is a developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience, which led to his joining Catchpoint Systems on the WebPageTest Team. When not reading the deluge of daily research docs and case studies, or profiling sites in his favourite tools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps. Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
