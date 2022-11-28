@@ -16,6 +16,7 @@ speakers:
   - colby-fayock
   - natalia-venditto
   - henri-helvetica
+  - luis-ball
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -96,8 +97,16 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
     <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
+                <a href="https://imgix.com/"><img src="https://d33wubrfki0l68.cloudfront.net/6d76c812b4b8b4f1d974c6409964ae40614451f7/2c48d/img/sponsors/imgix.png" alt="Imgix"></a>
+            </div>
+        </article>
+    </div>
+    <h3 id="sponsors-1" class="mb-6">Sponsors</h3>
+    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
                 <a href="https://cloudinary.com/">
-                    <img src="/img/sponsors/cloudinary.png" alt="Cloudinary" />
+                    <img src="/img/sponsors/Cloudinary.png" alt="Cloudinary" />
                 </a>
             </div>
         </article>
