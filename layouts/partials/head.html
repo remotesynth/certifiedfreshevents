@@ -2,9 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ .Page.Title }} / {{ .Site.Title }}</title>
+  {{ if eq .Page.Type "speakers" }}
+	<meta
+	name="description"
+	content="{{substr .Content 0 155 | plainify}}" />
+  {{ else }}
 	<meta
     name="description"
     content="{{ if and (.IsPage) (ne .Page.Description "")}}{{ .Page.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+  {{ end }}
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
