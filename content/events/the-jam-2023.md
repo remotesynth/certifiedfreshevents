@@ -13,6 +13,7 @@ featured: false
 layout: thejam
 speakers:
   - stephanie-eckles
+  - ryan-carniato
   - colby-fayock
   - natalia-venditto
   - henri-helvetica
