@@ -3,6 +3,7 @@ title: "Hiro Nishimura"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: hiro-nishimura.jpg
 job_title: Founder of AWSnewbies.com
+mastodon: https://mastodon.social/@hiroko
 twitter: hirokonishimura
 website: https://hiroko.io/
 draft: false

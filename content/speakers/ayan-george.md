@@ -3,6 +3,7 @@ title: "Ayan George"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ayangeorge.jpg
 job_title:  Organizer of Orlando Go
+mastodon: https://fosstodon.org/@ayan
 twitter: AyanGeorge
 github: ayang64
 draft: false

@@ -3,6 +3,7 @@ title: "Raymond Camden"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: raymondcamden.jpg
 job_title:  Senior Developer Evangelist at Adobe
+mastodon: https://mastodon.social/@raymondcamden
 twitter: raymondcamden
 github: cfjedimaster
 website: https://www.raymondcamden.com

@@ -2,7 +2,8 @@
 title: Domitrius Clark
 date: 2019-07-24T18:52:51-04:00
 speaker_image: domitriusclark.jpg
-job_title:  Developer Experience Engineer at Cloudinary
+job_title:  Developer Experience Engineer at Netlify
+mastodon: https://birdsite.blazelight.dev/users/domitriusclark
 twitter: domitriusclark
 github: domitriusclark
 website: https://domitrius.dev/

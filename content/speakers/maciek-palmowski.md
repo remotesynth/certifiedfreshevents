@@ -3,6 +3,7 @@ title: Maciek Palmowski
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MaciekPalmowski.jpg
 job_title: WordPress Ambassador at Buddy
+mastodon: https://mas.to/@palmiak
 twitter: palmiak_fp
 website: https://maciejpalmowski.dev/
 draft: false

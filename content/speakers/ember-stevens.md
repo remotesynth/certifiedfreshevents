@@ -3,6 +3,7 @@ title: Ember Stevens
 date: 2022-11-22T00:00:00-04:00
 speaker_image: EmberStevens.png
 job_title: Technical Writer at LaunchDarkly
+mastodon: https://hachyderm.io/@EmberStevens
 twitter: ember_stevens
 draft: false
 ---

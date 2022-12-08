@@ -87,7 +87,7 @@
     <div class="lg:w-1/2">
       <div class="carousel">
         <div class="carousel-list">
-          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <div class="carousel-item">
               {{ partial "meetup-card.html" . }}

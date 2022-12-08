@@ -3,6 +3,7 @@ title: Taylor Barnett
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TaylorBarnett.jpg
 job_title: Developer Advocate at PlanetScale
+mastodon: https://hachyderm.io/@taylor_atx
 twitter: taylor_atx
 github: tbarn
 website: https://taylorbar.net/

@@ -3,6 +3,7 @@ title: Brittney Postma
 date: 2019-07-24T18:52:51-04:00
 speaker_image: BrittneyPostma.jpg
 job_title: Developer Experience Engineer at Netlify
+mastodon: https://front-end.social/@brittneypostma
 twitter: BrittneyPostma
 github: brittneypostma
 website: https://brittneypostma.com/

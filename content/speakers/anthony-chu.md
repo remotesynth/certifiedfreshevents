@@ -3,6 +3,7 @@ title: Anthony Chu
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AnthonyChu.jpg
 job_title: Program Manager at Microsoft
+mastodon: https://hachyderm.io/@anthonychu
 twitter: nthonychu
 website: https://anthonychu.ca/
 github: anthonychu

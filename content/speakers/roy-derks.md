@@ -3,6 +3,7 @@ title: Roy Derks
 date: 2019-07-24T18:52:51-04:00
 speaker_image: royderks.jpg
 job_title: Developer Advocate at StepZen
+mastodon: https://birdsite.blazelight.dev/users/gethackteam
 twitter: gethackteam
 github: royderks
 draft: false

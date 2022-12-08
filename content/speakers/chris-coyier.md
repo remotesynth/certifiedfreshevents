@@ -3,6 +3,7 @@ title: "Chris Coyier"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: chriscoyier.jpg
 job_title:  Founder at CSS Tricks
+mastodon: https://front-end.social/@chriscoyier
 twitter: chriscoyier
 github: chriscoyier
 website: https://css-tricks.com/

@@ -3,6 +3,7 @@ title: Ryan Carniato
 date: 2019-07-24T18:52:51-04:00
 speaker_image: RyanCarniato.png
 job_title: Principal Engineer, Open Source, at Netlify
+mastodon: https://birdsite.blazelight.dev/users/ryancarniato
 twitter: RyanCarniato
 github: ryansolid
 draft: false

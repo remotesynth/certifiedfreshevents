@@ -2,7 +2,8 @@
 title: Charlie Gerard
 date: 2019-07-24T18:52:51-04:00
 speaker_image: CharlieGerard.jpg
-job_title: Developer Experience Engineer at Netlify
+job_title: Senior Developer Advocate at Stripe
+mastodon: https://hachyderm.io/@devdevcharlie
 twitter: devdevcharlie
 website: https://www.adamlamarre.com/
 github: charliegerard

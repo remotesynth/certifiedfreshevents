@@ -2,7 +2,8 @@
 title: Bryan Robinson
 date: 2019-07-24T18:52:51-04:00
 speaker_image: bryanrobinson.jpg
-job_title: Senior Developer Advocate at Orbit.love
+job_title: Head of Developer Advocacy at Hygraph
+mastodon: https://hachyderm.io/@brob
 twitter: brob
 github: brob
 website: https://bryanlrobinson.com/

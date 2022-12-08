@@ -2,7 +2,8 @@
 title: Simona Cotin
 date: 2019-07-24T18:52:51-04:00
 speaker_image: SimonaCotin.jpg
-job_title: Principal Product Manager at Microsoft
+job_title: Engineering Manager at Google
+mastodon: https://hachyderm.io/@simona
 twitter: simona_cotin
 github: simonaco
 draft: false

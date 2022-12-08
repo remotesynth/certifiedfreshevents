@@ -5,6 +5,7 @@ params:
   description: >-
     CFE.dev offers a large library of recorded sessions on a wide range of development
     & technology topics live as well as interactive virtual meetups featuring the experts.
+  mastodon: https://techhub.social/@cfedev
   twitter: cfe_dev
   instagram: cfe_dev
   youtube: https://www.youtube.com/CertifiedFreshEvents

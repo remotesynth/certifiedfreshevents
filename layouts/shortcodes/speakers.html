@@ -23,6 +23,16 @@
           </a>
 
           <nav class="mt-1 space-x-4">
+            {{ if .Params.mastodon }}
+              <a
+                href="{{ .Params.mastodon }}"
+                class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+                target="_blank">
+                <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/mastodon.svg#mastodon"></use>
+                </svg>
+              </a>
+            {{ end }}
             {{ if .Params.twitter }}
             <a
               href="https://twitter.com/{{ .Params.twitter }}"

@@ -3,6 +3,7 @@ title: "Tammy Everts"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: tammyeverts.jpg
 job_title:  Chief Experience Officer at SpeedCurve
+mastodon: https://webperf.social/@tammy
 twitter: tameverts
 website: https://tammyeverts.wordpress.com/
 draft: false

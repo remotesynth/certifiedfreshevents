@@ -2,7 +2,8 @@
 title: "Jen Looper"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: jenlooper.jpg
-job_title: Cloud Developer Advocate Lead at Microsoft
+job_title: Head of Academic Advocacy at AWS 
+mastodon: https://awscommunity.social/@jlooper
 twitter: jenlooper
 github: jlooper
 website: http://www.jenlooper.com

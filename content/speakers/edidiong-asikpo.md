@@ -3,6 +3,7 @@ title: "Edidiong Asikpo"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: EdidiongAsikpo.jpg
 job_title:  Developer Advocate at HashNode
+mastodon: https://birdsite.blazelight.dev/users/didicodes
 twitter: Didicodes
 github: didicodes
 website: https://edidiongasikpo.com/

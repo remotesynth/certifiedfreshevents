@@ -2,6 +2,7 @@
 title: "Henri Helvetica"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: HenriHelvetica.jpg
+mastodon: https://webperf.social/@henrihelvetica
 job_title:  Software Engineer at Catchpoint Systems
 twitter: HenriHelvetica
 draft: false

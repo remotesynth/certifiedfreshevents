@@ -3,6 +3,7 @@ title: "Em Lazer-Walker"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: emlazerwalker.jpg
 job_title:  Cloud Developer Advocate at Microsoft
+mastodon: https://xoxo.zone/@lazerwalker
 twitter: lazerwalker
 github: lazerwalker
 website: https://lazerwalker.com/

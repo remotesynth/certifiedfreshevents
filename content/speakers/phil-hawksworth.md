@@ -3,6 +3,7 @@ title: "Phil Hawksworth"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: philhawksworth.jpg
 job_title:  Developer Experience Engineer at Netlify
+mastodon: https://indieweb.social/@philhawksworth
 twitter: philhawksworth
 github: philhawksworth
 website: "https://www.hawksworx.com/"

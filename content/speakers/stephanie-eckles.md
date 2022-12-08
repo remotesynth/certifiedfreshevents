@@ -3,6 +3,7 @@ title: Stephanie Eckles
 date: 2019-07-24T18:52:51-04:00
 speaker_image: StephanieEckles.jpg
 job_title:  Software Engineer at Microsoft
+mastodon: https://front-end.social/@5t3ph
 twitter: 5t3ph
 github: 5t3ph
 website: https://thinkdobecreate.com/

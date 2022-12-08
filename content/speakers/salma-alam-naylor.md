@@ -3,6 +3,7 @@ title: Salma Alam-Naylor
 date: 2019-07-24T18:52:51-04:00
 speaker_image: salma-alam-naylor.png
 job_title: Staff Developer Experience Engineer at Netlify
+mastodon: https://indieweb.social/@whitep4nth3r
 twitter: whitep4nth3r
 github: whitep4nth3r
 website: https://whitep4nth3r.com/
