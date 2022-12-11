@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/mission-impossible
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/g7DGD97nPc0
+    length: "53:29"
 categories:
   - webdev
 draft: false
