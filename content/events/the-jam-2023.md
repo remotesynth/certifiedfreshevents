@@ -17,6 +17,8 @@ speakers:
   - colby-fayock
   - natalia-venditto
   - henri-helvetica
+  - raymond-camden
+  - lene-saile
   - luis-ball
   - tbd-moar-serverless
 styles: thejam.css
