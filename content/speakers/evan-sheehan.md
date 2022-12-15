@@ -3,8 +3,7 @@ title: Evan Sheehan
 date: 2022-12-14T00:00:00-04:00
 speaker_image: EmberStevens.png
 job_title: Web Developers, National Oceanic and Atmospheric Administration
-# mastodon: ...
-# twitter: ...
+website: https://darthmall.net/
 draft: false
 ---
 
