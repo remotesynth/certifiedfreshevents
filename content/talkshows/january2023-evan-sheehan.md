@@ -1,5 +1,5 @@
 ---
-title: "Framework Agnostic Web Components"
+title: "Framework Agnostic Web Components with Evan Sheehan"
 date: 2023-01-03T13:00:00-05:00
 homepage_banner: uptime-evan-sheehan.jpg
 host: sean-c-davis
@@ -7,7 +7,7 @@ speakers:
   - evan-sheehan
 recordings:
   youtube:
-    url: https://youtu.be/lCvbEIEUcUM
+    url: https://youtu.be/uaHM-sgnv4s
     length: "00:00"
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Practical Testing for the Modern Website"
+title: "Practical Testing for the Modern Website with Mark Noonan"
 date: 2023-01-17T13:00:00-05:00
 homepage_banner: uptime-mark-noonan.jpg
 host: sean-c-davis
@@ -7,7 +7,7 @@ speakers:
   - mark-noonan
 recordings:
   youtube:
-    url: https://youtu.be/lCvbEIEUcUM
+    url: https://youtu.be/bgs82ItuhmQ
     length: "00:00"
 draft: false
 ---

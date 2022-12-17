@@ -7,7 +7,7 @@ speakers:
   - salma-alam-naylor
 recordings:
   youtube:
-    url: https://youtu.be/z1oJ0RXmrhw
+    url: https://youtu.be/Sd_xs9v4ETE
     length: "00:00"
 draft: false
 ---
