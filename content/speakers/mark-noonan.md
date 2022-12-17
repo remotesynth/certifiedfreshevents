@@ -1,7 +1,7 @@
 ---
 title: Mark Noonan
-date: 2022-12-14T00:00:00-04:00
-speaker_image: EmberStevens.png
+date: 2019-07-24T18:52:51-04:00
+speaker_image: MarkNoonan.png
 job_title: Senior Engineer, Cypress.io
 github: marktnoonan
 twitter: marktnoonan

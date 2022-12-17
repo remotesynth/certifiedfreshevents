@@ -1,7 +1,7 @@
 ---
 title: "Practical Testing for the Modern Website"
 date: 2023-01-17T13:00:00-05:00
-homepage_banner: uptime-ember-stevens.png
+homepage_banner: uptime-mark-noonan.jpg
 host: sean-c-davis
 speakers:
   - mark-noonan
