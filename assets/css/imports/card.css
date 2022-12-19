@@ -38,6 +38,10 @@
   @apply text-xl font-bold leading-tight;
 }
 
+.event-card-content p {
+  @apply mb-3;
+}
+
 .event-card-footer {
   @apply flex items-center;
   @apply mt-4;
