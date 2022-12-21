@@ -1,13 +1,13 @@
 ---
 title: "The Best JavaScript Framework with Salma Alam-Naylor"
-date: 2022-12-15T13:00:00-05:00
+date: 2023-02-21T13:00:00-05:00
 homepage_banner: uptime-salma-naylor.png
 host: sean-c-davis
 speakers:
   - salma-alam-naylor
 recordings:
   youtube:
-    url: https://youtu.be/z1oJ0RXmrhw
+    url: https://youtu.be/Sd_xs9v4ETE
     length: "00:00"
 draft: false
 ---
