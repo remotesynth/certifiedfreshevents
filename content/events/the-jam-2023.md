@@ -18,6 +18,7 @@ speakers:
   - natalia-venditto
   - henri-helvetica
   - raymond-camden
+  - benedicte-raae
   - lene-saile
   - luis-ball
   - tbd-moar-serverless
