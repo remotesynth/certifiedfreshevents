@@ -5,7 +5,6 @@ speaker_image: CharlieGerard.jpg
 job_title: Senior Developer Advocate at Stripe
 mastodon: https://hachyderm.io/@devdevcharlie
 twitter: devdevcharlie
-website: https://www.adamlamarre.com/
 github: charliegerard
 draft: false
 ---

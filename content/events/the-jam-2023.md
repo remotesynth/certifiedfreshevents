@@ -16,11 +16,15 @@ speakers:
   - ryan-carniato
   - colby-fayock
   - natalia-venditto
+  - simon-macdonald
   - henri-helvetica
   - raymond-camden
   - benedicte-raae
   - lene-saile
   - luis-ball
+  - shy-ruparel
+  - thomas-desmond
+  - chris-anderson
   - tbd-moar-serverless
 styles: thejam.css
 ---
@@ -109,6 +113,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
     <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
+                <a href="https://begin.com/"><img src="/img/sponsors/begin.png" alt="Begin"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
                 <a href="https://cloudinary.com/">
                     <img src="/img/sponsors/Cloudinary.png" alt="Cloudinary" />
                 </a>
@@ -116,7 +125,12 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         </article>
         <article class="flex flex-row items-center">
             <div>
-                <a href="https://begin.com/"><img src="/img/sponsors/begin.png" alt="Begin"></a>
+                <a href="https://netlify.com/"><img src="/img/sponsors/netlify.png" alt="Netlify"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://rangle.io/"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
             </div>
         </article>
     </div>
