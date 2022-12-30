@@ -23,6 +23,7 @@ speakers:
   - lene-saile
   - luis-ball
   - shy-ruparel
+  - alicia-rodriguez
   - thomas-desmond
   - chris-anderson
   - tbd-moar-serverless
