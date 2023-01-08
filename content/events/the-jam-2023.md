@@ -25,8 +25,11 @@ speakers:
   - shy-ruparel
   - alicia-rodriguez
   - thomas-desmond
+  - scott-fuller
   - chris-anderson
+  - ifeoma-nwosu
   - tbd-moar-serverless
+
 styles: thejam.css
 ---
 
@@ -131,7 +134,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         </article>
         <article class="flex flex-row items-center">
             <div>
-                <a href="https://rangle.io/"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
+                <a href="https://hubs.li/Q01x6D_20"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
             </div>
         </article>
     </div>
@@ -149,7 +152,9 @@ Registration is FREE. Just sign up via [Crowdcast](https://www.crowdcast.io/e/ja
 
 ## Schedule {#schedule}
 
-TheJam.dev will feature 2 full days of sessions in a single track format. Session and schedule details to be announced soon!
+TheJam.dev will feature 2 full days of sessions in a single track format. Complete session and schedule details to be announced soon!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
