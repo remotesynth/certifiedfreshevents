@@ -2,7 +2,7 @@
 title: Scott Fuller
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ScottFuller.jpg
-job_title: Software developer at Randle.io
+job_title: Software developer at Rangle.io
 github: scottfuller4
 draft: false
 ---
