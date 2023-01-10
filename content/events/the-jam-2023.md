@@ -22,14 +22,35 @@ speakers:
   - benedicte-raae
   - lene-saile
   - luis-ball
+  - salma-alam-naylor
   - shy-ruparel
   - alicia-rodriguez
   - thomas-desmond
   - scott-fuller
   - chris-anderson
   - ifeoma-nwosu
-  - tbd-moar-serverless
-
+  - kevin-lewis
+sessions:
+  - jamdev2023-day1-opening
+  - jamdev2023-day1-session1
+  - jamdev2023-day1-session2
+  - jamdev2023-day1-session3
+  - jamdev2023-rethinking-isomorphic
+  - jamdev2023-eleventy-i18n
+  - jamdev2023-using-your-domain-names
+  - jamdev2023-vercel-edge-middleware
+  - jamdev2023-exploring-next13
+  - jamdev2023-ssr-web-components
+  - jamdev2023-day2-opening
+  - jamdev2023-gatsby-plugins
+  - jamdev2023-optimize-media
+  - jamdev2023-headless-ecommerce
+  - jamdev2023-11ty-membership-site
+  - jamdev2023-day2-session5
+  - jamdev2023-day2-session6
+  - jamdev2023-day2-session7
+  - jamdev2023-day2-session8
+  - jamdev2023-eleventy-webc
 styles: thejam.css
 ---
 
@@ -96,7 +117,7 @@ Edge functions? Islands architecture? New frameworks? There's so many new things
 
 ## Speakers {#speakers}
 
-We're building another amazing lineup of web development, JavaScript, serverless and Jamstack experts!
+We've got another amazing lineup of web development, JavaScript, serverless and Jamstack experts!
 
 {{< conf-speakers >}}
 

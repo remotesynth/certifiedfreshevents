@@ -10,4 +10,4 @@ website: https://shy.dev/
 draft: false
 ---
 
-Shy Ruparel is a Python developer by heart with a passion for day long board games, good jokes and the staying power to wish you a great day on Twitter every single day.  for the bio. Developer Evangelist at superblocks is my title.
+Shy Ruparel is a Python developer by heart with a passion for day long board games, good jokes and the staying power to wish you a great day on Twitter every single day.  for the bio.

@@ -24,16 +24,15 @@
           </a>
 
           <nav class="mt-1 space-x-4">
-            {{ if .Params.twitter }}
-            <a
-              href="https://twitter.com/{{ .Params.twitter }}"
-              class="inline-block p-2 -ml-2 text-blue anim hover:text-twitter"
-              target="_blank"
-            >
-              <svg class="w-6 h-6 fill-current" aria-hidden="true">
-                <use xlink:href="/img/social.svg#twitter"></use>
-              </svg>
-            </a>
+            {{ if .Params.mastodon }}
+              <a
+                href="{{ .Params.mastodon }}"
+                class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+                target="_blank">
+                <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/mastodon.svg#mastodon"></use>
+                </svg>
+              </a>
             {{ end }}
             {{ if .Params.github }}
             <a
@@ -54,6 +53,17 @@
             >
               <svg class="w-6 h-6 fill-current" aria-hidden="true">
                 <use xlink:href="/img/social.svg#link"></use>
+              </svg>
+            </a>
+            {{ end }}
+            {{ if .Params.twitter }}
+            <a
+              href="https://twitter.com/{{ .Params.twitter }}"
+              class="inline-block p-2 -ml-2 text-blue anim hover:text-twitter"
+              target="_blank"
+            >
+              <svg class="w-6 h-6 fill-current" aria-hidden="true">
+                <use xlink:href="/img/social.svg#twitter"></use>
               </svg>
             </a>
             {{ end }}
