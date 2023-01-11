@@ -33,7 +33,7 @@ speakers:
 sessions:
   - jamdev2023-day1-opening
   - jamdev2023-day1-session1
-  - jamdev2023-day1-session2
+  - jamdev2023-hls-video-streaming
   - jamdev2023-day1-session3
   - jamdev2023-rethinking-isomorphic
   - jamdev2023-eleventy-i18n
