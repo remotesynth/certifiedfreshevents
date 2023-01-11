@@ -1,7 +1,7 @@
 ---
 title: "Headless E-Commerce: The advantages of using a Headless CMS with your e-commerce site"
-date: 2022-01-26T13:25:00-05:00
-end_date: 2022-01-26T14:10:00-05:00
+date: 2023-01-26T13:25:00-05:00
+end_date: 2023-01-26T14:10:00-05:00
 speakers:
   - scott-fuller
 event: the-jam-2023

@@ -1,7 +1,7 @@
 ---
 title: "Everyone Wins When You Optimize Media"
-date: 2022-01-26T12:30:00-05:00
-end_date: 2022-01-26T13:15:00-05:00
+date: 2023-01-26T12:30:00-05:00
+end_date: 2023-01-26T13:15:00-05:00
 speakers:
   - colby-fayock
 event: the-jam-2023

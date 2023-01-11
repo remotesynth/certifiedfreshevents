@@ -46,7 +46,7 @@ sessions:
   - jamdev2023-optimize-media
   - jamdev2023-headless-ecommerce
   - jamdev2023-11ty-membership-site
-  - jamdev2023-day2-session5
+  - jamdev2023-hacky-side-projects
   - jamdev2023-day2-session6
   - jamdev2023-more-javascript-frameworks
   - jamdev2023-day2-session8

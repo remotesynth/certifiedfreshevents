@@ -1,7 +1,7 @@
 ---
 title: "Hassle-free internationalization with Eleventy 2.0 and Netlify"
-date: 2022-01-25T15:35:00-05:00
-end_date: 2022-01-25T15:45:00-05:00
+date: 2023-01-25T15:35:00-05:00
+end_date: 2023-01-25T15:45:00-05:00
 speakers:
   - lene-saile
 event: the-jam-2023

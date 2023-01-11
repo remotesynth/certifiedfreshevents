@@ -1,7 +1,7 @@
 ---
 title: "How to stop buying domain names and actually start doing something with them"
-date: 2022-01-25T15:45:00-05:00
-end_date: 2022-01-25T15:55:00-05:00
+date: 2023-01-25T15:45:00-05:00
+end_date: 2023-01-25T15:55:00-05:00
 speakers:
   - shy-ruparel
 event: the-jam-2023

@@ -1,7 +1,7 @@
 ---
 title: Building a Membership Site with 11ty
-date: 2022-01-26T14:20:00-05:00
-end_date: 2022-01-26T15:05:00-05:00
+date: 2023-01-26T14:20:00-05:00
+end_date: 2023-01-26T15:05:00-05:00
 speakers:
   - stephanie-eckles
 event: the-jam-2023

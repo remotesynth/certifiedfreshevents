@@ -1,7 +1,7 @@
 ---
 title: SSR Web Components
-date: 2022-01-25T16:25:00-05:00
-end_date: 2022-01-25T17:10:00-05:00
+date: 2023-01-25T16:25:00-05:00
+end_date: 2023-01-25T17:10:00-05:00
 speakers:
   - simon-macdonald
 event: the-jam-2023

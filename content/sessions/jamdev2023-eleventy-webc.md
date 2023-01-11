@@ -1,7 +1,7 @@
 ---
 title: Using Eleventy and WebC for Simpler, Performant Web Components
-date: 2022-01-26T16:25:00-05:00
-end_date: 2022-01-26T17:10:00-05:00
+date: 2023-01-26T16:25:00-05:00
+end_date: 2023-01-26T17:10:00-05:00
 speakers:
   - raymond-camden
 event: the-jam-2023

@@ -1,7 +1,7 @@
 ---
 title: Using HLS for Fast and Responsive Video Streaming
-date: 2022-01-25T12:30:00-05:00
-end_date: 2022-01-25T13:15:00-05:00
+date: 2023-01-25T12:30:00-05:00
+end_date: 2023-01-25T13:15:00-05:00
 speakers:
   - luis-ball
 event: the-jam-2023
