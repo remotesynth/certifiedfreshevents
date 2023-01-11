@@ -1,5 +1,5 @@
 ---
-title: Using HLS for Fast and Responsive Video Streaming
+title: Build a kick-🍑 video player
 date: 2023-01-25T12:30:00-05:00
 end_date: 2023-01-25T13:15:00-05:00
 speakers:
@@ -10,6 +10,4 @@ categories:
 draft: false
 ---
 
-There are more videos on the web than ever, and viewers are becoming more demanding. Yet, video streaming hasn't gotten easier. Most of the legacy solutions we have relied on aren’t really up to the task. MP4 videos don't adapt to your viewers' varying bandwidth environments. In a slow bandwidth environment, viewers face the frustration of videos stalling. In a fast environment, that same MP4 file often doesn't have a high enough resolution. If your website uses YouTube, it's difficult to control the autoplay, competitor ads, and other native settings that intrude on your viewers' experience.
-
-In this talk, we will give you a demo and show you how imgix's [Video API](https://imgix.com/solutions/video-api) and the [video SDK](https://imgix.github.io/ix-video/overview/#quick-start-guides) help you deliver buffer-free videos while controlling the full viewing experience.
+Viewers have increasingly high standards for video, but the solutions we've relied on aren’t up to the task. Most of us still serve MP4 videos from our cloud providers. Some use YouTube or Vimeo, making it difficult to control autoplay, competitor ads, and other native settings that intrude on your viewers' experience. In this talk, we'll show you how to use imgix's Video API and SDK to deliver buffer-free videos while controlling the full viewing experience.
