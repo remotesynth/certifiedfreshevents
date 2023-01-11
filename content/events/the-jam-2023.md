@@ -48,7 +48,7 @@ sessions:
   - jamdev2023-11ty-membership-site
   - jamdev2023-day2-session5
   - jamdev2023-day2-session6
-  - jamdev2023-day2-session7
+  - jamdev2023-more-javascript-frameworks
   - jamdev2023-day2-session8
   - jamdev2023-eleventy-webc
 styles: thejam.css
