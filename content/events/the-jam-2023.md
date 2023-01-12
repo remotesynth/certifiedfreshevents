@@ -49,7 +49,7 @@ sessions:
   - jamdev2023-hacky-side-projects
   - jamdev2023-day2-session6
   - jamdev2023-more-javascript-frameworks
-  - jamdev2023-day2-session8
+  - jamdev2023-headless-cms
   - jamdev2023-eleventy-webc
 styles: thejam.css
 ---
@@ -174,6 +174,8 @@ Registration is FREE. Just sign up via [Crowdcast](https://www.crowdcast.io/e/ja
 ## Schedule {#schedule}
 
 TheJam.dev will feature 2 full days of sessions in a single track format. Complete session and schedule details to be announced soon!
+
+**All times listed are US Eastern Time (GMT -5).**
 
 {{< conf-schedule >}}
 

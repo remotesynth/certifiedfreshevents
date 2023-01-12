@@ -1,5 +1,5 @@
 ---
-title: "TBD"
+title: "Best of Both Worlds: Combining a headless CMS and Jamstack"
 date: 2023-01-26T16:05:00-05:00
 end_date: 2023-01-26T16:15:00-05:00
 speakers:
