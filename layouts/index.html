@@ -114,8 +114,8 @@
         </div>
       </header>
 
-      {{ $recorded := where (where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil) ".Params.featured" "eq" true }}
-      {{ range first 6 (shuffle $recorded) }}
+      {{ $recorded := where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil }}
+      {{ range first 6 $recorded }}
           {{ partial "session-card" . }}
       {{ end }}
 

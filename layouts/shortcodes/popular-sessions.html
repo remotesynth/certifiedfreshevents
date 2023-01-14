@@ -1,10 +1,10 @@
 <div class="py-16 bg-gray-100">
   <div class="container px-6 mx-auto ">
-    <h2 class="mb-10 text-4xl text-center"><strong>Not sure where to start?</strong><br/>Check out popular past sessions</h2>
+    <h2 class="mb-10 text-4xl text-center"><strong>Not sure where to start?</strong><br/>Check out our recent sessions</h2>
     <div class="carousel">
       <div class="carousel-list" data-carousel-responsive>
-        {{ $recorded := where (where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil) ".Params.featured" "eq" true }}
-        {{ range first 6 (shuffle $recorded) }}
+        {{ $recorded := where (where (where .Site.RegularPages ".Date" "le" now) "Section" "sessions") ".Params.recordings" "ne" nil }}
+        {{ range first 6 $recorded }}
           <div class="carousel-item carousel-item-thin">
             {{ partial "session-card" . }}
           </div>
