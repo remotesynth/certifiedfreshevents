@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-challenges-of-the
-    start_time: "00:00"
+    start_time: "05:25"
+  youtube:
+    url: https://youtu.be/OYC_LTnqrdA
+    length: "40:05"
 categories:
   - webdev
 draft: false

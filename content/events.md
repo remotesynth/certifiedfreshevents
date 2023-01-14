@@ -17,5 +17,11 @@ draft: false
   </div>
 
   {{< upcoming-events >}}
+  <div class="mb-20">
+    <header class="container px-6 pt-5 mx-auto">
+      <h1 class="mb-2 text-5xl font-bold">Previous Events</h1>
+    </header>
+  </div>
+{{< past-events >}}
 </main>
 <!-- markdownlint-restore -->

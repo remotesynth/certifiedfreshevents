@@ -159,6 +159,14 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
             </div>
         </article>
     </div>
+    <h3 id="sponsors-1" class="mb-6">Supporting Sponsors</h3>
+    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://www.thisdot.co/"><img src="/img/sponsors/ThisDot-Labs.png" alt="ThisDot Labs"></a>
+            </div>
+        </article>
+    </div>
 </section>
 
 ## Register {#register}
