@@ -8,4 +8,10 @@ featured_speakers:
   - cassidy-williams
   - stephanie-stimac
   - james-quick
+  - ali-spittel
+  - chris-coyier
+  - sarah-drasner
+  - stephanie-eckles
+  - tiffany-janzen
+  - wesley-faulkner
 ---

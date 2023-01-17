@@ -10,4 +10,4 @@ categories:
 draft: false
 ---
 
-TBD
+This talk addresses how the software architecture, Jamstack can be used along with Headless CMS tools to provide a better and simpler developer experience and how the combination of JAMStack and Headless CMS makes it easier to deliver and manage content securely.
