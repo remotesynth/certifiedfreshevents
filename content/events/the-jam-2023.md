@@ -155,7 +155,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         </article>
         <article class="flex flex-row items-center">
             <div>
-                <a href="https://hubs.li/Q01x6D_20"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
+                <a href="https://hubs.li/Q01y8jJD0"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
             </div>
         </article>
     </div>
