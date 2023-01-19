@@ -27,7 +27,6 @@ speakers:
   - alicia-rodriguez
   - thomas-desmond
   - scott-fuller
-  - chris-anderson
   - ifeoma-nwosu
   - kevin-lewis
 sessions:
