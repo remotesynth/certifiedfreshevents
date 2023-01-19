@@ -29,6 +29,7 @@ speakers:
   - scott-fuller
   - ifeoma-nwosu
   - kevin-lewis
+  - chris-anderson
 sessions:
   - jamdev2023-day1-opening
   - jamdev2023-decoupled-frontends
