@@ -8,7 +8,7 @@ params:
   mastodon: https://techhub.social/@cfedev
   twitter: cfe_dev
   instagram: cfe_dev
-  youtube: https://www.youtube.com/CertifiedFreshEvents
+  youtube: https://www.youtube.com/@cfedev
   algolia:
     vars:
       - title
