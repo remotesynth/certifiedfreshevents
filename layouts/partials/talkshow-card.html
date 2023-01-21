@@ -13,7 +13,7 @@
       <a href="{{ .RelPermalink }}" class="click-target">{{ .Title }}</a>
     </h1>
 
-    <div class="mb-auto event-card-content">{{ .Content }}</div>
+    <div class="mb-auto event-card-content">{{ if isset .Params "short_desc" }}{{ .Params.short_desc  }}{{ else }}{{ .Content }}{{ end }}</div>
 
     <footer class="mt-6">
       <ul class="flex justify-between">
