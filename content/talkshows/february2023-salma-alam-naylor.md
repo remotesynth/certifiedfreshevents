@@ -10,6 +10,7 @@ recordings:
     url: https://youtu.be/Sd_xs9v4ETE
     length: "00:00"
 draft: false
+short_desc: You're ready to build your next project for the web, but how do you go about choosing the right JavaScript framework? Sean and Salma work together to answer that question.
 ---
 
 You're ready to build your next project for the web, but how do you go about choosing the right JavaScript framework?
