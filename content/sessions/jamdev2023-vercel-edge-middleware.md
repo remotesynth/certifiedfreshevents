@@ -1,5 +1,5 @@
 ---
-title: "Making Jamstack More Flexible with Vercel Edge Middlware"
+title: "Making Jamstack More Flexible with Vercel Edge Middleware"
 date: 2023-01-25T15:55:00-05:00
 end_date: 2023-01-25T16:05:00-05:00
 speakers:
