@@ -5,6 +5,10 @@ end_date: 2023-01-25T12:20:00-05:00
 speakers:
   - natalia-venditto
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/ITWX1EqbxtM
+    length: "50:13"
 categories:
   - webdev
 draft: false

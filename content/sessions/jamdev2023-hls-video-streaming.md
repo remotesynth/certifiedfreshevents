@@ -5,6 +5,9 @@ end_date: 2023-01-25T13:15:00-05:00
 speakers:
   - luis-ball
 event: the-jam-2023
+recordings:
+  youtube: https://youtu.be/eKs4ZZZp4Pw
+  length: "38:59"
 categories:
   - webdev
 draft: false
