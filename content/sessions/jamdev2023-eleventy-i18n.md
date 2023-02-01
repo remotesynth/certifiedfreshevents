@@ -5,6 +5,10 @@ end_date: 2023-01-25T15:45:00-05:00
 speakers:
   - lene-saile
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/CZqpcoGpYfU
+    length: "09:44"
 categories:
   - webdev
 draft: false
