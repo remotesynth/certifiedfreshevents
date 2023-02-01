@@ -5,6 +5,10 @@ end_date: 2023-01-25T15:05:00-05:00
 speakers:
   - ryan-carniato
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/RP_tc61vPhg
+    length: "43:36"
 categories:
   - webdev
 draft: false
