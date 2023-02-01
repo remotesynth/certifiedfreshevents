@@ -6,8 +6,9 @@ speakers:
   - luis-ball
 event: the-jam-2023
 recordings:
-  youtube: https://youtu.be/eKs4ZZZp4Pw
-  length: "38:59"
+  youtube: 
+    url: https://youtu.be/eKs4ZZZp4Pw
+    length: "38:59"
 categories:
   - webdev
 draft: false

@@ -5,6 +5,10 @@ end_date: 2023-01-25T14:10:00-05:00
 speakers:
   - henri-helvetica
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/tDk2ldlxne0
+    length: "44:57"
 categories:
   - webdev
 draft: false
