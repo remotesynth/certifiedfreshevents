@@ -5,6 +5,10 @@ end_date: 2023-01-25T15:55:00-05:00
 speakers:
   - shy-ruparel
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/gu0SjNfSzyQ
+    length: "10:17"
 categories:
   - webdev
 draft: false
