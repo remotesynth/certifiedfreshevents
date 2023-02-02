@@ -5,6 +5,10 @@ end_date: 2023-01-25T16:05:00-05:00
 speakers:
   - thomas-desmond
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/BlZ3dJzcNEk
+    length: "09:36"
 categories:
   - webdev
 draft: false
