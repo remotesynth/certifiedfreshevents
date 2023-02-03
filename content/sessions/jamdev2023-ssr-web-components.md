@@ -5,6 +5,10 @@ end_date: 2023-01-25T17:10:00-05:00
 speakers:
   - simon-macdonald
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/ArDHZfTRkcw
+    length: "46:09"
 categories:
   - webdev
 draft: false
