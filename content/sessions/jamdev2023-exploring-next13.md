@@ -5,9 +5,13 @@ end_date: 2023-01-25T16:15:00-05:00
 speakers:
   - alicia-rodriguez
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/HlHK5U_Ps3M
+    length: "10:18"
 categories:
   - webdev
 draft: false
 ---
 
-TBD
+Next.js 13 released some important improvements and new features. Let's explore what they are and how to use them.
