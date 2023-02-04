@@ -5,6 +5,10 @@ end_date: 2023-01-26T12:20:00-05:00
 speakers:
   - benedicte-raae
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/Kl1IThJWgSM
+    length: "48:34"
 categories:
   - webdev
 draft: false
