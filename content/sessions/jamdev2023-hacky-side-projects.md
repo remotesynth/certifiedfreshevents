@@ -5,6 +5,10 @@ end_date: 2023-01-26T15:45:00-05:00
 speakers:
   - kevin-lewis
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/EEW25wEhm1E
+    length: "09:25"
 categories:
   - webdev
 draft: false
