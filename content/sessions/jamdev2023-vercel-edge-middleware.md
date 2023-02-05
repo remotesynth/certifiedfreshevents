@@ -11,6 +11,7 @@ recordings:
     length: "09:36"
 categories:
   - webdev
+  - javascript
 draft: false
 ---
 

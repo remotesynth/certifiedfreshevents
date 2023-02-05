@@ -59,8 +59,8 @@ styles: thejam.css
 Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. Don't worry, we've got you covered!
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev23" target="_blank">
- Register FREE Today!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F" target="_blank">
+ Watch the Recordings on YouTube
 </a>
 </div>
 
@@ -171,11 +171,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 ## Register {#register}
 
-Registration is FREE. Just sign up via [Crowdcast](https://www.crowdcast.io/e/jamdev23).
+TheJam.dev 2023 has already passed, but you can [watch the recordings on YouTube](https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F).
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/jamdev23">
- Register Free Today!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F">
+ Watch the recordings on YouTube
 </a>
 </div>
 

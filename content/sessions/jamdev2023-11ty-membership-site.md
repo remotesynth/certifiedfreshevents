@@ -5,6 +5,10 @@ end_date: 2023-01-26T15:05:00-05:00
 speakers:
   - stephanie-eckles
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/omVlZlhSioU
+    length: "44:00"
 categories:
   - webdev
 draft: false

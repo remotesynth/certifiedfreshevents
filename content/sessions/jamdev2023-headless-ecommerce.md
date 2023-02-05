@@ -5,6 +5,10 @@ end_date: 2023-01-26T14:10:00-05:00
 speakers:
   - scott-fuller
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/9gCOBUq1UpQ
+    length: "41:23"
 categories:
   - webdev
 draft: false

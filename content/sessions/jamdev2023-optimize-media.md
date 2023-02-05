@@ -5,6 +5,10 @@ end_date: 2023-01-26T13:15:00-05:00
 speakers:
   - colby-fayock
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/gp-BhnMt3OI
+    length: "42:35"
 categories:
   - software
 draft: false

@@ -10,7 +10,7 @@ recordings:
     url: https://youtu.be/RP_tc61vPhg
     length: "43:36"
 categories:
-  - webdev
+  - javascript
 draft: false
 ---
 
