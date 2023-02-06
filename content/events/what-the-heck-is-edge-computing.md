@@ -1,7 +1,7 @@
 ---
 title: What the Heck is Edge Computing?
-date: 2023-04-28T13:00:00-04:00
-end_date: 2023-04-28T14:00:00-04:00
+date: 2023-03-14T13:00:00-04:00
+end_date: 2023-03-14T14:00:00-04:00
 cost: 0
 homepage_banner: EdgeComputing-031423.jpg
 short_desc: Austin Gil will explain what the term really means, when it's applicable (and when it's not) and how to get started.
