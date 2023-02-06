@@ -47,7 +47,7 @@ sessions:
   - jamdev2023-headless-ecommerce
   - jamdev2023-11ty-membership-site
   - jamdev2023-hacky-side-projects
-  - jamdev2023-day2-session6
+  - jamdev2023-sovereign-id
   - jamdev2023-more-javascript-frameworks
   - jamdev2023-headless-cms
   - jamdev2023-eleventy-webc

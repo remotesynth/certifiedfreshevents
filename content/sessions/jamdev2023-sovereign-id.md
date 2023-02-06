@@ -5,6 +5,10 @@ end_date: 2023-01-26T15:55:00-05:00
 speakers:
   - chris-anderson
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/dQx7lbjKM2I
+    length: "05:17"
 categories:
   - webdev
 draft: false
