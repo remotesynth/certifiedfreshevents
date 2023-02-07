@@ -5,6 +5,10 @@ end_date: 2023-01-26T16:15:00-05:00
 speakers:
   - ifeoma-nwosu
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/ziOYBuwi3sE
+    length: "12:53"
 categories:
   - webdev
 draft: false

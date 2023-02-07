@@ -5,6 +5,10 @@ end_date: 2023-01-26T17:10:00-05:00
 speakers:
   - raymond-camden
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/hCSmA7n7TTM
+    length: "42:28"
 categories:
   - webdev
 draft: false

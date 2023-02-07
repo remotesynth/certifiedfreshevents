@@ -5,6 +5,10 @@ end_date: 2023-01-26T16:05:00-05:00
 speakers:
   - salma-alam-naylor
 event: the-jam-2023
+recordings:
+  youtube:
+    url: https://youtu.be/iNt5TFCgPsg
+    length: "11:11"
 categories:
   - webdev
   - javascript
