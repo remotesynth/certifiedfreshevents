@@ -2,13 +2,15 @@
 title: Interview with Eduardo Bouças
 date: 2022-05-19T13:00:00-04:00
 homepage_banner: csh-eduarco-boucas-051922.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - eduardo-boucas
 recordings:
   youtube:
     url: https://youtu.be/28wKX_Isz20
     length: "00:00"
+show: code-sandwich-hour
 draft: false
 ---
 

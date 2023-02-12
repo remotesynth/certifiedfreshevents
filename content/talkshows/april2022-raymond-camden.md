@@ -2,13 +2,15 @@
 title: "Interview with Raymond Camden"
 date: 2022-04-07T13:00:00-04:00
 homepage_banner: csh-raymond-camden-040722.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - raymond-camden
 recordings:
   youtube:
     url: https://youtu.be/zsu-_GEwpUg
     length: "00:00"
+show: code-sandwich-hour
 draft: false
 ---
 

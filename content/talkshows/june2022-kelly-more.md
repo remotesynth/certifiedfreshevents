@@ -2,13 +2,15 @@
 title: "Interview with Kelly More"
 date: 2022-06-02T13:00:00-04:00
 homepage_banner: csh-kelly-more-060222.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - kelly-more
 recordings:
   youtube:
     url: https://youtu.be/ZxohMZfVIVE
     length: "00:00"
+show: code-sandwich-hour
 draft: false
 ---
 

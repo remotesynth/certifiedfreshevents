@@ -34,7 +34,7 @@
         <!-- Meetups Sub-Nav -->
         <ul
           class="space-y-6 menu menu-meetups">
-          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now }}
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
               <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
@@ -104,8 +104,8 @@
           */}}
         </ul>
       </li>
-      {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "talkshows") ".Date" "ge" now }}
-      {{ if len $upcoming }}
+      {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
+      {{ if len $talkshows }}
       <li class="relative text-center has-menu lg:text-left">
         <a
           href="/talkshows/"
@@ -119,13 +119,10 @@
         <!-- Meetups Sub-Nav -->
         <ul
           class="space-y-6 menu menu-meetups">
-            {{ range $upcoming }}
+            {{ range $talkshows }}
               <li>
                 <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
                   <span class="block text-lg font-medium">{{ .Title }}</span>
-                  <time class="text-sm text-gray-700">
-                    {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
-                  </time>
                 </a>
               </li>
             {{ end }}

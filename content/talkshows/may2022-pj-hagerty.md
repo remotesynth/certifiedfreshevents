@@ -2,13 +2,15 @@
 title: "Interview with PJ Hagerty"
 date: 2022-05-05T13:00:00-04:00
 homepage_banner: csh-pj-hagerty-050522.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - pj-hagerty
 recordings:
   youtube:
     url: https://youtu.be/7yDWKIDCMno
     length: "00:00"
+show: code-sandwich-hour
 draft: false
 ---
 

@@ -16,13 +16,13 @@ draft: false
     </header>
   </div>
 
-{{< upcoming-talkshows >}}
+{{< upcoming-talkshows-all >}}
 
   <div class="mb-20">
     <header class="container px-6 pt-5 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Previous Talk Shows</h1>
     </header>
   </div>
-{{< past-talkshows >}}
+{{< past-talkshows-all >}}
 </main>
 <!-- markdownlint-restore -->

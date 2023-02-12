@@ -2,13 +2,15 @@
 title: "Interview with Brian Rinaldi"
 date: 2022-08-18T13:00:00-04:00
 homepage_banner: csh-brian-rinaldi-081822.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - brian-rinaldi
 recordings:
   youtube:
     url: https://youtu.be/DqZ6DiAWhz8
     length: "00:00"
+show: code-sandwich-hour
 draft: false
 ---
 

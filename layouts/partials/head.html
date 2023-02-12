@@ -58,7 +58,7 @@
   <meta property="og:title" content="{{ .Page.Title }}" />
   <meta property="og:description" content="{{ .Page.Params.Short_desc }}" />
   <meta property="og:image" content="{{ .Site.BaseURL }}img/banners/{{ .Page.Params.Homepage_banner }}" />
-{{ else if eq .Page.Type "talkshows" }}
+{{ else if and (eq .Page.Type "talkshows") (ne .Page.Params.show nil) }}
   {{- $src := resources.Get (print "img/banners/" .Page.Params.homepage_banner) -}}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@cfe_dev" />

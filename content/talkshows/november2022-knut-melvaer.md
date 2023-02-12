@@ -2,13 +2,15 @@
 title: "The Perfect Content-Editing Environment for Developers with Knut Melvær"
 date: 2022-11-03T13:00:00-04:00
 homepage_banner: uptime-knut-malvaer.png
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - knut-melvaer
 recordings:
   youtube:
     url: https://youtu.be/Mt1CcmgW4zM
     length: "00:00"
+show: uptimefm
 draft: false
 ---
 

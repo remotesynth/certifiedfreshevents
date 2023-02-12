@@ -2,7 +2,7 @@
 title: "Mission Impossible: Testing with Cypress"
 date: 2022-06-09T12:00:00-04:00
 speakers:
-  - bekah-hawrot-wiegel
+  - bekah-hawrot-weigel
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/mission-impossible

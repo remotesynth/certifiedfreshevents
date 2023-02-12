@@ -81,6 +81,7 @@
       {{ .Content }}
     </div>
 
+    {{ if isset .Params "speakers"}}
     <div class="mt-24 space-y-20">
       <h2 class="text-4xl font-semibold">Featured Guest</h2>
       {{ range $speaker := .Params.speakers }}
@@ -89,11 +90,14 @@
         {{ end }}
       {{end}}
     </div>
+    {{ end }}
 
     <div class="mt-24 space-y-20">
       <h2 class="text-4xl font-semibold">Hosted by</h2>
-      {{ with site.GetPage (print "/speakers/" "sean-c-davis") }}
-        {{ partial "speaker-card.html" .}}
+      {{ range $host := .Params.host }}
+        {{ with site.GetPage (print "/speakers/" $host) }}
+          {{ partial "speaker-card.html" .}}
+        {{ end }}
       {{end}}
     </div>
     {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}

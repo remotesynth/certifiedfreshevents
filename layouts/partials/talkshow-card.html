@@ -25,16 +25,18 @@
           </svg>
           <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
         </li>
-        {{ with site.GetPage (print "/speakers/" .Params.host ) }}
-        <li class="flex items-center leading-tight">
+        <li class="items-center leading-tight">
           <span class="mr-3 text-sm">Hosted by:</span>
+          {{ range $host := .Params.host }}
+          {{ with site.GetPage (print "/speakers/" $host) }}
           <img
             src="/img/speakers/{{.Params.speaker_image}}"
             alt="{{.Params.speaker}}"
             class="inline-block w-10 h-10 -ml-2 border-2 border-white rounded-full">
 
-          <span class="ml-2 text-sm font-medium">{{.Title}}</span>
+          <span class="mr-1 text-sm font-medium">{{.Title}}</span>
           {{ end }}
+        {{ end }}
         </li>
       </ul>
     </footer>

@@ -1,4 +1,4 @@
-{{ $upcoming := where (where (where .Site.RegularPages "Section" "talkshows") ".Params.show" "eq" .Page.Params.show) ".Date" "lt" now }}
+{{ $upcoming := where (where (where .Site.RegularPages.Reverse "Section" "talkshows") ".Params.show" "ne" nil) ".Date" "ge" now }}
 {{ if ne (len $upcoming) 0 }}
   <div class="container mx-auto">
     <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
@@ -12,7 +12,7 @@
 
 <div class="container px-6 mx-auto mb-20">
   <p class="inline-block px-8 py-4 text-xl text-gray-800 bg-sand">
-    <strong>There are no past talk shows</strong>. Check back soon!
+    <strong>There are no upcoming talk shows scheduled</strong>. Check back soon!
   </p>
 </div>
 

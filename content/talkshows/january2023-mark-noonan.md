@@ -2,13 +2,16 @@
 title: "Practical Testing for the Modern Website with Mark Noonan"
 date: 2023-01-17T13:00:00-05:00
 homepage_banner: uptime-mark-noonan.jpg
-host: sean-c-davis
+host:
+  - sean-c-davis
 speakers:
   - mark-noonan
 recordings:
   youtube:
     url: https://youtu.be/bgs82ItuhmQ
     length: "00:00"
+short_desc: Mark Noonan joins to talk front-end testing web applications and what tools can help developers test efficiently.
+show: uptimefm
 draft: false
 ---
 
