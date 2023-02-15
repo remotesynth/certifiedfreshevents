@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/better-rest-through
-    start_time: "00:00"
+    start_time: "06:02"
+  youtube:
+    url: https://youtu.be/OU5acj_1vCI
+    length: "43:35"
 categories:
   - software
 draft: false
