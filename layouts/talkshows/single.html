@@ -17,7 +17,8 @@
       <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
         <div class="flex items-center leading-tight avatar-list">
           <span class="mr-3 text-sm">Hosted by:</span>
-          {{ with site.GetPage (print "/speakers/" .Params.host) }}
+          {{ range $host := .Params.host }}
+            {{ with site.GetPage (print "/speakers/" $host) }}
             <img
               src="/img/speakers/{{ .Params.speaker_image }}"
               alt="Avatar for {{ .Title }}"
@@ -30,6 +31,7 @@
                 {{ .Title }}
                 <span class="delimiter">&amp;</span>
           </span>
+            {{ end }}
           {{ end }}
         </div>
       </li>
