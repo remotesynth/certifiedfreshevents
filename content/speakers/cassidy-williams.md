@@ -10,4 +10,4 @@ website: https://cassidoo.co/
 draft: false
 ---
 
-Cassidy likes making memes, dreams, and software. But actually though, she's the Director of Developer Experience at Netlify, and makes developer-friendly content across the internet to help people learn and laugh.
+Cassidy loves to make memes and dreams and software. She's currently the CTO at Contenda. She's worked for a variety of companies, large and small, advises startups, and she's had the honor of working on the board of various non-profits. She's active in the developer community, and one of Glamour Magazine's 35 Women Under 35 Changing the Tech Industry and LinkedIn's Top Professionals 35 & Under. As an avid speaker, Cassidy has participated in many events including the Grace Hopper Celebration for Women in Computing, TEDx, the United Nations, and hundreds of other technical events. She wants to inspire generations of STEM students to be the best they can be, and her favorite quote is from Helen Keller: "One can never consent to creep when one feels an impulse to soar." She loves mechanical keyboards and karaoke.
