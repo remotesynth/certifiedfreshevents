@@ -1,12 +1,15 @@
 ---
 title: "Playing with Fire: Serverless PWA with Firebase"
-date: 2023-02-028T13:00:00-05:00
+date: 2023-02-28T13:00:00-05:00
 speakers:
   - michael-dowden
 recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/playing-with-fire
-    start_time: "00:00"
+    start_time: "05:43"
+  youtube:
+    url: https://youtu.be/k4daKSn040k
+    length: "53:51"
 categories:
   - webdev
 draft: false
