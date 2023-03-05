@@ -1,7 +1,8 @@
 {{/* Generates a valid Algolia search index */}}
 {{- $.Scratch.Add "index" slice -}}
-{{- range where (where .Site.RegularPages "Section" "==" "sessions") ".Params.recordings" "!=" nil -}}
+{{- range where (where .Site.RegularPages "Section" "in" (slice "sessions" "talkshows")) ".Params.recordings" "!=" nil -}}
   {{- if (and (not .Draft) (not .Params.private)) -}}
+  {{- if isset .Params "speakers" -}}
     {{- $event := "" -}}
     {{- $eventArr := slice .Page.File.TranslationBaseName -}}
     {{- $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr -}}
@@ -9,7 +10,14 @@
     {{- $eventdate := .Date.Format "Jan 2, 2006" }}
     {{- $speakerPage := index (first 1 .Params.speakers) 0 -}}
     {{- $speaker := site.GetPage (print "/speakers/" $speakerPage) -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" $eventdate "dir" .File.Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .Permalink "section" .Section "categories" .Params.Categories "banner" $event.Params.Homepage_banner "speaker" $speaker.Title )}}
+    {{- $homepageBanner := "" -}}
+    {{- if isset .Params "homepage_banner" -}}
+      {{- $homepageBanner = .Params.homepage_banner -}}
+    {{- else -}}
+      {{- $homepageBanner = $event.Params.Homepage_banner -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" $eventdate "dir" .File.Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .Permalink "section" .Section "categories" .Params.Categories "banner" $homepageBanner "speaker" $speaker.Title )}}
+  {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
