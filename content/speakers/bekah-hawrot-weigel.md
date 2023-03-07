@@ -2,7 +2,7 @@
 title: Bekah Hawrot Weigel
 date: 2019-07-24T18:52:51-04:00
 speaker_image: BekahHawrotWeigel.jpg
-job_title: Technical Community Builder at Deepgram
+job_title: Creator and Maintainer of Virtual Coffee
 twitter: BekahHW
 draft: false
 ---
