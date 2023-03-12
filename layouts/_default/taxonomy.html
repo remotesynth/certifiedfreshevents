@@ -13,7 +13,7 @@
         </span>
         <h1 class="my-2 text-5xl font-bold">{{ .Title }}</h1>
       </div>
-      <div class="max-w-3xl text-xl content">{{.Content}}</div>
+      <div class="max-w-3xl text-xl content">{{.Content}} {{ .Paginator.TotalPages }}</div>
     </header>
   </div>
 
@@ -23,6 +23,7 @@
         {{ partial "session-card.html" .}}
       {{ end }}
     </div>
+  </div>
 
     {{ if gt .Paginator.TotalPages 1}}
     <nav class="container px-6 py-16 mx-auto mb-10 md:w-4/5 lg:w-2/3">
@@ -62,7 +63,6 @@
       </ul>
     </nav>
     {{ end }}
-  </div>
 
   <div class="mt-20 bg-blue highlight-pattern-zigzags">
     <section class="container px-4 py-20 mx-auto text-center text-white">

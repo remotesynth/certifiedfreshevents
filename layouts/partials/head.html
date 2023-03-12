@@ -104,7 +104,7 @@
 		{{- end -}}
 	{{- end -}}
 	<!-- event json-ld -->
-	{{ if and (eq .Page.Section "events") (ge .Page.Date now) }}
+	{{ if and (eq .Page.Section "events") (and (ge .Page.Date now) (ne .IsSection true)) }}
 		{{ with .Page }}
 	<script type='application/ld+json'>
 		{
