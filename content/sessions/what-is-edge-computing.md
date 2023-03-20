@@ -1,6 +1,6 @@
 ---
 title: What the Heck is Edge Computing Anyway?
-date: 2022-09-22T13:00:00-04:00
+date: 2023-03-14T13:00:00-05:00
 speakers:
   - austin-gil
 recordings:
