@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/what-the-heck-is-edge
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/rDkq-hIXM1k
+    length: "1:03:30"
 categories:
   - software
 draft: false
