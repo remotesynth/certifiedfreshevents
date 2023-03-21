@@ -1,6 +1,6 @@
 ---
 title: "What The Federated Content? with Bryan Robinson"
-date: 2023-04-18T13:00:00-05:00
+date: 2023-04-18T13:00:00-04:00
 homepage_banner: uptime-bryan-robinson.png
 host:
   - sean-c-davis
