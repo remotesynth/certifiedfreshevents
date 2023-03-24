@@ -1,7 +1,7 @@
 ---
 title: Getting Started With Apache Kafka for JavaScript Devs
 date: 2023-03-28T13:00:00-04:00
-end_date: 2023-03-28T14:00:00-04x:00
+end_date: 2023-03-28T14:00:00-04:00
 cost: 0
 homepage_banner: ApacheKafka-032823.jpg
 short_desc: Lucia Cerchie will show how Apache Kafka can handle and process streams of real-time data, and demonstrate how to get started using it.
