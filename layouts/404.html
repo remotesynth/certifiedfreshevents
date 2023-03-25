@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
+<main class="mb-20">
+    <div class="mb-20">
+      <header class="container px-6 pt-12 pb-10 mx-auto">
+        <h1 class="mb-2 text-5xl font-bold">Oops! Something went wrong.</h1>
+        <div class="content">
+        <p class="mb-5 text-3xl">We couldn't find the page you were looking for. Perhaps you were looking for one of our <strong>upcoming events</strong>?</p>
+        </div>
+        {{ if ne (len $upcoming) 0 }}
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
+            {{ range $upcoming }}
+                {{ partial "meetup-card" . }}
+            {{ end }}
+            </div>
+        </div>
+
+        {{ else }}
+
+        <div class="container px-6 mx-auto mb-20">
+        <p class="inline-block px-8 py-4 text-xl text-gray-800 bg-sand">
+            <strong>There are no upcoming virtual meetups scheduled</strong>. Check back soon!
+        </p>
+        </div>
+
+        {{ end }}
+      </header>
+    </div>
+</main>
+{{ end }}

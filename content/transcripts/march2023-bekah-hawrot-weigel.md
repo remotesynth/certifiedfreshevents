@@ -1,3 +1,9 @@
+---
+_build:
+  list: false
+  render: never
+---
+
 **Sean C Davis**  0:02  
 Welcome to another uptime FM episode. I'm your host, **Sean C Davis**. And today I'm going to be joined by Becca, who is the creator and maintainer of the virtual coffee developer community. And please excuse my super low voice, I'm fighting off a bit of a cold, want to talk a little quieter, and hopefully it will hang on with me for the entire hour or so. Now today, we're going to spend our whole session on the intricacies of creating and maintaining developer communities just like virtual coffee. And as somebody who's tried and failed to create maintainable communities a few different times throughout my career, I can say that it takes a lot of work. And that's why I'm really excited to have Becca here. Welcome to the show, Becca.
 
