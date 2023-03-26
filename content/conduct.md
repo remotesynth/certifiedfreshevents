@@ -20,7 +20,7 @@ All attendees, speakers, sponsors and volunteers at our virtual meetups, live ev
 
 ### The Quick Version
 
-Our meetups and events are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate, including during talks, workshops, parties, Twitter and other online media. Participants violating these rules may be sanctioned or expelled from the meetup or event _without a refund_ at the discretion of the organizers.
+Our meetups and events are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate, including during talks, workshops, parties, Discord and other online media. Participants violating these rules may be sanctioned or expelled from the meetup or event _without a refund_ at the discretion of the organizers.
 
 ### The Less Quick Version
 
@@ -32,7 +32,7 @@ Sponsors are also subject to the anti-harassment policy. In particular, sponsors
 
 If a participant engages in harassing behavior, the organizers may take any action they deem appropriate, including warning the offender or expulsion with no refund. Violators further risk being banned from attending future events, either online or in-person.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact us immediately via our [contact form](http://localhost:8888/contact/contact/), [email](mailto:brian@certifiedfreshevents.com) or staff, if this is an in-person event.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact us immediately via our [contact form](/contact/), [email](mailto:brian@cfe.dev) or staff, if this is an in-person event.
 
 For in-person events, staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 

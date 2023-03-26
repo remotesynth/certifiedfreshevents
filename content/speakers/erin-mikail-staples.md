@@ -6,6 +6,7 @@ job_title: Community Builder
 mastodon: https://mastodon.social/@erinmikail
 twitter: erinmikail
 website: https://www.erinmikailstaples.com/
+cfe: Co-host of DevRel(ish)
 draft: false
 ---
 

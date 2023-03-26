@@ -7,6 +7,7 @@ mastodon: https://indieweb.social/@seancdavis
 twitter: seancdavis29
 github: seancdavis
 website: https://www.seancdavis.com/
+cfe: Host of UptimeFM
 draft: false
 ---
 

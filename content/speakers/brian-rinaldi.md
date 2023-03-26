@@ -7,6 +7,7 @@ twitter: remotesynth
 mastodon: https://mastodon.xyz/@remotesynth
 github: remotesynth
 website: http://www.remotesynthesis.com/
+cfe: CFE.dev Founder and Host
 draft: false
 ---
 

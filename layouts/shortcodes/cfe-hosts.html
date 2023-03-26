@@ -1,0 +1,9 @@
+{{- $speakers := where (where .Site.RegularPages "Section" "speakers") ".Params.cfe" "ne" nil -}}
+{{ range $speaker := $speakers }}
+{{ with $speaker }}
+<div class="mb-10">
+    <h2 class="my-2 text-3xl font-bold">{{ .Params.cfe }}</h2>
+    {{ partial "speaker-card.html" .}}
+</div>
+{{ end }}
+{{end}}
