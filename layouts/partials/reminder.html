@@ -1,4 +1,4 @@
-{{- $nextmeetup := index (first 1 (where (where .Site.RegularPages.Reverse "Section" "events") ".Date" "ge" now)) 0 -}}
+{{- $nextmeetup := index (first 1 (where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now)) 0 -}}
 {{- if and ($nextmeetup) (ne $nextmeetup.RelPermalink .RelPermalink) -}}
   {{- with $nextmeetup -}}
 <section
