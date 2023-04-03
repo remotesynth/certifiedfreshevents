@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/getting-started-with-78
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/Gg2v5fOeiZ8
+    length: "28:29"
 categories:
   - software
 draft: false
