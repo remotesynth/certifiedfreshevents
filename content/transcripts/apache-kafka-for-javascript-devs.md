@@ -133,5 +133,3 @@ That one sounds like a lot of value. Yeah, that's
 
 **Brian Rinaldi**  35:41  
 to be a really good discussion. I'm hoping I'm hoping. It's great. So all right, well, I will see you all soon. Again. Reach out to me on Discord or via email and see you soon. Bye.
-
-Transcribed by https://otter.ai

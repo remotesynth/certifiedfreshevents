@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/supercharge-javascript
     start_time: "02:06"
-  vimeo:
-    url: https://vimeo.com/564982490
+  youtube:
+    url: https://youtu.be/0GwJwcFdHYQ
     length: "1:04:28"
 categories:
   - javascript

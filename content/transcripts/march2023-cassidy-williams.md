@@ -456,5 +456,3 @@ Well, so for those who are still watching, we'll be back in next month. We'll ge
 
 **Erin Mikail Staples**  56:14  
 Thank you so much for the conversation and please keep in touch everyone. Bye
-
-Transcribed by https://otter.ai
