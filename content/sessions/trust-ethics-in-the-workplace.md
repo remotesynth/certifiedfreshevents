@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/trust-and-ethics-in-the
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/0FOF-hOn_uQ
+    length: "48:59"
 categories:
   - culture
 draft: false
