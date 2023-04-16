@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/astro-from-the-ground-up
     start_time: "06:06"
-  vimeo:
-    url: https://vimeo.com/638447372
+  youtube:
+    url: https://youtu.be/yRhciENMDzQ
     length: "58:34"
 categories:
   - webdev
