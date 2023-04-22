@@ -216,5 +216,3 @@ Yeah. So I would just say if you're interested in the concept of of content Fede
 
 **Sean C Davis**  54:35  
 All right. All right. Thank you so much. And thank you to everyone in the audience and those of you viewing later, the shows are recorded live on the first and third Tuesdays of each month at 1pm. Eastern time in the US 5pm GMT and then later syndicated on YouTube. So from all of us at CFE dot Dev, thank you for joining us for this show. And we'll see you next time.
-
-Transcribed by https://otter.ai

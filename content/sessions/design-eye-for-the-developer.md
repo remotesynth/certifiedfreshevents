@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/design-eye-for-the
     start_time: "03:11"
-  vimeo:
-    url: https://vimeo.com/568445947
+  youtube:
+    url: https://youtu.be/_cj4pZ49uc0
     length: "1:08:28"
 categories:
   - webdev
