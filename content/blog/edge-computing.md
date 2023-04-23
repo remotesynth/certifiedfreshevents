@@ -2,6 +2,7 @@
 title: What the Heck is Edge Computing?
 date: 2023-04-23T13:00:00-04:00
 summary: A look at what edge computing is as well as the benefits, considerations and potential drawbacks to using it.
+banner: /img/blog/edge-computing/header.png
 ---
 
 Edge compute is the distribution of serverless functions to thousands of locations worldwide, handling requests as close to the user as possible. This leads to programmable, dynamic, customizable responses with minimal latency, that can potentially make your application perform faster.
@@ -11,8 +12,6 @@ To better understand edge compute, let's first define compute. Compute refers to
 > This article is based upon [a presentation by Austin Gil](https://cfe.dev/sessions/what-is-edge-computing/), a web educator and developer at Akamai, one of the largest CDN providers, which also offers compute at the edge.
 
 ## What do We Mean by Compute
-
-
 
 ![define edge compute](/img/blog/edge-computing/00-02-24_idx-011.jpg)
 

@@ -2,6 +2,9 @@
 <main class="mb-20">
   <header class="container max-w-4xl px-6 py-12 mx-auto">
     <h1 class="my-2 text-5xl font-bold">{{.Title}}</h1>
+    {{ if ne .Params.banner nil }}
+    <img src="{{.Params.banner}}" alt="{{.Title}}" class="w-full rounded-lg" />
+    {{ end }}
   </header>
   <div class="container max-w-4xl px-6 mx-auto">
     <div class="content">{{ .Content }}</div>
