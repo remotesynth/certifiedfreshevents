@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="mb-20">
+    <header class="container max-w-4xl px-6 py-12 mx-auto">
+      <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">CFE Blog</h1>
+    </header>
+    <div class="container max-w-4xl px-6 mx-auto">
+      <div class="content">Let's explore some of the topics and presentations that our speakers have given.</div>
+    </div>
+    <div class="container max-w-4xl px-6 mx-auto mt-6">
+        <ul class="text-lg">
+            {{ range .Pages }}
+              <li>
+                <h3  class="font-bold text-xl text-sky"><a href="{{ .Permalink }}" class="underline">{{ .Title }}</a></h3>
+                <p class="text-sm">Posted on: {{ .Date.Format "Jan 2, 2006" }}</p>
+                <p class="mt-4">{{.Summary}}</p>
+              </li>
+            {{ end }}
+          </ul>
+      </div>
+  </main>
+{{ end }}
+{{ define "scripts" }} 
+{{ end }}
