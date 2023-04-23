@@ -1,7 +1,7 @@
 ---
 title: What the Heck is Edge Computing?
 date: 2023-04-23T13:00:00-04:00
-summary: A look at what edge computing is as well as the benefits, confiderations and potential drawbacks to using it.
+summary: A look at what edge computing is as well as the benefits, considerations and potential drawbacks to using it.
 ---
 
 Edge compute is the distribution of serverless functions to thousands of locations worldwide, handling requests as close to the user as possible. This leads to programmable, dynamic, customizable responses with minimal latency, that can potentially make your application perform faster.
