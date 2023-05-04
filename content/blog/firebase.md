@@ -15,13 +15,13 @@ Firebase offers various tools, including a web console, command-line interface, 
 
 ## Getting Started
 
-![Contenda image](/img/blog/firebase/00-02-09_idx-007.jpg)
+![Example chat application](/img/blog/firebase/00-02-09_idx-007.jpg)
 
 When you log into the Firebase console, you'll find a list of your projects. To create a new account and project, head to [console.firebase.google.com](console.firebase.google.com). Once you have a project, you'll need to access your app configuration for essential information like your API key. Although it's not considered sensitive data, it's still better to keep it somewhat private.
 
 Keep in mind that these IDs are not part of Firebase's security model, so you don't need to worry too much about them. The security model won't be discussed in depth here, but it's important to understand that you can safely commit these IDs to your repo and share them with others.
 
-![Contenda image](/img/blog/firebase/00-02-57_idx-008.jpg)
+![Example chat application](/img/blog/firebase/00-02-57_idx-008.jpg)
 
 To enable a service, simply toggle it in the Firebase console. You can also access your project overview, project settings, and Firestore database. For instance, for our sample app, we can view chats and a list of users in our database.
 
@@ -29,7 +29,7 @@ To enable a service, simply toggle it in the Firebase console. You can also acce
 
 In order to dig into Firebase, we'll be exploring a simple chat application, allowing users to log in/out, send messages, upload files, and even run searches based on email addresses to display messages from specific users. This simple chat application serves as a framework to teach the principles and fundamentals of what you can do with Firebase.
 
-![Example chat application](/img/blog/firebase/00-29-45_idx-131.jpg)
+![who uses firebase](/img/blog/firebase/00-29-45_idx-131.jpg)
 
 Firebase offers two types of databases: the real-time database and [Firestore](https://firebase.google.com/docs/firestore). The real-time database is the original Firebase database, supporting multiple concurrent users and using pure JSON data structures. Firestore, on the other hand, is a true document database with documents and collections. It can support over a million concurrent users and has better security rules than the real-time database. Although working with pure JSON can be convenient for APIs and integrations, Firestore provides more value with improved querying and other features.
 
@@ -37,7 +37,7 @@ The pricing models for these databases differ, which can impact the choice betwe
 
 Our Firestore database structure will consist of a collection of chats, each having a document ID and properties such as content text, display name, and timestamp. This allows sorting messages in chronological order. We'll also have a collection of users, with each user having their UID, display name, and a URL to their avatar for display in the app. To secure the database, we'll need to set up appropriate security rules.
 
-![Example chat application](/img/blog/firebase/00-08-09_idx-032.jpg)
+![firebase console](/img/blog/firebase/00-08-09_idx-032.jpg)
 
 ## Implementing Firestore Database Rules and Functionality for a Chat Application
 
