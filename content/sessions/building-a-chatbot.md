@@ -7,9 +7,9 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/a-chatbot-crash-course
         start_time: 02:59
-    vimeo:
-        url: https://vimeo.com/411093620
-        length: "54:09"
+    youtube:
+        url: https://youtu.be/dIDkxCGZxHg
+        length: "54:10"
 categories:
   - stuff
 draft: false

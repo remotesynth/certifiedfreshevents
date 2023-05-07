@@ -7,9 +7,9 @@ recordings:
     crowdcast:
       url: https://www.crowdcast.io/e/getting-started-with-the-2
       start_time: "02:31"
-    vimeo:
-      url: https://vimeo.com/468098153
-      length: "47:07"
+    youtube:
+      url: https://youtu.be/UF6aNp5Pr5g
+      length: "47:08"
 categories:
   - webdev
   - javascript

@@ -7,9 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/build-a-virtual-agent
     start_time: "02:40"
-  vimeo:
-    url: https://vimeo.com/468019523
-    length: "45:49"
+  youtube:
+    url: https://youtu.be/xWwsSN43lhQ
+    length: "45:50"
 categories:
   - software
   - javascript

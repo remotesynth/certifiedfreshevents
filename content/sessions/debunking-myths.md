@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/vue-vixens-master-class
       start_time: "39:54"
-  vimeo:
-      url: https://vimeo.com/427862376
+  youtube:
+      url: https://youtu.be/hSPNe_5z0M0
       length: "18:02"
 categories:
   - culture

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/ethics-in-software
     start_time: 04:44
-  vimeo:
-    url: https://vimeo.com/438167296
+  youtube:
+    url: https://youtu.be/fMK_TOTZp9c
     length: "50:23"
 categories:
   - culture

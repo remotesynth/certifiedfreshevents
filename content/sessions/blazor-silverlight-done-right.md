@@ -7,8 +7,8 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/blazor
         start_time: 03:21
-    vimeo:
-        url: https://vimeo.com/407613468
+    youtube:
+        url: https://youtu.be/84Kj7PTIfbg
         length: "41:21"
 categories:
   - software

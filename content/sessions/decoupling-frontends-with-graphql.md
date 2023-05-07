@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/decoupling-frontends-and
     start_time: "04:00"
-  vimeo:
-    url: https://vimeo.com/569022182
+  youtube:
+    url: https://youtu.be/ljbWF5YoIaA
     length: "32:23"
 categories:
   - webdev

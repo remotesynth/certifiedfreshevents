@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/build-a-smart-slack-bot
     start_time: "03:24"
-  vimeo:
-    url: https://vimeo.com/475430044
+  youtube:
+    url: https://youtu.be/w_YDx0zCREc
     length: "44:23"
 categories:
   - stuff

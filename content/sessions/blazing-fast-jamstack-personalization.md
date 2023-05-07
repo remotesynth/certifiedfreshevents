@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/personalizing-the
     start_time: "02:25"
-  vimeo:
-    url: https://vimeo.com/519020714
+  youtube:
+    url: https://youtu.be/FpI7XdKl-Nk
     length: "43:26"
 categories:
   - webdev

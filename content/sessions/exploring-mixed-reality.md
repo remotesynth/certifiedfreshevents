@@ -7,9 +7,9 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/exploring-mixed-reality
       start_time: 02:39
-  vimeo:
-      url: https://vimeo.com/416554711
-      length: 24:33
+  youtube:
+      url: https://youtu.be/2WsiFlkL8Aw
+      length: 24:12
 categories:
   - stuff
 draft: false

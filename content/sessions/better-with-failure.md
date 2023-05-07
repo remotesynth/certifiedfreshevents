@@ -7,8 +7,8 @@ recordings:
     crowdcast:
         url: https://www.crowdcast.io/e/developing-success
         start_time: 32:40
-    vimeo:
-        url: https://vimeo.com/414313514
+    youtube:
+        url: https://youtu.be/qgFQUumYOds
         length: "24:11"
 categories:
   - culture

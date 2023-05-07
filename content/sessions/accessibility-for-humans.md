@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-case-for-web
     start_time: "02:41"
-  vimeo:
-    url: https://vimeo.com/518807418
+  youtube:
+    url: https://youtu.be/g5VxALlZ7bc
     length: "19:37"
 categories:
   - webdev

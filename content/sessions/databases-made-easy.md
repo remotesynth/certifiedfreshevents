@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/databases-made-easy
     start_time: "05:50"
-  vimeo:
-    url: https://vimeo.com/581860536
+  youtube:
+    url: https://youtu.be/Z7elDnAR97k
     length: "46:07"
 categories:
   - software
