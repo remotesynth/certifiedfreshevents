@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/improving-your-apps--
       start_time: 38:30
-  vimeo:
-      url: https://vimeo.com/422876767
+  youtube:
+      url: https://youtu.be/krIh0RqsZ-c
       length: "32:11"
 categories:
   - webdev

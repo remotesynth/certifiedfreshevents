@@ -7,9 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/an-intro-to-gradient
     start_time: "00:00"
-  vimeo:
-    url: https://vimeo.com/456411189
-    length: "45:18"
+  youtube:
+    url: https://youtu.be/HzJyYNxot1s
+    length: "45:19"
 categories:
   - software
   - javascript

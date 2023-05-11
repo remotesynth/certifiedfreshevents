@@ -7,9 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/getting-traction-with
     start_time: "03:55"
-  vimeo:
-    url: https://vimeo.com/581856960
-    length: "45:42"
+  youtube:
+    url: https://youtu.be/d1_q67sNTf0
+    length: "45:43"
 categories:
   - devops
 draft: false

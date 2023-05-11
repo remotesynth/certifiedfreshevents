@@ -7,9 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/introduction-to-redis
     start_time: "03:24"
-  vimeo:
-    url: https://vimeo.com/518885921
-    length: "1:00:55"
+  youtube:
+    url: https://youtu.be/O3bx9emZlkc
+    length: "1:00:56"
 categories:
   - software
 draft: false

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/dealing-with
       start_time: 03:29
-  vimeo:
-      url: https://vimeo.com/412076649
+  youtube:
+      url: https://youtu.be/uh5TCWCQAuk
       length: "45:04"
 categories:
   - culture

@@ -7,9 +7,9 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/vue-vixens-master-class
       start_time: "08:15"
-  vimeo:
-      url: https://vimeo.com/427826368
-      length: "30:57"
+  youtube:
+      url: https://youtu.be/0-k2JZ0LGlQ
+      length: "30:58"
 categories:
   - javascript
   - software

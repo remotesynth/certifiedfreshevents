@@ -7,8 +7,8 @@ recordings:
   crowdcast:
         url: https://www.crowdcast.io/e/demystifying-machine
         start_time: "03:12"
-  vimeo:
-      url: https://vimeo.com/430729820
+  youtube:
+      url: https://youtu.be/kpkMJ615tHY
       length: "28:05"
 categories:
   - software

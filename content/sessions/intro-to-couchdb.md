@@ -7,9 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/introduction-to-apache-2
     start_time: "01:20"
-  vimeo:
-    url: https://vimeo.com/442232619
-    length: "01:00:22"
+  youtube:
+    url: https://youtu.be/97QB9FJd8R0
+    length: "01:00:23"
 categories:
   - software
 draft: false
