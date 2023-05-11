@@ -12,4 +12,4 @@ sessions:
 draft: false
 ---
 
-According to recent data, Python is second only to the combination of HTML and JavaScript as an application development language - and it's popularity only seems to grow over time. Streamlit is an open source application framework that allows developers to build web applications in pure Python. In this session, Caroline Frasca will walk you through, step by step, how to build a web application with Python using Streamlit's open source library.
+According to recent data, Python is second only to the combination of HTML and JavaScript as an application development language - and its popularity only seems to grow over time. Streamlit is an open source application framework that allows developers to build web applications in pure Python. In this session, Caroline Frasca will walk you through, step by step, how to build a web application with Python using Streamlit's open source library.
