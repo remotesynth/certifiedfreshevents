@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/what-developers-need-to
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/RVN-hYPieMg
+    length: "01:00:14"
 categories:
   - software
 draft: false
