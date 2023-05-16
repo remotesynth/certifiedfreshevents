@@ -7,6 +7,8 @@ banner: /img/blog/jwts/jwts.png
 
 Let's delve into JSON Web Tokens, their history, and the problems they solve. We'll discuss the importance of thorough validation, as some developers tend to overlook this aspect. Additionally, we'll cover Bearer Tokens, their issues, and possible remedies. Common mistakes made with JSON Web Tokens will also be addressed, followed by an exploration of Refresh Tokens – a related, yet distinct, concept. Lastly, we'll touch upon JSON Web Token revocation. So, let's dive in.
 
+> This article is based upon a [presentation from Dan Moore](https://cfe.dev/sessions/what-devs-need-to-know-about-jwts/) of [FusionAuth](https://fusionauth.io).
+
 ## What are JWTs?
 
 JSON Web Token, or JWT (pronounced "jawt" as per the specifications), is a widely recognized standard in the tech industry.
