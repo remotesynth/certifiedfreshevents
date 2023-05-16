@@ -39,7 +39,7 @@ In our example, we have a typical, slightly over-engineered to-do application. T
 
 The data store for the user API houses users, roles, and their mappings, while the to-do API data store contains a single table for to-dos with fields like text, status, and user ID. Notably, even in a simple to-do application, complexity can arise due to the distributed nature of the system. For instance, the user ID field cannot be a foreign key, as cross-database references are not supported. Although the user ID is always present and set to not null, it cannot reference the user table directly.
 
-```
+```javascript
 CREATE TABLE todos {
   id INT NOT NULL,
   text TEXT NOT NULL,
@@ -61,7 +61,7 @@ In the over-engineered to-do application, linking the to-dos back to the user af
 
 In the case of JSON Web Tokens for developers, the details of the authentication process are not crucial. What matters is that at the end of the process, the developer receives a user object, usually in JSON format for modern web applications. The user object typically contains information such as an identifier, name, roles, and email, among other details. This user data is passed to the client and plays a vital role in connecting the user with their to-dos, ensuring secure access, and maintaining the integrity of the system.
 
-```
+```javascript
 {
   "user": {
     "id": "42",
@@ -138,7 +138,7 @@ In a JWT, both standardized and custom claims exist. For example, the issuer cla
 
 In a JWT, it's crucial to validate claims like expiration time and audience. If the expiration time is in the past, the JWT is invalid, and processing should stop, just as if the signature validation failed. The audience claim indicates the intended recipient of the JWT. In the given scenario, the to-do API is the intended recipient. If the audience claim doesn't match the expected value, processing should be halted. This is important because there could be multiple APIs with different user roles, and validating the audience ensures that the JWT is being used for the correct API.
 
-```
+```javascript
 {
   "iss": "fusionauth.io",
   "exp": 1619555018,
@@ -151,7 +151,7 @@ In a JWT, it's crucial to validate claims like expiration time and audience. If 
 
 When dealing with JWTs in applications, it is essential to ensure the proper access level is granted, depending on the user's role in various APIs. For example, an admin in the todo API might have access to view other users' to-dos, while an admin in the accounting API may have the ability to send out checks. It is crucial that a JWT created for the to-do API is not presented to the accounting API, as it could lead to unauthorized access. To handle this, you can implement validation code which outlines a simple validation scenario to maintain the security and integrity of user data across different APIs.
 
-```
+```javascript
 // the todo api
 const options = {
   algorithms: "HS256",
