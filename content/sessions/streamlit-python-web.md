@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/c/streamlit-python-web
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/xaYYc4IMuG4
+    length: "20:46"
 categories:
   - webdev
 draft: false
