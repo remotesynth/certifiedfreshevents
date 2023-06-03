@@ -1,6 +1,7 @@
 ---
 title: "Practical Testing for the Modern Website with Mark Noonan"
 date: 2023-01-17T13:00:00-05:00
+end_date: 2023-01-17T14:00:00-05:00
 homepage_banner: uptime-mark-noonan.jpg
 host:
   - sean-c-davis

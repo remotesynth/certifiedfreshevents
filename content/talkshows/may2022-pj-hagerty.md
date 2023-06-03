@@ -1,6 +1,7 @@
 ---
 title: "Interview with PJ Hagerty"
 date: 2022-05-05T13:00:00-04:00
+end_date: 2022-05-05T14:00:00-04:00
 homepage_banner: csh-pj-hagerty-050522.png
 host:
   - sean-c-davis

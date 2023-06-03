@@ -1,6 +1,7 @@
 ---
 title: "Building Effective Developer Communities with Bekah Hawrot Weigel"
 date: 2023-03-07T13:00:00-05:00
+end_date: 2023-03-07T14:00:00-05:00
 homepage_banner: uptime-bekah-hawrot-weigel.png
 host:
   - sean-c-davis

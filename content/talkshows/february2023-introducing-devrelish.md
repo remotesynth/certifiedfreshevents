@@ -1,6 +1,7 @@
 ---
 title: "Introducing DevRel(ish) - a show about Developer Relations"
 date: 2023-02-16T15:30:00-05:00
+end_date: 2023-02-16T16:30:00-05:00
 homepage_banner: DevRelish-preseason.png
 host: 
   - erin-mikail-staples

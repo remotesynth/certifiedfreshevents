@@ -18,7 +18,6 @@ params:
       - description
     params:
       - categories
-menu: ["main", "top"]
 related:
   threshold: 80
   includeNewer: true
@@ -43,6 +42,11 @@ outputs:
     - Algolia
   page:
     - HTML
+    - Calendar
+mediaTypes:
+  text/calendar:
+    suffixes:
+    - ics
 outputFormats:
   Algolia:
     baseName: algolia
@@ -52,3 +56,7 @@ outputFormats:
   RSS:
     mediatype: "application/rss"
     baseName: "rss"
+  Calendar:
+    mediatype: "text/calendar"
+    baseName: "calendar"
+    isPlainText: true

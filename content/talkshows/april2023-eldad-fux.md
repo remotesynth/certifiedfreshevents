@@ -1,6 +1,7 @@
 ---
 title: "Building an Open-Source Company with Eldad Fux"
 date: 2023-04-04T13:00:00-04:00
+end_date: 2023-04-04T14:00:00-04:00
 homepage_banner: uptime-eldad-fux.png
 host:
   - sean-c-davis

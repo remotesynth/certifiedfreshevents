@@ -1,6 +1,7 @@
 ---
 title: "Interview with Jen Looper"
 date: 2022-04-21T13:00:00-04:00
+end_date: 2022-04-21T14:00:00-04:00
 homepage_banner: csh-jen-looper-042122.png
 host:
   - sean-c-davis

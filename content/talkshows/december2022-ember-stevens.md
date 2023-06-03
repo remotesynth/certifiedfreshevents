@@ -1,6 +1,7 @@
 ---
 title: "Effective Developer Documentation with Ember Stevens"
 date: 2022-12-01T13:00:00-05:00
+end_date: 2022-12-01T14:00:00-05:00
 homepage_banner: uptime-ember-stevens.png
 host:
   - sean-c-davis

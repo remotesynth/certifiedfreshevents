@@ -1,0 +1,18 @@
+{{- if isset .Params "end_date" -}}BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cfe-dev//event calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Rinaldi":mailto:brian@cfe.dev
+SUMMARY:{{.Title}}
+UID:{{.Date}}@cfe.dev
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
+DTSTART;TZID=America/New York:{{dateFormat "20060102T150405" .Date}}
+DTEND;TZID=America/New York:{{dateFormat "20060102T150405" .Params.end_date}}
+LOCATION:{{.Params.embed_url}}
+URL:{{.Permalink}}
+END:VEVENT
+END:VCALENDAR{{end}}

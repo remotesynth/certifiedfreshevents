@@ -1,6 +1,7 @@
 ---
 title: Trends in Developer Relations with Mary Thengvall
 date: 2023-05-18T16:00:00-04:00
+end_date: 2023-05-18T17:00:00-04:00
 homepage_banner: DevRelish-Mary-Thengvall.png
 host: 
   - erin-mikail-staples

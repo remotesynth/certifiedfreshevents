@@ -1,6 +1,7 @@
 ---
 title: "Why Web Performance Matters with Henri Helvetica"
 date: 2023-02-07T13:00:00-05:00
+end_date: 2023-02-07T14:00:00-05:00
 homepage_banner: uptime-henri-helvetica.png
 host:
   - sean-c-davis

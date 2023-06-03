@@ -1,6 +1,7 @@
 ---
 title: "Interview with Suze Shardlow"
 date: 2022-06-16T13:00:00-04:00
+end_date: 2022-06-16T14:00:00-04:00
 homepage_banner: csh-suze-shardlow-061622.png
 host:
   - sean-c-davis

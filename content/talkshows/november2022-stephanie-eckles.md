@@ -1,6 +1,7 @@
 ---
 title: "CSS is for Everyone! with Stephanie Eckles"
 date: 2022-11-17T13:00:00-04:00
+end_date: 2022-11-17T14:00:00-04:00
 homepage_banner: uptime-stephanie-eckles.png
 host:
   - sean-c-davis

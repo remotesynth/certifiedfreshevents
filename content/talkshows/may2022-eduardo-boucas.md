@@ -1,6 +1,7 @@
 ---
 title: Interview with Eduardo Bouças
 date: 2022-05-19T13:00:00-04:00
+end_date: 2022-05-19T14:00:00-04:00
 homepage_banner: csh-eduarco-boucas-051922.png
 host:
   - sean-c-davis

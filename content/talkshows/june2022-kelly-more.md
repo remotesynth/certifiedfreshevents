@@ -1,6 +1,7 @@
 ---
 title: "Interview with Kelly More"
 date: 2022-06-02T13:00:00-04:00
+end_date: 2022-06-02T14:00:00-04:00
 homepage_banner: csh-kelly-more-060222.png
 host:
   - sean-c-davis

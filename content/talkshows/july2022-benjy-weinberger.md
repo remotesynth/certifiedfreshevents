@@ -1,6 +1,7 @@
 ---
 title: "Interview with Benjy Weinberger"
 date: 2022-07-07T13:00:00-04:00
+end_date: 2022-07-07T14:00:00-04:00
 homepage_banner: csh-benjy-weinberger-070722.png
 host:
   - sean-c-davis

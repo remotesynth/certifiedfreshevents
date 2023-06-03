@@ -1,6 +1,7 @@
 ---
 title: "Interview with Peter Cooper"
 date: 2022-08-04T13:00:00-04:00
+end_date: 2022-08-04T14:00:00-04:00
 homepage_banner: csh-peter-cooper-080422.png
 host:
   - sean-c-davis

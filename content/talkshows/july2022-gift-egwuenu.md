@@ -1,6 +1,7 @@
 ---
 title: "Interview with Gift Egwuenu"
 date: 2022-07-21T13:00:00-04:00
+end_date: 2022-07-21T14:00:00-04:00
 homepage_banner: csh-gift-egwuenu-072122.png
 host:
   - sean-c-davis

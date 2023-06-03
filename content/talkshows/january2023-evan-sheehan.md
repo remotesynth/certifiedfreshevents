@@ -1,6 +1,7 @@
 ---
 title: "Framework Agnostic Web Components with Evan Sheehan"
 date: 2023-01-03T13:00:00-05:00
+end_date: 2023-01-03T14:00:00-05:00
 homepage_banner: uptime-evan-sheehan.jpg
 host:
   - sean-c-davis

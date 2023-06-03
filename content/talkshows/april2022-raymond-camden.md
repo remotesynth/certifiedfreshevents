@@ -1,6 +1,7 @@
 ---
 title: "Interview with Raymond Camden"
 date: 2022-04-07T13:00:00-04:00
+end_date: 2022-04-07T14:00:00-04:00
 homepage_banner: csh-raymond-camden-040722.png
 host:
   - sean-c-davis

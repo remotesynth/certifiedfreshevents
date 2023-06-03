@@ -1,6 +1,7 @@
 ---
 title: "What It Takes to Lead DevRel Teams with Cassidy Williams"
 date: 2023-03-22T15:30:00-04:00
+end_date: 2023-03-22T16:30:00-04:00
 homepage_banner: DevRelish-Cassidy-Williams.png
 host: 
   - erin-mikail-staples
