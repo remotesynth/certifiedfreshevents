@@ -1,4 +1,7 @@
 module.exports = {
+  content: [
+    'layouts/**/*.html',
+  ],
   theme: {
     fontFamily: {
       sans: ['Poppins', 'sans-serif']
@@ -49,3 +52,6 @@ module.exports = {
   variants: {},
   plugins: [],
 }
+
+
+//whitelist: ['modal-active','highlight-pattern-circles','highlight-pattern-tictac','bg-carlo','bg-sky','bg-flower','bg-red','bg-salmon','bg-lightBlue','bg-jelly'],
