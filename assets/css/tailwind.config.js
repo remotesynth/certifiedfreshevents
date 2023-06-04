@@ -40,6 +40,7 @@ module.exports = {
 
       red        : '#E53E3E',
 
+      discord    : '#5865F2',
       facebook   : '#39599F',
       github     : '#6CC644',
       twitter    : '#55ACEE',

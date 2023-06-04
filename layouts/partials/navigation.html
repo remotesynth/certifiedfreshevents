@@ -16,15 +16,15 @@
   </div>
 
   <div
-    class="flex flex-col block w-full lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
+    class="flex flex-col w-full gap-6 lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
     id="SiteNav">
     <ul
-      class="flex flex-col order-1 py-10 lg:py-0 lg:justify-start lg:flex-row lg:flex-grow"
+      class="flex flex-col items-center order-1 gap-6 lg:justify-start lg:flex-row lg:flex-grow"
       id="PrimaryNav">
-      <li class="relative text-center has-menu lg:text-left">
+      <li class="relative has-menu">
         <a
           href="/events/"
-          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          class="flex items-center text-xl nav-link anim">
           Upcoming Events
           <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
             <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
@@ -33,7 +33,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu menu-meetups">
+          class="space-y-6 menu">
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
@@ -65,10 +65,10 @@
           */}}
         </ul>
       </li>
-      <li class="relative text-center has-menu lg:text-left">
+      <li class="relative has-menu">
         <a
           href="/sessions/"
-          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:text-lg lg:mt-0 lg:text-left">
+          class="flex items-center text-xl nav-link anim">
           Recordings
           <svg class="hidden w-4 h-4 fill-current lg:inline-block " aria-hidden="true">
             <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
@@ -111,10 +111,10 @@
       </li>
       {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
       {{ if len $talkshows }}
-      <li class="relative text-center has-menu lg:text-left">
+      <li class="relative has-menu">
         <a
           href="/talkshows/"
-          class="inline-block mt-6 text-2xl text-center nav-link anim lg:mr-6 lg:text-lg lg:inline-block lg:mt-0 lg:text-left">
+          class="flex items-center text-xl nav-link anim">
           Talk&nbsp;Shows
           <svg class="hidden w-4 h-4 fill-current lg:inline-block" aria-hidden="true">
             <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
@@ -123,7 +123,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu menu-meetups">
+          class="space-y-6 menu">
             {{ range $talkshows }}
               <li>
                 <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
@@ -142,27 +142,6 @@
         </a>
       </li>
       {{ end }}
-      <li class="text-center lg:text-left">
-        <a
-          href="/speakers/"
-          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          Speakers
-        </a>
-      </li>
-      <li class="text-center lg:text-left">
-        <a
-          href="https://discord.com/invite/E2ysUYPzJH"
-          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          <i class="fab fa-discord"></i> Community
-        </a>
-      </li>
-      <li class="text-center lg:text-left">
-        <a
-          href="/about"
-          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          Who We Are
-        </a>
-      </li>
     </ul>
     <div
       class="flex flex-wrap items-center justify-center order-3 lg:justify-end lg:flex-grow lg:order-2"
@@ -180,19 +159,19 @@
 
       <a
         href="/join/"
-        class="inline-block px-4 py-2 mt-4 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white lg:mb-3">
+        class="inline-block px-4 py-2 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white">
         <span class="block mb-2 text-xs">Never miss an event</span>
         <span class="block font-bold">Join Our Mailing List</span>
       </a>
       <a
         href="/signup/manage/"
-        class="block mt-6 mr-6 text-lg text-center nav-link anim lg:mt-0 lg:text-left hidden">
+        class="hidden mt-6 mr-6 text-lg text-center nav-link anim lg:mt-0 lg:text-left">
         Manage Account
       </a>
     </div>
 
     <form
-      class="flex items-stretch justify-center order-2 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only"
+      class="flex items-stretch justify-center order-3 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only lg:order-2"
       id="Search" action="/search" method="get">
       <label class="sr-only" for="search">Enter search terms</label>
       <input
@@ -222,5 +201,23 @@
         </svg>
       </button>
     </form>
+
+    <ul
+    class="flex justify-center order-2 gap-4 lg:order-3 lg:justify-end">
+      <li>
+        <a
+          href="{{.Site.Params.discord}}"
+          class="inline-block text-discord">
+          <i class="text-3xl fab fa-discord"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="{{.Site.Params.youtube}}"
+          class="inline-block text-youtube">
+          <i class="text-3xl fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
   </div>
 </nav>
