@@ -13,6 +13,12 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - webdev
+  - javascript
+  - graphql
+  - react
+  - javascript frameworks
 draft: false
 ---
 

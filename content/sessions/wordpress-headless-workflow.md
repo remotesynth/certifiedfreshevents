@@ -12,6 +12,12 @@ recordings:
     length: "57:07"
 categories:
   - webdev
+tags:
+  - webdev
+  - headless cms
+  - jamstack
+  - wordpress
+  - content management
 draft: false
 ---
 

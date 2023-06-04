@@ -12,6 +12,11 @@ recordings:
     length: "54:46"
 categories:
   - stuff
+tags:
+  - webdev
+  - video
+  - video streaming
+  - cloudinary
 draft: false
 ---
 

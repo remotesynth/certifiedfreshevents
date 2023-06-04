@@ -11,6 +11,10 @@ recordings:
     length: "10:17"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - career
 draft: false
 ---
 

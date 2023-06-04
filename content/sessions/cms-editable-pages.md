@@ -11,6 +11,9 @@ speakers:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - jamstack
+  - webdev
 draft: false
 ---
 

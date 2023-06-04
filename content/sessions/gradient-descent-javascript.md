@@ -13,6 +13,9 @@ recordings:
 categories:
   - software
   - javascript
+tags:
+  - javascript
+  - machine learning
 draft: false
 ---
 

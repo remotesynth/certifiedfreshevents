@@ -12,6 +12,9 @@ recordings:
     length: "22:30"
 categories:
   - stuff
+tags:
+  - iot
+  - smart home
 draft: false
 ---
 

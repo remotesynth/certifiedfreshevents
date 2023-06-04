@@ -12,6 +12,9 @@ recordings:
     length: "25:13"
 categories:
   - culture
+tags:
+  - career
+  - remote work
 draft: false
 ---
 

@@ -12,6 +12,8 @@ recordings:
         length: "24:11"
 categories:
   - culture
+tags:
+    - career
 draft: false
 ---
 

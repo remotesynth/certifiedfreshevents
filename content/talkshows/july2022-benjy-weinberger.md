@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/t94oVJ7nn80
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - continuous integration
+  - continuous delivery
+  - python
 draft: false
 ---
 

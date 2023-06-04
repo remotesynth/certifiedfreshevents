@@ -11,6 +11,10 @@ recordings:
 event: moar-serverless-2021
 categories:
   - webdev
+tags:
+  - serverless
+  - jamstack
+  - FaaS
 draft: false
 ---
 

@@ -11,6 +11,9 @@ recordings:
 event: moar-serverless-2021
 categories:
   - software
+tags:
+  - serverless
+  - webdev
 draft: false
 ---
 

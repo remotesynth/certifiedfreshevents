@@ -12,6 +12,14 @@ recordings:
     length: "1:04:43"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - react
+  - nextjs
+  - headless cms
+  - vercel
 draft: false
 ---
 

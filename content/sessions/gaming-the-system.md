@@ -12,6 +12,9 @@ recordings:
     length: "46:31"
 categories:
   - culture
+tags:
+  - career
+  - devops
 draft: false
 ---
 

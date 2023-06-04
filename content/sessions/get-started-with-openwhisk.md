@@ -12,6 +12,11 @@ recordings:
     length: "01:53:03"
 categories:
   - devops
+tags:
+  - devops
+  - openwhisk
+  - serverless
+  - FaaS
 draft: false
 ---
 

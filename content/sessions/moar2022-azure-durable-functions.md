@@ -11,6 +11,10 @@ recordings:
   youtube:
     url: https://youtu.be/pS1DfzvV6IY
     length: "38:14"
+tags:
+  - serverless
+  - azure
+  - microsoft
 draft: false
 ---
 

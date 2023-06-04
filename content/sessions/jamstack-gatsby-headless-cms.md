@@ -12,6 +12,14 @@ recordings:
     length: "1:08:05"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - gatsby
+  - react
+  - netlify
+  - headless cms
 draft: false
 ---
 

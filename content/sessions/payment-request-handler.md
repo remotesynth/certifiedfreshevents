@@ -12,6 +12,10 @@ recordings:
       length: "1:00:03"
 categories:
   - webdev
+tags:
+  - webdev
+  - ecommerce
+  - web standards
 draft: false
 ---
 

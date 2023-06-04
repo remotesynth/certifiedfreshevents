@@ -11,6 +11,9 @@ speakers:
 event: the-jam-2021
 categories:
   - stuff
+tags:
+  - webdev
+  - performance
 draft: false
 ---
 

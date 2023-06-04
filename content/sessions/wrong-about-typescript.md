@@ -12,6 +12,10 @@ recordings:
     length: "30:32"
 categories:
   - javascript
+tags:
+  - javascript
+  - typescript
+  - microsoft
 draft: false
 ---
 

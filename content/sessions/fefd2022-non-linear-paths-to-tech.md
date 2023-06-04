@@ -6,12 +6,15 @@ speakers:
   - natalia-venditto
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - culture
 recordings:
   youtube:
     url: https://youtu.be/Url_pFqA7iY
     length: "42:58"
+categories:
+  - culture
+tags:
+  - career
+  - women in tech
 draft: false
 ---
 

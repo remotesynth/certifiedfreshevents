@@ -13,6 +13,10 @@ recordings:
     length: "00:00"
 show: uptimefm
 short_desc: Sean will work with Evan Sheehan to try to understand why didn't web components catch on right away? Why are they back _now?_ Are they here to stay? And how can you get started working with them today?
+tags:
+  - web components
+  - webdev
+  - javascript frameworks
 draft: false
 ---
 

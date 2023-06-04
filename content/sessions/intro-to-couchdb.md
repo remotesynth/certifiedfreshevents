@@ -12,6 +12,10 @@ recordings:
     length: "01:00:23"
 categories:
   - software
+tags:
+  - couchdb
+  - databases
+  - nosql
 draft: false
 ---
 

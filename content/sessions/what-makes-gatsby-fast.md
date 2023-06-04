@@ -12,6 +12,11 @@ recordings:
       length: "25:25"
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript frameworks
+  - gatsby
+  - react
 draft: false
 ---
 

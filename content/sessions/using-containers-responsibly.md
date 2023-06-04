@@ -12,6 +12,11 @@ recordings:
     length: "56:12"
 categories:
   - devops
+tags:
+  - devops
+  - containers
+  - continuous integration
+  - continuous delivery
 draft: false
 ---
 

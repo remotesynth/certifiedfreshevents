@@ -12,6 +12,9 @@ recordings:
     length: "19:37"
 categories:
   - webdev
+tags:
+  - accessibility
+  - webdev
 draft: false
 featured: true
 ---

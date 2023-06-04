@@ -12,6 +12,10 @@ recordings:
     length: "43:35"
 categories:
   - software
+tags:
+  - webdev
+  - graphql
+  - appwrite
 draft: false
 ---
 

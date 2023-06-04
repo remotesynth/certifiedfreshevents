@@ -12,6 +12,11 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - edge computing
+  - vercel
 draft: false
 ---
 

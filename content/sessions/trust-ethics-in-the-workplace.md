@@ -12,6 +12,9 @@ recordings:
     length: "48:59"
 categories:
   - culture
+tags:
+  - ethics
+  - career
 draft: false
 ---
 

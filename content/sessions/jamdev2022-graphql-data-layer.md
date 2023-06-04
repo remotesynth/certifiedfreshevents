@@ -11,6 +11,11 @@ recordings:
     length: "42:26"
 categories:
   - software
+tags:
+  - webdev
+  - jamstack
+  - APIs
+  - graphql
 draft: false
 ---
 

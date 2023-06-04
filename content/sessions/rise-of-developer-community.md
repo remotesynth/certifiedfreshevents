@@ -12,6 +12,10 @@ recordings:
     length: "48:47"
 categories:
   - culture
+tags:
+  - community
+  - devrel
+  - career
 featured: true
 draft: false
 ---

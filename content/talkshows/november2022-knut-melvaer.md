@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/Mt1CcmgW4zM
     length: "00:00"
 show: uptimefm
+tags:
+  - sanity
+  - headless cms
+  - devrel
 draft: false
 ---
 

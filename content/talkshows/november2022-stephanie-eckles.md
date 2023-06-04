@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/MNiRcWBCxkg
     length: "00:00"
 show: uptimefm
+tags:
+  - css
+  - microsoft
+  - eleventy
 draft: false
 ---
 

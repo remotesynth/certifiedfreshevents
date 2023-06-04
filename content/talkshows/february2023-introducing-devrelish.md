@@ -12,6 +12,9 @@ recordings:
     length: "00:00"
 show: devrelish
 short_desc: Join Erin Makail Staples and Brian Rinaldi as they introduce a new show all about careers in Developer Relations (aka DevRel) and DevRel adjacent roles.
+tags:
+  - devrel
+  - community
 draft: false
 ---
 

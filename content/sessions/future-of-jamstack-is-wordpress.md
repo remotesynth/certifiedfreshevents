@@ -11,6 +11,12 @@ speakers:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - wordpress
+  - jamstack
+  - webdev
+  - content management
+  - headless cms
 draft: false
 ---
 

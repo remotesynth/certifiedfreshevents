@@ -13,6 +13,12 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - gridsome
+  - vue
 draft: false
 ---
 

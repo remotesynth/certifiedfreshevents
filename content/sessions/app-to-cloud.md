@@ -11,6 +11,11 @@ speakers:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - microsoft
+  - azure
+  - jamstack
+  - webdev
 draft: false
 ---
 

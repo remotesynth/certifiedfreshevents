@@ -12,6 +12,9 @@ recordings:
       length: "38:37"
 categories:
   - software
+tags:
+  - go
+  - databases
 draft: false
 ---
 

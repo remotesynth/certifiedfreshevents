@@ -10,6 +10,11 @@ recordings:
       start_time: 00:59
 categories:
   - stuff
+tags:
+  - iot
+  - microsoft
+  - azure
+  - particle
 draft: false
 ---
 

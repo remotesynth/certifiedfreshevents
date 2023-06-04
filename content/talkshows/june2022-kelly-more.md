@@ -12,6 +12,9 @@ recordings:
     url: https://youtu.be/ZxohMZfVIVE
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - artificial intelligence
+  - data science
 draft: false
 ---
 

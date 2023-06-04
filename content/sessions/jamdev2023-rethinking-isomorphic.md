@@ -11,6 +11,14 @@ recordings:
     length: "43:36"
 categories:
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - javascript
+  - solidjs
+  - solidstart
+  - netlify
 draft: false
 ---
 

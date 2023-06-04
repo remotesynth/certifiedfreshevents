@@ -12,6 +12,10 @@ recordings:
     length: "02:00:15"
 categories:
   - devops
+tags:
+  - kubernetes
+  - openshift
+  - containers
 draft: false
 ---
 

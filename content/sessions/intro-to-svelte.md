@@ -12,6 +12,11 @@ recordings:
     length: "48:33"
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript frameworks
+  - javascript
+  - svelte
 featured: true
 draft: false
 ---

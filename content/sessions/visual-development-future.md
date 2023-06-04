@@ -12,6 +12,9 @@ recordings:
       length: "30:11"
 categories:
   - webdev
+tags:
+  - webdev
+  - site builders
 featured: true
 draft: false
 ---

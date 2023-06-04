@@ -11,6 +11,10 @@ recordings:
     length: "38:00"
 categories:
   - software
+tags:
+  - serverless
+  - databases
+  - fauna
 draft: false
 ---
 

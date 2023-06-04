@@ -12,6 +12,10 @@ recordings:
     length: "52:12"
 categories:
   - webdev
+tags:
+  - webdev
+  - testing
+  - javascript
 draft: false
 featured: true
 ---

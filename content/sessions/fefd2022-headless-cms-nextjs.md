@@ -6,12 +6,18 @@ speakers:
   - ifeoma-nwosu
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/gMBL6lUs_5M
     length: "29:10"
+categories:
+  - webdev
+tags:
+  - nextjs
+  - javascript frameworks
+  - headless cms
+  - content management
+  - webdev
 draft: false
 ---
 

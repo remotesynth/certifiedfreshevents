@@ -12,6 +12,9 @@ recordings:
     length: "33:40"
 categories:
   - webdev
+tags:
+  - webdev
+  - performance
 draft: false
 ---
 

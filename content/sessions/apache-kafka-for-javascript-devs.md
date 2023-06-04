@@ -12,6 +12,11 @@ recordings:
     length: "28:29"
 categories:
   - software
+tags:
+  - open source
+  - javascript
+  - kafka
+  - data
 draft: false
 featured: true
 ---

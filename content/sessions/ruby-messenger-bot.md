@@ -9,6 +9,9 @@ recordings:
       start_time: 43:08
 categories:
   - stuff
+tags:
+  - bots
+  - ruby
 draft: false
 ---
 

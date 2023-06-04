@@ -13,6 +13,11 @@ speakers:
   - jarel-fryer
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript
+  - javascript frameworks
+  - react
 featured: true
 draft: false
 ---

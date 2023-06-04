@@ -13,6 +13,11 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - javascript
+  - javascript frameworks
+  - vue
+  - webdev
 draft: false
 ---
 

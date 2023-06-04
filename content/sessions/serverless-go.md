@@ -13,6 +13,11 @@ recordings:
 categories:
   - software
   - devops
+tags:
+  - go
+  - aws
+  - serverless
+  - devops
 draft: false
 ---
 

@@ -10,6 +10,10 @@ recordings:
     start_time: 03:39
 categories:
   - webdev
+tags:
+  - webdev
+  - PWA
+  - mobile
 draft: false
 ---
 
