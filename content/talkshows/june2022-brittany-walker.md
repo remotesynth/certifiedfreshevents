@@ -1,7 +1,7 @@
 ---
 title: DevRel and Community with Brittany Walker
-date: 2023-06-18T16:00:00-04:00
-end_date: 2023-06-18T17:00:00-04:00
+date: 2023-06-29T15:30:00-04:00
+end_date: 2023-06-29T16:30:00-04:00
 homepage_banner: DevRelish-Brittany-Walker.png
 host: 
   - erin-mikail-staples
