@@ -81,7 +81,7 @@
           {{ range $key, $value := .Site.Taxonomies.categories}}
             {{ with site.GetPage (print "/categories/" $key) }}
               <li>
-                <a href="{{.RelPermalink}}" class="flex block text-gray-800 has-nav-link-icon hover:text-java anim">
+                <a href="{{.RelPermalink}}" class="flex text-gray-800 has-nav-link-icon hover:text-java anim">
                   <div class="nav-link-icon bg-{{.Params.color }}">
                     <svg aria-hidden="true">
                       <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
