@@ -20,4 +20,4 @@ tags:
 draft: false
 ---
 
-Erin and Brian are joined by Brittany Walker, Senior Developer Advocate for Contentful and local tecg community organizer. We'll discuss the journey from self-taught developer to bootcamp to developer advocate and community organizer.
+Erin and Brian are joined by Brittany Walker, Senior Developer Advocate for Contentful and local tech community organizer. We'll discuss the journey from self-taught developer to bootcamp to developer advocate and community organizer.
