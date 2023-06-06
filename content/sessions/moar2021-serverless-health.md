@@ -11,6 +11,8 @@ recordings:
 event: moar-serverless-2021
 categories:
   - stuff
+tags:
+  - serverless
 draft: false
 ---
 

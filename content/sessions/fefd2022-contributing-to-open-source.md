@@ -6,12 +6,15 @@ speakers:
   - isabel-costa
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - culture
 recordings:
   youtube:
     url: https://youtu.be/JWD18naXSyQ
     length: "10:28"
+categories:
+  - culture
+tags:
+  - open source
+  - career
 draft: false
 ---
 

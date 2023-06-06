@@ -11,6 +11,10 @@ recordings:
     length: "41:56"
 categories:
   - stuff
+tags:
+  - jamstack
+  - netlify
+  - webdev
 draft: false
 ---
 

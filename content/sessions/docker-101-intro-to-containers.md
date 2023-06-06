@@ -12,6 +12,10 @@ recordings:
     length: "43:15"
 categories:
   - devops
+tags:
+  - docker
+  - containers
+  - python
 draft: false
 featured: true
 ---

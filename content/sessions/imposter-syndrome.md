@@ -12,6 +12,10 @@ recordings:
       length: "45:04"
 categories:
   - culture
+tags:
+  - culture
+  - imposter syndrome
+  - career
 featured: true
 draft: false
 ---

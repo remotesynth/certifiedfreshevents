@@ -13,6 +13,11 @@ recordings:
 categories:
   - stuff
   - javascript
+tags:
+  - slack
+  - bots
+  - IBM Watson
+  - Nodejs
 draft: false
 ---
 

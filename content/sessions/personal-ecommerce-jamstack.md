@@ -11,6 +11,13 @@ speakers:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - ecommerce
+  - javascript frameworks
+  - react
+  - nextjs
 draft: false
 ---
 

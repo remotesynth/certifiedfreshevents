@@ -12,6 +12,10 @@ recordings:
     length: "28:12"
 categories:
   - stuff
+tags:
+  - webdev
+  - game development
+  - devops
 draft: false
 ---
 

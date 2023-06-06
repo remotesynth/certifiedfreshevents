@@ -12,6 +12,10 @@ recordings:
     length: "1:03:30"
 categories:
   - software
+tags:
+  - edge computing
+  - FaaS
+  - serverless
 draft: false
 ---
 

@@ -12,6 +12,9 @@ recordings:
       length: "28:05"
 categories:
   - culture
+tags:
+  - career
+  - career development
 draft: false
 ---
 

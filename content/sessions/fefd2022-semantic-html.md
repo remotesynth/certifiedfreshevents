@@ -6,12 +6,15 @@ speakers:
   - abbey-perini
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/mNmRcx_z9og
     length: "28:21"
+categories:
+  - webdev
+tags:
+  - webdev
+  - semantic HTML
 draft: false
 ---
 

@@ -12,6 +12,10 @@ recordings:
     length: "58:02"
 categories:
   - software
+tags:
+  - backend
+  - APIs
+  - serverless
 draft: false
 ---
 

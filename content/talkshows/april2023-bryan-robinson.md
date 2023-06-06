@@ -14,6 +14,9 @@ recordings:
 draft: false
 short_desc: The modern website has become an art of composition. It's a rarity that a website will only pull content from a single source these days. Sean and Bryan discuss the challenges and solutions to composable content.
 show: uptimefm
+tags:
+  - content management
+  - headless cms
 ---
 
 The modern website has become an art of composition. It's a rarity that a website will only pull content from a single source these days.

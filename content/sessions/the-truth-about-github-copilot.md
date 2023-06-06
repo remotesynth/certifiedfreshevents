@@ -12,6 +12,10 @@ recordings:
     length: "33:39"
 categories:
   - stuff
+tags:
+  - github
+  - github copilot
+  - ai coding assistants
 draft: false
 ---
 

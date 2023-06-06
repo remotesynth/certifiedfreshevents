@@ -11,6 +11,8 @@ speakers:
 event: the-jam-2021
 categories:
   - culture
+tags:
+  - accessibility
 draft: false
 ---
 

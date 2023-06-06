@@ -12,6 +12,10 @@ recordings:
   youtube:
     url: https://youtu.be/E_pBY6sO2ug
     length: "42:23"
+tags:
+  - javascript
+  - webdev
+  - state machines
 draft: false
 featured: true
 ---

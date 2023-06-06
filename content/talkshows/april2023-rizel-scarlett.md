@@ -14,6 +14,10 @@ recordings:
     length: "00:00"
 show: devrelish
 short_desc: Erin and Brian are joined by Rizel Scarlett, a developer advocate at GitHub, who'll discuss her path into devrel and working as an advocate for open source communities.
+tags:
+  - github
+  - devrel
+  - open source
 draft: false
 ---
 

@@ -11,6 +11,11 @@ recordings:
 event: the-jam-2022
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - headless cms
+  - sanity
 draft: false
 ---
 

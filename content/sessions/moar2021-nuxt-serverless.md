@@ -11,6 +11,14 @@ recordings:
     length: "10:01"
 categories:
   - javascript
+tags:
+  - serverless
+  - javascript
+  - FaaS
+  - javascript frameworks
+  - nuxt
+  - vue
+  - netlify
 draft: false
 ---
 

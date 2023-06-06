@@ -11,6 +11,10 @@ recordings:
   youtube:
     url: https://youtu.be/b63kbdGWFmg
     length: "36:50"
+tags:
+  - serverless
+  - cloudflare
+  - webdev
 draft: false
 ---
 

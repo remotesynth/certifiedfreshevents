@@ -12,6 +12,12 @@ recordings:
     length: "46:16"
 categories:
   - devops
+tags:
+  - wordpress
+  - continuous integration
+  - continuous delivery
+  - content management
+  - webdev
 draft: false
 ---
 

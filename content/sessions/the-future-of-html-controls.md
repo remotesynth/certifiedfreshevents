@@ -12,6 +12,9 @@ recordings:
     length: "40:35"
 categories:
   - webdev
+tags:
+  - web standards
+  - webdev
 draft: false
 featured: true
 ---

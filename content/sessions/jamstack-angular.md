@@ -11,6 +11,12 @@ recordings:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - angular
+  - scully
 draft: false
 ---
 

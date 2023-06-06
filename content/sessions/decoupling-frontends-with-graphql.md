@@ -13,6 +13,11 @@ recordings:
 categories:
   - webdev
   - software
+tags:
+  - graphql
+  - databases
+  - APIs
+  - webdev
 draft: false
 ---
 

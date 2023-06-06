@@ -11,6 +11,11 @@ recordings:
     length: "05:17"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - APIs
+  - web3
 draft: false
 ---
 

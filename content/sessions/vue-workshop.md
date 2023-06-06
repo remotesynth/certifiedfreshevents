@@ -9,6 +9,10 @@ recordings:
       start_time: 00:00
 categories:
   - webdev
+tags:
+  - vue
+  - javascript frameworks
+  - webdev
 draft: false
 ---
 

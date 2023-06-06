@@ -12,6 +12,9 @@ recordings:
     length: "25:28"
 categories:
   - webdev
+tags:
+  - webdev
+  - codepen
 draft: false
 ---
 

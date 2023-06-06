@@ -12,6 +12,10 @@ recordings:
     length: "40:05"
 categories:
   - webdev
+tags:
+  - webdev
+  - headless cms
+  - content management
 draft: false
 ---
 

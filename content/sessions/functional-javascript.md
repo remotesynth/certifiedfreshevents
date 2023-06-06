@@ -3,15 +3,19 @@ title: "JavaScript Fundamentals for Functional Programming"
 date: 2018-04-13T18:52:51-04:00
 speakers:
   - bianca-gandolfo
-categories:
-  - javascript
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/e/fundamental-javascript/2
-      start_time: 06:39
+    url: https://www.crowdcast.io/e/fundamental-javascript/2
+    start_time: 06:39
   youtube:
-      url: https://youtu.be/O0Z3qsTP6Fo
-      length: "1:52:07"
+    url: https://youtu.be/O0Z3qsTP6Fo
+    length: "1:52:07"
+categories:
+  - javascript
+tags:
+  - javascript
+  - computer science
+  - functional programming
 draft: false
 ---
 

@@ -6,12 +6,15 @@ speakers:
   - julia-undeutsch
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/9goOuRJMEHY
     length: "28:57"
+categories:
+  - webdev
+tags:
+  - accessibility
+  - webdev
 draft: false
 ---
 

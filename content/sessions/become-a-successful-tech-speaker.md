@@ -12,6 +12,10 @@ recordings:
     length: "46:22"
 categories:
   - culture
+tags:
+  - career
+  - public speaking
+  - conferences
 draft: false
 featured: true
 ---

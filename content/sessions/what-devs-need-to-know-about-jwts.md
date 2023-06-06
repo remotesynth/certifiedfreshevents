@@ -12,6 +12,10 @@ recordings:
     length: "01:00:14"
 categories:
   - software
+tags:
+  - authentication
+  - JWTs
+  - webdev
 draft: false
 ---
 

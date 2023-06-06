@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/aDxgLM4JG7s
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - javascript
+  - community
+  - ruby
 draft: false
 ---
 

@@ -12,6 +12,11 @@ recordings:
     length: "25:19"
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript frameworks
+  - react
+  - preact
 draft: false
 ---
 

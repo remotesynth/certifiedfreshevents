@@ -12,6 +12,8 @@ recordings:
       length: "32:27"
 categories:
   - culture
+tags:
+  - sextech
 featured: true
 draft: false
 ---

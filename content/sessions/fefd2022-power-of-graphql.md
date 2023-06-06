@@ -6,12 +6,15 @@ speakers:
   - jaeriah-tay
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/Rm3pzv602C8
     length: "22:42"
+categories:
+  - webdev
+tags:
+  - graphql
+  - webdev
 draft: false
 ---
 

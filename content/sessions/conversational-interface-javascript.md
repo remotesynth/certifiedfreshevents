@@ -13,6 +13,10 @@ recordings:
       length: "38:33"
 categories:
   - stuff
+tags:
+  - natural langauge processing
+  - bots
+  - javascript
 draft: false
 ---
 

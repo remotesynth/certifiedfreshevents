@@ -12,6 +12,8 @@ recordings:
         length: "54:10"
 categories:
   - stuff
+tags:
+    - bots
 draft: false
 ---
 

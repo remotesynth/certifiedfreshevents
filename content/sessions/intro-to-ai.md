@@ -13,6 +13,9 @@ recordings:
 categories:
   - software
   - stuff
+tags:
+  - artificial intelligence
+  - machine learning
 draft: false
 ---
 

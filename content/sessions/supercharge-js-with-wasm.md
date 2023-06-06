@@ -13,6 +13,9 @@ recordings:
 categories:
   - javascript
   - webdev
+tags:
+  - javascript
+  - web assembly
 draft: false
 ---
 

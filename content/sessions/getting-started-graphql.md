@@ -12,6 +12,10 @@ recordings:
     length: "45:26"
 categories:
   - webdev
+tags:
+  - graphql
+  - APIs
+  - webdev
 draft: false
 ---
 

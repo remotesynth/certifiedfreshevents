@@ -13,6 +13,10 @@ recordings:
 categories:
   - devops
   - software
+tags:
+  - devops
+  - go
+  - serverless
 draft: false
 ---
 

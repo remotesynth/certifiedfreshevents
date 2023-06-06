@@ -12,6 +12,12 @@ recordings:
     length: "41:13"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - visual studio code
+  - azure
+  - microsoft
 draft: false
 ---
 

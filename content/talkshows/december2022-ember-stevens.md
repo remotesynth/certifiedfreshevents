@@ -13,6 +13,9 @@ recordings:
     length: "00:00"
 show: uptimefm
 short_desc: "Writing documentation for developers means answering a number of questions: How do we organize the content? How should navigation reflect that organization? How do we render code snippets? What application and format do we use for writing? How do we maintain docs over time? Ember Stevens joins to discuss."
+tags:
+  - documentation
+  - launchdarkly
 draft: false
 ---
 

@@ -11,6 +11,9 @@ recordings:
   youtube:
     url: https://youtu.be/hw3wwRUPlhM
     length: "38:20"
+tags:
+  - serverless
+  - cloudinary
 draft: false
 ---
 

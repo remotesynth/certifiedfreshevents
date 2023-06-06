@@ -12,6 +12,8 @@ recordings:
     length: "27:32"
 categories:
   - stuff
+tags:
+  - iot
 draft: false
 ---
 

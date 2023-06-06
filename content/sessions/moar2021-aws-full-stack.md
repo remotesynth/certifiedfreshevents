@@ -11,6 +11,10 @@ recordings:
     length: "32:46"
 categories:
   - webdev
+tags:
+  - serverless
+  - aws
+  - webdev
 draft: false
 ---
 

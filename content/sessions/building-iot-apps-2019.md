@@ -13,6 +13,9 @@ recordings:
     length: "02:45:53"
 categories:
   - stuff
+tags:
+  - iot
+  - particle
 draft: false
 ---
 

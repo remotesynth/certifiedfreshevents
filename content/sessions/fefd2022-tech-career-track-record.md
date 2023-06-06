@@ -6,12 +6,15 @@ speakers:
   - amara-metu
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - culture
 recordings:
   youtube:
     url: https://youtu.be/fcV5sAhQx7g
     length: "28:18"
+categories:
+  - culture
+tags:
+  - career
+  - women in tech
 draft: false
 ---
 

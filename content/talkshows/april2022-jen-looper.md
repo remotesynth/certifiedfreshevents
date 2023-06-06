@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/XYslbvUXPD4
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - microsoft
+  - webdev
+  - women in tech
 draft: false
 ---
 

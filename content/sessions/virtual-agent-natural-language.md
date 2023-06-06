@@ -13,6 +13,9 @@ recordings:
 categories:
   - software
   - javascript
+tags:
+  - natural language processing
+  - 
 draft: false
 ---
 

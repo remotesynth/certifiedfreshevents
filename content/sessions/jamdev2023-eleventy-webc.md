@@ -11,6 +11,11 @@ recordings:
     length: "42:28"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - web components
+  - eleventy
 draft: false
 ---
 

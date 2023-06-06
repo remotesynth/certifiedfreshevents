@@ -11,6 +11,9 @@ recordings:
   youtube:
     url: https://youtu.be/Nwg0T39Lrxc
     length: "49:06"
+tags:
+  - serverless
+  - aws
 draft: false
 ---
 

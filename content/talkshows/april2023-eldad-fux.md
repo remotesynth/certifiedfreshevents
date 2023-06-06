@@ -14,6 +14,9 @@ recordings:
 draft: false
 short_desc: It's no small feat to grow a startup from concept to a successful company. Sean and Eldad discuss what it takes to build an open-source company.
 show: uptimefm
+tags:
+  - open source
+  - appwrite
 ---
 
 It's no small feat to grow a startup from concept to a successful company. We've heard the classic story many times. This one is a little different.

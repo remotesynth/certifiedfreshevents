@@ -9,6 +9,13 @@ recordings:
       start_time: 00:00
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript
+  - javascript frameworks
+  - react
+  - remix
+  - localization 
 draft: false
 ---
 

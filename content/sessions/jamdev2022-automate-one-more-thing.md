@@ -11,6 +11,12 @@ recordings:
     length: "44:46"
 categories:
   - devops
+tags:
+  - jamstack
+  - continuous integration
+  - continous deployment
+  - github
+  - github actions
 draft: false
 ---
 

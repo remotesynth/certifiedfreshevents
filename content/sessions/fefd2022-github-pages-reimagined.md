@@ -6,12 +6,17 @@ speakers:
   - rizel-scarlett
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/43cneIXFoZ0
     length: "24:09"
+categories:
+  - webdev
+tags:
+  - github
+  - github pages
+  - webdev
+  - visual studio code
 draft: false
 ---
 

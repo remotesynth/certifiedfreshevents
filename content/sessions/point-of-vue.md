@@ -12,6 +12,10 @@ recordings:
     length: "33:50"
 categories:
   - webdev
+tags:
+  - webdev
+  - javascript frameworks
+  - vue
 draft: false
 ---
 

@@ -12,6 +12,12 @@ recordings:
     length: "45:43"
 categories:
   - devops
+tags:
+  - devops
+  - github
+  - github actions
+  - continuous integration
+  - continuous delivery
 draft: false
 featured: true
 ---
