@@ -6,7 +6,6 @@
   "devDependencies": {
     "autoprefixer": "^9.7.6",
     "axios": "^0.21.2",
-    "grunt": "^1.0.4",
     "postcss": "^7.0.29",
     "postcss-cli": "^7.1.2",
     "postcss-import": "^12.0.1",
