@@ -1,5 +1,3 @@
-const stylesDir = __dirname;
-
 module.exports = {
   content: [
     'layouts/**/*.html',
