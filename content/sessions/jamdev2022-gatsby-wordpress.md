@@ -11,6 +11,14 @@ recordings:
 event: the-jam-2022
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - react
+  - gatsby
+  - wordpress
+  - headless cms
 draft: false
 ---
 

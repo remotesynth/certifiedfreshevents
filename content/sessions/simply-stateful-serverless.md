@@ -12,6 +12,10 @@ recordings:
     length: "47:47"
 categories:
   - software
+tags:
+  - serverless
+  - aws
+  - databases
 draft: false
 featured: true
 ---

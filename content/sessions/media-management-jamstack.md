@@ -11,6 +11,11 @@ speakers:
 event: the-jam-2021
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - video
+  - cloudinary
 draft: false
 ---
 

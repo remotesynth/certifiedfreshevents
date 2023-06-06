@@ -12,6 +12,10 @@ recordings:
     length: "46:07"
 categories:
   - software
+tags:
+  - databases
+  - cloud databases
+  - nosql
 draft: false
 featured: true
 ---

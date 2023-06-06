@@ -11,6 +11,11 @@ recordings:
 event: moar-serverless-2021
 categories:
   - software
+tags:
+  - serverless
+  - azure
+  - FaaS
+  - microsoft
 draft: false
 ---
 

@@ -12,6 +12,11 @@ recordings:
     length: "49:22"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - databases
+  - cloud databases
 draft: false
 featured: true
 ---

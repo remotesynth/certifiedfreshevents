@@ -12,6 +12,9 @@ recordings:
     length: "59:23"
 categories:
   - webdev
+tags:
+  - webdev
+  - PDFs
 draft: false
 ---
 

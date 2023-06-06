@@ -11,6 +11,13 @@ recordings:
     length: "42:35"
 categories:
   - software
+tags:
+  - webdev
+  - jamstack
+  - video
+  - video straming
+  - cloudinary
+  - netlify
 draft: false
 ---
 

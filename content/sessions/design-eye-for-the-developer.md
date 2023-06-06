@@ -12,6 +12,9 @@ recordings:
     length: "1:08:28"
 categories:
   - webdev
+tags:
+  - webdev
+  - web design
 draft: false
 featured: true
 ---

@@ -12,6 +12,9 @@ recordings:
       length: "01:57:44"
 categories:
   - javascript
+tags:
+  - javascript
+  - computer science
 draft: false
 ---
 

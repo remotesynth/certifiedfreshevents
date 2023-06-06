@@ -12,6 +12,9 @@ recordings:
       length: "28:38"
 categories:
   - software
+tags:
+  - serverless
+  - FaaS
 draft: false
 ---
 

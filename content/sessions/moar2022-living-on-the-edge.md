@@ -11,6 +11,10 @@ recordings:
   youtube:
     url: https://youtu.be/PkqP4XwVmQg
     length: "41:00"
+tags:
+  - serverless
+  - edge computing
+  - netlify
 draft: false
 ---
 

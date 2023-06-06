@@ -14,6 +14,9 @@ recordings:
     length: "00:00"
 show: devrelish
 short_desc: Erin and Brian are joined by Cassidy Williams who'll discuss her path into developer relations, including leading it at multiple companies.
+tags:
+  - devrel
+  - career
 draft: false
 ---
 

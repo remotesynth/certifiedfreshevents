@@ -12,6 +12,9 @@ recordings:
     length: "20:46"
 categories:
   - webdev
+tags:
+  - python
+  - webdev
 draft: false
 ---
 

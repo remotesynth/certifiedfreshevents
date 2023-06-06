@@ -13,6 +13,12 @@ recordings:
 categories:
   - javascript
   - software
+tags:
+  - graphql
+  - APIs
+  - apollo
+  - webdev
+  - javascript
 draft: false
 ---
 

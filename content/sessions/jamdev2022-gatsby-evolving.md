@@ -11,6 +11,13 @@ recordings:
 event: the-jam-2022
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - javascript
+  - javascript frameworks
+  - react
+  - gatsby
 draft: false
 ---
 

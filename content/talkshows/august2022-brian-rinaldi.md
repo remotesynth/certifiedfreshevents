@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/DqZ6DiAWhz8
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - community
+  - devrel
+  - jamstack
 draft: false
 ---
 

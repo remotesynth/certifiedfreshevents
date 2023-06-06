@@ -12,6 +12,10 @@ recordings:
         length: "30:08"
 categories:
   - stuff
+tags:
+  - machine learning
+  - bots
+  - python
 draft: false
 ---
 

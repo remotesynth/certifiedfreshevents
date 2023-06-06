@@ -13,6 +13,10 @@ recordings:
 categories:
   - software
   - webdev
+tags:
+  - dotnet
+  - blazor
+  - microsoft
 draft: false
 ---
 

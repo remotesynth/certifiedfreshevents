@@ -12,6 +12,10 @@ recordings:
       length: 24:12
 categories:
   - stuff
+tags:
+  - virtual reality
+  - mixed reality
+  - augmented reality
 draft: false
 ---
 

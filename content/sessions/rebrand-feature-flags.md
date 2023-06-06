@@ -12,6 +12,10 @@ recordings:
     length: "32:32"
 categories:
   - devops
+tags:
+  - devops
+  - feature flags
+  - launchdarkly
 draft: false
 featured: true
 ---

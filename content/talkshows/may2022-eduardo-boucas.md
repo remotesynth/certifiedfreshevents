@@ -12,6 +12,11 @@ recordings:
     url: https://youtu.be/28wKX_Isz20
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - netlify
+  - jamastack
+  - serverless
+  - FaaS
 draft: false
 ---
 

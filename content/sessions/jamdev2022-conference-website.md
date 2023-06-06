@@ -11,6 +11,12 @@ recordings:
     length: "46:22"
 categories:
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - javascript
+  - javascript frameworks
+  - nextjs
 draft: false
 ---
 

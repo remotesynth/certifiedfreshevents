@@ -12,6 +12,11 @@ recordings:
     length: "1:00:56"
 categories:
   - software
+tags:
+  - redis
+  - databases
+  - python
+  - nodejs
 draft: false
 ---
 

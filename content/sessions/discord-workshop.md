@@ -12,6 +12,9 @@ recordings:
     length: "1:41:46"
 categories:
   - culture
+tags:
+  - discord
+  - community
 draft: false
 featured: true
 ---

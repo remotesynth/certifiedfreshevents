@@ -12,6 +12,8 @@ recordings:
       length: "1:58:27"
 categories:
   - software
+tags:
+  - open source
 draft: false
 ---
 

@@ -13,6 +13,9 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - javascript
+  - webdev
 draft: false
 ---
 

@@ -12,6 +12,10 @@ recordings:
     length: "40:55"
 categories:
   - devops
+tags:
+  - devops
+  - github
+  - git
 draft: false
 ---
 

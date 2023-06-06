@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/PuiWy3SEkdA
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - community
+  - redis
+  - databases
 draft: false
 ---
 

@@ -6,12 +6,15 @@ speakers:
   - phylis-atieno
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - culture
 recordings:
   youtube:
     url: https://youtu.be/RkoHkDnGfpY
     length: "04:59"
+categories:
+  - culture
+tags:
+  - community
+  - career
 draft: false
 ---
 

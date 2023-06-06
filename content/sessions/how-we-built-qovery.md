@@ -12,6 +12,13 @@ recordings:
     length: "43:58"
 categories:
   - webdev
+  - devops
+tags:
+  - devops
+  - webdev
+  - startups
+  - continuous integration
+  - continuous delivery
 draft: false
 ---
 

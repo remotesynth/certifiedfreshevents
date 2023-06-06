@@ -12,6 +12,10 @@ recordings:
     url: https://youtu.be/7yDWKIDCMno
     length: "00:00"
 show: code-sandwich-hour
+tags:
+  - devrel
+  - community
+  - career
 draft: false
 ---
 

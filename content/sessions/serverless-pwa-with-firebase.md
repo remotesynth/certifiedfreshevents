@@ -12,6 +12,11 @@ recordings:
     length: "53:51"
 categories:
   - webdev
+tags:
+  - serverless
+  - FaaS
+  - firebase
+  - PWA
 draft: false
 featured: true
 ---

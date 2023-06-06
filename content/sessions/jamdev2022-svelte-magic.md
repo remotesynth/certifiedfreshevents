@@ -11,6 +11,12 @@ recordings:
 event: the-jam-2022
 categories:
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - svelte
+  - sveltekit
 draft: false
 ---
 

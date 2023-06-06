@@ -9,6 +9,12 @@ recordings:
 speakers:
   - stephanie-eckles
 event: the-jam-2021
+categories:
+  - webdev
+tags:
+    - jamstack
+    - webdev
+    - eleventy
 draft: false
 ---
 

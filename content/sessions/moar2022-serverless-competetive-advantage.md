@@ -11,6 +11,8 @@ recordings:
   youtube:
     url: https://youtu.be/S3fqGuzpgMg
     length: "09:00"
+tags:
+  - serverless
 draft: false
 ---
 

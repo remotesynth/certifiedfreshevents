@@ -12,6 +12,10 @@ recordings:
     length: "53:25"
 categories:
   - webdev
+tags:
+  - webdev
+  - ecommerce
+  - jamstack
 draft: false
 ---
 

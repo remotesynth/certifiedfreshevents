@@ -12,6 +12,9 @@ recordings:
       length: "27:31"
 categories:
   - webdev
+tags:
+  - career
+  - webdev
 draft: false
 ---
 

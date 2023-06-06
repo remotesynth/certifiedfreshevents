@@ -6,12 +6,15 @@ speakers:
   - josefine-schaefer
 recordings:
 event: frontend-foxes-day-2022
-categories:
-  - webdev
 recordings:
   youtube:
     url: https://youtu.be/6_H8enzsJWY
     length: "12:43"
+categories:
+  - webdev
+tags:
+  - webdev
+  - accessibility
 draft: false
 ---
 

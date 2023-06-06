@@ -11,6 +11,12 @@ recordings:
     length: "38:59"
 categories:
   - webdev
+tags:
+  - webdev
+  - jamstack
+  - video
+  - video streaming
+  - imgix
 draft: false
 ---
 

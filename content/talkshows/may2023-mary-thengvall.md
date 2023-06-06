@@ -14,6 +14,9 @@ recordings:
     length: "00:00"
 show: devrelish
 short_desc: Erin and Brian are joined by Mary Thengvall, author of The Business Value of Developer Relations and editor of DevRel Weekly, to talk about trends in DevRel.
+tags:
+  - devrel
+  - career
 draft: false
 ---
 

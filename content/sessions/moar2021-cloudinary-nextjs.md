@@ -11,6 +11,12 @@ recordings:
 event: moar-serverless-2021
 categories:
   - javascript
+tags:
+  - serverless
+  - cloudinary
+  - javascript frameworks
+  - react
+  - nextjs
 draft: false
 ---
 

@@ -13,6 +13,9 @@ recordings:
     length: "00:00"
 short_desc: Mark Noonan joins to talk front-end testing web applications and what tools can help developers test efficiently.
 show: uptimefm
+tags:
+  - testing
+  - webdev
 draft: false
 ---
 

@@ -12,6 +12,10 @@ recordings:
       length: "37:26"
 categories:
   - devops
+tags:
+  - devops
+  - serverless
+  - aws
 draft: false
 ---
 

@@ -12,6 +12,10 @@ recordings:
       length: "38:10"
 categories:
   - webdev
+tags:
+  - mobile
+  - native mobile
+  - webdev
 draft: false
 ---
 

@@ -9,6 +9,11 @@ recordings:
 speakers:
   - michal-zielinski
 event: the-jam-2021
+categories:
+  - webdev
+tags:
+  - webdev
+  - jamstack
 draft: false
 ---
 

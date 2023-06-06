@@ -11,6 +11,9 @@ recordings:
   youtube:
     url: https://youtu.be/X24mIe0LrgM
     length: "38:21"
+tags:
+  - serverless
+  - computer science
 draft: false
 ---
 

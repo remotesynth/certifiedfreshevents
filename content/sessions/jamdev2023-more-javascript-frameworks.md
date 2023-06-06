@@ -12,6 +12,12 @@ recordings:
 categories:
   - webdev
   - javascript
+tags:
+  - webdev
+  - jamstack
+  - javascript frameworks
+  - javascript
+  - netlify
 draft: false
 ---
 It’s easy to become overwhelmed by the growing number of JavaScript frameworks available today. Believe me, I was. And so I built a tool to help developers choose which JavaScript framework to choose. But it was rubbish. 

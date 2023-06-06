@@ -12,6 +12,10 @@ recordings:
     length: "26:11"
 categories:
   - javascript
+tags:
+  - serverless
+  - javascript
+  - azure
 draft: false
 ---
 

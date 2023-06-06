@@ -13,6 +13,9 @@ recordings:
     length: "00:00"
 draft: false
 short_desc: Keeping a website performing at its best means hitting a moving target. Why and how we do this is what Sean and Henri explore.
+tags:
+  - performance
+  - webdev
 show: uptimefm
 ---
 
