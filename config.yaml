@@ -9,6 +9,7 @@ params:
   twitter: cfe_dev
   instagram: cfe_dev
   youtube: https://www.youtube.com/@cfedev
+  discord: https://discord.com/invite/E2ysUYPzJH
   algolia:
     vars:
       - title

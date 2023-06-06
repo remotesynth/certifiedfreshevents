@@ -1,4 +1,18 @@
 module.exports = {
+  content: [
+    'layouts/**/*.html',
+    'content/**/*.md',
+  ],
+  safelist: [
+    'modal-active',
+    'bg-carlo',
+    'bg-sky',
+    'bg-flower',
+    'bg-red',
+    'bg-salmon',
+    'bg-lightBlue',
+    'bg-jelly'
+  ],
   theme: {
     fontFamily: {
       sans: ['Poppins', 'sans-serif']
@@ -37,13 +51,15 @@ module.exports = {
 
       red        : '#E53E3E',
 
+      discord    : '#5865F2',
       facebook   : '#39599F',
       github     : '#6CC644',
+      mastodon   : '#6364FF',
       twitter    : '#55ACEE',
       youtube    : '#FF0000',
       reddit     : '#FF5700',
       instagram  : '#405DE6',
-      rss        : '#336699'
+      rss        : '#ef9438'
     },
   },
   variants: {},

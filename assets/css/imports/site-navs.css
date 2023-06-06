@@ -63,6 +63,7 @@ body.nav-open .site-nav-secondary {
   @apply absolute z-20;
   top: calc(100% + 1.5rem);
   left: 50%;
+  width: 34ch;
   @apply hidden;
   @apply py-8;
   @apply bg-white;
@@ -96,10 +97,6 @@ body.nav-open .site-nav-secondary {
   height: 16px;
   @apply bg-white;
   transform: translateX(-36px);
-}
-
-.menu-meetups {
-  width: 34ch;
 }
 
 .menu-sessions {
