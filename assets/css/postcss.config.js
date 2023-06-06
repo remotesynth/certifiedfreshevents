@@ -1,13 +1,16 @@
 const stylesDir = __dirname;
 
 module.exports = {
-  plugins: [
-    require('postcss-import')({
+  plugins: {
+    'postcss-import': {
       path: [stylesDir]
-    }),
-    require('tailwindcss')('assets/css/tailwind.config.js'),
-    require('autoprefixer')({
+    },
+    tailwindcss: {
+      config: 'assets/css/tailwind.config.js'
+    },
+    autoprefixer: {
       path: [stylesDir]
-    }),
-  ]
+    },
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
+  }
 }
