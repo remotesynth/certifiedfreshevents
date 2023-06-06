@@ -3,7 +3,6 @@ title: Brian Rinaldi
 date: 2019-07-24T18:52:51-04:00
 speaker_image: brianrinaldi.jpg
 job_title: Developer Experience Engineer at LaunchDarkly
-twitter: remotesynth
 mastodon: https://mastodon.xyz/@remotesynth
 github: remotesynth
 website: http://www.remotesynthesis.com/
