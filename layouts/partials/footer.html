@@ -1,104 +1,166 @@
 {{ partial "reminder.html" .}}
 
-<footer class="border border-b-0 border-l-0 border-r-0 border-gray-300">
+<footer class="bg-blue">
   <div
-    class="container px-6 py-16 mx-auto text-center lg:text-left lg:flex lg:flex-wrap"
-  >
-    <div class="mb-10 lg:w-2/3">
-      <nav class="mb-8">
-        <a class="inline-block mr-6 text-lg nav-link anim" href="/conduct/"
-          >Code of Conduct</a
-        >
-        <a
-          href="/speakers/"
-          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          Speakers
-        </a>
+    class="container flex flex-col gap-12 px-6 py-16 mx-auto">
 
-        <a
-          href="/about"
-          class="inline-block mt-6 mr-4 text-2xl text-center nav-link anim lg:mr-6 lg:inline-block lg:mt-0 lg:text-left lg:text-lg">
-          Who We Are
-        </a>
-
-        <a class="inline-block mr-6 text-lg nav-link anim" href="/contact/"
-          >Contact</a
-        >
-        <a class="inline-block mr-6 text-lg nav-link anim" href="/blog/"
-          >Blog</a
-        >
-      </nav>
-
-      <form
-        id="subscribeForm"
-        class="flex flex-wrap items-stretch justify-center mb-10 lg:justify-start"
-        method="post"
-      >
-        <label for="email" class="w-full label"
-          >Subscribe to our mailing list</label
-        >
-        <p class="w-full mb-3">
-          Stay up to date with the latest meetups and sessions.
-        </p>
-        <input
-          type="email"
-          id="email"
-          placeholder="you@domain.com"
-          autocomplete="off"
-          class="w-64 mb-2 mr-1 field"
-        />
-        <button id="foo" name="subscribe" type="submit" class="mb-2 button">
-          Subscribe
-        </button>
-      </form>
-      <div id="subscribe_message" style="color: red"></div>
+    <div class="flex justify-center">
+      <img src="/img/logo-white.svg" alt="CFE.dev" class="h-20"/>
     </div>
 
-    <nav class="mb-10 lg:w-1/3">
-      <h3 class="mb-6 text-lg font-medium text-gray-900">Connect with us</h3>
-      <a
-        rel="me"
-        class="inline-block mr-6 text-java anim hover:text-jelly"
-        href="{{.Site.Params.Mastodon}}"
-        title="Mastodon"
-        aria-label="Mastodon"
-      >
-        <svg
-          class="w-12 h-12 fill-current"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          xml:space="preserve"
-        >
-          <path
-            fill="currentColor"
-            d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.541-.809 3.541-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.433 4.014.536c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.424.398-5.424zm-3.353 5.59h-2.081V9.057c0-1.075-.452-1.62-1.357-1.62-1 0-1.501.647-1.501 1.927v2.791h-2.069V9.364c0-1.28-.501-1.927-1.502-1.927-.905 0-1.357.546-1.357 1.62v5.099H6.026V8.903c0-1.074.273-1.927.823-2.558.566-.631 1.307-.955 2.228-.955 1.065 0 1.872.409 2.405 1.228l.518.869.519-.869c.533-.819 1.34-1.228 2.405-1.228.92 0 1.662.324 2.228.955.549.631.822 1.484.822 2.558v5.253z"
-          />
-        </svg>
-      </a>
+    <nav>
+      <ul class="flex flex-col gap-10 md:grid md:grid-cols-2 lg:grid-cols-5">
+        <li>
+          <h2 class="mb-3 text-lg font-bold text-sky">Upcoming Events</h2>
+          <ul class="space-y-3">
+            {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
+            {{ range $upcoming }}
+              <li>
+                <a
+                  href="{{ .RelPermalink }}"
+                  class="flex flex-col gap-1 text-white anim">
+                  <span class="font-medium">{{ .Title }}</span>
+                  <time class="text-sm opacity-75">
+                    {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
+                  </time>
+                </a>
+              </li>
+            {{ end }}
+            <li>
+              <a href="/archive" class="text-white anim">Browse Past Events</a>
+            </li>
+          </ul>
+        </li>
 
-      <a
-        class="inline-block mr-6 text-java anim hover:text-instagram"
-        href="{{.Site.Params.youtube}}"
-        title="youtube"
-        aria-label="youtube"
-      >
-        <svg class="w-12 h-12 fill-current" aria-hidden="true">
-          <use xlink:href="/img/social.svg#youtube"></use>
-        </svg>
-      </a>
+        <li>
+          <h2 class="mb-3 text-lg font-bold text-sky">Recordings</h2>
+          <ul class="space-y-3">
+            <li>
+              <a
+                href="/sessions/"
+                class="text-white anim">All Recordings</a>
+            </li>
+          </ul>
+        </li>
 
-      <a
-        class="inline-block text-java anim hover:text-rss"
-        href="/rss.xml"
-        title="RSS"
-        aria-label="RSS"
-      >
-        <svg class="w-12 h-12 fill-current" aria-hidden="true">
-          <use xlink:href="/img/social.svg#rss"></use>
-        </svg>
-      </a>
+        <li>
+          <h2 class="mb-3 text-lg font-bold text-sky">Talk Shows</h2>
+          {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
+          {{ if len $talkshows }}
+          <ul class="space-y-3">
+            {{ range $talkshows }}
+              <li>
+                <a
+                  href="{{ .RelPermalink }}"
+                  class="text-white anim">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </li>
+
+        <li>
+          <h2 class="mb-3 text-lg font-bold text-sky">Speakers</h2>
+          <ul class="space-y-3">
+            <li>
+              <a
+              href="/speakers/"
+              class="text-white anim">All Speakers</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 class="mb-3 text-lg font-bold text-sky">CFE.dev</h2>
+          <ul class="space-y-3">
+            <li>
+              <a class="text-white anim" href="/conduct/">Code of Conduct</a>
+            </li>
+            <li>
+              <a class="text-white anim" href="/blog/">Blog</a>
+            </li>
+            <li>
+              <a href="/about" class="text-white anim">Who We Are</a>
+            </li>
+            <li>
+              <a class="text-white anim" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </nav>
 
-    <small class="block w-full">&copy; {{now.Year}} {{.Site.Title}}</small>
+    <div>
+      <div class="flex flex-wrap justify-between gap-8">
+        <div class="max-w-[500px]">
+          <form
+            id="subscribeForm"
+            class="flex flex-wrap items-stretch md:justify-start"
+            method="post">
+            <label for="email" class="w-full text-lg label text-sky">Subscribe to our mailing list</label>
+            <p class="w-full mb-3 text-gray-300">
+              Stay up to date with the latest meetups and sessions.
+            </p>
+            <div class="flex flex-wrap flex-1 gap-2">
+              <input
+                type="email"
+                id="email"
+                placeholder="you@domain.com"
+                autocomplete="off"
+                class="flex-1 field"
+              />
+              <button id="foo" name="subscribe" type="submit" class="button border-sky">
+                Subscribe
+              </button>
+            </div>
+          </form>
+          <div id="subscribe_message" style="color: red"></div>
+        </div>
+
+        <nav class="self-end">
+          <h3 class="mb-3 text-lg font-medium text-sky">Connect with us</h3>
+          <ul class="flex flex-wrap gap-6">
+            <li>
+              <a
+                rel="me"
+                class="inline-block text-white anim hover:text-mastodon"
+                href="{{.Site.Params.Mastodon}}"
+                title="Mastodon"
+                aria-label="Mastodon"
+              >
+                <svg class="w-10 h-10 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#mastodon"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline-block text-white anim hover:text-youtube"
+                href="{{.Site.Params.youtube}}"
+                title="youtube"
+                aria-label="youtube"
+              >
+                <svg class="w-10 h-10 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline-block text-white anim hover:text-rss"
+                href="/rss.xml"
+                title="RSS"
+                aria-label="RSS"
+              >
+                <svg class="w-10 h-10 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/social.svg#rss"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <small class="block w-full text-white">&copy; {{now.Year}} {{.Site.Title}}</small>
   </div>
 </footer>

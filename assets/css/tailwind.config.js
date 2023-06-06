@@ -1,6 +1,9 @@
+const stylesDir = __dirname;
+
 module.exports = {
   content: [
     'layouts/**/*.html',
+    'content/**/*.md',
   ],
   theme: {
     fontFamily: {
@@ -43,11 +46,12 @@ module.exports = {
       discord    : '#5865F2',
       facebook   : '#39599F',
       github     : '#6CC644',
+      mastodon   : '#6364FF',
       twitter    : '#55ACEE',
       youtube    : '#FF0000',
       reddit     : '#FF5700',
       instagram  : '#405DE6',
-      rss        : '#336699'
+      rss        : '#ef9438'
     },
   },
   variants: {},
