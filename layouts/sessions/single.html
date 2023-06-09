@@ -156,7 +156,7 @@
               aria-expanded="false"
               aria-controls="Transcript"
               id="TranscriptToggle"
-              class="flex items-center justify-between w-full gap-2">
+              class="flex items-center justify-between w-full gap-2 accordion-trigger">
               <strong class="text-xl">Transcript</strong>
               <span class="inline-block bg-blue h-[1px] flex-1 opacity-20"></span>
               <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
@@ -169,7 +169,8 @@
             id="Transcript"
             role="region"
             aria-labelledby="TranscriptToggle"
-            class="mt-4 content">
+            class="mt-4 content"
+            hidden>
               {{.Content}}
           </div>
         </div>
@@ -183,10 +184,15 @@
           {{ end }}
         </ul>
 
-        <div class="relative">
-          <div class="sticky top-20">
-            Hello
-          </div>
+        <div class="relative mt-8">
+          <aside class="sticky top-20">
+            <h3 class="mb-2 text-sm font-bold text-right text-gray-400 uppercase">Sponsored by</h3>
+            <ul class="space-y-6">
+              <li>
+                <div class="w-full h-[250px] border"></div>
+              </li>
+            </ul>
+          </aside>
         </div>
       </div>
     </div>
