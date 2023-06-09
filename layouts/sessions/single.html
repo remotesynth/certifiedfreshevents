@@ -46,7 +46,7 @@
           </span>
         </div>
       </li>
-  
+
       {{ with .Params.recordings.vimeo }}
           <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
             <svg
@@ -107,7 +107,7 @@
           </div>
         {{ end }}
       {{ else }}
-        <div class="block mx-auto bg-black embed-responsive hidden" id="crowdcast-open">
+        <div class="block mx-auto bg-black embed-responsive" id="crowdcast-open">
           <div
             class="flex flex-col items-center justify-center w-full h-full bg-jelly"
             role="banner">
@@ -126,30 +126,70 @@
     {{ end }}
   </div>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
-    <div class="mb-8">
-      {{ partial "social-share.html" .}}
-    </div>
+  <div class="container max-w-6xl px-6 pb-8 mx-auto mt-20">
+    <div class="flex flex-col gap-6 lg:gap-12 lg:flex-row">
+      <div class="lg:max-w-max">
+        {{ partial "social-share.html" .}}
+      </div>
 
-    <div class="mb-20 content">
-      {{ .Content }}
-    </div>
+      <div class="flex-1">
+        <div class="content">
+          {{ .Content }}
+        </div>
 
-    <div class="mt-24 space-y-20">
-      {{ range $speaker := .Params.speakers }}
-        {{ with site.GetPage (print "/speakers/" $speaker) }}
-          {{ partial "speaker-card.html" .}}
+        <div class="mt-12 space-y-12">
+          {{ range $speaker := .Params.speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <div class="p-6 border rounded shadow-lg">
+                {{ partial "speaker-card.html" .}}
+              </div>
+            {{ end }}
+          {{end}}
+        </div>
+
+        {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
+        {{ with $transcript }}
+        <div class="mt-12">
+          <h2>
+            <button
+              type="button"
+              aria-expanded="false"
+              aria-controls="Transcript"
+              id="TranscriptToggle"
+              class="flex items-center justify-between w-full gap-2">
+              <strong class="text-xl">Transcript</strong>
+              <span class="inline-block bg-blue h-[1px] flex-1 opacity-20"></span>
+              <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
+                <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            id="Transcript"
+            role="region"
+            aria-labelledby="TranscriptToggle"
+            class="mt-4 content">
+              {{.Content}}
+          </div>
+        </div>
         {{ end }}
-      {{end}}
+      </div>
+
+      <div class="min-w-[300px]">
+        <ul class="flex flex-wrap justify-end gap-3">
+          {{ range $tag := .Params.tags }}
+            <li class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{ $tag }}</li>
+          {{ end }}
+        </ul>
+
+        <div class="relative">
+          <div class="sticky top-20">
+            Hello
+          </div>
+        </div>
+      </div>
     </div>
-    {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-    
-    {{ with $transcript }}
-    <div class="mt-10 content">
-      <h2>Transcript</h2>
-      {{.Content}}
-    </div>
-    {{ end }}
   </div>
 
   {{ partial "related-sessions.html" .}}

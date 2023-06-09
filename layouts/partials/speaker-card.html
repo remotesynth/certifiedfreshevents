@@ -5,21 +5,21 @@
         class="max-w-full rounded-full"
         src="/img/speakers/{{ .Params.speaker_image }}"
         alt="{{ .Title }}"
-        width="140"
-        height="140">
+        width="120"
+        height="120">
     </a>
 
-    <div>
+    <div class="flex flex-col justify-center">
       <a href="{{ .RelPermalink }}">
         <h2 class="text-3xl font-semibold">{{ .Title }}</h2>
         <span class="text-lg font-medium text-java">{{ .Params.Job_title }}</span>
       </a>
 
-      <nav class="mt-1 space-x-4">
+      <nav class="flex flex-wrap gap-4 mt-3">
         {{ if .Params.mastodon }}
           <a
             href="{{ .Params.mastodon }}"
-            class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+            class="inline-block text-blue anim hover:text-mastodon"
             target="_blank">
             <svg class="w-6 h-6 fill-current" aria-hidden="true">
               <use xlink:href="/img/mastodon.svg#mastodon"></use>
@@ -29,7 +29,7 @@
         {{ if .Params.twitter }}
           <a
             href="https://twitter.com/{{ .Params.twitter }}"
-            class="inline-block p-2 -ml-2 text-blue anim hover:text-twitter"
+            class="inline-block text-blue anim hover:text-twitter"
             target="_blank">
             <svg class="w-6 h-6 fill-current" aria-hidden="true">
               <use xlink:href="/img/social.svg#twitter"></use>
@@ -39,7 +39,7 @@
         {{ if .Params.github }}
           <a
             href="https://github.com/{{ .Params.github }}"
-            class="inline-block p-2 -ml-2 text-blue anim hover:text-github"
+            class="inline-block text-blue anim hover:text-github"
             target="_blank">
             <svg class="w-6 h-6 fill-current" aria-hidden="true">
               <use xlink:href="/img/social.svg#github"></use>
@@ -49,7 +49,7 @@
         {{ if .Params.website }}
           <a
             href="{{ .Params.website }}"
-            class="inline-block p-2 -ml-2 text-blue anim hover:text-jelly"
+            class="inline-block text-blue anim hover:text-jelly"
             target="_blank">
             <svg class="w-6 h-6 fill-current" aria-hidden="true">
               <use xlink:href="/img/social.svg#link"></use>
@@ -60,7 +60,7 @@
     </div>
   </div>
 
-  <div class="content">
+  <div class="text-sm leading-6 content">
     {{ .Content }}
   </div>
 </section>
