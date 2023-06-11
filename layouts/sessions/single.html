@@ -147,54 +147,23 @@
           {{end}}
         </div>
 
+        {{ if eq .Params.sponsorship "banner" }}
+          {{ partial "sponsor-banner.html" .}}
+        {{ end }}
+
         {{ partial "transcript.html" .}}
       </div>
 
       <div class="min-w-[300px]">
-        <ul class="flex flex-wrap justify-end gap-3">
+        <ul class="flex flex-wrap gap-3">
           {{ range $tag := .Params.tags }}
             <li class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{ $tag }}</li>
           {{ end }}
         </ul>
 
-        <aside class="sticky top-[114px] mt-8">
-          <h3 class="mb-3 text-xs font-bold text-right text-gray-500 uppercase">Sponsored by</h3>
-          <ul class="flex flex-col items-end gap-8">
-            <li class="text-right">
-              <a
-                href="https://netlify.com/"
-                rel="noreferrer noopener">
-                <img
-                  src="/img/sponsors/netlify.png"
-                  loading="lazy"
-                  alt="Netlify"
-                  class="h-10" />
-              </a>
-            </li>
-            <li class="text-right">
-              <a
-                href="https://stackbit.com"
-                rel="noreferrer noopener">
-                <img
-                  src="/img/sponsors/Stackbit.png"
-                  loading="lazy"
-                  alt="Stackbit"
-                  class="h-[28px]" />
-              </a>
-            </li>
-            <li class="text-right">
-              <a
-                href="https://contentful.com/"
-                rel="noreferrer noopener">
-                <img
-                  src="/img/sponsors/Contentful.png"
-                  loading="lazy"
-                  alt="Contentful"
-                  class="h-10" />
-              </a>
-            </li>
-          </ul>
-        </aside>
+        {{ if eq .Params.sponsorship "sidebar" }}
+          {{ partial "sponsor-aside.html" .}}
+        {{ end }}
       </div>
     </div>
   </div>
