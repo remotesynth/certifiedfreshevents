@@ -147,34 +147,7 @@
           {{end}}
         </div>
 
-        {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-        {{ with $transcript }}
-        <div class="mt-12">
-          <h2>
-            <button
-              type="button"
-              aria-expanded="false"
-              aria-controls="Transcript"
-              id="TranscriptToggle"
-              class="flex items-center justify-between w-full gap-2 accordion-trigger">
-              <strong class="text-xl">Transcript</strong>
-              <span class="inline-block bg-blue h-[1px] flex-1 opacity-20"></span>
-              <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
-                <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
-              </svg>
-            </button>
-          </h2>
-
-          <div
-            id="Transcript"
-            role="region"
-            aria-labelledby="TranscriptToggle"
-            class="mt-4 content"
-            hidden>
-              {{.Content}}
-          </div>
-        </div>
-        {{ end }}
+        {{ partial "transcript.html" .}}
       </div>
 
       <div class="min-w-[300px]">
@@ -184,14 +157,44 @@
           {{ end }}
         </ul>
 
-        <!--
         <aside class="sticky top-[114px] mt-8">
-          <h3 class="mb-2 text-xs font-bold text-right text-gray-500 uppercase">Sponsored by</h3>
-          <ul class="space-y-6">
-            Logos here
+          <h3 class="mb-3 text-xs font-bold text-right text-gray-500 uppercase">Sponsored by</h3>
+          <ul class="flex flex-col items-end gap-8">
+            <li class="text-right">
+              <a
+                href="https://netlify.com/"
+                rel="noreferrer noopener">
+                <img
+                  src="/img/sponsors/netlify.png"
+                  loading="lazy"
+                  alt="Netlify"
+                  class="h-10" />
+              </a>
+            </li>
+            <li class="text-right">
+              <a
+                href="https://stackbit.com"
+                rel="noreferrer noopener">
+                <img
+                  src="/img/sponsors/Stackbit.png"
+                  loading="lazy"
+                  alt="Stackbit"
+                  class="h-[28px]" />
+              </a>
+            </li>
+            <li class="text-right">
+              <a
+                href="https://contentful.com/"
+                rel="noreferrer noopener">
+                <img
+                  src="/img/sponsors/Contentful.png"
+                  loading="lazy"
+                  alt="Contentful"
+                  class="h-10" />
+              </a>
+            </li>
           </ul>
         </aside>
-        -->
       </div>
     </div>
   </div>

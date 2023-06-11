@@ -88,6 +88,10 @@
   @apply mx-10 mb-10;
 }
 
+[type="button"][aria-expanded="true"] > svg {
+  transform: rotate(180deg);
+}
+
 /* Handle contrast w/basic themes */
 .bg-carlo > svg,
 .bg-blue > svg,

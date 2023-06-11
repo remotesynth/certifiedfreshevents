@@ -1,0 +1,28 @@
+{{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
+{{ with $transcript }}
+<div class="mt-12">
+  <h2>
+    <button
+      type="button"
+      aria-expanded="false"
+      aria-controls="Transcript"
+      id="TranscriptToggle"
+      class="flex items-center justify-between w-full gap-2 accordion-trigger">
+      <strong class="text-xl text-blue">Transcript</strong>
+      <span class="inline-block bg-blue h-[1px] flex-1 opacity-20"></span>
+      <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
+        <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+      </svg>
+    </button>
+  </h2>
+
+  <div
+    id="Transcript"
+    role="region"
+    aria-labelledby="TranscriptToggle"
+    class="mt-4 content"
+    hidden>
+      {{.Content}}
+  </div>
+</div>
+{{ end }}
