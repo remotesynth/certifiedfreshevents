@@ -1,7 +1,7 @@
 .site-nav {
   @apply sticky top-0 z-40;
   @apply flex flex-col justify-between;
-  @apply px-6 pt-6 pb-3;
+  @apply px-6 pt-3 pb-3;
   @apply bg-white;
 }
 
