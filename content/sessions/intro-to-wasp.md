@@ -1,5 +1,5 @@
 ---
-title: Why the Wltimate Web Framework Will be a Language (DSL) - Intro to Wasp
+title: Why the Ultimate Web Framework Will be a Language (DSL) - Intro to Wasp
 date: 2023-06-27T13:00:00-04:00
 speakers:
   - matija-sosic
