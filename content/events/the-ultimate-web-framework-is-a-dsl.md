@@ -1,7 +1,7 @@
 ---
 title: The Ultimate Web Framework is a DSL
 date: 2023-06-27T13:00:00-04:00
-end_date: 2023-06-14T14:00:00-04:00
+end_date: 2023-06-27T14:00:00-04:00
 cost: 0
 homepage_banner: Introduction-to-WASP-061323.jpg
 short_desc: In this talk, Wasp's CEO, Matija Sosic, explains what Wasp is, how it works and why they built it by creating a Domain-Specific Language (DSL).
