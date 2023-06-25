@@ -4,8 +4,6 @@ _build:
   render: never
 ---
 
-# better_video_on_the_web (1080p)
-
 **Tessa Mero:** [00:00:00] The biggest inspiration behind this presentation was about two, two developers in the last month asked me about how to work with adaptive bit rate streaming, and that is a new area for me and there's just so many different like capabilities that videos can do. So I started doing a lot of reading on it and.
 
 And then I asked others developers like, Hey, how do you work with abs? And I get a lot of the same responses. What is that exactly? And now I'm, I was inspired to put together some slides and educate devs on the basics of abs and how to work with it. So I am excited to go. So I'll start out the presentation with some video consumer stats to get an understanding of why it's important to work with abs and a little information about [00:01:00] adapt bit rate streaming, which I'll say abs for short and what resolution is.
