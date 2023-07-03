@@ -33,7 +33,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu">
+          class="space-y-6 menu pb-4">
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
@@ -76,38 +76,63 @@
         </a>
 
         <!-- Sessions Nav -->
-        <ul
-          class="grid-cols-2 gap-6 p-6 menu menu-sessions">
-          {{ range $key, $value := .Site.Taxonomies.categories}}
-            {{ with site.GetPage (print "/categories/" $key) }}
-              <li>
-                <a href="{{.RelPermalink}}" class="flex text-gray-800 has-nav-link-icon hover:text-java anim">
-                  <div class="nav-link-icon bg-{{.Params.color }}">
-                    <svg aria-hidden="true">
-                      <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
-                    </svg>
-                  </div>
-                  <div class="ml-4">
-                    <span class="block text-sm text-lg">{{ .Title }}</span>
-                    <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
-                  </div>
-                </a>
-              </li>
+        <div class="menu w-[60ch] max-w-[800px]">
+          <ul
+            class="grid grid-cols-2 gap-6 p-6 pt-0">
+            {{ range $key, $value := .Site.Taxonomies.categories}}
+              {{ with site.GetPage (print "/categories/" $key) }}
+                <li>
+                  <a href="{{.RelPermalink}}" class="flex text-gray-800 has-nav-link-icon hover:text-java anim">
+                    <div class="nav-link-icon bg-{{.Params.color }}">
+                      <svg aria-hidden="true">
+                        <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+                      </svg>
+                    </div>
+                    <div class="ml-4">
+                      <span class="block text-sm text-lg">{{ .Title }}</span>
+                      <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
+                    </div>
+                  </a>
+                </li>
+              {{ end }}
             {{ end }}
-          {{ end }}
-          {{/*
-          <li>
-            <a
-              href="/sessions/"
-              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
-              Discover Sessions
-              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
-                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
-              </svg>
-            </a>
-          </li>
-          */}}
-        </ul>
+            {{/*
+            <li>
+              <a
+                href="/sessions/"
+                class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+                Discover Sessions
+                <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                  <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+                </svg>
+              </a>
+            </li>
+            */}}
+          </ul>
+          <div class="bg-gray-100 p-6">
+            <span class="block mb-2 text-xs font-bold text-gray-500 uppercase">Discover by Tag</span>
+            <div class="flex flex-wrap gap-4 justify-between">
+              <ul class="flex flex-wrap gap-3 mb-3 flex-1">
+                {{ $count := 0 }}
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                  {{ if lt $count 8 }}
+                    {{ $count = add $count 1 }}
+                    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                      <li>
+                        <a href="{{ .RelPermalink }}"
+                          title="All pages with tag <em>{{$name}}</em>"
+                          class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
+                      </li>
+                    {{ end }}
+                  {{ else }}
+                    {{ break }}
+                  {{ end }}
+                {{ end }}
+              </ul>
+              <a href="/tags/" class="block text-lg font-medium w-[9ch]">All tags</a>
+            </div>
+          </div>
+        </div>
       </li>
       {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
       {{ if len $talkshows }}
@@ -123,7 +148,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu">
+          class="space-y-6 menu pb-4">
             {{ range $talkshows }}
               <li>
                 <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">

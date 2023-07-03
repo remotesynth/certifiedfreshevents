@@ -1,0 +1,11 @@
+<ul class="flex flex-wrap gap-4">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+      <li>
+        <a href="{{ .RelPermalink }}"
+          title="All pages with tag <em>{{$name}}</em>"
+          class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

@@ -35,7 +35,7 @@
           {{ end }}
         </div>
       </li>
-  
+
       {{ with .Params.recordings.youtube }}
         {{ if ne .length "00:00"}}
           <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
@@ -103,7 +103,7 @@
       {{end}}
     </div>
     {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-    
+
     {{ with $transcript }}
     <div class="mt-10 content">
       <h2>Transcript</h2>

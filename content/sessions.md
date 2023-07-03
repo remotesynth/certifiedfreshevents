@@ -19,6 +19,10 @@ draft: false
     {{< categories-nav >}}
   </div>
 
+  <div class="mb-16">
+    {{< tags-nav >}}
+  </div>
+
   {{< popular-sessions >}}
 </main>
 <!-- markdownlint-restore -->
