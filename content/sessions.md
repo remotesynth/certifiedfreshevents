@@ -20,7 +20,7 @@ draft: false
   </div>
 
   <div class="mb-16">
-    {{< tags-nav >}}
+    {{< popular-tags >}}
   </div>
 
   {{< popular-sessions >}}

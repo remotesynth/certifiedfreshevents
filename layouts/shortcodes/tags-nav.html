@@ -1,11 +1,19 @@
-<ul class="flex flex-wrap gap-4">
-  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-      <li>
-        <a href="{{ .RelPermalink }}"
-          title="All pages with tag <em>{{$name}}</em>"
-          class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
-      </li>
+<div class="container px-6 pb-12 mx-auto">
+  <ul class="flex flex-wrap gap-3">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      {{ $encodedTag := urlize $name }}
+      {{ $tagURL := printf "/tags/%s" $encodedTag }}
+      {{ $tagPage := $.Site.GetPage $tagURL }}
+      {{ $numItems := len $tagPage.Pages }}
+
+        <li>
+          <a href="{{ $tagPage.RelPermalink }}"
+            title="All pages with tag {{$name}}"
+            class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}
+            <span class="item-count">({{ $numItems }})</span>
+        </a>
+        </li>
+
     {{ end }}
-  {{ end }}
-</ul>
+  </ul>
+</div>

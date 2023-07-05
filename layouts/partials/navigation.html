@@ -117,10 +117,12 @@
                 {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
                   {{ if lt $count 8 }}
                     {{ $count = add $count 1 }}
-                    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                    {{ $encodedTag := urlize $name }}
+                    {{ $tagURL := printf "/tags/%s" $encodedTag }}
+                    {{ with $.Site.GetPage $tagURL }}
                       <li>
                         <a href="{{ .RelPermalink }}"
-                          title="All pages with tag <em>{{$name}}</em>"
+                          title="All pages with tag {{$name}}"
                           class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
                       </li>
                     {{ end }}
