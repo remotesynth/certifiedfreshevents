@@ -5,8 +5,11 @@ speakers:
   - harshil-agrawal
 recordings:
   crowdcast:
-      url: https://www.crowdcast.io/c/localizing-remix
-      start_time: 00:00
+    url: https://www.crowdcast.io/c/localizing-remix
+    start_time: 04:22
+  youtube:
+    url: https://youtu.be/9N22AWkAXe4
+    length: "01:02:00"
 categories:
   - webdev
 tags:
