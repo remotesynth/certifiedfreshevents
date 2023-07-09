@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="my-20">
+  <header class="container px-6 mx-auto">
+    <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
+  </header>
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
+
+    {{- with .Params.sessions -}}
+    {{ range .}}
+        {{ with site.GetPage (print "/sessions/" . ) }}
+            {{ partial "session-card.html" .}}
+        {{ end }}
+    {{ end }}
+    {{- end -}}
+      </div>
+    </div>
+</main>
+
+{{ end }}
+
+{{ define "scripts" }}
+{{ end }}

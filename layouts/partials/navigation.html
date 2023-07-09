@@ -113,22 +113,12 @@
             <span class="block mb-2 text-xs font-bold text-gray-500 uppercase">Discover by Tag</span>
             <div class="flex flex-wrap gap-4 justify-between">
               <ul class="flex flex-wrap gap-3 mb-3 flex-1">
-                {{ $count := 0 }}
-                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                  {{ if lt $count 8 }}
-                    {{ $count = add $count 1 }}
-                    {{ $encodedTag := urlize $name }}
-                    {{ $tagURL := printf "/tags/%s" $encodedTag }}
-                    {{ with $.Site.GetPage $tagURL }}
+                {{ range $name := .Site.Params.featuredTags }}
                       <li>
-                        <a href="{{ .RelPermalink }}"
+                        <a href="/tags/{{ $name }}"
                           title="All pages with tag {{$name}}"
                           class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
                       </li>
-                    {{ end }}
-                  {{ else }}
-                    {{ break }}
-                  {{ end }}
                 {{ end }}
               </ul>
               <a href="/tags/" class="block text-lg font-medium w-[9ch]">All tags</a>

@@ -1,0 +1,77 @@
+{{ define "main" }}
+<main>
+  <div class="mb-20 highlight-pattern-{{.Params.pattern}}">
+    <header class="container px-6 py-12 mx-auto">
+      <div class="flex flex-wrap mb-6">
+        <span
+          class="flex items-center justify-center flex-shrink-0 w-20 h-20 mr-4 rounded-full bg-{{.Params.color}}" aria-hidden="true">
+          <svg
+            class="inline-block w-12 h-12 fill-current"
+            aria-hidden="true">
+            <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+          </svg>
+        </span>
+        <h1 class="my-2 text-5xl font-bold">Videos tagged with {{ .Title }}</h1>
+      </div>
+    </header>
+  </div>
+
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8">
+      {{ range (.Paginate (where .Pages ".Date" "le" now)).Pages.ByDate.Reverse }}
+        {{ partial "session-card.html" .}}
+      {{ end }}
+    </div>
+  </div>
+
+    {{ if gt .Paginator.TotalPages 1}}
+    <nav class="container px-6 py-16 mx-auto mb-10 md:w-4/5 lg:w-2/3">
+      {{ $paginator := .Paginator }}
+      <ul class="flex flex-wrap items-center justify-around space-x-6 font-bold">
+        {{ if .Paginator.HasPrev }}
+        <li>
+          <a href="{{ .Paginator.Prev.URL }}" class="button-ghost text-sky" aria-label="Previous">
+            <svg class="inline-block w-6 h-6 fill-current">
+              <use xlink:href="/img/icons.svg#sm-arrow-left"></use>
+            </svg>
+          </a>
+        </li>
+        {{ end }}
+
+        {{ range .Paginator.Pagers }}
+          {{ if eq .PageNumber $paginator.PageNumber }}
+            <li class="hidden p-4 text-2xl sm:inline-block" aria-current="true">{{ .PageNumber }}</li>
+          {{ else }}
+            <li class="hidden sm:inline-block">
+              <a
+                href="{{ .URL }}"
+                class="inline-block p-4 text-sky link">{{ .PageNumber }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+
+        {{ if .Paginator.HasNext }}
+        <li>
+          <a href="{{ .Paginator.Next.URL }}" class="button-ghost text-sky" aria-label="Next">
+            <svg class="inline-block w-6 h-6 fill-current">
+              <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+            </svg>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ end }}
+
+  <div class="mt-20 bg-blue highlight-pattern-zigzags">
+    <section class="container px-4 py-20 mx-auto text-center text-white">
+      <h2 class="mb-6 text-3xl text-center"><strong>Get<span class="highlight-text highlight-text-sunset"><span>FULL access</span></span></strong> to &gt;80 hours of recorded sessions</h2>
+      <a href="/join/" class="text-2xl button-ghost">Join Now</a>
+      <p class="mt-6">Have an account? <a href="/login/" class="font-medium link hover:text-lightBlue">Log in</a></p>
+    </section>
+  </div>
+</main>
+{{ end }}
+{{ define "scripts" }} 
+{{ end }}
+
