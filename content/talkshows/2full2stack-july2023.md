@@ -10,6 +10,7 @@ recordings:
     url: https://youtu.be/V_FzeBMZMKA
     length: "00:00"
 show: 2full2stack
+short_desc: Nick Taylor explores debugging fundamentals and tips and tricks for full stack web application developers.
 tags:
   - webdev
   - frontend
