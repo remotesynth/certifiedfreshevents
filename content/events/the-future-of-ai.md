@@ -54,7 +54,7 @@ Artificial intelligence (AI) and large language models (LLM) are changing users'
       <p><img src="/img/thejam/iconmonstr-rocket-14-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">Exciting Programming</h4>
       </div>
-      <p class="text-base">Hear from the leaders of companies like Allma, Heap, Zing Data, Senseily and more.</p>
+      <p class="text-base">Hear from the leaders of companies like Allma, Heap, Zing Data, ATLAS and more.</p>
     </article>
     <article>
       <div class="flex items-center mb-8">
@@ -87,7 +87,7 @@ Artificial intelligence (AI) and large language models (LLM) are changing users'
 
 ## Speakers {#speakers}
 
-We've got another amazing lineup of web development, JavaScript, serverless and Jamstack experts!
+We've got another amazing lineup of founders, product leaders and investors in the world of artificial intelligence.
 
 {{< conf-speakers >}}
 
