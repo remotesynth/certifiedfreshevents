@@ -88,6 +88,10 @@
   @apply px-2 py-1 text-sm rounded-sm bg-lightBlue;
 }
 
+.tag:hover {
+  @apply hover:bg-jelly hover:text-white;
+}
+
 [type="button"][aria-expanded="true"] > svg {
   transform: rotate(180deg);
 }

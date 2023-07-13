@@ -44,25 +44,22 @@
         </div>
       </li>
 
-      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
+      <li class="flex items-center text-sm">
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
           <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
         <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
       </li>
-      {{ if ne .Params.sessions nil }}
-        {{ $session := index .Params.sessions 0 }}
-        {{ with site.GetPage (print "/sessions/" $session) }}
-          {{ $category := index .Params.Categories 0 }}
-          {{ with site.GetPage (print "/categories/" $category) }}
-            <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-                <a
-                  href="{{ "categories" | absURL }}/{{ $category | urlize }}"
-                  class="p-2 text-xs font-bold text-gray-800 uppercase bg-lightBlue hover:text-white hover:bg-jelly anim">{{.Title}}</a>
-            </li>
-          {{ end }}
-        {{ end }}
-      {{ end }}
+
+
+      {{/*
+        <li class="md:ml-8">
+          <h2 class="mb-2 text-xs font-bold text-right text-gray-500 uppercase">Sponsored by</h2>
+          <a href="https://netlify.com/">
+            <img src="/img/sponsors/netlify.png" loading="lazy" alt="Netlify" class="h-12">
+          </a>
+        </li>
+        */}}
     </ul>
   </header>
 
@@ -115,7 +112,21 @@
         {{ end }}
       </div>
 
-      <div class="min-w-[300px]">
+      <div class="max-w-[300px]">
+
+        <div class="mb-4">
+          {{ if ne .Params.sessions nil }}
+            {{ $session := index .Params.sessions 0 }}
+            {{ with site.GetPage (print "/sessions/" $session) }}
+              {{ $category := index .Params.Categories 0 }}
+              {{ with site.GetPage (print "/categories/" $category) }}
+                {{ partial "category-button.html" .}}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+
+
         {{ partial "tag-sidebar-list.html" .}}
 
         {{ if in .Params.sponsorship "sidebar" }}
