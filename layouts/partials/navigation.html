@@ -33,7 +33,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu pb-4">
+          class="pb-4 space-y-6 menu">
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
@@ -109,19 +109,24 @@
             </li>
             */}}
           </ul>
-          <div class="bg-gray-100 p-6">
+          <div class="p-6 bg-gray-100">
             <span class="block mb-2 text-xs font-bold text-gray-500 uppercase">Discover by Tag</span>
-            <div class="flex flex-wrap gap-4 justify-between">
-              <ul class="flex flex-wrap gap-3 mb-3 flex-1">
+            <div class="flex flex-wrap justify-between gap-4">
+              <ul class="flex flex-wrap flex-1 gap-3 mb-3">
                 {{ range $name := .Site.Params.featuredTags }}
                       <li>
                         <a href="/tags/{{ $name }}"
                           title="All pages with tag {{$name}}"
-                          class="px-2 py-1 text-sm rounded-sm bg-lightBlue">{{$name}}</a>
+                          class="tag">{{$name}}</a>
                       </li>
                 {{ end }}
               </ul>
-              <a href="/tags/" class="block text-lg font-medium w-[9ch]">All tags</a>
+              <a href="/tags/" class="flex items-center text-lg font-medium w-[9ch] self-start">
+                All tags
+                <svg class="inline-block w-4 h-4 -rotate-90 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -140,7 +145,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu pb-4">
+          class="pb-4 space-y-6 menu">
             {{ range $talkshows }}
               <li>
                 <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
