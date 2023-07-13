@@ -7,4 +7,4 @@ list_hide: true
 draft: false
 ---
 
-Look for moar speakers to be announced soon!
+Look for this speaker to be announced soon!

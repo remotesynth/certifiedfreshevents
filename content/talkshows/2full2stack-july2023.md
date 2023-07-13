@@ -20,3 +20,19 @@ draft: false
 ---
 
 In this episode, Nick Taylor explores debugging fundamentals and tips and tricks for full stack web application developers.
+
+**Outline**
+
+* Console.logging
+	* console.log
+	* log points
+* Debugging frontend code in the browser
+	* navigating files in the DevTools
+	* breakpoints
+	* conditional breakpoints
+	* debugger keyword
+* Debugging Node.js
+	* debug node process via node --inspect-brk and node --inspect
+	* Debugging in VS Code
+		* Attach to Process for Node.js
+		* Using VS Code’s JavaScript debug terminal
