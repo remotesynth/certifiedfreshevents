@@ -1,10 +1,10 @@
 {{ define "main" }}
-<main class="my-20">
-  <header class="container px-6 mx-auto">
+<main class="mt-20">
+  <header class="container px-6 mx-auto mb-8">
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
 
-    <ul class="flex flex-wrap lg:mb-8">
-      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
+    <ul class="flex flex-wrap gap-6 md:items-end">
+      <li class="flex items-center flex-grow">
         <div class="flex items-center font-medium leading-tight avatar-list">
           {{ if ne .Params.sessions nil }}
             {{ range $session := .Params.sessions }}
@@ -65,6 +65,7 @@
       {{ end }}
     </ul>
   </header>
+
   <div class="container mx-auto">
     <div class="block mx-auto bg-black">
       {{/* if this is for a future event or live event, just show the embed */}}
@@ -74,53 +75,56 @@
     </div>
   </div>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
-    <div class="mb-8">
-      {{ partial "social-share.html" .}}
-    </div>
+  <div class="container max-w-6xl px-6 pb-8 mx-auto mt-20">
+    <div class="flex flex-col items-stretch gap-6 lg:gap-12 lg:flex-row">
+      <div class="lg:max-w-max">
+        {{ partial "social-share.html" .}}
+      </div>
 
-    <div class="mb-20 content">
-      {{ .Content }}
+      <div class="flex-1">
+        <div class="content">
+          {{ .Content }}
 
-      {{ range $session := .Params.sessions }}
-        {{ with site.GetPage (print "/sessions/" $session) }}
-          <h2>{{ .Title }}</h2>
-
-          {{.Content}}
-        {{ end }}
-      {{ end }}
-    </div>
-
-    {{ if ne .Params.sponsor nil }}
-      <h2
-        class="mb-4 text-xl">Sponsored by <strong>{{.Params.sponsor.name}}</strong>
-      </h2>
-      <a href="{{.Params.sponsor.URL}}"><img src="/img/sponsors/{{.Params.sponsor.image}}" alt="{{.Params.sponsor.name}}"></a>
-    {{ end }}
-
-    {{ if ne .Params.sessions nil }}
-      <div class="mt-24 space-y-20">
-        {{ range $session := .Params.sessions }}
-
+          {{ range $session := .Params.sessions }}
           {{ with site.GetPage (print "/sessions/" $session) }}
-            {{ $.Scratch.Set "speakers" .Params.speakers }}
-          {{ end }}
+              <h2>{{ .Title }}</h2>
 
-          {{ $speakers := $.Scratch.Get "speakers" }}
-          {{ range $speaker := $speakers }}
-            {{ with site.GetPage (print "/speakers/" $speaker) }}
-              {{ partial "speaker-card.html" .}}
+              {{.Content}}
             {{ end }}
-          {{end}}
+          {{ end }}
+        </div>
+
+        {{ if ne .Params.sessions nil }}
+          <div class="mt-12 space-y-12">
+            {{ range $session := .Params.sessions }}
+
+              {{ with site.GetPage (print "/sessions/" $session) }}
+                {{ $.Scratch.Set "speakers" .Params.speakers }}
+              {{ end }}
+
+              {{ $speakers := $.Scratch.Get "speakers" }}
+              {{ range $speaker := $speakers }}
+                {{ with site.GetPage (print "/speakers/" $speaker) }}
+                  <div class="p-6 border rounded shadow-lg">
+                    {{ partial "speaker-card.html" .}}
+                  </div>
+                {{ end }}
+              {{end}}
+            {{ end }}
+          </div>
         {{ end }}
       </div>
-    {{ end }}
+
+      <div class="min-w-[300px]">
+        {{ partial "tag-sidebar-list.html" .}}
+
+        {{ if in .Params.sponsorship "sidebar" }}
+          {{ partial "sponsor-aside.html" .}}
+        {{ end }}
+      </div>
+    </div>
   </div>
-  <div>
-  {{ if eq .Params.cost 0 }}
-    {{ partial "logo-list.html" }}
-  {{ end }}
-  </div>
+
   {{ if ne .Params.sessions nil }}
     {{ range $session := .Params.sessions | first 1 }}
       {{ with site.GetPage (print "/sessions/" $session) }}
