@@ -4,7 +4,7 @@ date: 2023-07-31T13:00:00-05:00
 end_date: 2023-07-31T17:00:00-05:00
 days: 1
 cost: 0
-homepage_banner: FutureOfAI-073123.jpg
+homepage_banner: FutureOfAI-073123.png
 short_desc: Explore how AI and LLMs are creating new opportunities and even new business models for software in order to prepare you for the next generation of AI driven software. 
 draft: false
 featured: false
