@@ -53,13 +53,8 @@
 
 
       {{/*
-        <li class="md:ml-8">
-          <h2 class="mb-2 text-xs font-bold text-right text-gray-500 uppercase">Sponsored by</h2>
-          <a href="https://netlify.com/">
-            <img src="/img/sponsors/netlify.png" loading="lazy" alt="Netlify" class="h-12">
-          </a>
-        </li>
-        */}}
+        {{ partial "sponsor-header.html" . }}
+      */}}
     </ul>
   </header>
 
@@ -129,9 +124,7 @@
 
         {{ partial "tag-sidebar-list.html" .}}
 
-        {{ if in .Params.sponsorship "sidebar" }}
-          {{ partial "sponsor-aside.html" .}}
-        {{ end }}
+        {{ partial "sponsor-aside.html" .}}
       </div>
     </div>
   </div>
