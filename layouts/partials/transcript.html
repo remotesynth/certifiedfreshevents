@@ -1,5 +1,3 @@
-{{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-{{ with $transcript }}
 <div class="mt-12">
   <h2>
     <button
@@ -25,4 +23,3 @@
       {{.Content}}
   </div>
 </div>
-{{ end }}
