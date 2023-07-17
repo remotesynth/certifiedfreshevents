@@ -99,11 +99,11 @@ Edge functions? Islands architecture? New frameworks? There's so many new things
   </div>
 </div>
 
-<section class="mt-20 border border-gray-300 rounded hover:shadow-xl anim">
+<section class="border border-gray-300 rounded mt-28">
   <div class="flex flex-col items-center justify-center p-6 pt-6 pb-4 text-center rounded highlight-pattern-signal">
-    <span class="flex items-center justify-center flex-shrink-0 w-24 h-24 mr-4 -mt-20 rounded-full bg-lightBlue" aria-hidden="true">
+    <div class="flex items-center justify-center flex-shrink-0 w-24 h-24 mr-4 -mt-20 rounded-full bg-lightBlue" aria-hidden="true">
       <img src="/img/thejam/iconmonstr-video-camera-1-1.svg" alt="All talks will be recorded" width="36" height="36">
-    </span>
+    </div>
     <h2 class="mt-4 mb-2 text-3xl font-bold leading-tight text-blue">All talks will be recorded</a></h2>
   </div>
   <div class="p-6">

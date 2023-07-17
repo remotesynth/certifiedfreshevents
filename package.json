@@ -27,7 +27,7 @@
     "not dead"
   ],
   "scripts": {
-    "serve": "hugo serve --disableFastRender --bind 0.0.0.0",
+    "serve": "hugo server --buildFuture --disableFastRender --bind 0.0.0.0",
     "algolia": "atomic-algolia"
   }
 }

@@ -1,14 +1,10 @@
 <h2 class="sr-only">Tags</h2>
 <ul class="flex flex-wrap gap-3">
-  {{ range $tag := .Params.tags }}
-  {{ $encodedTag := urlize $tag }}
-  {{ $tagURL := printf "/tags/%s" $encodedTag }}
-    {{ with $.Site.GetPage $tagURL }}
-      <li>
-        <a href="{{ $.Site.GetPage (printf "/tags/%s" $tag) }}"
-          title="All pages with tag <em>{{$tag}}</em>"
-          class="tag">{{$tag}}</a>
-      </li>
-    {{ end }}
+  {{ range $tag := .Site.Params.tags }}
+    <li>
+      <a href="/tags/{{ $tag }}"
+        title="All pages with tag {{$tag}}"
+        class="tag">{{$tag}}</a>
+    </li>
   {{ end }}
 </ul>
