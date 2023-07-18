@@ -114,7 +114,7 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
 [![Fauna](/img/sponsors/Fauna.png)](https://fauna.com/)
 #### Sponsors
 
-[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/qpk)
+[![Cloudinary](/img/sponsors/Cloudinary.png)](https://cloudinary.rocks/qpk)
 
 [![AntStack](/img/sponsors/AntStack.png)](https://www.antstack.io/?utm_source=event&utm_medium=espage&utm_campaign=moar_sponsorship&utm_id=moarsponsorship)
 

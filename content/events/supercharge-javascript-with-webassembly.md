@@ -11,7 +11,7 @@ sessions:
   - supercharge-js-with-wasm
 sponsor:
   name: Cloudinary
-  image: cloudinary.png
+  image: Cloudinary.png
   URL: https://cloudinary.com/
 draft: false
 featured: true

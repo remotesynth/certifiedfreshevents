@@ -136,7 +136,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 [![Agility CMS](/img/sponsors/agilitycms.png)](https://agilitycms.com)
 
-[![Cloudinary](/img/sponsors/cloudinary.png)](https://cloudinary.rocks/te2)
+[![Cloudinary](/img/sponsors/Cloudinary.png)](https://cloudinary.rocks/te2)
 
 [![StepZen](/img/sponsors/stepzen.png)](https://www.stepzen.com/)
 
