@@ -107,10 +107,9 @@
         {{ end }}
       </div>
 
-      <div class="lg:min-w-[300px] empty:hidden">
-
-        <div class="mb-4">
-          {{ if ne .Params.sessions nil }}
+      <div class="lg:w-[300px]">
+        {{ if ne .Params.sessions nil }}
+          <div class="mb-4">
             {{ $session := index .Params.sessions 0 }}
             {{ with site.GetPage (print "/sessions/" $session) }}
               {{ $category := index .Params.Categories 0 }}
@@ -118,9 +117,8 @@
                 {{ partial "category-button.html" .}}
               {{ end }}
             {{ end }}
-          {{ end }}
-        </div>
-
+          </div>
+        {{ end }}
 
         {{ partial "tag-sidebar-list.html" .}}
 

@@ -156,7 +156,7 @@
         {{ end }}
       </div>
 
-      <div class="lg:min-w-[300px] empty:hidden">
+      <div class="lg:w-[300px]">
         <div class="mb-4">
           {{ $category := index .Params.Categories 0 }}
           {{ with site.GetPage (print "/categories/" $category) }}
