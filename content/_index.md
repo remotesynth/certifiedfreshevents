@@ -1,7 +1,7 @@
 ---
 title: "Virtual meetups, workshops and conferences for developers"
 featured_speakers:
-  - bekah-hawrot-wiegel
+  - bekah-hawrot-weigel
   - andrea-griffiths
   - brian-douglas
   - gift-egwuenu
