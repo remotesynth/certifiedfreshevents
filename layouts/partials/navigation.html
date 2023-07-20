@@ -33,7 +33,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu">
+          class="pb-4 space-y-6 menu">
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
             <li>
@@ -76,38 +76,60 @@
         </a>
 
         <!-- Sessions Nav -->
-        <ul
-          class="grid-cols-2 gap-6 p-6 menu menu-sessions">
-          {{ range $key, $value := .Site.Taxonomies.categories}}
-            {{ with site.GetPage (print "/categories/" $key) }}
-              <li>
-                <a href="{{.RelPermalink}}" class="flex text-gray-800 has-nav-link-icon hover:text-java anim">
-                  <div class="nav-link-icon bg-{{.Params.color }}">
-                    <svg aria-hidden="true">
-                      <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
-                    </svg>
-                  </div>
-                  <div class="ml-4">
-                    <span class="block text-sm text-lg">{{ .Title }}</span>
-                    <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
-                  </div>
-                </a>
-              </li>
+        <div class="menu w-[60ch] max-w-[800px]">
+          <ul
+            class="grid grid-cols-2 gap-6 p-6 pt-0">
+            {{ range $key, $value := .Site.Taxonomies.categories}}
+              {{ with site.GetPage (print "/categories/" $key) }}
+                <li>
+                  <a href="{{.RelPermalink}}" class="flex text-gray-800 has-nav-link-icon hover:text-java anim">
+                    <div class="nav-link-icon bg-{{.Params.color }}">
+                      <svg aria-hidden="true">
+                        <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+                      </svg>
+                    </div>
+                    <div class="ml-4">
+                      <span class="block text-base font-medium">{{ .Title }}</span>
+                      <span class="block text-xs text-gray-600">{{.Params.tagline}}</span>
+                    </div>
+                  </a>
+                </li>
+              {{ end }}
             {{ end }}
-          {{ end }}
-          {{/*
-          <li>
-            <a
-              href="/sessions/"
-              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
-              Discover Sessions
-              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
-                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
-              </svg>
-            </a>
-          </li>
-          */}}
-        </ul>
+            {{/*
+            <li>
+              <a
+                href="/sessions/"
+                class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim">
+                Discover Sessions
+                <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
+                  <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
+                </svg>
+              </a>
+            </li>
+            */}}
+          </ul>
+          <div class="p-6 bg-gray-100">
+            <span class="block mb-2 text-xs font-bold text-gray-500 uppercase">Discover by Tag</span>
+            <div class="flex flex-wrap justify-between gap-4">
+              <ul class="flex flex-wrap flex-1 gap-3 mb-3">
+                {{ range $name := .Site.Params.featuredTags }}
+                  <li>
+                    <a href="/tags/{{ $name }}"
+                      title="All pages with tag {{$name}}"
+                      class="tag">{{$name}}</a>
+                  </li>
+                {{ end }}
+              </ul>
+              <a href="/tags/" class="flex items-center text-lg font-medium w-[9ch] self-start">
+                All tags
+                <svg class="inline-block w-4 h-4 -rotate-90 fill-current" aria-hidden="true">
+                  <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
       </li>
       {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
       {{ if len $talkshows }}
@@ -123,7 +145,7 @@
 
         <!-- Meetups Sub-Nav -->
         <ul
-          class="space-y-6 menu">
+          class="pb-4 space-y-6 menu">
             {{ range $talkshows }}
               <li>
                 <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">

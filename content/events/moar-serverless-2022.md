@@ -76,7 +76,7 @@ Join an amazing list of experts to gain insights into how to develop real-world 
   </div>
 </div>
 
-<section class="mt-20 border border-gray-300 rounded hover:shadow-xl anim">
+<section class="border border-gray-300 rounded mt-28">
   <div class="flex flex-col items-center justify-center p-6 pt-6 pb-4 text-center rounded highlight-pattern-signal">
     <span class="flex items-center justify-center flex-shrink-0 w-24 h-24 mr-4 -mt-20 rounded-full bg-lightBlue" aria-hidden="true">
       <img src="/img/thejam/iconmonstr-video-camera-1-1.svg" alt="All talks will be recorded" width="36" height="36">
@@ -88,7 +88,7 @@ Join an amazing list of experts to gain insights into how to develop real-world 
   </div>
 </section>
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
+<div class="flex items-center justify-center w-full mt-8 mb-8">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/e/serverless22/register" target="_blank">
  Get Your Free Ticket Today!
 </a>
@@ -109,11 +109,11 @@ We've already got some fantastic speakers lined up!
 Moar Serverless!! isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@certifiedfreshevents.com).
 
 <section>
-  <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+  <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
     <article class="flex flex-row items-center">
       <div>
         <a href="https://cloudinary.rocks/aaw">
-          <img src="/img/sponsors/cloudinary.png" alt="Cloudinary" />
+          <img src="/img/sponsors/Cloudinary.png" alt="Cloudinary" />
         </a>
       </div>
     </article>

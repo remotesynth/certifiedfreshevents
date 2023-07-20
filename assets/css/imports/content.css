@@ -9,34 +9,49 @@
   @apply text-lg;
 }
 
-.content > * + * {
-  @apply mt-4;
+.content > * + *:not(h2, h3, h4, [class*="mt-"]) {
+  @apply mt-8;
 }
 
-.content h1, h2, h3, h4 {
+.content > h1,
+.content > h2,
+.content > h3,
+.content > h4 {
   @apply leading-tight;
 }
 
-.content h2 { @apply text-4xl; }
-.content h3 { @apply text-3xl; }
-.content h4 { @apply text-2xl; }
+.content > h2:not(:first-child),
+.content > h3,
+.content > h4 {
+  @apply mt-10;
+}
 
-.content img {
+.content > h2 { @apply text-4xl; }
+.content > h3 { @apply text-3xl; }
+.content > h4 { @apply text-2xl; }
+
+.content > img,
+.content > figure img {
   @apply block max-w-full;
 }
 
-.content ul {
+.content > ul {
   @apply mb-4;
   @apply list-disc;
 }
 
-.content li {
+.content > ul li {
   @apply mb-3 ml-6;
   @apply list-decimal;
 }
 
-.content a {
+.content > a {
   @apply text-sky;
+}
+
+.content > .highlight > pre {
+  @apply p-3;
+  @apply rounded;
 }
 
 .error-message {

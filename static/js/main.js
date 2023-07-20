@@ -75,3 +75,17 @@ if (carousel) {
     }
   }
 }
+
+/*
+  Setup Accordionss
+*/
+
+const accordions = document.querySelectorAll('.accordion-trigger');
+accordions.forEach((accordionEl) => {
+  accordionEl.addEventListener('click', () => {
+    const pane = document.getElementById(accordionEl.getAttribute('aria-controls'));
+    const expanded = accordionEl.getAttribute('aria-expanded') === 'true';
+    accordionEl.setAttribute('aria-expanded', !expanded);
+    pane.toggleAttribute('hidden');
+  });
+});

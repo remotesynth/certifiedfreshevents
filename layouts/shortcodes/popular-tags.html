@@ -1,0 +1,33 @@
+<div class="container px-6 pb-12 mx-auto">
+  <div class="flex flex-wrap gap-8">
+    <div class="md:w-1/3">
+      <h2 class="text-4xl font-bold mb-8">Popular Tags</h2>
+      <a href="/tags/" class="button">All tags</a>
+    </div>
+
+    <ul class="flex flex-wrap gap-3 flex-1">
+      {{ $count := 0 }}
+
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        {{ if lt $count 24 }}
+          {{ $encodedTag := urlize $name }}
+          {{ $tagURL := printf "/tags/%s" $encodedTag }}
+          {{ $tagPage := $.Site.GetPage $tagURL }}
+          {{ $numItems := len $tagPage.Pages }}
+
+            <li>
+              <a href="{{ $tagPage.RelPermalink }}"
+                title="All pages with tag {{$name}}"
+                class="tag">{{$name}}
+                <span class="item-count">({{ $numItems }})</span>
+            </a>
+            </li>
+
+          {{ $count = add $count 1 }}
+        {{ else }}
+          {{ break }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>

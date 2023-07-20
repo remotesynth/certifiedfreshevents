@@ -19,6 +19,14 @@ params:
       - description
     params:
       - categories
+  featuredTags:
+    - jamstack
+    - aws
+    - nextjs
+    - serverless
+    - devrel
+    - open-source
+    - machine-learning
 related:
   threshold: 80
   includeNewer: true

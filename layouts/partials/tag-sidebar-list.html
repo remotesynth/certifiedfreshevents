@@ -1,0 +1,12 @@
+{{ if isset .Params "tags" }}
+<h2 class="sr-only">Tags</h2>
+<ul class="flex flex-wrap gap-3">
+  {{ range $tag := .Page.Params.tags }}
+    <li>
+      <a href="/tags/{{ $tag }}"
+        title="All pages with tag {{$tag}}"
+        class="tag">{{$tag}}</a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

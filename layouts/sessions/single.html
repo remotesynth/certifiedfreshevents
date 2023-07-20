@@ -9,7 +9,7 @@
     {{ $event = (index $events 0) }}
   {{ end }}
 
-  <header class="container px-6 mx-auto">
+  <header class="container px-6 mx-auto mb-8">
     <a
       class="inline-block mb-1 align-middle"
       href="{{ $event.RelPermalink }}">
@@ -19,10 +19,11 @@
         </svg>
         <span>See full event listing</span>
     </a>
+
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
 
-    <ul class="flex flex-wrap lg:mb-8">
-      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
+    <ul class="flex flex-wrap gap-6 md:items-end">
+      <li class="flex items-center flex-grow">
         <div class="flex items-center font-medium leading-tight avatar-list">
           {{ range $speaker := .Params.speakers }}
             {{ with site.GetPage (print "/speakers/" $speaker) }}
@@ -46,9 +47,9 @@
           </span>
         </div>
       </li>
-  
+
       {{ with .Params.recordings.vimeo }}
-          <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
+          <li class="items-center hidden text-sm lg:flex">
             <svg
               class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
               <use xlink:href="/img/icons.svg#sm-clock"></use>
@@ -57,7 +58,7 @@
           </li>
       {{ end }}
       {{ with .Params.recordings.youtube }}
-          <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
+          <li class="items-center hidden text-sm lg:flex">
             <svg
               class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
               <use xlink:href="/img/icons.svg#sm-clock"></use>
@@ -66,7 +67,7 @@
           </li>
       {{ end }}
 
-      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
+      <li class="flex items-center text-sm">
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
           <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
@@ -74,9 +75,7 @@
       </li>
 
       {{/*
-      <li class="flex items-center mb-4 space-x-2 lg:mb-0">
-        Add categories
-      </li>
+        {{ partial "sponsor-header.html" . }}
       */}}
     </ul>
   </header>
@@ -107,7 +106,7 @@
           </div>
         {{ end }}
       {{ else }}
-        <div class="block mx-auto bg-black embed-responsive hidden" id="crowdcast-open">
+        <div class="block mx-auto bg-black embed-responsive" id="crowdcast-open">
           <div
             class="flex flex-col items-center justify-center w-full h-full bg-jelly"
             role="banner">
@@ -126,30 +125,50 @@
     {{ end }}
   </div>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
-    <div class="mb-8">
-      {{ partial "social-share.html" .}}
-    </div>
+  <div class="container max-w-6xl px-6 pb-8 mx-auto mt-20">
+    <div class="flex flex-col items-stretch gap-6 lg:gap-12 lg:flex-row">
+      <div class="lg:max-w-max">
+        {{ partial "social-share.html" .}}
+      </div>
 
-    <div class="mb-20 content">
-      {{ .Content }}
-    </div>
+      <div class="flex-1">
+        <div class="content">
+          {{ .Content }}
+        </div>
 
-    <div class="mt-24 space-y-20">
-      {{ range $speaker := .Params.speakers }}
-        {{ with site.GetPage (print "/speakers/" $speaker) }}
-          {{ partial "speaker-card.html" .}}
+        <div class="mt-12 space-y-12">
+          {{ range $speaker := .Params.speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <div class="p-6 border rounded shadow-lg">
+                {{ partial "speaker-card.html" .}}
+              </div>
+            {{ end }}
+          {{end}}
+        </div>
+
+        {{ if in .Params.sponsorship "banner" }}
+          {{ partial "sponsor-banner.html" .}}
         {{ end }}
-      {{end}}
+
+        {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
+        {{ with $transcript }}
+          {{ partial "transcript.html" .}}
+        {{ end }}
+      </div>
+
+      <div class="lg:w-[300px]">
+        <div class="mb-4">
+          {{ $category := index .Params.Categories 0 }}
+          {{ with site.GetPage (print "/categories/" $category) }}
+            {{ partial "category-button.html" .}}
+          {{ end }}
+        </div>
+
+        {{ partial "tag-sidebar-list.html" .}}
+
+        {{ partial "sponsor-aside.html" .}}
+      </div>
     </div>
-    {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-    
-    {{ with $transcript }}
-    <div class="mt-10 content">
-      <h2>Transcript</h2>
-      {{.Content}}
-    </div>
-    {{ end }}
   </div>
 
   {{ partial "related-sessions.html" .}}

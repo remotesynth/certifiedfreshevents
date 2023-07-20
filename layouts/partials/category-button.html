@@ -1,0 +1,9 @@
+<a href="{{.RelPermalink}}" class="inline-flex items-center gap-2 px-3 py-3 text-gray-800 border rounded hover:text-java anim">
+  <div class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-{{.Params.color }}">
+    <svg aria-hidden="true" class="inline-block w-6 h-6">
+      <use xlink:href="/img/icons.svg#{{.Params.icon}}"></use>
+    </svg>
+  </div>
+
+  <span class="inline-block text-base font-medium">{{ .Title }}</span>
+</a>

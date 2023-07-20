@@ -58,7 +58,7 @@ styles: thejam.css
 
 Edge functions? Islands architecture? New frameworks? There's so many new things to learn in front-end web development and Jamstack. Don't worry, we've got you covered!
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
+<div class="flex items-center justify-center w-full mt-8 mb-8">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F" target="_blank">
  Watch the Recordings on YouTube
 </a>
@@ -99,11 +99,11 @@ Edge functions? Islands architecture? New frameworks? There's so many new things
   </div>
 </div>
 
-<section class="mt-20 border border-gray-300 rounded hover:shadow-xl anim">
+<section class="border border-gray-300 rounded mt-28">
   <div class="flex flex-col items-center justify-center p-6 pt-6 pb-4 text-center rounded highlight-pattern-signal">
-    <span class="flex items-center justify-center flex-shrink-0 w-24 h-24 mr-4 -mt-20 rounded-full bg-lightBlue" aria-hidden="true">
+    <div class="flex items-center justify-center flex-shrink-0 w-24 h-24 mr-4 -mt-20 rounded-full bg-lightBlue" aria-hidden="true">
       <img src="/img/thejam/iconmonstr-video-camera-1-1.svg" alt="All talks will be recorded" width="36" height="36">
-    </span>
+    </div>
     <h2 class="mt-4 mb-2 text-3xl font-bold leading-tight text-blue">All talks will be recorded</a></h2>
   </div>
   <div class="p-6">
@@ -127,7 +127,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 <section>
     <h3 id="lead-day-sponsors" class="mb-6">Lead Day Sponsors</h3>
-    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
                 <a href="https://imgix.com/"><img src="https://d33wubrfki0l68.cloudfront.net/6d76c812b4b8b4f1d974c6409964ae40614451f7/2c48d/img/sponsors/imgix.png" alt="Imgix"></a>
@@ -135,7 +135,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         </article>
     </div>
     <h3 id="sponsors-1" class="mb-6">Sponsors</h3>
-    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
                 <a href="https://begin.com/"><img src="/img/sponsors/begin.png" alt="Begin"></a>
@@ -160,7 +160,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         </article>
     </div>
     <h3 id="sponsors-1" class="mb-6">Supporting Sponsors</h3>
-    <div class="flex mb-6 grid gap-8 lg:grid-cols-2">
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
                 <a href="https://www.thisdot.co/"><img src="/img/sponsors/ThisDot-Labs.png" alt="ThisDot Labs"></a>
@@ -173,7 +173,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 TheJam.dev 2023 has already passed, but you can [watch the recordings on YouTube](https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F).
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
+<div class="flex items-center justify-center w-full mt-8 mb-8">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.youtube.com/watch?v=ITWX1EqbxtM&list=PLZDPKYkCEQk1o37eaFOka1IFoecS8SI0F">
  Watch the recordings on YouTube
 </a>

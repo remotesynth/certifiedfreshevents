@@ -1,0 +1,18 @@
+<div class="container px-6 pb-12 mx-auto">
+  <ul class="flex flex-wrap gap-3">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      {{ $encodedTag := urlize $name }}
+      {{ $tagURL := printf "/tags/%s" $encodedTag }}
+      {{ $tagPage := $.Site.GetPage $tagURL }}
+      {{ $numItems := len $tagPage.Pages }}
+
+        <li>
+          <a href="{{ $tagPage.RelPermalink }}"
+            title="All pages with tag {{$name}}"
+            class="tag">{{$name}}
+            <span class="item-count">({{ $numItems }})</span>
+        </a>
+        </li>
+    {{ end }}
+  </ul>
+</div>

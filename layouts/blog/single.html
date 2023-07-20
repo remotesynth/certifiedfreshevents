@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="mb-20">
   <header class="container max-w-4xl px-6 py-12 mx-auto">
-    <h1 class="my-2 text-5xl font-bold">{{.Title}}</h1>
+    <h1 class="mt-2 mb-6 text-5xl font-bold">{{.Title}}</h1>
     {{ if ne .Params.banner nil }}
     <img src="{{.Params.banner}}" alt="{{.Title}}" class="w-full rounded-lg" />
     {{ end }}
@@ -10,6 +10,6 @@
     <div class="content">{{ .Content }}</div>
   </div>
 </main>
-{{ end }} 
-{{ define "scripts" }} 
+{{ end }}
+{{ define "scripts" }}
 {{ end }}

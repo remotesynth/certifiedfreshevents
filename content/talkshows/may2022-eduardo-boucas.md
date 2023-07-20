@@ -14,7 +14,7 @@ recordings:
 show: code-sandwich-hour
 tags:
   - netlify
-  - jamastack
+  - jamstack
   - serverless
   - FaaS
 draft: false

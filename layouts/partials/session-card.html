@@ -1,13 +1,22 @@
-{{ $event := "" }}
-{{ if (isset .Params "event") }}
-  {{ $event = (.GetPage (print "/events/" .Params.event)) }}
-{{ else }}
-  {{ $eventArr := slice .Page.File.TranslationBaseName }}
-  {{ $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr }}
-  {{ $event = (index $events 0) }}
-{{ end }}
+{{- $event := "" -}}
+{{- $banner := "" -}}
+{{- $description := "" -}}
+{{- if (isset .Params "homepage_banner") -}}
+  {{- $banner = .Params.homepage_banner -}}
+  {{- $description = .Params.short_desc -}}
+{{- else -}}
+  {{- if (isset .Params "event") -}}
+    {{- $event = (.GetPage (print "/events/" .Params.event)) -}}
+  {{- else -}}
+    {{- $eventArr := slice .Page.File.TranslationBaseName -}}
+    {{- $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr -}}
+    {{- $event = (index $events 0) -}}
+  {{- end -}}
+  {{- $banner = $event.Params.homepage_banner -}}
+  {{- $description =$event.Params.short_desc -}}
+{{- end -}}
 
-{{- $src := resources.Get (print "img/banners/" $event.Params.homepage_banner) -}}
+{{- $src := resources.Get (print "img/banners/" $banner) -}}
 {{ if $src }}
   {{- $src := $src.Resize "608x" }}
 {{ end}}
@@ -37,7 +46,7 @@
 
 
 
-    <p class="mb-auto">{{ $event.Params.short_desc }}</p>
+    <p class="mb-auto">{{ $description }}</p>
 
     {{/* TODO: Not showing */}}
 

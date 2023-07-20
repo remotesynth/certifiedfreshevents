@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="my-20">
 
-  <header class="container px-6 mx-auto">
+  <header class="container px-6 mx-auto mb-8">
     <a
       class="inline-block mb-1 align-middle"
       href="/talkshows">
@@ -11,11 +11,12 @@
         </svg>
         <span>More Talk Shows</span>
     </a>
+
     <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
 
-    <ul class="flex flex-wrap lg:mb-8">
-      <li class="flex items-center flex-grow mb-4 mr-6 lg:mb-0">
-        <div class="flex items-center leading-tight avatar-list">
+    <ul class="flex flex-wrap gap-6 md:items-end">
+      <li class="flex items-center flex-grow">
+        <div class="flex items-center font-medium leading-tight avatar-list">
           <span class="mr-3 text-sm">Hosted by:</span>
           {{ range $host := .Params.host }}
             {{ with site.GetPage (print "/speakers/" $host) }}
@@ -27,15 +28,15 @@
               height="140"
               title="{{ .Title }}">
 
-          <span class="max-w-xs ml-2 font-medium">
-                {{ .Title }}
-                <span class="delimiter">&amp;</span>
-          </span>
+            <span class="max-w-xs ml-2 font-medium">
+              {{ .Title }}
+              <span class="delimiter">&amp;</span>
+            </span>
             {{ end }}
           {{ end }}
         </div>
       </li>
-  
+
       {{ with .Params.recordings.youtube }}
         {{ if ne .length "00:00"}}
           <li class="items-center hidden mb-4 mr-6 text-sm lg:flex lg:mb-0">
@@ -47,69 +48,88 @@
           </li>
         {{ end}}
       {{ end }}
-      {{ with .Params.recordings.vimeo }}
-        {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
-        <div class="block mx-auto bg-black embed-responsive">
-          <iframe src="https://player.vimeo.com/video/{{ $vimeo_embed }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }}"></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-      {{ end }}
 
-      <li class="flex items-center mb-4 mr-6 text-sm lg:mb-0">
+      <li class="flex items-center text-sm">
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
           <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
         <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
       </li>
-
     </ul>
   </header>
 
   <div class="container mx-auto">
+    {{ with .Params.recordings.vimeo }}
+      {{ $vimeo_embed :=  delimit (last 1 (split .url "/")) "" }}
+      <div class="block mx-auto bg-black embed-responsive">
+        <iframe src="https://player.vimeo.com/video/{{ $vimeo_embed }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }}"></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    {{ end }}
     {{ with .Params.recordings.youtube }}
-        {{ $youtube_embed :=  delimit (last 1 (split .url "/")) "" }}
-        <div class="block mx-auto bg-black embed-responsive">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $youtube_embed }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+      {{ $youtube_embed :=  delimit (last 1 (split .url "/")) "" }}
+      <div class="block mx-auto bg-black embed-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $youtube_embed }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     {{ end }}
   </div>
 
-  <div class="container max-w-3xl px-6 pb-8 mx-auto mt-20">
-    <div class="mb-8">
-      {{ partial "social-share.html" .}}
-    </div>
+  <div class="container max-w-6xl px-6 pb-8 mx-auto mt-20">
+    <div class="flex flex-col items-stretch gap-6 lg:gap-12 lg:flex-row">
+      <div class="lg:max-w-max">
+        {{ partial "social-share.html" .}}
+      </div>
 
-    <div class="mb-20 content">
-      {{ .Content }}
-    </div>
+      <div class="flex-1">
+        <div class="content">
+          {{ .Content }}
+        </div>
 
-    {{ if isset .Params "speakers"}}
-    <div class="mt-24 space-y-20">
-      <h2 class="text-4xl font-semibold">Featured Guest</h2>
-      {{ range $speaker := .Params.speakers }}
-        {{ with site.GetPage (print "/speakers/" $speaker) }}
-          {{ partial "speaker-card.html" .}}
+        {{ if isset .Params "speakers"}}
+          <div class="mt-12">
+            <h2 class="mb-6 text-4xl font-semibold">Featured Guest</h2>
+            <div class="space-y-12">
+              {{ range $speaker := .Params.speakers }}
+                {{ with site.GetPage (print "/speakers/" $speaker) }}
+                  <div class="p-6 border rounded shadow-lg">
+                    {{ partial "speaker-card.html" .}}
+                  </div>
+                {{ end }}
+              {{end}}
+            </div>
+          </div>
         {{ end }}
-      {{end}}
-    </div>
-    {{ end }}
 
-    <div class="mt-24 space-y-20">
-      <h2 class="text-4xl font-semibold">Hosted by</h2>
-      {{ range $host := .Params.host }}
-        {{ with site.GetPage (print "/speakers/" $host) }}
-          {{ partial "speaker-card.html" .}}
+        <div class="mt-12">
+          <h2 class="mb-6 text-4xl font-semibold">Hosted by</h2>
+          <div class="space-y-12">
+            {{ range $host := .Params.host }}
+              {{ with site.GetPage (print "/speakers/" $host) }}
+                <div class="p-6 border rounded shadow-lg">
+                  {{ partial "speaker-card.html" .}}
+                </div>
+              {{ end }}
+            {{end}}
+          </div>
+        </div>
+
+        {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
+        {{ with $transcript }}
+          {{ partial "transcript.html" .}}
         {{ end }}
-      {{end}}
+      </div>
+
+      <div class="lg:w-[300px]">
+        <div class="mb-4">
+          {{ $category := index .Params.Categories 0 }}
+          {{ with site.GetPage (print "/categories/" $category) }}
+            {{ partial "category-button.html" .}}
+          {{ end }}
+        </div>
+
+        {{ partial "tag-sidebar-list.html" .}}
+      </div>
     </div>
-    {{ $transcript := (.GetPage (print "/transcripts/" (strings.TrimSuffix ".md" .File.LogicalName))) }}
-    
-    {{ with $transcript }}
-    <div class="mt-10 content">
-      <h2>Transcript</h2>
-      {{.Content}}
-    </div>
-    {{ end }}
   </div>
 </main>
 {{ end }}
