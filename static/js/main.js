@@ -80,7 +80,7 @@ if (carousel) {
   Setup Accordionss
 */
 
-const accordions = document.querySelectorAll('.accordion-trigger');
+const accordions = document.querySelectorAll('[data-accordion-trigger]');
 accordions.forEach((accordionEl) => {
   accordionEl.addEventListener('click', () => {
     const pane = document.getElementById(accordionEl.getAttribute('aria-controls'));
