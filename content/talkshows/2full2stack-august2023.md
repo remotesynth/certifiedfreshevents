@@ -2,7 +2,7 @@
 title: "WTF: What the Form"
 date: 2023-08-24T13:00:00-04:00
 end_date: 2023-08-24T14:00:00-04:00
-homepage_banner: 2full2stack-072023.png
+homepage_banner: 2full2stack-082423.png
 host:
   - nick-taylor
 recordings:
