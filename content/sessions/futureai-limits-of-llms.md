@@ -7,8 +7,12 @@ speakers:
 categories:
   - stuff
 event: the-future-of-ai
+youtube:
+  url: https://youtu.be/rISzK5rhhPE
+  length: "28:36"
 tags:
   - artificial-intelligence
+  - ai
   - large-language-models
 draft: false
 ---
