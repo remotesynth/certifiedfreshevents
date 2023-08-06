@@ -5,7 +5,8 @@ end_date: 2023-09-21T17:00:00-05:00
 days: 1
 cost: 0
 homepage_banner: CodeWordConference-092123.jpg
-short_desc: Explore how AI and LLMs are creating new opportunities and even new business models for software in order to prepare you for the next generation of AI driven software.
+short_desc: Content is a fundamental part of the web and almost every developer building for the web has to deal with
+content. CodeWord Conf is focused on how developers interact with content in their code.
 draft: false
 featured: false
 layout: thejam
