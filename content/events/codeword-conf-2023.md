@@ -85,6 +85,29 @@ We've already got some amazing developers speaking with more to come soon!
 
 {{< conf-speakers >}}
 
+## Sponsors {#sponsors}
+
+TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@cfe.dev).
+
+<section>
+    <h3 id="lead-day-sponsors" class="mb-6"><strong>Gold Sponsor</strong></h3>
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://contentful.com/"><img src="/img/sponsors/Contentful.png" alt="Contentful"></a>
+            </div>
+        </article>
+    </div>
+    <h3 id="sponsors-1" class="mb-6"><strong>Sponsors</strong></h3>
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://algolia.com/"><img src="/img/sponsors/Algolia.png" alt="Algolia"></a>
+            </div>
+        </article>
+    </div>
+</section>
+
 ## Register {#register}
 
 Registration is **completely free**, so join us live on Crowdcast on September 21.
