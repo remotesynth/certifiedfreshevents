@@ -15,6 +15,7 @@ sponsor:
   URL: https://developer.ibm.com/
 draft: false
 featured: true
+event_type: workshop
 ---
 
 In this hands-on, virtual workshop, Marek Sadowski will explore how to automate your enterprise application deployment, scaling, and management using Kubernetes.

@@ -17,6 +17,7 @@ tags:
   - performance
   - webdev
 show: uptimefm
+event_type: talk show
 ---
 
 Building a performant website is a job that's never really done. As websites and web standards evolve, developers must be both mindful and knowledgeable to keep the website performing at its best.

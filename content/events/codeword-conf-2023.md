@@ -5,8 +5,7 @@ end_date: 2023-09-21T17:00:00-05:00
 days: 1
 cost: 0
 homepage_banner: CodeWordConference-092123.jpg
-short_desc: Content is a fundamental part of the web and almost every developer building for the web has to deal with
-content. CodeWord Conf is focused on how developers interact with content in their code.
+short_desc: Content is a fundamental part of the web and almost every developer building for the web has to deal with content. CodeWord Conf is focused on how developers interact with content in their code.
 draft: false
 featured: false
 layout: thejam
@@ -16,10 +15,10 @@ speakers:
   - homer-gaines
   - tbd-moar-serverless
 styles: thejam.css
+event_type: conference
 ---
 
-Content is a fundamental part of the web and almost every developer building for the web has to deal with
-content. CodeWord Conf is focused on how developers interact with content in their code. This includes things like:
+Content is a fundamental part of the web and almost every developer building for the web has to deal with content. CodeWord Conf is focused on how developers interact with content in their code. This includes things like:
 
 * Choosing and integrating a content management system (headless or monolithic)
 * Choosing the right tools for building content-focused sites and pages

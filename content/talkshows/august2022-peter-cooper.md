@@ -17,6 +17,7 @@ tags:
   - community
   - ruby
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Peter Cooper, founder of Cooper Press which publishes hugely popular developer newsletters such as JavaScript Weekly, Ruby Weekly and FrontEnd Focus.

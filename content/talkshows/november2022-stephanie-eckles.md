@@ -17,6 +17,7 @@ tags:
   - microsoft
   - eleventy
 draft: false
+event_type: talk show
 ---
 
 Sean C. Davis interviews Stephanie Eckles, front-end focused software engineer at Microsoft, publishing [a video series for beginner developers](https://learnfromsteph.dev/), authoring [ModernCSS.dev](https://moderncss.dev/), creator of [Style Stage](https://stylestage.dev/), providing Eleventy resources on [11ty.Rocks](https://11ty.rocks/), and mom of two girls.

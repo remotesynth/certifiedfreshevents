@@ -15,6 +15,7 @@ sponsor:
   URL: https://www.particle.io/
 draft: false
 featured: false
+event_type: workshop
 ---
 
 The Internet of Things is about connection. Not just connecting dumb devices to the digital world, but also connecting us in new ways to one another. Many consider IoT to be a buzzword, and yet it’s being leveraged every day to open up new business opportunities and help get people connected in homes, cities, labs, schools and a million other places, around the world.

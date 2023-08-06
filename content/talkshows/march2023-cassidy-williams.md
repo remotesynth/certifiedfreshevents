@@ -18,6 +18,7 @@ tags:
   - devrel
   - career
 draft: false
+event_type: talk show
 ---
 
 Erin and Brian are joined by Cassidy Williams who'll discuss her path into developer relations, including leading it at multiple companies and how it factors into her to her current role as CTO. Plus we'll offer our spicy takes on some hot topics around DevRel.

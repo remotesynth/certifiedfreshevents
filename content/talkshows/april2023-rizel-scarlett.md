@@ -19,6 +19,7 @@ tags:
   - devrel
   - open source
 draft: false
+event_type: talk show
 ---
 
 Erin and Brian are joined by Rizel Scarlett, a developer advocate at GitHub, who'll discuss her path into devrel and working as an advocate for open source communities.

@@ -52,6 +52,7 @@ sessions:
   - jamdev2023-headless-cms
   - jamdev2023-eleventy-webc
 styles: thejam.css
+event_type: conference
 ---
 
 ## Jamstack, web development, serverless and more!

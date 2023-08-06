@@ -15,6 +15,7 @@ sponsor:
   URL: https://developer.ibm.com/
 draft: false
 featured: true
+event_type: workshop
 ---
 
 In this free, hands-on workshop, Upkar Lidder of [IBM Developer](https://developer.ibm.com/) will walk you through building three serverless applications using the open source Apache OpenWhisk platform.

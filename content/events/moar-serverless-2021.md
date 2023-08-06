@@ -33,6 +33,7 @@ sessions:
   - moar2021-cloudinary-nextjs
   - moar2021-functional-web-apps
 styles: thejam.css
+event_type: conference
 ---
 ## A serverless community conference
 

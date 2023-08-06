@@ -18,6 +18,7 @@ tags:
   - devrel
   - career
 draft: false
+event_type: talk show
 ---
 
 Erin and Brian are joined by Tessa Kriesel, Head of Platform Developer Relations at Snap, to discuss moving from an individual contributor (IC) to management in developer relations and what makes a successful DevRel team.

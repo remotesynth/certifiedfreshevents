@@ -17,6 +17,7 @@ tags:
   - redis
   - databases
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Suze Shardlow, the developer community manager at Redis.

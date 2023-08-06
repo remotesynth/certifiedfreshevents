@@ -17,6 +17,7 @@ tags:
   - community
   - career
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews PJ Hagerty who founded a company delivering developer and community relations as a service and is a board member of an organization focused on mental health in the tech community.

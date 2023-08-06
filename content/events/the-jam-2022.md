@@ -57,6 +57,7 @@ sessions:
   - jamdev2022-svelte-magic
   - jamdev2022-what-is-jamstack
 styles: thejam.css
+event_type: conference
 ---
 
 ## A Jamstack community conference

@@ -17,6 +17,7 @@ tags:
   - continuous delivery
   - python
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Benjy Weinberger, creator of the open source Pants build system for Python, Java, Scala, Go, and Shell and founder of Toolchain Labs.

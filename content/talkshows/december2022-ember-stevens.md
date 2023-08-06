@@ -17,6 +17,7 @@ tags:
   - documentation
   - launchdarkly
 draft: false
+event_type: talk show
 ---
 
 Writing documentation for developers means answering a number of questions: How do we organize the content? How should navigation reflect that organization? How do we render code snippets? What application and format do we use for writing? How do we maintain docs over time?

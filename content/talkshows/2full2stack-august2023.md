@@ -16,6 +16,7 @@ tags:
   - frontend
   - javascript
 draft: false
+event_type: live coding
 ---
 
 Forms are a necessary component of practically everything on the web and yet developers generally find them painful to create. In this episode, Nick Taylor will show all the aspects of form development and the form APIs that can make building forms less painful.

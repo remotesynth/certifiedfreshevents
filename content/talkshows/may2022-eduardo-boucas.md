@@ -18,6 +18,7 @@ tags:
   - serverless
   - FaaS
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Eduardo Bouças, a Senior Staff Engineer at Netlify who worked on the recently released edge functions feature on Netlify and maintains a number of open source projects.

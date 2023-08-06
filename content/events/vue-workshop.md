@@ -11,6 +11,7 @@ sessions:
   - vue-workshop
 draft: false
 featured: true
+event_type: workshop
 ---
 
 Vue.js has continued to gain popularity in the web development community in part because it has a gentler learning curve than other frameworks, a good developer experience and offers good performance and size efficiency without giving up on functionality. In this live, hands-on workshop, Raymond Camden will give you everything you need to get started with Vue.

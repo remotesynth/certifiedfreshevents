@@ -16,6 +16,7 @@ tags:
   - devrel
   - community
 draft: false
+event_type: talk show
 ---
 
 Join Erin Makail Staples and Brian Rinaldi as they introduce a new show all about careers in Developer Relations (aka DevRel) and DevRel adjacent roles.

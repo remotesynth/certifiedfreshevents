@@ -17,6 +17,7 @@ tags:
   - community
   - devrel
 show: uptimefm
+event_type: talk show
 ---
 
 Building developer communities is hard. You don't just have to get someone's attention — you also have to give them a reason to stay.

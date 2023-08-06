@@ -17,6 +17,7 @@ show: uptimefm
 tags:
   - content management
   - headless cms
+event_type: talk show
 ---
 
 The modern website has become an art of composition. It's a rarity that a website will only pull content from a single source these days.

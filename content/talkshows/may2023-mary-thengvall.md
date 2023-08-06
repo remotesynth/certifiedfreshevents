@@ -18,6 +18,7 @@ tags:
   - devrel
   - career
 draft: false
+event_type: talk show
 ---
 
 Erin and Brian are joined by Mary Thengvall, author of The Business Value of Developer Relations and editor of DevRel Weekly, to talk about trends in DevRel.

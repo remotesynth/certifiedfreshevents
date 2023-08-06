@@ -18,6 +18,7 @@ tags:
   - netlify
   - jamstack
 show: uptimefm
+event_type: talk show
 ---
 
 You're ready to build your next project for the web, but how do you go about choosing the right JavaScript framework?
