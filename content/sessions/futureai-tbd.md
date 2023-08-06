@@ -4,8 +4,6 @@ date: 2023-07-31T15:05:00-04:00
 end_date: 2023-07-31T15:30:00-04:00
 speakers:
   - comedybytes
-categories:
-  - stuff
 event: the-future-of-ai
 draft: false
 ---

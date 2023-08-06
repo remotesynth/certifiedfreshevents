@@ -363,5 +363,3 @@ Oh, let's not get on the Discords, slacks. Oh, my God. All right. Well, we'll le
 
 **Erin Mikail Staples** 53:49  
 Adios.
-
-Transcribed by https://otter.ai

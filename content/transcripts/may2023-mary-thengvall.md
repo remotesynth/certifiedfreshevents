@@ -252,5 +252,3 @@ Thank you so much.
 
 **Brian Rinaldi**  54:00  
 All right. So ever. Thanks, everybody for tuning in. We will be back next month. I we we already kind of working on our next guests. So look for us be towards the end of June because June is a kind of crazy month for me, but but we will be back. So follow CFE.dev for any updates on dev relish. Also, we have lots of really great virtual meetups coming up. It's just a lot of a lot of cool content. So please check it out. All right, we'll see y'all next time. Later. Bye.
-
-Transcribed by https://otter.ai

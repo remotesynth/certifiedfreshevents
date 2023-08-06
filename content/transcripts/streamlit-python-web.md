@@ -72,5 +72,3 @@ yeah, so a couple of things, we have custom theming. So you can control the colo
 
 **Brian Rinaldi**  26:45  
 Okay, okay. That makes sense. This looks really awesome. I'm actually really impressed, by the way.
-
-Transcribed by https://otter.ai

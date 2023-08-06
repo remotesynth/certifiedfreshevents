@@ -7,9 +7,10 @@ speakers:
 categories:
   - stuff
 event: the-future-of-ai
-youtube:
-  url: https://youtu.be/rISzK5rhhPE
-  length: "28:36"
+recordings:
+  youtube:
+    url: https://youtu.be/rISzK5rhhPE
+    length: "28:36"
 tags:
   - artificial-intelligence
   - ai
@@ -17,5 +18,5 @@ tags:
 draft: false
 ---
 
-TBD
+As practitioners and decision makers, it’s important for us to have like a semi decent mental model of how AI and LLMs work in order to make better decisions for our business, for our customers and for our bottom line. We'll take a look at a little bit of the theory behind LLMs, a few things that might not come to mind when you think about LLMs, and then explore some pracical use cases for LLMS in addition to where it won’t work as well.
 

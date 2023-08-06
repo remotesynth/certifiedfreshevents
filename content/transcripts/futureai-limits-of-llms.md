@@ -75,5 +75,3 @@ most interesting use case I've seen for LMS, you know, honestly, all the ones I 
 
 **Erin Mikail Staples**  28:15  
 Yeah, no, I think that's a really great approach. I one of my favorite talks at PyCon. This last year was using and they fine tune the stable diffusion model to make a Pokemon generator and that was built by Rob DeWitt. And I still think like these enlarge model applications are super fascinating.
-
-Transcribed by https://otter.ai
