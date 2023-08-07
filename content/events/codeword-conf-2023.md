@@ -55,7 +55,7 @@ Content is a fundamental part of the web and almost every developer building for
       <p><img src="/img/thejam/iconmonstr-thumb-15-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">Amazing Quality</h4>
       </div>
-      <p class="text-base">CFE.dev has been hosting virtual events for technology professionals and developers for the past six years.</p>
+      <p class="text-base">CFE.dev and FITC have been leaders in hosting online conferences that combine live learning with great networking opportunities. Expect top-end production values and content you can trust.</p>
     </article>
     <article>
       <div class="flex items-center mb-8">
@@ -78,6 +78,10 @@ Content is a fundamental part of the web and almost every developer building for
     All the presentations will be recorded for your viewing pleasure after the event, so don’t sweat it if you have to dip out for a bit. You’ll be able to view the content 24/7 well after the conference closes.
   </div>
 </section>
+
+#### A CFE & FITC Joint Event
+
+[![FITC](/img/sponsors/fitc.png)](https://fitc.ca)
 
 ## Speakers {#speakers}
 
