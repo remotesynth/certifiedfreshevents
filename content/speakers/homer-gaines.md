@@ -9,4 +9,4 @@ mastodon: https://a11y.info/@homer
 draft: false
 ---
 
-Front-end Dev by day, maker of music by night with over 26 years in the field, Homer is a Staff UI Engineer and Certified Accessibility professional. With a background in Behavioral Psychology and Graphic Design, he focuses on accessible front-end development and clean, intuitive designs.
+I'm a Front-end Developer with over 28 years of experience in the field and an independent recording artist. With a background in Behavioral Psychology, specializing in Neurology and Graphic Design, I bring a wealth of knowledge and expertise to my role. As a Staff UI Engineer, certified accessibility professional, and international speaker, I focus on advancing accessible front-end development.
