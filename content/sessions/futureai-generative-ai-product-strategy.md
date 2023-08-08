@@ -6,6 +6,7 @@ speakers:
   - allison-pickens
   - jonathan-pedoeem
   - vijay-umpathy
+  - matt-dupree
 categories:
   - stuff
 event: the-future-of-ai
