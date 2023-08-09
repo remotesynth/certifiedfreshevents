@@ -13,6 +13,7 @@ speakers:
   - ben-holmes
   - miriam-schwab
   - homer-gaines
+  - harshil-agrawal
   - tbd-moar-serverless
 styles: thejam.css
 event_type: conference
