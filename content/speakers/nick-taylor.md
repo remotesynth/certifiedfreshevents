@@ -7,6 +7,7 @@ twitter: nickytonline
 github: nickytonline
 mastodon: https://toot.cafe/@nickytonline
 website: https://www.iamdeveloper.com/
+cfe: Host of 2 Full 2 Stack
 draft: false
 ---
 
