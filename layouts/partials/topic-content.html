@@ -1,0 +1,37 @@
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{ if .Params.faqs }}
+  <ul class="flex flex-col gap-4 mt-12 mb-10 topic-faqs topic-grid-content">
+    {{ $counter := 0 }}
+    {{ range .Params.faqs }}
+    {{ $counter = add $counter 1 }}
+      <div class="p-4 border rounded">
+        <h2>
+          <button
+            type="button"
+            aria-expanded="false"
+            aria-controls="Topic-FAQ-{{ $counter }}"
+            class="flex items-center justify-between w-full gap-2"
+            data-accordion-trigger>
+            <strong class="text-xl text-left text-blue max-w-[40ch]">{{ .question }}</strong>
+            <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
+              <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+            </svg>
+          </button>
+        </h2>
+
+        <div
+          id="Topic-FAQ-{{ $counter }}"
+          role="region"
+          aria-labelledby="TranscriptToggle"
+          class="mt-4 content"
+          hidden>
+            {{.answer}}
+        </div>
+      </div>
+
+    {{ end }}
+  {{ end }}
+</ul>

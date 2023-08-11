@@ -1,53 +1,20 @@
 {{ define "main" }}
 <main class="my-20">
   <div class="container px-6 mx-auto">
-    <div class="lg:grid lg:grid-cols-2 lg:gap-12">
+    <div class="topic-grid lg:grid lg:grid-cols-2 lg:gap-12">
       <div>
         <header>
           <span class="mb-1 text-base font-bold text-gray-500">Topics</span>
           <h1 class="max-w-4xl mb-4 text-5xl font-semibold leading-tight tracking-tight">{{.Title}}</h1>
         </header>
-        <div class="content">
-          {{ .Content }}
+
+        <div class="hidden lg:block">
+          {{ partial "topic-content.html" . }}
         </div>
-
-        {{ if .Params.faqs }}
-          <ul class="flex flex-col gap-4 mt-12">
-            {{ $counter := 0 }}
-            {{ range .Params.faqs }}
-            {{ $counter = add $counter 1 }}
-              <div class="p-4 border rounded">
-                <h2>
-                  <button
-                    type="button"
-                    aria-expanded="false"
-                    aria-controls="Topic-FAQ-{{ $counter }}"
-                    class="flex items-center justify-between w-full gap-2"
-                    data-accordion-trigger>
-                    <strong class="text-xl text-left text-blue max-w-[40ch]">{{ .question }}</strong>
-                    <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
-                      <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
-                    </svg>
-                  </button>
-                </h2>
-
-                <div
-                  id="Topic-FAQ-{{ $counter }}"
-                  role="region"
-                  aria-labelledby="TranscriptToggle"
-                  class="mt-4 content"
-                  hidden>
-                    {{.answer}}
-                </div>
-              </div>
-
-            {{ end }}
-          {{ end }}
-        </ul>
       </div>
 
       <div>
-        <div class="flex flex-col gap-4 p-4 overflow-y-scroll border max-h-[40rem] rounded">
+        <div class="flex flex-col gap-4 p-4 overflow-y-scroll border max-h-[40rem] rounded shadow-lg topic-sessions topic-grid-side">
           <h2 class="text-xl font-bold text-gray-600">Must watch sessions</h2>
           {{- with .Params.featured_sessions -}}
           {{ range .}}
@@ -58,19 +25,27 @@
           {{- end -}}
         </div>
 
-        <h2 class="mt-12 mb-2 text-xl font-bold text-gray-600">Related Tags</h2>
-        {{ partial "tag-sidebar-list.html" .}}
+        <div class="mt-12 lg:hidden">
+          {{ partial "topic-content.html" . }}
+        </div>
 
-        <h2 class="mt-12 mb-8 text-xl font-bold text-gray-600">{{.Title}} Speakers</h2>
-        {{ if .Params.speakers }}
-        <ul class="flex flex-col gap-8">
-          {{ range $speaker := .Params.speakers }}
-            {{ with site.GetPage (print "/speakers/" $speaker) }}
-              {{ partial "speaker-mini-card.html" . }}
-            {{end}}
+        <section class="topic-tags topic-grid-side">
+          <h2 class="mt-12 mb-2 text-xl font-bold text-gray-600">Related Tags</h2>
+          {{ partial "tag-sidebar-list.html" .}}
+        </section>
+
+        <section class="topic-speakers topic-grid-side">
+          <h2 class="mt-12 mb-8 text-xl font-bold text-gray-600">{{.Title}} Speakers</h2>
+          {{ if .Params.speakers }}
+          <ul class="flex flex-col gap-8">
+            {{ range $speaker := .Params.speakers }}
+              {{ with site.GetPage (print "/speakers/" $speaker) }}
+                {{ partial "speaker-mini-card.html" . }}
+              {{end}}
+            {{ end }}
+          </ul>
           {{ end }}
-        </ul>
-        {{ end }}
+        </section>
       </div>
     </div>
   </div>
