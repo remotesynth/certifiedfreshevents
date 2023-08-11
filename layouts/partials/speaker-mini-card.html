@@ -1,19 +1,15 @@
 <section>
-  <div class="relative flex items-center">
-    <a href="{{ .RelPermalink }}" class="mr-4">
-      <img
-        class="max-w-full rounded-full"
-        src="/img/speakers/{{ .Params.speaker_image }}"
-        alt="{{ .Title }}"
-        width="64"
-        height="64">
-    </a>
+  <a href="{{ .RelPermalink }}" class="relative flex items-center gap-4">
+    <img
+      class="max-w-full rounded-full"
+      src="/img/speakers/{{ .Params.speaker_image }}"
+      alt="{{ .Title }}"
+      width="64"
+      height="64">
 
     <div class="flex flex-col justify-center">
-      <a href="{{ .RelPermalink }}">
-        <h2 class="text-xl font-semibold">{{ .Title }}</h2>
-        <span class="text-base font-medium text-java">{{ .Params.Job_title }}</span>
-      </a>
+      <h2 class="text-xl font-semibold">{{ .Title }}</h2>
+      <span class="text-base font-medium text-java">{{ .Params.Job_title }}</span>
     </div>
-  </div>
+  </a>
 </section>
