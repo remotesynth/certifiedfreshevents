@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/photoshop-apis
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/upJ9ikpkdr4
+    length: "45:53"
 categories:
   - stuff
 tags:
