@@ -8,9 +8,9 @@
 {{ partial "navigation.html" . }}
 
 <main class="mt-12 lg:mt-20">
-  <div class="container px-6 pb-24 mx-auto lg:grid lg:grid-cols-2 lg:gap-12">
-    <div>
-
+  <div class="container px-6 pb-16 mx-auto lg:pb-24 lg:grid lg:grid-cols-2 lg:gap-12">
+    <div class="hidden lg:block">
+      <img src="/img/presentation.svg" alt="Several people participating in a video call" />
     </div>
     <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
       <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">Virtual meetups & conferences for developers</h1>
@@ -132,8 +132,40 @@
     </div>
   </div>
 
+  <!-- Topics -->
+  <div class="py-20 bg-gray-200">
+    <div class="container px-6 mx-auto">
+      <div class="flex flex-col gap-12 lg:grid lg:grid-cols-2">
+        <div>
+          <h2 class="mb-8 text-4xl font-bold">Deep dive tech topics</h2>
+          <p class="mb-8 text-lg">Check out our curated collections of sessions and get a complete overview of technology you're curious about, straight from the experts.</p>
+
+          <h3 class="mb-4 text-base font-bold text-gray-600">Popular topics</h3>
+          <ul class="flex flex-wrap gap-3">
+            <li>
+              <a href="#" class="text-white tag bg-java">
+                Topic
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-4 p-4 overflow-y-scroll border max-h-[24rem] rounded shadow-lg bg-white">
+          <h3 class="text-xl text-java">Featured Topic: <strong>JAMStack</strong></h3>
+          {{- with .Params.featured_topic.sessions -}}
+          {{ range .}}
+              {{ with site.GetPage (print "/sessions/" . ) }}
+                {{ partial "session-mini-card.html" .}}
+              {{ end }}
+          {{ end }}
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container py-20 mx-auto">
-    <h2 class="mb-8 text-4xl font-bold text-center">Hear from members of our community</h2>
+    <h2 class="mb-8 text-3xl font-bold text-center">Hear from members of our community</h2>
     <ul class="flex flex-col max-w-6xl gap-12 px-6 mx-auto lg:grid lg:grid-cols-2">
     {{ $testimonials := shuffle (first 5 .Site.Data.testimonials) }}
     {{ range $testimonials }}
@@ -163,11 +195,6 @@
     </ul>
   </div>
 </main>
-
-
-
-
-
 
 
 {{ partial "footer.html" .}}
