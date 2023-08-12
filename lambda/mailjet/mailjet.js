@@ -5,6 +5,7 @@ const mailjet = new Mailjet({
   apiKey: process.env.MAILJET_API_KEY,
   apiSecret: process.env.MAILJET_SECRET_KEY,
 });
+const listID = 10244548;
 
 exports.handler = async (event, context, callback) => {
   try {
@@ -32,7 +33,19 @@ exports.handler = async (event, context, callback) => {
         IsExcludedFromCampaigns: false,
         Name: firstName + " " + lastName,
       })
-      .then((res) => {
+      .then(async (res) => {
+        const addedToList = mailjet
+          .post("contact")
+          .id(res.body.Data[0].ID)
+          .action("managecontactslists")
+          .request({
+            ContactsLists: [
+              {
+                ListID: listID,
+                Action: "addnoforce",
+              },
+            ],
+          });
         const response = { msg: "Good news! You've been added." };
         return {
           statusCode: 200,
