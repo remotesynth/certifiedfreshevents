@@ -107,6 +107,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
+                <a href="https://rangle.io/"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
                 <a href="https://algolia.com/"><img src="/img/sponsors/Algolia.png" alt="Algolia"></a>
             </div>
         </article>
