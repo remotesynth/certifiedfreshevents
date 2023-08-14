@@ -1,4 +1,3 @@
-const axios = require("axios");
 const Mailjet = require("node-mailjet");
 
 const mailjet = new Mailjet({
