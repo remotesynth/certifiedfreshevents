@@ -54,6 +54,7 @@ sessions:
   - cms-editable-pages
   - past-present-future-jamstack
 styles: thejam.css
+event_type: conference
 ---
 
 ## A Jamstack community conference

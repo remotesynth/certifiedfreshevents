@@ -35,6 +35,7 @@ sessions:
   - moar2022-past-present-future-serverless
   - moar2022-closing
 styles: thejam.css
+event_type: conference
 ---
 
 ## A serverless community conference

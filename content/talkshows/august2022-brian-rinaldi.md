@@ -17,6 +17,7 @@ tags:
   - devrel
   - jamstack
 draft: false
+event_type: talk show
 ---
 
 In the final episode for season 1, Sean C. Davis and Brian Rinaldi chat about 5 years of CFE.dev, developer community and, perhaps, some Jamstack.

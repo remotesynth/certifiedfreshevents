@@ -17,6 +17,7 @@ show: uptimefm
 tags:
   - open source
   - appwrite
+event_type: talk show
 ---
 
 It's no small feat to grow a startup from concept to a successful company. We've heard the classic story many times. This one is a little different.

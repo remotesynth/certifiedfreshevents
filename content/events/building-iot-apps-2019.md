@@ -15,6 +15,7 @@ sponsor:
   URL: https://www.particle.io/
 draft: false
 featured: false
+event_type: workshop
 ---
 
 <span style="color:#e64614;">Please note that the registration deadline of November 13th for the hardware has passed and we can no longer guarantee that hardware will arrive in time for the workshop for new registrants.</span>

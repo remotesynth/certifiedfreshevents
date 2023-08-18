@@ -22,7 +22,7 @@ if (registerForm) {
       }
     }
     axios
-      .post("/.netlify/functions/activecampaign", {
+      .post("/.netlify/functions/mailjet", {
         email: email,
         firstName: firstName,
         lastName: lastName,
@@ -65,7 +65,7 @@ function crowdcastSignup(email, eventcode) {
     });
 }
 
-/* ActiveCampaign form submit
+/* Mailjet form submit
   -------------------------------------------------------*/
 const subscribeForm = document.getElementById("subscribeForm");
 if (subscribeForm)
@@ -75,7 +75,7 @@ if (subscribeForm)
     let form = e.target;
     let messageObj = document.getElementById("subscribe_message");
     axios
-      .post("/.netlify/functions/activecampaign", {
+      .post("/.netlify/functions/mailjet", {
         email: form.email.value,
       })
       .then(function (response) {

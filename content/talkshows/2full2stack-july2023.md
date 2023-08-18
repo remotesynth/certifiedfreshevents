@@ -17,6 +17,7 @@ tags:
   - javascript
   - debugging
 draft: false
+event_type: live coding
 ---
 
 In this episode, Nick Taylor explores debugging fundamentals and tips and tricks for full stack web application developers.

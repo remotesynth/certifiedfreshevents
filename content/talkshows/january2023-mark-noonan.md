@@ -17,6 +17,7 @@ tags:
   - testing
   - webdev
 draft: false
+event_type: talk show
 ---
 
 Before JavaScript took over the world, do you know what everyone loved? Testing!

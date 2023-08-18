@@ -17,6 +17,7 @@ tags:
   - adobe
   - jamstack
 draft: false
+event_type: talk show
 ---
 
 In the debut episode of the Code Sandwich Hour talk show, Sean C. Davis interviews Raymond Camden, developer evangelist at Adobe and author of the The Jamstack Book.

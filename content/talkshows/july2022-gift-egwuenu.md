@@ -17,6 +17,7 @@ tags:
   - devrel
   - jamstack
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Gift Egwuenu, developer advocate at Cloudflare, about serverless, Jamstack and web development.

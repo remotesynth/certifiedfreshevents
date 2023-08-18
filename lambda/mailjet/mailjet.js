@@ -1,6 +1,10 @@
-const axios = require("axios");
+const Mailjet = require("node-mailjet");
 
-const apiRoot = "https://certifiedfreshevents.api-us1.com/api/3/";
+const mailjet = new Mailjet({
+  apiKey: process.env.MAILJET_API_KEY,
+  apiSecret: process.env.MAILJET_SECRET_KEY,
+});
+const listID = 10244548;
 
 exports.handler = async (event, context, callback) => {
   try {
@@ -21,21 +25,26 @@ exports.handler = async (event, context, callback) => {
       };
     }
 
-    return axios({
-      method: "post",
-      url: apiRoot + "contacts",
-      data: {
-        contact: {
-          email: email,
-          firstName: firstName,
-          lastName: lastName,
-        },
-      },
-      headers: {
-        "Api-Token": process.env.ACTIVECAMPAIGN_API,
-      },
-    })
-      .then((res) => {
+    return mailjet
+      .post("contact")
+      .request({
+        Email: email,
+        IsExcludedFromCampaigns: false,
+        Name: firstName + " " + lastName,
+      })
+      .then(async (res) => {
+        const addedToList = mailjet
+          .post("contact")
+          .id(res.body.Data[0].ID)
+          .action("managecontactslists")
+          .request({
+            ContactsLists: [
+              {
+                ListID: listID,
+                Action: "addnoforce",
+              },
+            ],
+          });
         const response = { msg: "Good news! You've been added." };
         return {
           statusCode: 200,
@@ -43,7 +52,8 @@ exports.handler = async (event, context, callback) => {
         };
       })
       .catch((err) => {
-        const response = { errorMsg: err.response.data.errors[0].title };
+        console.log(err);
+        const response = { errorMsg: err.response.statusText };
         return {
           statusCode: 200,
           body: JSON.stringify(response),

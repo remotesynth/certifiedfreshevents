@@ -17,6 +17,7 @@ tags:
   - webdev
   - women in tech
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Jen Looper who helps lead education advocacy at Microsoft and founded the FrontEnd Foxes non-profit that runs coding boot camps for women.

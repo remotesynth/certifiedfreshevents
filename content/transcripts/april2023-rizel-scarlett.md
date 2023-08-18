@@ -378,5 +378,3 @@ Oh, yeah, blackgirlbytes on GitHub.
 
 **Brian Rinaldi**  53:33  
 All right. Well, thanks so much Rizel and thanks, everybody for for joining and for keeping the chat spicy. And, and we'll see you again next month with check for details on CFE that they have for our next guest and we'll see you then. Bye bye
-
-Transcribed by https://otter.ai

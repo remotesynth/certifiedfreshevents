@@ -1,5 +1,9 @@
 {{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
 {{- $src := $src.Resize "608x" }}
+{{- $type := "meetup" -}}
+{{- if isset .Params "event_type" -}}
+  {{- $type = .Params.event_type -}}
+{{- end -}}
 <article class="event-card">
   <img
     src="{{ $src.RelPermalink }}"
@@ -8,7 +12,7 @@
     aria-hidden="true">
 
   <div class="event-card-body">
-    <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-jelly">MEETUP</span></div>
+    <div class="mb-1"><span class="px-2 text-xs font-medium text-white rounded bg-jelly">{{ upper $type }}</span></div>
     <h1 class="event-card-title">
       <a href="{{ .RelPermalink }}" class="click-target">{{ .Title }}</a>
     </h1>

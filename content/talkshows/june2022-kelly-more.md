@@ -16,6 +16,7 @@ tags:
   - artificial intelligence
   - data science
 draft: false
+event_type: talk show
 ---
 
 In this episode, Sean C. Davis interviews Kelly More, a developer advocate focused on artificial intelligence and data science.

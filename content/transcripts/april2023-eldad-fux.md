@@ -254,5 +254,3 @@ Yeah, so you can follow me on Twitter at EldadFux and or we can chat with me on 
 
 **Sean C Davis** 40:05  
 All right, great, great. And thank you to everyone in the audience for listening live or even viewing later these shows are recorded live on the first and third Tuesdays of each month at 1pm. Eastern time in the US is 5pm GMT and then we later syndicate these on YouTube, but you can get past, present and future episodes, all listed on CFE.dev. Now, I'll be back here on April 21. Hosting Bryan Robinson we're going to dive deep into the composable content architectures. This is like a newer trend kind of emerging with with website patterns today. And so this one is going to be kind of interesting because Bryan's company and my company are working on kind of different ways to solve a similar problem. So that one, that'll be a little bit of a different one. But until then, from all of us at CFE.dev, thank you for joining us for this show. And I'll see you next time.
-
-Transcribed by https://otter.ai

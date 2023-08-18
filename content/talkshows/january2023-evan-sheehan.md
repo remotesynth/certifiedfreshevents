@@ -18,6 +18,7 @@ tags:
   - webdev
   - javascript frameworks
 draft: false
+event_type: talk show
 ---
 
 The idea of web components first emerged a little more than a decade ago. It seemed revolutionary. They were going to be the future of the web.

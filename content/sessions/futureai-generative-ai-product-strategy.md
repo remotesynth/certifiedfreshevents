@@ -6,9 +6,14 @@ speakers:
   - allison-pickens
   - jonathan-pedoeem
   - vijay-umpathy
+  - matt-dupree
 categories:
   - stuff
 event: the-future-of-ai
+recordings:
+  youtube:
+    url: https://youtu.be/1ssyp0U_Vl8
+    length: "32:53"
 tags:
   - artificial-intelligence
   - product-strategy
