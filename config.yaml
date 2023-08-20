@@ -35,6 +35,8 @@ related:
   indices:
     - name: categories
       weight: 100
+    - name: tags
+      weight: 100
     - name: date
       weight: 10
 paginate: 6

@@ -21,6 +21,9 @@
               {{ with site.GetPage (print "/sessions/" . ) }}
                 {{ partial "session-mini-card.html" .}}
               {{ end }}
+              {{ with site.GetPage (print "/talkshows/" . ) }}
+                {{ partial "session-mini-card.html" .}}
+              {{ end }}
           {{ end }}
           {{- end -}}
         </div>
@@ -49,6 +52,8 @@
       </div>
     </div>
   </div>
+
+  {{ partial "related-sessions.html" .}}
 </main>
 
 {{ end }}
