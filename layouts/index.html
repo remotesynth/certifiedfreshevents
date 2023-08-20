@@ -141,25 +141,34 @@
           <p class="mb-8 text-lg">Check out our curated collections of sessions and get a complete overview of technology you're curious about, straight from the experts.</p>
 
           <h3 class="mb-4 text-base font-bold text-gray-600">Popular topics</h3>
+          {{- $topics := where .Site.RegularPages "Section" "topics" -}}
           <ul class="flex flex-wrap gap-3">
+            {{- range first 5 $topics -}}
             <li>
               <a href="#" class="text-white tag bg-java">
-                Topic
+                {{.Title}}
               </a>
             </li>
+            {{- end -}}
           </ul>
         </div>
 
+        {{- $featured := first 1 (shuffle $topics) -}}
+        {{- range $featured -}}
         <div class="flex flex-col gap-4 p-4 overflow-y-scroll border max-h-[24rem] rounded shadow-lg bg-white">
-          <h3 class="text-xl text-java">Featured Topic: <strong>JAMStack</strong></h3>
-          {{- with .Params.featured_topic.sessions -}}
+          <h3 class="text-xl text-java">Featured Topic: <strong>{{.Title}}</strong></h3>
+          {{- with .Params.featured_sessions -}}
           {{ range .}}
               {{ with site.GetPage (print "/sessions/" . ) }}
+                {{ partial "session-mini-card.html" .}}
+              {{ end }}
+              {{ with site.GetPage (print "/talkshows/" . ) }}
                 {{ partial "session-mini-card.html" .}}
               {{ end }}
           {{ end }}
           {{- end -}}
         </div>
+        {{- end -}}
       </div>
     </div>
   </div>
