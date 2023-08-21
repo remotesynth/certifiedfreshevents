@@ -16,6 +16,7 @@ speakers:
   - homer-gaines
   - cassidy-williams
   - harshil-agrawal
+  - nancy-du
   - tbd-moar-serverless
 styles: thejam.css
 event_type: conference
