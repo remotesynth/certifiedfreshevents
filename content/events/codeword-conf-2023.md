@@ -14,6 +14,7 @@ speakers:
   - ben-holmes
   - miriam-schwab
   - homer-gaines
+  - cassidy-williams
   - harshil-agrawal
   - tbd-moar-serverless
 styles: thejam.css
