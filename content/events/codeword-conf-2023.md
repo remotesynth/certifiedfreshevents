@@ -10,6 +10,7 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - chris-coyier
   - ben-holmes
   - miriam-schwab
   - homer-gaines
