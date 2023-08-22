@@ -10,10 +10,13 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - chris-coyier
   - ben-holmes
   - miriam-schwab
   - homer-gaines
+  - cassidy-williams
   - harshil-agrawal
+  - nancy-du
   - tbd-moar-serverless
 styles: thejam.css
 event_type: conference
@@ -92,7 +95,7 @@ We've already got some amazing developers speaking with more to come soon!
 
 ## Sponsors {#sponsors}
 
-TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@cfe.dev).
+CodeWord Conf isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@cfe.dev).
 
 <section>
     <h3 id="lead-day-sponsors" class="mb-6"><strong>Gold Sponsor</strong></h3>
@@ -134,4 +137,4 @@ We're working on putting together an amazing day of sessions. Check back for det
 
 ## Code of Conduct {#coc}
 
-Attendees of TheJam.dev are expected to abide by the [Certified Fresh Events code of conduct](/conduct). If you encounter any violations, please contact an event support staff person on-site, email [brian@cfe.dev](mailto:brian@cfe.dev) or call (857) 919-7630.
+Attendees of CodeWord Conf are expected to abide by the [Certified Fresh Events code of conduct](/conduct). If you encounter any violations, please contact an event support staff person on-site, email [brian@cfe.dev](mailto:brian@cfe.dev) or call (857) 919-7630.
