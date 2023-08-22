@@ -145,7 +145,7 @@
           <ul class="flex flex-wrap gap-3">
             {{- range first 5 $topics -}}
             <li>
-              <a href="#" class="text-white tag bg-java">
+              <a href="{{ .RelPermalink }}" class="text-white tag bg-java">
                 {{.Title}}
               </a>
             </li>
