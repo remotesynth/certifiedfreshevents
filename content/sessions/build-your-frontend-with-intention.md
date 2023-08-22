@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/front-end-with-intention
     start_time: 00:00
+  youtube:
+    url: https://youtu.be/hem6KaheMBE
+    length: "49:39"
 categories:
   - webdev
 tags:
