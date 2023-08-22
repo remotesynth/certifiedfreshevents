@@ -75,15 +75,6 @@
 }
 
 /* Logo List */
-.logo-list {
-  @apply flex flex-wrap justify-center;
-}
-
-.logo-list li {
-  @apply flex items-center;
-  @apply mx-10 mb-10;
-}
-
 .tag {
   @apply px-2 py-1 text-sm rounded-sm bg-lightBlue;
 }

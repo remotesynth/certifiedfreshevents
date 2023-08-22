@@ -1,11 +1,11 @@
 <div class="container px-6 pb-12 mx-auto">
-  <div class="flex flex-wrap gap-8">
+  <div class="flex flex-col gap-8 lg:flex-row lg:flex-wrap">
     <div class="md:w-1/3">
-      <h2 class="text-4xl font-bold mb-8">Popular Tags</h2>
+      <h2 class="mb-8 text-4xl font-bold">Popular Tags</h2>
       <a href="/tags/" class="button">All tags</a>
     </div>
 
-    <ul class="flex flex-wrap gap-3 flex-1">
+    <ul class="flex flex-wrap flex-1 gap-3">
       {{ $count := 0 }}
 
       {{ range $name, $taxonomy := .Site.Taxonomies.tags }}

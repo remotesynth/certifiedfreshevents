@@ -2,7 +2,7 @@
 title: "Dawn Parzych"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: DawnParzych.jpg
-job_title:  Developer Advocate at LaunchDarkly
+job_title:  Director Product Marketing at Cloudflare
 twitter: dparzych
 website: https://launchdarkly.com/blog/author/dparzych/
 draft: false

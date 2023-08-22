@@ -8,7 +8,10 @@
 {{ partial "navigation.html" . }}
 
 <main class="mt-12 lg:mt-20">
-  <div class="container px-6 pb-24 mx-auto md:flex">
+  <div class="container px-6 pb-16 mx-auto lg:pb-24 lg:grid lg:grid-cols-2 lg:gap-12">
+    <div class="hidden lg:block">
+      <img src="/img/presentation.svg" alt="Several people participating in a video call" />
+    </div>
     <header class="mb-10 lg:flex-1 md:mb-0 md:mr-16 lg:mr-24 highlight-bg-hero">
       <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">Virtual meetups & conferences for developers</h1>
       <p class="mb-6 text-xl md:text-2xl">Learn alongside developers like you. Join live, welcoming events where you can connect with speakers, or watch sessions later at your own pace.</p>
@@ -16,26 +19,28 @@
         href="/events/"
         class="button">Explore Upcoming Events</a>
     </header>
+  </div>
 
-    {{ $testimonial := index (shuffle site.Data.testimonials) 0 }}
-    {{ with $testimonial }}
-    <div class="lg:w-1/3">
-      <section class="flex flex-col items-center highlight-box-dots">
-        <div class="-mb-8 highlight-avatar">
-          <img
-            src="{{.image}}"
-            alt="">
-        </div>
-        <blockquote class="relative z-0 max-w-full p-6 pt-10 pl-16 mt-4 text-gray-900 md:max-w-none bg-sand round-sm highlight-blockquote">
-          <p class="mb-4 text-lg font-medium">{{.quote}}</p>
-          <footer>
-            <span class="text-xl font-semibold">{{.name}}</span><br/>
-            <span class="text-sm font-medium text-java">{{.title}}</span>
-          </footer>
-        </blockquote>
-      </section>
+  <div class="bg-gray-200">
+    <div class="container py-8 mx-auto">
+      <h2
+        class="mb-4 text-base font-semibold text-center text-java"
+      >
+        Made possible thanks to our sponsors. <a href="{{ .Site.Params.sponsorship }}" class="text-bold link">Become a sponsor</a> today.
+      </h2>
+
+      <ul class="flex flex-wrap justify-center gap-8 mb-0">
+        <li class="flex items-center">
+          <a href="https://netlify.com/" target="_blank"
+            ><img src="/img/sponsors/netlify.svg" alt="Netlify" class="h-[64px]"/></a>
+        </li>
+        <li class="flex items-center">
+          <a href="https://contentful.com/" target="_blank"
+            ><img src="/img/sponsors/contentful.svg" alt="Contentful" class="h-[48px]"
+          /></a>
+        </li>
+      </ul>
     </div>
-    {{ end }}
   </div>
 
 
@@ -127,54 +132,79 @@
     </div>
   </div>
 
-  <!-- Speaker Spotlight -->
-  {{ $speaker := index (shuffle .Params.featured_speakers) 0 }}
-  <div class="py-20 bg-gray-100">
-    <div class="container grid gap-10 px-6 mx-auto md:grid-cols-2">
-      <div class="mb-10 md:mb-0 md:mr-16 lg:mr-24">
-        <h2 class="mb-6 text-3xl font-bold">CFE Speaker Spotlight </h2>
-        <p class="mb-6 text-lg">Our speakers are front and back-end developers from top companies. They create an environment of growth through attentiveness and a genuine human connection.</p>
-        <a
-          href="/speakers/"
-          class="button">View All Speakers</a>
-      </div>
-      {{ with site.GetPage (print "/speakers/" $speaker )}}
-      <section>
-        <div class="flex items-center mb-8">
-          <div class="mr-6 highlight-avatar">
-            <img
-              class="relative z-10 max-w-full rounded-full"
-              src="/img/speakers/{{.Params.speaker_image}}"
-              alt=""
-              width="210"
-              height="210">
-          </div>
-          <div>
-            <h3 class="font-bold uppercase"><span class="text-sm md:text-base highlight-text highlight-text-blue"><span>Featured Speaker</span></h3>
-            <span class="text-2xl font-semibold">{{.Title}}</span><br/>
-            <span class="text-lg font-medium text-java">{{.Params.job_title}}</span>
-          </div>
+  <!-- Topics -->
+  <div class="py-20 bg-gray-200">
+    <div class="container px-6 mx-auto">
+      <div class="flex flex-col gap-12 lg:grid lg:grid-cols-2">
+        <div>
+          <h2 class="mb-8 text-4xl font-bold">Deep dive tech topics</h2>
+          <p class="mb-8 text-lg">Check out our curated collections of sessions and get a complete overview of technology you're curious about, straight from the experts.</p>
+
+          <h3 class="mb-4 text-base font-bold text-gray-600">Popular topics</h3>
+          {{- $topics := where .Site.RegularPages "Section" "topics" -}}
+          <ul class="flex flex-wrap gap-3">
+            {{- range first 5 $topics -}}
+            <li>
+              <a href="{{ .RelPermalink }}" class="text-white tag bg-java">
+                {{.Title}}
+              </a>
+            </li>
+            {{- end -}}
+          </ul>
         </div>
 
-        <div class="mb-6">{{.Content}}</div>
-
-        <a href="{{.RelPermalink}}" class="inline-block py-2 font-bold link text-sky">View Sessions by {{.Title}}</a>
-      </section>
-      {{ end }}
+        {{- $featured := first 1 (shuffle $topics) -}}
+        {{- range $featured -}}
+        <div class="flex flex-col gap-4 p-4 overflow-y-scroll border max-h-[24rem] rounded shadow-lg bg-white">
+          <h3 class="text-xl text-java">Featured Topic: <strong>{{.Title}}</strong></h3>
+          {{- with .Params.featured_sessions -}}
+          {{ range .}}
+              {{ with site.GetPage (print "/sessions/" . ) }}
+                {{ partial "session-mini-card.html" .}}
+              {{ end }}
+              {{ with site.GetPage (print "/talkshows/" . ) }}
+                {{ partial "session-mini-card.html" .}}
+              {{ end }}
+          {{ end }}
+          {{- end -}}
+        </div>
+        {{- end -}}
+      </div>
     </div>
   </div>
 
-  <div class="container px-6 py-20 mx-auto">
+  <div class="container py-20 mx-auto">
+    <h2 class="mb-8 text-3xl font-bold text-center">Hear from members of our community</h2>
+    <ul class="flex flex-col max-w-6xl gap-12 px-6 mx-auto lg:grid lg:grid-cols-2">
+    {{ $testimonials := shuffle (first 5 .Site.Data.testimonials) }}
+    {{ range $testimonials }}
+      <div>
+        <li class="highlight-box-dots">
+          <blockquote class="relative z-0 max-w-full p-6 text-gray-900 md:max-w-none bg-sand round-sm">
+            <p class="mb-4 text-lg font-medium">{{ .quote }}</p>
+            <footer>
+              <div class="relative flex items-center gap-4">
+                <img
+                  class="max-w-full rounded-full"
+                  src="{{ .image }}"
+                  alt="{{ .name }}"
+                  width="48"
+                  height="48">
 
-    {{ partial "logo-list.html" . }}
-
-    <p class="mt-12 text-center">
-      <a
-        href="https://patreon.com/cfedev"
-        class="button">Sponsor Us</a>
-    </p>
+                <div class="flex flex-col justify-center">
+                  <h2 class="text-lg font-semibold">{{ .name }}</h2>
+                  <span class="text-base font-medium text-java">{{ .title }}</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </li>
+      </div>
+    {{ end }}
+    </ul>
   </div>
 </main>
+
 
 {{ partial "footer.html" .}}
 

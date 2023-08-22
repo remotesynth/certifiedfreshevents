@@ -1,0 +1,76 @@
+{{- $event := "" -}}
+{{- $banner := "" -}}
+{{- $description := "" -}}
+{{- if (isset .Params "homepage_banner") -}}
+  {{- $banner = .Params.homepage_banner -}}
+  {{- $description = .Params.short_desc -}}
+{{- else -}}
+  {{- if (isset .Params "event") -}}
+    {{- $event = (.GetPage (print "/events/" .Params.event)) -}}
+  {{- else -}}
+    {{- $eventArr := slice .Page.File.TranslationBaseName -}}
+    {{- $events := where .Site.RegularPages ".Params.sessions" "intersect" $eventArr -}}
+    {{- $event = (index $events 0) -}}
+  {{- end -}}
+  {{- $banner = $event.Params.homepage_banner -}}
+  {{- $description =$event.Params.short_desc -}}
+{{- end -}}
+
+{{- $src := resources.Get (print "img/banners/" $banner) -}}
+{{ if $src }}
+  {{- $src := $src.Resize "280x" }}
+{{ end}}
+
+{{- $t := time .Date -}}
+{{- $.Scratch.Set "link" .RelPermalink -}}
+{{- $.Scratch.Set "heading" "SESSION" -}}
+{{ if $t.After now }}
+  {{- $.Scratch.Set "link" $event.RelPermalink -}}
+  {{- $.Scratch.Set "heading" "UPCOMING SESSION" -}}
+{{ end }}
+{{- $sessionLink := $.Scratch.Get "link" -}}
+{{- $heading := $.Scratch.Get "heading" -}}
+<article class="relative flex gap-4">
+  {{ if $src }}
+    <div
+      class="object-cover w-[280px]">
+      <img
+        src="{{ $src.RelPermalink }}"
+        loading="lazy"
+        alt="Banner for {{ .Title }}"
+        aria-hidden="true"
+        width="280px">
+    </div>
+  {{ end }}
+
+  <div class="flex-1 py-2">
+    <h1 class="mb-2 text-base font-bold">
+      <a href="{{ $sessionLink }}" class="click-target">{{ .Title }}</a>
+    </h1>
+
+    <footer>
+      <ul class="flex flex-col justify-between gap-2">
+        {{ if .Params.speakers }}
+        <li class="flex items-center font-medium leading-tight">
+          {{ range $speaker := first 1 .Params.speakers }}
+            {{ with site.GetPage (print "/speakers/" $speaker) }}
+              <img
+                src="/img/speakers/{{.Params.speaker_image}}"
+                alt="{{.Params.speaker}}"
+                class="inline-block w-8 h-8 border-2 border-white rounded-full">
+
+              <span class="ml-2 text-xs">{{.Params.title}}</span>
+            {{end}}
+          {{ end }}
+        </li>
+        {{ end }}
+        <li class="flex items-center text-sm">
+          <svg class="inline-block w-6 h-6 mr-1 fill-current text-sky" aria-hidden="true">
+            <use xlink:href="/img/icons.svg#sm-calendar"></use>
+          </svg>
+          <time class="text-xs font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</article>
