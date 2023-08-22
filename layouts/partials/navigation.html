@@ -129,6 +129,19 @@
               </a>
             </div>
           </div>
+          <div class="p-6 bg-gray-200">
+            <span class="block mb-2 text-xs font-bold text-gray-500 uppercase">Discover by Topic</span>
+            {{- $topics := where .Site.RegularPages "Section" "topics" -}}
+            <ul class="flex flex-wrap gap-3">
+              {{- range first 5 $topics -}}
+              <li>
+                <a href="#" class="text-white tag bg-java">
+                  {{.Title}}
+                </a>
+              </li>
+              {{- end -}}
+            </ul>
+          </div>
         </div>
       </li>
       {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
