@@ -10,7 +10,7 @@ params:
   instagram: cfe_dev
   youtube: https://www.youtube.com/@cfedev
   discord: https://discord.com/invite/E2ysUYPzJH
-  patreon: https://patreon.com/cfedev
+  sponsorship: /docs/prospectus.pdf
   algolia:
     vars:
       - title
