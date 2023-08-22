@@ -102,7 +102,7 @@
 
 .highlight-box-dots:before {
   @apply absolute;
-  top: calc(50% - 3rem);
+  top: calc(50% - 2rem);
   left: -1rem;
   z-index: -1;
 

@@ -2,7 +2,7 @@
 title: "Divya Tagtachian"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: divyasasidharan.jpg
-job_title:  Developer Advocate at Progress
+job_title:  Platform Engineer at Fly.io
 twitter: shortdiv
 github: shortdiv
 website: http://shortdiv.com/

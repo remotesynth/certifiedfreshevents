@@ -10,6 +10,7 @@ params:
   instagram: cfe_dev
   youtube: https://www.youtube.com/@cfedev
   discord: https://discord.com/invite/E2ysUYPzJH
+  sponsorship: /docs/prospectus.pdf
   algolia:
     vars:
       - title
@@ -33,6 +34,8 @@ related:
   toLower: true
   indices:
     - name: categories
+      weight: 100
+    - name: tags
       weight: 100
     - name: date
       weight: 10
