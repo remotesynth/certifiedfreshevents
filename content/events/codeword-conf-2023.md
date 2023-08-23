@@ -11,12 +11,13 @@ featured: false
 layout: thejam
 speakers:
   - chris-coyier
+  - cassidy-williams
   - ben-holmes
   - miriam-schwab
   - homer-gaines
-  - cassidy-williams
   - harshil-agrawal
   - nancy-du
+  - lauren-schaefer
   - tbd-moar-serverless
 styles: thejam.css
 event_type: conference
@@ -52,7 +53,7 @@ Content is a fundamental part of the web and almost every developer building for
       <p><img src="/img/thejam/iconmonstr-rocket-14-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">Exciting Programming</h4>
       </div>
-      <p class="text-base">Hear from the experts from companies like Astro, Contentful, Elementor and more.</p>
+      <p class="text-base">Hear from the experts from companies like Astro, Contentful, Grammarly, Contenda, Elementor and more.</p>
     </article>
     <article>
       <div class="flex items-center mb-8">
