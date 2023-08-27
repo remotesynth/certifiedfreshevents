@@ -19,6 +19,19 @@ speakers:
   - nancy-du
   - lauren-schaefer
   - tbd-moar-serverless
+sessions:
+  - codeword2023-opening
+  - codeword2023-session1
+  - codeword2023-composability
+  - codeword2023-seo-juice
+  - codeword2023-break
+  - codeword2023-writing-documentation
+  - codeword2023-lightning2
+  - codeword2023-lightning3
+  - codeword2023-lightning4
+  - codeword2023-beyond-alt-descriptions
+  - codeword2023-markdown
+  - codeword2023-striking-the-right-balance
 styles: thejam.css
 event_type: conference
 ---
@@ -134,7 +147,9 @@ Registration is **completely free**, so join us live on Crowdcast on September 2
 
 ## Schedule {#schedule}
 
-We're working on putting together an amazing day of sessions. Check back for details soon!
+We're working on putting together an amazing day of sessions. More details arriving soon!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
