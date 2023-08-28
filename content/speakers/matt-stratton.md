@@ -1,5 +1,5 @@
 ---
-title: Matt Stratton
+title: Matty Stratton
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MattStratton.jpg
 job_title:  Director of Developer Relations at Aiven
