@@ -18,6 +18,7 @@ speakers:
   - harshil-agrawal
   - nancy-du
   - lauren-schaefer
+  - michael-trythall
   - tbd-moar-serverless
 sessions:
   - codeword2023-opening
