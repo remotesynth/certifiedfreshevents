@@ -19,7 +19,7 @@ speakers:
   - nancy-du
   - lauren-schaefer
   - michael-trythall
-  - tbd-moar-serverless
+  - paul-jankowski
 sessions:
   - codeword2023-opening
   - codeword2023-session1
