@@ -28,7 +28,7 @@ sessions:
   - codeword2023-break
   - codeword2023-writing-documentation
   - codeword2023-lightning2
-  - codeword2023-lightning3
+  - codeword2023-best-search-experience
   - codeword2023-lightning4
   - codeword2023-beyond-alt-descriptions
   - codeword2023-markdown
