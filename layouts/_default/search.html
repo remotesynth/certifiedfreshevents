@@ -7,26 +7,51 @@
 {{ partial "navigation.html" . }}
 
 <main>
-  <div class="mb-20 highlight-pattern-dotgrid">
-    <header class="container px-6 py-12 mx-auto">
-      <div class="flex flex-wrap mb-6">
-        <span
-          class="flex items-center justify-center flex-shrink-0 w-20 h-20 mr-4 rounded-full bg-salmon" aria-hidden="true">
-          <svg
-            class="inline-block w-12 h-12 fill-current"
-            aria-hidden="true">
-            <use xlink:href="/img/icons.svg#sm-search"></use>
-          </svg>
-        </span>
-        <h1 class="my-2 text-5xl font-bold">{{ .Title }}</h1>
+  <div class="mb-20 border-b-2">
+    <header class="container max-w-4xl px-6 py-10 mx-auto">
+      <div class="flex flex-wrap items-center justify-between gap-4 mb-6 text-center">
+        <h1 class="text-4xl font-bold text-center">{{ .Title }}</h1>
+        <p class="text-sm" id="searchDescription">{{.Content}}</p>
+
+        <p class="flex items-center align-middle">
+          <span class="search-by-label">Search by</span>
+          <a href="https://www.algolia.com/?utm_source=hn_search&amp;amp;utm_medium=link&amp;amp;utm_term=logo&amp;amp;utm_campaign=hn_algolia" title="Realtime Search Engine" target="_blank"><img src="/img/Algolia-logo.svg" alt="Algolia Logo" width="60"></a>
+        </p>
       </div>
-      <div class="max-w-3xl text-xl content" id="searchDescription">{{.Content}}</div>
+
+      <form action="" class="flex justify-center">
+        <label for="searchPageInput" class="sr-only">Enter search terms</label>
+        <input
+          name="search"
+          type="text"
+          id="searchPageInput"
+          placeholder="Enter search terms"
+          autocomplete="off"
+          class="flex-1 mr-1 field">
+        <button
+          type="submit"
+          class="button">
+          <span>Search</span>
+        </button>
+      </form>
+
+      <div class="items-center hidden gap-4 mt-4 lg:flex">
+        <h2 class="text-xs font-bold text-gray-500 uppercase">Explore</h2>
+
+        <ul class="flex flex-wrap flex-1 gap-4">
+          {{ range $term := .Page.Params.featuredTerms }}
+            <li>
+              <a href="/search/?search={{ $term }}"
+                title="Search for {{$term}}"
+                class="font-bold link text-jelly">{{$term}}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
     </header>
   </div>
-  <div class="container mx-auto search-by">
-    <span class="search-by-label">Search by</span>
-    <a href="https://www.algolia.com/?utm_source=hn_search&amp;amp;utm_medium=link&amp;amp;utm_term=logo&amp;amp;utm_campaign=hn_algolia" title="Realtime Search Engine" target="_blank"><img src="/img/Algolia-logo.svg" alt="Algolia Logo" width="60"></a>
-  </div>
+
   <div class="container mx-auto text-center">
 
     <div class="mx-auto my-8" id="loader">
@@ -37,9 +62,10 @@
 
       <h2 class="text-sm font-medium">Just a moment...</h2>
     </div>
-    <div class="grid grid-cols-1 gap-6 px-6 pb-8 md:grid-cols-2 lg:gap-8" id="searchResults">
-    </div>
 
+    <div id="searchResults" class="px-6 pb-8">
+
+    </div>
   </div>
 </main>
 

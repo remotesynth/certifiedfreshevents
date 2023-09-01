@@ -16,7 +16,7 @@
   </div>
 
   <div
-    class="flex flex-col w-full gap-6 lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
+    class="flex-col gap-6 lg:flex lg:flex-row lg:flex-grow lg:items-center lg:w-auto lg:not-sr-only site-nav-secondary"
     id="SiteNav">
     <ul
       class="flex flex-col items-center order-1 gap-6 lg:justify-start lg:flex-row lg:flex-grow"
@@ -208,7 +208,7 @@
     <form
       class="flex items-stretch justify-center order-3 w-full max-w-2xl px-4 mx-auto mb-6 lg:mb-0 lg:w-1/2 lg:sr-only lg:order-2"
       id="Search" action="/search" method="get">
-      <label class="sr-only" for="search">Enter search terms</label>
+      <label class="sr-only" for="searchInput">Enter search terms</label>
       <input
         name="search"
         type="text"
@@ -218,12 +218,7 @@
         class="flex-1 mr-1 field">
       <button
         type="submit"
-        class="button">
-        <svg class="inline-block w-8 h-8 fill-current" aria-hidden="true">
-          <use xlink:href="/img/icons.svg#sm-search"></use>
-        </svg>
-        <span class="sr-only">Search</span>
-      </button>
+        class="button">Search</button>
 
       <button
         type="button"
