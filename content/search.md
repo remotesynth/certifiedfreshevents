@@ -6,7 +6,7 @@ draft: false
 
 featuredTerms:
 - headless cms
-- edge computing
+- serverless
 - GraphQL
 - generative AI
 - open source
