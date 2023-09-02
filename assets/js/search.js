@@ -16,6 +16,9 @@ if (query) {
   const searchResults = document.getElementById("searchResults");
   const searchDescription = document.getElementById("searchDescription");
   const searchPageInput = document.getElementById("searchPageInput");
+
+  loader.hidden = false;
+
   axios
     .post("/.netlify/functions/algolia", {
       search: decodeURIComponent(query),

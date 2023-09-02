@@ -59,8 +59,8 @@
   z-index: 0;
 
   @apply block;
-  width: 102%;
-  height: 102%;
+  width: 110%;
+  height: 110%;
   content: "";
 }
 
@@ -76,7 +76,7 @@
 .highlight-text:after {
   top: -.05em;
   left: -.08em;
-  transform: rotate(1.5deg);
+  transform: rotate(.5deg);
 
   @apply bg-sunset;
   @apply opacity-75;
