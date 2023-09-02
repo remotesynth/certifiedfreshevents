@@ -77,9 +77,24 @@ if (carousel) {
 }
 
 /*
+  Handle Transcript
+*/
+
+const transcriptReveal = document.getElementById("TranscriptReveal");
+
+if (transcriptReveal) {
+  transcriptReveal.addEventListener("click", () => {
+    const transcript = document.getElementById("Transcript");
+    transcript.classList.add("transcript-expanded");
+    transcriptReveal.remove();
+  });
+}
+
+/*
   Setup Accordionss
 */
 
+/*
 const accordions = document.querySelectorAll('[data-accordion-trigger]');
 accordions.forEach((accordionEl) => {
   accordionEl.addEventListener('click', () => {
@@ -89,3 +104,4 @@ accordions.forEach((accordionEl) => {
     pane.toggleAttribute('hidden');
   });
 });
+*/
