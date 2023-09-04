@@ -27,6 +27,7 @@ body.nav-open .site-nav {
 }
 
 body.nav-open .site-nav-secondary {
+  @apply flex;
   @apply not-sr-only;
   @apply w-full;
   @apply pb-16;
