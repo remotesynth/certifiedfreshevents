@@ -1,10 +1,28 @@
+{{ if eq .Page.Section "talkshows"}}
+  {{ if and (isset .Page.Params "show") (eq .Page.Params.show "devrelish") }}
+  <aside class="sticky top-[114px] mt-12">
+  <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
+  <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
+    <li>
+      <a
+        href="https://dataprotocol.com/">
+        <img
+          src="/img/sponsors/DataProtocol.png"
+          loading="lazy"
+          alt="Data Protocol"
+          class="h-10" />
+      </a>
+    </li>
+  </ul>
+</aside>
+  {{ end }}
+{{ else }}
 <aside class="sticky top-[114px] mt-12">
   <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
   <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
     <li>
       <a
-        href="https://netlify.com/"
-        rel="noreferrer noopener">
+        href="https://netlify.com/">
         <img
           src="/img/sponsors/netlify.png"
           loading="lazy"
@@ -14,8 +32,7 @@
     </li>
     <li>
       <a
-        href="https://contentful.com/"
-        rel="noreferrer noopener">
+        href="https://contentful.com/">
         <img
           src="/img/sponsors/Contentful.png"
           loading="lazy"
@@ -25,3 +42,4 @@
     </li>
   </ul>
 </aside>
+{{ end }}
