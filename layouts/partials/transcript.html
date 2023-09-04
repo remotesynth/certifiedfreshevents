@@ -1,26 +1,20 @@
 <div class="mt-12">
-  <h2>
-    <button
-      type="button"
-      aria-expanded="false"
-      aria-controls="Transcript"
-      id="TranscriptToggle"
-      class="flex items-center justify-between w-full gap-2"
-      data-accordion-trigger>
-      <strong class="text-2xl text-blue">Transcript</strong>
-      <span class="inline-block bg-blue h-[1px] flex-1 opacity-20"></span>
-      <svg class="w-6 h-6 fill-current lg:inline-block" aria-hidden="true">
-        <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
-      </svg>
-    </button>
-  </h2>
+  <h2 class="text-2xl font-bold">Transcript</h2>
 
   <div
     id="Transcript"
     role="region"
-    aria-labelledby="TranscriptToggle"
-    class="mt-4 content"
-    hidden>
+    aria-labelledby="TranscriptReveal"
+    class="mt-4 content">
       {{.Content}}
+  </div>
+
+  <div class="my-8 text-center">
+    <button
+      type="button"
+      aria-expanded="false"
+      aria-controls="Transcript"
+      id="TranscriptReveal"
+      class="button">Show Transcript</button>
   </div>
 </div>

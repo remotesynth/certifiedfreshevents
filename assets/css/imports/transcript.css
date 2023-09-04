@@ -1,0 +1,29 @@
+#Transcript:not(.transcript-expanded) {
+  position: relative;
+  max-height: 12rem;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+#Transcript:not(.transcript-expanded)::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  height: 8rem;
+  width: 100%;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+
+  content: "";
+}
+
+#Transcript:not(.transcript-expanded) > p:first-child ~ * {
+  @apply sr-only;
+}
