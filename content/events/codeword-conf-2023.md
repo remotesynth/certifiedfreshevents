@@ -22,7 +22,7 @@ speakers:
   - paul-jankowski
 sessions:
   - codeword2023-opening
-  - codeword2023-session1
+  - codeword2023-modern-monolithic
   - codeword2023-composability
   - codeword2023-seo-juice
   - codeword2023-break
