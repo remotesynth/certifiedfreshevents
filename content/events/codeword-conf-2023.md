@@ -22,12 +22,12 @@ speakers:
   - paul-jankowski
 sessions:
   - codeword2023-opening
-  - codeword2023-session1
+  - codeword2023-modern-monolithic
   - codeword2023-composability
   - codeword2023-seo-juice
   - codeword2023-break
   - codeword2023-writing-documentation
-  - codeword2023-lightning2
+  - codeword2023-why-teams-abandon-cms
   - codeword2023-best-search-experience
   - codeword2023-lightning4
   - codeword2023-beyond-alt-descriptions
@@ -125,7 +125,7 @@ CodeWord Conf isn't possible without your support. Want to become a sponsor? [Em
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
-                <a href="https://rangle.io/"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
+                <a href="https://rangle.io/events/codeword2023?utm_campaign=%5Bevent%5D%202023%20-%20Codeword&utm_source=Codeword%20Logo&utm_content=Rangle%20logo%20on%20Codeword%20homepage"><img src="/img/sponsors/rangle.png" alt="Rangle.io"></a>
             </div>
         </article>
         <article class="flex flex-row items-center">
