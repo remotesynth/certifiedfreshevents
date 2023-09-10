@@ -8,4 +8,4 @@ event: codeword-conf-2023
 draft: false
 ---
 
-This talk will discuss ways modern tooling and approaches to web dev and content management can be used with a monolithic CMS like WordPress.
+Let’s explore the realm of dynamic web development and content management, and take a look at how modern tooling and innovative approaches can seamlessly integrate with a monolithic “legacy” CMS like WordPress. Looking beyond headless architectures, we’ll delve into various strategies, including API-driven workflows, unique ways of deploying and hosting WordPress sites, and some interesting new innovations in the space that enable both developers and content creators to meet their needs, and even excel.
