@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/c/no-passwords
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/L8in2HspWTk
+    length: "1:03:31"
 categories:
   - software
 tags:

@@ -29,7 +29,7 @@ sessions:
   - codeword2023-writing-documentation
   - codeword2023-why-teams-abandon-cms
   - codeword2023-best-search-experience
-  - codeword2023-lightning4
+  - codeword2023-authenticity
   - codeword2023-beyond-alt-descriptions
   - codeword2023-markdown
   - codeword2023-striking-the-right-balance
