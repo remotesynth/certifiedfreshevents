@@ -10,7 +10,7 @@ recordings:
     url: https://youtube.com/live/5Yz2UVS0cE8
     length: "00:00"
 show: 2full2stack
-short_desc: Nick Taylor will show all the aspects of form development and the form APIs that can make building forms less painful.
+short_desc: Nick Taylor will explore how to get started building, deploying and using serverless and edge functions.
 tags:
   - webdev
   - frontend
