@@ -4,6 +4,10 @@ date: 2023-09-21T11:00:00-04:00
 end_date: 2023-09-21T11:40:00-04:00
 speakers:
   - miriam-schwab
+recordings:
+  youtube:
+    url: https://youtu.be/qWuhu0wRyH0
+    length: "39:46"
 event: codeword-conf-2023
 draft: false
 ---
