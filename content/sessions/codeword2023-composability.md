@@ -4,6 +4,10 @@ date: 2023-09-21T11:50:00-04:00
 end_date: 2023-09-21T12:30:00-04:00
 speakers:
   - harshil-agrawal
+recordings:
+  youtube:
+    url: https://youtu.be/BPyI9WUcJaU
+    length: "35:55"
 event: codeword-conf-2023
 draft: false
 ---
