@@ -4,6 +4,10 @@ date: 2023-09-21T12:40:00-04:00
 end_date: 2023-09-21T13:20:00-04:00
 speakers:
   - nancy-du
+recordings:
+  youtube:
+    url: https://youtu.be/tML_JTWwieI
+    length: "38:20"
 event: codeword-conf-2023
 draft: false
 ---
