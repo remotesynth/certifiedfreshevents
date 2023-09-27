@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/sign-in-sessions
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/MYIIuF1ELxM
+    length: "41:22"
 categories:
   - software
 tags:
