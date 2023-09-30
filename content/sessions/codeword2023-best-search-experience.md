@@ -4,6 +4,10 @@ date: 2023-09-21T14:10:00-04:00
 end_date: 2023-09-21T14:20:00-04:00
 speakers:
   - paul-jankowski
+recordings:
+  youtube:
+    url: https://youtu.be/HN_R4TsjTA0
+    length: "09:42"
 event: codeword-conf-2023
 draft: false
 ---

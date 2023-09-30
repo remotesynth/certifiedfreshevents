@@ -4,6 +4,10 @@ date: 2023-09-21T13:50:00-04:00
 end_date: 2023-09-21T14:00:00-04:00
 speakers:
   - lauren-schaefer
+recordings:
+  youtube:
+    url: https://youtu.be/-doL7EnQxeo
+    length: "13:23"
 event: codeword-conf-2023
 draft: false
 ---
