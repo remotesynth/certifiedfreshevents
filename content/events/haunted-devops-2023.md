@@ -6,8 +6,8 @@ days: 1
 cost: 0
 ticket_url: https://crowdcast.io/c/haunted-devops
 homepage_banner: HauntedDevOps.png
-description: Join 4 fantastic speakers this Halloween as they reveal why DevOps isn't as scary as it may seem.
-short_desc: Join 4 fantastic speakers this Halloween as they reveal why DevOps isn't as scary as it may seem.
+description: Join 5 fantastic speakers this Halloween as they reveal why DevOps isn't as scary as it may seem.
+short_desc: Join 5 fantastic speakers this Halloween as they reveal why DevOps isn't as scary as it may seem.
 draft: false
 featured: false
 layout: thejam
