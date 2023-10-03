@@ -4,6 +4,10 @@ date: 2023-09-21T15:30:00-04:00
 end_date: 2023-09-21T16:10:00-04:00
 speakers:
   - ben-holmes
+recordings:
+  youtube:
+    url: https://youtu.be/d3ZPk1JHYRQ
+    length: "37:50"
 event: codeword-conf-2023
 draft: false
 ---

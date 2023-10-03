@@ -4,6 +4,10 @@ date: 2023-09-21T14:20:00-04:00
 end_date: 2023-09-21T14:30:00-04:00
 speakers:
   - cassidy-williams
+recordings:
+  youtube:
+    url: https://youtu.be/A2MBPpedI9I
+    length: "07:28"
 event: codeword-conf-2023
 draft: false
 ---

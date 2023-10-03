@@ -23,6 +23,7 @@ sessions:
   - haunted-devops-supply-chain-robots
   - haunted-devops-distributed-trace
   - haunted-devops-tbd
+  - haunted-devops-tbd-2
   - haunted-devops-closing
 styles: thejam.css
 ---
