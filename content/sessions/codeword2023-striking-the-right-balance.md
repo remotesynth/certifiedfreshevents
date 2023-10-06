@@ -4,6 +4,10 @@ date: 2023-09-21T16:20:00-04:00
 end_date: 2023-09-21T17:00:00-04:00
 speakers:
   - chris-coyier
+recordings:
+  youtube:
+    url: https://youtu.be/RSV_mtKbQAY
+    length: "42:08"
 event: codeword-conf-2023
 draft: false
 ---

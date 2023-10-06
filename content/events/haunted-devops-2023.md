@@ -16,13 +16,14 @@ speakers:
   - dave-mcallister
   - batel-zohar
   - brett-smith
+  - brian-benz
   - tbd-moar-serverless
 sessions:
   - haunted-devops-welcome
   - haunted-devops-ransomware-attacks
   - haunted-devops-supply-chain-robots
   - haunted-devops-distributed-trace
-  - haunted-devops-tbd
+  - haunted-devops-bewitching-deployments
   - haunted-devops-tbd-2
   - haunted-devops-closing
 styles: thejam.css

@@ -4,10 +4,6 @@ date: 2023-10-31T13:45:00-04:00
 end_date: 2023-10-31T14:25:00-04:00
 speakers:
   - dave-mcallister
-recordings:
-  crowdcast:
-    url: https://crowdcast.io/c/haunted-devops
-    start_time: "00:00"
 categories:
   - devops
 tags:
