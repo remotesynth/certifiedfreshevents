@@ -2,7 +2,7 @@
 title: Nick Taylor
 date: 2019-07-24T18:52:51-04:00
 speaker_image: NickTaylor.jpg
-job_title: Staff Software Engineer at Netlify
+job_title: Senior Software Engineer at OpenSauced
 twitter: nickytonline
 github: nickytonline
 mastodon: https://toot.cafe/@nickytonline
@@ -11,4 +11,4 @@ cfe: Host of 2 Full 2 Stack
 draft: false
 ---
 
-Nick Taylor, a.k.a. NickyT, is a Staff Software Engineer at Netlify on the ecosystem team, focusing on front-end technologies and tooling. He has a growing interest in serverless and edge computing.
+Nick Taylor is a Senior Software Engineer at OpenSauced. He is a big fan of Open Source and has a growing interest in serverless and edge computing.
