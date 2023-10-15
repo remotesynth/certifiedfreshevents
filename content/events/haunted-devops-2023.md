@@ -17,14 +17,14 @@ speakers:
   - batel-zohar
   - brett-smith
   - brian-benz
-  - tbd-moar-serverless
+  - ixchel-ruiz
 sessions:
   - haunted-devops-welcome
   - haunted-devops-ransomware-attacks
   - haunted-devops-supply-chain-robots
   - haunted-devops-distributed-trace
   - haunted-devops-bewitching-deployments
-  - haunted-devops-tbd-2
+  - haunted-devops-integration-tests
   - haunted-devops-closing
 styles: thejam.css
 ---
