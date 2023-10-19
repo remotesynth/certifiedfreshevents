@@ -1,7 +1,7 @@
 ---
 title: "Bewitching Deployments: Using AI to Deploy Java Apps to Kubernetes this Halloween"
-date: 2023-10-31T14:35:00-04:00
-end_date: 2023-10-31T15:15:00-04:00
+date: 2023-10-31T14:20:00-04:00
+end_date: 2023-10-31T15:00:00-04:00
 speakers:
   - brian-benz
 categories:

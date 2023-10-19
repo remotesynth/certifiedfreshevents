@@ -1,7 +1,7 @@
 ---
 title: The Phantom Pathways of a Distributed Trace
-date: 2023-10-31T13:45:00-04:00
-end_date: 2023-10-31T14:25:00-04:00
+date: 2023-10-31T13:35:00-04:00
+end_date: 2023-10-31T14:15:00-04:00
 speakers:
   - dave-mcallister
 categories:

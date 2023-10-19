@@ -1,7 +1,7 @@
 ---
 title: Supply Chain Robots, Electric Sheep, and SLSA
-date: 2023-10-31T12:55:00-04:00
-end_date: 2023-10-31T13:35:00-04:00
+date: 2023-10-31T15:05:00-04:00
+end_date: 2023-10-31T15:45:00-04:00
 speakers:
   - brett-smith
 categories:

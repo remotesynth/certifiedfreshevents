@@ -21,10 +21,10 @@ speakers:
 sessions:
   - haunted-devops-welcome
   - haunted-devops-ransomware-attacks
-  - haunted-devops-supply-chain-robots
+  - haunted-devops-integration-tests
   - haunted-devops-distributed-trace
   - haunted-devops-bewitching-deployments
-  - haunted-devops-integration-tests
+  - haunted-devops-supply-chain-robots
   - haunted-devops-closing
 styles: thejam.css
 ---
