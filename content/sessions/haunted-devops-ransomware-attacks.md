@@ -6,6 +6,10 @@ speakers:
   - batel-zohar
 categories:
   - devops
+recordings:
+  youtube:
+    url: https://youtu.be/RmnveuwryLk
+    length: "34:36"
 tags:
   - devops
   - ransomware attacks
