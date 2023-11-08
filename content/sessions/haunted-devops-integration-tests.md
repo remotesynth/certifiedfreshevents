@@ -6,6 +6,10 @@ speakers:
   - ixchel-ruiz
 categories:
   - devops
+recordings:
+  youtube:
+    url: https://youtu.be/OcGT2GoFncA
+    length: "38:02"
 tags:
   - devops
   - integration testing
