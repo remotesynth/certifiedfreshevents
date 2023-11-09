@@ -6,6 +6,10 @@ speakers:
   - dave-mcallister
 categories:
   - devops
+recordings:
+  youtube:
+    url: https://youtu.be/qGd4DkKVUL4
+    length: "38:44"
 tags:
   - devops
   - observability

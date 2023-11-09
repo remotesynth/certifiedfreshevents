@@ -6,6 +6,10 @@ speakers:
   - brian-benz
 categories:
   - devops
+recordings:
+  youtube:
+    url: https://youtu.be/-3nXEMC6zOE
+    length: "40:48"
 tags:
   - devops
   - java
