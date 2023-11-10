@@ -3,7 +3,7 @@
 <ul class="flex flex-wrap gap-3">
   {{ range $tag := .Page.Params.tags }}
     <li>
-      <a href="/tags/{{ $tag }}"
+      <a href="/tags/{{ replace $tag " " "-" }}"
         title="All pages with tag {{$tag}}"
         class="tag">{{$tag}}</a>
     </li>
