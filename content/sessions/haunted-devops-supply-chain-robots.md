@@ -6,6 +6,10 @@ speakers:
   - brett-smith
 categories:
   - devops
+recordings:
+  youtube:
+    url: https://youtu.be/zBwkm6VdvHM
+    length: "37:15"
 tags:
   - devops
   - security
