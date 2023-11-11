@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/has-web-development
       start_time: 01:15
-  vimeo:
-      url: https://vimeo.com/423732257
+  youtube:
+      url: https://youtu.be/ONqDwK5I_Wc
       length: "28:37"
 categories:
   - webdev

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/fundamental-javascript/3
       start_time: 00:02
-  vimeo:
-      url: https://vimeo.com/431836942
+  youtube:
+      url: https://youtu.be/dd5E8SarQdo
       length: "1:58:27"
 categories:
   - software

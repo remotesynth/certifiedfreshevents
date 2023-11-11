@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/mwtxogvi
     start_time: "04:05"
-  vimeo:
-    url: https://vimeo.com/434459163
+  youtube:
+    url: https://youtu.be/sT321yWxYyI
     length: "26:11"
 categories:
   - javascript

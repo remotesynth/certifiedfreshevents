@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/stateful-serverless
     start_time: "06:41"
-  vimeo:
-    url: https://vimeo.com/641156998
+  youtube:
+    url: https://youtu.be/qYtxfuh58vU
     length: "47:47"
 categories:
   - software

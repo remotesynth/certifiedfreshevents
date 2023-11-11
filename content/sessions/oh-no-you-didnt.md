@@ -9,8 +9,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
       start_time: 00:21
-  vimeo:
-      url: https://vimeo.com/416164555
+  youtube:
+      url: https://youtu.be/W-Sh_VhB0zQ
       length: "56:08"
 categories:
   - culture

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-power-of-yes-against
     start_time: "00:00"
-  vimeo:
-    url: https://vimeo.com/456363495
+  youtube:
+    url: https://youtu.be/pQBrQ7Ek9sI
     length: "31:01"
 categories:
   - culture

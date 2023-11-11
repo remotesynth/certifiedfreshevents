@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/a-guide-to-professional
       start_time: 03:47
-  vimeo:
-      url: https://vimeo.com/417769927
+  youtube:
+      url: https://youtu.be/GcR1Sek4Qko
       length: "40:00"
 categories:
   - culture

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/is-visual-development
       start_time: 01:32
-  vimeo:
-      url: https://vimeo.com/413193513
+  youtube:
+      url: https://youtu.be/xX6d7n6uU6A
       length: "30:11"
 categories:
   - webdev

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/jamstack-ftw
     start_time: "4:30"
-  vimeo:
-    url: https://vimeo.com/434931854
+  youtube:
+    url: https://youtu.be/DZaYj9jlQzc
     length: "34:57"
 categories:
   - webdev

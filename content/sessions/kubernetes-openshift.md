@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/getting-started-with-52
     start_time: "5:02"
-  vimeo:
-    url: https://vimeo.com/442885538
+  youtube:
+    url: https://youtu.be/C66AEX4lE5A
     length: "02:00:15"
 categories:
   - devops

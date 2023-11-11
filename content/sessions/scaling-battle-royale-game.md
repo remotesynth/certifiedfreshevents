@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/scaling-a-live-battle
     start_time: "04:07"
-  vimeo:
-    url: https://vimeo.com/447357320
+  youtube:
+    url: https://youtu.be/EpX2meNYaOo
     length: "28:12"
 categories:
   - stuff

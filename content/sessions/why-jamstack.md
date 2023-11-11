@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/modern-web-development
       start_time: 03:45
-  vimeo:
-      url: https://vimeo.com/416564149
+  youtube:
+      url: https://youtu.be/yWYPWNJlBgM
       length: "28:46"
 categories:
   - webdev

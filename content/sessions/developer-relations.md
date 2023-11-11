@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/developer-relations
       start_time: 03:07
-  vimeo:
-      url: https://vimeo.com/411803981
+  youtube:
+      url: https://youtu.be/t8oqF-4LqJI
       length: "32:11"
 categories:
   - culture

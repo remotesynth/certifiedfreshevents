@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/sextech-the-good-the-bad
       start_time: 03:25
-  vimeo:
-      url: https://vimeo.com/418485270
+  youtube:
+      url: https://youtu.be/hTcCxPW78_0
       length: "32:27"
 categories:
   - culture

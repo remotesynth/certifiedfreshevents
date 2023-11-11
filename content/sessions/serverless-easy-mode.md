@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/the-future-of-development
       start_time: 04:55
-  vimeo:
-      url: https://vimeo.com/419164597
+  youtube:
+      url: https://youtu.be/xlP3TNTo9d4
       length: "37:26"
 categories:
   - devops

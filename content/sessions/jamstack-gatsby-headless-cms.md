@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/jamstack-101-using
     start_time: "03:45"
-  vimeo:
-    url: https://vimeo.com/475576842
+  youtube:
+    url: https://youtu.be/KkzggkTyhTw
     length: "1:08:05"
 categories:
   - webdev

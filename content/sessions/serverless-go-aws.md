@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/going-great-with-go
       start_time: 42:30
-  vimeo:
-      url: https://vimeo.com/421308847
+  youtube:
+      url: https://youtu.be/u9_laCYdAr4
       length: "40:38"
 categories:
   - devops

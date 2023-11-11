@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/tools-for-the-modern-web
       start_time: "30:18"
-  vimeo:
-      url: https://vimeo.com/428627846
+  youtube:
+      url: https://youtu.be/Z55Pf5PgmHQ
       length: "25:25"
 categories:
   - webdev

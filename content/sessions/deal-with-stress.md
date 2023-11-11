@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/the-developers-pandemic
     start_time: "03:47"
-  vimeo:
-    url: https://vimeo.com/496095670
+  youtube:
+    url: https://youtu.be/S5AUtcJtA1Q
     length: "25:13"
 categories:
   - culture

@@ -7,8 +7,8 @@ recordings:
   crowdcast:
       url: https://www.crowdcast.io/e/the-future-of-web
       start_time: 03:31
-  vimeo:
-      url: https://vimeo.com/412788745
+  youtube:
+      url: https://youtu.be/7Y84f1-otzM
       length: "1:00:03"
 categories:
   - webdev

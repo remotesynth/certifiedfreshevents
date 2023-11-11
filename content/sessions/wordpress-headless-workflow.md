@@ -7,8 +7,8 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/e/an-ideal-wordpress
     start_time: "04:30"
-  vimeo:
-    url: https://vimeo.com/621602125
+  youtube:
+    url: https://youtu.be/olhxwQn0_mM
     length: "57:07"
 categories:
   - webdev
