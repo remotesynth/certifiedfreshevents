@@ -5,8 +5,11 @@ speakers:
   - lauren-schaefer
 recordings:
   crowdcast:
-      url: https://crowdcast.io/c/building-an-api
-      start_time: 00:00
+    url: https://crowdcast.io/c/building-an-api
+    start_time: 00:00
+  youtube:
+    url: https://youtu.be/6kpvLQmDZls
+    length: "57:30"
 categories:
   - webdev
 tags:
