@@ -17,9 +17,10 @@
         id="registerForm"
         method="post"
       >
-      <p class="mb-2 text-sm">
-        Receive updates about new events and recordings.
-      </p>
+        <input type="hidden" name="listName" value="cfe-newsletter" />
+        <p class="mb-2 text-sm">
+          Receive updates about new events and recordings.
+        </p>
         <div class="error-message" id="errorMessage"></div>
         <div class="mb-8">
           <label for="join-name" class="label">Your Name</label>
@@ -40,7 +41,6 @@
         <div class="flex justify-end mb-10">
           <button class="order-2 button">Sign Up</button>
         </div>
-
       </form>
       <section class="pt-10 md:w-1/2 md:mr-8 lg:mr-20 md:order-1">
         <h2 class="mb-6 text-2xl font-medium">Why sign up?</h2>
@@ -60,7 +60,8 @@
             <div class="ml-4">
               <span class="block mb-1 text-sm text-lg">Live events</span>
               <span class="block text-sm text-gray-600"
-                >Get updates about our upcoming live meetups so that you can join the conversation live.</span
+                >Get updates about our upcoming live meetups so that you can
+                join the conversation live.</span
               >
             </div>
           </li>
@@ -78,7 +79,8 @@
             <div class="ml-4">
               <span class="block mb-1 text-sm text-lg">Latest recordings</span>
               <span class="block text-sm text-gray-600"
-                >We're adding to our archive every week. Keep up with the latest videos we've posted.</span
+                >We're adding to our archive every week. Keep up with the latest
+                videos we've posted.</span
               >
             </div>
           </li>
@@ -94,11 +96,10 @@
               </svg>
             </div>
             <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg"
-                >Special events</span
-              >
+              <span class="block mb-1 text-sm text-lg">Special events</span>
               <span class="block text-sm text-gray-600"
-                >Be the first to know about special events like TheJam.dev and Moar Serverless.</span
+                >Be the first to know about special events like TheJam.dev and
+                Moar Serverless.</span
               >
             </div>
           </li>
@@ -121,27 +122,6 @@
                 >Stay fresh by learning new things from industry experts.</span
               >
             </div>
-          </li>
-          <!--<li class="flex mb-10 text-gray-800">
-            <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightBlue"
-            >
-              <svg
-                class="inline-block w-8 h-8 fill-current text-blue"
-                aria-hidden="true"
-              >
-                <use xlink:href="/img/icons.svg#sm-collection"></use>
-              </svg>
-            </div>
-            <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg"
-                >Access wide-ranging content</span
-              >
-              <span class="block text-sm text-gray-600"
-                >CSS to Kubernetes; CFE.dev covers the full-stack.</span
-              >
-            </div>
-          </li>-->
           </li>
         </ul>
       </section>

@@ -48,7 +48,7 @@
         <svg class="inline-block w-8 h-8 mr-1 fill-current text-sky" aria-hidden="true">
           <use xlink:href="/img/icons.svg#sm-calendar"></use>
         </svg>
-        <time class="font-semibold text-gray-800">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <time class="font-semibold text-gray-800" datetime="{{.Date}}">{{ .Date.Format "Monday Jan 2, 2006" }} at {{ .Date.Format "3:04 PM" }}</time>
       </li>
 
 

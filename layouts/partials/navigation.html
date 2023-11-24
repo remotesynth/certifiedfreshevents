@@ -39,7 +39,7 @@
             <li>
               <a href="{{ .RelPermalink }}" class="block px-6 leading-6 text-blue hover:text-java anim">
                 <span class="block text-lg font-medium">{{ .Title }}</span>
-                <time class="text-sm text-gray-700">
+                <time class="text-sm text-gray-700" datetime="{{.Date}}">
                   {{ dateFormat "Jan 2, 2006 3:04PM MST" .Date.Local }}
                 </time>
               </a>

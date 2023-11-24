@@ -1,4 +1,5 @@
 [build]
-  functions = "./lambda"
+  functions = "netlify/functions"
+  node_bundler = "esbuild"
 [dev]
   command = "hugo serve --buildFuture"

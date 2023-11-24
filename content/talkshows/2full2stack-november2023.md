@@ -1,7 +1,7 @@
 ---
 title: Even More Bleeding Edge Next.js
-date: 2023-11-30T13:00:00-04:00
-end_date: 2023-10-27T14:00:00-04:00
+date: 2023-11-30T13:00:00-05:00
+end_date: 2023-10-27T14:00:00-05:00
 homepage_banner: 2full2stack-113023.png
 host:
   - nick-taylor

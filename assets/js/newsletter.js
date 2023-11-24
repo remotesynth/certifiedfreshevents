@@ -6,6 +6,7 @@ if (registerForm) {
     let form = e.target;
     let name = form.elements["join-name"].value;
     let email = form.elements["join-email"].value;
+    let listName = form.elements["listName"].value;
     let firstName = "";
     let lastName = "";
     const errorMessage = document.getElementById("errorMessage");
@@ -22,10 +23,11 @@ if (registerForm) {
       }
     }
     axios
-      .post("/.netlify/functions/mailjet", {
+      .post("/api/mailjet", {
         email: email,
         firstName: firstName,
         lastName: lastName,
+        listName: listName,
       })
       .then(function (response) {
         if (response.data.errorMsg && errorMessage)
@@ -34,11 +36,12 @@ if (registerForm) {
           errorMessage.innerHTML = response.data.msg;
       })
       .catch(function (error) {
+        console.log(error);
         if (errorMessage) {
           errorMessage.innerHTML =
             "The request failed. Please try again in a moment.";
         } else {
-          console.log("Failed to login user: %o", error);
+          console.log("Failed to add user: %o", error);
           throw error;
         }
       });
@@ -47,7 +50,7 @@ if (registerForm) {
 
 function crowdcastSignup(email, eventcode) {
   axios
-    .post("/.netlify/functions/zapier", {
+    .post("/api/zapier", {
       email: email,
       eventcode: eventcode,
     })
@@ -75,8 +78,9 @@ if (subscribeForm)
     let form = e.target;
     let messageObj = document.getElementById("subscribe_message");
     axios
-      .post("/.netlify/functions/mailjet", {
+      .post("/api/mailjet", {
         email: form.email.value,
+        listName: form.listName.value,
       })
       .then(function (response) {
         if (response.data.errorMsg && messageObj) {

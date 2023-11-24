@@ -20,7 +20,7 @@ if (query) {
   loader.hidden = false;
 
   axios
-    .post("/.netlify/functions/algolia", {
+    .post("/api/algolia", {
       search: decodeURIComponent(query),
     })
     .then(function (response) {
