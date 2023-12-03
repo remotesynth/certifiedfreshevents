@@ -5,7 +5,7 @@ const mailjet = new Mailjet({
     apiSecret: process.env.MAILJET_SECRET_KEY,
 });
 
-export default async (req, context, callback) => {
+export default async (req, context) => {
     try {
         const body = await req.json();
         const { email, listName, firstName, lastName } = body;
