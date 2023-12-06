@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/web5-wednesdays
     start_time: 00:00
+  youtube:
+    url: https://youtu.be/CepFVmnjkrg
+    length: "51:10"
 categories:
   - stuff
 tags:
