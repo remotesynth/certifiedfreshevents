@@ -87,6 +87,11 @@
   @apply bg-blue;
 }
 
+.highlight-text-red:before,
+.highlight-text-red:after {
+  background-color: #c51a47;
+}
+
 .highlight-text-java:before {
   @apply bg-java;
 }
