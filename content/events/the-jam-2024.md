@@ -16,6 +16,7 @@ speakers:
   - zach-leatherman
   - erik-hanchett
   - salma-alam-naylor
+  - nevi-shah
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
