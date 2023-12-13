@@ -8,4 +8,4 @@ github: nevikashah
 draft: false
 ---
 
-Nevi Shah is a Product Manager at Cloudflare. She works on Cloudflare Pages and Cloudflare D1.
+Nevi is a user-obsessed product manager at Cloudflare focused heavily on researching, designing and building delightful developer experiences. Focusing primarily on Cloudflare Pages and Workers, Nevi aims to develop products that empower developers of all levels to build full stack applications using the tools, web frameworks and workflows they know and love. While striving to build a better Internet at Cloudflare, she’s also extremely passionate about teaching and mentoring more tech-savvy women+ folks in an effort to bring more representation to the industry.
