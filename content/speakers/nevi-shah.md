@@ -2,7 +2,7 @@
 title: Nevi Shah
 date: 2019-07-24T18:52:51-04:00
 speaker_image: NeviShah.jpg
-job_title: Product Manager, Emerging Tech & Incubation at Cloudflare
+job_title: Product Manager at Cloudflare
 twitter: nevikashah
 github: nevikashah
 draft: false
