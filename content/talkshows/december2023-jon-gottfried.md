@@ -1,7 +1,7 @@
 ---
 title: Developer Events with Jon Gottfried
-date: 2024-01-11T15:00:00-04:00
-end_date: 2024-01-11T16:00:00-04:00
+date: 2024-01-11T15:00:00-05:00
+end_date: 2024-01-11T16:00:00-05:00
 homepage_banner: DevRelish-Jon-Gottfried.png
 host: 
   - erin-mikail-staples
