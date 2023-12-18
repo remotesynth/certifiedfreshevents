@@ -13,12 +13,14 @@ featured: false
 layout: thejam
 speakers:
   - cassidy-williams
-  - zach-leatherman
+  - alex-russell
   - james-quick
-  - erik-hanchett
   - salma-alam-naylor
+  - zach-leatherman
+  - erik-hanchett
   - nevi-shah
   - jenny-truong
+  - raymond-camden
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
