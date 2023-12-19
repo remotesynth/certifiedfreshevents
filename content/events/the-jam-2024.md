@@ -22,6 +22,7 @@ speakers:
   - jenny-truong
   - raymond-camden
   - bekah-hawrot-weigel
+  - rizel-scarlett
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
