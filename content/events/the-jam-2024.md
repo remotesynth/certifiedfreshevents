@@ -21,6 +21,7 @@ speakers:
   - nevi-shah
   - jenny-truong
   - raymond-camden
+  - bekah-hawrot-weigel
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
