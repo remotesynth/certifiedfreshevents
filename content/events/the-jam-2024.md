@@ -23,6 +23,7 @@ speakers:
   - raymond-camden
   - bekah-hawrot-weigel
   - rizel-scarlett
+  - kevin-whinnery
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
