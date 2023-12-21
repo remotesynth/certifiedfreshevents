@@ -24,6 +24,7 @@ speakers:
   - bekah-hawrot-weigel
   - rizel-scarlett
   - kevin-whinnery
+  - joel-varty
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
@@ -115,6 +116,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
         <article class="flex flex-row items-center">
             <div>
                 <a href="https://cloudinary.com/"><img src="/img/sponsors/Cloudinary.png" alt="Cloudinary"></a>
+            </div>
+        </article>
+         <article class="flex flex-row items-center">
+            <div>
+                <a href="https://agilitycms.com/"><img src="/img/sponsors/agilitycms.png" alt="AgilityCMS"></a>
             </div>
         </article>
     </div>

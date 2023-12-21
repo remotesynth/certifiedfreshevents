@@ -2,7 +2,7 @@
 title: "Joel Varty"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: joelvarty.jpg
-job_title:  President at Agility CMS
+job_title:  CTO at Agility CMS
 twitter: joelvarty
 website: https://agilitycms.com
 draft: false
