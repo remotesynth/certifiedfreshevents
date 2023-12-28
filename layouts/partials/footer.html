@@ -45,7 +45,7 @@
 
         <li>
           <h2 class="mb-3 text-lg font-bold text-sky">Talk Shows</h2>
-          {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
+          {{ $talkshows := where .Site.RegularPages.ByWeight "Section" "talkshow"}}
           {{ if len $talkshows }}
           <ul class="space-y-3">
             {{ range $talkshows }}

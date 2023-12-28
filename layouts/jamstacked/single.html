@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body class="antialiased">
+{{ partial "navigation.html" . }}
+
+{{ block "main" . }}
+<header class="container max-w-3xl px-6 py-12 mx-auto">
+    {{ if ne .Params.issue nil}}<p><a href="/jamstacked/archive">< Back to archive</a></p>
+    <h1 class="my-2 text-3xl font-bold">Jamstacked Issue {{.Params.issue}}</h1>{{end}}
+    <h2 class="my-2 text-5xl font-bold">{{.Title}}</h2>
+    {{ if ne .Params.issue nil}}<h1 class="my-2 text-xl font-bold">Published: {{ .Date.Format "Jan 2, 2006" }}</h1>{{end}}
+</header>
+<div class="container max-w-3xl px-6 mx-auto">
+    <div class="content">
+    {{ .Content }}
+    </div>
+</div>
+{{ end }}
+
+{{ partial "footer.html" .}}
+{{ partial "scripts.html" .}}
+
+{{ block "scripts". }}{{ end }}
+</body>
+</html>

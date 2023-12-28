@@ -1,3 +1,5 @@
+{{ $pastissues := where (where .Site.RegularPages.ByDate.Reverse "Section" "jamstacked") ".Params.issue" "ne" nil }}
+
 <main class="mt-8 mb-20 lg:mt-12">
   <div class="max-w-5xl px-6 py-10 mx-auto">
     <header class="mb-10 text-center md:mb-12">
@@ -36,7 +38,7 @@
         <div class="mb-8 text-gray-600">
           <p>
             Check out
-            <a href="https://jamstack.email/issues/94" class="link"
+            <a href="/jamstacked/{{ range $pastissues.Limit 1 }}{{.Params.issue}}{{end}}" class="link"
               >our latest issue</a
             >
             for a sample.
@@ -45,8 +47,11 @@
         <div class="text-gray-600">
           <h2 class="mb-3 text-lg font-bold text-sky">View our archives</h2>
           <p>
-            <a href="https://jamstack.email/issues" class="link">94 issues</a> —
-            <a href="https://jamstack.email/rss/" class="link">RSS feed</a>
+            <a href="/jamstacked/archive" class="link"
+              >{{ $pastissues.Len }} issues</a
+            >
+            —
+            <a href="/jamstacked/rss.xml" class="link">RSS feed</a>
           </p>
         </div>
       </form>

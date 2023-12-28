@@ -4,6 +4,7 @@ date: 2023-02-11T13:00:00-04:00
 layout: show
 description: Join Sean C. Davis for **UptimeFM**, a live talk show where you'll meet prominent members of the developer community and learn more about them and what they're working on these days. Can't make it live? Watch the recordings below.
 show: uptimefm
+weight: 3
 draft: false
 ---
 

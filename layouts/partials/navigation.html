@@ -176,7 +176,7 @@
           </div>
         </div>
       </li>
-      {{ $talkshows := where .Site.RegularPages.Reverse "Section" "talkshow"}}
+      {{ $talkshows := where .Site.RegularPages.ByWeight "Section" "talkshow"}}
       {{ if len $talkshows }}
       <li class="relative has-menu">
         <a href="/talkshows/" class="flex items-center text-xl nav-link anim">
@@ -213,6 +213,37 @@
         </a>
       </li>
       {{ end }}
+      <li class="relative has-menu">
+        <a href="/newsletters" class="flex items-center text-xl nav-link anim">
+          Newsletters
+          <svg
+            class="hidden w-4 h-4 fill-current lg:inline-block"
+            aria-hidden="true"
+          >
+            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
+          </svg>
+        </a>
+
+        <!-- newsletters Sub-Nav -->
+        <ul class="pb-4 space-y-6 menu">
+          <li>
+            <a
+              href="/newsletters/cfe/"
+              class="block px-6 leading-6 text-blue hover:text-java anim"
+            >
+              <span class="block text-lg font-medium">Upcoming Events</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/newsletters/jamstacked/"
+              class="block px-6 leading-6 text-blue hover:text-java anim"
+            >
+              <span class="block text-lg font-medium">Jamstacked</span>
+            </a>
+          </li>
+        </ul>
+      </li>
     </ul>
     <ul
       class="flex flex-col flex-wrap items-center justify-center order-3 gap-6 lg:justify-end lg:flex-row lg:flex-grow lg:order-2"

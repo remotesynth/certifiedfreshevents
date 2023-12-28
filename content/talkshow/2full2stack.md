@@ -4,6 +4,7 @@ date: 2023-02-11T13:00:00-04:00
 layout: show
 description: Join Nick Taylor (aka NickyT) as he explores full stack web development fundamentals and frameworks in this live coding show.
 show: 2full2stack
+weight: 2
 draft: false
 ---
 
