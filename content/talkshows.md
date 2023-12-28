@@ -12,7 +12,7 @@ draft: false
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Upcoming Talk Shows</h1>
       <p class="max-w-3xl text-xl">
-        Join Sean C. Davis for <strong>UptimeFM</strong>, a live talk show where you'll meet prominent members of the developer community and learn more about them and what they're working on these days. Can't make it live? Watch the recordings below or <a href="https://uptimefm.buzzsprout.com/" style="text-decoration:underline">listen to the podcast</a>.
+        We host a number of talk shows and live coding shows. Our current lineup includes DevRel(ish), a show where we talk about developer relations and interview prominent folks in DevRel, and 2 Full 2 Stack, a live coding show the dives deep into how to build full stack web applications.
       </p>
     </header>
   </div>
