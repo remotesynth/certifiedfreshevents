@@ -103,7 +103,7 @@ We're just getting started announcing speakers, but already have an amazing line
 TheJam.dev isn't possible without your support. Want to become a sponsor? [Email us](mailto:brian@cfe.dev).
 
 <section>
-    <h3 id="lead-day-sponsors" class="mb-6">Lead Day Sponsors</h3>
+    <h3 id="lead-day-sponsors" class="mb-6 text-2xl font-bold">Lead Day Sponsors</h3>
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
@@ -111,8 +111,13 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
             </div>
         </article>
     </div>
-    <h3 id="lead-day-sponsors" class="mb-6">Sponsors</h3>
+    <h3 id="sponsors" class="mb-6 pt-6 text-2xl font-bold">Sponsors</h3>
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
+    <article class="flex flex-row items-center">
+            <div>
+                <a href="https://imgix.com/"><img src="/img/sponsors/imgix.png" alt="Imgix"></a>
+            </div>
+        </article>
         <article class="flex flex-row items-center">
             <div>
                 <a href="https://cloudinary.com/"><img src="/img/sponsors/Cloudinary.png" alt="Cloudinary"></a>
