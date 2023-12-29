@@ -1,7 +1,7 @@
 ---
 title: CodeWord Conf 2024
-date: 2024-09-26T11:00:00-05:00
-end_date: 2024-09-26T17:00:00-05:00
+date: 2024-09-26T11:00:00-04:00
+end_date: 2024-09-26T17:00:00-04:00
 days: 1
 cost: 0
 homepage_banner: CodeWord-2024.png
