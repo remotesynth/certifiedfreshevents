@@ -99,6 +99,11 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
         <article class="flex flex-row items-center">
             <div>
+                <a href="https://netlify.com/"><img src="/img/sponsors/netlify.png" alt="Netlify"></a>
+            </div>
+        </article>
+        <article class="flex flex-row items-center">
+            <div>
                 <a href="https://imgix.com/"><img src="/img/sponsors/imgix.png" alt="Imgix"></a>
             </div>
         </article>

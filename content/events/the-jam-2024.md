@@ -110,6 +110,11 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
                 <a href="https://cloudflare.com/"><img src="/img/sponsors/cloudflare.png" alt="Cloudflare"></a>
             </div>
         </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://netlify.com/"><img src="/img/sponsors/netlify.png" alt="Netlify"></a>
+            </div>
+        </article>
     </div>
     <h3 id="sponsors" class="mb-6 pt-6 text-2xl font-bold">Sponsors</h3>
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">

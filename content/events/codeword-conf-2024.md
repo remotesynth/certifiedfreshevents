@@ -104,6 +104,11 @@ CodeWord Conf isn't possible without your support. Want to become a sponsor? [Em
                 <a href="https://imgix.com/"><img src="/img/sponsors/imgix.png" alt="Imgix"></a>
             </div>
         </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://netlify.com/"><img src="/img/sponsors/netlify.png" alt="Netlify"></a>
+            </div>
+        </article>
     </div>
 </section>
 
