@@ -14,6 +14,7 @@ layout: thejam
 speakers:
   - cassidy-williams
   - alex-russell
+  - matt-biilmann
   - james-quick
   - salma-alam-naylor
   - zach-leatherman
@@ -25,6 +26,7 @@ speakers:
   - rizel-scarlett
   - kevin-whinnery
   - joel-varty
+  - alex-patterson
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
