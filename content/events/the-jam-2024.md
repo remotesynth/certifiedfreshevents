@@ -27,8 +27,29 @@ speakers:
   - kevin-whinnery
   - joel-varty
   - alex-patterson
+  - daniel-phiri
   - tbd-moar-serverless
 sessions:
+  - jamdev2024-day1-opening
+  - jamdev2024-day1-session1
+  - jamdev2024-day1-session2
+  - jamdev2024-type-safety
+  - jamdev2024-day1-session4
+  - jamdev2024-day1-session5
+  - jamdev2024-generative-ai-content
+  - jamdev2024-day1-session7
+  - jamdev2024-day1-session8
+  - jamdev2024-market-for-lemons
+  - jamdev2024-day2-opening
+  - jamdev2024-day2-session1
+  - jamdev2024-day2-session2
+  - jamdev2024-day2-session3
+  - jamdev2024-day2-session4
+  - jamdev2024-day2-session5
+  - jamdev2024-day2-session6
+  - jamdev2024-contributing-to-open-source
+  - jamdev2024-day2-session8
+  - jamdev2024-day2-session9
 styles: thejam.css
 event_type: conference
 ---
@@ -150,7 +171,9 @@ TheJam.dev 2024 is COMPLETELY FREE! Register today [via Crowdcast](https://www.c
 
 ## Schedule {#schedule}
 
-TheJam.dev will feature 2 full days of sessions in a single track format. Complete session and schedule details to be announced soon!
+TheJam.dev will feature 2 full days of sessions in a single track format. We're still finalizing our schedule, so check back soon for full details.
+
+{{< conf-schedule >}}
 
 
 ## Code of Conduct {#coc}

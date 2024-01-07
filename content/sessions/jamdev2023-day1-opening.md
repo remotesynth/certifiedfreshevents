@@ -8,4 +8,4 @@ event: the-jam-2023
 draft: false
 ---
 
-Welcome to TheJam.dev 2022.
+Welcome to TheJam.dev 2023.
