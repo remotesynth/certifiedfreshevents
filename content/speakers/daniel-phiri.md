@@ -9,4 +9,4 @@ website: https://malgamves.dev/
 draft: false
 ---
 
-Daniel Madalitso Phiri is a retired Podcaster, Lorde super fan, Software Developer, Technical Writer and currently a Developer Advocate at Weaviate.
+Daniel is a Senior Developer Advocate for Weaviate - an open-source vector database. He spends a lot of his time curating music and writing (about) software. He is passionate about creating value through software online and working with developers
