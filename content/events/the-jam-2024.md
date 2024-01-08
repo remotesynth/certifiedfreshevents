@@ -42,7 +42,7 @@ sessions:
   - jamdev2024-market-for-lemons
   - jamdev2024-day2-opening
   - jamdev2024-day2-session1
-  - jamdev2024-day2-session2
+  - jamdev2024-astro-developer-experience
   - jamdev2024-day2-session3
   - jamdev2024-day2-session4
   - jamdev2024-day2-session5
