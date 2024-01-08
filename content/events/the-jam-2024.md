@@ -37,7 +37,7 @@ sessions:
   - jamdev2024-day1-session4
   - jamdev2024-day1-session5
   - jamdev2024-generative-ai-content
-  - jamdev2024-day1-session7
+  - jamdev2024-future-of-identity
   - jamdev2024-day1-session8
   - jamdev2024-market-for-lemons
   - jamdev2024-day2-opening
