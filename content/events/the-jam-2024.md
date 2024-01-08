@@ -46,7 +46,7 @@ sessions:
   - jamdev2024-day2-session3
   - jamdev2024-day2-session4
   - jamdev2024-day2-session5
-  - jamdev2024-day2-session6
+  - jamdev2024-revalidation-nextjs
   - jamdev2024-contributing-to-open-source
   - jamdev2024-day2-session8
   - jamdev2024-day2-session9
@@ -172,6 +172,8 @@ TheJam.dev 2024 is COMPLETELY FREE! Register today [via Crowdcast](https://www.c
 ## Schedule {#schedule}
 
 TheJam.dev will feature 2 full days of sessions in a single track format. We're still finalizing our schedule, so check back soon for full details.
+
+**Note: Times shown are localized for your time zone. The event starts at 11:25am ET (UTC -5).**
 
 {{< conf-schedule >}}
 
