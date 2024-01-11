@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/c/github-copilot
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/i1ccKg4d4ro
+    length: "29:57"
 categories:
   - stuff
 tags:
