@@ -35,14 +35,14 @@ sessions:
   - jamdev2024-day1-session1
   - jamdev2024-entertainment-as-code
   - jamdev2024-type-safety
-  - jamdev2024-day1-session4
+  - jamdev2024-what-was-jamstack
   - jamdev2024-day1-session5
   - jamdev2024-generative-ai-content
   - jamdev2024-future-of-identity
-  - jamdev2024-day1-session8
+  - jamdev2024-rise-of-passkeys
   - jamdev2024-market-for-lemons
   - jamdev2024-day2-opening
-  - jamdev2024-day2-session1
+  - jamdev2024-moving-from-commonjs-to-esm
   - jamdev2024-astro-developer-experience
   - jamdev2024-day2-session3
   - jamdev2024-day2-session4
