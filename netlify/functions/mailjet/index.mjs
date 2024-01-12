@@ -6,6 +6,7 @@ const mailjet = new Mailjet({
 });
 
 export default async (req, context) => {
+  let response = {};
   try {
     const body = await req.json();
     const { email, listName, firstName, lastName } = body;
@@ -21,46 +22,52 @@ export default async (req, context) => {
         status: 500,
       });
     }
-
-    return mailjet
-      .post("contact")
-      .request({
-        Email: email,
-        IsExcludedFromCampaigns: false,
-        Name: firstName + " " + lastName,
-      })
-      .then(async (res) => {
-        addContactToList(res.body.Data[0].ID, listID)
-          .then((res) => {
-            const response = { msg: "Good news! You've been added." };
-            return new Response(JSON.stringify(response), {
-              status: 200,
-            });
-          })
-          .catch((err) => {
-            return new Response(err.toString(), { status: 500 });
-          });
-      })
-      .catch(async (err) => {
-        // try adding them to the list since maybe they are already a contact
-        let contactID = await getContactID(email);
-        addContactToList(contactID, listID)
-          .then((res) => {
-            const response = { msg: "Good news! You've been added." };
-            return new Response(JSON.stringify(response), {
-              status: 200,
-            });
-          })
-          .catch((err) => {
-            console.log(err);
-            return new Response(err.toString(), { status: 500 });
-          });
-      });
+    // check to see if the contact exists
+    let contactID = await getContactID(email);
+    if (contactID) {
+      let newListContact = await addContactToList(contactID, listID);
+      if (newListContact) {
+        response.msg = "Good news! You've been added.";
+      } else {
+        response.errorMsg = "Failed to add contact to list.";
+      }
+    } else {
+      contactID = await addContact(email, firstName, lastName, listID);
+      if (contactID) {
+        let newListContact = await addContactToList(res, listID);
+        if (newListContact) {
+          response.msg = "Good news! You've been added.";
+        } else {
+          response.errorMsg = "Failed to add contact to list.";
+        }
+      } else {
+        response.errorMsg = "Failed to add contact to list.";
+      }
+    }
   } catch (err) {
-    console.log(err);
-    return new Response(err.toString(), { status: 500 });
+    response.errorMsg = "Failed to add contact to list.";
   }
+  return new Response(JSON.stringify(response), {
+    headers: { "content-type": "application/json" },
+  });
 };
+
+async function addContact(email, firstName, lastName, listID) {
+  return mailjet
+    .post("contact")
+    .request({
+      Email: email,
+      IsExcludedFromCampaigns: false,
+      Name: firstName + " " + lastName,
+    })
+    .then((res) => {
+      return res.body.Data[0].ID;
+    })
+    .catch((err) => {
+      console.log(err);
+      return null;
+    });
+}
 
 async function addContactToList(contactid, listID) {
   return mailjet
@@ -74,6 +81,10 @@ async function addContactToList(contactid, listID) {
           Action: "addnoforce",
         },
       ],
+    })
+    .catch((err) => {
+      console.log(err);
+      return null;
     });
 }
 
