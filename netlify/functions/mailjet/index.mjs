@@ -30,6 +30,9 @@ export default async (req, context) => {
       if (newListContact) {
         response.msg = "Good news! You've been added.";
       } else {
+        console.log(
+          "AddExistingToList: Failed adding " + email + " to list " + listID
+        );
         response.errorMsg = "Failed to add contact to list.";
       }
     } else {
@@ -39,9 +42,13 @@ export default async (req, context) => {
         if (newListContact) {
           response.msg = "Good news! You've been added.";
         } else {
+          console.log(
+            "AddNewToList: Failed adding " + email + " to list " + listID
+          );
           response.errorMsg = "Failed to add contact to list.";
         }
       } else {
+        console.log("AddNewContact: Failed adding " + email);
         response.errorMsg = "Failed to add contact to list.";
       }
     }
@@ -50,7 +57,7 @@ export default async (req, context) => {
     response.errorMsg = "Failed to add contact to list.";
   }
   return new Response(JSON.stringify(response), {
-    headers: { "content-type": "application/json" },
+    headers: { status: 200, "content-type": "application/json" },
   });
 };
 
