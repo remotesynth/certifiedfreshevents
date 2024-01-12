@@ -18,7 +18,8 @@ export default async (req, context) => {
       listID = process.env.MAILJET_JAMSTACKED_LIST;
     }
     if (!email || !listID) {
-      return new Response("email and list query parameters are required", {
+      response.errorMsg = "email and list query parameters are required";
+      return new Response(JSON.stringify(response), {
         status: 500,
       });
     }
