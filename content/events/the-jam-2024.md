@@ -29,7 +29,7 @@ speakers:
   - joel-varty
   - alex-patterson
   - daniel-phiri
-  - tbd-moar-serverless
+  - simon-holthausen
 sessions:
   - jamdev2024-day1-opening
   - jamdev2024-day1-session1
@@ -46,7 +46,7 @@ sessions:
   - jamdev2024-astro-developer-experience
   - jamdev2024-day2-session3
   - jamdev2024-day2-session4
-  - jamdev2024-day2-session5
+  - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
   - jamdev2024-contributing-to-open-source
   - jamdev2024-day2-session8
