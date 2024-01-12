@@ -45,6 +45,7 @@ export default async (req, context) => {
       }
     }
   } catch (err) {
+    console.log(err);
     response.errorMsg = "Failed to add contact to list.";
   }
   return new Response(JSON.stringify(response), {
