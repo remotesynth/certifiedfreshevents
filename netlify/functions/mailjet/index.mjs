@@ -12,6 +12,7 @@ export default async (req, context) => {
     const { email, listName, firstName, lastName } = body;
 
     let listID;
+    console.log("listID: " + process.env.MAILJET_JAMSTACKED_LIST);
     if (listName === "cfe-newsletter") {
       listID = process.env.MAILJET_PRIMARY_LIST;
     } else if (listName === "jamstacked") {
