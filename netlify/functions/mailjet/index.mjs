@@ -7,7 +7,6 @@ const mailjet = new Mailjet({
 
 export default async (req, context) => {
   let response = {};
-  console.log("mailjet request: %o", req);
   try {
     const body = await req.json();
     const { email, listName, firstName, lastName } = body;
@@ -19,6 +18,8 @@ export default async (req, context) => {
       listID = process.env.MAILJET_JAMSTACKED_LIST;
     }
     if (!email || !listID) {
+      console.log("Missing email or listID");
+      console.log(body);
       response.errorMsg = "email and list query parameters are required";
       return new Response(JSON.stringify(response), {
         status: 500,
