@@ -7,6 +7,7 @@ const mailjet = new Mailjet({
 
 export default async (req, context) => {
   let response = {};
+  console.log("mailjet request: %o", req);
   try {
     const body = await req.json();
     const { email, listName, firstName, lastName } = body;
