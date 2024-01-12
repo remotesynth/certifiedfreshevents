@@ -4,7 +4,9 @@ if (registerForm) {
     e.preventDefault();
 
     let form = e.target;
-    let name = form.elements["join-name"].value;
+    const nameEl = form.elements["join-name"];
+    let name = "";
+    if (nameEl) name = nameEl.value;
     let email = form.elements["join-email"].value;
     let listName = form.elements["listName"].value;
     let firstName = "";
@@ -34,6 +36,7 @@ if (registerForm) {
           errorMessage.innerHTML = response.data.errorMsg;
         else if (response.data.msg && errorMessage)
           errorMessage.innerHTML = response.data.msg;
+        console.log(response);
       })
       .catch(function (error) {
         console.log(error);
