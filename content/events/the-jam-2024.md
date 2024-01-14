@@ -43,14 +43,14 @@ sessions:
   - jamdev2024-market-for-lemons
   - jamdev2024-day2-opening
   - jamdev2024-moving-from-commonjs-to-esm
-  - jamdev2024-astro-developer-experience
+  - jamdev2024-day2-session9
   - jamdev2024-day2-session3
   - jamdev2024-day2-session4
   - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
   - jamdev2024-contributing-to-open-source
   - jamdev2024-day2-session8
-  - jamdev2024-day2-session9
+  - jamdev2024-astro-developer-experience
 styles: thejam.css
 event_type: conference
 ---
