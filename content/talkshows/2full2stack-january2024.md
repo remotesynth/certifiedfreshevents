@@ -1,7 +1,7 @@
 ---
 title: Blasting Off with Astro
-date: 2024-01-31T13:00:00-05:00
-end_date: 2024-01-31T14:00:00-05:00
+date: 2024-01-31T14:00:00-05:00
+end_date: 2024-01-31T15:00:00-05:00
 homepage_banner: 2full2stack-013124.png
 host:
   - nick-taylor
