@@ -49,7 +49,7 @@ sessions:
   - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
   - jamdev2024-contributing-to-open-source
-  - jamdev2024-day2-session8
+  - jamdev2024-intro-to-decorators
   - jamdev2024-astro-developer-experience
 styles: thejam.css
 event_type: conference
