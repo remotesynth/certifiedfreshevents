@@ -44,7 +44,7 @@ sessions:
   - jamdev2024-day2-opening
   - jamdev2024-moving-from-commonjs-to-esm
   - jamdev2024-day2-session9
-  - jamdev2024-day2-session3
+  - jamdev2024-sharing-is-pearing
   - jamdev2024-day2-session4
   - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
