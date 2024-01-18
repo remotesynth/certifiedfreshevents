@@ -40,11 +40,11 @@ sessions:
   - jamdev2024-generative-ai-content
   - jamdev2024-future-of-identity
   - jamdev2024-rise-of-passkeys
-  - jamdev2024-market-for-lemons
+  - jamdev2024-sharing-is-pearing
   - jamdev2024-day2-opening
   - jamdev2024-moving-from-commonjs-to-esm
   - jamdev2024-day2-session9
-  - jamdev2024-sharing-is-pearing
+  - jamdev2024-market-for-lemons
   - jamdev2024-jamstack-unfair-advantage
   - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
