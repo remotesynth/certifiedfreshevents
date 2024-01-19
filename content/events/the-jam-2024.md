@@ -43,7 +43,7 @@ sessions:
   - jamdev2024-sharing-is-pearing
   - jamdev2024-day2-opening
   - jamdev2024-moving-from-commonjs-to-esm
-  - jamdev2024-day2-session9
+  - jamdev2024-whats-new-svelte-5
   - jamdev2024-market-for-lemons
   - jamdev2024-jamstack-unfair-advantage
   - jamdev2024-ai-search
