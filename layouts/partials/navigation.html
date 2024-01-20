@@ -41,9 +41,8 @@
 
         <!-- Meetups Sub-Nav -->
         <ul class="pb-4 space-y-6 menu">
-          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in"
-          (slice "events" "talkshows")) ".Date" "ge" now }} {{ range $upcoming
-          }}
+          {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
+          {{ range $upcoming }}
           <li>
             <a
               href="{{ .RelPermalink }}"
@@ -64,20 +63,6 @@
               <span class="block text-lg font-medium">Browse Past Events</span>
             </a>
           </li>
-
-          {{/*
-          <li>
-            <a
-              href="/events/"
-              class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim"
-            >
-              Discover Meetups
-              <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
-                <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
-              </svg>
-            </a>
-          </li>
-          */}}
         </ul>
       </li>
       <li class="relative has-menu">
@@ -94,8 +79,8 @@
         <!-- Sessions Nav -->
         <div class="menu w-[60ch] max-w-[800px]">
           <ul class="grid grid-cols-2 gap-6 p-6 pt-0">
-            {{ range $key, $value := .Site.Taxonomies.categories}} {{ with
-            site.GetPage (print "/categories/" $key) }}
+            {{ range $key, $value := .Site.Taxonomies.categories}}
+              {{ with site.GetPage (print "/categories/" $key) }}
             <li>
               <a
                 href="{{.RelPermalink}}"
@@ -114,19 +99,8 @@
                 </div>
               </a>
             </li>
-            {{ end }} {{ end }} {{/*
-            <li>
-              <a
-                href="/sessions/"
-                class="flex items-center justify-center px-3 py-4 font-bold text-gray-700 rounded item-center has-nav-link-icon hover:bg-sand anim"
-              >
-                Discover Sessions
-                <svg aria-hidden="true" class="w-4 h-4 ml-1 fill-current">
-                  <use xlink:href="/img/icons.svg#sm-arrow-right"></use>
-                </svg>
-              </a>
-            </li>
-            */}}
+              {{ end }}
+            {{ end }}
           </ul>
           <div class="p-6 bg-gray-100">
             <span class="block mb-2 text-xs font-bold text-gray-500 uppercase"
@@ -176,7 +150,8 @@
           </div>
         </div>
       </li>
-      {{ $talkshows := where .Site.RegularPages.ByWeight "Section" "talkshow"}}
+      {{ $talkshows := where (where .Site.RegularPages.ByWeight "Section" "talkshow") ".Params.Active" "ne" false}}
+      {{ $pasttalkshows := where (where .Site.RegularPages.ByWeight "Section" "talkshow") ".Params.Active" "eq" false}}
       {{ if len $talkshows }}
       <li class="relative has-menu">
         <a href="/talkshows/" class="flex items-center text-xl nav-link anim">
@@ -189,13 +164,29 @@
           </svg>
         </a>
 
-        <!-- Meetups Sub-Nav -->
+        <!-- Talk Shows Sub-Nav -->
         <ul class="pb-4 space-y-6 menu">
+          <li>
+            <span class="block px-6 leading-6 text-blue">Current Shows</span>
+          </li>
           {{ range $talkshows }}
           <li>
             <a
               href="{{ .RelPermalink }}"
-              class="block px-6 leading-6 text-blue hover:text-java anim"
+              class="block px-6 leading-6 text-slate hover:text-java anim"
+            >
+              <span class="block text-lg font-medium">{{ .Title }}</span>
+            </a>
+          </li>
+          {{ end }}
+          <li>
+            <span class="block px-6 leading-6 text-blue">Past Shows</span>
+          </li>
+          {{ range $pasttalkshows }}
+          <li>
+            <a
+              href="{{ .RelPermalink }}"
+              class="block px-6 leading-6 text-slate hover:text-java anim"
             >
               <span class="block text-lg font-medium">{{ .Title }}</span>
             </a>

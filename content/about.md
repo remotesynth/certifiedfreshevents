@@ -10,7 +10,7 @@ draft: false
 <main class="mb-20">
   <header class="container max-w-3xl px-6 py-12 mx-auto">
     <h1 class="my-2 text-5xl font-bold">Who We Are</h1>
-    <p class="text-xl">CFE.dev has been running <em>free</em> virtual meetups, conferences, workshops and talk shows by developers for developers since 2017. We enjoy learning and our goal is to create opportunities to learn for the developer community.</p>
+    <p class="text-xl">We're a group of developers who are passionate about learning and exploring anything related to code and careers in tech. We've provided <em>free</em> virtual developer education via meetups, conferences, workshops and talk shows hosted by developers for developers since 2017.</p>
   </header>
 
   <div class="container max-w-3xl px-6 mx-auto">

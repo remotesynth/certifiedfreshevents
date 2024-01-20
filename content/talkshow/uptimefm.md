@@ -5,6 +5,7 @@ layout: show
 description: Join Sean C. Davis for **UptimeFM**, a live talk show where you'll meet prominent members of the developer community and learn more about them and what they're working on these days. Can't make it live? Watch the recordings below.
 show: uptimefm
 weight: 4
+active: false
 draft: false
 ---
 
