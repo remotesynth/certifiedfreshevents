@@ -4,7 +4,7 @@ date: 2023-02-11T13:00:00-04:00
 layout: show
 description: Code Sandwich Hour talks to developers about their career, experience and favorite sandwich with host Sean C Davis. It ran for one season but you can watch past episodes here. Check out Sean's new show [UptimeFM](/uptimefm/)
 show: code-sandwich-hour
-weight: 4
+weight: 5
 draft: false
 ---
 
