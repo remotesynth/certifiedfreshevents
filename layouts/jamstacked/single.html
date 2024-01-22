@@ -13,7 +13,7 @@
     <h2 class="my-2 text-5xl font-bold">{{.Title}}</h2>
     {{ if ne .Params.issue nil}}<h1 class="my-2 text-xl font-bold">Published: {{ .Date.Format "Jan 2, 2006" }}</h1>{{end}}
 </header>
-<div class="container max-w-3xl px-6 mx-auto">
+<div class="container max-w-3xl px-6 mx-auto mb-5">
     <div class="content">
     {{ .Content }}
     </div>
