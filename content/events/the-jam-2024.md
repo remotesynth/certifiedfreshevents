@@ -32,7 +32,7 @@ speakers:
   - simon-holthausen
 sessions:
   - jamdev2024-day1-opening
-  - jamdev2024-day1-session1
+  - jamdev2024-jamstack-2024
   - jamdev2024-entertainment-as-code
   - jamdev2024-type-safety
   - jamdev2024-what-was-jamstack
