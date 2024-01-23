@@ -36,7 +36,7 @@ sessions:
   - jamdev2024-entertainment-as-code
   - jamdev2024-type-safety
   - jamdev2024-what-was-jamstack
-  - jamdev2024-day1-session5
+  - jamdev2024-intro-to-decorators
   - jamdev2024-generative-ai-content
   - jamdev2024-future-of-identity
   - jamdev2024-rise-of-passkeys
@@ -49,7 +49,7 @@ sessions:
   - jamdev2024-ai-search
   - jamdev2024-revalidation-nextjs
   - jamdev2024-contributing-to-open-source
-  - jamdev2024-intro-to-decorators
+  - jamdev2024-diagrams-you-need
   - jamdev2024-astro-developer-experience
 styles: thejam.css
 event_type: conference

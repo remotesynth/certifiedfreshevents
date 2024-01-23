@@ -1,7 +1,7 @@
 ---
 title: Introduction to Decorators
-date: 2024-01-25T16:05:00-05:00
-end_date: 2024-01-25T16:15:00-05:00
+date: 2024-01-24T15:35:00-05:00
+end_date: 2024-01-24T15:45:00-05:00
 speakers:
   - kevin-whinnery
 event: the-jam-2024
