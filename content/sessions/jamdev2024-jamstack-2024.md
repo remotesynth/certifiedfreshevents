@@ -12,6 +12,10 @@ tags:
   - jamstack
   - javascript
   - netlify
+recordings:
+  youtube:
+    url: https://youtu.be/j3uvh9994tc
+    length: "49:50"
 draft: false
 ---
 
