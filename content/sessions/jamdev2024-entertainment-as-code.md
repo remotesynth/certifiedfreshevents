@@ -11,6 +11,10 @@ tags:
   - live streaming
   - twitch
   - community
+recordings:
+  youtube:
+    url: https://youtu.be/8iSEC6V5mMo
+    length: "43:35"
 draft: false
 ---
 
