@@ -12,6 +12,11 @@ tags:
   - jamstack
   - aws
   - aws amplify
+  - typescript
+recordings:
+  youtube:
+    url: https://youtu.be/ywrBHLn82lQ
+    length: "41:59"
 draft: false
 ---
 
