@@ -10,6 +10,10 @@ categories:
 tags:
   - webdev
   - jamstack
+recordings:
+  youtube:
+    url: https://youtu.be/VfJ5vEiBi5Q
+    length: "44:12"
 draft: false
 ---
 
