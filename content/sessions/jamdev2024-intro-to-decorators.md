@@ -10,6 +10,10 @@ categories:
 tags:
   - javascript
   - typescript
+recordings:
+  youtube:
+    url: https://youtu.be/-Un4J5i-WsA
+    length: "13:07"
 draft: false
 ---
 
