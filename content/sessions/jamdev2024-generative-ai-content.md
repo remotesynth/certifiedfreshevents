@@ -12,6 +12,11 @@ tags:
   - jamstack
   - ai
   - genai
+  - generative ai
+recordings:
+  youtube:
+    url: https://youtu.be/7_TfWfcjlpg
+    length: "8:34"
 draft: false
 ---
 

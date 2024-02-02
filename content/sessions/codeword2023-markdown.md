@@ -9,6 +9,8 @@ recordings:
     url: https://youtu.be/d3ZPk1JHYRQ
     length: "37:50"
 event: codeword-conf-2023
+tags:
+  - astro
 draft: false
 ---
 

@@ -16,6 +16,7 @@ tags:
   - webdev
   - jamstack
   - javascript frameworks
+  - astro
 draft: false
 featured: true
 ---

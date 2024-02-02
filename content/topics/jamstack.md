@@ -2,7 +2,7 @@
 title: Jamstack
 date: 2023-07-09T11:00:00-04:00
 featured_sessions:
-  - jamdev2022-what-is-jamstack
+  - jamdev2024-jamstack-2024
   - jamstack-identity-crisis
   - jamdev2023-decoupled-frontends
   - jamdev2023-rethinking-isomorphic
@@ -15,6 +15,7 @@ tags:
 
 speakers:
   - cassidy-williams
+  - matt-biilmann
   - fred-k-schott
   - natalia-venditto
   - ryan-carniato
