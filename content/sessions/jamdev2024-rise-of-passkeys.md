@@ -12,6 +12,10 @@ tags:
   - jamstack
   - auth
   - authentication
+recordings:
+  youtube:
+    url: https://youtu.be/4BbBDCfDKRI
+    length: "8:12"
 draft: false
 ---
 

@@ -12,6 +12,10 @@ tags:
   - jamstack
   - astro
   - netlify
+recordings:
+  youtube:
+    url: https://youtu.be/ZlFvSrBHRRY
+    length: "37:00"
 draft: false
 ---
 

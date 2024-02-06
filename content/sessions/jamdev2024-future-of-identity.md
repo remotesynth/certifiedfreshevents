@@ -13,6 +13,10 @@ tags:
   - web5
   - data sovereignty
   - auth
+recordings:
+  youtube:
+    url: https://youtu.be/QZhVFPDZJgc
+    length: "9:09"
 draft: false
 ---
 
