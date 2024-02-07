@@ -14,6 +14,10 @@ tags:
   - eleventy
   - commonjs
   - esmodules
+recordings:
+  youtube:
+    url: https://youtu.be/LsN6TBx9Hxo
+    length: "45:25"
 draft: false
 ---
 
