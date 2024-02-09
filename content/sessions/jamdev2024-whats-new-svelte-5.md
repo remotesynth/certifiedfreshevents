@@ -6,7 +6,7 @@ speakers:
   - simon-holthausen
 event: the-jam-2024
 categories:
-  - webdev
+  - javascript
 tags:
   - webdev
   - jamstack
