@@ -7,7 +7,7 @@ host:
   - raymond-camden
 recordings:
   youtube:
-    url: https://youtube.com/live/CPnqPGW1xTQ?feature=share
+    url: https://youtube.com/live/CPnqPGW1xTQ
     length: "00:00"
 show: CodeBreak
 short_desc: Raymond Camden shares the essential tools and tech stack powering his development. Join us to explore the key elements that drive his coding workflow.
