@@ -35,6 +35,7 @@ faqs:
       Astro relies upon an islands archticture for interactivity. In order to reduce the amount of JavaScript sent to the client, Astro only includes JavaScript for specified components within a page rather than rendering the entire page with JavaScript. This means that some page components may render statically or on the server with no interactivity while others include JavaScript to make them interactive.
 
       For example, when including a React component on a page, the developer would tell Astro how to load the JavaScript using a directive. Astro supports a number of directives depending on the nature of the JavaScript included . For instance, you might load JavaScript as soon as the component is loaded or you might load JavaScript when the component becomes visible in the viewport.
+draft: true
 ---
 
 Astro is a full-stack JavaScript framework that first debuted in 2021 and is currently at a 4.x release. Astro described itself as a content-focused web framework that aims to reduce the amount of JavaScript that developers push down to the client, thereby improving the overall performance of the web application.
