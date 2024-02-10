@@ -1,3 +1,10 @@
+<!-- Cloudflare Web Analytics -->
+<script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token": "0587cb6bfbdc4012a26d3c718e2a2160"}'
+></script>
+<!-- End Cloudflare Web Analytics -->
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 {{ $built := resources.Get "js/newsletter.js" | js.Build "js/newsletter.js" }}

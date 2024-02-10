@@ -83,15 +83,6 @@
 	<meta property="og:image" content="{{ .Site.BaseURL }}img/banners/{{ $event.Params.Homepage_banner }}" />
 {{ end }}
 
-  	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYSRFH6ELL"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'G-KYSRFH6ELL');
-	</script>
 	{{- if ne .Params.sessions nil -}}
   {{- range $session := .Params.sessions -}}
 			{{- with site.GetPage (print "/sessions/" $session) -}}
