@@ -13,4 +13,8 @@ tags:
 draft: false
 ---
 
-TBA
+Diagrams can play an important role in planning and development of code. In this talk, Jenny explores three types of diagrams relevent for developers:
+
+* Entity relationship diagrams
+* State machine diagrams
+* Sequence diagrams

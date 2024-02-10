@@ -13,6 +13,10 @@ tags:
   - search
   - ai
   - artificial intelligence
+recordings:
+  youtube:
+    url: https://youtu.be/BA1FpaLphP0
+    length: "10:53"
 draft: false
 ---
 
