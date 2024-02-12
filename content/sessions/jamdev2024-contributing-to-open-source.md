@@ -9,6 +9,10 @@ categories:
   - stuff
 tags:
   - open-source
+recordings:
+  youtube:
+    url: https://youtu.be/80CbXOfwIXY
+    length: "10:27"
 draft: false
 ---
 

@@ -12,6 +12,10 @@ tags:
   - jamstack
   - headless cms
   - next.js
+recordings:
+  youtube:
+    url: https://youtu.be/8QT_QMuCcYI
+    length: "10:41"
 draft: false
 ---
 
