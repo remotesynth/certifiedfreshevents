@@ -9,7 +9,11 @@ categories:
   - webdev
 tags:
   - webdev
-  - jamstack
+  - state machines
+recordings:
+  youtube:
+    url: https://youtu.be/2_fFi_Jhges
+    length: "5:55"
 draft: false
 ---
 
