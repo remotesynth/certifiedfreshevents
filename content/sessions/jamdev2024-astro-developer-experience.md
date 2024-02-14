@@ -12,6 +12,10 @@ tags:
   - jamstack
   - astro
   - javascript frameworks
+recordings:
+  youtube:
+    url: https://youtu.be/pRQscH1Y_Yg
+    length: "48:35"
 draft: false
 ---
 
