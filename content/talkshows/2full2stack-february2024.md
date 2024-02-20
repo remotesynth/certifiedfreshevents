@@ -1,7 +1,7 @@
 ---
 title: Even More Astro
-date: 2024-02-29T14:00:00-05:00
-end_date: 2024-02-29T15:00:00-05:00
+date: 2024-02-29T13:00:00-05:00
+end_date: 2024-02-29T14:00:00-05:00
 homepage_banner: 2Full2Stack-022924.png
 host:
   - nick-taylor
