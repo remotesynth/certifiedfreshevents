@@ -37,7 +37,7 @@ The tools and technologies under the serveless umbrella keep evolving and expand
       <p><img src="/img/thejam/iconmonstr-rocket-14-1.svg" alt="Ideas and Inspiration" width="36" height="36"></p>
       <h4 style="margin-left:.7em">Exciting Programming</h4>
       </div>
-      <p class="text-base">Hear from the serverless experts from Amazon, Microsoft, Cloudinary and others. Take part in live Q&As and Slack groups.</p>
+      <p class="text-base">Hear from the serverless experts from Cloudflare, imgix, Netlify, and others. Take part in live Q&As and Slack groups.</p>
     </article>
     <article>
       <div class="flex items-center mb-8">
