@@ -1,7 +1,7 @@
 ---
 title: Step Into SaaS
-date: 2024-03-26T13:00:00-05:00
-end_date: 2024-03-26T14:00:00-05:00
+date: 2024-03-26T13:00:00-04:00
+end_date: 2024-03-26T14:00:00-04:00
 cost: 0
 homepage_banner: Step-Into-SaaS.jpg
 short_desc: 4 AWS experts will cover everything you need to know about using step functions on AWS to handle a variety of use cases within a SaaS application.

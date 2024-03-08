@@ -1,7 +1,7 @@
 ---
 title: Going Angular with Analog
-date: 2024-03-28T13:00:00-05:00
-end_date: 2024-03-28T14:00:00-05:00
+date: 2024-03-28T13:00:00-04:00
+end_date: 2024-03-28T14:00:00-04:00
 homepage_banner: 2full2stack-032824.png
 host:
   - nick-taylor

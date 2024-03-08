@@ -1,7 +1,7 @@
 ---
 title: Broadening Access to Opportunities with Jay Miller
-date: 2024-03-27T16:30:00-05:00
-end_date: 2024-03-27T17:30:00-05:00
+date: 2024-03-27T16:30:00-04:00
+end_date: 2024-03-27T17:30:00-04:00
 homepage_banner: DevRelish-Jay-Miller.png
 host: 
   - erin-mikail-staples
