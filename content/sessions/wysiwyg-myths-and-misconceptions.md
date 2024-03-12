@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/wysiwyg-myths
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/8SOcaCsxZa4
+    length: "46:41"
 categories:
   - stuff
 tags:
