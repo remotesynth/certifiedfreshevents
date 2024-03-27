@@ -1,6 +1,6 @@
 ---
 title: SaaS Orchestration with AWS Step Functions
-date: 2022-12-08T13:00:00-05:00
+date: 2024-03-26T13:00:00-04:00
 speakers:
   - bill-tarr
   - jason-wadsworth
@@ -10,6 +10,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/step-into-saas
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/lyc61RqKFvE
+    length: "1:04:20"
 categories:
   - software
 tags:
