@@ -12,6 +12,11 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - joyce-lin
+  - phil-hawksworth
+  - nancy-chauhan
+  - suzana-melo-moraes
+  - eric-sanchez
 sessions:
 styles: thejam.css
 event_type: conference
@@ -80,7 +85,9 @@ The tools and technologies under the serveless umbrella keep evolving and expand
 
 ## Speakers {#speakers}
 
-We're working on our lineup. Check back soon for updates.
+We've got many more speakers to announce. Stay tuned!
+
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
