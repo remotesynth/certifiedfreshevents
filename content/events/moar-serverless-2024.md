@@ -13,6 +13,7 @@ featured: false
 layout: thejam
 speakers:
   - joyce-lin
+  - ryan-block
   - phil-hawksworth
   - nancy-chauhan
   - suzana-melo-moraes
