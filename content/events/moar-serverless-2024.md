@@ -15,6 +15,8 @@ speakers:
   - joyce-lin
   - ryan-block
   - phil-hawksworth
+  - eric-johnson
+  - natalie-rogers
   - nancy-chauhan
   - suzana-melo-moraes
   - eric-sanchez
