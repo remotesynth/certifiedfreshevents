@@ -12,11 +12,11 @@ draft: false
 featured: false
 layout: thejam
 speakers:
-  - joyce-lin
   - ryan-block
   - phil-hawksworth
   - eric-johnson
   - natalie-rogers
+  - matt-vella
   - nancy-chauhan
   - suzana-melo-moraes
   - eric-sanchez
