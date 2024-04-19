@@ -15,6 +15,7 @@ speakers:
   - ryan-block
   - phil-hawksworth
   - eric-johnson
+  - jen-person
   - natalie-rogers
   - matt-vella
   - nancy-chauhan
