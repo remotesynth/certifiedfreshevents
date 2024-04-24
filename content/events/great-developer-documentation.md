@@ -13,4 +13,4 @@ draft: false
 featured: true
 ---
 
-Documentation plays a critical role in the evaluation, onboarding and adoption of your tool, but tt feel like developer documentation is difficult to get right. In this session, Johannes Dienst will share his experiences revamping his product's developer documentation and share some tips and advice for what worked to enhance the quality of the documentation and examples.
+Documentation plays a critical role in the evaluation, onboarding and adoption of your tool, but it feel like developer documentation is difficult to get right. In this session, Johannes Dienst will share his experiences revamping his product's developer documentation and share some tips and advice for what worked to enhance the quality of the documentation and examples.
