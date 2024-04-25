@@ -8,6 +8,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/composable-commerce
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/EYKdN_OL3cg
+    length: "56:03"
 categories:
   - webdev
 tags:
