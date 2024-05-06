@@ -22,6 +22,17 @@ speakers:
   - suzana-melo-moraes
   - eric-sanchez
 sessions:
+  - moar2024-opening
+  - moar2024-session-1
+  - moar2024-ai-have-it-your-way
+  - moar2024-serverless-pitfalls
+  - moar2024-cloudflare-workers
+  - moar2024-session-5
+  - moar2024-session-6
+  - moar2024-social-image-previews
+  - moar2024-session-8
+  - moar2024-serverless-genai-chatbot
+  - moar2024-closing
 styles: thejam.css
 event_type: conference
 ---
@@ -134,6 +145,8 @@ Register for free today!
 ## Schedule {#schedule}
 
 Moar Serverless will feature a full day of sessions running from 11am ET (GMT -4) until 5pm ET. We're still finalizing our schedule with more session details coming soon!
+
+{{< conf-schedule >}}
 
 
 ## Code of Conduct {#coc}
