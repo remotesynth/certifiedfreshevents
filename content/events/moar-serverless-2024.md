@@ -30,7 +30,7 @@ sessions:
   - moar2024-session-5
   - moar2024-session-6
   - moar2024-social-image-previews
-  - moar2024-session-8
+  - moar2024-new-aws-sdk
   - moar2024-serverless-genai-chatbot
   - moar2024-closing
 styles: thejam.css
