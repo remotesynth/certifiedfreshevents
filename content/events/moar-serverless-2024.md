@@ -23,7 +23,7 @@ speakers:
   - eric-sanchez
 sessions:
   - moar2024-opening
-  - moar2024-session-1
+  - moar2024-rendering-views-web
   - moar2024-ai-have-it-your-way
   - moar2024-serverless-pitfalls
   - moar2024-cloudflare-workers
