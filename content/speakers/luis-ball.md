@@ -2,11 +2,11 @@
 title: Luis Ball
 date: 2019-07-24T18:52:51-04:00
 speaker_image: LuisBall.jpg
-job_title: SDK Engineer at imgix
+job_title: Senior Software Engineer at imgix
 twitter: luqven
 github: luqven
 website: https://luisball.com/
 draft: false
 ---
 
-Luis works on delivering the best images and video experience for developers and end-users on the web. He's passionate about open source and baseball.
+Luis is a Senior Software Engineer at imgix. Born and raised in Caracas, Venezuela, he studied Technical Writing at Carnegie Mellon University, Pittsburgh. He loves Padres baseball and going to the Zoo with his kids. 

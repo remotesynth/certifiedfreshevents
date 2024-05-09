@@ -20,7 +20,7 @@ speakers:
   - matt-vella
   - nancy-chauhan
   - suzana-melo-moraes
-  - eric-sanchez
+  - luis-ball
 sessions:
   - moar2024-opening
   - moar2024-rendering-views-web
