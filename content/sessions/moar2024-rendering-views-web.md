@@ -1,5 +1,5 @@
 ---
-title: "Getting to the Glass — pproaches to rendering views on the web"
+title: "Getting to the Glass — Approaches to rendering views on the web"
 date: 2024-05-23T11:05:00-04:00
 end_date: 2024-05-23T11:45:00-04:00
 speakers:
