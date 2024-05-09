@@ -1,7 +1,7 @@
 ---
 title: Mobile Apps with React Native and Ignite
-date: 2024-05-31T13:00:00-04:00
-end_date: 2024-05-31T14:00:00-04:00
+date: 2024-05-30T13:00:00-04:00
+end_date: 2024-05-30T14:00:00-04:00
 homepage_banner: 2full2stack-053124.png
 host:
   - nick-taylor
