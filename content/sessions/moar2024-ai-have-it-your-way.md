@@ -1,7 +1,7 @@
 ---
 title: AI - Have it your way
 date: 2024-05-23T11:55:00-04:00
-end_date: 2024-05-23T12:25:00-04:00
+end_date: 2024-05-23T12:35:00-04:00
 speakers:
   - matt-vella
 event: moar-serverless-2024

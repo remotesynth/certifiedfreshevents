@@ -1,7 +1,7 @@
 ---
 title: "Moar Cloudflare Workers: Building a serverless platform on a serverless platform"
 date: 2024-05-23T13:35:00-04:00
-end_date: 2024-05-23T14:05:00-04:00
+end_date: 2024-05-23T14:15:00-04:00
 speakers:
   - natalie-rogers
 event: moar-serverless-2024

@@ -3,7 +3,7 @@ title: "Keep It OG: Social Image Previews (but like, easily)"
 date: 2024-05-23T15:05:00-04:00
 end_date: 2024-05-23T15:15:00-04:00
 speakers:
-  - eric-sanchez
+  - luis-ball
 event: moar-serverless-2024
 draft: false
 ---
