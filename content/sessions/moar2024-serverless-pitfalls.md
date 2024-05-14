@@ -1,6 +1,6 @@
 ---
 title: "Faster web development: Tackling serverless pitfalls"
-date: 2024-05-23T12:35:00-04:00
+date: 2024-05-23T12:45:00-04:00
 end_date: 2024-05-23T13:25:00-04:00
 speakers:
   - jen-person
