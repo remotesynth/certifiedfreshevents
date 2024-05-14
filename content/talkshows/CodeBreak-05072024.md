@@ -2,7 +2,7 @@
 title: PWA++ (Building a Progressive Web App)
 date: 2024-05-07T13:00:00-04:00
 end_date: 2024-05-07T14:00:00-04:00
-homepage_banner: CodeBreak-04162024.png
+homepage_banner: CodeBreak-050724.png
 host:
   - raymond-camden
 recordings:
