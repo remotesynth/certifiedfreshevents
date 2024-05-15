@@ -28,7 +28,7 @@ sessions:
   - moar2024-serverless-pitfalls
   - moar2024-cloudflare-workers
   - moar2024-policy-stream
-  - moar2024-session-6
+  - moar2024-serverless-content-moderation
   - moar2024-social-image-previews
   - moar2024-new-aws-sdk
   - moar2024-serverless-genai-chatbot
