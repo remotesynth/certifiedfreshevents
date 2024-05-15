@@ -129,6 +129,11 @@ Moar Serverless!! isn't possible without your support. Want to become a sponsor?
                 <a href="https://imgix.com/"><img src="/img/sponsors/imgix.png" alt="Imgix"></a>
             </div>
         </article>
+        <article class="flex flex-row items-center">
+            <div>
+                <a href="https://squid.cloud/"><img src="/img/sponsors/SquidCloud.png" alt="Squid Cloud"></a>
+            </div>
+        </article>
     </div>
     <h3 id="sponsors-1" class="mb-6 text-2xl font-bold">Media Partners</h3>
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
