@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://www.crowdcast.io/c/developer-documentation
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/zfoMrhvPYi4
+    length: "48:34"
 categories:
   - stuff
 tags:
