@@ -2,7 +2,7 @@
 title: Abbey Perini
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AbbeyPerini.jpg
-job_title: Full Stack Developer at Deque Systems
+job_title: Web Developer at Nexcor Food Safety Technologies
 twitter: AbbeyPerini
 website: https://abbeyperini.dev/
 draft: false
