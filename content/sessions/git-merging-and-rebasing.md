@@ -2,7 +2,7 @@
 title: "#gitPanic - Merging and Rebasing"
 date: 2024-06-11T13:00:00-04:00
 speakers:
-    - abbey-perrini
+    - abbey-perini
 recordings:
   crowdcast:
     url: https://crowdcast.io/c/git-merging-rebasing

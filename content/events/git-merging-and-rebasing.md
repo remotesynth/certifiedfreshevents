@@ -13,4 +13,4 @@ draft: false
 featured: true
 ---
 
-Branching is one of the things that makes git so powerful, allowing everyone to work on their project without the fear of a colleague accidentally overwriting your work. But merging your work can still sometimes be complicated, for example when resolving conflicts or bringing in changes from another branch. In this session, Abbey Perrini will cover techniques and strategies that will make you an expert at resolving conflicts, squashing, merging and rebasing your repo using git.
+Branching is one of the things that makes git so powerful, allowing everyone to work on their project without the fear of a colleague accidentally overwriting your work. But merging your work can still sometimes be complicated, for example when resolving conflicts or bringing in changes from another branch. In this session, Abbey Perini will cover techniques and strategies that will make you an expert at resolving conflicts, squashing, merging and rebasing your repo using git.
