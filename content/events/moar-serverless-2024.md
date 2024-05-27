@@ -16,11 +16,11 @@ speakers:
   - phil-hawksworth
   - eric-johnson
   - jen-person
-  - natalie-rogers
   - matt-vella
   - nancy-chauhan
   - suzana-melo-moraes
   - luis-ball
+  - tanushree-sharma
 sessions:
   - moar2024-opening
   - moar2024-rendering-views-web
