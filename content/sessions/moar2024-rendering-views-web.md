@@ -4,6 +4,10 @@ date: 2024-05-23T11:05:00-04:00
 end_date: 2024-05-23T11:45:00-04:00
 speakers:
   - phil-hawksworth
+recordings:
+  youtube:
+    url: https://youtu.be/8-RN096e2KU
+    length: "38:46"
 event: moar-serverless-2024
 draft: false
 ---
