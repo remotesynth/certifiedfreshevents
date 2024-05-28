@@ -1,7 +1,7 @@
 ---
 title: PixelPalooza 2024
-date: 2024-11-14T11:00:00-04:00
-end_date: 2024-11-14T17:00:00-04:00
+date: 2024-11-21T11:00:00-04:00
+end_date: 2024-11-21T17:00:00-04:00
 days: 1
 cost: 0
 ticket_url: https://www.crowdcast.io/c/pixelpalooza/
