@@ -4,7 +4,17 @@ date: 2024-05-23T11:55:00-04:00
 end_date: 2024-05-23T12:35:00-04:00
 speakers:
   - matt-vella
+recordings:
+  youtube:
+    url: https://youtu.be/MSYN7o24nhY
+    length: "36:28"
 event: moar-serverless-2024
+categories:
+  - software
+tags:
+  - ai
+  - artificial intelligence
+  - iot
 draft: false
 ---
 

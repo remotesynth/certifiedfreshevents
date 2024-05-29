@@ -9,6 +9,13 @@ recordings:
     url: https://youtu.be/8-RN096e2KU
     length: "38:46"
 event: moar-serverless-2024
+categories:
+  - webdev
+tags:
+  - serverless
+  - netlify
+  - nextjs
+  - eleventy
 draft: false
 ---
 
