@@ -7,6 +7,9 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/code-reviews
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/gW_6rOwD0Uk
+    length: "1:20:56"
 categories:
   - culture
 tags:
