@@ -5,6 +5,15 @@ end_date: 2024-05-23T13:25:00-04:00
 speakers:
   - jen-person
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/1hop6r_1Wtc
+    length: "39:46"
+categories:
+  - webdev
+tags:
+  - serverless
+  - webdev
 draft: false
 ---
 

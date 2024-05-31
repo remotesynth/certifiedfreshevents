@@ -5,6 +5,15 @@ end_date: 2024-05-23T14:15:00-04:00
 speakers:
   - tanushree-sharma
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/nVsUELGNQoI
+    length: "41:15"
+categories:
+  - software
+tags:
+  - serverless
+  - cloudflare
 draft: false
 ---
 
