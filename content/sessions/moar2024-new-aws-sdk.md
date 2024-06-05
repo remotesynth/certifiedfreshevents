@@ -5,6 +5,15 @@ end_date: 2024-05-23T16:05:00-04:00
 speakers:
   - ryan-block
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/gZBlJ45Lo_Q
+    length: "39:30"
+categories:
+  - software
+tags:
+  - aws
+  - serverless
 draft: false
 ---
 

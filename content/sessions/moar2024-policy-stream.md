@@ -5,6 +5,15 @@ end_date: 2024-05-23T14:55:00-04:00
 speakers:
   - nancy-chauhan
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/P9EaHSxIXe8
+    length: "10:05"
+categories:
+  - software
+tags:
+  - aws
+  - serverless
 draft: false
 ---
 

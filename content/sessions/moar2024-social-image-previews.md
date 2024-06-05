@@ -5,6 +5,16 @@ end_date: 2024-05-23T15:15:00-04:00
 speakers:
   - luis-ball
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/5RLU9mJvtxw
+    length: "12:19"
+categories:
+  - stuff
+tags:
+  - imgix
+  - images
+  - serverless
 draft: false
 ---
 

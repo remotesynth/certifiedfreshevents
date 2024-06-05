@@ -5,6 +5,17 @@ end_date: 2024-05-23T15:05:00-04:00
 speakers:
   - suzana-melo-moraes
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/9Lnolryce3E
+    length: "09:37"
+categories:
+  - software
+tags:
+  - aws
+  - serverless
+  - AWS Lambda
+  - Amazon Rekognition
 draft: false
 ---
 

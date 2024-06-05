@@ -5,6 +5,21 @@ end_date: 2024-05-23T16:55:00-04:00
 speakers:
   - eric-johnson
 event: moar-serverless-2024
+recordings:
+  youtube:
+    url: https://youtu.be/GXBRXEdHP9o
+    length: "41:15"
+categories:
+  - software
+tags:
+  - aws
+  - serverless
+  - chatbot
+  - ai
+  - artificial intelligence
+  - Retriever-Augmented Generation
+  - aws step functions
+  - amazon kendra
 draft: false
 ---
 
