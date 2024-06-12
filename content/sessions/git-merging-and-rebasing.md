@@ -6,7 +6,10 @@ speakers:
 recordings:
   crowdcast:
     url: https://crowdcast.io/c/git-merging-rebasing
-    start_time: 00:00"
+    start_time: "00:00"
+  youtube:
+    url: https://youtu.be/aFeVS_WUi64
+    length: "52:38"
 categories:
   - devops
 tags:
