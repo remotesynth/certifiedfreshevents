@@ -9,6 +9,7 @@ https://pixelpalooza.dev/ https://cfe.dev/events/pixelpalooza-2024/ 301!
 /signup/* / 301!
 /subscribe /newsletters/cfe 301!
 /join /newsletters/cfe 301!
+/jamstacked /newsletters/jamstacked 301!
 /recover / 301!
 /sessions/index.xml /rss.xml 301!
 /speakers/bekah-hawrot-wiegel /speakers/bekah-hawrot-weigel 301
