@@ -2,7 +2,7 @@
 title: Developer-first Startups with Dana Oshiro
 date: 2024-07-25T15:00:00-04:00
 end_date: 2024-07-25T16:00:00-04:00
-homepage_banner: DevRelish-Raymond-Camden.png
+homepage_banner: DevRelish-Dana-Oshiro.png
 host: 
   - erin-mikail-staples
   - brian-rinaldi
