@@ -1,6 +1,6 @@
 ---
-title: Function Calling in Large Language Models  
-date: 2024-07-09T13:00:00-04:00
+title: Function Calling in Large Language Models
+date: 2024-07-11T13:00:00-04:00
 speakers:
   - xe-iaso
 recordings:

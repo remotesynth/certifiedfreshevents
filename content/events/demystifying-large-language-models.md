@@ -1,7 +1,7 @@
 ---
 title: Demystifying Large Language Models (LLM)
-date: 2024-07-09T13:00:00-04:00
-end_date: 2024-07-09T14:00:00-04:00
+date: 2024-07-11T13:00:00-04:00
+end_date: 2024-07-11T14:00:00-04:00
 cost: 0
 homepage_banner: LLM-Horiz-100.jpg
 short_desc: Xe Iaso will cut through the hype to tell you what you need to know about Large Language Models, what they are good for and how to best utilize them.
