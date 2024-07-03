@@ -1,5 +1,5 @@
-{{ if eq .Page.Section "talkshows"}} {{ if and (isset .Page.Params "show") (eq
-.Page.Params.show "devrelish") }}
+{{ if eq .Page.Section "talkshows"}}
+  {{ if and (isset .Page.Params "show") (eq .Page.Params.show "devrelish") }}
 <aside class="sticky top-[114px] mt-12">
   <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
   <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
@@ -17,7 +17,26 @@
     </li>
   </ul>
 </aside>
-{{ end }} {{ else }}
+{{ else if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
+<aside class="sticky top-[114px] mt-12">
+  <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
+  <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
+    <li>
+      <a
+        href="https://jam.dev"
+      >
+        <img
+          src="/img/sponsors/jam-logo.png"
+          loading="lazy"
+          alt="Jam.dev"
+          class="h-16"
+        />
+      </a>
+    </li>
+  </ul>
+</aside>
+{{ end }}
+{{ else }}
 <aside class="sticky top-[114px] mt-12">
   <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
   <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
