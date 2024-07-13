@@ -5,8 +5,11 @@ speakers:
   - xe-iaso
 recordings:
   crowdcast:
-      url: https://crowdcast.io/c/large-language-models
-      start_time: "00:00"
+    url: https://crowdcast.io/c/large-language-models
+    start_time: "00:00"
+  youtube:
+    url: https://youtu.be/QszY-H_ZqBI
+    length: "36:19"
 categories:
   - software
 tags:
