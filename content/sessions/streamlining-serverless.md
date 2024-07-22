@@ -1,6 +1,6 @@
 ---
 title: "Streamlining Serverless: Making Development Easier with Framework24"
-date: 2024-07-23T13:00:00-04:00
+date: 2024-07-30T13:00:00-04:00
 speakers:
   - sumit-verma
 recordings:
