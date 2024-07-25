@@ -18,7 +18,7 @@ tags:
   - devrel
   - career
   - devtools
-draft: false
+draft: true
 event_type: talk show
 ---
 
