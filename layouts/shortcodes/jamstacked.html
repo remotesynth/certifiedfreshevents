@@ -20,28 +20,17 @@
     <div
       class="flex flex-col items-center justify-center md:items-start md:flex-row"
     >
-      <form
+      <div
         class="flex-shrink-0 w-full max-w-md px-8 py-12 mb-12 border border-gray-300 rounded shadow-xl flex-grow-1 md:w-auto md:mb-0 md:order-2"
         id="registerForm"
-        method="post"
       >
-        <input type="hidden" name="listName" value="jamstacked" />
-        <div class="error-message" id="errorMessage"></div>
-        <div class="mb-8">
-          <label for="join-email" class="label">Email Address</label>
-          <input type="email" id="join-email" class="w-full field" required />
-        </div>
-
-        <div class="flex justify-end mb-10">
-          <button class="order-2 button">Sign Up</button>
-        </div>
-        <div class="mb-8 text-gray-600">
+      <p>Jamstacked is no longer accepting subscriptions. We'll continue to host the <a href="/jamstacked/archive">archive</a> for reference.</p>
+        <div class="mb-8 mt-8 text-gray-600">
           <p>
             Check out
             <a href="/jamstacked/{{ range $pastissues.Limit 1 }}{{.Params.issue}}{{end}}" class="link"
-              >our latest issue</a
-            >
-            for a sample.
+              >the final issue</a
+            > here.
           </p>
         </div>
         <div class="text-gray-600">
@@ -54,87 +43,12 @@
             <a href="/jamstacked/rss.xml" class="link">RSS feed</a>
           </p>
         </div>
-      </form>
+      </div>
       <section class="pt-10 md:w-1/2 md:mr-8 lg:mr-20 md:order-1">
-        <h2 class="mb-6 text-2xl font-medium">Why sign up?</h2>
+        <h2 class="mb-6 text-2xl font-medium">What is Jamstacked?</h2>
 
-        <ul>
-          <li class="flex mb-10 text-gray-800">
-            <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightRed"
-            >
-              <svg class="inline-block w-8 h-8 fill-current" aria-hidden="true">
-                <use xlink:href="/img/icons.svg#md-trending-up"></use>
-              </svg>
-            </div>
-            <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Latest Releases</span>
-              <span class="block text-sm text-gray-600"
-                >Keep up with the latest releases of tools, frameworks and
-                services..</span
-              >
-            </div>
-          </li>
-          <li class="flex mb-10 text-gray-800">
-            <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightRed"
-            >
-              <svg
-                class="inline-block w-8 h-8 fill-current text-blue"
-                aria-hidden="true"
-              >
-                <use xlink:href="/img/icons.svg#sm-newspaper"></use>
-              </svg>
-            </div>
-            <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Important News</span>
-              <span class="block text-sm text-gray-600"
-                >Know what's happening in the world of web development, cloud
-                infrastructure and serverless.</span
-              >
-            </div>
-          </li>
-          <li class="flex mb-10 text-gray-800">
-            <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightRed"
-            >
-              <svg
-                class="inline-block w-8 h-8 fill-current text-blue"
-                aria-hidden="true"
-              >
-                <use xlink:href="/img/icons.svg#sm-sparkles"></use>
-              </svg>
-            </div>
-            <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg"
-                >Videos and Resources</span
-              >
-              <span class="block text-sm text-gray-600"
-                >Get curated links to the latest videos and repos that can make
-                you a better developer.</span
-              >
-            </div>
-          </li>
-          <li class="flex mb-10 text-gray-800">
-            <div
-              class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full bg-lightRed"
-            >
-              <svg
-                class="inline-block w-8 h-8 fill-current text-blue"
-                aria-hidden="true"
-              >
-                <use xlink:href="/img/icons.svg#sm-ticket"></use>
-              </svg>
-            </div>
-            <div class="ml-4">
-              <span class="block mb-1 text-sm text-lg">Upcoming Events</span>
-              <span class="block text-sm text-gray-600"
-                >Be the first to know about upcoming events and conferences
-                around web development, serverless and more.</span
-              >
-            </div>
-          </li>
-        </ul>
+        <p class="block mb-1 text-sm text-lg">Jamstacked was published from March 2020 until July 2024. It focused on the Jamstack philosophy and ecosystem for web development. Jamstack was an evolving term originally created by Matt Biilmann, founder and CEO of Netlify, in 2015. It initially focused on static web site development enhanced with dynamic JavaScript, but eventually encompassed the entire ecosystem of front-end web frameworks including tools like Next.js and Astro.</p>
+        <p class="block mb-1 text-sm text-lg">Over 4+ years, Jamstacked monitored these changes, new frameworks, new tooling, new platforms and more. You are invited to review our <a href="/jamstacked/archive" class="link">archive</a> if you would like to get a sense of what went on in the world of full-stack web development during those years.</p>
       </section>
     </div>
   </div>
