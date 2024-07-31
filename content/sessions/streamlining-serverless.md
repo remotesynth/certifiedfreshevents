@@ -7,11 +7,16 @@ recordings:
   crowdcast:
     url: https://crowdcast.io/c/easier-serverless
     start_time: "00:00"
+  youtube:
+    url: https://youtu.be/hYE4ibjGnns
+    length: "49:27"
 categories:
   - software
 tags:
   - serverless
   - aws
+  - full-stack
+  - web development
 draft: false
 featured: false
 ---
