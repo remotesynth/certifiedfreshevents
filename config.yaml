@@ -58,7 +58,7 @@ outputs:
 mediaTypes:
   text/calendar:
     suffixes:
-    - ics
+      - ics
 outputFormats:
   Algolia:
     baseName: algolia

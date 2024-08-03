@@ -101,9 +101,7 @@
       {{ else if isset . "youtube" }}
         {{ with .youtube }}
           {{ $youtube_embed :=  delimit (last 1 (split .url "/")) "" }}
-          <div class="block mx-auto bg-black embed-responsive">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $youtube_embed }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          {{ partial "youtube-embed" (dict "youtube_embed" $youtube_embed )}}
         {{ end }}
       {{ else }}
         <div class="block mx-auto bg-black embed-responsive" id="crowdcast-open">

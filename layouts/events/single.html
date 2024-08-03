@@ -60,8 +60,22 @@
 
   <div class="container mx-auto">
     <div class="block mx-auto bg-black">
+      {{/* get the youtube URL from the first session */}}
+      {{- if ne .Params.sessions nil -}}
+        {{- with .Params.sessions -}}
+          {{- $first_session := index . 0 -}}
+          {{- with site.GetPage (print "/sessions/" $first_session ) -}}
+            {{- if ne .Params.recordings.youtube nil -}}
+              {{- $.Scratch.Set "youtube_embed" (delimit (last 1 (split .Params.recordings.youtube.url "/")) "") -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $youtube_embed := $.Scratch.Get "youtube_embed" -}}
+      {{ if ne $youtube_embed nil }}
+        {{ partial "youtube-embed" (dict "youtube_embed" $youtube_embed )}}
       {{/* if this is for a future event or live event, just show the embed */}}
-      {{ if ne .Params.embed_url nil }}
+      {{ else if ne .Params.embed_url nil }}
           <iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="{{.Params.embed_url}}?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="microphone; camera;"></iframe>
       {{ end }}
     </div>

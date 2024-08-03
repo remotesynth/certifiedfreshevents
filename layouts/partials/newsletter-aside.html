@@ -1,0 +1,23 @@
+<div class="mt-12" style="max-width:250px">
+  <h3 class="mb-4 text-s font-bold text-gray-500 uppercase">Don't miss out!</h3>
+  <p class="text-xs mb-4">Sign up for our newsletter and hear about all our upcoming events and shows.</p>
+  <form
+      id="asideSubscribeForm"
+      class="flex flex-wrap items-stretch md:justify-start"
+      method="post">
+      <input type="hidden" name="listName" value="cfe-newsletter" />
+  <div class="flex flex-wrap flex-1 gap-2">
+    <input
+      type="email"
+      id="email"
+      placeholder="you@domain.com"
+      autocomplete="off"
+      class="flex-1 field"
+    />
+    <button id="foo" name="subscribe" type="submit" class="button border-sky">
+      Subscribe
+    </button>
+  </div>
+  <div id="subscribe_message" style="color: red"></div>
+</form>
+</div>

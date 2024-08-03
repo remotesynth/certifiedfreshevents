@@ -74,31 +74,37 @@ function crowdcastSignup(email, eventcode) {
 /* Mailjet form submit
   -------------------------------------------------------*/
 const subscribeForm = document.getElementById("subscribeForm");
-if (subscribeForm)
-  subscribeForm.addEventListener("submit", (e) => {
-    e.preventDefault();
+if (subscribeForm) subscribeForm.addEventListener("submit", subscribeMailjet);
+const asideSubscribeForm = document.getElementById("asideSubscribeForm");
+if (asideSubscribeForm)
+  asideSubscribeForm.addEventListener("submit", subscribeMailjet);
 
-    let form = e.target;
-    let messageObj = document.getElementById("subscribe_message");
-    axios
-      .post("/api/mailjet", {
-        email: form.email.value,
-        listName: form.listName.value,
-      })
-      .then(function (response) {
-        if (response.data.errorMsg && messageObj) {
-          messageObj.innerHTML = response.data.errorMsg;
-        } else if (response.data.msg && messageObj) {
-          form.subscribe.disabled = true;
-          form.email.value = "";
-          form.subscribe.innerHTML = "You've been subscribed!";
-          messageObj.innerHTML = "";
-        } else {
-          messageObj.innerHTML =
-            "We apologize, there was a problem subscribing.";
-        }
-      })
-      .catch(function (error) {
+function subscribeMailjet(e) {
+  e.preventDefault();
+
+  let form = e.target;
+  console.log(e.target.id);
+  let selector = `#${e.target.id} #subscribe_message`;
+  console.log(selector);
+  let messageObj = document.querySelector(selector);
+  axios
+    .post("/api/mailjet", {
+      email: form.email.value,
+      listName: form.listName.value,
+    })
+    .then(function (response) {
+      if (response.data.errorMsg && messageObj) {
+        messageObj.innerHTML = response.data.errorMsg;
+      } else if (response.data.msg && messageObj) {
+        form.subscribe.disabled = true;
+        form.email.value = "";
+        form.subscribe.innerHTML = "You've been subscribed!";
+        messageObj.innerHTML = "";
+      } else {
         messageObj.innerHTML = "We apologize, there was a problem subscribing.";
-      });
-  });
+      }
+    })
+    .catch(function (error) {
+      messageObj.innerHTML = "We apologize, there was a problem subscribing.";
+    });
+}
