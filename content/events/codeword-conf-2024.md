@@ -10,6 +10,11 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - kody-jackson
+  - nicole-france
+  - martine-dowden
+  - josefine-schaefer
+  - manoj-pasupuleti
 sessions:
 styles: thejam.css
 event_type: conference
@@ -82,7 +87,9 @@ Content is what makes the web useful. We use it every day for learning, research
 
 ## Speakers {#speakers}
 
-We're working on announcing a lineup. Check back later this year.
+We've got even more speakers to announce – stay tuned!
+
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
