@@ -13,6 +13,7 @@ speakers:
   - kody-jackson
   - nicole-france
   - martine-dowden
+  - burke-holland
   - josefine-schaefer
   - manoj-pasupuleti
 sessions:
