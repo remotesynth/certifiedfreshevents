@@ -3,10 +3,6 @@ title: "CSS :is(.awesome)"
 date: 2024-02-13T13:00:00-05:00
 speakers:
   - martine-dowden
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/c/css-is-awesome
-    start_time: "00:00"
 categories:
   - webdev
 tags:
@@ -14,6 +10,9 @@ tags:
   - web development
   - web design
 recordings:
+  crowdcast:
+    url: https://www.crowdcast.io/c/css-is-awesome
+    start_time: "00:00"
   youtube:
     url: https://youtu.be/s0xLH7GdGqU
     length: "50:13"
