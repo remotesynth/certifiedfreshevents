@@ -15,7 +15,9 @@ speakers:
   - martine-dowden
   - burke-holland
   - josefine-schaefer
+  - rachael-yomtoob
   - manoj-pasupuleti
+  - paul-bratslavsky
 sessions:
 styles: thejam.css
 event_type: conference
