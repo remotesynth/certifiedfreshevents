@@ -15,6 +15,7 @@ speakers:
   - martine-dowden
   - burke-holland
   - josefine-schaefer
+  - phil-hawksworth
   - rachael-yomtoob
   - manoj-pasupuleti
   - paul-bratslavsky
