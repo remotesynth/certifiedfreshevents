@@ -19,6 +19,7 @@ speakers:
   - rachael-yomtoob
   - manoj-pasupuleti
   - paul-bratslavsky
+  - ember-stevens
 sessions:
 styles: thejam.css
 event_type: conference
