@@ -95,6 +95,16 @@ PixelPalooza isn't possible without your support. Want to become a sponsor? [Ema
             </div>
         </article>
     </div>
+    <h3 id="sponsors-1" class="mb-6">Supporters</h3>
+    <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
+    <article class="flex flex-row items-center">
+      <div>
+        <a href="https://cloudinary.com">
+          <img src="/img/sponsors/Cloudinary.png" alt="Cloudinary" />
+        </a>
+      </div>
+    </article>
+    </div>
 </section>
 
 ## Register {#register}
