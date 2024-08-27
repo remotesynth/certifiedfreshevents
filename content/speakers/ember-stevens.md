@@ -5,6 +5,8 @@ speaker_image: EmberStevens.png
 job_title: Technical Writer at LaunchDarkly
 mastodon: https://hachyderm.io/@EmberStevens
 twitter: ember_stevens
+website: https://www.emberstevens.com/
+github: https://github.com/ember-stevens
 draft: false
 ---
 
