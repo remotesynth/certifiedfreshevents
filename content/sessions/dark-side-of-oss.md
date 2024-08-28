@@ -5,6 +5,10 @@ speakers:
   - feross-aboukhadijeh
 categories:
   - software
+recordings:
+  youtube:
+    url: https://youtu.be/XBS7t2ccwhg
+    length: "53:41"
 tags:
   - open source
   - oss
