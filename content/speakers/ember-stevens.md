@@ -6,7 +6,7 @@ job_title: Technical Writer at LaunchDarkly
 mastodon: https://hachyderm.io/@EmberStevens
 twitter: ember_stevens
 website: https://www.emberstevens.com/
-github: https://github.com/ember-stevens
+github: ember-stevens
 draft: false
 ---
 
