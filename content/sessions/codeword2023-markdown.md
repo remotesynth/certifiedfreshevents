@@ -11,6 +11,7 @@ recordings:
 event: codeword-conf-2023
 tags:
   - astro
+  - javascript frameworks
 draft: false
 ---
 

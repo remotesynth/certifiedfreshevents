@@ -9,6 +9,8 @@ recordings:
     url: https://youtu.be/-doL7EnQxeo
     length: "13:23"
 event: codeword-conf-2023
+tags:
+  - documentation
 draft: false
 ---
 

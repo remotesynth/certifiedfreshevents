@@ -21,6 +21,18 @@ speakers:
   - paul-bratslavsky
   - ember-stevens
 sessions:
+  - codeword2024-opening
+  - codeword2024-managing-docs
+  - codeword2024-diversify-your-html
+  - codeword2024-ai-oopsies
+  - codeword2024-break
+  - codeword2024-accessibility-testing
+  - codeword2024-session5
+  - codeword2024-session6
+  - codeword2024-dynamic-documentation
+  - codeword2024-session8
+  - codeword2024-mobile-app-accessibility
+  - codeword2024-content-like-light
 styles: thejam.css
 event_type: conference
 ---
@@ -138,6 +150,7 @@ Registration is **completely free**, so join us live on Crowdcast on September 2
 
 We're working on putting together an amazing day of sessions. More details arriving soon!
 
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 

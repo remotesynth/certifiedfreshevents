@@ -8,6 +8,9 @@ recordings:
   youtube:
     url: https://youtu.be/qWuhu0wRyH0
     length: "39:46"
+tags:
+  - cms
+  - wordpress
 event: codeword-conf-2023
 draft: false
 ---

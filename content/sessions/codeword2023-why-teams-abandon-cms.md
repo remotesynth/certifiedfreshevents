@@ -10,6 +10,9 @@ recordings:
     url: https://youtu.be/AgCmD3G4mZQ
     length: "09:31"
 event: codeword-conf-2023
+tags:
+  - cms
+  - composable
 draft: false
 ---
 

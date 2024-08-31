@@ -8,6 +8,8 @@ recordings:
   youtube:
     url: https://youtu.be/HN_R4TsjTA0
     length: "09:42"
+tags:
+  - search
 event: codeword-conf-2023
 draft: false
 ---

@@ -8,6 +8,9 @@ recordings:
   youtube:
     url: https://youtu.be/BPyI9WUcJaU
     length: "35:55"
+tags:
+  - composable
+  - ecommerce
 event: codeword-conf-2023
 draft: false
 ---

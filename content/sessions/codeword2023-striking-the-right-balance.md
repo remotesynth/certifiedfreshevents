@@ -8,6 +8,9 @@ recordings:
   youtube:
     url: https://youtu.be/RSV_mtKbQAY
     length: "42:08"
+tags:
+  - jamstack
+  - content
 event: codeword-conf-2023
 draft: false
 ---
