@@ -4,6 +4,8 @@ date: 2024-09-26T12:40:00-04:00
 end_date: 2024-09-26T13:20:00-04:00
 speakers:
   - phil-hawksworth
+  - eve-porcello
+  - kira-corbett
 event: codeword-conf-2024
 draft: false
 ---

@@ -20,6 +20,8 @@ speakers:
   - manoj-pasupuleti
   - paul-bratslavsky
   - ember-stevens
+  - eve-porcello
+  - kira-corbett
 sessions:
   - codeword2024-opening
   - codeword2024-managing-docs
@@ -27,10 +29,10 @@ sessions:
   - codeword2024-ai-oopsies
   - codeword2024-break
   - codeword2024-accessibility-testing
-  - codeword2024-session5
+  - codeword2024-react-server-components
   - codeword2024-session6
   - codeword2024-dynamic-documentation
-  - codeword2024-session8
+  - codeword2024-vscode
   - codeword2024-mobile-app-accessibility
   - codeword2024-content-like-light
 styles: thejam.css
