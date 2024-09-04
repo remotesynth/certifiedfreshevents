@@ -30,7 +30,7 @@ sessions:
   - codeword2024-break
   - codeword2024-accessibility-testing
   - codeword2024-react-server-components
-  - codeword2024-session6
+  - codeword2024-astro-content-layer
   - codeword2024-dynamic-documentation
   - codeword2024-vscode
   - codeword2024-mobile-app-accessibility
