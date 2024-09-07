@@ -1,5 +1,5 @@
 ---
-title: Manoj Pasupuleti
+title: Venkata Sai Manoj Pasupuleti
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ManojPasupuleti.jpg
 job_title: Lead Software Engineer
