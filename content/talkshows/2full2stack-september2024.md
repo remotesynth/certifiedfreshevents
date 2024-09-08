@@ -10,7 +10,7 @@ recordings:
     url: https://youtube.com/live/0rJSzenJYQ8
     length: "00:00"
 show: 2full2stack
-short_desc: Nick Taylor will show all the aspects of form development and the form APIs that can make building forms less painful.
+short_desc: Nick Taylor explores SolidJS, which aims to offer a simple and predictable development experience.
 tags:
   - webdev
   - frontend
