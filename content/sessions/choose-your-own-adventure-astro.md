@@ -5,7 +5,7 @@ speakers:
   - eric-carlisle
 recordings:
   youtube:
-    url: https://youtube.com/live/fHYEGDueJ7w
+    url: https://youtu.be/cW4-WJq8WbE
     length: "00:00"
 categories:
   - webdev
