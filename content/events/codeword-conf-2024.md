@@ -32,7 +32,7 @@ sessions:
   - codeword2024-react-server-components
   - codeword2024-astro-content-layer
   - codeword2024-dynamic-documentation
-  - codeword2024-vscode
+  - codeword2024-tiktok
   - codeword2024-mobile-app-accessibility
   - codeword2024-content-like-light
 styles: thejam.css
