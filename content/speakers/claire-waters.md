@@ -2,7 +2,7 @@
 title: Claire Waters
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ClaireWaters.jpg
-job_title: Senior Manager, Product Content Experience team at Cloudflare
+job_title: Senior Product Content Experience Manager at Cloudflare
 draft: false
 ---
 
