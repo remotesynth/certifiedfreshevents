@@ -10,7 +10,7 @@ draft: false
 featured: false
 layout: thejam
 speakers:
-  - kody-jackson
+  - claire-waters
   - nicole-france
   - martine-dowden
   - burke-holland
