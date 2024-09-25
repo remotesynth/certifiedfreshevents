@@ -1,7 +1,7 @@
 ---
 title: Connecting DevRel to Revenue
-date: 2024-10-02T13:00:00-04:00
-end_date: 2024-10-02T14:00:00-04:00
+date: 2024-10-03T13:00:00-04:00
+end_date: 2024-10-03T14:00:00-04:00
 homepage_banner: DevRelish-Achintya-Gupta.png
 host:
   - erin-mikail-staples
