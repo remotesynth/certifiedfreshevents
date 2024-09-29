@@ -15,6 +15,7 @@ tags:
   - webdev
   - frontend
   - javascript
+  - solidjs
 draft: false
 event_type: live coding
 ---
