@@ -5,6 +5,9 @@ end_date: 2024-09-26T12:30:00-04:00
 speakers:
   - martine-dowden
 event: codeword-conf-2024
+recordings:
+  youtube: https://youtu.be/MZwD0qVSEBc
+  length: "37:20"
 draft: false
 ---
 
