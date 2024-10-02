@@ -7,6 +7,10 @@ speakers:
   - eve-porcello
   - kira-corbett
 event: codeword-conf-2024
+recordings:
+  youtube:
+    url: https://youtu.be/h1pRH-yYJUE
+    length: "39:30"
 draft: false
 ---
 
