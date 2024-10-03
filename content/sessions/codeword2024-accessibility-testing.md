@@ -4,6 +4,10 @@ date: 2024-09-26T13:50:00-04:00
 end_date: 2024-09-26T14:00:00-04:00
 speakers:
   - josefine-schaefer
+recordings:
+  youtube:
+    url: https://youtu.be/AKESQ75CEtY
+    length: "11:54"
 event: codeword-conf-2024
 draft: false
 ---

@@ -10,7 +10,7 @@ speakers:
   - achintya-gupta
 recordings:
   youtube:
-    url: https://youtube.com/live/b23I9N3CuN8
+    url: https://youtube.com/live/VEd8Br9ZZQo
     length: "00:00"
 show: devrelish
 short_desc: Erin and Brian are joined by Achintya Gupta, co-founder of Reo.dev, to discuss the endless debate about how to (and should we) connect DevRel activities to revenue growth.
