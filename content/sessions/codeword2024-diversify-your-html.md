@@ -6,8 +6,9 @@ speakers:
   - martine-dowden
 event: codeword-conf-2024
 recordings:
-  youtube: https://youtu.be/MZwD0qVSEBc
-  length: "37:20"
+  youtube:
+    url: https://youtu.be/MZwD0qVSEBc
+    length: "37:20"
 draft: false
 ---
 
