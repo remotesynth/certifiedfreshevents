@@ -2,11 +2,11 @@
 title: "Jo Franchetti"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JoFranchetti.jpg
-job_title: Developer Advocate at Ably Realtime
+job_title: DevRel Engineer at Deno
 twitter: thisisjofrank
 github: thisisjofrank
 website: https://medium.com/@jofranchetti
 draft: false
 ---
 
-Jo is a Developer Advocate at Ably Realtime who is passionate about VR, Web Bluetooth, PWAs and great CSS. She’s got 6 years experience as a web developer and has worked in various parts of the tech industry from startups, agencies, charities to large organizations. She is also mentor and organizer at codebar.io where she is able to action her passion not only for teaching good use of the web but also for improving the diversity and inclusivity of the tech industry.
+Jo is a DevRel Engineer at Deno. She is passionate about improving developer experience, teaching good use of the web. She mentors junior developers, advocates a lot for mental health awareness and is devoted to improving the diversity and inclusivity of the tech industry."
