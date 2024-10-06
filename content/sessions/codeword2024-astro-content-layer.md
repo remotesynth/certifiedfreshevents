@@ -4,6 +4,10 @@ date: 2024-09-26T14:10:00-04:00
 end_date: 2024-09-26T14:20:00-04:00
 speakers:
   - paul-bratslavsky
+recordings:
+  youtube:
+    url: https://youtu.be/buWrm2VpuNo
+    length: "11:54"
 event: codeword-conf-2024
 draft: false
 ---
