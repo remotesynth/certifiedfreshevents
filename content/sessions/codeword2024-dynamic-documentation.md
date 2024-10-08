@@ -4,6 +4,10 @@ date: 2024-09-26T14:20:00-04:00
 end_date: 2024-09-26T14:30:00-04:00
 speakers:
   - ember-stevens
+recordings:
+  youtube:
+    url: https://youtu.be/yjAO0sBeK28
+    length: "07:34"
 event: codeword-conf-2024
 draft: false
 ---
