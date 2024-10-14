@@ -9,6 +9,12 @@ recordings:
     url: https://youtu.be/CSmeOy_0VMY
     length: "38:16"
 event: codeword-conf-2024
+tags:
+  - documentation
+  - cloudflare
+  - cloudflare pages
+  - cloudflare workers
+  - astro
 draft: false
 ---
 

@@ -9,6 +9,10 @@ recordings:
     url: https://youtu.be/buWrm2VpuNo
     length: "11:54"
 event: codeword-conf-2024
+tags:
+  - astro
+  - content management
+  - strapi
 draft: false
 ---
 

@@ -9,6 +9,10 @@ recordings:
     url: https://youtu.be/AKESQ75CEtY
     length: "11:54"
 event: codeword-conf-2024
+tags:
+  - accessibility
+  - chrome devtools
+  - accessibility testing
 draft: false
 ---
 

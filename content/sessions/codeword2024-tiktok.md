@@ -9,6 +9,11 @@ recordings:
     url: https://youtu.be/nOGzBxRR66Y
     length: "40:53"
 event: codeword-conf-2024
+tags:
+  - visual studio code
+  - developer relations
+  - devrel
+  - tiktok
 draft: false
 ---
 

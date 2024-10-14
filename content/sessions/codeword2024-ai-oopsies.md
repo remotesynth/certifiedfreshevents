@@ -11,6 +11,12 @@ recordings:
   youtube:
     url: https://youtu.be/h1pRH-yYJUE
     length: "39:30"
+tags:
+  - artificial intelligence
+  - ai
+  - machine learning
+  - ml
+  - netlify
 draft: false
 ---
 

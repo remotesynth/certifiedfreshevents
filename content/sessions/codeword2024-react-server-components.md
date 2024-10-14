@@ -9,6 +9,9 @@ recordings:
     url: https://youtu.be/cUUSzquwjSY
     length: "8:31"
 event: codeword-conf-2024
+tags:
+  - react
+  - react server components
 draft: false
 ---
 

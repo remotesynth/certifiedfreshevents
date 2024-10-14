@@ -9,6 +9,10 @@ recordings:
     url: https://youtu.be/AQH0zG7zcgQ
     length: "39:25"
 event: codeword-conf-2024
+tags:
+  - accessibility
+  - mobile app development
+  - WCAG
 draft: false
 ---
 

@@ -9,6 +9,10 @@ recordings:
     url: https://youtu.be/yjAO0sBeK28
     length: "07:34"
 event: codeword-conf-2024
+tags:
+  - documentation
+  - feature flags
+  - launchdarkly
 draft: false
 ---
 

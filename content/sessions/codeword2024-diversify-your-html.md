@@ -9,6 +9,9 @@ recordings:
   youtube:
     url: https://youtu.be/MZwD0qVSEBc
     length: "37:20"
+tags:
+  - html
+  - semantic markup
 draft: false
 ---
 

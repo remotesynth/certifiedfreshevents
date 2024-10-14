@@ -4,7 +4,16 @@ date: 2024-09-26T16:20:00-04:00
 end_date: 2024-09-26T17:00:00-04:00
 speakers:
   - nicole-france
+recordings:
+  youtube:
+    url: https://youtu.be/_w-dhVyr4FQ
+    length: "41:36"
 event: codeword-conf-2024
+tags:
+  - content management
+  - cms
+  - contentful
+  - content
 draft: false
 ---
 
