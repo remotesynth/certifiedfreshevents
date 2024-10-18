@@ -1,6 +1,6 @@
 ---
 title: "An Intro to Deno 2 - Full Node and npm compat?! Lets build some apps!"
-date: 2020-07-17T12:30:00-04:00
+date: 2024-10-17T13:00:00-04:00
 speakers:
     - jo-franchetti
 categories:
