@@ -11,6 +11,10 @@ tags:
   - deno
   - Next.js
   - Vite
+recordings:
+  youtube:
+    url: https://youtu.be/I-wXUi1nRWU
+    length: "1:07:11"
 draft: false
 ---
 
