@@ -1,24 +1,22 @@
 ---
-title: The Rise of the Developer Community
-date: 2022-03-24T13:00:00-04:00
-speakers:
-  - bryan-robinson
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/the-rise-of-developer
-    start_time: 00:00
-  youtube:
-    url: https://youtu.be/mdGplwsk8OQ
-    length: "48:47"
 categories:
-  - culture
-tags:
-  - community
-  - devrel
-  - career
-featured: true
+- culture
+date: 2022-03-24 13:00:00-04:00
 draft: false
+featured: true
+recordings:
+  youtube:
+    length: '48:47'
+    url: https://youtu.be/mdGplwsk8OQ
+speakers:
+- bryan-robinson
+tags:
+- community
+- devrel
+- career
+title: The Rise of the Developer Community
 ---
+
 
 Community is so hot right now.
 

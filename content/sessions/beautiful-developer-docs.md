@@ -1,21 +1,19 @@
 ---
-title: Useful and Beautiful Developer Docs and How to Create Them
-date: 2024-05-14T13:00:00-04:00
-speakers:
-  - johannes-dienst
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/c/developer-documentation
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/zfoMrhvPYi4
-    length: "48:34"
 categories:
-  - stuff
-tags:
-  - documentation
+- stuff
+date: 2024-05-14 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '48:34'
+    url: https://youtu.be/zfoMrhvPYi4
+speakers:
+- johannes-dienst
+tags:
+- documentation
+title: Useful and Beautiful Developer Docs and How to Create Them
 ---
+
 
 Inadequate developer documentation can be detrimental to your product’s success. Developers seek efficient problem-solving, and if your product fails to provide that, they will quickly move on.
 

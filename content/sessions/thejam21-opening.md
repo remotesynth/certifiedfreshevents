@@ -1,11 +1,12 @@
 ---
-title: "Opening and Welcome Address"
-date: 2021-01-28T11:25:00-04:00
-end_date: 2021-01-28T11:35:00-04:00
-speakers:
-  - brian-rinaldi
-event: the-jam-2021
+date: 2021-01-28 11:25:00-04:00
 draft: false
+end_date: 2021-01-28 11:35:00-04:00
+event: the-jam-2021
+speakers:
+- brian-rinaldi
+title: Opening and Welcome Address
 ---
+
 
 Welcome to TheJam.dev 2021.

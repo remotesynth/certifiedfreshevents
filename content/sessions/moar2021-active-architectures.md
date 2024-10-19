@@ -1,22 +1,23 @@
 ---
-title: Bringing Back Active-active Architectures
-date: 2021-08-12T13:35:00-04:00
-end_date: 2021-08-12T14:15:00-04:00
-speakers:
-  - rob-sutter
+categories:
+- software
+date: 2021-08-12 13:35:00-04:00
+draft: false
+end_date: 2021-08-12 14:15:00-04:00
 event: moar-serverless-2021
 recordings:
   youtube:
     URL: https://www.youtube.com/ZQNWBQjeDXU
-    length: "38:00"
-categories:
-  - software
+    length: '38:00'
+speakers:
+- rob-sutter
 tags:
-  - serverless
-  - databases
-  - fauna
-draft: false
+- serverless
+- databases
+- fauna
+title: Bringing Back Active-active Architectures
 ---
+
 
 Do you have high uptime requirements for your serverless applications? Are your users geographically distributed, either within a geographic region or across the globe? Active-active failover architectures address these challenges and are cheaper in serverless architectures than in traditional applications.
 

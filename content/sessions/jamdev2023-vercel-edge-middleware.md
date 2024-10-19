@@ -1,24 +1,25 @@
 ---
-title: "Making Jamstack More Flexible with Vercel Edge Middleware"
-date: 2023-01-25T15:55:00-05:00
-end_date: 2023-01-25T16:05:00-05:00
-speakers:
-  - thomas-desmond
+categories:
+- webdev
+- javascript
+date: 2023-01-25 15:55:00-05:00
+draft: false
+end_date: 2023-01-25 16:05:00-05:00
 event: the-jam-2023
 recordings:
   youtube:
+    length: 09:36
     url: https://youtu.be/BlZ3dJzcNEk
-    length: "09:36"
-categories:
-  - webdev
-  - javascript
+speakers:
+- thomas-desmond
 tags:
-  - webdev
-  - jamstack
-  - edge computing
-  - vercel
-draft: false
+- webdev
+- jamstack
+- edge computing
+- vercel
+title: Making Jamstack More Flexible with Vercel Edge Middleware
 ---
+
 
 Jamstack applications are known for being extremely fast, but lacking flexibility. That ends now! Do more with Jamstack by pushing logic to the edge with Vercel Edge Middleware. Keep the speed and unlock the power of dynamic.
 

@@ -1,22 +1,20 @@
 ---
-title: Trust and Ethics in the Workplace
-date: 2023-04-11T13:00:00-04:00
-speakers:
-  - vitaly-sharovatov
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/trust-and-ethics-in-the
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/0FOF-hOn_uQ
-    length: "48:59"
 categories:
-  - culture
-tags:
-  - ethics
-  - career
+- culture
+date: 2023-04-11 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '48:59'
+    url: https://youtu.be/0FOF-hOn_uQ
+speakers:
+- vitaly-sharovatov
+tags:
+- ethics
+- career
+title: Trust and Ethics in the Workplace
 ---
+
 
 This talk covers two essential elements for satisfying and productive work, as well as organizational efficiency: trust and ethics, while also exploring the connection between them.
 

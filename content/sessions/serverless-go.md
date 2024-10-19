@@ -1,25 +1,23 @@
 ---
-title: "Serverless Go - Course Outline"
-date: 2019-03-08T18:52:51-04:00
-speakers:
-  - johnny-boursiquot
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/serverless-go
-      start_time: 01:35
-  youtube:
-      url: https://youtu.be/BRu25YESSeo
-      length: "2:53:55"
 categories:
-  - software
-  - devops
-tags:
-  - go
-  - aws
-  - serverless
-  - devops
+- software
+- devops
+date: 2019-03-08 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '2:53:55'
+    url: https://youtu.be/BRu25YESSeo
+speakers:
+- johnny-boursiquot
+tags:
+- go
+- aws
+- serverless
+- devops
+title: Serverless Go - Course Outline
 ---
+
 
 1. Introduction: Serverless Orchestration on AWS (15 minutes)
 2. Demo and walkthrough of the serverless app architecture (15 minutes)

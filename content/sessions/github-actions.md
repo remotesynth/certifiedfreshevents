@@ -1,26 +1,24 @@
 ---
-title: Getting Traction with GitHub Actions
-date: 2021-06-24T12:00:00-04:00
-speakers:
-    - brian-douglas
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/getting-traction-with
-    start_time: "03:55"
-  youtube:
-    url: https://youtu.be/d1_q67sNTf0
-    length: "45:43"
 categories:
-  - devops
-tags:
-  - devops
-  - github
-  - github actions
-  - continuous integration
-  - continuous delivery
+- devops
+date: 2021-06-24 12:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '45:43'
+    url: https://youtu.be/d1_q67sNTf0
+speakers:
+- brian-douglas
+tags:
+- devops
+- github
+- github actions
+- continuous integration
+- continuous delivery
+title: Getting Traction with GitHub Actions
 ---
+
 
 GitHub Actions makes it easy to automate all your software workflows, now with CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
 

@@ -1,18 +1,19 @@
 ---
-title: Losing Your Head Without Losing Your (SEO) Juice
-date: 2023-09-21T12:40:00-04:00
-end_date: 2023-09-21T13:20:00-04:00
-speakers:
-  - nancy-du
+date: 2023-09-21 12:40:00-04:00
+draft: false
+end_date: 2023-09-21 13:20:00-04:00
+event: codeword-conf-2023
 recordings:
   youtube:
+    length: '38:20'
     url: https://youtu.be/tML_JTWwieI
-    length: "38:20"
+speakers:
+- nancy-du
 tags:
-  - seo
-event: codeword-conf-2023
-draft: false
+- seo
+title: Losing Your Head Without Losing Your (SEO) Juice
 ---
+
 
 While it's a widely held belief that migrating to a headless architecture automatically boosts your site's SEO and speed, the reality is more nuanced. The true advantage of going headless lies in the empowerment it provides—the flexibility and control to actively enhance these features. So how do you go about doing that? In this talk we will go through actionable steps you can take to optimize for SEO and performance in your headless application.
 

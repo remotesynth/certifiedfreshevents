@@ -1,25 +1,23 @@
 ---
-title: Getting Started With Apache Kafka for JavaScript Devs
-date: 2023-03-28T13:00:00-05:00
-speakers:
-  - lucia-cerchie
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/getting-started-with-78
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/Gg2v5fOeiZ8
-    length: "28:29"
 categories:
-  - software
-tags:
-  - open source
-  - javascript
-  - kafka
-  - data
+- software
+date: 2023-03-28 13:00:00-05:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '28:29'
+    url: https://youtu.be/Gg2v5fOeiZ8
+speakers:
+- lucia-cerchie
+tags:
+- open source
+- javascript
+- kafka
+- data
+title: Getting Started With Apache Kafka for JavaScript Devs
 ---
+
 
 Over a third of respondents to a StackOverflow survey professed to a dread of learning Apache Kafka. Nevertheless, with a curious mindset and the right resources, we have the tools to succeed in learning Kafka. Take the plunge with me and together we will conquer concepts like events and topics, producers and consumers.
 

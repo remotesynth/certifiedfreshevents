@@ -1,24 +1,25 @@
 ---
-title: "Ain’t no party like a localhost party"
-date: 2022-01-26T13:25:00-05:00
-end_date: 2022-01-26T14:10:00-05:00
-speakers:
-  - simona-cotin
-  - anthony-chu
+categories:
+- webdev
+date: 2022-01-26 13:25:00-05:00
+draft: false
+end_date: 2022-01-26 14:10:00-05:00
 event: the-jam-2022
 recordings:
   youtube:
+    length: '41:13'
     url: https://youtu.be/bnAlZYRZb9c
-    length: "41:13"
-categories:
-  - webdev
+speakers:
+- simona-cotin
+- anthony-chu
 tags:
-  - webdev
-  - jamstack
-  - visual studio code
-  - azure
-  - microsoft
-draft: false
+- webdev
+- jamstack
+- visual studio code
+- azure
+- microsoft
+title: "Ain\u2019t no party like a localhost party"
 ---
+
 
 Join this session to learn about building, debugging and running a Jamstack application in your local environment using VS Code.

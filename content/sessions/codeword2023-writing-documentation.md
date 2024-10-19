@@ -1,18 +1,20 @@
 ---
-title: 7 Best Practices for Writing Documentation (For Those Who Would Rather Do Anything Else)
-date: 2023-09-21T13:50:00-04:00
-end_date: 2023-09-21T14:00:00-04:00
-speakers:
-  - lauren-schaefer
+date: 2023-09-21 13:50:00-04:00
+draft: false
+end_date: 2023-09-21 14:00:00-04:00
+event: codeword-conf-2023
 recordings:
   youtube:
+    length: '13:23'
     url: https://youtu.be/-doL7EnQxeo
-    length: "13:23"
-event: codeword-conf-2023
+speakers:
+- lauren-schaefer
 tags:
-  - documentation
-draft: false
+- documentation
+title: 7 Best Practices for Writing Documentation (For Those Who Would Rather Do Anything
+  Else)
 ---
+
 
 When I joined my current team, I discovered that writing external documentation was part of my role. While I had experience writing tech blogs, writing documentation felt like an entirely new skill. And I didn't love it.
 

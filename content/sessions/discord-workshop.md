@@ -1,23 +1,21 @@
 ---
-title: Discord for Developer Communities
-date: 2022-10-13T13:00:00-04:00
-speakers:
-  - erin-mikail-staples
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/running-developer
-    start_time: "05:40"
-  youtube:
-    url: https://youtu.be/SlpQrRXuq_w
-    length: "1:41:46"
 categories:
-  - culture
-tags:
-  - discord
-  - community
+- culture
+date: 2022-10-13 13:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '1:41:46'
+    url: https://youtu.be/SlpQrRXuq_w
+speakers:
+- erin-mikail-staples
+tags:
+- discord
+- community
+title: Discord for Developer Communities
 ---
+
 
 In recent years, Discord has sort of exploded as a community platform. It has since been adopted as a core platform across technical and non-technical communities. What once primarily was used in the gaming industry has now been more widely adopted across communities of all types.
 

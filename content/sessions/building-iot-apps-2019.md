@@ -1,23 +1,21 @@
 ---
-title: "Building IoT Apps (2019) - Course Outline"
-date: 2019-11-20T18:52:51-04:00
-speakers:
-  - brandon-satrom
-  - paul-decarlo
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/building-iot-apps-with/1
-    start_time: 02:39
-  youtube:
-    url: https://youtu.be/8znV44uoSo4
-    length: "02:45:53"
 categories:
-  - stuff
-tags:
-  - iot
-  - particle
+- stuff
+date: 2019-11-20 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: 02:45:53
+    url: https://youtu.be/8znV44uoSo4
+speakers:
+- brandon-satrom
+- paul-decarlo
+tags:
+- iot
+- particle
+title: Building IoT Apps (2019) - Course Outline
 ---
+
 
 - **Session 1** - A Lap around Particle
 - **Lab 1** - Claiming and naming your first device

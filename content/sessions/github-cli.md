@@ -1,23 +1,21 @@
 ---
-title: "Love is Blind: Falling in Love with the Command Line and GitHub CLI"
-date: 2020-05-04T12:00:00-04:00
-speakers:
-  - andrea-griffiths
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/falling-in-love-with-the
-    start_time: 3:38
-  youtube:
-    url: https://youtu.be/yY9PMfuOM5w
-    length: "40:55"
 categories:
-  - devops
-tags:
-  - devops
-  - github
-  - git
+- devops
+date: 2020-05-04 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '40:55'
+    url: https://youtu.be/yY9PMfuOM5w
+speakers:
+- andrea-griffiths
+tags:
+- devops
+- github
+- git
+title: 'Love is Blind: Falling in Love with the Command Line and GitHub CLI'
 ---
+
 
 In a world filled with sexy user interfaces, understanding and even learning to love the command line can be your most understated tool as a developer. In this talk, I'll share my CLI love story and the reasons why learning to love the command line syntax, basic utilities and file structures has made a better technologist.
 

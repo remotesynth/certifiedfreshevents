@@ -1,22 +1,20 @@
 ---
-title: We Don’t Need No Stinking Passwords
-date: 2023-09-12T13:00:00-04:00
-speakers:
-  - vinicius-campitelli
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/c/no-passwords
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/L8in2HspWTk
-    length: "1:03:31"
 categories:
-  - software
-tags:
-  - authentication
-  - security
+- software
+date: 2023-09-12 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:03:31'
+    url: https://youtu.be/L8in2HspWTk
+speakers:
+- vinicius-campitelli
+tags:
+- authentication
+- security
+title: "We Don\u2019t Need No Stinking Passwords"
 ---
+
 
 Passwords are like underwear. You should change them regularly, and you shouldn't share them with anyone.
 

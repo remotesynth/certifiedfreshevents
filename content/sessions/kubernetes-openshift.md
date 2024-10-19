@@ -1,23 +1,21 @@
 ---
-title: "Getting Started with Kubernetes Using OpenShift"
-date: 2020-05-20T12:30:00-04:00
-speakers:
-  - marek-sadowski
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/getting-started-with-52
-    start_time: "5:02"
-  youtube:
-    url: https://youtu.be/C66AEX4lE5A
-    length: "02:00:15"
 categories:
-  - devops
-tags:
-  - kubernetes
-  - openshift
-  - containers
+- devops
+date: 2020-05-20 12:30:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: 02:00:15
+    url: https://youtu.be/C66AEX4lE5A
+speakers:
+- marek-sadowski
+tags:
+- kubernetes
+- openshift
+- containers
+title: Getting Started with Kubernetes Using OpenShift
 ---
+
 
 Red Hat OpenShift on IBM Cloud is an extension of the IBM Cloud Kubernetes Service, where IBM manages OpenShift Container Platform for you. With Red Hat OpenShift on IBM Cloud, developers have a fast and secure way to containerize and deploy enterprise workloads in Kubernetes clusters.
 

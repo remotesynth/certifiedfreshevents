@@ -1,21 +1,22 @@
 ---
-title: What was the Jamstack?
-date: 2024-01-24T14:20:00-05:00
-end_date: 2024-01-24T15:05:00-05:00
-speakers:
-  - bryan-robinson
-event: the-jam-2024
 categories:
-  - javascript
-tags:
-  - webdev
-  - jamstack
+- javascript
+date: 2024-01-24 14:20:00-05:00
+draft: false
+end_date: 2024-01-24 15:05:00-05:00
+event: the-jam-2024
 recordings:
   youtube:
+    length: '44:12'
     url: https://youtu.be/VfJ5vEiBi5Q
-    length: "44:12"
-draft: false
+speakers:
+- bryan-robinson
+tags:
+- webdev
+- jamstack
+title: What was the Jamstack?
 ---
+
 
 The Jamstack is dead. No it's not. Yes it is! NO, it's NOT!
 

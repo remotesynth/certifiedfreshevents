@@ -1,22 +1,20 @@
 ---
-title: "Building IoT Apps (2018) - Course Outline"
-date: 2018-08-29T18:52:51-04:00
-speakers:
-  - brandon-satrom
-  - burke-holland
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/building-iot-apps-from/1
-      start_time: 00:59
 categories:
-  - stuff
-tags:
-  - iot
-  - microsoft
-  - azure
-  - particle
+- stuff
+date: 2018-08-29 18:52:51-04:00
 draft: false
+recordings: {}
+speakers:
+- brandon-satrom
+- burke-holland
+tags:
+- iot
+- microsoft
+- azure
+- particle
+title: Building IoT Apps (2018) - Course Outline
 ---
+
 
 1. Introduction and Housekeeping
 2. Introducing the Particle Ecosystem (Brandon) [30 minutes]

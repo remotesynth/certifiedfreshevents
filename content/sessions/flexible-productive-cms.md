@@ -1,23 +1,21 @@
 ---
-title: Balancing Flexibility and Productivity in Your CMS
-date: 2023-01-10T13:00:00-05:00
-speakers:
-  - tiffany-janzen
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/the-challenges-of-the
-    start_time: "05:25"
-  youtube:
-    url: https://youtu.be/OYC_LTnqrdA
-    length: "40:05"
 categories:
-  - webdev
-tags:
-  - webdev
-  - headless cms
-  - content management
+- webdev
+date: 2023-01-10 13:00:00-05:00
 draft: false
+recordings:
+  youtube:
+    length: '40:05'
+    url: https://youtu.be/OYC_LTnqrdA
+speakers:
+- tiffany-janzen
+tags:
+- webdev
+- headless cms
+- content management
+title: Balancing Flexibility and Productivity in Your CMS
 ---
+
 
 Content-driven architecture is a balancing act when working to optimize speed and flexibility in content editing. Often the spectrum is skewed. To strike this balance, we can create a system founded on flexibility, with guardrails catered to the unique needs of our content editors.
 

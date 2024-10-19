@@ -1,21 +1,19 @@
 ---
-title: "How to Open Source Your Stuff"
-date: 2018-04-13T18:52:51-04:00
-speakers:
-  - kent-c-dodds
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/fundamental-javascript/3
-      start_time: 00:02
-  youtube:
-      url: https://youtu.be/dd5E8SarQdo
-      length: "1:58:27"
 categories:
-  - software
-tags:
-  - open source
+- software
+date: 2018-04-13 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:58:27'
+    url: https://youtu.be/dd5E8SarQdo
+speakers:
+- kent-c-dodds
+tags:
+- open source
+title: How to Open Source Your Stuff
 ---
+
 
 [_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=6mtPPkKchcQ)
 

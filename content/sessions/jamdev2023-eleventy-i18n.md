@@ -1,25 +1,26 @@
 ---
-title: "Hassle-free internationalization with Eleventy 2.0 and Netlify"
-date: 2023-01-25T15:35:00-05:00
-end_date: 2023-01-25T15:45:00-05:00
-speakers:
-  - lene-saile
+categories:
+- webdev
+date: 2023-01-25 15:35:00-05:00
+draft: false
+end_date: 2023-01-25 15:45:00-05:00
 event: the-jam-2023
 recordings:
   youtube:
+    length: 09:44
     url: https://youtu.be/CZqpcoGpYfU
-    length: "09:44"
-categories:
-  - webdev
+speakers:
+- lene-saile
 tags:
-  - webdev
-  - jamstack
-  - javascript
-  - netlify
-  - eleventy
-  - internationalization
-draft: false
+- webdev
+- jamstack
+- javascript
+- netlify
+- eleventy
+- internationalization
+title: Hassle-free internationalization with Eleventy 2.0 and Netlify
 ---
+
 
 2023 is the year of the personal website!
 

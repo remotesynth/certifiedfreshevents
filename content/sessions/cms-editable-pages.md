@@ -1,21 +1,22 @@
 ---
-title: Create CMS-editable pages with no client-side JS or frameworks
-date: 2021-01-29T16:05:00-04:00
-end_date: 2021-01-29T16:15:00-04:00
+categories:
+- webdev
+date: 2021-01-29 16:05:00-04:00
+draft: false
+end_date: 2021-01-29 16:15:00-04:00
+event: the-jam-2021
 recordings:
   youtube:
+    length: '9:03'
     url: https://youtu.be/zjlkUvx14Fc
-    length: "9:03"
 speakers:
-  - bryan-robinson
-event: the-jam-2021
-categories:
-  - webdev
+- bryan-robinson
 tags:
-  - jamstack
-  - webdev
-draft: false
+- jamstack
+- webdev
+title: Create CMS-editable pages with no client-side JS or frameworks
 ---
+
 
 In modern development, there are so many great tools for developing websites, but often they are more than what’s necessary for a given project. In this lightning talk, we’ll explore how to take a humble HTML page and make its content editable in a CMS with no frameworks and no client-side JavaScript.
 

@@ -1,22 +1,20 @@
 ---
-title: "Gaming the System"
-date: 2022-02-24T13:00:00-05:00
-speakers:
-  - jessica-cregg
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/building-better
-    start_time: 05:30
-  youtube:
-    url: https://youtu.be/QKTY--y9Rcg
-    length: "46:31"
 categories:
-  - culture
-tags:
-  - career
-  - devops
+- culture
+date: 2022-02-24 13:00:00-05:00
 draft: false
+recordings:
+  youtube:
+    length: '46:31'
+    url: https://youtu.be/QKTY--y9Rcg
+speakers:
+- jessica-cregg
+tags:
+- career
+- devops
+title: Gaming the System
 ---
+
 
 ### How video games can help us create more effective virtual teams
 

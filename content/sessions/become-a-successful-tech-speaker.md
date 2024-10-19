@@ -1,24 +1,22 @@
 ---
-title: Become a Successful Speaker in Tech Events
-date: 2022-05-12T13:00:00-04:00
-speakers:
-  - oscar-santolalla
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/a-developers-guide-to
-    start_time: "06:17"
-  youtube:
-    url: https://youtu.be/9J3BxKC0_p8
-    length: "46:22"
 categories:
-  - culture
-tags:
-  - career
-  - public speaking
-  - conferences
+- culture
+date: 2022-05-12 13:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '46:22'
+    url: https://youtu.be/9J3BxKC0_p8
+speakers:
+- oscar-santolalla
+tags:
+- career
+- public speaking
+- conferences
+title: Become a Successful Speaker in Tech Events
 ---
+
 
 Learn powerful tools to regularly speak at tech conferences and share your best ideas.
 

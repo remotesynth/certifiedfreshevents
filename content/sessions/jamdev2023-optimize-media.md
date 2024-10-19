@@ -1,25 +1,26 @@
 ---
-title: "Everyone Wins When You Optimize Media"
-date: 2023-01-26T12:30:00-05:00
-end_date: 2023-01-26T13:15:00-05:00
-speakers:
-  - colby-fayock
+categories:
+- software
+date: 2023-01-26 12:30:00-05:00
+draft: false
+end_date: 2023-01-26 13:15:00-05:00
 event: the-jam-2023
 recordings:
   youtube:
+    length: '42:35'
     url: https://youtu.be/gp-BhnMt3OI
-    length: "42:35"
-categories:
-  - software
+speakers:
+- colby-fayock
 tags:
-  - webdev
-  - jamstack
-  - video
-  - video straming
-  - cloudinary
-  - netlify
-draft: false
+- webdev
+- jamstack
+- video
+- video straming
+- cloudinary
+- netlify
+title: Everyone Wins When You Optimize Media
 ---
+
 
 Images and videos play a large role in any website or application. From a simple profile picture to a high resolution image of your next Amazon drone delivery, providing visuals helps to tell a story or at least set up some interesting context for that story.
 

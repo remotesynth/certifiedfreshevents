@@ -1,23 +1,22 @@
 ---
-title: "Building Your Front-End with Intention: Architecture and Tooling for your next Front-End project!"
-date: 2023-08-22T13:00:00-04:00
-speakers:
-  - chad-stewart
-recordings:
-  crowdcast:
-    url: https://crowdcast.io/c/front-end-with-intention
-    start_time: 00:00
-  youtube:
-    url: https://youtu.be/hem6KaheMBE
-    length: "49:39"
 categories:
-  - webdev
-tags:
-  - webdev
-  - javascript
-  - frontend 
+- webdev
+date: 2023-08-22 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '49:39'
+    url: https://youtu.be/hem6KaheMBE
+speakers:
+- chad-stewart
+tags:
+- webdev
+- javascript
+- frontend
+title: 'Building Your Front-End with Intention: Architecture and Tooling for your
+  next Front-End project!'
 ---
+
 
 Front-End code bases can quickly become really difficult to maintain or add new features to. This mainly comes from our Front-End components being highly coupled either through poorly written CSS or components having too many responsibilities.
 

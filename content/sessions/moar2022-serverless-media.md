@@ -1,21 +1,22 @@
 ---
-title: Managing Media Without a Server
-date: 2022-08-11T15:25:00-04:00
-end_date: 2022-08-11T16:05:00-04:00
-speakers:
-  - colby-fayock
-event: moar-serverless-2022
 categories:
-  - webdev
+- webdev
+date: 2022-08-11 15:25:00-04:00
+draft: false
+end_date: 2022-08-11 16:05:00-04:00
+event: moar-serverless-2022
 recordings:
   youtube:
+    length: '38:20'
     url: https://youtu.be/hw3wwRUPlhM
-    length: "38:20"
+speakers:
+- colby-fayock
 tags:
-  - serverless
-  - cloudinary
-draft: false
+- serverless
+- cloudinary
+title: Managing Media Without a Server
 ---
+
 
 As the web becomes more visual, media is growingly becoming a vital part of any development project. While we might have the displaying of images and videos covered, media management like uploading and organization can get tricky and messy if you’re not managing your media mangement in a sane way.
 So how do we manage it all? Dev tech is a moving target, solidifying the need for manageable tooling, on top of needing the ability for our infrastructure components to easily communicate, providing a consistent experience for our visitors.

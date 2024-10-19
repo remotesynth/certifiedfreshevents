@@ -1,21 +1,22 @@
 ---
-title: Architecting Fullstack solutions in a Jamstack World
-date: 2021-01-29T14:20:00-04:00
-end_date: 2021-01-29T15:05:00-04:00
+categories:
+- webdev
+date: 2021-01-29 14:20:00-04:00
+draft: false
+end_date: 2021-01-29 15:05:00-04:00
+event: the-jam-2021
 recordings:
   youtube:
+    length: '46:56'
     url: https://youtu.be/D3-IlBX4kcQ
-    length: "46:56"
 speakers:
-  - joel-varty
-event: the-jam-2021
-categories:
-  - webdev
+- joel-varty
 tags:
-  - webdev
-  - jamstack
-draft: false
+- webdev
+- jamstack
+title: Architecting Fullstack solutions in a Jamstack World
 ---
+
 
 Jamstack is primarily a set of technologies to drive UIs. It empowers frontend developers to wrangle backend APIs into compelling experiences easily. That leaves many developers wondering where "everything else" goes - things like user registration, authentication, restricted access, user-generated-content, commerce and search.
 

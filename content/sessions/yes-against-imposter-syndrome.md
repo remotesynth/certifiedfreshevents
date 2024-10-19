@@ -1,23 +1,21 @@
 ---
-title: "The Power of YES Against Imposter Syndrome"
-date: 2020-08-20T12:00:00-04:00
-speakers:
-  - hiro-nishimura
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/the-power-of-yes-against
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/pQBrQ7Ek9sI
-    length: "31:01"
 categories:
-  - culture
-tags:
-  - career
-  - imposter syndrome
+- culture
+date: 2020-08-20 12:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '31:01'
+    url: https://youtu.be/pQBrQ7Ek9sI
+speakers:
+- hiro-nishimura
+tags:
+- career
+- imposter syndrome
+title: The Power of YES Against Imposter Syndrome
 ---
+
 
 ### From "AWS newbies" to AWS Community Leader
 

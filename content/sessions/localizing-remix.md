@@ -1,26 +1,24 @@
 ---
-title: "Localizing Your Remix Website"
-date: 2023-06-13T13:00:00-04:00
-speakers:
-  - harshil-agrawal
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/c/localizing-remix
-    start_time: 04:22
-  youtube:
-    url: https://youtu.be/9N22AWkAXe4
-    length: "01:02:00"
 categories:
-  - webdev
-tags:
-  - webdev
-  - javascript
-  - javascript frameworks
-  - react
-  - remix
-  - localization 
+- webdev
+date: 2023-06-13 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: 01:02:00
+    url: https://youtu.be/9N22AWkAXe4
+speakers:
+- harshil-agrawal
+tags:
+- webdev
+- javascript
+- javascript frameworks
+- react
+- remix
+- localization
+title: Localizing Your Remix Website
 ---
+
 
 Localized content helps you connect with your audience in their preferred language. It not only helps you grow your business but helps your audience understand your offerings better. In this talk, you will get an introduction to localization and will learn how to implement localization to your Contentful-powered Remix website.
 

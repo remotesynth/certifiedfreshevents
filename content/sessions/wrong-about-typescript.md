@@ -1,23 +1,21 @@
 ---
-title: "Why I Was Wrong About TypeScript"
-date: 2017-08-23T18:52:51-04:00
-speakers:
-  - tj-vantoll
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/rb68byb9
-    start_time: "31:08"
-  youtube:
-    url: https://youtu.be/DZbruIKM4LY
-    length: "30:32"
 categories:
-  - javascript
-tags:
-  - javascript
-  - typescript
-  - microsoft
+- javascript
+date: 2017-08-23 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '30:32'
+    url: https://youtu.be/DZbruIKM4LY
+speakers:
+- tj-vantoll
+tags:
+- javascript
+- typescript
+- microsoft
+title: Why I Was Wrong About TypeScript
 ---
+
 
 In 2014, I made a strong argument that TypeScript was destined to be irrelevant and that my company should not use it in any of our projects. I was wrong. In 2017, TypeScript is taking over the JavaScript world, and we now use TypeScript for pretty much everything we build.
 

@@ -1,22 +1,20 @@
 ---
-title: "Sextech: The Good, the Bad & the Bias"
-date: 2019-09-19T18:52:51-04:00
-speakers:
-  - alison-falk
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/sextech-the-good-the-bad
-      start_time: 03:25
-  youtube:
-      url: https://youtu.be/hTcCxPW78_0
-      length: "32:27"
 categories:
-  - culture
-tags:
-  - sextech
-featured: true
+- culture
+date: 2019-09-19 18:52:51-04:00
 draft: false
+featured: true
+recordings:
+  youtube:
+    length: '32:27'
+    url: https://youtu.be/hTcCxPW78_0
+speakers:
+- alison-falk
+tags:
+- sextech
+title: 'Sextech: The Good, the Bad & the Bias'
 ---
+
 
 When it comes to sextech, people often let their imaginations get in the way of the facts. One common reason is that the media likes to focus primarily on VR porn and bang-able robots. In reality, these subjects are just a small sliver on the sextech spectrum. Sextech spans everything from menopause technology and sex-ed apps to teledildonics and erotica audiobooks. You encounter it when you use an app to track your menstrual cycle, talk to an A.I. OBGYN chatbot, or simply just watch pornography. In this talk I'll describe:
 

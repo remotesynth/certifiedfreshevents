@@ -1,22 +1,22 @@
 ---
-title: "A11y: Myths and Misconceptions"
-date: 2022-09-13T11:30:00-04:00
-end_date: 2022-09-13T12:00:00-04:00
-speakers:
-  - julia-undeutsch
-recordings:
+categories:
+- webdev
+date: 2022-09-13 11:30:00-04:00
+draft: false
+end_date: 2022-09-13 12:00:00-04:00
 event: frontend-foxes-day-2022
 recordings:
   youtube:
+    length: '28:57'
     url: https://youtu.be/9goOuRJMEHY
-    length: "28:57"
-categories:
-  - webdev
+speakers:
+- julia-undeutsch
 tags:
-  - accessibility
-  - webdev
-draft: false
+- accessibility
+- webdev
+title: 'A11y: Myths and Misconceptions'
 ---
+
 
 This talk looks at:
 

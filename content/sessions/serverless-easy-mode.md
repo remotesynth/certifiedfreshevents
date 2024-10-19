@@ -1,23 +1,21 @@
 ---
-title: "Going Severless on Easy Mode"
-date: 2017-12-15T18:52:51-04:00
-speakers:
-  - brian-leroux
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/the-future-of-development
-      start_time: 04:55
-  youtube:
-      url: https://youtu.be/xlP3TNTo9d4
-      length: "37:26"
 categories:
-  - devops
-tags:
-  - devops
-  - serverless
-  - aws
+- devops
+date: 2017-12-15 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '37:26'
+    url: https://youtu.be/xlP3TNTo9d4
+speakers:
+- brian-leroux
+tags:
+- devops
+- serverless
+- aws
+title: Going Severless on Easy Mode
 ---
+
 
 With functions as a service, cloud providers have signaled the smallest billable unit of computation is a single function execution. It's a beautifully simple idea, rejecting the metaphor of a server, and freeing developers to design smaller and simpler services. We can iterate on our code with a high degree of isolation, without fear of affecting other parts of the system; deploy systems in seconds with zero downtime; and always be available regardless of load.
 

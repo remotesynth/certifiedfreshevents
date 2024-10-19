@@ -1,27 +1,25 @@
 ---
-title: "Jamstack 101: Using Gatsby and Netlify for Blazing-fast Websites"
-date: 2020-10-01T12:00:00-04:00
-speakers:
-  - joel-varty
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/jamstack-101-using
-    start_time: "03:45"
-  youtube:
-    url: https://youtu.be/KkzggkTyhTw
-    length: "1:08:05"
 categories:
-  - webdev
-tags:
-  - webdev
-  - jamstack
-  - javascript frameworks
-  - gatsby
-  - react
-  - netlify
-  - headless cms
+- webdev
+date: 2020-10-01 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:08:05'
+    url: https://youtu.be/KkzggkTyhTw
+speakers:
+- joel-varty
+tags:
+- webdev
+- jamstack
+- javascript frameworks
+- gatsby
+- react
+- netlify
+- headless cms
+title: 'Jamstack 101: Using Gatsby and Netlify for Blazing-fast Websites'
 ---
+
 
 Gatsby was designed from the ground up to improve the user experience across the web. That means performance, SEO, and accessibility are top of mind. They have implemented many out-of-the-box techniques to give you a leg up on providing the best experience for your users.
 

@@ -1,26 +1,24 @@
 ---
-title: How We Built Qovery
-date: 2021-12-09T13:00:00-04:00
-speakers:
-  - romaric-philogene
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/what-it-takes-to-build-a
-    start_time: "04:28"
-  youtube:
-    url: https://youtu.be/i67eM9FZpww
-    length: "43:58"
 categories:
-  - webdev
-  - devops
-tags:
-  - devops
-  - webdev
-  - startups
-  - continuous integration
-  - continuous delivery
+- webdev
+- devops
+date: 2021-12-09 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '43:58'
+    url: https://youtu.be/i67eM9FZpww
+speakers:
+- romaric-philogene
+tags:
+- devops
+- webdev
+- startups
+- continuous integration
+- continuous delivery
+title: How We Built Qovery
 ---
+
 
 In this talk, I will share my experience in building Qovery for the 2 last years - a platform that empowers developers to deploy their applications on AWS, Digital Ocean, and all the other cloud service providers.
 
