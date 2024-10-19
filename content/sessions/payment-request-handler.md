@@ -1,23 +1,21 @@
 ---
-title: "The Future of Web Payments - The Payment Request and Payment Handler APIs"
-date: 2018-10-09T18:52:51-04:00
-speakers:
-  - robert-wozniak
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/the-future-of-web
-      start_time: 03:31
-  youtube:
-      url: https://youtu.be/7Y84f1-otzM
-      length: "1:00:03"
 categories:
-  - webdev
-tags:
-  - webdev
-  - ecommerce
-  - web standards
+- webdev
+date: 2018-10-09 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:00:03'
+    url: https://youtu.be/7Y84f1-otzM
+speakers:
+- robert-wozniak
+tags:
+- webdev
+- ecommerce
+- web standards
+title: The Future of Web Payments - The Payment Request and Payment Handler APIs
 ---
+
 
 Did you ever think about rising costs of spending too much time on implementing checkouts?
 

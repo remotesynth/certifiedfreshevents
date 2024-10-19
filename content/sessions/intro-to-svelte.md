@@ -1,25 +1,23 @@
 ---
-title: Starting with Svelte
-date: 2022-05-26T13:00:00-04:00
-speakers:
-  - brittney-postma
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/getting-started-with-the-3
-    start_time: "07:02"
-  youtube:
-    url: https://youtu.be/xC2Md43tOPs
-    length: "48:33"
 categories:
-  - webdev
-tags:
-  - webdev
-  - javascript frameworks
-  - javascript
-  - svelte
-featured: true
+- webdev
+date: 2022-05-26 13:00:00-04:00
 draft: false
+featured: true
+recordings:
+  youtube:
+    length: '48:33'
+    url: https://youtu.be/xC2Md43tOPs
+speakers:
+- brittney-postma
+tags:
+- webdev
+- javascript frameworks
+- javascript
+- svelte
+title: Starting with Svelte
 ---
+
 
 The journey to becoming a web developer has never been easier, but with so many choices it can be overwhelming starting out. Find out why Svelte is different and allows you to learn the fundamentals with all the conveniences of a modern framework.
 

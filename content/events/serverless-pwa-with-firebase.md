@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: PlayingWithFire-022823.jpg
 short_desc: Michael Dowden will walk through building a serverless progressive web app (PWA) that will cover how to use database to cloud functions, hosting, and authentication in Firebase.
 description: Michael Dowden will walk through building a serverless progressive web app (PWA) that will cover how to use database to cloud functions, hosting, and authentication in Firebase.
-embed_url: https://www.crowdcast.io/e/playing-with-fire
 sessions:
   - serverless-pwa-with-firebase
 draft: false

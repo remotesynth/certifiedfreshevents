@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: DeveloperCommunity-032422.jpg
 short_desc: Bryan Robinson will explain how ideas around developer community have evolved and how we can best optimize our efforts at building developer communities.
 description: Bryan Robinson will explain how ideas around developer community have evolved and how we can best optimize our efforts at building developer communities.
-embed_url: https://www.crowdcast.io/e/the-rise-of-developer
 sessions:
   - rise-of-developer-community
 draft: false

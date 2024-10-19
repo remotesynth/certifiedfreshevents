@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BuildSmartSlackBot-101520.jpg
 short_desc: Dave Nugent will walk you through a hands-on workshop building a Slack bot using Node.js.
 description: Dave Nugent will walk you through a hands-on workshop building a Slack bot using Node.js, the Slack API and IBM Watson.
-embed_url: https://www.crowdcast.io/e/build-a-smart-slack-bot
 sessions:
   - build-a-slack-bot
 sponsor:

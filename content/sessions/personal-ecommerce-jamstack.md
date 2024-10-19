@@ -1,25 +1,26 @@
 ---
-title: Getting Personal with Ecommerce, React & the Static Web
-date: 2021-01-28T16:05:00-04:00
-end_date: 2021-01-28T16:15:00-04:00
+categories:
+- webdev
+date: 2021-01-28 16:05:00-04:00
+draft: false
+end_date: 2021-01-28 16:15:00-04:00
+event: the-jam-2021
 recordings:
   youtube:
+    length: '9:39'
     url: https://youtu.be/_KaEKs11zcY
-    length: "9:39"
 speakers:
-  - colby-fayock
-event: the-jam-2021
-categories:
-  - webdev
+- colby-fayock
 tags:
-  - webdev
-  - jamstack
-  - ecommerce
-  - javascript frameworks
-  - react
-  - nextjs
-draft: false
+- webdev
+- jamstack
+- ecommerce
+- javascript frameworks
+- react
+- nextjs
+title: Getting Personal with Ecommerce, React & the Static Web
 ---
+
 
 Ecommerce depends on highly dynamic solutions personalizing experiences for customers from the price of a product to the total cost of that customer’s shopping cart. How can we leverage React and tools like Next.js to bring that dynamic experience to the static web?
 

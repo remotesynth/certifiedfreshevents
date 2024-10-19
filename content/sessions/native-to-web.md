@@ -1,23 +1,21 @@
 ---
-title: "How Native Mobile Development Changed the Way I Write Web Apps"
-date: 2020-06-25T12:00:00-04:00
-speakers:
-  - tj-vantoll
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/how-native-mobile
-    start_time: "03:00"
-  youtube:
-      url: https://youtu.be/mWBQynCYCZQ
-      length: "38:10"
 categories:
-  - webdev
-tags:
-  - mobile
-  - native mobile
-  - webdev
+- webdev
+date: 2020-06-25 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '38:10'
+    url: https://youtu.be/mWBQynCYCZQ
+speakers:
+- tj-vantoll
+tags:
+- mobile
+- native mobile
+- webdev
+title: How Native Mobile Development Changed the Way I Write Web Apps
 ---
+
 
 Web developers tend to be unabashed defenders of the web platform, and tend to view native mobile platforms as proprietary, gated and bloated.
 

@@ -7,7 +7,6 @@ recording_cost: 0
 homepage_banner: Serverless-Go_Small.jpg
 short_desc: Hands-on training with Johnny Boursiquot covers how to build scalable serverless applications with golang.
 description: In this course you will stitch together a series of Lambda functions written in the Go programming language (golang) to build and orchestrate a fully-functional and scalable serverless application while learning how to handle the deployment, logging, metric collection, and distributed tracing that help you effectively adopt the serverless way.
-embed_url: https://www.crowdcast.io/e/serverless-go
 sessions:
     - serverless-go
 sponsor:

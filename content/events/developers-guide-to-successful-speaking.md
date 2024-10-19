@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: SuccessfulSpeakingGuide-041422.png
 short_desc: Oscar Santolalla will share tips and guidance on what makes a great session and how to get started speaking at tech conferences.
 description: Oscar Santolalla will share tips and guidance on what makes a great session and how to get started speaking at tech conferences.
-embed_url: https://www.crowdcast.io/e/a-developers-guide-to
 sessions:
   - become-a-successful-tech-speaker
 draft: false

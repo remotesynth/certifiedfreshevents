@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Jamstack_Identity_Crisis_wide.png
 short_desc: The definition of Jamstack is evolving quickly and in this free session, Ishan Anand will look at what is driving this change and share a unifying theory of what Jamstack is.
 description: The definition of Jamstack is evolving quickly and in this free session, Ishan Anand will look at what is driving this change and share a unifying theory of what Jamstack is.
-embed_url: https://www.crowdcast.io/e/the-jamstack-identity-crisis
 sessions:
   - jamstack-identity-crisis
 sponsor:

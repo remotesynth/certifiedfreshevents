@@ -1,23 +1,24 @@
 ---
-title: "Getting to the Glass — Approaches to rendering views on the web"
-date: 2024-05-23T11:05:00-04:00
-end_date: 2024-05-23T11:45:00-04:00
-speakers:
-  - phil-hawksworth
+categories:
+- webdev
+date: 2024-05-23 11:05:00-04:00
+draft: false
+end_date: 2024-05-23 11:45:00-04:00
+event: moar-serverless-2024
 recordings:
   youtube:
+    length: '38:46'
     url: https://youtu.be/8-RN096e2KU
-    length: "38:46"
-event: moar-serverless-2024
-categories:
-  - webdev
+speakers:
+- phil-hawksworth
 tags:
-  - serverless
-  - netlify
-  - nextjs
-  - eleventy
-draft: false
+- serverless
+- netlify
+- nextjs
+- eleventy
+title: "Getting to the Glass \u2014 Approaches to rendering views on the web"
 ---
+
 
 Controlling what your users see, and achieving good performance when it comes to page speed and response times, all influence how effective your web sites are. Getting it right can be hugely profitable. Getting it wrong can be costly for us all.
 

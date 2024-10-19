@@ -1,19 +1,20 @@
 ---
-title: "Striking the Right Balance on Content: A Conversation with Chris Coyier"
-date: 2023-09-21T16:20:00-04:00
-end_date: 2023-09-21T17:00:00-04:00
-speakers:
-  - chris-coyier
+date: 2023-09-21 16:20:00-04:00
+draft: false
+end_date: 2023-09-21 17:00:00-04:00
+event: codeword-conf-2023
 recordings:
   youtube:
+    length: '42:08'
     url: https://youtu.be/RSV_mtKbQAY
-    length: "42:08"
+speakers:
+- chris-coyier
 tags:
-  - jamstack
-  - content
-event: codeword-conf-2023
-draft: false
+- jamstack
+- content
+title: 'Striking the Right Balance on Content: A Conversation with Chris Coyier'
 ---
+
 
 In many cases, the business side and the engineering side of content seem to be working at odds with each other. Developers want tools for content that are flexible and easy to integrate with their preferred tools while the business users want the ease of editing, previewing and publishing, without needing developer intervention.
 

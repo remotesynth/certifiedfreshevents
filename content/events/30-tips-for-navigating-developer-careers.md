@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Navigating-Your-Career-092222.jpg
 short_desc: James Quick will share tangible advice he's learned over the course of his career that can help you bring your career as a developer to the next level.
 description: James Quick will share tangible advice he's learned over the course of his career that can help you bring your career as a developer to the next level.
-embed_url: https://www.crowdcast.io/e/30-tips-for-navigating
 sessions:
   - 30-tips-for-navigating-your-career
 draft: false

@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Banner_Tools-For-The-Modern-Web-Developer.jpg
 short_desc: A look at some tools that can improve your development process.
 description: Chris Coyier explores using CodePen for developing and sharing code. Shannon Soper looks at building super fast sites using React, GraphQL and Gatsby.
-embed_url: https://www.crowdcast.io/e/tools-for-the-modern-web
 sessions:
   - intro-to-codepen
   - what-makes-gatsby-fast

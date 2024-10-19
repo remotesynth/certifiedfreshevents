@@ -1,11 +1,12 @@
 ---
-title: "Dark Patterns in UI — What not to do to your users"
-date: 2019-02-10T18:52:51-04:00
-speakers:
-  - alyssa-nicoll
-event: flashback-conference-2020
+date: 2019-02-10 18:52:51-04:00
 draft: false
+event: flashback-conference-2020
+speakers:
+- alyssa-nicoll
+title: "Dark Patterns in UI \u2014 What not to do to your users"
 ---
+
 
 I believe developers of any caliber and framework could benefit from knowing more about the power we have as developers over usability and how we can use that power for good.
 

@@ -1,25 +1,23 @@
 ---
-title: "Computer Science in Front End Dev: It's For More than Just Interviews"
-date: 2018-04-13T18:52:51-04:00
-speakers:
-  - jem-young
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/fundamental-javascript/4
-      start_time: 00:03
-  youtube:
-      url: https://youtu.be/OgeeEugysl4
-      length: "1:57:05"
 categories:
-  - software
-  - javascript
-tags:
-  - javascript
-  - career
-  - computer science
+- software
+- javascript
+date: 2018-04-13 18:52:51-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '1:57:05'
+    url: https://youtu.be/OgeeEugysl4
+speakers:
+- jem-young
+tags:
+- javascript
+- career
+- computer science
+title: 'Computer Science in Front End Dev: It''s For More than Just Interviews'
 ---
+
 
 [_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=nKavC-CAqjs)
 

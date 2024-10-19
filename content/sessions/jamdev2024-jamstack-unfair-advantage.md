@@ -1,21 +1,22 @@
 ---
-title: Building a Jamstack Product is an Unfair Advantage
-date: 2024-01-25T14:20:00-05:00
-end_date: 2024-01-25T15:05:00-05:00
-speakers:
-  - nevi-shah
-event: the-jam-2024
 categories:
-  - webdev
-tags:
-  - webdev
-  - jamstack
+- webdev
+date: 2024-01-25 14:20:00-05:00
+draft: false
+end_date: 2024-01-25 15:05:00-05:00
+event: the-jam-2024
 recordings:
   youtube:
+    length: '36:01'
     url: https://youtu.be/CIw_jk8C3u4
-    length: "36:01"
-draft: false
+speakers:
+- nevi-shah
+tags:
+- webdev
+- jamstack
+title: Building a Jamstack Product is an Unfair Advantage
 ---
+
 
 Jamstack introduced a clean separation between the backend and the frontend of our applications, and even in the new age of SSR, keeping this separation will afford you an unfair advantage over your competitors.
 

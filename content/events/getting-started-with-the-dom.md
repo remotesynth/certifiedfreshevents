@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: DOM-Getting-Started.jpg
 short_desc: "Edidiong Asikpo explains the DOM, it’s tree-like structure, and how to target and manipulate it."
 description: "Edidiong Asikpo explains the DOM, it’s tree-like structure, and how to target and manipulate it with JavaScript."
-embed_url: https://www.crowdcast.io/e/getting-started-with-the-2
 sessions:
   - getting-started-dom
 draft: false

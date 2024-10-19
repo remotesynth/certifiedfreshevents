@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: WebComponentswithEnhance-111422.jpg
 short_desc: Simon MacDonald walks through how to get started building dynamic web applications that are based upon web standards using the Enhance framework.
 description: Simon MacDonald walks through how to get started building dynamic web applications that are based upon web standards using the Enhance framework.
-embed_url: https://www.crowdcast.io/e/server-side-rendering
 sessions:
   - ssr-web-components
 draft: false

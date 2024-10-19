@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BetterTeamVirtually-022422.jpg
 short_desc: Jessica Cregg explores how we can better organize how remote teams work and collaborate by taking lessons from video games.
 description: Jessica Cregg explores how we can better organize how remote teams work and collaborate by taking lessons from video games.
-embed_url: https://www.crowdcast.io/e/building-better
 sessions:
   - gaming-the-system
 draft: false

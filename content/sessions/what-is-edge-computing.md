@@ -1,23 +1,21 @@
 ---
-title: What the Heck is Edge Computing Anyway?
-date: 2023-03-14T13:00:00-04:00
-speakers:
-  - austin-gil
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/what-the-heck-is-edge
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/rDkq-hIXM1k
-    length: "1:03:30"
 categories:
-  - software
-tags:
-  - edge computing
-  - FaaS
-  - serverless
+- software
+date: 2023-03-14 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:03:30'
+    url: https://youtu.be/rDkq-hIXM1k
+speakers:
+- austin-gil
+tags:
+- edge computing
+- FaaS
+- serverless
+title: What the Heck is Edge Computing Anyway?
 ---
+
 
 The Edge is the new frontier of computing possibilities, offering promises, opportunities, and it’s own set of challenges. In this talk, we’ll break down what it is, why it’s awesome, and how it fits into your application architecture.
 

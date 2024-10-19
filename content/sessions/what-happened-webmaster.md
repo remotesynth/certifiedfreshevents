@@ -1,11 +1,12 @@
 ---
-title: "Whatever Happened to the Webmaster?"
-date: 2019-02-10T18:52:51-04:00
-speakers:
-  - jay-hoffmann
-event: flashback-conference-2020
+date: 2019-02-10 18:52:51-04:00
 draft: false
+event: flashback-conference-2020
+speakers:
+- jay-hoffmann
+title: Whatever Happened to the Webmaster?
 ---
+
 
 The webmaster was once, quite literally, the master of their domain. Whatever request came through for the website, they could handle, be it a HTML tweak or fix to the server. Their skills evolved with the web, and there was very little they couldn't handle. Self-taught and always learning, the best sites around had a dedicated webmaster or two.
 

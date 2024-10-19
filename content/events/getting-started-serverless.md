@@ -11,7 +11,6 @@ sponsor:
 homepage_banner: Getting-Started-with-Serverless.jpg
 short_desc: Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.
 description: Upkar Lidder of IBM Developer will introduce the concept of serverless, practical use cases and the key concepts that you need to know to get started.
-embed_url: https://www.crowdcast.io/e/getting-started-with-44
 draft: false
 featured: false
 ---

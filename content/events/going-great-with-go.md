@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Banner_Going_Great_With_Go.jpg
 short_desc: "Building serverless and data-driven applications with the Go programming language."
 description: In this free online meetup, Johnny Boursiquot and Ayan George will discuss building serverless and data-driven applications with the Go programming language.
-embed_url: https://www.crowdcast.io/e/going-great-with-go
 sessions:
   - serverless-go-aws
   - sql-helper-go

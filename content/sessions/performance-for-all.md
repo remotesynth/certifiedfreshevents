@@ -1,21 +1,22 @@
 ---
-title: "And Performance For All: Understanding A Lighthouse Score"
-date: 2021-01-28T15:35:00-04:00
-end_date: 2021-01-28T15:45:00-04:00
+categories:
+- stuff
+date: 2021-01-28 15:35:00-04:00
+draft: false
+end_date: 2021-01-28 15:45:00-04:00
+event: the-jam-2021
 recordings:
   youtube:
+    length: '11:24'
     url: https://youtu.be/nhvv2D3huns
-    length: "11:24"
 speakers:
-  - henri-helvetica
-event: the-jam-2021
-categories:
-  - stuff
+- henri-helvetica
 tags:
-  - webdev
-  - performance
-draft: false
+- webdev
+- performance
+title: 'And Performance For All: Understanding A Lighthouse Score'
 ---
+
 
 With web traffic becoming predominantly mobile, performance is a priority in development. With one click, developers can now generate a Lighthouse performance report and score.
 

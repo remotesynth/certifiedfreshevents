@@ -1,27 +1,25 @@
 ---
-title: SaaS Orchestration with AWS Step Functions
-date: 2024-03-26T13:00:00-04:00
-speakers:
-  - bill-tarr
-  - jason-wadsworth
-  - andres-moreno
-  - seth-geoghegan
-recordings:
-  crowdcast:
-    url: https://crowdcast.io/c/step-into-saas
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/lyc61RqKFvE
-    length: "1:04:20"
 categories:
-  - software
-tags:
-  - serverless
-  - aws
-  - step functions
+- software
+date: 2024-03-26 13:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '1:04:20'
+    url: https://youtu.be/lyc61RqKFvE
+speakers:
+- bill-tarr
+- jason-wadsworth
+- andres-moreno
+- seth-geoghegan
+tags:
+- serverless
+- aws
+- step functions
+title: SaaS Orchestration with AWS Step Functions
 ---
+
 
 We'll have 4 lightning talks covering a wide array of uses for step functions within a SaaS application.
 

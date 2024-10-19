@@ -1,25 +1,23 @@
 ---
-title: Code Smarter, not Harder with GitHub Copilot
-date: 2024-01-09T13:00:00-05:00
-speakers:
-  - kedasha-kerr
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/c/github-copilot
-    start_time: "00:00"
-  youtube:
-    url: https://youtu.be/i1ccKg4d4ro
-    length: "29:57"
 categories:
-  - stuff
-tags:
-  - coding assisant
-  - generative ai
-  - github
-  - copilot
+- stuff
+date: 2024-01-09 13:00:00-05:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '29:57'
+    url: https://youtu.be/i1ccKg4d4ro
+speakers:
+- kedasha-kerr
+tags:
+- coding assisant
+- generative ai
+- github
+- copilot
+title: Code Smarter, not Harder with GitHub Copilot
 ---
+
 
 GitHub Copilot is an AI pair programmer that helps you write code faster and with less effort. It draws context from your code to write out entire blocks with surprising results! If you've ever tried GitHub Copilot, it may feel like magic. But how does it work?
 

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: HTMLcontrolsFuture-092321.jpg
 description: In this session, Stephanie Stimac, Program Manager for Developer Experiences on Microsoft Edge, will talk about the history of native form controls and some proposals being considered to improve them.
 short_desc: In this session, Stephanie Stimac, Program Manager for Developer Experiences on Microsoft Edge, will talk about the history of native form controls and some proposals being considered to improve them.
-embed_url: https://www.crowdcast.io/e/the-future-of-html
 sessions:
   - the-future-of-html-controls
 draft: false

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: UsingContainerResponsibly-082522.jpg
 short_desc: Melissa McKay will explore the different tools available for packaging software into containers and how to use them efficiently and securely.
 description: Melissa McKay will explore the different tools available for packaging software into containers and how to use them efficiently and securely.
-embed_url: https://www.crowdcast.io/e/using-containers
 sessions:
   - using-containers-responsibly
 draft: false

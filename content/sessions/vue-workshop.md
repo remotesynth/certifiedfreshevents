@@ -1,20 +1,18 @@
 ---
-title: "Building Web Applications with Vue.js"
-date: 2020-06-16T13:00:00-04:00
-speakers:
-  - raymond-camden
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/building-web
-      start_time: 00:00
 categories:
-  - webdev
-tags:
-  - vue
-  - javascript frameworks
-  - webdev
+- webdev
+date: 2020-06-16 13:00:00-04:00
 draft: false
+recordings: {}
+speakers:
+- raymond-camden
+tags:
+- vue
+- javascript frameworks
+- webdev
+title: Building Web Applications with Vue.js
 ---
+
 
 This is an introductory course to the Vue.js progressive web framework. In this course, we'll introduce Vue.js and give multiple *real world* examples that can be used in real web sites. We'll also give folks the **why** of Vue.js so you can better make the decision of when and where, or even if, to use Vue.js.
 

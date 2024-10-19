@@ -1,20 +1,21 @@
 ---
-title: Bring Content from Anywhere with Astro's Content Layer Loaders
-date: 2024-09-26T14:10:00-04:00
-end_date: 2024-09-26T14:20:00-04:00
-speakers:
-  - paul-bratslavsky
+date: 2024-09-26 14:10:00-04:00
+draft: false
+end_date: 2024-09-26 14:20:00-04:00
+event: codeword-conf-2024
 recordings:
   youtube:
+    length: '11:54'
     url: https://youtu.be/buWrm2VpuNo
-    length: "11:54"
-event: codeword-conf-2024
+speakers:
+- paul-bratslavsky
 tags:
-  - astro
-  - content management
-  - strapi
-draft: false
+- astro
+- content management
+- strapi
+title: Bring Content from Anywhere with Astro's Content Layer Loaders
 ---
+
 
 We all know that great content is key, and Astro is one of the best frameworks for building fast, SEO-optimized, content-first websites. But what if you could take it a step further?
 

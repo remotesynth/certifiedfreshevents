@@ -1,11 +1,12 @@
 ---
-Title: "Let’s web dev like it’s 1999! 🎉"
-speakers:
-  - ben-ilegbodu
-date: 2019-02-10T18:52:51-04:00
-event: flashback-conference-2020
+Title: "Let\u2019s web dev like it\u2019s 1999! \U0001F389"
+date: 2019-02-10 18:52:51-04:00
 draft: false
+event: flashback-conference-2020
+speakers:
+- ben-ilegbodu
 ---
+
 
 When we “view source” our modern web applications, the code looks nothing like what we originally wrote. At a minimum, it’s gone through linting, transpilation, obfuscation, minification, and bundling. And in order to build our beautifully designed apps with sophisticated interactions, we leverage the latest features in HTML, CSS and JavaScript available in our modern evergreen browsers.
 

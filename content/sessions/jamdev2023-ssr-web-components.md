@@ -1,25 +1,26 @@
 ---
-title: SSR Web Components
-date: 2023-01-25T16:25:00-05:00
-end_date: 2023-01-25T17:10:00-05:00
-speakers:
-  - simon-macdonald
+categories:
+- webdev
+date: 2023-01-25 16:25:00-05:00
+draft: false
+end_date: 2023-01-25 17:10:00-05:00
 event: the-jam-2023
 recordings:
   youtube:
+    length: '46:09'
     url: https://youtu.be/ArDHZfTRkcw
-    length: "46:09"
-categories:
-  - webdev
+speakers:
+- simon-macdonald
 tags:
-  - webdev
-  - jamstack
-  - web components
-  - javascript
-  - javascript frameworks
-  - enhance
-draft: false
+- webdev
+- jamstack
+- web components
+- javascript
+- javascript frameworks
+- enhance
+title: SSR Web Components
 ---
+
 
 Building web apps is often characterized as painful, complex, and time consuming. There are many tools, libraries, frontend frameworks, and opinions about how to fix that problem… but they come with a catch. The frontend ecosystem is fractured into incompatible niches. They are incompatible with the web standards until they've been compiled. They are incompatible with each other, and often even incompatible themselves in between versions. This is especially frustrating as web browsers automatically update while remaining backwards compatible. The web is a medium where compatibility is a feature. By adopting non standard dialects we trade off the web's most powerful feature.
 

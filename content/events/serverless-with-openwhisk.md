@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Severless-OpenWhisk.jpg
 short_desc: A free, hands-on workshop featuring Upkar Lidder of IBM who will walk you through building three serverless applications using the open source Apache OpenWhisk platform.
 description: In this free, hands-on workshop, Upkar Lidder will walk you through building three serverless applications using the open source Apache OpenWhisk platform.
-embed_url: https://www.crowdcast.io/e/get-started-with-3
 sessions:
   - get-started-with-openwhisk
 sponsor:

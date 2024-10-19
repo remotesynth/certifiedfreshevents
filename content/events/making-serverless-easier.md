@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Easy-Serverless-Dev-Horiz-100.png
 short_desc: Sumit Verma will show how Framework24, a new open source project, aims to make it easy to deploy serverless infrastructure as code.
 description: Sumit Verma will show how Framework24, a new open source project, aims to make it easy to deploy serverless infrastructure as code.
-embed_url: https://crowdcast.io/c/easier-serverless
 sessions:
   - streamlining-serverless
 draft: false

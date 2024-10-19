@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: DevelopDesignEye-052721.jpg
 short_desc: Tracy Osborn shows developers how to train their design eye so that they can feel more confident picking out good and bad design.
 description: Tracy Osborn shows developers how to train their design eye so that they can feel more confident picking out good and bad design.
-embed_url: https://www.crowdcast.io/e/design-eye-for-the
 sessions:
   - design-eye-for-the-developer
 draft: false

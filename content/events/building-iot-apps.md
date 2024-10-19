@@ -6,7 +6,6 @@ recording_cost: 0
 homepage_banner: Banner-Buiding-IoT-Apps.jpg
 short_desc: Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack.
 description: Brandon Satrom from Particle and Burke Holland from Microsoft will lead you through the IoT stack and show you the right way to build apps that sense and control, from device to cloud and back again.
-embed_url: https://www.crowdcast.io/e/building-iot-apps-from
 sessions:
     - building-iot-apps-2018
 sponsor:

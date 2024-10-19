@@ -1,22 +1,20 @@
 ---
-title: "14 Rules Redux"
-date: 2020-01-17T18:52:51-04:00
-speakers:
-  - henri-helvetica
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/improving-website
-      start_time: 04:10
-  youtube:
-      url: https://youtu.be/BNA36leSlHk
-      length: "54:01"
 categories:
-  - webdev
-tags:
-  - performance
-  - webdev
+- webdev
+date: 2020-01-17 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '54:01'
+    url: https://youtu.be/BNA36leSlHk
+speakers:
+- henri-helvetica
+tags:
+- performance
+- webdev
+title: 14 Rules Redux
 ---
+
 
 It’s 2020, and more than ever we live in an age of immediacy. We make demands for speedier processes, or at the very least - less wait times. All industries and services have scrutinized operations in ways to make product delivery as expeditious as possible.
 

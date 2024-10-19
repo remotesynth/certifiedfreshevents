@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Power-of-Yes.jpg
 short_desc: Hiro Nishimura will share how saying "yes" to opportunities can help overcome the fear associated with imposter syndrome.
 description: Hiro Nishimura will share how saying "yes" to opportunities, even when she didn't feel fully prepared, helps her overcome the fear associated with imposter syndrome.
-embed_url: https://www.crowdcast.io/e/the-power-of-yes-against
 sessions:
   - yes-against-imposter-syndrome
 draft: false

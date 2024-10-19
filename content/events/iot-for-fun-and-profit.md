@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: IoT-For-Fun-And-Profit.jpg
 short_desc: Simple and practical ways for getting started in IoT - from basic electronics to smart home integration
 description: In this free online meetup, Brandon Satrom and Brad Marsh show simple and practical ways for getting started in IoT - from basic electronics to smart home integration.
-embed_url: https://www.crowdcast.io/e/7v1mj9k9
 sessions:
   - from-bits-and-bytes
   - making-smart-home-fun

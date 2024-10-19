@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: jsframeworks2017.jpg
 description: In this free online event, Jen Looper & Holly Schinsky take a look at prominent new JavaScript frameworks to help you decide if they are worth exploring.
 short_desc: A look at new frameworks making an impact in JavaScript.
-embed_url: https://www.crowdcast.io/e/vc1pp66r
 sessions:
   - point-of-vue
   - preact-up-and-running

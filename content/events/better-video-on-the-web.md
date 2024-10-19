@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BetterVideoOnWeb-072221.jpg
 short_desc: Adaptive Bitrate Streaming is a video delivery technique that adjusts the quality of a video stream in real time according to detected bandwidth and CPU capacity.
 description: Adaptive Bitrate Streaming is a video delivery technique that adjusts the quality of a video stream in real time according to detected bandwidth and CPU capacity.
-embed_url: https://www.crowdcast.io/e/better-video-on-the-web
 sessions:
   - make-videos-more-accessible
 draft: false

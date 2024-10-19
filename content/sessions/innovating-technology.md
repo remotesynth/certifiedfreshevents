@@ -1,22 +1,20 @@
 ---
-title: "Innovating is not about technology, but psychology."
-date: 2018-04-05T18:52:51-04:00
-speakers:
-  - alyssa-nicoll
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/developing-success
-      start_time: 03:59
-  youtube:
-      url: https://youtu.be/LKRfNxUzdqI
-      length: "28:05"
 categories:
-  - culture
-tags:
-  - career
-  - career development
+- culture
+date: 2018-04-05 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '28:05'
+    url: https://youtu.be/LKRfNxUzdqI
+speakers:
+- alyssa-nicoll
+tags:
+- career
+- career development
+title: Innovating is not about technology, but psychology.
 ---
+
 
 "It is the recognition that well-read is not a destination, there is nowhere to get to and if there was somewhere to get to, you would need a thousand years to even think about getting there." -Linda Holmes
 

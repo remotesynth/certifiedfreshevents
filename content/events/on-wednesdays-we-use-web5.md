@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Web-5-Mean-Girls-Horiz-80.jpg
 short_desc: Rizèl Scarlett will go over what web5 means, why it is worth paying attention to and how to get started building applications using it.
 description: Rizèl Scarlett will go over what web5 means, why it is worth paying attention to and how to get started building applications using it.
-embed_url: https://crowdcast.io/c/web5-wednesdays
 sessions:
   - on-wednesdays-we-use-web5
 draft: false

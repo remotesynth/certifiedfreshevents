@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Starting-with-GraphQL-111920.jpg
 short_desc: Daniel Phiri introduces GraphQL concepts and how to utilize them in building a web application.
 description: Daniel Phiri introduces GraphQL concepts and how to utilize them in building a web application.
-embed_url: https://www.crowdcast.io/e/getting-started-with-71
 sessions:
   - getting-started-graphql
 draft: false

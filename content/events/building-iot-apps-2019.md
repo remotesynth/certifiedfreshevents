@@ -6,7 +6,6 @@ recording_cost: 0
 homepage_banner: Building-IoT-Apps-with-Azure-and-Particle.jpg
 short_desc: Paul DeCarlo and Brandon Satrom show how to build IoT applications using Particle devices and Azure IoT Hub and IoT Central for cloud intelligence.
 description: "In this workshop, Paul DeCarlo and Brandon Satrom will share one approach for building IoT applications: using Particle for hardware and backhaul, and Azure IoT Hub and IoT Central to power cloud intelligence."
-embed_url: https://www.crowdcast.io/e/building-iot-apps-with
 sessions:
     - building-iot-apps-2019
 sponsor:

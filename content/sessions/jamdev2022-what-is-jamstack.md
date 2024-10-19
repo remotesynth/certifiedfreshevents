@@ -1,23 +1,24 @@
 ---
-title: "No, Seriously… What is Jamstack?"
-date: 2022-01-27T16:25:00-05:00
-end_date: 2022-01-27T17:10:00-05:00
-speakers:
-  - fred-k-schott
+categories:
+- webdev
+date: 2022-01-27 16:25:00-05:00
+draft: false
+end_date: 2022-01-27 17:10:00-05:00
+event: the-jam-2022
 recordings:
   youtube:
+    length: '44:26'
     url: https://youtu.be/B3_yz6b2ZMc
-    length: "44:26"
-event: the-jam-2022
-categories:
-  - webdev
+speakers:
+- fred-k-schott
 tags:
-  - webdev
-  - jamstack
-  - javascript
-  - astro
-draft: false
+- webdev
+- jamstack
+- javascript
+- astro
+title: "No, Seriously\u2026 What is Jamstack?"
 ---
+
 
 I have a confession: I don't think I know exactly what Jamstack means anymore. Oh, sure, I have always had a vague sense of the term and knew that I was a fan. But if you had pressed me on an exact definition a week ago I don't think I could have given you much more than, “the J stands for JavaScript! And… something about CDNs?”
 

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: ModernEcommerce-040821.jpg
 short_desc: Francois Lanthier Nadeau will explore monolithic, Jamstack, and headless commerce and how to pick your e-commerce stack.
 description: Francois Lanthier Nadeau will explore monolithic, Jamstack, and headless commerce and how to pick your e-commerce stack.
-embed_url: https://www.crowdcast.io/e/the-state-of-modern
 sessions:
   - state-of-modern-ecommerce
 sponsor:

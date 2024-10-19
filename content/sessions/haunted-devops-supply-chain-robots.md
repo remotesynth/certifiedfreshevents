@@ -1,20 +1,21 @@
 ---
-title: Supply Chain Robots, Electric Sheep, and SLSA
-date: 2023-10-31T15:05:00-04:00
-end_date: 2023-10-31T15:45:00-04:00
-speakers:
-  - brett-smith
 categories:
-  - devops
+- devops
+date: 2023-10-31 15:05:00-04:00
+draft: false
+end_date: 2023-10-31 15:45:00-04:00
 recordings:
   youtube:
+    length: '37:15'
     url: https://youtu.be/zBwkm6VdvHM
-    length: "37:15"
+speakers:
+- brett-smith
 tags:
-  - devops
-  - security
-draft: false
+- devops
+- security
+title: Supply Chain Robots, Electric Sheep, and SLSA
 ---
+
 
 In this session, I'll cover creating automation, shifting left, attack vectors, attestations, verification, zero-trust, and how the SLSA spec helps implement solutions for each.
 

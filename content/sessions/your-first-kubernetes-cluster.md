@@ -1,25 +1,23 @@
 ---
-title: "Kubernetes for Scaling and Resiliency"
-date: 2021-04-25T12:00:00-05:00
-speakers:
-  - dave-nugent
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/deploying-your-first-2
-    start_time: "05:26"
-  youtube:
-    url: https://youtu.be/MMmKvC_-PsI
-    length: "48:51"
 categories:
-  - devops
-tags:
-  - devops
-  - kubernetes
-  - containers
-  - machine learning
-  - openshift
+- devops
+date: 2021-04-25 12:00:00-05:00
 draft: false
+recordings:
+  youtube:
+    length: '48:51'
+    url: https://youtu.be/MMmKvC_-PsI
+speakers:
+- dave-nugent
+tags:
+- devops
+- kubernetes
+- containers
+- machine learning
+- openshift
+title: Kubernetes for Scaling and Resiliency
 ---
+
 
 How do you deploy applications on top of Kubernetes to allow for scaling and resiliency? Join our workshop and learn how.
 

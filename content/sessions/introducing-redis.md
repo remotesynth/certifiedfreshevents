@@ -1,24 +1,22 @@
 ---
-title: "Introducing Redis, the Database that Developers Love!"
-date: 2021-01-14T13:00:00-04:00
-speakers:
-  - simon-prickett
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/introduction-to-redis
-    start_time: "03:24"
-  youtube:
-    url: https://youtu.be/O3bx9emZlkc
-    length: "1:00:56"
 categories:
-  - software
-tags:
-  - redis
-  - databases
-  - python
-  - nodejs
+- software
+date: 2021-01-14 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '1:00:56'
+    url: https://youtu.be/O3bx9emZlkc
+speakers:
+- simon-prickett
+tags:
+- redis
+- databases
+- python
+- nodejs
+title: Introducing Redis, the Database that Developers Love!
 ---
+
 
 Often thought of as a cache, there's so much more to Redis. Simon Prickett will show you how to add Redis to your stack to improve performance, synchronize communications between distributed systems and even save you from writing lots of code.
 

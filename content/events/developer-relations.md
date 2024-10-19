@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Why-DevRel-Matters.jpg
 short_desc: A discussion of the importance of the practice of developer relations by Mary Thengvall.
 description: In this session, Mary Thengvall will discuss what developer relations is and why it matters to developers.
-embed_url: https://www.crowdcast.io/e/developer-relations
 sessions:
   - developer-relations
 draft: false

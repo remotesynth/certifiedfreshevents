@@ -1,22 +1,23 @@
 ---
-title: "Add-on E-commerce for the JAMStack"
-date: 2021-01-28T16:30:00-04:00
-end_date: 2021-01-28T17:15:00-04:00
+categories:
+- webdev
+date: 2021-01-28 16:30:00-04:00
+draft: false
+end_date: 2021-01-28 17:15:00-04:00
+event: the-jam-2021
 recordings:
   youtube:
+    length: '52:18'
     url: https://youtu.be/Xya-6GwrMSs
-    length: "52:18"
 speakers:
-  - flor-antara
-event: the-jam-2021
-categories:
-  - webdev
+- flor-antara
 tags:
-  - ecommerce
-  - jamstack
-  - webdev
-draft: false
+- ecommerce
+- jamstack
+- webdev
+title: Add-on E-commerce for the JAMStack
 ---
+
 
 Implementing e-commerce can be complicated, not to mention expensive.
 Luckily we have some good options to start selling products on any JAMStack site that are quick to implement and more affordable than a traditional e-commerce solution.

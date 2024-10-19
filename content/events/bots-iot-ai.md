@@ -5,7 +5,6 @@ cost: 0
 short_desc: The ways that we interact with devices and the internet keeps changing.
 description: In this free online meetup, Tomomi Imura and David Simmons explore new ways of interacting with devices and the internet such as chat bots and the internet of things.
 homepage_banner: Bots-Iot-AI-Oh-My.jpg
-embed_url: https://www.crowdcast.io/e/bots-iot-and-ai-oh-my
 sessions:
   - conversational-interface-javascript
 draft: false

@@ -51,26 +51,6 @@ if (registerForm) {
   });
 }
 
-function crowdcastSignup(email, eventcode) {
-  axios
-    .post("/api/zapier", {
-      email: email,
-      eventcode: eventcode,
-    })
-    .then(function (response) {
-      if (response.data.status != "success") {
-        console.log(
-          "There was a problem automatically registering you. Please register via Crowdcast"
-        );
-      }
-    })
-    .catch(function (error) {
-      console.log(
-        "There was a problem automatically registering you. Please register via Crowdcast"
-      );
-    });
-}
-
 /* Mailjet form submit
   -------------------------------------------------------*/
 const subscribeForm = document.getElementById("subscribeForm");

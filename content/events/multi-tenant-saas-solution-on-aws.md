@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: SAASonAWS-102722.jpg
 short_desc: Anubhav Sharma of AWS will give you a template you can use to architect a software-as-a-service (SaaS) application using AWS serverless services
 description: Anubhav Sharma of AWS will give you a template you can use to architect a software-as-a-service (SaaS) application using AWS serverless services
-embed_url: https://www.crowdcast.io/e/building-multi-tenant
 sessions:
   - multi-tenant-saas-aws
 draft: false

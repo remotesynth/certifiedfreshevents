@@ -1,23 +1,21 @@
 ---
-title: Blazing fast Jamstack Personalization
-date: 2021-02-25T12:00:00-04:00
-speakers:
-  - adam-lamarre
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/personalizing-the
-    start_time: "02:25"
-  youtube:
-    url: https://youtu.be/FpI7XdKl-Nk
-    length: "43:26"
 categories:
-  - webdev
-tags:
-  - webdev
-  - jamstack
-  - personalization
+- webdev
+date: 2021-02-25 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '43:26'
+    url: https://youtu.be/FpI7XdKl-Nk
+speakers:
+- adam-lamarre
+tags:
+- webdev
+- jamstack
+- personalization
+title: Blazing fast Jamstack Personalization
 ---
+
 
 Personalization is key to optimize site engagement and give the most relevant experience for your visitors. Join this session to learn how to connect blazing-fast personalization from Uniform.dev with Next,js, Gatsby, Nuxt or Gridsome, working with your CMS and CDN of choice.
 

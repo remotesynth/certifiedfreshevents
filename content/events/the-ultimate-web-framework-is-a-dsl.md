@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Introduction-to-WASP-061323.jpg
 short_desc: In this talk, Wasp's CEO, Matija Sosic, explains what Wasp is, how it works and why they built it by creating a Domain-Specific Language (DSL).
 description: In this talk, Wasp's CEO, Matija Sosic, explains what Wasp is, how it works and why they built it by creating a Domain-Specific Language (DSL).
-embed_url: https://www.crowdcast.io/c/intro-to-wasp
 sessions:
   - intro-to-wasp
 draft: false

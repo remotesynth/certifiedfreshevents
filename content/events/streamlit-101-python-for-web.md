@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Streamlit101-052323.jpg
 short_desc: Caroline Frasca demonstrates how to rapidly build web apps with Python using the open source Streamlit library.
 description: Caroline Frasca demonstrates how to rapidly build web apps with Python using the open source Streamlit library.
-embed_url: https://www.crowdcast.io/c/streamlit-python-web
 sessions:
   - streamlit-python-web
 draft: false

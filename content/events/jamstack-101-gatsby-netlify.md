@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: JAMstack101-100120.jpg
 short_desc: Joel Varty will show how to get started using Gatsby to create blazing fast websites using the Jamstack.
 description: Joel Varty will show how to get started building Jamstack websites using Gatsby connected to a headless CMS and deployed to Neltify.
-embed_url: https://www.crowdcast.io/e/jamstack-101-using
 sessions:
   - jamstack-gatsby-headless-cms
 sponsor:

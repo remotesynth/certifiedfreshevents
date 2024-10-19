@@ -1,22 +1,20 @@
 ---
-title: "Promises, Generators, Async"
-date: 2018-04-13T18:52:51-04:00
-speakers:
-  - kyle-simpson
-recordings:
-  crowdcast:
-        url: https://www.crowdcast.io/e/fundamental-javascript/1
-        start_time: "03:13"
-  youtube:
-      url: https://youtu.be/8pgCNuuAPKI
-      length: "01:57:44"
 categories:
-  - javascript
-tags:
-  - javascript
-  - computer science
+- javascript
+date: 2018-04-13 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: 01:57:44
+    url: https://youtu.be/8pgCNuuAPKI
+speakers:
+- kyle-simpson
+tags:
+- javascript
+- computer science
+title: Promises, Generators, Async
 ---
+
 
 [_Watch a preview for this workshop on YouTube_](https://www.youtube.com/watch?v=mnRCmzPDPO0)
 

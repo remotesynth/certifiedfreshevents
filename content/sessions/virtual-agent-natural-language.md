@@ -1,23 +1,21 @@
 ---
-title: "Build a Virtual Agent with JavaScript and Natural Language Processing"
-date: 2020-09-24T12:00:00-04:00
-speakers:
-  - dave-nugent
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/build-a-virtual-agent
-    start_time: "02:40"
-  youtube:
-    url: https://youtu.be/xWwsSN43lhQ
-    length: "45:50"
 categories:
-  - software
-  - javascript
-tags:
-  - natural language processing
-  - 
+- software
+- javascript
+date: 2020-09-24 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '45:50'
+    url: https://youtu.be/xWwsSN43lhQ
+speakers:
+- dave-nugent
+tags:
+- natural language processing
+- null
+title: Build a Virtual Agent with JavaScript and Natural Language Processing
 ---
+
 
 Can you create an intelligent chatbot using sentiment analysis and live messaging? We'll see how using IBM Watson and Twilio.
 

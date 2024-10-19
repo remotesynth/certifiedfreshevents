@@ -1,24 +1,22 @@
 ---
-title: "Get Started with Serverless Using OpenWhisk - Hands On Workshop"
-date: 2020-04-09T18:52:51-04:00
-speakers:
-  - upkar-lidder
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/get-started-with-3
-    start_time: "03:40"
-  youtube:
-    url: https://youtu.be/SP6gLgsw9hM
-    length: "01:53:03"
 categories:
-  - devops
-tags:
-  - devops
-  - openwhisk
-  - serverless
-  - FaaS
+- devops
+date: 2020-04-09 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: 01:53:03
+    url: https://youtu.be/SP6gLgsw9hM
+speakers:
+- upkar-lidder
+tags:
+- devops
+- openwhisk
+- serverless
+- FaaS
+title: Get Started with Serverless Using OpenWhisk - Hands On Workshop
 ---
+
 
 Serverless is the new most talked about architecture pattern and quickly becoming a buzz word. The idea is for developers to stop worrying about server management and focus on code. The serverless platform takes care of the provisioning servers, underlying infrastructure, server maintenance security and scaling. We will look at three practical use cases of serverless with example code.
 

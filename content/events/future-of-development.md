@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Banner_The-Future-Of-Development.jpg
 short_desc: New technologies like serverless and bots are changing the face of development.
 description: In this free online event, Burke Holland and James Thomas explore what serverless is, why it's an important new development and where it will have impact.
-embed_url: https://www.crowdcast.io/e/the-future-of-development
 sessions:
   - serverless-easy-mode
   - ruby-messenger-bot

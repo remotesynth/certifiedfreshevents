@@ -1,25 +1,23 @@
 ---
-title: "Build a Smart Slack Bot with Node.js and Watson - Hands-on Workshop"
-date: 2020-10-15T12:00:00-04:00
-speakers:
-  - dave-nugent
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/build-a-smart-slack-bot
-    start_time: "03:24"
-  youtube:
-    url: https://youtu.be/w_YDx0zCREc
-    length: "44:23"
 categories:
-  - stuff
-  - javascript
-tags:
-  - slack
-  - bots
-  - IBM Watson
-  - Nodejs
+- stuff
+- javascript
+date: 2020-10-15 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '44:23'
+    url: https://youtu.be/w_YDx0zCREc
+speakers:
+- dave-nugent
+tags:
+- slack
+- bots
+- IBM Watson
+- Nodejs
+title: Build a Smart Slack Bot with Node.js and Watson - Hands-on Workshop
 ---
+
 
 In this interactive workshop, David Nugent from IBM Developer  will walk you through building a bot using Slack's API and IBM Watson.
 

@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: A-Chatbot-Crash-Course.jpg
 short_desc: Sebastian Witalec covers the fundamentals of building a chatbot.
 description: In this session, Sebastian Witalec is going to go over the fundamentals of building a chatbot to help you get started.
-embed_url: https://www.crowdcast.io/e/a-chatbot-crash-course
 sessions:
   - building-a-chatbot
 draft: false

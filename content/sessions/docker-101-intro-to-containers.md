@@ -1,24 +1,22 @@
 ---
-title: Docker 101 - Intro to Containers
-date: 2022-04-28T13:00:00-04:00
-speakers:
-  - shy-ruparel
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/an-introduction-to-13
-    start_time: "06:18"
-  youtube:
-    url: https://youtu.be/VSnil7MVoCM
-    length: "43:15"
 categories:
-  - devops
-tags:
-  - docker
-  - containers
-  - python
+- devops
+date: 2022-04-28 13:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '43:15'
+    url: https://youtu.be/VSnil7MVoCM
+speakers:
+- shy-ruparel
+tags:
+- docker
+- containers
+- python
+title: Docker 101 - Intro to Containers
 ---
+
 
 Software Containers are quickly becoming an essential tool in every developer’s toolbelt. They make it easy to share, run, and scale code. In this talk you'll learn how to use Docker to write better, more sharable software.
 

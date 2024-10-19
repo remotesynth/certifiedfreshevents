@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: JAMstack101-111220.jpg
 short_desc: Joel Varty will show you how to get started building Jamstack sites using JavaScript and Eleventy.
 description: Joel Varty will show you how to get started building Jamstack sites using JavaScript and Eleventy.
-embed_url: https://www.crowdcast.io/e/jamstack-101-getting-2
 sessions:
   - jamstack-11ty
 sponsor:

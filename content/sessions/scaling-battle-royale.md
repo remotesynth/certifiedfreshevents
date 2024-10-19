@@ -1,11 +1,12 @@
 ---
-title: "Scaling a Live Battle Royale Game With No Budget"
-date: 2019-07-31T12:00:00-04:00
-speakers:
-  - em-lazer-walker
-event: flashback-conference-2020
+date: 2019-07-31 12:00:00-04:00
 draft: false
+event: flashback-conference-2020
+speakers:
+- em-lazer-walker
+title: Scaling a Live Battle Royale Game With No Budget
 ---
+
 
 When my collaborator and I built a silly online HTML5 multiplayer game as an open-source side project — Flappy Royale is a 100-player battle royale version of Flappy Bird — we didn’t expect it to go viral. But when we found ourselves going from 0 to nearly 200,000 daily users in just three days, we also found ourselves facing equivalently huge server stability issues and server costs. This talk will walk through our journey rearchitecting Flappy Royale’s backend services, and what we learned building a low-cost, low-maintenance backend for a live HTML5 multiplayer game without a dedicated operations team.
 

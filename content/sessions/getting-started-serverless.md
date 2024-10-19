@@ -1,25 +1,23 @@
 ---
-title: "Getting Started with Serverless"
-date: 2020-02-21T18:52:51-04:00
-speakers:
-  - upkar-lidder
-recordings:
-  crowdcast:
-      url: https://www.crowdcast.io/e/getting-started-with-44
-      start_time: 02:11
-  youtube:
-      url: https://youtu.be/TGz1lnGZSx4
-      length: "51:09"
 categories:
-  - devops
-tags:
-  - devops
-  - serverless
-  - APIs
-  - FaaS
-  - openwhisk
+- devops
+date: 2020-02-21 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '51:09'
+    url: https://youtu.be/TGz1lnGZSx4
+speakers:
+- upkar-lidder
+tags:
+- devops
+- serverless
+- APIs
+- FaaS
+- openwhisk
+title: Getting Started with Serverless
 ---
+
 
 Serverless is the new most talked about architecture pattern and quickly becoming a buzz word. The idea is for developers to stop worrying about server management and focus on code. The serverless platform takes care of the provisioning servers, underlying infrastructure, server maintenance security and scaling. We will look at three practical use cases of serverless with example code.
 

@@ -1,23 +1,21 @@
 ---
-title: "Introduction to Apache CouchDB"
-date: 2020-07-17T12:30:00-04:00
-speakers:
-    - upkar-lidder
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/introduction-to-apache-2
-    start_time: "01:20"
-  youtube:
-    url: https://youtu.be/97QB9FJd8R0
-    length: "01:00:23"
 categories:
-  - software
-tags:
-  - couchdb
-  - databases
-  - nosql
+- software
+date: 2020-07-17 12:30:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: 01:00:23
+    url: https://youtu.be/97QB9FJd8R0
+speakers:
+- upkar-lidder
+tags:
+- couchdb
+- databases
+- nosql
+title: Introduction to Apache CouchDB
 ---
+
 
 NoSQL databases are used in most modern stacks. We will look Apache CouchDB in this hands-on webinar. There is no installation needed if you want to follow along, as we will use a hosted version of CouchDB.
 

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: CypressBrowserTest-060922.jpg
 short_desc: Bekah Hawrot Weigel will show us how to get started using Cypress to build and run automated browser tests.
 description: Bekah Hawrot Weigel will show us how to get started using Cypress to build and run automated browser tests.
-embed_url: https://www.crowdcast.io/e/mission-impossible
 sessions:
   - testing-with-cypress
 draft: false

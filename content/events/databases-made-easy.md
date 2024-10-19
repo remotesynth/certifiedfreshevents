@@ -11,7 +11,6 @@ sponsor:
   URL: https://fauna.com/
 homepage_banner: DatabaseMadeEasy-070821.jpg
 short_desc: Rob Sutter shows how new algorithms enable databases that provide consistency, relations, scale, distribution, and speed without sacrificing the developer experience.
-embed_url: https://www.crowdcast.io/e/databases-made-easy
 draft: false
 featured: false
 ---

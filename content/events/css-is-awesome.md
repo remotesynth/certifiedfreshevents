@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: CSS-is-Awesome-Horiz.png
 short_desc: Martine Dowden explores some of the new properties, pseudo-classes, and techniques that have recently become available in CSS.
 description: Martine Dowden explores some of the new properties, pseudo-classes, and techniques that have recently become available in CSS.
-embed_url: https://www.crowdcast.io/c/css-is-awesome
 sessions:
   - css-is-awesome
 draft: false

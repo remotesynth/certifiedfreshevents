@@ -12,7 +12,6 @@ sponsor:
 homepage_banner: Kubernetes-Cluster-032521.jpg
 short_desc: Dave Nugent will walk through how to architect and deploy a machine learning application to a Kubernetes cluster.
 description: Dave Nugent will walk through how to architect and deploy a machine learning application to a Kubernetes cluster.
-embed_url: https://www.crowdcast.io/e/deploying-your-first-2
 draft: false
 featured: false
 ---

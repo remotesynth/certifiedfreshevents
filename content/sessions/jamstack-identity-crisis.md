@@ -1,24 +1,22 @@
 ---
-title: The Evolution of Jamstack
-date: 2021-05-13T12:00:00-04:00
-speakers:
-  - ishan-anand
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/the-jamstack-identity-crisis
-    start_time: "03:35"
-  youtube:
-    url: https://youtu.be/gXdeHXl4pXY
-    length: "51:29"
 categories:
-  - webdev
-tags:
-  - webdev
-  - jamstack
-  - javascript
-featured: true
+- webdev
+date: 2021-05-13 12:00:00-04:00
 draft: false
+featured: true
+recordings:
+  youtube:
+    length: '51:29'
+    url: https://youtu.be/gXdeHXl4pXY
+speakers:
+- ishan-anand
+tags:
+- webdev
+- jamstack
+- javascript
+title: The Evolution of Jamstack
 ---
+
 
 It seems like Jamstack is going through an identity crisis. How do we make Jamstack work for sites with hundreds of thousands of pages? Can you use SSR and still be Jamstack? How do we reconcile static builds with emerging techniques like ISG/ISR & DPR. In this thought provoking talk, we'll chart the evolving definition of Jamstack over the years and where it may go in the future."
 

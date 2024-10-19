@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: NoPassword-091223.png
 short_desc: Vinicius Campitelli will show us options for building passwordless authentication into your applications and how to get started.
 description: Vinicius Campitelli will show us options for building passwordless authentication into your applications and how to get started.
-embed_url: https://crowdcast.io/c/no-passwords
 sessions:
   - we-dont-need-no-passwords
 draft: false

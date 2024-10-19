@@ -1,24 +1,22 @@
 ---
-title: Databases Made Easy
-date: 2021-06-10T12:00:00-04:00
-speakers:
-    - rob-sutter
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/databases-made-easy
-    start_time: "05:50"
-  youtube:
-    url: https://youtu.be/Z7elDnAR97k
-    length: "46:07"
 categories:
-  - software
-tags:
-  - databases
-  - cloud databases
-  - nosql
+- software
+date: 2021-06-10 12:00:00-04:00
 draft: false
 featured: true
+recordings:
+  youtube:
+    length: '46:07'
+    url: https://youtu.be/Z7elDnAR97k
+speakers:
+- rob-sutter
+tags:
+- databases
+- cloud databases
+- nosql
+title: Databases Made Easy
 ---
+
 
 ### Combining the guarantees of relational databases with modern web and the power of NoSQL
 

@@ -1,23 +1,21 @@
 ---
-title: The State of Modern Ecommerce
-date: 2021-04-08T12:00:00-04:00
-speakers:
-  - francois-lanthier-nadeau
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/the-state-of-modern
-    start_time: "02:30"
-  youtube:
-    url: https://youtu.be/gyGGywZ7w_c
-    length: "53:25"
 categories:
-  - webdev
-tags:
-  - webdev
-  - ecommerce
-  - jamstack
+- webdev
+date: 2021-04-08 12:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '53:25'
+    url: https://youtu.be/gyGGywZ7w_c
+speakers:
+- francois-lanthier-nadeau
+tags:
+- webdev
+- ecommerce
+- jamstack
+title: The State of Modern Ecommerce
 ---
+
 
 Modern ecommerce is complicated. Let's unpack it a bit. This session will touch on:
 

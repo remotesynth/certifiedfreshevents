@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: LLM-Horiz-100.jpg
 short_desc: Xe Iaso will cut through the hype to tell you what you need to know about Large Language Models, what they are good for and how to best utilize them.
 description: Xe Iaso will cut through the hype to tell you what you need to know about Large Language Models, what they are good for and how to best utilize them.
-embed_url: https://crowdcast.io/c/large-language-models
 sessions:
   - function-calling-in-llms
 draft: false

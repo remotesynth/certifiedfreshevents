@@ -1,24 +1,22 @@
 ---
-title: "Make Videos More Accessible with Adaptive Bitrate Streaming (ABS)"
-date: 2021-07-22T13:00:00-04:00
-speakers:
-  - tessa-mero
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/better-video-on-the-web
-    start_time: "03:37"
-  youtube:
-    url: https://youtu.be/Yaiorua8edA
-    length: "54:46"
 categories:
-  - stuff
-tags:
-  - webdev
-  - video
-  - video streaming
-  - cloudinary
+- stuff
+date: 2021-07-22 13:00:00-04:00
 draft: false
+recordings:
+  youtube:
+    length: '54:46'
+    url: https://youtu.be/Yaiorua8edA
+speakers:
+- tessa-mero
+tags:
+- webdev
+- video
+- video streaming
+- cloudinary
+title: Make Videos More Accessible with Adaptive Bitrate Streaming (ABS)
 ---
+
 
 Have you ever been on a slow internet connection and tried to load a video or stream and it’s frozen?
 

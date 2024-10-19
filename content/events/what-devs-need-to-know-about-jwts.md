@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: JWT-Developers-040923.jpg
 short_desc: Dan Moore will show you what JWTs are, how they work and everything you need to know to use them properly in your applications
 description: Dan Moore will show you what JWTs are, how they work and everything you need to know to use them properly in your applications
-embed_url: https://www.crowdcast.io/e/what-developers-need-to
 sessions:
   - what-devs-need-to-know-about-jwts
 draft: false

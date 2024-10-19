@@ -1,13 +1,14 @@
 ---
-title: "Virtual Pub Quiz with Uniform.dev"
-date: 2022-01-27T15:05:00-05:00
-end_date: 2022-01-27T15:35:00-05:00
-speakers:
-  - will-robinson
 banner: Jam-Dev-Pub-Quiz.png
-event: the-jam-2022
+date: 2022-01-27 15:05:00-05:00
 draft: false
+end_date: 2022-01-27 15:35:00-05:00
+event: the-jam-2022
+speakers:
+- will-robinson
+title: Virtual Pub Quiz with Uniform.dev
 ---
+
 
 Take a break from the event, test your knowledge and have some fun! Join Uniform’s resident quiz master Will Robinson for a series of 10 questions. Score well against your peers to earn bragging rights as well as Uniform swag. See you there!
 

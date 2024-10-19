@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BuildVirtualAgent-092420.jpg
 short_desc: Dave Nugent will demonstrate how to build a smart agent using natural language processing.
 description: Dave Nugent will demonstrate how to build a smart agent using JavaScript, Twilio and natural language processing with IBM Watson.
-embed_url: https://www.crowdcast.io/e/build-a-virtual-agent
 sessions:
   - virtual-agent-natural-language
 sponsor:

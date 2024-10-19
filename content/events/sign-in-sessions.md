@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: SignInSession-092623.png
 short_desc: Dev Agrawal will explore how the session can be a powerful tool in authentication that can unlock security and UX capabilities.
 description: Dev Agrawal will explore how the session can be a powerful tool in authentication that can unlock security and UX capabilities.
-embed_url: https://crowdcast.io/c/sign-in-sessions
 sessions:
   - sign-in-sessions
 draft: false

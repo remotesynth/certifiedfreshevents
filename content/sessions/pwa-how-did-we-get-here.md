@@ -1,11 +1,12 @@
 ---
-title: "PWA, How Did We Get Here?"
-date: 2019-07-24T18:52:51-04:00
-speakers:
-  - simon-macdonald
-event: flashback-conference-2020
+date: 2019-07-24 18:52:51-04:00
 draft: false
+event: flashback-conference-2020
+speakers:
+- simon-macdonald
+title: PWA, How Did We Get Here?
 ---
+
 
 Back in the mid 90's we only had one cross platform choice for building internet connected applications and that was HTML, CSS and JavaScript. So why is it now that after 25+ years have passed we are back to building internet connected applications with HTML, CSS and JavaScript and calling them Progressive Web Apps? Join me as we journey from the webs earliest beginnings to get back exactly where we started, or have we?
 

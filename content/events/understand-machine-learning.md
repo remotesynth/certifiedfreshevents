@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Understand-Machine-Learning.jpg
 short_desc: Jen Looper explores the possibilities and limitations of machine learning and natural language processing.
 description: Jen Looper explores the possibilities and limitations of machine learning and natural language processing while building a fun application to write poetry powered by Azure.
-embed_url: https://www.crowdcast.io/e/understanding-machine
 sessions:
   - machine-learning-for-poets
 draft: false

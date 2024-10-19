@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Crack-Code-Horiz.png
 short_desc: Adrienne Braganza Tacke will discuss ways you may likely be doing code reviews wrong, how to fix those issues and other techniques to make code reviews even better.
 description: Adrienne Braganza Tacke will discuss ways you may likely be doing code reviews wrong, how to fix those issues and other techniques to make code reviews even better.
-embed_url: https://crowdcast.io/c/code-reviews
 sessions:
   - code-reviews
 draft: false

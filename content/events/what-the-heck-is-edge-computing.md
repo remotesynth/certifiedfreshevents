@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: EdgeComputing-031423.jpg
 short_desc: Austin Gil will explain what the term really means, when it's applicable (and when it's not) and how to get started.
 description: Austin Gil will explain what the term really means, when it's applicable (and when it's not) and how to get started.
-embed_url: https://www.crowdcast.io/e/what-the-heck-is-edge
 sessions:
   - what-is-edge-computing
 draft: false

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Kubernetes-Openshift.jpg
 description: In this hands-on, virtual workshop, Marek Sadowski will explore how to automate your enterprise application deployment, scaling, and management using Kubernetes.
 short_desc: A hands-on virtual workshop on enterprise application deployment, scaling, and management using Kubernetes.
-embed_url: https://www.crowdcast.io/e/getting-started-with-52
 sessions:
   - kubernetes-openshift
 sponsor:

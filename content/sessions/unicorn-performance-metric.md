@@ -1,22 +1,20 @@
 ---
-title: "The Hunt for the Unicorn Performance Metric"
-date: 2018-01-17T18:52:51-04:00
-speakers:
-  - tammy-everts
-recordings:
-  crowdcast:
-    url: https://www.crowdcast.io/e/improving-your-apps--
-    start_time: 04:18
-  youtube:
-    url: https://youtu.be/vIXVm4R0sKw
-    length: "33:40"
 categories:
-  - webdev
-tags:
-  - webdev
-  - performance
+- webdev
+date: 2018-01-17 18:52:51-04:00
 draft: false
+recordings:
+  youtube:
+    length: '33:40'
+    url: https://youtu.be/vIXVm4R0sKw
+speakers:
+- tammy-everts
+tags:
+- webdev
+- performance
+title: The Hunt for the Unicorn Performance Metric
 ---
+
 
 Slow websites suck. We know that intuitively. But how do we define "slow"? And how do we define "suck"? These are ephemeral words, yet as developers, designers, UX pros, and performance engineers, we're tasked with quantifying them, and then moving on to the next step of figuring out how fast is fast enough for our users.
 
