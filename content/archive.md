@@ -12,7 +12,7 @@ draft: false
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">Event Archive</h1>
       <p class="max-w-3xl text-xl">
-        We've been running virtual presentations, workshops and conferences every month since August 2017. You can watch past events on Crowdcast and YouTube or <a href="/sessions" class="link">view individual session recordings</a>, which have been edited.
+        We've been running virtual presentations, workshops and conferences every month since August 2017. You can watch past events on <a href="https://www.youtube.com/@cfedev" class="link">YouTube</a> or <a href="/sessions" class="link">view individual session recordings</a>, which have been edited.
       </p>
     </header>
   </div>

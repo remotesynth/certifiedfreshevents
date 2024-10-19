@@ -21,9 +21,6 @@
 
   <div class="container mx-auto">
     <div class="block mx-auto bg-black">
-      {{ if ne .Params.embed_url nil }}
-        <div id="crowdcast-embed" data-embed-url="{{ .Params.embed_url }}"></div>
-      {{ end }}
       {{ if ne .Params.homepage_banner nil }}
         {{- $src := resources.Get (print "img/banners/" .Params.homepage_banner) -}}
         <div class="flex justify-center w-full h-full" id="banner-image">
@@ -32,14 +29,6 @@
       {{ end }}
     </div>
   </div>
-
-  {{/* If authenticated, show w/external URL */}}
-  <!--
-  <a href="#"
-    class="container flex justify-center px-8 py-3 mx-auto -mt-1 text-center text-white bg-blue hover:bg-jelly anim">
-    {{ partial "crowdcast-button-content" .}}
-  </a>
-  -->
 
   <div class="container max-w-6xl px-6 pb-8 mx-auto mt-20">
     <div class="flex flex-col items-stretch gap-6 lg:gap-12 lg:flex-row">

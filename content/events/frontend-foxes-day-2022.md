@@ -4,7 +4,6 @@ date: 2022-09-13T09:00:00-04:00
 end_date: 2022-09-13T17:00:00-04:00
 days: 1
 cost: 0
-ticket_url: https://www.crowdcast.io/e/front-end-foxes-day/register
 homepage_banner: FrontEndFoxesDay-090122.jpg
 description: Join 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
 short_desc: Join 12 fantastic women speakers for exciting talks on web development, JavaScript, tech culture and career development.
