@@ -66,12 +66,6 @@ In the eerie realm of technology, where innovation and operations often clash li
   </div>
 </section>
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://crowdcast.io/c/haunted-devops/register" target="_blank">
- Get Your Free Ticket Today!
-</a>
-</div>
-
 ## Speakers {#speakers}
 
 We've already got some fantastic speakers and more to be announced soon.
@@ -80,13 +74,9 @@ We've already got some fantastic speakers and more to be announced soon.
 
 ## Register {#register}
 
-**Haunted DevOps is completely free to attend!**
+**Haunted DevOps has passed but you can still watch all the sessions!**
 
-Just register via [Crowdcast](https://crowdcast.io/c/haunted-devops/register).
-
-<a class="button" style="text-decoration:none;color:#FFF" href="https://crowdcast.io/c/haunted-devops/register" target="_blank">
-Register for free today!
-</a>
+Click on the individual sessions in the schedule below to watch recordings of each presentation.
 
 ## Schedule {#schedule}
 

@@ -32,12 +32,6 @@ styles: thejam.css
 
 Artificial intelligence (AI) and large language models (LLM) are changing users' expectations of software in ways that profoundly impact product strategy. This virtual conference will explore how AI and LLMs are creating new opportunities and even new business models for software in order to prepare you for the next generation of AI driven software.
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://crowdcast.io/c/future-of-ai" target="_blank">
- Register for free on Crowdcast!
-</a>
-</div>
-
 ## Why Join?
 
 <div class="container px-6 mx-auto mt-8">
@@ -93,13 +87,9 @@ We've got another amazing lineup of founders, product leaders and investors in t
 
 ## Register {#register}
 
-Registration is **completely free**, so join us live on Crowdcast on July 31.
+**The Future of AI has passed but you can still watch all the sessions!**
 
-<div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://crowdcast.io/c/future-of-ai">
- Register for free on Crowdcast!
-</a>
-</div>
+Click on the individual sessions in the schedule below to watch recordings of each presentation.
 
 ## Schedule {#schedule}
 
