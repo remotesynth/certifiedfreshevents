@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: PhotoshopAPI-080823.jpg
 short_desc: Raymond Camden explores how to add automations around your application's image management and image editing via Photoshop's APIs.
 description: Raymond Camden explores how to add automations around your application's image management and image editing via Photoshop's APIs.
-embed_url: https://crowdcast.io/c/photoshop-apis
 sessions:
   - automating-images-with-photoshop-apis
 draft: false

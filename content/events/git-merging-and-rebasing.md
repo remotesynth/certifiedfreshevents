@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: gitPanic-Horiz-80.jpg
 short_desc: Abbey Perrini will cover techniques and strategies that will make you an expert at resolving conflicts, squashing, merging and rebasing your repo using git.
 description: Abbey Perrini will cover techniques and strategies that will make you an expert at resolving conflicts, squashing, merging and rebasing your repo using git.
-embed_url: https://crowdcast.io/c/git-merging-rebasing
 sessions:
   - git-merging-and-rebasing
 draft: false

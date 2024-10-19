@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Step-Into-SaaS.jpg
 short_desc: 4 AWS experts will cover everything you need to know about using step functions on AWS to handle a variety of use cases within a SaaS application.
 description: 4 AWS experts will cover everything you need to know about using step functions on AWS to handle a variety of use cases within a SaaS application.
-embed_url: https://crowdcast.io/c/step-into-saas
 sessions:
   - step-functions-aws
 draft: false

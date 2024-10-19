@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: GitHub-Copilot-Horiz-100.jpg
 short_desc: Burke Holland will give us all the tips and tricks we need to get the most of out of generative AI using GitHub Copilot.
 description: Burke Holland will give us all the tips and tricks we need to get the most of out of generative AI using GitHub Copilot.
-embed_url: https://crowdcast.io/c/github-copilot-can-do-that
 sessions:
   - github-copilot-can-do-that
 draft: false

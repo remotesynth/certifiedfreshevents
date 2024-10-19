@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: WYSIWYG-Horiz.jpg
 short_desc: Mrina Sugosh will take a look back at the history of and misconceptions around WYSIWYG tooling to better understand how these tools can help developers and designers in content creation.
 description: Mrina Sugosh will take a look back at the history of and misconceptions around WYSIWYG tooling to better understand how these tools can help developers and designers in content creation.
-embed_url: https://crowdcast.io/c/wysiwyg-myths
 sessions:
   - wysiwyg-myths-and-misconceptions
 draft: false

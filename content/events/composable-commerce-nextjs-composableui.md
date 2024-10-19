@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Build-Composable-Commerce.png
 short_desc: David Azoulay and Danny Lake will show how you can use a composable architecture to build a commerce web site using Next.js and Composable UI.
 description: David Azoulay and Danny Lake will show how you can use a composable architecture to build a commerce web site using Next.js and Composable UI.
-embed_url: https://crowdcast.io/c/composable-commerce
 sessions:
   - composable-commerce
 draft: false

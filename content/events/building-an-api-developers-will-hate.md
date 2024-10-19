@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: API-Devs-Hate-Horiz-80.jpg
 short_desc: Lauren Schaefer has some fun with bad API design by showing us what are the common worst practices and how to avoid them.
 description: Lauren Schaefer has some fun with bad API design by showing us what are the common worst practices and how to avoid them.
-embed_url: https://crowdcast.io/c/building-an-api
 sessions:
   - building-an-API
 draft: false
