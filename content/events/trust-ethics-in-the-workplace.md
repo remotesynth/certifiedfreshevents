@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Trust-Ethics-041123.jpg
 short_desc: Vitaly Sharovatov will discuss how trust and ethics relate to our careers as software engineers and how fostering them can create more satisfying and productive work.
 description: Vitaly Sharovatov will discuss how trust and ethics relate to our careers as software engineers and how fostering them can create more satisfying and productive work.
-embed_url: https://www.crowdcast.io/e/trust-and-ethics-in-the
 sessions:
   - trust-ethics-in-the-workplace
 draft: false

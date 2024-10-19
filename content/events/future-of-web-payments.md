@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Future-Of-Web-Payments.jpg
 short_desc: A deep dive into the new browser Payment Request and Payment Handler APIs
 description: In this free online meetup, Robert Wozniak will explore the new browser Payment Request and Payment Handler APIs.
-embed_url: https://www.crowdcast.io/e/the-future-of-web
 sessions:
   - payment-request-handler
 draft: false

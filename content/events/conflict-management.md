@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Banner_Oh_No_You_Didnt.jpg
 description: In this interactive, our panel will discuss conflict that they have personally faced and techniques that we use to resolve our conflicts
 short_desc: Strategies and techniques to resolve conflicts in the workplace.
-embed_url: https://www.crowdcast.io/e/oh-no-you-didnt-conflict
 sessions:
   - oh-no-you-didnt
 draft: false

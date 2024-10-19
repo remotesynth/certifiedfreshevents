@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: AstroStatic-101421.jpg
 short_desc: Despite being new, Astro is already changing the game for building Jamstack applications with its focus on deliverying better performance through less JavaScript. Cassidy Williams shows you how to get started.
 description: Despite being new, Astro is already changing the game for building Jamstack applications with its focus on deliverying better performance through less JavaScript. Cassidy Williams shows you how to get started.
-embed_url: https://www.crowdcast.io/e/astro-from-the-ground-up
 sessions:
   - astro-ground-up
 draft: false

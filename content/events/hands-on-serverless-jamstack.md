@@ -6,7 +6,6 @@ cost: 49
 homepage_banner: ServerlessForJamstack-090221.jpg
 short_desc: Tamas Piros will walk through how to use serverless cloud functions in a Jamstack app during this hands-on workshop.
 description: Tamas Piros will walk through how to use serverless cloud functions in a Jamstack app during this hands-on workshop.
-embed_url: https://www.crowdcast.io/e/hands-on-serverless-for
 sessions:
   - jamstack-serverless-workshop
 draft: true

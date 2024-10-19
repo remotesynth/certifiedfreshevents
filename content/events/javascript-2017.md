@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: javascript2017.jpg
 short_desc: A look at recent developments in the world of JavaScript.
 description: In this free event, Raymond Camden and TJ VanToll take a look at some of the advancements in JavaScript and how developers can start using them today.
-embed_url: https://www.crowdcast.io/e/rb68byb9
 sessions:
   - wrong-about-typescript
   - es6-es7-where-to-start

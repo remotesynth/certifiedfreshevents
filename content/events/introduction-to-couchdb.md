@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Introduction-To-Apache-Couch.jpg
 short_desc: "A hands-on virtual meetup with Apache CouchDB, a NoSQL database, with Upkar Lidder of IBM."
 description: "In this virtual meetup, Upkar Lidder of IBM will allow you to get hands-on with open source Apache CouchDB, a NoSQL database."
-embed_url: https://www.crowdcast.io/e/introduction-to-apache-2
 sessions:
   - intro-to-couchdb
 sponsor:

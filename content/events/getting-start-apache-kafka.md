@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: ApacheKafka-032823.jpg
 short_desc: Lucia Cerchie will show how Apache Kafka can handle and process streams of real-time data, and demonstrate how to get started using it.
 description: Lucia Cerchie will show how Apache Kafka can handle and process streams of real-time data, and demonstrate how to get started using it.
-embed_url: https://www.crowdcast.io/e/getting-started-with-78
 sessions:
   - apache-kafka-for-javascript-devs
 draft: false

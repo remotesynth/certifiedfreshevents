@@ -6,7 +6,6 @@ cost: 49
 homepage_banner: Web-App-with-VUE.jpg
 short_desc: A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden.
 description: A hands-on workshop for anyone interested in getting started with the Vue JavaScript framework featuring Raymond Camden.
-embed_url: https://www.crowdcast.io/e/building-web
 sessions:
   - vue-workshop
 draft: false

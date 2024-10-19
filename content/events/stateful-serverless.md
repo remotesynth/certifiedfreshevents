@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: SimplyStatefulServerless-102821.jpg
 short_desc: Leon Stigter explains why statefuless is important and how to leverage stateful patterns in your serverless applications.
 description: Leon Stigter explains why statefuless is important and how to leverage stateful patterns in your serverless applications.
-embed_url: https://www.crowdcast.io/e/stateful-serverless
 sessions:
   - simply-stateful-serverless
 draft: false

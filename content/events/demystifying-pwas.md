@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: DemistifyingPWA.jpg
 short_desc: Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one.
 description: In this free online session, Lee Warrick will offer an introduction to PWAs and show you what you need to know to start building one.
-embed_url: https://www.crowdcast.io/e/demystifying-pwas
 sessions:
   - demystifying-pwas
 draft: false

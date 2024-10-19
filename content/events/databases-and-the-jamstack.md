@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: JamstackAndDatabase-062322.png
 short_desc: In this session, Taylor Barnett will show how relational databases are still important and relevant to today's Jamstack applications.
 description: In this session, Taylor Barnett will show how relational databases are still important and relevant to today's Jamstack applications.
-embed_url: https://www.crowdcast.io/e/jamstack-and-databases
 sessions:
   - databases-arent-history-jamstack
 draft: false

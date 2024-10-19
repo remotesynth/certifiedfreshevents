@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: GitHubCopilot-071422.jpg
 short_desc: Rizèl Scarlett will share how she believes is GitHub Copilot's biggest value is in helping you level up your software engineering career.
 description: Rizèl Scarlett will share how she believes is GitHub Copilot's biggest value is in helping you level up your software engineering career.
-embed_url: https://www.crowdcast.io/e/the-truth-about-github
 sessions:
   - the-truth-about-github-copilot
 draft: false

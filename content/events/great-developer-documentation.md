@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Great-Dev-Docs.jpg
 short_desc: Johannes Dienst will share his experiences revamping his product's developer documentation and share some tips and advice for what worked to enhance the quality of the documentation and examples.
 description: Johannes Dienst will share his experiences revamping his product's developer documentation and share some tips and advice for what worked to enhance the quality of the documentation and examples.
-embed_url: https://www.crowdcast.io/c/developer-documentation
 sessions:
   - beautiful-developer-docs
 draft: false

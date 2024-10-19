@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: ModelingAppLogicVisually-021022.jpg
 short_desc: In this session, David Khourshid will how state machines and statecharts can help developers make even the most complex of app logic clear.
 description: In this session, David Khourshid will how state machines and statecharts can help developers make even the most complex of app logic clear.
-embed_url: https://www.crowdcast.io/e/modeling-application
 sessions:
   - modeling-application-logic
 draft: false

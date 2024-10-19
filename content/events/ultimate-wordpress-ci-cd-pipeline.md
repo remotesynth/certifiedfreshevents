@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: UltimateWordpressPipeline-032422.png
 short_desc: Maciek Palmowski will show you the ideal setup for everything from setting up a Wordpress site in Git to deploying it to production
 description: Maciek Palmowski will show you the ideal setup for everything from setting up a Wordpress site in Git to deploying it to production
-embed_url: https://www.crowdcast.io/e/the-ultimate-wordpress
 sessions:
   - ultimate-wordpress-ci-cd
 draft: false

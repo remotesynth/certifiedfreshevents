@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Introducing-Redis-011421.jpg
 description: Redis was named Most Loved Database in Stack Overflow's developer survey for each of the last four years. Simon Prickett explores what Redis is, why developers like it so much, and when to use its unique capabilities.
 short_desc: Simon Prickett explores what Redis is, why developers like it so much, and when to use its unique capabilities.
-embed_url: https://www.crowdcast.io/e/introduction-to-redis
 sessions:
   - introducing-redis
 draft: false

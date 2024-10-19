@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: "Scaling-a-Live-Battle-Royale-Game-With-No-Budget.jpg"
 short_desc: "Em Lazer-Walker shares the trials and tribulations of building a multiplayer game on the web and how to ultimately overcome them."
 description: "Em Lazer-Walker shares her trials and tribulations trying to build a multiplayer game on the web in terms of scaling and stability and how she ultimately overcame them."
-embed_url: https://www.crowdcast.io/e/scaling-a-live-battle
 sessions:
   - scaling-battle-royale-game
 draft: false

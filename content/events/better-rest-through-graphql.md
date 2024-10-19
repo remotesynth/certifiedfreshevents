@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BetterRESTthroughGRAPHQL-011323.png
 short_desc: Alex Patterson will show how you can wrap existing REST APIs in GraphQL to give you the benefits of GraphQL without requiring a major rewrite of existing REST APIs.
 description: Alex Patterson will show how you can wrap existing REST APIs in GraphQL to give you the benefits of GraphQL without requiring a major rewrite of existing REST APIs.
-embed_url: https://www.crowdcast.io/e/better-rest-through
 sessions:
   - rest-with-graphql-on-appwrite
 draft: false

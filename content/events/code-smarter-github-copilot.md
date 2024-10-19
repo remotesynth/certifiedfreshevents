@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Code-Smarter-Not-Harder.jpg
 short_desc: Kedasha Kerr will explore the GitHub Copilot AI coding assistant and show you ways that you can use it to accelerate your workflow.
 description: Kedasha Kerr will explore the GitHub Copilot AI coding assistant and show you ways that you can use it to accelerate your workflow.
-embed_url: https://www.crowdcast.io/c/github-copilot
 sessions:
   - code-smarter-github-copilot
 draft: false

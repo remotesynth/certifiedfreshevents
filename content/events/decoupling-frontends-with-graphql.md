@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Decoupling-Frontend-Backend-with-GraphQL-042221.jpg
 short_desc: Anant Jhingran will explore whether GraphQL can bridge the divide between the backend and frontend developers by meeting the needs of both.
 description: Anant Jhingran will explore whether GraphQL can bridge the divide between the backend and frontend developers by meeting the needs of both.
-embed_url: https://www.crowdcast.io/e/decoupling-frontends-and
 sessions:
   - decoupling-frontends-with-graphql
 draft: false

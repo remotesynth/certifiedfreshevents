@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Supercharge-JS-with-WebAssembly-03-11-21.jpg
 short_desc: In this session, Tamas Piros will show how you can leverage WebAssembly to extend the capabilities of the browser and JavaScript.
 description: In this session, Tamas Piros will show how you can leverage WebAssembly to extend the capabilities of the browser and JavaScript.
-embed_url: https://www.crowdcast.io/e/supercharge-javascript
 sessions:
   - supercharge-js-with-wasm
 sponsor:

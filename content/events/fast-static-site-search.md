@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Search-StaticSites-120822.jpg
 short_desc: Liam Bigelow shows how the new, open-source Pagefind library helps developer add fast, low-bandwidth search to static sites.
 description: Liam Bigelow shows how the new, open-source Pagefind library helps developer add fast, low-bandwidth search to static sites.
-embed_url: https://www.crowdcast.io/e/solving-search-for
 sessions:
   - static-search-with-pagefind
 draft: false

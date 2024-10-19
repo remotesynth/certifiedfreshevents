@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: WordpressDevelopment-090921.jpg
 short_desc: Nate Finch covers everything you need to know about building and deploying Wordpress in a headless/static ecosystem.
 description: Nate Finch covers everything you need to know about building and deploying Wordpress in a headless/static ecosystem.
-embed_url: https://www.crowdcast.io/e/an-ideal-wordpress
 sessions:
   - wordpress-headless-workflow
 draft: false

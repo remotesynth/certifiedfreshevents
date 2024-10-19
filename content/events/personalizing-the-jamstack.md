@@ -5,7 +5,6 @@ end_date: 2021-02-25T13:00:00-04:00
 cost: 0
 homepage_banner: JAMstack-Personalization-022521.jpg
 short_desc: Adam Lamarre will explore a solution to adding personalization to a Jamstack site.
-embed_url: https://www.crowdcast.io/e/personalizing-the
 sessions:
   - blazing-fast-jamstack-personalization
 sponsor:

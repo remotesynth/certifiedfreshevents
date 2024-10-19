@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: SvelteFramework-052622.jpg
 short_desc: In this session, Brittney Postma will walk you through how to get started building JavaScript web applications using Svelte.
 description: In this session, Brittney Postma will walk you through how to get started building JavaScript web applications using Svelte.
-embed_url: https://www.crowdcast.io/e/getting-started-with-the-3
 sessions:
   - intro-to-svelte
 draft: false

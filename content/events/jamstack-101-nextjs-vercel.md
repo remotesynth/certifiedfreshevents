@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: JAMstack101-102220.jpg
 short_desc: Joel Varty will show how to get started using Next.js to create Jamstack websites using React.
 description: Joel Varty will show you everything you need to know to get started building and deploying Jamstack sites using Next.js.
-embed_url: https://www.crowdcast.io/e/jamstack-101-getting
 sessions:
   - jamstack-nextjs-vercel
 sponsor:

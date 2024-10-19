@@ -6,7 +6,6 @@ recording_cost: 0
 homepage_banner: Banner_KnowJS.jpg
 short_desc: Lean JavaScript fundamentals through hands-on, online training.
 description: KnowJS features a full day of hands-on, online JavaScript training with the some of the top developers in the industry.
-embed_url: https://www.crowdcast.io/e/fundamental-javascript
 sessions:
     - promises-generators-async
     - functional-javascript

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: NativeMobileDev.jpg
 short_desc: TJ VanToll explains the things he learned when he returned to web development after spending years deep in mobile app development.
 description: TJ VanToll explains the things he learned when he returned to web development after spending years deep in mobile app development.
-embed_url: https://www.crowdcast.io/e/how-native-mobile
 sessions:
   - native-to-web
 draft: false

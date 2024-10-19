@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: jamstackFTW.jpg
 short_desc: Gift Egwuenu shows how to use the Gridsome static site generator and Vue.js to build JAMstack web applications.
 description: Gift Egwuenu shows how to use the Gridsome static site generator and Vue.js to build JAMstack web applications.
-embed_url: https://www.crowdcast.io/e/jamstack-ftw
 sessions:
   - jamstack-gridsome
 draft: false

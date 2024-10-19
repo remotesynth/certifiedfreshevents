@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: ReactRemoteState-121521.jpg
 short_desc: Jarel Fryer shows how React Query library can simplify managing remote state in React web and native applications.
 description: Jarel Fryer shows how React Query library can simplify managing remote state in React web and native applications.
-embed_url: https://www.crowdcast.io/e/managing-remote-state-in
 sessions:
   - managing-remote-state-react-query
 draft: false

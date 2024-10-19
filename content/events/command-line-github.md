@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: GitHub-CLI.jpg
 description: Learn tips and tricks and tools for the command line and GitHub CLI that every developer can use from Andrea Griffiths.
 short_desc: Andrea Griffiths shares some useful tips, ticks and tools that will supercharge your CLI experience.
-embed_url: https://www.crowdcast.io/e/falling-in-love-with-the
 sessions:
   - github-cli
 draft: false

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: TrendsInBackend-061021.jpg
 short_desc: Monarch Wadia looks at how serverless platforms, powerful APIs, subscription-based developer tools, and one-stop-shop cloud hosts are changing backend development.
 description: Monarch Wadia looks at how serverless platforms, powerful APIs, subscription-based developer tools, and one-stop-shop cloud hosts are changing backend development.
-embed_url: https://www.crowdcast.io/e/4-trends-in-backend
 sessions:
   - 4-trends-in-backend-development
 draft: false

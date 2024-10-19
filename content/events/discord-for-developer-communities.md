@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: DeveloperCommunitiesWithDiscord-101322.jpg
 short_desc: Join Erin Mikail Staples as she walks you through the using Discord to manage developer and technical communities.
 description: Whether you are considering Discord for your community or already running a Discord community and want to get more out of the tool, this workshop will provide you with tips and insights you need. Join Erin Mikail Staples as she walks you through the using Discord to manage developer and technical communities.
-embed_url: https://www.crowdcast.io/e/running-developer
 sessions:
   - discord-workshop
 draft: false

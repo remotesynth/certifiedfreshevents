@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: ModernCMScallenges-011023.jpg
 short_desc: Tiffany Janzen will explore common challenges with content-driven architecture, and how to choose a CMS that balances both flexibility and productivity.
 description: Tiffany Janzen will explore common challenges with content-driven architecture, and how to choose a CMS that balances both flexibility and productivity.
-embed_url: https://www.crowdcast.io/e/the-challenges-of-the
 sessions:
   - flexible-productive-cms
 draft: false

@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: HowMachineLearningWorks.jpg
 short_desc: "Matt Dupree will walk through how gradient descent can be used to form predictions in a machine learning models."
 description: "Matt Dupree will walk through how gradient descent can be used to form predictions in a machine learning model and how to build this in JavaScript."
-embed_url: https://www.crowdcast.io/e/an-intro-to-gradient
 sessions:
   - gradient-descent-javascript
 draft: false

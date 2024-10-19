@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: Banner_Developing-Success.jpg
 short_desc: Learn the skills it takes to become a better developer.
 description: Alyssa Nicoll and Jenell Pizarro share tips on how to learn and grow to become a better developer with experience.
-embed_url: https://www.crowdcast.io/e/developing-success
 sessions:
   - innovating-technology
   - better-with-failure

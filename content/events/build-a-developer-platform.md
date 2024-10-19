@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: BuildDeveloperPlatform-120921.jpg
 short_desc: Learn the lessons of building a developer platform from Romaric Philogène. He'll share how he and his team built Qovery, both from a technical and business sense.
 description: Learn the lessons of building a developer platform from Romaric Philogène. He'll share how he and his team built Qovery, both from a technical and business sense.
-embed_url: https://www.crowdcast.io/e/what-it-takes-to-build-a
 sessions:
   - how-we-built-qovery
 draft: false

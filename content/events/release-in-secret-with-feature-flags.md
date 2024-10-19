@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: FeatureFlags-111621.jpg
 short_desc: Kathleen McMahon will show how using feature flags can allow a developer to launch an entire site rebrand in secret!
 description: Kathleen McMahon will show how using feature flags can allow a developer to launch an entire site rebrand in secret!
-embed_url: https://www.crowdcast.io/e/releasing-in-secret-with
 sessions:
   - rebrand-feature-flags
 draft: false

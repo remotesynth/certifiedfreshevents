@@ -6,7 +6,6 @@ cost: 0
 homepage_banner: Case-for-Web-Accessibility-021121.jpg
 short_desc: Obinna Ekwuno makes the case for prioritizing web accessibility based upon our sense of self and of empathy.
 description: Obinna Ekwuno makes the case for prioritizing web accessibility based upon our sense of self and of empathy.
-embed_url: https://www.crowdcast.io/e/the-case-for-web
 sessions:
   - accessibility-for-humans
 sponsor:

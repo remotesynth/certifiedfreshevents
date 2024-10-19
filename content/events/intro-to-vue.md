@@ -5,7 +5,6 @@ cost: 0
 homepage_banner: An_Introduction_To_VUE.jpg
 short_desc: A gentle introduction to the Vue.js framework by Raymond Camden.
 description: In this session, Raymond Camden will give a gentle introduction to the Vue.js framework and describe why he loves it in a completely fair and balanced manner.
-embed_url: https://www.crowdcast.io/e/an-introduction-to-vue
 sessions:
   - introduction-to-vue
 draft: false
