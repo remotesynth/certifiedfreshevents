@@ -1,11 +1,11 @@
 ---
 title: PixelPalooza 2024
-date: 2024-11-21T11:00:00-04:00
-end_date: 2024-11-21T17:00:00-04:00
+date: 2024-11-21T12:00:00-05:00
+end_date: 2024-11-21T16:00:00-05:00
 days: 1
 cost: 0
 ticket_url: https://www.crowdcast.io/c/pixelpalooza/
-homepage_banner: PixelPalooza2024.png
+homepage_banner: PixelPalooza2024.jpg
 description: PixelPalooza will explore all the ways we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
 short_desc: PixelPalooza will explore all the ways we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
 draft: false
@@ -119,7 +119,7 @@ Register for free today!
 
 ## Schedule {#schedule}
 
-PixelPalooza will feature a full day of sessions running from 11am ET (GMT -4) until 5pm ET. We're still finalizing our schedule with more session details coming soon!
+PixelPalooza will feature a full day of sessions running from 12pm ET (GMT -4) until 4pm ET. We're still finalizing our schedule with more session details coming soon!
 
 
 ## Code of Conduct {#coc}
