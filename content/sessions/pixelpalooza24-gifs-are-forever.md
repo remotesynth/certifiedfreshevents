@@ -1,7 +1,7 @@
 ---
 title: GIFs Are Forever, Let’s Make Them Better!
-date: 2024-11-21 15:45:00-05:00
-end_date: 2024-11-21 16:25:00-05:00
+date: 2024-11-21 15:25:00-05:00
+end_date: 2024-11-21 16:05:00-05:00
 event: pixelpalooza-2024
 speakers:
 - tyler-sticka
