@@ -1,7 +1,7 @@
 ---
 title: "Around the wwworld: Web MIDI, Web AUDIO and what the web does best"
-date: 2024-11-21 12:05:00-05:00
-end_date: 2024-11-21 12:45:00-05:00
+date: 2024-11-21 12:00:00-05:00
+end_date: 2024-11-21 12:40:00-05:00
 event: pixelpalooza-2024
 speakers:
 - katie-fenn

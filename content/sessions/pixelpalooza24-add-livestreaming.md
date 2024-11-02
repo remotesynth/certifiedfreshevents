@@ -1,7 +1,7 @@
 ---
 title: Add Live Streaming to Your Application (Without Being a Video Expert!)
-date: 2024-11-21 13:45:00-05:00
-end_date: 2024-11-21 14:25:00-05:00
+date: 2024-11-21 13:40:00-05:00
+end_date: 2024-11-21 14:20:00-05:00
 event: pixelpalooza-2024
 speakers:
 - todd-sharp
