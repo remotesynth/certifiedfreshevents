@@ -12,7 +12,18 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+- katie-fenn
+- todd-sharp
+- tyler-sticka
+- tbd-moar-serverless
 sessions:
+- pixelpalooza24-opening
+- pixelpalooza24-web-audio-midi
+- pixelpalooza24-session2
+- pixelpalooza24-add-livestreaming
+- pixelpalooza24-session4
+- pixelpalooza24-gifs-are-forever
+- pixelpalooza24-closing
 styles: thejam.css
 event_type: conference
 ---
@@ -80,7 +91,9 @@ Media like images, video, audio and documents play a huge role in the experience
 
 ## Speakers {#speakers}
 
-We'll be announcing speakers later this year. Stay tuned!
+We're finalizing our lineup of amazing speakers!
+
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
@@ -121,6 +134,7 @@ Register for free today!
 
 PixelPalooza will feature a full day of sessions running from 12pm ET (GMT -4) until 4pm ET. We're still finalizing our schedule with more session details coming soon!
 
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
