@@ -15,11 +15,12 @@ speakers:
 - katie-fenn
 - todd-sharp
 - tyler-sticka
+- luis-ball
 - tbd-moar-serverless
 sessions:
 - pixelpalooza24-opening
 - pixelpalooza24-web-audio-midi
-- pixelpalooza24-session2
+- pixelpalooza24-ipx
 - pixelpalooza24-add-livestreaming
 - pixelpalooza24-session4
 - pixelpalooza24-gifs-are-forever
