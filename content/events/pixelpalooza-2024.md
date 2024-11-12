@@ -16,13 +16,13 @@ speakers:
 - todd-sharp
 - tyler-sticka
 - luis-ball
-- tbd-moar-serverless
+- joel-varty
 sessions:
 - pixelpalooza24-opening
 - pixelpalooza24-web-audio-midi
 - pixelpalooza24-ipx
 - pixelpalooza24-add-livestreaming
-- pixelpalooza24-session4
+- pixelpalooza24-opengraph
 - pixelpalooza24-gifs-are-forever
 - pixelpalooza24-closing
 styles: thejam.css
