@@ -12,8 +12,8 @@ categories:
 - webdev
 recordings:
   youtube:
-    length: '00:00'
-    url: https://youtube.com/live/IKdipM9YRwE
+    length: '47:47'
+    url: https://youtu.be/DnEksmckkY8
 draft: false
 featured: true
 ---
