@@ -133,7 +133,7 @@ Register for free today!
 
 ## Schedule {#schedule}
 
-PixelPalooza will feature a full day of sessions running from 12pm ET (GMT -4) until 4pm ET. We're still finalizing our schedule with more session details coming soon!
+PixelPalooza will feature a full day of sessions running from 12pm ET (GMT -5) until 4pm ET. The times below are shown in your local time zone.
 
 {{< conf-schedule >}}
 
