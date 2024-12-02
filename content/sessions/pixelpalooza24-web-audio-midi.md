@@ -5,6 +5,10 @@ end_date: 2024-11-21 12:40:00-05:00
 event: pixelpalooza-2024
 speakers:
 - katie-fenn
+recordings:
+  youtube:
+    url: https://youtu.be/6DMJCACuIHg
+    length: "40:24"
 draft: false
 ---
 
