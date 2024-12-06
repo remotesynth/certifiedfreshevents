@@ -5,6 +5,10 @@ end_date: 2024-11-21 14:20:00-05:00
 event: pixelpalooza-2024
 speakers:
 - todd-sharp
+recordings:
+  youtube:
+    url: https://youtu.be/rI7g_7_nCeo
+    length: "43:11"
 draft: false
 ---
 

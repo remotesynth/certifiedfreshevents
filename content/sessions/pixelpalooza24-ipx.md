@@ -5,6 +5,10 @@ end_date: 2024-11-21 13:30:00-05:00
 event: pixelpalooza-2024
 speakers:
 - luis-ball
+recordings:
+  youtube:
+    url: https://youtu.be/2z4bVmJ0pMw
+    length: "36:32"
 draft: false
 ---
 

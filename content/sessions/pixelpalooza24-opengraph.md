@@ -5,6 +5,10 @@ end_date: 2024-11-21 15:10:00-05:00
 event: pixelpalooza-2024
 speakers:
 -  joel-varty
+recordings:
+  youtube:
+    url: https://youtu.be/4BxeQ61SDb8
+    length: "39:08"
 draft: false
 ---
 

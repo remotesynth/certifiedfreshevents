@@ -5,6 +5,10 @@ end_date: 2024-11-21 16:00:00-05:00
 event: pixelpalooza-2024
 speakers:
 - tyler-sticka
+recordings:
+  youtube:
+    url: https://youtu.be/hepvw6xr_O0
+    length: "38:26"
 draft: false
 ---
 
