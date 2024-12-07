@@ -1,5 +1,5 @@
 ---
-title: Inside the brain of an LLM
+title: Inside the Brain of an LLM
 date: 2024-12-19T13:00:00-05:00
 end_date: 2024-12-19T14:00:00-05:00
 cost: 0
