@@ -9,6 +9,11 @@ recordings:
   youtube:
     url: https://youtu.be/6DMJCACuIHg
     length: "40:24"
+categories:
+  - webdev
+tags:
+  - web audio
+  - web midi
 draft: false
 ---
 

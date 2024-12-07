@@ -9,6 +9,12 @@ recordings:
   youtube:
     url: https://youtu.be/rI7g_7_nCeo
     length: "43:11"
+categories:
+  - stuff
+tags:
+  - live streaming
+  - Twitch
+  - Amazon IVS
 draft: false
 ---
 

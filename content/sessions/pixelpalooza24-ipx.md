@@ -9,6 +9,13 @@ recordings:
   youtube:
     url: https://youtu.be/2z4bVmJ0pMw
     length: "36:32"
+categories:
+  - webdev
+tags:
+  - images
+  - CDN
+  - IPX
+  - Imigx
 draft: false
 ---
 

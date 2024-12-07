@@ -9,6 +9,14 @@ recordings:
   youtube:
     url: https://youtu.be/4BxeQ61SDb8
     length: "39:08"
+categories:
+  - webdev
+tags:
+  - Nextjs
+  - Astro
+  - CDS
+  - Cloudinary
+  - OpenGraph
 draft: false
 ---
 

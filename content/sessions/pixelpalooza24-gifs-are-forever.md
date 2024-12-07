@@ -9,6 +9,13 @@ recordings:
   youtube:
     url: https://youtu.be/hepvw6xr_O0
     length: "38:26"
+categories:
+  - webdev
+tags:
+  - images
+  - gifs
+  - web development
+  - webdev
 draft: false
 ---
 
