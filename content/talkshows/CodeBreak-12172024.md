@@ -7,7 +7,7 @@ host:
   - raymond-camden
 recordings:
   youtube:
-    url: https://youtube.com/live/z9gVrDROuWE
+    url: https://youtube.com/live/wvaOkBTlSJ4
     length: "00:00"
 show: CodeBreak
 short_desc: Come join Ray (and special guests) for the last stream of the year. We'll talk shop, code, this and that, and see what happens.

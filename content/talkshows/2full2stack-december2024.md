@@ -7,7 +7,7 @@ host:
   - nick-taylor
 recordings:
   youtube:
-    url: https://youtube.com/live/q2jILD9g_Pw
+    url: https://youtube.com/live/apHBo976CR4
     length: "00:00"
 show: 2full2stack
 short_desc: Get ready to unwrap a surprise gift of code as Nick hosts a festive live-coding extravaganza! Nick will be crafting something fun and unexpected right before your eyes—what could it be? Tune in to watch the holiday magic unfold.
