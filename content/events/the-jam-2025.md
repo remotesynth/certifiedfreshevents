@@ -13,6 +13,8 @@ featured: false
 layout: thejam
 speakers:
   - lizzie-siegle
+  - henri-helvetica
+  - jo-franchetti
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
