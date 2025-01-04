@@ -3,6 +3,7 @@ title: Shy Ruparel
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ShyRuparel.jpg
 job_title: Developer Advocate at Superblocks
+bluesky: shy.party
 mastodon: https://hackny.social/@Shy
 twitter: ShyRuparel
 github: Shy

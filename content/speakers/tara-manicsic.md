@@ -3,6 +3,7 @@ title: "Tara Manicsic"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: taramanicsic.jpg
 job_title:  Developer Experience Engineer at Netlify
+bluesky: tzmanics.bsky.socials
 twitter: tzmanics
 github: tzmanics
 draft: false

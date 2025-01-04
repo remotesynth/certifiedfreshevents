@@ -5,6 +5,7 @@ speaker_image: JoFranchetti.jpg
 job_title: DevRel Engineer at Deno
 twitter: thisisjofrank
 github: thisisjofrank
+bluesky: thisisjofrank.bsky.social
 website: https://medium.com/@jofranchetti
 draft: false
 ---

@@ -3,6 +3,7 @@ title: Miriam Schwab
 date: 2019-07-24T18:52:51-04:00
 speaker_image: miriam-schwab.jpg
 job_title:  Head of WordPress Relations at Elementor
+bluesky: miriamschwab.bsky.socials
 twitter: miriamschwab
 website: https://www.strattic.com/
 draft: false

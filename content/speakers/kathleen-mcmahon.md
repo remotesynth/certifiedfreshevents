@@ -3,6 +3,7 @@ title: Kathleen McMahon
 date: 2019-07-24T18:52:51-04:00
 speaker_image: KathleenMcMahon.jpg
 job_title: Senior Design Engineer at LaunchDarkly
+bluesky: resource11.bsky.social
 twitter: resource11
 github: resource11
 website: https://www.kathleenmcmahon.dev/

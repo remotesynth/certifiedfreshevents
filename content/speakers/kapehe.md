@@ -3,6 +3,7 @@ title: Kapehe
 date: 2019-07-24T18:52:51-04:00
 speaker_image: kapehe.jpg
 job_title: Senior Developer Relations at Sanity.io
+bluesky: kapehe.bsky.social
 mastodon: https://birdsite.blazelight.dev/users/kapehe_ok
 twitter: kapehe_ok
 github: kapehe-ok

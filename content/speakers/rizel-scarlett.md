@@ -3,6 +3,7 @@ title: Rizèl Scarlett
 date: 2019-07-24T18:52:51-04:00
 speaker_image: RizelScarlett.jpg
 job_title: Staff Developer Advocate at TBD
+bluesky: blackgirlbytes.bsky.social
 twitter: blackgirlbytes
 website: http://blackgirlbytes.dev/
 draft: false

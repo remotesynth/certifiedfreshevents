@@ -3,6 +3,7 @@ title: Bryan Robinson
 date: 2019-07-24T18:52:51-04:00
 speaker_image: bryanrobinson.jpg
 job_title: Head of Developer Advocacy at Hygraph
+bluesky: brob.dev
 mastodon: https://hachyderm.io/@brob
 twitter: brob
 github: brob

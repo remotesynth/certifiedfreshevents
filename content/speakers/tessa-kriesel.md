@@ -3,6 +3,7 @@ title: Tessa Kriesel
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TessaKriesel.jpg
 job_title: Head of Platform Developer Relations at Snap
+bluesky: tessak22.bsky.social
 twitter: tessak22
 website: https://www.tessakriesel.com/
 draft: false

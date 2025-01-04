@@ -3,6 +3,7 @@ title: Lauren Schaefer
 date: 2019-07-24T18:52:51-04:00
 speaker_image: LaurenSchaefer.jpg
 job_title:  Staff Developer Advocate at Grammarly
+bluesky: laurenschaefer.bsky.social
 twitter: lauren_schaefer
 github: ljhaywar
 website: https://linktr.ee/lauren_schaefer

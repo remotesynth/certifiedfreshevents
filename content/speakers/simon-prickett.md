@@ -3,6 +3,7 @@ title: Simon Prickett
 date: 2019-07-24T18:52:51-04:00
 speaker_image: simonprickett.jpg
 job_title:  Senior Curriculum Engineer at Redis Labs
+bluesky: simonprickett.dev
 twitter: simon_prickett
 github: simonprickett
 website: https://simonprickett.dev/

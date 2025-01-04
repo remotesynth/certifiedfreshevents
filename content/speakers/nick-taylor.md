@@ -3,6 +3,7 @@ title: Nick Taylor
 date: 2019-07-24T18:52:51-04:00
 speaker_image: NickTaylor.jpg
 job_title: Senior Software Engineer at OpenSauced
+bluesky: nickyt.online
 twitter: nickytonline
 github: nickytonline
 mastodon: https://toot.cafe/@nickytonline

@@ -3,6 +3,7 @@ title: Brian Douglas
 date: 2019-07-24T18:52:51-04:00
 speaker_image: BrianDouglas.jpg
 job_title:  Developer Advocate at GitHub
+bluesky: bizza.pizza
 twitter: bdougieYO
 github: bdougie
 website: https://bdougie.live/

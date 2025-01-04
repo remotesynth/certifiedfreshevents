@@ -4,6 +4,7 @@ date: 2019-07-24T18:52:51-04:00
 speaker_image: RachaelYomtoob.jpg
 job_title: Product Owner at Deque Systems
 twitter: ryomtoob
+bluesky: ryomtoob.bsky.social
 draft: false
 ---
 

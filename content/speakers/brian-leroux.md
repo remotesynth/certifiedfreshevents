@@ -3,6 +3,7 @@ title: "Brian Leroux"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: brianleroux.jpg
 job_title:  Co-founder at Begin
+bluesky: brianleroux.bsky.social
 twitter: brianleroux
 github: brianleroux
 website: https://brian.io/

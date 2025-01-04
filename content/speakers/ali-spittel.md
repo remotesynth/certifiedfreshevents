@@ -3,6 +3,7 @@ title: Ali Spittel
 date: 2019-07-24T18:52:51-04:00
 speaker_image: alispittel.jpg
 job_title:  Senior Developer Advocate at AWS
+bluesky: alispit.tel
 mastodon: https://mastodon.social/@aspittel
 twitter: ASpittel
 website: https://alispit.tel/

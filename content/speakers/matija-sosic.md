@@ -2,7 +2,7 @@
 title: Matija Sosic
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MatijaSosic.jpg
-job_title:  CEO & Co-founder at Wasp.
+job_title:  CEO & Co-founder at Wasp
 twitter: MatijaSosic
 github: matijaSos
 website: https://wasp-lang.dev

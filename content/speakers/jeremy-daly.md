@@ -2,7 +2,8 @@
 title: Jeremy Daly
 date: 2019-07-24T18:52:51-04:00
 speaker_image: jeremy-daly.jpg
-job_title: GM of Serverless Cloud at Serverless.com
+job_title: Director of Research at CloudZero
+bluesky: jeremydaly.com
 twitter: jeremy_daly
 github: jeremydaly
 website: https://www.jeremydaly.com/

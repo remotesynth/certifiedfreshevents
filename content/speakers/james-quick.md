@@ -3,6 +3,7 @@ title: James Q. Quick
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JamesQuick.jpg
 job_title: Full Stack Developer
+bluesky: jamesqquick.bsky.social
 mastodon: https://birdsite.blazelight.dev/users/jamesqquick
 twitter: jamesqquick
 website: https://www.jamesqquick.com/

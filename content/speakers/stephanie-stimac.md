@@ -3,6 +3,7 @@ title: Stephanie Stimac
 date: 2019-07-24T18:52:51-04:00
 speaker_image: StephanieStimac.jpg
 job_title: Program Manager on Microsoft Edge
+bluesky: seaotta.dev
 mastodon: https://birdsite.blazelight.dev/users/seaotta
 twitter: seaotta
 github: ststimac

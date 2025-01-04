@@ -3,6 +3,7 @@ title: Austin Gil
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AustinGil.png
 job_title: Developer Advocate at Akamai
+bluesky: austingil.bsky.social
 twitter: heyAustinGil
 website: https://austingil.com/
 mastodon: https://mastodon.social/@austingil

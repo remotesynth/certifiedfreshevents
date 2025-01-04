@@ -3,6 +3,7 @@ title: "Tomomi Imura"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: tomomiimura.jpg
 job_title:  Developer Advocate at Slack
+bluesky: tomomi.bsky.social
 mastodon: https://mastodon.social/@girlie_mac
 twitter: girlie_mac
 github: girliemac

@@ -3,6 +3,7 @@ title: Johannes Dienst
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JohannesDienst.jpg
 job_title:  Developer Advocate at AskUI
+bluesky: johannesdienst.bsky.social
 twitter: JohannesDienst
 github: JohannesDienst
 website: https://johannesdienst.net

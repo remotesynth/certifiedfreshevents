@@ -3,6 +3,7 @@ title: Ishan Anand
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ishananand.jpg
 job_title: AI Consultant and Educator
+bluesky: ishananand.bsky.social
 twitter: ianand
 website: https://ishananand.com/
 draft: false

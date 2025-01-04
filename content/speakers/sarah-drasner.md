@@ -3,6 +3,7 @@ title: "Sarah Drasner"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: sarah-drasner.jpg
 job_title: Director of Engineering, Core Developer Web at Google
+bluesky: sarahedo.bsky.social
 mastodon: https://hachyderm.io/@sarah_edo
 twitter: sarah_edo
 github: sdras

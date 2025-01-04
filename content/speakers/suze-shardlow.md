@@ -3,6 +3,7 @@ title: Suze Shardlow
 date: 2019-07-24T18:52:51-04:00
 speaker_image: SuzeShardlow.jpg
 job_title: Developer Relations Strategist
+bluesky: suze.dev
 twitter: SuzeShardlow
 github: SuzeShardlow
 website: https://suze.dev/

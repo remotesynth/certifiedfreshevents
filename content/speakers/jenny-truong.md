@@ -3,6 +3,7 @@ title: Jenny Truong
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JennyTruong.jpg
 job_title: Head of Operations and Developer Relations at Stately.ai
+bluesky: jennytru.bsky.social
 twitter: jen_ayy_
 draft: false
 ---

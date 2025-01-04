@@ -3,6 +3,7 @@ title: PJ Hagerty
 date: 2019-07-24T18:52:51-04:00
 speaker_image: pjhagerty.jpg
 job_title: Founder of DevRelate.io
+bluesky: aspleenic.bsky.social
 twitter: aspleenic
 website: https://devrelate.io/
 draft: false

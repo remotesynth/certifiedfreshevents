@@ -3,6 +3,7 @@ title: Tim Benniks
 date: 2019-07-24T18:52:51-04:00
 speaker_image: timbenniks.jpg
 job_title: Developer Advocate at Uniform
+bluesky: timbenniks.dev
 twitter: timbenniks
 github: timbenniks
 website: https://timbenniks.dev/

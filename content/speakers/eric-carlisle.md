@@ -3,6 +3,7 @@ title: Eric Carlisle
 date: 2022-11-22T00:00:00-04:00
 speaker_image: EricCarlisle.jpg
 job_title: Design Technologist
+bluesky: ericcarlisle.bsky.social
 mastodon: https://fosstodon.org/@ericcarlisle
 website: https://ericcarlisle.com/
 github: ecarlisle

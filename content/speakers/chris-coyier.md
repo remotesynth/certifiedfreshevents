@@ -3,6 +3,7 @@ title: "Chris Coyier"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: chriscoyier.jpg
 job_title:  Co-founder of CodePen
+bluesky: chriscoyier.net
 mastodon: https://front-end.social/@chriscoyier
 twitter: chriscoyier
 github: chriscoyier

@@ -3,6 +3,7 @@ title: Michael Dowden
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MichaelDowden.png
 job_title: Sr. Engineering Manager at LegalZoom
+bluesky: mrdowden.com
 twitter: mrdowden
 mastodon: https://mastodon.social/@mrdowden
 website: https://andromedagalactic.com/profile/michael-dowden/

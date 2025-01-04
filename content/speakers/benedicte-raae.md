@@ -3,6 +3,7 @@ title: Queen Raae
 date: 2019-07-24T18:52:51-04:00
 speaker_image: BenedicteRaae.jpg
 job_title: Web Developer
+bluesky: raae.dev
 twitter: raae
 website: https://queen.raae.codes/
 github: queen-raae

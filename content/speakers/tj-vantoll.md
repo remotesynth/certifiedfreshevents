@@ -2,7 +2,8 @@
 title: "TJ VanToll"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: tjvantoll.jpg
-job_title:  Developer Advocate at Progress
+job_title:  Developer Advocate at Blues
+bluesky: tjvantoll.bsky.social
 twitter: tjvantoll
 github: tjvantoll
 website: https://www.tjvantoll.com/

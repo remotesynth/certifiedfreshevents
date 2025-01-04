@@ -3,6 +3,7 @@ title: "Brian Benz"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: BrianBenz.jpg
 job_title: Cloud Advocate at Microsoft
+bluesky: bbenz.bsky.social
 twitter: bbenz
 github: bbenz
 website: https://brianbenz.com/

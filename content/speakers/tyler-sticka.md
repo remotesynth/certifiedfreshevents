@@ -3,6 +3,7 @@ title: Tyler Sticka
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TylerSticka.jpg
 job_title:  Vice President at Cloud Four
+bluesky: tylersticka.com
 mastodon: https://social.lol/@tylersticka
 github: tylersticka
 draft: false

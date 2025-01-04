@@ -2,7 +2,8 @@
 title: Mary Thengvall
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MaryThengvall.jpg
-job_title:  Director of Developer Relations at Camunda 
+job_title:  Director of Developer Relations at Camunda
+bluesky: mary-grace.bsky.social
 twitter: mary_grace
 github: mary-grace
 website: https://www.marythengvall.com/

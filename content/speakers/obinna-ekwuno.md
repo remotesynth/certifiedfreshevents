@@ -3,6 +3,7 @@ title: Obinna Ekwuno
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ObinnaEkwuno.jpg
 job_title:  Developer Advocate at Cloudflare
+bluesky: obinnaspeaks.dev
 mastodon: https://birdsite.blazelight.dev/users/obinnaspeaks
 twitter: Obinnaspeaks
 website: https://www.obinnaspeaks.dev/

@@ -3,6 +3,7 @@ title: Jon Gottfried
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JonGottfried.jpg
 job_title: Co-Founder and Head of Partnerships, Major League Hacking
+bluesky: jonmarkgo.bsky.social
 twitter: jonmarkgo
 website: https://www.jonmarkgo.com/
 draft: false

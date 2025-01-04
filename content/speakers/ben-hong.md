@@ -3,6 +3,7 @@ title: Ben Hong
 date: 2019-07-24T18:52:51-04:00
 speaker_image: benhong.jpg
 job_title:  Senior Developer Experience Engineer at Netlify
+bluesky: bencodezen.io
 twitter: bencodezen
 github: bencodezen
 website: https://www.bencodezen.io/

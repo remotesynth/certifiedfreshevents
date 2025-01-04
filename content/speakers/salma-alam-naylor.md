@@ -3,6 +3,7 @@ title: Salma Alam-Naylor
 date: 2019-07-24T18:52:51-04:00
 speaker_image: salma-alam-naylor.png
 job_title: Live streamer, software engineer, and developer educator
+bluesky: whitep4nth3r.com
 twitter: whitep4nth3r
 github: whitep4nth3r
 website: https://whitep4nth3r.com/

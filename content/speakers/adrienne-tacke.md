@@ -3,6 +3,7 @@ title: Adrienne Braganza Tacke
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AdrienneTacke.jpg
 job_title: Developer Advocate at Cisco
+bluesky: abt.bsky.social
 twitter: AdrienneTacke
 website: https://blog.adrienne.io/
 draft: false

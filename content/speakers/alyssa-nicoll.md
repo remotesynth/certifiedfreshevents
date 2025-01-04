@@ -3,6 +3,7 @@ title: "Alyssa Nicoll"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: alyssanicoll.jpg
 job_title:  Developer Advocate at Progress
+bluesky: alyssanicoll.bsky.social
 twitter: AlyssaNicoll
 github: alyssamichelle
 website: http://alyssa.io/

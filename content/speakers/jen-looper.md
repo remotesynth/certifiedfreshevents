@@ -2,7 +2,8 @@
 title: "Jen Looper"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: jenlooper.jpg
-job_title: Head of Academic Advocacy at AWS 
+job_title: Head of Academic Advocacy at AWS
+bluesky: jenlooper.com
 mastodon: https://awscommunity.social/@jlooper
 twitter: jenlooper
 github: jlooper

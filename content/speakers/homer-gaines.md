@@ -3,6 +3,7 @@ title: Homer Gaines
 date: 2019-07-24T18:52:51-04:00
 speaker_image: HomerGaines.jpg
 job_title:  Staff UI Engineer at Guru
+bluesky: xirclebox.com
 twitter: xirclebox
 website: https://www.homergaines.com/
 mastodon: https://a11y.info/@homer

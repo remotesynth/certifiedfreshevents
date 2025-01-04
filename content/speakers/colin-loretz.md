@@ -3,6 +3,7 @@ title: Colin Loretz
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ColinLoretz.png
 job_title: Senior Developer Advocate at Discord
+bluesky: colinloretz.gg
 twitter: colinloretz
 github: colinloretz
 website: https://colinloretz.com/

@@ -4,6 +4,7 @@ date: 2019-07-24T18:52:51-04:00
 speaker_image: HenriHelvetica.jpg
 mastodon: https://webperf.social/@henrihelvetica
 job_title:  Head of Developer Community at Webpagetest by Catchpoint
+bluesky: henrihelvetica.bsky.social
 twitter: HenriHelvetica
 draft: false
 ---

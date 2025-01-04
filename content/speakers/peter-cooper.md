@@ -3,6 +3,7 @@ title: Peter Cooper
 date: 2019-07-24T18:52:51-04:00
 speaker_image: PeterCooper.jpg
 job_title: Founder of Cooper Press
+bluesky: cooperx86.bsky.social
 mastodon: https://x86.social/@cooper
 twitter: cooperx86
 website: https://cooperpress.com/

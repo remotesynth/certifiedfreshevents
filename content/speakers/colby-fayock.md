@@ -3,6 +3,7 @@ title: Colby Fayock
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ColbyFayock.jpg
 job_title: Senior Dev Experience Engineer at Cloudinary
+bluesky: colbyfayock.com
 mastodon: https://hachyderm.io/@colbyfayock
 twitter: colbyfayock
 github: colbyfayock

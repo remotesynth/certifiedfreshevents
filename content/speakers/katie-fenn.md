@@ -3,6 +3,7 @@ title: Katie Fenn
 date: 2019-07-24T18:52:51-04:00
 speaker_image: KatieFenn.jpg
 job_title: Sr Software Engineer at The Financial Times
+bluesky: katiefenn.bsky.social
 mastodon: https://front-end.social/@katiefenn
 website: https://www.katiefenn.co.uk/
 draft: false

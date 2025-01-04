@@ -3,6 +3,7 @@ title: Charlie Gerard
 date: 2019-07-24T18:52:51-04:00
 speaker_image: CharlieGerard.jpg
 job_title: Senior Developer Advocate at Stripe
+bluesky: devdevcharlie.com
 mastodon: https://hachyderm.io/@devdevcharlie
 twitter: devdevcharlie
 github: charliegerard

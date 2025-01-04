@@ -3,6 +3,7 @@ title: Alex Russell
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AlexRussell.jpg
 job_title:  Partner Product Manager at Microsoft
+bluesky: infrequently.org
 mastodon: https://toot.cafe/@slightlyoff
 github: codercatdev
 website: https://infrequently.org

@@ -3,6 +3,7 @@ title: Feross Aboukhadijeh
 date: 2019-07-24T18:52:51-04:00
 speaker_image: FerossAboukhadijeh.jpg
 job_title: Founder & CEO at Socket
+bluesky: feross.bsky.social
 github: feross
 twitter: feross
 website: https://feross.org/

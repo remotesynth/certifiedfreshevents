@@ -3,6 +3,7 @@ title: Lizzie Siegle
 date: 2019-07-24T18:52:51-04:00
 speaker_image: LizzieSiegle.jpg
 job_title: Developer Advocate at Cloudflare
+bluesky: lizzie.bsky.social
 twitter: lizziepika
 github: elizabethsiegle
 website: https://lizziesiegle.pages.dev/

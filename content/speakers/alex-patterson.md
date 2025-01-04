@@ -3,6 +3,7 @@ title: Alex Patterson
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AlexPatterson.jpg
 job_title:  Developer Relations Engineer at FusionAuth
+bluesky: codercatdev.bsky.social
 twitter: codercatdev
 github: codercatdev
 website: https://alexpatterson.dev/

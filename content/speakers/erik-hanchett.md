@@ -3,6 +3,7 @@ title: "Erik Hanchett"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ErikHanchett.jpg
 job_title: Developer Advocate for AWS Amplify
+bluesky: erikch.bsky.social
 twitter: ErikCH
 github: ErikCH
 website: https://www.programwitherik.com/

@@ -3,6 +3,7 @@ title: "Jory Burson"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JoryBurson.jpg
 job_title:  Open Source Educator at Bocoup
+bluesky: jorydotcom.bsky.social
 mastodon: https://mastodon.social/@jorydotcom
 twitter: jorydotcom
 github: jorydotcom

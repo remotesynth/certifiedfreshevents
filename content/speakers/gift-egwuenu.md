@@ -3,6 +3,7 @@ title: "Gift Egwuenu"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: giftegwuenu.jpg
 job_title: Developer Advocate at Cloudflare
+bluesky: thegiftcode.dev
 twitter: lauragift_
 github: lauragift21
 website: https://www.giftegwuenu.com/

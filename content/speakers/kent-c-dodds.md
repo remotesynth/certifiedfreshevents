@@ -3,6 +3,7 @@ title: "Kent C. Dodds"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: KentCDodds.jpg
 job_title: Educator at Kent C. Dodds Tech
+bluesky: kentcdodds.com
 mastodon: https://birdsite.blazelight.dev/users/kentcdodds
 twitter: kentcdodds
 github: kentcdodds

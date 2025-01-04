@@ -3,6 +3,7 @@ title: Ixchel Ruiz
 date: 2019-07-24T18:52:51-04:00
 speaker_image: IxchelRuiz.jpg
 job_title: Java Champion
+bluesky: ixchelruiz.bsky.social
 twitter: ixchelruiz
 website: http://www.ixchelruiz.com/
 github: ixchelruiz

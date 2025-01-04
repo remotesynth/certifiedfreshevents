@@ -3,6 +3,7 @@ title: Mark Noonan
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MarkNoonan.png
 job_title: Senior Engineer, Cypress.io
+bluesky: marktnoonan.bsky.social
 github: marktnoonan
 twitter: marktnoonan
 draft: false

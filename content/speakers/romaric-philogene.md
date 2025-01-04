@@ -3,6 +3,7 @@ title: Romaric Philogène
 date: 2019-07-24T18:52:51-04:00
 speaker_image: RomaricPhilogene.jpg
 job_title: CEO of Qovery
+bluesky: rophilogene.bsky.social
 twitter: rophilogene
 github: evoxmusic
 website: https://www.qovery.com/

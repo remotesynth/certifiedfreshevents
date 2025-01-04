@@ -3,6 +3,7 @@ title: Martine Dowden
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MartineDowden.png
 job_title: CTO at Andromeda
+bluesky: martine.dev
 website: https://martine.dev/
 github: martine-dowden
 mastodon: https://mastodon.social/@martine_dowden

@@ -3,6 +3,7 @@ title: Tom Preston-Werner
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TomPrestonWerner.jpg
 job_title:  Creator of RedwoodJS and Founder of GitHub
+bluesky: mojombo.bsky.social
 twitter: mojombo
 github: mojombo
 website: https://tom.preston-werner.com/

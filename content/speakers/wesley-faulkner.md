@@ -3,6 +3,7 @@ title: "Wesley Faulkner"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: WesleyFaulkner.jpg
 job_title: Developer Advocate for MongoDB
+bluesky: wesley83.bsky.social
 mastodon: https://twit.social/@wesley83
 twitter: wesley83
 github: wesley83

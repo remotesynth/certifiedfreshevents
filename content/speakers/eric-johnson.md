@@ -3,6 +3,7 @@ title: Eric Johnson
 date: 2022-11-22T00:00:00-04:00
 speaker_image: EricJohnson.jpg
 job_title: Principal Developer Advocate at AWS
+bluesky: edjgeek.bsky.social
 twitter: edjgeek
 draft: false
 ---

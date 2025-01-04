@@ -2,7 +2,8 @@
 title: Zach Leatherman
 date: 2019-07-24T18:52:51-04:00
 speaker_image: ZachLeatherman.jpg
-job_title: Developer Advocate for CloudCannon
+job_title: Creator/Maintainer of Eleventy
+bluesky: zachleat.com
 mastodon: https://zachleat.com/@zachleat
 github: zachleat
 website: https://www.zachleat.com/

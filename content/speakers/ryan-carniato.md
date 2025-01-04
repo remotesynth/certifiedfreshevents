@@ -2,7 +2,8 @@
 title: Ryan Carniato
 date: 2019-07-24T18:52:51-04:00
 speaker_image: RyanCarniato.png
-job_title: Principal Engineer, Open Source, at Netlify
+job_title: Principal Engineer at Sentry
+bluesky: ryansolid.bsky.social
 mastodon: https://birdsite.blazelight.dev/users/ryancarniato
 twitter: RyanCarniato
 github: ryansolid

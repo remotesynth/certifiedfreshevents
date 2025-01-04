@@ -3,6 +3,7 @@ title: "Kevin Lewis"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: KevinLewis.jpg
 job_title: Developer Relations Lead at Directus
+bluesky: lws.io
 mastodon: https://hachyderm.io/@_phzn
 twitter: _phzn
 github: phazonoverload

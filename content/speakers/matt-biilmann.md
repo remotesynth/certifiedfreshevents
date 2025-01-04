@@ -3,6 +3,7 @@ title: Matt Biilmann
 date: 2019-07-24T18:52:51-04:00
 speaker_image: MattBiilmann.jpg
 job_title: CEO and co-founder at Netlify
+bluesky: biilmann.blog
 mastodon: https://mastodon.social/@biilmann
 twitter: biilmann
 draft: false

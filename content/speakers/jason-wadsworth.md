@@ -3,6 +3,7 @@ title: Jason Wadsworth
 date: 2019-07-24T18:52:51-04:00
 speaker_image: JasonWadsworth.jpg
 job_title: Chief Architect at Armanino
+bluesky: wadsworth.dev
 twitter: quizout
 website: https://jason.wadsworth.dev/
 github: jasonwadsworth

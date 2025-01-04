@@ -3,6 +3,7 @@ title: Eduardo Bouças
 date: 2019-07-24T18:52:51-04:00
 speaker_image: EduardoBoucas.png
 job_title: Senior Staff Engineer at Netlify
+bluesky: eduardoboucas.com
 mastodon: https://infra.social/@eduardoboucas
 twitter: eduardoboucas
 github: didicodes
