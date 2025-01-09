@@ -1,22 +1,6 @@
 <aside class="sticky top-[114px] mt-12">
 {{ if eq .Page.Section "talkshows"}}
-  {{ if and (isset .Page.Params "show") (eq .Page.Params.show "devrelish") }}
-  <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
-  <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
-    <li>
-      <a
-        href="https://dataprotocol.com/?utm_source=YouTube&utm_medium=Show&utm_campaign=DevRelish&utm_id=DP"
-      >
-        <img
-          src="/img/sponsors/DataProtocol.png"
-          loading="lazy"
-          alt="Data Protocol"
-          class="h-10"
-        />
-      </a>
-    </li>
-  </ul>
-{{ else if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
+{{ if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
   <h3 class="mb-4 text-xs font-bold text-gray-500 uppercase">Sponsored by</h3>
   <ul class="flex flex-wrap items-center gap-8 lg:flex-col lg:items-start">
     <li>
