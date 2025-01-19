@@ -12,9 +12,12 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - rachel-andrew
   - lizzie-siegle
   - henri-helvetica
+  - cassidy-williams
   - jo-franchetti
+  - raymond-camden
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
