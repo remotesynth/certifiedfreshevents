@@ -1,7 +1,7 @@
 ---
 title: Dealing with Remote Work with Joni Trythall
-date: 2025-01-22T15:00:00-05:00
-end_date: 2025-01-22T16:00:00-05:00
+date: 2025-01-29T15:00:00-05:00
+end_date: 2025-01-29T16:00:00-05:00
 homepage_banner: DevRelish-Joni-Trythall.png
 host:
   - erin-mikail-staples
