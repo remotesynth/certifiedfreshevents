@@ -18,6 +18,7 @@ speakers:
   - cassidy-williams
   - jo-franchetti
   - raymond-camden
+  - florian-lefebvre
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
