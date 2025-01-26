@@ -15,6 +15,8 @@ tags:
   - webdev
   - frontend
   - javascript
+  - react
+  - TanStack
 draft: false
 event_type: live coding
 ---
