@@ -4,21 +4,7 @@
     <header class="container px-6 pt-12 pb-10 mx-auto">
       <h1 class="mb-2 text-5xl font-bold">{{ .Params.title }}</h1>
       <p class="max-w-3xl text-xl">{{ .Params.description | markdownify }}</p>
-      {{ if and (isset .Page.Params "show") (eq .Page.Params.show "devrelish") }}
-      <h3 class="mb-4 mt-12 text-xs font-bold text-gray-500 uppercase">
-        Sponsored by
-      </h3>
-      <a
-        href="https://dataprotocol.com/?utm_source=YouTube&utm_medium=Show&utm_campaign=DevRelish&utm_id=DP"
-      >
-        <img
-          src="/img/sponsors/DataProtocol.png"
-          loading="lazy"
-          alt="Data Protocol"
-          class="h-10"
-        />
-      </a>
-      {{ else if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
+      {{ if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
       <h3 class="mb-4 mt-12 text-xs font-bold text-gray-500 uppercase">
         Sponsored by
       </h3>
