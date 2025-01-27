@@ -19,6 +19,7 @@ speakers:
   - jo-franchetti
   - raymond-camden
   - florian-lefebvre
+  - bryan-robinson
   - tbd-moar-serverless
 sessions:
 styles: thejam.css
