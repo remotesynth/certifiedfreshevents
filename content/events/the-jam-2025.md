@@ -18,6 +18,7 @@ speakers:
   - cassidy-williams
   - jo-franchetti
   - raymond-camden
+  - rizel-scarlett
   - florian-lefebvre
   - bryan-robinson
   - tbd-moar-serverless
