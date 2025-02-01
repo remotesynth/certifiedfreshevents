@@ -12,6 +12,8 @@ tags:
 draft: false
 ---
 
-We'll chat with Rachel Andrew of Google — a leading voice in web standards and innovative design and a member of the CSS Working Group of the W3C – about the current and future state of web standards and browser compatibility. Some key topics will be the [Baseline initiative on web.dev](https://web.dev/baseline) to clarify browser support for web platform features and Interop 2025, an initiative focused on enhancing interoperability across browser engines.
+We'll chat with Rachel Andrew of Google — a leading voice in web standards and innovative design and a member of the CSS Working Group of the W3C – about the current and future state of web standards and browser compatibility. Some key topics will be the Baseline initiative to clarify browser support for web platform features and Interop 2025, an initiative focused on enhancing interoperability across browser engines.
 
 Audience participation is encouraged, so bring your questions!
+
+
