@@ -23,6 +23,22 @@ speakers:
   - bryan-robinson
   - tbd-moar-serverless
 sessions:
+  - jamdev2025-day1-opening
+  - jamdev2025-unified-web
+  - jamdev2025-exploring-deno
+  - jamdev2025-durable-objects
+  - jamdev2025-ai-in-browser
+  - jamdev2025-astro-integrations
+  - jamdev2025-day1-session6
+  - jamdev2025-day1-session7
+  - jamdev2025-day1-closing
+  - jamdev2025-day2-opening
+  - jamdev2025-day2-session1
+  - jamdev2025-power-being-a-developer
+  - jamdev2025-objects-mirror
+  - jamdev2025-day2-session4
+  - jamdev2025-day2-session5
+  - jamdev2025-day2-closing
 styles: thejam.css
 event_type: conference
 ---
@@ -122,6 +138,10 @@ TheJam.dev 2024 is COMPLETELY FREE! Register today [via Crowdcast](https://www.c
 ## Schedule {#schedule}
 
 TheJam.dev will feature 2 full days of sessions in a single track format. We're still finalizing our schedule, so check back soon for full details.
+
+**Note: Times shown are localized for your time zone. The event starts at 12:30pm ET (UTC -5).**
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
