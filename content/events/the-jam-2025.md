@@ -21,6 +21,7 @@ speakers:
   - rizel-scarlett
   - florian-lefebvre
   - bryan-robinson
+  - rob-schneider
   - tbd-moar-serverless
 sessions:
   - jamdev2025-day1-opening
@@ -29,7 +30,7 @@ sessions:
   - jamdev2025-durable-objects
   - jamdev2025-ai-in-browser
   - jamdev2025-astro-integrations
-  - jamdev2025-day1-session6
+  - jamdev2025-is-it-the-network
   - jamdev2025-day1-session7
   - jamdev2025-day1-closing
   - jamdev2025-day2-opening
