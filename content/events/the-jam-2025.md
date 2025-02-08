@@ -22,6 +22,7 @@ speakers:
   - florian-lefebvre
   - bryan-robinson
   - rob-schneider
+  - domitrius-clark
   - tbd-moar-serverless
 sessions:
   - jamdev2025-day1-opening
