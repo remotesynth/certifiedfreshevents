@@ -2,7 +2,7 @@
 title: Nick Taylor
 date: 2019-07-24T18:52:51-04:00
 speaker_image: NickTaylor.jpg
-job_title: Senior Software Engineer at OpenSauced
+job_title: Developer Advocate at Pomerium
 bluesky: nickyt.online
 twitter: nickytonline
 github: nickytonline
@@ -12,4 +12,8 @@ cfe: Host of 2 Full 2 Stack
 draft: false
 ---
 
-Nick Taylor is a Senior Software Engineer at OpenSauced. He is a big fan of Open Source and has a growing interest in serverless and edge computing.
+Nick is a developer advocate at Pomerium, a zero trust, identity-aware proxy platform that enables secure, clientless connections to web applications and services without a corporate VPN.
+
+With over a decade of open source contributions and five years of professional open source experience at companies like OpenSauced, dev.to, and Netlify, he brings deep community knowledge to his work. You’ll often find him live streaming tech content, either solo or with friends from the community.
+
+Although he’s a huge fan of open source, he’s not a big fan of spiders.
