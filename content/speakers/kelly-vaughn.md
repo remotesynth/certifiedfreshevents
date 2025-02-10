@@ -8,4 +8,4 @@ website: https://kvlly.com/
 draft: false
 ---
 
-Kelly Vaughn is a software engineer, entrepreneur, and purveyor of developer jokes on Twitter. She's passionate about coaching individual contributors and early career engineering managers into strong leaders. She is currently Director of Engineering at Spot AI. When she's not working, you'll probably find her on her Peloton, traveling to a new country, or spending time at a coffee shop to make a tiny dent in her never-ending book collection.
+Kelly Vaughn is an engineering leader, entrepreneur, and side project aficionado. She is currently Director of Engineering at Spot AI and is passionate about coaching individual contributors into leadership roles and mentoring engineering managers to be impactful, empowering leaders. When she's not working, you'll probably find her running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in her never-ending book collection.
