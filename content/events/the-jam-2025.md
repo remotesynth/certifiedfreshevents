@@ -35,7 +35,7 @@ sessions:
   - jamdev2025-day1-session7
   - jamdev2025-day1-closing
   - jamdev2025-day2-opening
-  - jamdev2025-day2-session1
+  - jamdev2025-day2-modern-devtools
   - jamdev2025-power-being-a-developer
   - jamdev2025-objects-mirror
   - jamdev2025-day2-session4
