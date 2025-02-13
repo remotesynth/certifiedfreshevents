@@ -32,7 +32,7 @@ sessions:
   - jamdev2025-ai-in-browser
   - jamdev2025-astro-integrations
   - jamdev2025-is-it-the-network
-  - jamdev2025-day1-session7
+  - jamdev2025-ai-on-netlify
   - jamdev2025-day1-closing
   - jamdev2025-day2-opening
   - jamdev2025-modern-devtools
