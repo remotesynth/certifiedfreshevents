@@ -23,7 +23,7 @@ speakers:
   - bryan-robinson
   - rob-schneider
   - domitrius-clark
-  - tbd-moar-serverless
+  - jen-looper
 sessions:
   - jamdev2025-day1-opening
   - jamdev2025-unified-web
@@ -35,11 +35,11 @@ sessions:
   - jamdev2025-day1-session7
   - jamdev2025-day1-closing
   - jamdev2025-day2-opening
-  - jamdev2025-day2-modern-devtools
+  - jamdev2025-modern-devtools
   - jamdev2025-power-being-a-developer
   - jamdev2025-objects-mirror
-  - jamdev2025-day2-session4
-  - jamdev2025-day2-session5
+  - jamdev2025-last-saree
+  - jamdev2025-developer-productivity
   - jamdev2025-day2-closing
 styles: thejam.css
 event_type: conference
