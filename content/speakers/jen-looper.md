@@ -11,6 +11,4 @@ website: http://www.jenlooper.com
 draft: false
 ---
 
-Jen is a multilingual multiculturalist with a passion for hardware hacking, mobile apps, the frontend of the web and various JavaScript frameworks and meta-frameworks, applied machine learning and AI (as well as the ramifications!) and discovering new things every day. On occasion she can be found teaching front-end technology at Boston University's Metropolitan College. She's also on the Fulbright Specialists roster, just waiting for that right opportunity to help a community.
-
-She's worked as Head of Academic Advocacy at AWS, a Principal Cloud Developer Advocate at Microsoft, a Developer Advocate at Progress/Telerik.
+Jen Looper is a creative technologist and educator with over 25 years' experience as a web and mobile developer and Developer Advocate at companies including Microsoft and AWS, specializing in creating cross-platform mobile and web apps and applied machine learning. A published author, Jen has written [Computer Science for Kids](https://cs4kids.club), a textbook aligned to CSTA standards for grades 6-8, as well as [The Illustrated AWS Cloud](https://illustratedaws.cloud), both published by Wiley. She's a multilingual multiculturalist with a passion for web technologies, applied machine learning and AI and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is curriculum development and the application of sound pedagogy to technical topics. Visit Jen's personal site at https://www.jenlooper.com.
