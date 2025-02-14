@@ -1,7 +1,7 @@
 ---
 title: "Improving Your Developer Productivity: A Fireside Chat with Cassidy Williams"
 date: 2025-02-20 16:10:00-05:00
-end_date: 2025-02-20 16:55:00-05:00
+end_date: 2025-02-20 17:00:00-05:00
 event: the-jam-2025
 speakers:
 - cassidy-williams

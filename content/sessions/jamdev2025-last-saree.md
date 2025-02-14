@@ -1,7 +1,7 @@
 ---
 title: "The Last Saree: Conoisseurship in the Age of AI"
 date: 2025-02-20 15:20:00-05:00
-end_date: 2025-02-20 16:00:00-05:00
+end_date: 2025-02-20 16:05:00-05:00
 event: the-jam-2025
 speakers:
 - jen-looper
