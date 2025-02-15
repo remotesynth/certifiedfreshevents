@@ -27,7 +27,7 @@ speakers:
 sessions:
   - jamdev2025-day1-opening
   - jamdev2025-unified-web
-  - jamdev2025-exploring-deno
+  - jamdev2025-modern-devtools
   - jamdev2025-durable-objects
   - jamdev2025-ai-in-browser
   - jamdev2025-astro-integrations
@@ -35,7 +35,7 @@ sessions:
   - jamdev2025-ai-on-netlify
   - jamdev2025-day1-closing
   - jamdev2025-day2-opening
-  - jamdev2025-modern-devtools
+  - jamdev2025-exploring-deno
   - jamdev2025-power-being-a-developer
   - jamdev2025-objects-mirror
   - jamdev2025-last-saree
