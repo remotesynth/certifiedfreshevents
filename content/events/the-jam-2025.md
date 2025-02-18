@@ -129,7 +129,7 @@ TheJam.dev isn't possible without your support. Want to become a sponsor? [Email
 
 ## Register {#register}
 
-TheJam.dev 2024 is COMPLETELY FREE! Register today [via Crowdcast](https://www.crowdcast.io/c/jam25/).
+TheJam.dev 2025 is COMPLETELY FREE! Register today [via Crowdcast](https://www.crowdcast.io/c/jam25/).
 
 <div class="flex items-center justify-center w-full mt-8 mb-8">
 <a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/c/jam25/">
