@@ -19,3 +19,5 @@ Durable Objects are a JavaScript runtime that make it easier to build stateful b
 They handle state, compute, and complexity at scale, letting developers concentrate on code.
 
 This punny talk will feature some live-coding to show how Durable Objects work and how developers can use them for a wide range of applications.
+
+Slides are [available here](https://docs.google.com/presentation/d/1b97RLXRWAHcgIYLJuPaL0-hYqzCP-xaDW77vsGqOVOw/edit#slide=id.p).
