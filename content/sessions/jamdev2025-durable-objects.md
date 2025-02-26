@@ -11,6 +11,10 @@ tags:
 - cloudflare
 - javascript
 - durable objects
+recordings:
+  youtube:
+    url: https://youtu.be/H1qs36upkYM
+    length: "37:41"
 draft: false
 ---
 

@@ -9,6 +9,12 @@ categories:
 - webdev
 tags:
 - webdev
+- devtools
+- chrome
+recordings:
+  youtube:
+    url: https://youtu.be/yz4p58yPaMY
+    length: "43:00"
 draft: false
 ---
 
