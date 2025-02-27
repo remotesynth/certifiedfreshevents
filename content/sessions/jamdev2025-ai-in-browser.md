@@ -10,6 +10,12 @@ categories:
 tags:
 - ai
 - webdev
+- artificial intelligence
+- google chrome
+recordings:
+  youtube:
+    url: https://youtu.be/GV7wPmXKcb4
+    length: "10:09"
 draft: false
 ---
 
