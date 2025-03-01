@@ -1,8 +1,8 @@
 ---
 title: I Don't like React. Let's Learn React!
-date: 2025-03-04T13:00:00-05:00
-end_date: 2025-03-04T14:00:00-05:00
-homepage_banner: CodeBreak-030425.png
+date: 2025-03-06T13:00:00-05:00
+end_date: 2025-03-06T14:00:00-05:00
+homepage_banner: CodeBreak-030625.png
 host:
   - raymond-camden
 recordings:

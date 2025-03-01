@@ -11,6 +11,10 @@ tags:
 - astro
 - webdev
 - javascript
+recordings:
+  youtube:
+    url: https://youtu.be/WamcQ4MQOO8
+    length: "12:28"
 draft: false
 ---
 
