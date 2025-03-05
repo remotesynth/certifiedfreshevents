@@ -12,6 +12,10 @@ tags:
 - deno
 - nodejs
 - react
+recordings:
+  youtube:
+    url: https://youtu.be/O46N9a1ss28
+    length: "46:14"
 draft: false
 ---
 

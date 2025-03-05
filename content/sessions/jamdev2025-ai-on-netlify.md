@@ -9,6 +9,10 @@ categories:
 - webdev
 tags:
 - webdev
+recordings:
+  youtube:
+    url: https://youtu.be/07HWChZmDk0
+    length: "34:20"
 draft: false
 ---
 
