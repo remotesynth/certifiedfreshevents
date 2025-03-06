@@ -9,6 +9,7 @@ categories:
 - webdev
 tags:
 - webdev
+- networking
 recordings:
   youtube:
     url: https://youtu.be/Rt6IvFy_57Q

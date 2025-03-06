@@ -8,7 +8,13 @@ speakers:
 categories:
 - webdev
 tags:
+- javascript
 - webdev
+- user experience
+recordings:
+  youtube:
+    url: https://youtu.be/eVfbxLGqwgY
+    length: "43:52"
 draft: false
 ---
 
