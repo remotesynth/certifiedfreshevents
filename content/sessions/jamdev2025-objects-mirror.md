@@ -9,6 +9,11 @@ categories:
 - webdev
 tags:
 - webdev
+- web standards
+recordings:
+  youtube:
+    url: https://youtu.be/pV3OFuDrYww
+    length: "37:31"
 draft: false
 ---
 
