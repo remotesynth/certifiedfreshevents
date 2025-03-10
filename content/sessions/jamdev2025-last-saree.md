@@ -6,9 +6,17 @@ event: the-jam-2025
 speakers:
 - jen-looper
 categories:
-- webdev
+- stuff
 tags:
-- webdev
+- ai
+- artificial intelligence
+- machine learning
+- large language models
+- llm
+recordings:
+  youtube:
+    url: https://youtu.be/j_Ey0uET0Zk
+    length: "41:55"
 draft: false
 ---
 
