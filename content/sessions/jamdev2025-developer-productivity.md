@@ -9,6 +9,12 @@ categories:
 - webdev
 tags:
 - webdev
+- productivity
+- github copilot
+recordings:
+  youtube:
+    url: https://youtu.be/99SSmQRDrPw
+    length: "44:56"
 draft: false
 ---
 
