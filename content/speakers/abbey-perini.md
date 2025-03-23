@@ -9,4 +9,4 @@ website: https://abbeyperini.dev/
 draft: false
 ---
 
-Abbey Perini is many things - a metro Atlanta native, a person of many hobbies, and a full-stack web developer. She loves blogging about fun and useful things about programming. You can find her work and ways to connect with her at [abbeyperini.dev](https://abbeyperini.dev).
+Abbey Perini is many things - a metro Atlanta native, a person of many hobbies, and a full-stack web developer. Passionate about accessibility, she's happiest problem solving in the front-end, back-end, and all the APIs and microservices in between. She loves blogging and speaking about fun and useful things about programming, especially if it helps other developers.
