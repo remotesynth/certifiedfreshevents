@@ -3,9 +3,7 @@ title: Alicia Bendz
 date: 2019-07-24T18:52:51-04:00
 speaker_image: AliciaBendz.jpg
 job_title: Senior Software Engineer
-bluesky: trillium.is
-github: trillium
-website: https://trilliumsmith.com/
+bluesky: bendza.bsky.social
 draft: false
 ---
 

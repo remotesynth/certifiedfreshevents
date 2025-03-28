@@ -4,6 +4,7 @@ date: 2019-07-24T18:52:51-04:00
 speaker_image: NehaMaity.jpg
 job_title: Machine Learning Software Engineer
 bluesky: neha.bsky.social
+github: nehamaity
 draft: false
 ---
 
