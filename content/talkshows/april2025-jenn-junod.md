@@ -1,7 +1,7 @@
 ---
 title: Hot Topics in DevRel with Jenn Junod
-date: 2025-04-02T15:00:00-04:00
-end_date: 2025-04-02T16:00:00-04:00
+date: 2025-04-04T13:00:00-04:00
+end_date: 2025-04-04T14:00:00-04:00
 homepage_banner: DevRelish-Jenn-Junod.png
 host:
   - erin-mikail-staples
