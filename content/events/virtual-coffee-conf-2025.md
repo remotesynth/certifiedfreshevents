@@ -22,11 +22,27 @@ speakers:
   - dan-ott
   - venelouis-palhano
   - abbey-perini
+  - abdurrahman-rajab
   - micha-rodriguez
   - trillium-smith
   - mike-street
   - nick-taylor
 sessions:
+  - vc2025-unravelling-git
+  - vc2025-unravelling-enums
+  - vc2025-accessibility-for-everyone
+  - vc2025-hands-free-computer-use
+  - vc2025-github-extensions
+  - vc2025-table-layouts-tailwind
+  - vc2025-code-adhd
+  - vc2025-design-skills-accessibility
+  - vc2025-work-hobbies
+  - vc2025-networking-for-remote-employees
+  - vc2025-ai-and-creativity
+  - vc2025-vibe-coding
+  - vc2025-streamline-your-life
+  - vc2025-sustainable-learning
+  - vc2025-frontend-friday-fued
 styles: thejam.css
 event_type: conference
 ---
@@ -114,7 +130,8 @@ Code & Coffee will feature a full day of sessions in a single track format begin
 
 **Note: Times shown are localized for your time zone. The event starts at 11:00am ET (UTC -4) on Friday, April 25.**
 
-Schedule coming soon!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
