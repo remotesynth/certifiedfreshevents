@@ -5,7 +5,7 @@ speaker_image: AbdurrahmanRajab.jpg
 job_title: Podcast Host at Hadith Tech
 twitter: a0m0rajab
 github: a0m0rajab
-website: abdurrahmanrajab.com
+website: https://abdurrahmanrajab.com
 draft: false
 ---
 

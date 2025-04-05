@@ -1,5 +1,5 @@
 ---
-title: "Unravelling Rails Magic with Enums"
+title: "Revealing Rails Magic with Enums"
 date: 2025-04-25 11:35:00-04:00
 end_date: 2025-04-25 12:05:00-04:00
 event: virtual-coffee-conf-2025

@@ -1,5 +1,5 @@
 ---
-title: "Pitch to the Strike Zone: How Design Skills Can Bring an Accessible Web to Life"
+title: "From Table Layouts to Tailwind: 20 years of hard lessons and hotfixes"
 date: 2025-04-25 13:55:00-04:00
 end_date: 2025-04-25 14:25:00-04:00
 event: virtual-coffee-conf-2025

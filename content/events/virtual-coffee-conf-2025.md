@@ -2,7 +2,7 @@
 title: "Code & Coffee: A Virtual Coffee Conference"
 date: 2025-04-25T11:00:00-04:00
 end_date: 2025-04-25T16:00:00-04:00
-days: 2
+days: 1
 cost: 0
 ticket_url: https://youtube.com/live/EvDJpN-jJgo
 homepage_banner: Code-Coffee-Horiz-100.jpg
@@ -24,6 +24,7 @@ speakers:
   - abbey-perini
   - abdurrahman-rajab
   - micha-rodriguez
+  - kirk-shillingford
   - trillium-smith
   - mike-street
   - nick-taylor

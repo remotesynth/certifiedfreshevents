@@ -8,6 +8,7 @@ speakers:
 - meg-gutshall
 - dan-ott
 - nick-taylor
+- kirk-shillingford
 categories:
   - webdev
 tags:
