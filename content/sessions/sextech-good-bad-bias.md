@@ -2,8 +2,7 @@
 categories:
 - culture
 date: 2019-09-19 18:52:51-04:00
-draft: false
-featured: true
+draft: true
 recordings:
   youtube:
     length: '32:27'

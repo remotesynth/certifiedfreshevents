@@ -7,8 +7,7 @@ short_desc: Alison Faulk gives an overview of the field of sextech and why it is
 description: Alison Faulk gives an overview of the field of sextech, how it spans an array of technologies and the current biases sextech faces.
 sessions:
   - sextech-good-bad-bias
-draft: false
-featured: false
+draft: true
 ---
 
 This month we're going to look at an area where a lot of technology innovation is occurring, but where we often don't hear about due to some misconceptions and biases around a sensitive topic - sextech. Join us to learn more about what this area of technology is about much more than what you may imagine.
