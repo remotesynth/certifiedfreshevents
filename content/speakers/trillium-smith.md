@@ -2,7 +2,7 @@
 title: Trillium Smith
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TrilliumSmith.jpg
-job_title: Application Developer at Penn Medicine
+job_title: Software Developer at HackForLA
 bluesky: trillium.is
 github: trillium
 website: https://trilliumsmith.com/
