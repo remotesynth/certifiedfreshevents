@@ -1,5 +1,5 @@
 ---
-title: Taylor Barnett
+title: Taylor Barnett-Torabi
 date: 2019-07-24T18:52:51-04:00
 speaker_image: TaylorBarnett.jpg
 job_title: Senior Product Manager at Netlify
@@ -11,4 +11,4 @@ website: https://taylorbar.net/
 draft: false
 ---
 
-Taylor Barnett is a Senior Product Manager at Netlify. She is passionate about building great developer experiences with an emphasis on empathy and inclusion within product, documentation, and other community-focused projects. Taylor has worked on various data and API-focused products in software development and developer relations for the past eight years.
+Taylor Barnett-Torabi is a Senior Product Manager at Netlify, where she focuses on empowering developers to easily deploy their ideas to the web. Her passion lies in building great developer experiences, emphasizing user empathy within product, marketing, documentation, and other community-driven initiatives. Before joining Netlify, Taylor spent nearly a decade in developer relations at various data and API developer-focused startups, such as PlanetScale, Stoplight, and others, building on her foundation in software engineering to foster more developer-friendly tools and platforms.

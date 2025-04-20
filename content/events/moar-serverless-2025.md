@@ -12,6 +12,11 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - taylor-barnett
+  - cody-de-arkland
+  - kiah-imani
+  - joanne-skiles
+  - dina-kozlov
 sessions:
 styles: thejam.css
 event_type: conference
@@ -80,7 +85,9 @@ The tools and technologies under the serverless umbrella keep evolving and expan
 
 ## Speakers {#speakers}
 
-We're working on our speaker lineup. Check back soon!
+We've got great speakers lined up with more to come soon!
+
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
