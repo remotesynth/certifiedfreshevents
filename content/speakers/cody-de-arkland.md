@@ -1,7 +1,7 @@
 ---
 title: Cody De Arkland
 date: 2019-07-24T18:52:51-04:00
-speaker_image: CodeDeArkland.jpg
+speaker_image: CodyDeArkland.jpg
 job_title: Head of Developer Experience at Sentry
 twitter: Codydearkland
 website: https://codyde.io/
