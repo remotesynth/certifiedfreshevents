@@ -12,4 +12,4 @@ tags:
 draft: false
 ---
 
-Traditional advice about radical changes often focuses on "the grind" and defines success as a destination. This talk presents an alternative approach: using your lack of expertise as an opportunity to get cozy with the un-cozy. Drawing from my lab work to data science transition, I'll share how deliberate practices like journaling, community engagement, and adaptive goal-setting transformed learning from a painful long-haul to a sustainable + valuable journey — plus, how to track said practices with Obsidian.
+In this lightning talk, I deconstruct those easily dismissed personal tasks that many of us overlook, like "leave the house" or "commit a single line of code to an abandoned project". I'll talk about how these small, unglamorous "warm bath" efforts, in contrast to the heroic "cold shower" narrative of success, could be the key to building genuine resilience and self-trust.
