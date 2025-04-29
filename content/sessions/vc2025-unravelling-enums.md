@@ -12,6 +12,10 @@ tags:
   - enums
   - ruby on rails
   - ruby
+recordings:
+  youtube:
+    url: https://youtu.be/b6O5p2IC4Xs
+    length: "28:42"
 draft: false
 ---
 
