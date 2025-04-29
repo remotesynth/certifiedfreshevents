@@ -10,6 +10,10 @@ categories:
 tags:
   - git
   - version control
+recordings:
+  youtube:
+    url: https://youtu.be/qrnVwyp1SVo
+    length: "25:28"
 draft: false
 ---
 
