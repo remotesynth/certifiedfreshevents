@@ -9,6 +9,10 @@ categories:
   - webdev
 tags:
   - accessibility
+recordings:
+  youtube:
+    url: https://youtu.be/5DiDm4yKaZg
+    length: "28:39"
 draft: false
 ---
 
