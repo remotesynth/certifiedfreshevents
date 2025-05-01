@@ -9,6 +9,10 @@ categories:
   - stuff
 tags:
   - accessibility
+recordings:
+  youtube:
+    url: https://youtu.be/e3xaH1pJKsI
+    length: "29:47"
 draft: false
 ---
 
