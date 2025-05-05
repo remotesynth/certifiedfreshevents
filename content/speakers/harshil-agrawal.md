@@ -10,4 +10,4 @@ website: https://harshil.dev/
 draft: false
 ---
 
-Working in the Developer Relations team at Cloudflare, Harshil enjoys sharing his learnings with the community. A JavaScript developer and an open-source contributor, Harshil loves experimenting with tech and building small projects.
+Working in the Developer Relations team at Cloudflare, Harshil enjoys sharing his learnings with the community. A JavaScript developer, open-source contributor, and a low-code enthusiast, Harshil loves experimenting with tech and building small projects.

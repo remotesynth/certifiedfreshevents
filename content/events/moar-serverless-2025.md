@@ -18,6 +18,8 @@ speakers:
   - kiah-imani
   - joanne-skiles
   - dina-kozlov
+  - harshil-agrawal
+  - lewis-sawe
 sessions:
 styles: thejam.css
 event_type: conference
