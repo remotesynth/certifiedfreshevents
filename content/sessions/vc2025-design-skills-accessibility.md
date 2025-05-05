@@ -11,6 +11,10 @@ tags:
   - tailwind
   - css
   - web design
+recordings:
+  youtube:
+    url: https://youtu.be/FGOvIkIYuLc
+    length: "07:33"
 draft: false
 ---
 

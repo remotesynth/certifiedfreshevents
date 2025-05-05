@@ -9,6 +9,10 @@ categories:
   - stuff
 tags:
   - adhd
+recordings:
+  youtube:
+    url: https://youtu.be/q2hldKBN0p8
+    length: "09:34"
 draft: false
 ---
 

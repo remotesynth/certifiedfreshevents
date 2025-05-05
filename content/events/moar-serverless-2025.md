@@ -12,6 +12,7 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - charity-majors
   - taylor-barnett
   - cody-de-arkland
   - kiah-imani
