@@ -11,7 +11,7 @@ tags:
   - career
 recordings:
   youtube:
-    url: https://youtu.be/UWEGK9AH_Uk
+    url: https://youtu.be/HgIo4BqXDTE
     length: "08:21"
 draft: false
 ---
