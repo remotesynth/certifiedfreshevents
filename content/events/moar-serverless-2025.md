@@ -21,6 +21,16 @@ speakers:
   - harshil-agrawal
   - lewis-sawe
 sessions:
+  - moar2025-welcome
+  - moar2025-remote-mcp-servers
+  - moar2025-event-driven-architecture
+  - moar2025-ai-assisted-development
+  - moar2025-chaos-engineering
+  - moar2025-session5
+  - moar2025-session6
+  - moar2025-session7
+  - moar2025-session8
+  - moar2025-closing
 styles: thejam.css
 event_type: conference
 ---
@@ -120,6 +130,8 @@ Register for free today!
 ## Schedule {#schedule}
 
 Moar Serverless will feature a full day of sessions running from 12pm ET (GMT -4) until 5pm ET. We're still working on our schedule with more session details coming soon!
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
