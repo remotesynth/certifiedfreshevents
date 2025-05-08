@@ -26,7 +26,7 @@ sessions:
   - moar2025-event-driven-architecture
   - moar2025-ai-assisted-development
   - moar2025-chaos-engineering
-  - moar2025-session5
+  - moar2025-aws-spending-traps
   - moar2025-session6
   - moar2025-session7
   - moar2025-session8
