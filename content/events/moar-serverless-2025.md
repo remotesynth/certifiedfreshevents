@@ -27,9 +27,9 @@ sessions:
   - moar2025-ai-assisted-development
   - moar2025-chaos-engineering
   - moar2025-aws-spending-traps
-  - moar2025-session6
+  - moar2025-stateful-serverless
   - moar2025-session7
-  - moar2025-session8
+  - moar2025-fireside-chat-charity-majors
   - moar2025-closing
 styles: thejam.css
 event_type: conference
