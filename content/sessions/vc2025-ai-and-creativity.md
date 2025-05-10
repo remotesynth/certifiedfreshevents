@@ -9,6 +9,10 @@ categories:
   - stuff
 tags:
   - career
+recording:
+  youtube:
+    url: https://youtu.be/zfV6YhONF9g
+    length: "05:16"
 draft: false
 ---
 
