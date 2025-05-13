@@ -10,6 +10,10 @@ categories:
 tags:
   - ai
   - vibe coding
+recording:
+  youtube:
+    url: https://youtu.be/gjKcWTRiFBU
+    length: "07:53"
 draft: false
 ---
 

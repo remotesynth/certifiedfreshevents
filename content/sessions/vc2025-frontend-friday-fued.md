@@ -15,6 +15,10 @@ tags:
   - web development
   - css
   - web design
+recordings:
+  youtube:
+    url: https://youtu.be/1wjJjnYxu2U
+    length: "59:08"
 draft: false
 ---
 

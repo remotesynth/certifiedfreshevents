@@ -28,7 +28,7 @@ sessions:
   - moar2025-chaos-engineering
   - moar2025-aws-spending-traps
   - moar2025-stateful-serverless
-  - moar2025-session7
+  - moar2025-build-it-live-mcp
   - moar2025-fireside-chat-charity-majors
   - moar2025-closing
 styles: thejam.css
