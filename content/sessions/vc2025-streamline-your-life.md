@@ -10,6 +10,10 @@ categories:
 tags:
   - ai
   - ocr
+recordings:
+  youtube:
+    url: https://youtu.be/N1w-rh0J9hQ
+    length: "07:07"
 draft: false
 ---
 
