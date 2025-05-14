@@ -12,6 +12,10 @@ tags:
   - ai
   - copilot
   - visual studio code
+recordings:
+  youtube:
+    url: https://youtu.be/vKB5yP6XyDE
+    length: "27:16"
 draft: false
 ---
 
