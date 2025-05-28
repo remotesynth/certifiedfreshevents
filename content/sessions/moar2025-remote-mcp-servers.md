@@ -14,6 +14,10 @@ tags:
 - large language models
 - llm
 - cloudflare
+recordings:
+  youtube:
+    url: https://youtu.be/pzpCMW2AV3E
+    length: "43:58"
 draft: false
 ---
 
