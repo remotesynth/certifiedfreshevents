@@ -12,6 +12,10 @@ tags:
 - aws
 - gcp
 - azure
+recordings:
+  youtube:
+    url: https://youtu.be/PDvJunu3uiM
+    length: "39:06"
 draft: false
 ---
 
