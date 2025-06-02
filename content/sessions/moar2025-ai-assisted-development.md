@@ -1,5 +1,5 @@
 ---
-title: "AI-assisted development: Adventures in pairing with a machine"
+title: "AI-assisted Development: Adventures in pairing with a machine"
 date: 2025-05-22 12:55:00-04:00
 end_date: 2025-05-22 13:25:00-04:00
 event: moar-serverless-2025
@@ -13,6 +13,10 @@ tags:
 - large language models
 - llm
 - AI assisted coding
+recordings:
+  youtube:
+    url: https://youtu.be/PvUH_OcGCHc
+    length: "43:44"
 draft: false
 ---
 
