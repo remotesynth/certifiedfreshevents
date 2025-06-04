@@ -10,6 +10,10 @@ categories:
 tags:
 - serverless
 - chaos engineering
+recordings:
+  youtube:
+    url: https://youtu.be/2M6-WquxVco
+    length: "05:23"
 draft: false
 ---
 
