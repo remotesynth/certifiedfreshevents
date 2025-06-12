@@ -10,6 +10,10 @@ categories:
 tags:
 - serverless
 - aws
+recordings:
+  youtube:
+    url: https://youtu.be/ydmcwF2dN5c
+    length: "09:44"
 draft: false
 ---
 
