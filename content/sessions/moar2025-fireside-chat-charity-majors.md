@@ -9,6 +9,10 @@ categories:
 - software
 tags:
 - serverless
+recordings:
+  youtube:
+    url: https://youtu.be/c-VKOvfzEFw
+    length: "41:41"
 draft: false
 ---
 

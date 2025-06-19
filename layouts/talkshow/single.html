@@ -5,19 +5,7 @@
       <h1 class="mb-2 text-5xl font-bold">{{ .Params.title }}</h1>
       <p class="max-w-3xl text-xl">{{ .Params.description | markdownify }}</p>
       {{ if and (isset .Page.Params "show") (eq .Page.Params.show "CodeBreak") }}
-      <h3 class="mb-4 mt-12 text-xs font-bold text-gray-500 uppercase">
-        Sponsored by
-      </h3>
-      <a
-        href="https://jam.dev/?utm_source=podcast&utm_medium=paid&utm_campaign=codebr_2024_07"
-      >
-        <img
-          src="/img/sponsors/jam-logo.png"
-          loading="lazy"
-          alt="Jam.dev"
-          class="h-16"
-        />
-      </a>
+      <!-- no sponsor at the moment --->
       {{ end }}
     </header>
   </div>
