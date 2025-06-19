@@ -1,7 +1,7 @@
 ---
 title: CodeWord Conf 2025
-date: 2025-09-24T11:00:00-04:00
-end_date: 2025-09-24T16:00:00-04:00
+date: 2025-09-25T11:00:00-04:00
+end_date: 2025-09-25T16:00:00-04:00
 days: 1
 cost: 0
 homepage_banner: CodeWord-2025.png
