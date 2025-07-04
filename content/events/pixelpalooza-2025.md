@@ -6,8 +6,8 @@ days: 1
 cost: 0
 ticket_url: https://www.crowdcast.io/c/pixel25
 homepage_banner: PixelPalooza2025.png
-description: PixelPalooza will explore all the ways we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
-short_desc: PixelPalooza will explore all the ways we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
+description: PixelPalooza will explore all the best practice we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
+short_desc: PixelPalooza will explore all the best practices we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
 draft: false
 featured: false
 layout: thejam
@@ -19,7 +19,7 @@ event_type: conference
 
 ## Exploring All Web Media
 
-Media like images, video, audio and documents play a huge role in the experience of the modern web. They can make a site interactive and exciting, or weigh it down when not used properly. PixelPalooza will explore all the ways we, as developers, can leverage media across our sites and applications.
+What would the web be without media – things like images, video, audio and documents? They are what make the web interactive and exciting, but also weigh it down and hurt accessibility and performance when not used properly. PixelPalooza will explore all the best practices we, as developers, can leverage media across our sites and applications.
 
 ## Why Attend?
 
