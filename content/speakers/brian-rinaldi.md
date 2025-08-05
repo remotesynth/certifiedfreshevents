@@ -2,7 +2,7 @@
 title: Brian Rinaldi
 date: 2019-07-24T18:52:51-04:00
 speaker_image: brianrinaldi.jpg
-job_title: Developer Relations Lead at LocalStack
+job_title: Head of Developer Relations at LocalStack
 bluesky: remotesynthesis.com
 mastodon: https://mastodon.xyz/@remotesynth
 github: remotesynth
