@@ -2,7 +2,7 @@
 title: "David Neal"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: DavidNeal.jpg
-job_title: Developer Advocate for Slack
+job_title: Developer Advocate for Plaid
 bluesky: reverentgeek.com
 mastodon: https://techhub.social/@reverentgeek
 twitter: reverentgeek

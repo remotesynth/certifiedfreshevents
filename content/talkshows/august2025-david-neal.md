@@ -13,7 +13,7 @@ recordings:
     url: https://youtube.com/live/autneogwIg8
     length: "00:00"
 show: devrelish
-short_desc: Erin and Brian are joined by David Neal, Developer Advocate at Slack, to talk about his journey in DevRel through companies of all sizes and industry-focus and how to navigate the field today.
+short_desc: Erin and Brian are joined by David Neal, Developer Advocate at Plaid, to talk about his journey in DevRel through companies of all sizes and industry-focus and how to navigate the field today.
 tags:
   - devrel
   - career
