@@ -10,6 +10,12 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - rachel-kaufman
+  - anca-ghenade
+  - abbey-perini
+  - joel-varty
+  - jenell-pizarro
+  - kian-newman-hazel
 sessions:
 styles: thejam.css
 event_type: conference
@@ -83,7 +89,9 @@ Content is central to the web. It's what makes the web useful for learning, rese
 
 ## Speakers {#speakers}
 
-We'll be announcing our first speakers soon.
+We're announcing more speakers soon! Stay tuned.
+
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
