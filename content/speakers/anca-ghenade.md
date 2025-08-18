@@ -8,4 +8,4 @@ github: tinyg210
 draft: false
 ---
 
-With seven years of experience as a developer, I transitioned into the Customer Education Engineer role. Freshly based in San Francisco, I’m always running—both literally and figuratively—to keep pace with and explore the latest in tech.
+After spending seven years as a Java developer and about two in developer relations, now I’m back to building infrastructure and applications at Postman, where I support the Customer Education team in delivering content and interactive challenges to a broad range of learners.
