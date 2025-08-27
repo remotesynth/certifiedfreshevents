@@ -21,4 +21,4 @@ draft: false
 event_type: talk show
 ---
 
-Erin and Brian are joined by David Neal, Developer Advocate at Slack, to talk about his journey in DevRel through companies of all sizes and industry-focus and how to navigate the field today.
+Erin and Brian are joined by David Neal, Developer Advocate at Plaid, to talk about his journey in DevRel through companies of all sizes and industry-focus and how to navigate the field today.
