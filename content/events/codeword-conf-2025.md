@@ -16,7 +16,17 @@ speakers:
   - joel-varty
   - jenell-pizarro
   - kian-newman-hazel
+  - amy-dutton
 sessions:
+  - codeword2025-opening
+  - codeword2025-ai-for-everyone
+  - codeword2025-session2
+  - codeword2025-vendored-markdown
+  - codeword2025-web-accessibility
+  - codeword2025-dev-blog-secret-weapon
+  - codeword2025-session6
+  - codeword2025-engineering-learning
+  - codeword2025-session8
 styles: thejam.css
 event_type: conference
 ---
@@ -128,7 +138,9 @@ Registration is **completely free**, so join us live on YouTube on September 26.
 
 ## Schedule {#schedule}
 
-We're working on putting together an amazing day of sessions. More details arriving soon!
+Look for a final schedule with all the details coming soon.
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
