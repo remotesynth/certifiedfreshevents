@@ -4,7 +4,7 @@ date: 2024-09-25 15:15:00-04:00
 end_date: 2024-09-25 15:55:00-04:00
 event: codeword-conf-2025
 speakers:
-- tbd-moar-serverless
+- rizel-scarlett
 draft: false
 ---
 

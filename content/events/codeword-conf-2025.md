@@ -17,6 +17,7 @@ speakers:
   - jenell-pizarro
   - kian-newman-hazel
   - amy-dutton
+  - rizel-scarlett
 sessions:
   - codeword2025-opening
   - codeword2025-ai-for-everyone
@@ -99,7 +100,7 @@ Content is central to the web. It's what makes the web useful for learning, rese
 
 ## Speakers {#speakers}
 
-We're announcing more speakers soon! Stay tuned.
+We've got an amazing lineup of speakers for you.
 
 {{< conf-speakers >}}
 
