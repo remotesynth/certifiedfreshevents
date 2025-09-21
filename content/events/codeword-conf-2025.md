@@ -25,7 +25,7 @@ sessions:
   - codeword2025-vendored-markdown
   - codeword2025-web-accessibility
   - codeword2025-dev-blog-secret-weapon
-  - codeword2025-session6
+  - codeword2025-rsc-truth
   - codeword2025-engineering-learning
   - codeword2025-writing-for-robot-readers
 styles: thejam.css
