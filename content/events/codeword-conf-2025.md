@@ -8,7 +8,8 @@ homepage_banner: CodeWord-2025.png
 short_desc: Content is central to the web and therefore to most web developers' daily work. CodeWord Conf is all about the combination of code and content.
 draft: false
 featured: false
-layout: thejam
+layout: codeword25
+embed_url: https://youtu.be/C9IkpI47UVs
 speakers:
   - rachel-kaufman
   - anca-ghenade
