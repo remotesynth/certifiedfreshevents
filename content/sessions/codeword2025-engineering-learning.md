@@ -1,7 +1,7 @@
 ---
 title: "Engineering learning: Building hands-on content for API education at scale"
-date: 2024-09-25 13:55:00-04:00
-end_date: 2024-09-25 14:05:00-04:00
+date: 2024-09-25 14:25:00-04:00
+end_date: 2024-09-25 15:05:00-04:00
 event: codeword-conf-2025
 speakers:
 - anca-ghenade
