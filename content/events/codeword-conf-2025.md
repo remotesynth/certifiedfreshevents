@@ -42,8 +42,8 @@ Content is central to the web. It's what makes the web useful for learning, rese
 * Optimizing content for readability and accessibility
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.eventcreate.com/e/codeword25" target="_blank">
- Register for free!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://youtube.com/live/C9IkpI47UVs" target="_blank">
+ Watch Live on YouTube
 </a>
 </div>
 
@@ -132,8 +132,8 @@ CodeWord Conf isn't possible without your support. Want to become a sponsor? [Em
 Registration is **completely free**, so join us live on YouTube on September 26.
 
 <div class="mt-8 mb-8 flex items-center justify-center w-full">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.eventcreate.com/e/codeword25">
- Register for free!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://youtube.com/live/C9IkpI47UVs">
+ Watch Live on YouTube
 </a>
 </div>
 
