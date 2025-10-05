@@ -4,7 +4,7 @@ date: 2025-11-20T11:00:00-05:00
 end_date: 2025-11-20T16:00:00-05:00
 days: 1
 cost: 0
-ticket_url: https://www.crowdcast.io/c/pixel25
+ticket_url: http://www.eventcreate.com/e/pixelpalooza25
 homepage_banner: PixelPalooza2025.png
 description: PixelPalooza will explore all the best practice we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
 short_desc: PixelPalooza will explore all the best practices we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
@@ -69,8 +69,8 @@ What would the web be without media – things like images, video, audio and doc
 </section>
 
 <div class="flex items-center justify-center w-full mt-8 mb-8">
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/c/pixel25" target="_blank">
- Get Your Free Ticket Today!
+<a class="button" style="text-decoration:none;color:#FFF" href="http://www.eventcreate.com/e/pixelpalooza25" target="_blank">
+ Register for Your Free Ticket!
 </a>
 </div>
 
@@ -112,9 +112,9 @@ PixelPalooza isn't possible without your support. Want to become a sponsor? [Ema
 
 **PixelPalooza is completely free to attend!**
 
-Just register via [Crowdcast](https://www.crowdcast.io/c/pixel25).
+Just [RSVP here](http://www.eventcreate.com/e/pixelpalooza25).
 
-<a class="button" style="text-decoration:none;color:#FFF" href="https://www.crowdcast.io/c/pixel25" target="_blank">
+<a class="button" style="text-decoration:none;color:#FFF" href="http://www.eventcreate.com/e/pixelpalooza25" target="_blank">
 Register for free today!
 </a>
 
