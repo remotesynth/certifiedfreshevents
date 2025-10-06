@@ -8,6 +8,10 @@ speakers:
 tags:
 - webdev
 - ai
+recordings:
+  youtube:
+    url: https://youtu.be/YvNj8zDQbAQ
+    length: "44:28"
 draft: false
 ---
 
