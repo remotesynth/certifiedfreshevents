@@ -5,6 +5,17 @@ end_date: 2024-09-25 12:25:00-04:00
 event: codeword-conf-2025
 speakers:
 - joel-varty
+tags:
+  - react
+  - nextjs
+  - ai
+  - llm
+  - algolia
+  - agilitycms
+recordings:
+  youtube:
+    url: https://youtu.be/VM6bU7L5eO4
+    length: "40:25"
 draft: false
 ---
 
