@@ -5,6 +5,10 @@ end_date: 2024-09-25 14:15:00-04:00
 event: codeword-conf-2025
 speakers:
 - amy-dutton
+recordings:
+  youtube:
+    url: https://youtu.be/dg1z-1G7U9o
+    length: "08:40"
 draft: false
 ---
 

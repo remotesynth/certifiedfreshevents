@@ -8,6 +8,10 @@ speakers:
 tags:
 - webdev
 - markdown
+recordings:
+  youtube:
+    url: https://youtu.be/LNndBJcs4RA
+    length: "28:52"
 draft: false
 ---
 

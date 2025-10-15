@@ -8,6 +8,10 @@ speakers:
 tags:
 - webdev
 - accessibility
+recordings:
+  youtube:
+    url: https://youtu.be/qqgnPUGRcIk
+    length: "09:44"
 draft: false
 ---
 

@@ -8,6 +8,10 @@ speakers:
 tags:
 - webdev
 - blog
+recordings:
+  youtube:
+    url: https://youtu.be/SnMWxkE1M7M
+    length: "08:48"
 draft: false
 ---
 
