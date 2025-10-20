@@ -5,6 +5,10 @@ end_date: 2024-09-25 15:55:00-04:00
 event: codeword-conf-2025
 speakers:
 - rizel-scarlett
+recordings:
+  youtube:
+    url: https://youtu.be/Omrnx37FU4M
+    length: "44:43"
 draft: false
 ---
 

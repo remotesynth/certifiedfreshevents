@@ -8,6 +8,10 @@ speakers:
 tags:
 - webdev
 - postman
+recordings:
+  youtube:
+    url: https://youtu.be/ID2u1UK4cYw
+    length: "41:18"
 draft: false
 ---
 
