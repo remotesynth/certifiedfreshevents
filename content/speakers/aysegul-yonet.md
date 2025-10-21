@@ -2,10 +2,10 @@
 title: "Ayşegül Yönet"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: aysegulyonet.jpg
-job_title:  Senior Azure Cloud Developer Advocate at Microsoft
+job_title:  Founder at ARtistus, LLC
 twitter: AysSomething
 github: Yonet
 draft: false
 ---
 
-Aysegul is a Senior Azure Cloud Developer Advocate at Microsoft. Aysegul, focuses on Spatial Computing, Mixed Reality, AI, Angular and Data Visualization. She is a Google Developer Expert for Web Technologies & Angular and an active conference speaker. She previously worked as Senior Software Engineer at Nrwl.io, Autodesk Play, a 3D and VR authoring tool and A360 Viewer and A360 Drive. She enjoys teaching at a variety of non-profit organizations aiming to increase diversity in the software industry. She is the co-founder of code4good, an organization with the goal of helping people to contribute to open source. Previously she led Women Who Code meetups, Girl Develop It workshops and was a CTO at AnnieCannons, a bootcamp dedicated to teach tech skills to human trafficking survivors.
+Ayşegül Yönet is a Senior Azure Cloud Developer Advocate at Microsoft and focuses on Cognitive Services, Spatial Computing and WebXR. She is a co-chair of W3C Immersive Web Working Group and Community Group working on WebXR Device APIs and a Google Developer Expert for Web Technologies. She co-hosts the San Francisco WebXR Meetup and enjoys teaching at a variety of non-profit organizations, aiming to increase diversity in the software industry.

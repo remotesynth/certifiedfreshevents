@@ -12,7 +12,25 @@ draft: false
 featured: false
 layout: thejam
 speakers:
+  - jen-looper
+  - aysegul-yonet
+  - tammy-everts
+  - raymond-camden
+  - nireka-dalwadi
+  - dave-kiss
+  - nick-taylor
+  - tbd-moar-serverless
 sessions:
+  - pixelpalooza25-opening
+  - pixelpalooza25-effortless-real-time
+  - pixelpalooza25-cozy-web
+  - pixelpalooza25-ai-and-3d-with-webgpu
+  - pixelpalooza25-embedding-pdfs
+  - pixelpalooza25-session5
+  - pixelpalooza25-session6
+  - pixelpalooza25-most-annoying-video-player
+  - pixelpalooza25-media-cost
+  - pixelpalooza25-closing
 styles: thejam.css
 event_type: conference
 ---
@@ -80,8 +98,9 @@ What would the web be without media – things like images, video, audio and doc
 
 ## Speakers {#speakers}
 
-An incredible list of speakers is coming soon!
+We're still building out our schedule, but we've got some great speakers lined up already!
 
+{{< conf-speakers >}}
 
 ## Sponsors {#sponsors}
 
@@ -96,12 +115,19 @@ PixelPalooza isn't possible without your support. Want to become a sponsor? [Ema
             </div>
         </article>
     </div>
-    <h3 id="sponsors-1" class="mb-6">Supporters</h3>
+    <h3 id="sponsors-1" class="mb-6">Sponsors</h3>
     <div class="flex grid gap-8 mb-6 lg:grid-cols-2">
     <article class="flex flex-row items-center">
       <div>
         <a href="https://cloudflare.com">
           <img src="/img/sponsors/cloudflare.png" alt="Cloudflare" />
+        </a>
+      </div>
+    </article>
+     <article class="flex flex-row items-center">
+      <div>
+        <a href="https://cloudinary.com">
+          <img src="/img/sponsors/cloudinary.png" alt="Cloudflare" />
         </a>
       </div>
     </article>
@@ -120,7 +146,9 @@ Register for free today!
 
 ## Schedule {#schedule}
 
-PixelPalooza will feature a full day of sessions running from 11am ET (GMT -5) until 4pm ET. Details coming soon.
+PixelPalooza will feature a full day of sessions running from 11am ET (GMT -5) until 4pm ET. More session details coming soon.
+
+{{< conf-schedule >}}
 
 ## Code of Conduct {#coc}
 
