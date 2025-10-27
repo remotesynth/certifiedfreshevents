@@ -8,4 +8,6 @@ speakers:
 draft: false
 ---
 
-TBD
+Interactions are shifting from text to more natural, immersive formats. Today, WebRTC powers experiences ranging from simple video calls to large-scale interactive events to AI-powered voice agents. While WebRTC is powerful, it is notoriously complex to implement and scale.
+
+This session cuts through that complexity. We’ll explore the most common WebRTC challenges developers face and show a better way to build real-time audio/video applications, delivering the high-quality experiences users expect, without the usual development headaches or infrastructure hurdles for developers.
