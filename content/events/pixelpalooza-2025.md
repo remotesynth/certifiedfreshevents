@@ -26,7 +26,7 @@ sessions:
   - pixelpalooza25-cozy-web
   - pixelpalooza25-ai-and-3d-with-webgpu
   - pixelpalooza25-embedding-pdfs
-  - pixelpalooza25-session5
+  - pixelpalooza25-stream-overlays
   - pixelpalooza25-session6
   - pixelpalooza25-most-annoying-video-player
   - pixelpalooza25-media-cost
