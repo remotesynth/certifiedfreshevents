@@ -19,7 +19,7 @@ speakers:
   - nireka-dalwadi
   - dave-kiss
   - nick-taylor
-  - tbd-moar-serverless
+  - jason-pamental
 sessions:
   - pixelpalooza25-opening
   - pixelpalooza25-effortless-real-time
@@ -27,7 +27,7 @@ sessions:
   - pixelpalooza25-ai-and-3d-with-webgpu
   - pixelpalooza25-embedding-pdfs
   - pixelpalooza25-stream-overlays
-  - pixelpalooza25-session6
+  - pixelpalooza25-one-little-file
   - pixelpalooza25-most-annoying-video-player
   - pixelpalooza25-media-cost
   - pixelpalooza25-closing
@@ -98,7 +98,7 @@ What would the web be without media – things like images, video, audio and doc
 
 ## Speakers {#speakers}
 
-We're still building out our schedule, but we've got some great speakers lined up already!
+We've got an amazing line up of speakers. Don't just trust me – see for yourself!
 
 {{< conf-speakers >}}
 
@@ -146,7 +146,7 @@ Register for free today!
 
 ## Schedule {#schedule}
 
-PixelPalooza will feature a full day of sessions running from 11am ET (GMT -5) until 4pm ET. More session details coming soon.
+PixelPalooza will feature a full day of sessions running from 11am ET (GMT -5) until 4pm ET. Full session details below.
 
 {{< conf-schedule >}}
 
