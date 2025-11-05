@@ -13,18 +13,18 @@ featured: false
 layout: thejam
 speakers:
   - jen-looper
-  - aysegul-yonet
   - tammy-everts
   - raymond-camden
   - nireka-dalwadi
   - dave-kiss
   - nick-taylor
   - jason-pamental
+  - erin-mikail-staples
 sessions:
   - pixelpalooza25-opening
   - pixelpalooza25-effortless-real-time
   - pixelpalooza25-cozy-web
-  - pixelpalooza25-ai-and-3d-with-webgpu
+  - pixelpalooza25-building-with-audio-in-mind
   - pixelpalooza25-embedding-pdfs
   - pixelpalooza25-stream-overlays
   - pixelpalooza25-one-little-file
