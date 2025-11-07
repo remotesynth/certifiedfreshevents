@@ -4,8 +4,7 @@ date: 2025-12-10T13:00:00-05:00
 end_date: 2025-12-10T14:00:00-05:00
 cost: 0
 homepage_banner: AdiosCFE.jpg
-short_desc: Serverless is more than just a buzzword - learn why.
-description: Join all our contributors including Brian, Ray, Erin, Sean and Nick to say goodbye to CFE.dev as it comes to a close.
+short_desc: After 9+ years, it's time to say goodbye to CFE.dev. Join the core contributors to the site for a final farewell.
 sessions:
   - goodbye-cfedev
 draft: false
