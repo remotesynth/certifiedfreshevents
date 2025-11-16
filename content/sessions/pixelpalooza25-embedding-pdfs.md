@@ -8,4 +8,4 @@ speakers:
 draft: false
 ---
 
-Raymond will share us the cool new to add PDFs to your site - embedpdf.com. This is a free, open source web component you can drop into your page and start working with in minutes.
+In this quick lightning talk, Raymond will quickly remind you just how easy it is to embed PDFs on your site, without the use of any third party tools.

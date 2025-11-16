@@ -2,7 +2,7 @@
 title: "Tammy Everts"
 date: 2019-07-24T18:52:51-04:00
 speaker_image: tammyeverts.jpg
-job_title:  Chief Experience Officer at SpeedCurve
+job_title:  Senior Director of Community at Embrace
 bluesky: tammyeverts.com
 mastodon: https://webperf.social/@tammy
 twitter: tameverts
