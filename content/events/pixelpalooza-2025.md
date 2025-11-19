@@ -10,7 +10,7 @@ description: PixelPalooza will explore all the best practice we, as developers, 
 short_desc: PixelPalooza will explore all the best practices we, as developers, can leverage media like images, video, audio and documents across our sites and applications.
 draft: false
 featured: false
-layout: thejam
+layout: codeword25
 speakers:
   - jen-looper
   - tammy-everts
@@ -32,6 +32,7 @@ sessions:
   - pixelpalooza25-media-cost
   - pixelpalooza25-closing
 styles: thejam.css
+embed_url: https://youtube.com/live/QUWCK1GW1d4?feature=share
 event_type: conference
 ---
 
@@ -87,8 +88,8 @@ What would the web be without media – things like images, video, audio and doc
 </section>
 
 <div class="flex items-center justify-center w-full mt-8 mb-8">
-<a class="button" style="text-decoration:none;color:#FFF" href="http://www.eventcreate.com/e/pixelpalooza25" target="_blank">
- Register for Your Free Ticket!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://youtube.com/live/QUWCK1GW1d4?feature=share" target="_blank">
+ Join Live for Free!
 </a>
 </div>
 
@@ -140,8 +141,8 @@ PixelPalooza isn't possible without your support. Want to become a sponsor? [Ema
 
 Just [RSVP here](http://www.eventcreate.com/e/pixelpalooza25).
 
-<a class="button" style="text-decoration:none;color:#FFF" href="http://www.eventcreate.com/e/pixelpalooza25" target="_blank">
-Register for free today!
+<a class="button" style="text-decoration:none;color:#FFF" href="https://youtube.com/live/QUWCK1GW1d4?feature=share" target="_blank">
+Join Live for Free!
 </a>
 
 ## Schedule {#schedule}
