@@ -8,4 +8,4 @@ speakers:
 draft: false
 ---
 
-TBD
+Join Erin as she delves into the fascinating world of sound design on the internet. From the history and impact of the laugh track to the critical UX principles of feedback, signifiers, mapping, and constraints, Erin covers how audio can enhance user experience if applied correctly. She also explores the challenges and opportunities of using sound in today's digital landscape, including accessibility and the evolution of sound in apps and websites. Additionally, she provides a practical demonstration using tools like 11 Labs and Goose to create interactive and engaging soundscapes. Perfect for developers, UX designers, and anyone interested in the intersection of audio and technology.
