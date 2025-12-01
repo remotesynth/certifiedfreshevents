@@ -5,6 +5,10 @@ end_date: 2025-11-20 11:45:00-05:00
 event: pixelpalooza-2025
 speakers:
 - nireka-dalwadi
+recordings:
+  youtube:
+    url: https://youtu.be/Fs1cbnApK58
+    length: "39:33"
 draft: false
 ---
 
