@@ -5,6 +5,10 @@ end_date: 2025-11-20 15:05:00-05:00
 event: pixelpalooza-2025
 speakers:
 - dave-kiss
+recordings:
+  youtube:
+    url: https://youtu.be/h-iHLZssMoY
+    length: "40:36"
 draft: false
 ---
 

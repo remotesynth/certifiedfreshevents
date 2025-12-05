@@ -5,6 +5,10 @@ end_date: 2025-11-20 13:25:00-05:00
 event: pixelpalooza-2025
 speakers:
 - erin-mikail-staples
+recordings:
+  youtube:
+    url: https://youtu.be/1vd62M4KNZg
+    length: "38:50"
 draft: false
 ---
 

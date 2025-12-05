@@ -4,7 +4,7 @@ _build:
   render: never
 ---
 
-**Sean C Davis:** [00:00:00] Welcome back to the final session of Pixel Palooza 2025. Now joining me for a fireside chat. We have Tammy Everett. Tammy has spent the past two decades studying how people use the web, and since 2009, she's focused on the intersection between site speed, user experience, and business metrics, and she has a book on the topic.
+**Sean C Davis:** [00:00:00] Welcome back to the final session of Pixel Palooza 2025. Now joining me for a fireside chat. We have Tammy Everts. Tammy has spent the past two decades studying how people use the web, and since 2009, she's focused on the intersection between site speed, user experience, and business metrics, and she has a book on the topic.
 
 It's called, time Is Money, the Business Value of Web Performance published by O'Reilly. It distills a lot of that research, so recommend you all check that out. And Tammy today is the Senior Director of Community at Embrace, and she's also the co-chair of the world's only web develop or web performance Conference Performance Do Now, which is held every year in Amsterdam.
 

@@ -5,6 +5,10 @@ end_date: 2025-11-20 12:25:00-05:00
 event: pixelpalooza-2025
 speakers:
 - jen-looper
+recordings:
+  youtube:
+    url: https://youtu.be/P2tJEBC1eZs
+    length: "39:30"
 draft: false
 ---
 

@@ -5,6 +5,10 @@ end_date: 2025-11-20 13:55:00-05:00
 event: pixelpalooza-2025
 speakers:
 - raymond-camden
+recordings:
+  youtube:
+    url: https://youtu.be/MW6gUS-sVG0
+    length: "6:36"
 draft: false
 ---
 

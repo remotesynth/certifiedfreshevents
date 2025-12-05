@@ -5,6 +5,10 @@ end_date: 2025-11-20 14:15:00-05:00
 event: pixelpalooza-2025
 speakers:
 - jason-pamental
+recordings:
+  youtube:
+    url: https://youtu.be/6gLMHAbGMpg
+    length: "10:12"
 draft: false
 ---
 

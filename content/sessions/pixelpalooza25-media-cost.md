@@ -5,6 +5,10 @@ end_date: 2025-11-20 15:55:00-05:00
 event: pixelpalooza-2025
 speakers:
 - tammy-everts
+recordings:
+  youtube:
+    url: https://youtu.be/lGPGlqGuS20
+    length: "41:16"
 draft: false
 ---
 

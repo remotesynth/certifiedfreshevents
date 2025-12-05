@@ -5,6 +5,10 @@ end_date: 2025-11-20 14:05:00-05:00
 event: pixelpalooza-2025
 speakers:
 - nick-taylor
+recordings:
+  youtube:
+    url: https://youtu.be/4XXNJ6jzWyQ
+    length: "8:46"
 draft: false
 ---
 
