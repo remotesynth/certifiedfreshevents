@@ -28,18 +28,12 @@
       class="flex flex-col items-center order-1 gap-6 lg:justify-start lg:flex-row lg:flex-grow"
       id="PrimaryNav"
     >
-      <li class="relative has-menu">
-        <a href="/events/" class="flex items-center text-xl nav-link anim">
-          Upcoming Events
-          <svg
-            class="hidden w-4 h-4 fill-current lg:inline-block"
-            aria-hidden="true"
-          >
-            <use xlink:href="/img/icons.svg#sm-cheveron-down"></use>
-          </svg>
+      <li class="relative">
+        <a href="/archive/" class="flex items-center text-xl nav-link anim">
+          Browse Past Events
         </a>
 
-        <!-- Meetups Sub-Nav -->
+        <!-- Meetups Sub-Nav
         <ul class="pb-4 space-y-6 menu">
           {{ $upcoming := where (where .Site.RegularPages.Reverse "Section" "in" (slice "events" "talkshows")) ".Date" "ge" now }}
           {{ range $upcoming }}
@@ -64,7 +58,7 @@
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li class="relative has-menu">
         <a href="/sessions/" class="flex items-center text-xl nav-link anim">
           Recordings
@@ -217,14 +211,14 @@
 
         <!-- newsletters Sub-Nav -->
         <ul class="pb-4 space-y-6 menu">
-          <li>
+         <!-- <li>
             <a
               href="/newsletters/cfe/"
               class="block px-6 leading-6 text-blue hover:text-java anim"
             >
               <span class="block text-lg font-medium">Upcoming Events</span>
             </a>
-          </li>
+          </li> -->
           <li>
             <a
               href="/newsletters/jamstacked/"
@@ -254,7 +248,7 @@
         </a>
       </li>
 
-      <li>
+      <!-- <li>
         <a
           href="/newsletters/cfe/"
           class="inline-block px-4 py-2 leading-none text-center border border-b-2 rounded text-blue anim lg:mt-0 hover:bg-java hover:border-java hover:text-white"
@@ -262,11 +256,11 @@
           <span class="block mb-2 text-xs">Never miss an event</span>
           <span class="block font-bold">Join Our Mailing List</span>
         </a>
-      </li>
+      </li> -->
     </ul>
 
     <ul class="flex justify-center order-2 gap-4 lg:order-3 lg:justify-end">
-      <li>
+      <!-- <li>
         <a
           href="{{.Site.Params.discord}}"
           class="inline-block text-discord"
@@ -274,7 +268,7 @@
         >
           <i class="text-3xl fab fa-discord"></i>
         </a>
-      </li>
+      </li> -->
       <li>
         <a
           href="{{.Site.Params.youtube}}"
